@@ -1,0 +1,42 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Source data, warehouses, exports, and caches
+data/bronze/**
+data/silver/**
+data/gold/**
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite3
+parquet/
+csv/
+.cache/
+.kaggle/
+
+# Generated models and notebook state
+/artifacts/
+/models/
+.ipynb_checkpoints/
