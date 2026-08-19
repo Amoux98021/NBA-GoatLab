@@ -4,4 +4,5 @@ Permanent chronological index of completed engineering and research steps. Step 
 
 | Step | Date | Summary | Commit |
 |---|---|---|---|
-| [STEP-0001](steps/STEP-0001-project-bootstrap.md) | 2026-08-19 | Bootstrap repository, documentation, architecture decisions, Python packaging, Git hygiene, and test skeleton. | Pending at document-finalization time |
+| [STEP-0001](steps/STEP-0001-project-bootstrap.md) | 2026-08-19 | Bootstrap repository, documentation, architecture decisions, Python packaging, Git hygiene, and test skeleton. | `1cf8003` |
+| [STEP-0002](steps/STEP-0002-historical-source-acquisition-and-audit.md) | 2026-08-19 | Acquire Kaggle nbadb v238, reconcile its physical bundle to metadata, and produce a deterministic source audit. | Pending at document-finalization time |

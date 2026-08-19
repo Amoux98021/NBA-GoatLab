@@ -1,0 +1,61 @@
+manifest_version: 1
+source:
+  name: nbadb
+  upstream_repository: https://github.com/wyattowalsh/nbadb
+  installed_version: 4.0.0
+  installed_revision: 48abd9825ed6933b57dbac3f50f058523367b1f5
+  installation_method: official GitHub revision
+  pypi_status_at_retrieval: no distribution found
+  primary_upstream: https://stats.nba.com
+  upstream_client:
+    name: nba_api
+    version: 1.11.4
+dataset:
+  provider: Kaggle
+  identifier: wyattowalsh/basketball
+  kaggle_version: 238
+  title: NBA Basketball Database
+  license: CC-BY-SA-4.0
+retrieval:
+  timestamp_utc: 2026-08-19T16:52:59Z
+  command: .venv/bin/nbadb download --data-dir data/bronze/nbadb
+  authentication_required: false
+  bronze_path: data/bronze/nbadb
+local_bundle:
+  total_size_bytes: 4660601876
+  primary_audit_format: sqlite
+  sqlite:
+    path: data/bronze/nbadb/nba.sqlite
+    size_bytes: 2349588480
+    sha256: 65b6412234d2d8817678d04f7cd2548aec82fec02b6c5b86679cade7572c21c7
+    physical_tables: 16
+  duckdb:
+    path: data/bronze/nbadb/nba.duckdb
+    size_bytes: 12288
+    sha256: e507ee3e10ae6f57180779e68b3a94db0575566b063bb6d997fa83815507a5e6
+    physical_tables: 0
+  csv:
+    directory: data/bronze/nbadb/csv
+    size_bytes: 2310967210
+    physical_files: 16
+coverage_observed:
+  first_game_date: 1946-11-01
+  last_game_date: 2023-06-12
+  first_season: 1946-47
+  last_season: 2022-23
+  distinct_season_start_years: 77
+  game_rows: 65698
+  play_by_play_rows: 13592899
+reconciliation:
+  metadata_declared_catalog_tables: 235
+  observed_sqlite_tables: 16
+  observed_dim_tables: 0
+  observed_fact_tables: 0
+  observed_agg_tables: 0
+  observed_analytics_tables: 0
+  status: bundle_does_not_match_published_v4_catalog
+  notes:
+    - The downloaded DuckDB file contains no user tables.
+    - The SQLite and CSV exports contain the same legacy 16-table surface.
+    - The physical snapshot ends at 2022-23 despite metadata describing current coverage.
+    - Mapping and schema work uses physical SQLite evidence only.
