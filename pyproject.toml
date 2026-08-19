@@ -1,6 +1,6 @@
 [build-system]
-requires = ["hatchling>=1.27"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "goatlab"
@@ -25,15 +25,13 @@ dev = [
   "ruff>=0.12,<1",
 ]
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/goatlab"]
-
-[tool.hatch.metadata]
-allow-direct-references = true
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
 addopts = "-ra --strict-config --strict-markers"
 testpaths = ["tests"]
+pythonpath = ["src"]
 
 [tool.ruff]
 line-length = 100

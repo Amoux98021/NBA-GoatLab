@@ -1,0 +1,52 @@
+{
+  "source_id": "nbadb:kaggle:wyattowalsh/basketball:v238",
+  "retrieved_at": "2026-08-19T16:52:59Z",
+  "player": {
+    "id": "76003",
+    "full_name": "Kareem Abdul-Jabbar",
+    "first_name": "Kareem",
+    "last_name": "Abdul-Jabbar",
+    "is_active": 0
+  },
+  "common_player_info": {
+    "person_id": "76003",
+    "birthdate": "1947-04-16 00:00:00",
+    "country": "USA",
+    "height": "7-2",
+    "weight": "225",
+    "position": "Center",
+    "from_year": 1969.0,
+    "to_year": 1988.0,
+    "draft_year": "1969",
+    "draft_round": "1",
+    "draft_number": "1"
+  },
+  "teams": [
+    {
+      "id": "1610612744",
+      "full_name": "Golden State Warriors",
+      "abbreviation": "GSW",
+      "nickname": "Warriors",
+      "city": "Golden State",
+      "year_founded": 1946.0
+    },
+    {
+      "id": "1610612747",
+      "full_name": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "nickname": "Lakers",
+      "city": "Los Angeles",
+      "year_founded": 1948.0
+    }
+  ],
+  "game": {
+    "season_id": "22022",
+    "team_id_home": "1610612744",
+    "game_id": "0022200002",
+    "game_date": "2022-10-18 00:00:00",
+    "pts_home": 123.0,
+    "team_id_away": "1610612747",
+    "pts_away": 109.0,
+    "season_type": "Regular Season"
+  }
+}

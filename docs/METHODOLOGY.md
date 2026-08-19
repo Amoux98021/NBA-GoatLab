@@ -21,3 +21,12 @@ GOAT Lab models multiple definitions of basketball greatness; it does not assert
 - Gold will store versioned derived features, era normalization, dimension scores, and model-ready inputs.
 
 This living summary may be extended, but methodology changes must also receive a permanent step record and an ADR when material.
+
+## Silver schema V1 policy
+
+- Season start year is the canonical `season_id` and labels use `YYYY-YY`.
+- Canonical entity identifiers are deterministic UUIDv5-derived strings governed by ADR-0005; names are never relational keys.
+- Season types use a closed canonical vocabulary. Provider synonyms are normalized before duplicate resolution.
+- Player-season traditional and advanced facts are separate tables with team-specific and total-season row scopes.
+- Traditional/advanced fields are nullable. A nullable value is interpreted only with `metric_coverage`; it is never automatically zero.
+- The acquired nbadb v238 bundle cannot populate player game, player season, advanced, or award facts. Those mappings remain explicitly unavailable until a separately audited source supplies them.
