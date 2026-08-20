@@ -37,3 +37,12 @@ All canonical entities carry `source_id` and `updated_at`. `updated_at` must be 
 - `award_type`: `MVP`, `FINALS_MVP`, `DPOY`, `ROY`, `MIP`, `SIXTH_MAN`, `ALL_NBA`, `ALL_DEFENSE`, `ALL_STAR`, `SCORING_TITLE`, `REBOUND_TITLE`, `ASSIST_TITLE`, `STEAL_TITLE`, `BLOCK_TITLE`.
 
 Percentages in traditional season facts use fractions in `[0, 1]`. Advanced percentage/rate fields remain provider-definition values and are nullable; their unit/definition must be stated in `metric_coverage.methodology` before analytical use.
+
+## Official NBA Stats source mapping notes
+
+- `PlayerGameLogs` grain is player × game × team. Candidate key: (`PLAYER_ID`, `GAME_ID`, `TEAM_ID`). STEP-0004 found no duplicate candidate keys in the representative matrix.
+- `LeagueDashPlayerStats` Base/Totals maps to canonical `player_season_stats` total rows. Its empirical response boundary in this probe is 1996-97; earlier tested seasons returned successful empty result sets.
+- `LeagueDashPlayerStats` Advanced/Totals maps to `player_season_advanced` total rows and empirically begins at 1996-97.
+- Official `PLAYER_ID` maps to `nba_player_id`, then to deterministic canonical `player_id`. NBA `GAME_ID` maps similarly. Names and abbreviations are not keys.
+- Documented historical introductions remain authoritative missingness guards: rebounds 1950-51, minutes 1951-52, games started 1970-71, steals/blocks/offensive/defensive rebounds 1973-74, turnovers 1977-78, and three-point statistics 1979-80. Endpoint placeholders before these boundaries are not observations.
+- PlayerGameLogs does not expose `started`; it remains NULL. Team-version resolution must use the canonical team crosswalk rather than fabricate a version ID.

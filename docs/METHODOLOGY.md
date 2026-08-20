@@ -29,4 +29,7 @@ This living summary may be extended, but methodology changes must also receive a
 - Season types use a closed canonical vocabulary. Provider synonyms are normalized before duplicate resolution.
 - Player-season traditional and advanced facts are separate tables with team-specific and total-season row scopes.
 - Traditional/advanced fields are nullable. A nullable value is interpreted only with `metric_coverage`; it is never automatically zero.
-- The acquired nbadb v238 bundle cannot populate player game, player season, advanced, or award facts. Those mappings remain explicitly unavailable until a separately audited source supplies them.
+- The acquired nbadb v238 bundle cannot populate player game, player season, advanced, or award facts.
+- Under ADR-0006, official NBA Stats is the audited player-fact source. `PlayerGameLogs` is the preferred player-game input; official Base/Totals is used from its empirical 1996-97 boundary, while earlier season totals may be deterministically aggregated from official game facts after metric-specific coverage validation.
+- NBA's documented statistic-introduction dates and empirically observed endpoint behavior are separate evidence. A pre-introduction placeholder (including zero) maps to NULL, not an observed performance value.
+- Raw NBA responses and request metadata are Bronze. Canonical mappings use stable NBA player/game business keys, quarantine source conflicts, and never join on a name.

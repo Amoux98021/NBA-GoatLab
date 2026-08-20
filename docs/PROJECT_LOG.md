@@ -7,3 +7,4 @@ Permanent chronological index of completed engineering and research steps. Step 
 | [STEP-0001](steps/STEP-0001-project-bootstrap.md) | 2026-08-19 | Bootstrap repository, documentation, architecture decisions, Python packaging, Git hygiene, and test skeleton. | `1cf8003` |
 | [STEP-0002](steps/STEP-0002-historical-source-acquisition-and-audit.md) | 2026-08-19 | Acquire Kaggle nbadb v238, reconcile its physical bundle to metadata, and produce a deterministic source audit. | `112fbe9` |
 | [STEP-0003](steps/STEP-0003-canonical-schema-and-mapping.md) | 2026-08-19 | Implement typed Silver V1 contracts, deterministic normalization/integrity checks, and evidence-based nbadb mappings. | This step's commit (see Git log) |
+| [STEP-0004](steps/STEP-0004-nba-player-data-feasibility.md) | 2026-08-20 | Validate a bounded official NBA Stats bulk path for historical player-game, player-season, and advanced facts; reconcile 2022-23 overlap. | This step's commit (see Git log) |

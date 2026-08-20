@@ -1,0 +1,38 @@
+{
+  "all_star_artifacts": [
+    {
+      "count": 1,
+      "season_type": "All Star"
+    },
+    {
+      "count": 1,
+      "season_type": "All-Star"
+    }
+  ],
+  "conflict_quarantine": [],
+  "join_key": "NBA GAME_ID",
+  "season": "2022-23",
+  "season_types": {
+    "Playoffs": {
+      "date_matches": 84,
+      "kaggle_distinct_games": 84,
+      "kaggle_only_games": [],
+      "matchup_interpretation_matches": 84,
+      "nba_api_distinct_games": 84,
+      "nba_api_only_games": [],
+      "shared_games": 84,
+      "team_id_matches": 84
+    },
+    "Regular Season": {
+      "date_matches": 1230,
+      "kaggle_distinct_games": 1230,
+      "kaggle_only_games": [],
+      "matchup_interpretation_matches": 1230,
+      "nba_api_distinct_games": 1230,
+      "nba_api_only_games": [],
+      "shared_games": 1230,
+      "team_id_matches": 1230
+    }
+  },
+  "source_precedence_changed": false
+}

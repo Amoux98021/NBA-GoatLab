@@ -1,4 +1,4 @@
-manifest_version: 1
+manifest_version: 2
 source:
   name: nbadb
   upstream_repository: https://github.com/wyattowalsh/nbadb
@@ -59,3 +59,35 @@ reconciliation:
     - The SQLite and CSV exports contain the same legacy 16-table surface.
     - The physical snapshot ends at 2022-23 despite metadata describing current coverage.
     - Mapping and schema work uses physical SQLite evidence only.
+official_nba_api_probe:
+  step: STEP-0004
+  retrieval_started_utc: 2026-08-19T16:48:31Z
+  retrieval_completed_utc: 2026-08-19T16:49:43Z
+  client: nba_api
+  client_version: 1.11.4
+  http_library: requests
+  http_library_version: 2.34.2
+  request_contract_version: 1
+  endpoints:
+    - playergamelogs
+    - leaguedashplayerstats
+  request_count: 60
+  timeout_seconds: 20
+  maximum_attempts: 2
+  minimum_interval_seconds: 1.0
+  retry_count_observed: 0
+  raw_cache:
+    path: data/bronze/nba_api
+    files: 120
+    size_bytes: 77220084
+    git_ignored: true
+  empirical_coverage:
+    player_game_logs_first_tested_success: 1946-47
+    player_game_logs_last_tested_success: 2025-26
+    player_season_base_first_tested_success: 1996-97
+    player_season_advanced_first_tested_success: 1996-97
+    advanced_1995_96: SUCCESS_EMPTY
+  evidence:
+    probe_report: docs/data/nba-api-player-fact-probe.json
+    reconciliation_report: docs/data/nba-api-kaggle-reconciliation.json
+    fixture: data/fixtures/nba_api_player_fact_probe_sample.json
