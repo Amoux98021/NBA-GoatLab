@@ -1,4 +1,4 @@
-manifest_version: 2
+manifest_version: 3
 source:
   name: nbadb
   upstream_repository: https://github.com/wyattowalsh/nbadb
@@ -91,3 +91,72 @@ official_nba_api_probe:
     probe_report: docs/data/nba-api-player-fact-probe.json
     reconciliation_report: docs/data/nba-api-kaggle-reconciliation.json
     fixture: data/fixtures/nba_api_player_fact_probe_sample.json
+player_fact_ingestion_pilot:
+  step: STEP-0005
+  run_timestamp_utc: 2026-08-27T15:00:00Z
+  source_client: nba_api
+  source_client_version: 1.11.4
+  acquisition_mode: cache_only_resumption
+  network_requests_made: 0
+  request_artifacts: 28
+  request_contract:
+    player_game_logs:
+      endpoint: playergamelogs
+      requests: 16
+      player_id: unset
+      seasons: [1946-47, 1961-62, 1973-74, 1979-80, 1984-85, 1996-97, 2022-23, 2025-26]
+      season_types: [Regular Season, Playoffs]
+    base_totals:
+      endpoint: leaguedashplayerstats
+      requests: 6
+      measure_type: Base
+      per_mode: Totals
+      seasons: [1996-97, 2022-23, 2025-26]
+      season_types: [Regular Season, Playoffs]
+    advanced_totals:
+      endpoint: leaguedashplayerstats
+      requests: 6
+      measure_type: Advanced
+      per_mode: Totals
+      seasons: [1996-97, 2022-23, 2025-26]
+      season_types: [Regular Season, Playoffs]
+  bronze:
+    path: data/bronze/nba_api
+    manifest: data/bronze/nba_api/player-fact-pilot-manifest.json
+    player_game_rows: 148989
+    base_rows: 2198
+    advanced_rows: 2198
+    selected_payload_size_bytes: 44093556
+    git_ignored: true
+  silver:
+    path: data/silver
+    player_game_rows: 148988
+    player_season_rows: 7982
+    player_season_team_rows: 4153
+    player_season_total_rows: 3829
+    player_season_advanced_rows: 2198
+    parquet_files: 38
+    parquet_size_bytes: 3204124
+    compression: zstd
+    git_ignored: true
+  reconciliation:
+    distinct_players: 2138
+    legacy_player_matches: 1889
+    provisional_players: 249
+    unresolved_players: 0
+    distinct_official_team_ids: 38
+    legacy_team_matches: 30
+    unresolved_teams: 0
+    stale_team_window_conflicts: 27
+    compared_base_values: 43493
+    exact_base_matches: 38531
+    tolerance_base_matches: 4962
+    base_mismatches: 0
+    quarantined_source_rows: 1
+  decision: PASS
+  evidence:
+    narrative: docs/data/PLAYER_FACT_INGESTION_PILOT.md
+    summary: docs/data/player-fact-pilot-summary.json
+    metric_coverage: docs/data/metric-coverage-pilot.json
+    player_identity: docs/data/player-identity-reconciliation.json
+    team_crosswalk: docs/data/team-crosswalk-report.json

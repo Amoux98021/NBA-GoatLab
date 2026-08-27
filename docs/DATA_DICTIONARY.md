@@ -46,3 +46,25 @@ Percentages in traditional season facts use fractions in `[0, 1]`. Advanced perc
 - Official `PLAYER_ID` maps to `nba_player_id`, then to deterministic canonical `player_id`. NBA `GAME_ID` maps similarly. Names and abbreviations are not keys.
 - Documented historical introductions remain authoritative missingness guards: rebounds 1950-51, minutes 1951-52, games started 1970-71, steals/blocks/offensive/defensive rebounds 1973-74, turnovers 1977-78, and three-point statistics 1979-80. Endpoint placeholders before these boundaries are not observations.
 - PlayerGameLogs does not expose `started`; it remains NULL. Team-version resolution must use the canonical team crosswalk rather than fabricate a version ID.
+
+## STEP-0005 physical Silver contract
+
+Generated Silver data is deterministic Parquet partitioned by canonical season start year and season type:
+
+- `data/silver/player_game_stats/season=YYYY/season_type=REGULAR|PLAYOFF/`
+- `data/silver/player_season_stats/season=YYYY/season_type=REGULAR|PLAYOFF/`
+- `data/silver/player_season_advanced/season=YYYY/season_type=REGULAR|PLAYOFF/`
+
+These generated datasets are ignored by Git. Their manifest records row counts, byte sizes, and SHA-256 fingerprints.
+
+`player_season_stats` contains both `TEAM` and `TOTAL` rows. For a player × season × season type, at most one `TOTAL` row is allowed. Totals are sums only for empirically RELIABLE metrics whose contributing player rows are complete. `games_played` is the count of distinct qualified game appearances. Shooting percentages divide summed makes by summed attempts only for a positive denominator. Per-game fields divide qualified totals by `games_played`. Any unavailable numerator, denominator, or source coverage yields NULL.
+
+The STEP-0005 empirical coverage report uses an analytical qualification vocabulary distinct from the Silver `metric_coverage.coverage_status` enum:
+
+- `RELIABLE`: at least 99% of partition rows are non-null.
+- `PARTIAL`: at least 80% but less than 99% are non-null.
+- `SPARSE`: more than 0% but less than 80% are non-null.
+- `UNAVAILABLE`: historical rules or the source contract establish inapplicability.
+- `UNKNOWN`: the metric is conceptually applicable but has no usable observation.
+
+Each record stores row, non-null, null, observed-zero, and distinct-player counts plus percentages, endpoint, documented status, and thresholds. Column existence alone never produces `RELIABLE`.

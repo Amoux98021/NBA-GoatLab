@@ -1,0 +1,1753 @@
+{
+  "base_reconciliation": {
+    "1996-97:PLAYOFF": {
+      "compared_values": 3681,
+      "derived_only_players": [],
+      "derived_total_players": 189,
+      "exact_matches": 3377,
+      "fields": {
+        "AST": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "BLK": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "DREB": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3A": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3M": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3_PCT": {
+          "compared": 128,
+          "exact_matches": 67,
+          "mismatches": 0,
+          "missing_derived": 61,
+          "missing_official": 0,
+          "tolerance_matches": 61
+        },
+        "FGA": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FGM": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG_PCT": {
+          "compared": 184,
+          "exact_matches": 50,
+          "mismatches": 0,
+          "missing_derived": 5,
+          "missing_official": 0,
+          "tolerance_matches": 134
+        },
+        "FTA": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FTM": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FT_PCT": {
+          "compared": 156,
+          "exact_matches": 70,
+          "mismatches": 0,
+          "missing_derived": 33,
+          "missing_official": 0,
+          "tolerance_matches": 86
+        },
+        "GP": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "MIN": {
+          "compared": 189,
+          "exact_matches": 166,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 23
+        },
+        "OREB": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PF": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PTS": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "REB": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "STL": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "TOV": {
+          "compared": 189,
+          "exact_matches": 189,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        }
+      },
+      "known_semantic_differences": [
+        "NBA Base percentages are rounded; derived percentages use summed makes/attempts.",
+        "NBA Base minutes may retain precision absent from older game logs.",
+        "Fields without RELIABLE game-row coverage are intentionally not compared."
+      ],
+      "match_rate": 1.0,
+      "mismatch_examples": [],
+      "mismatches": 0,
+      "official_only_players": [],
+      "official_total_players": 189,
+      "passes_v1_gate": true,
+      "shared_players": 189,
+      "tolerance_matches": 304
+    },
+    "1996-97:REGULAR": {
+      "compared_values": 8734,
+      "derived_only_players": [],
+      "derived_total_players": 441,
+      "exact_matches": 7689,
+      "fields": {
+        "AST": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "BLK": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "DREB": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3A": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3M": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3_PCT": {
+          "compared": 368,
+          "exact_matches": 105,
+          "mismatches": 0,
+          "missing_derived": 73,
+          "missing_official": 0,
+          "tolerance_matches": 263
+        },
+        "FGA": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FGM": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG_PCT": {
+          "compared": 440,
+          "exact_matches": 32,
+          "mismatches": 0,
+          "missing_derived": 1,
+          "missing_official": 0,
+          "tolerance_matches": 408
+        },
+        "FTA": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FTM": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FT_PCT": {
+          "compared": 429,
+          "exact_matches": 79,
+          "mismatches": 0,
+          "missing_derived": 12,
+          "missing_official": 0,
+          "tolerance_matches": 350
+        },
+        "GP": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "MIN": {
+          "compared": 441,
+          "exact_matches": 417,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 24
+        },
+        "OREB": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PF": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PTS": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "REB": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "STL": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "TOV": {
+          "compared": 441,
+          "exact_matches": 441,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        }
+      },
+      "known_semantic_differences": [
+        "NBA Base percentages are rounded; derived percentages use summed makes/attempts.",
+        "NBA Base minutes may retain precision absent from older game logs.",
+        "Fields without RELIABLE game-row coverage are intentionally not compared."
+      ],
+      "match_rate": 1.0,
+      "mismatch_examples": [],
+      "mismatches": 0,
+      "official_only_players": [],
+      "official_total_players": 441,
+      "passes_v1_gate": true,
+      "shared_players": 441,
+      "tolerance_matches": 1045
+    },
+    "2022-23:PLAYOFF": {
+      "compared_values": 4240,
+      "derived_only_players": [],
+      "derived_total_players": 217,
+      "exact_matches": 3860,
+      "fields": {
+        "AST": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "BLK": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "DREB": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3A": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3M": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3_PCT": {
+          "compared": 181,
+          "exact_matches": 73,
+          "mismatches": 0,
+          "missing_derived": 36,
+          "missing_official": 0,
+          "tolerance_matches": 108
+        },
+        "FGA": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FGM": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG_PCT": {
+          "compared": 207,
+          "exact_matches": 56,
+          "mismatches": 0,
+          "missing_derived": 10,
+          "missing_official": 0,
+          "tolerance_matches": 151
+        },
+        "FTA": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FTM": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FT_PCT": {
+          "compared": 163,
+          "exact_matches": 71,
+          "mismatches": 0,
+          "missing_derived": 54,
+          "missing_official": 0,
+          "tolerance_matches": 92
+        },
+        "GP": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "MIN": {
+          "compared": 217,
+          "exact_matches": 188,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 29
+        },
+        "OREB": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PF": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PTS": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "REB": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "STL": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "TOV": {
+          "compared": 217,
+          "exact_matches": 217,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        }
+      },
+      "known_semantic_differences": [
+        "NBA Base percentages are rounded; derived percentages use summed makes/attempts.",
+        "NBA Base minutes may retain precision absent from older game logs.",
+        "Fields without RELIABLE game-row coverage are intentionally not compared."
+      ],
+      "match_rate": 1.0,
+      "mismatch_examples": [],
+      "mismatches": 0,
+      "official_only_players": [],
+      "official_total_players": 217,
+      "passes_v1_gate": true,
+      "shared_players": 217,
+      "tolerance_matches": 380
+    },
+    "2022-23:REGULAR": {
+      "compared_values": 10738,
+      "derived_only_players": [],
+      "derived_total_players": 539,
+      "exact_matches": 9380,
+      "fields": {
+        "AST": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "BLK": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "DREB": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3A": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3M": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3_PCT": {
+          "compared": 523,
+          "exact_matches": 96,
+          "mismatches": 0,
+          "missing_derived": 16,
+          "missing_official": 0,
+          "tolerance_matches": 427
+        },
+        "FGA": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FGM": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG_PCT": {
+          "compared": 537,
+          "exact_matches": 49,
+          "mismatches": 0,
+          "missing_derived": 2,
+          "missing_official": 0,
+          "tolerance_matches": 488
+        },
+        "FTA": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FTM": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FT_PCT": {
+          "compared": 515,
+          "exact_matches": 97,
+          "mismatches": 0,
+          "missing_derived": 24,
+          "missing_official": 0,
+          "tolerance_matches": 418
+        },
+        "GP": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "MIN": {
+          "compared": 539,
+          "exact_matches": 514,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 25
+        },
+        "OREB": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PF": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PTS": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "REB": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "STL": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "TOV": {
+          "compared": 539,
+          "exact_matches": 539,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        }
+      },
+      "known_semantic_differences": [
+        "NBA Base percentages are rounded; derived percentages use summed makes/attempts.",
+        "NBA Base minutes may retain precision absent from older game logs.",
+        "Fields without RELIABLE game-row coverage are intentionally not compared."
+      ],
+      "match_rate": 1.0,
+      "mismatch_examples": [],
+      "mismatches": 0,
+      "official_only_players": [],
+      "official_total_players": 539,
+      "passes_v1_gate": true,
+      "shared_players": 539,
+      "tolerance_matches": 1358
+    },
+    "2025-26:PLAYOFF": {
+      "compared_values": 4514,
+      "derived_only_players": [],
+      "derived_total_players": 230,
+      "exact_matches": 4100,
+      "fields": {
+        "AST": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "BLK": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "DREB": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3A": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3M": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3_PCT": {
+          "compared": 197,
+          "exact_matches": 75,
+          "mismatches": 0,
+          "missing_derived": 33,
+          "missing_official": 0,
+          "tolerance_matches": 122
+        },
+        "FGA": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FGM": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG_PCT": {
+          "compared": 221,
+          "exact_matches": 57,
+          "mismatches": 0,
+          "missing_derived": 9,
+          "missing_official": 0,
+          "tolerance_matches": 164
+        },
+        "FTA": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FTM": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FT_PCT": {
+          "compared": 186,
+          "exact_matches": 79,
+          "mismatches": 0,
+          "missing_derived": 44,
+          "missing_official": 0,
+          "tolerance_matches": 107
+        },
+        "GP": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "MIN": {
+          "compared": 230,
+          "exact_matches": 209,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 21
+        },
+        "OREB": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PF": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PTS": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "REB": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "STL": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "TOV": {
+          "compared": 230,
+          "exact_matches": 230,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        }
+      },
+      "known_semantic_differences": [
+        "NBA Base percentages are rounded; derived percentages use summed makes/attempts.",
+        "NBA Base minutes may retain precision absent from older game logs.",
+        "Fields without RELIABLE game-row coverage are intentionally not compared."
+      ],
+      "match_rate": 1.0,
+      "mismatch_examples": [],
+      "mismatches": 0,
+      "official_only_players": [],
+      "official_total_players": 230,
+      "passes_v1_gate": true,
+      "shared_players": 230,
+      "tolerance_matches": 414
+    },
+    "2025-26:REGULAR": {
+      "compared_values": 11586,
+      "derived_only_players": [],
+      "derived_total_players": 582,
+      "exact_matches": 10125,
+      "fields": {
+        "AST": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "BLK": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "DREB": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3A": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3M": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG3_PCT": {
+          "compared": 547,
+          "exact_matches": 95,
+          "mismatches": 0,
+          "missing_derived": 35,
+          "missing_official": 0,
+          "tolerance_matches": 452
+        },
+        "FGA": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FGM": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FG_PCT": {
+          "compared": 582,
+          "exact_matches": 60,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 522
+        },
+        "FTA": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FTM": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "FT_PCT": {
+          "compared": 563,
+          "exact_matches": 118,
+          "mismatches": 0,
+          "missing_derived": 19,
+          "missing_official": 0,
+          "tolerance_matches": 445
+        },
+        "GP": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "MIN": {
+          "compared": 582,
+          "exact_matches": 540,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 42
+        },
+        "OREB": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PF": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "PTS": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "REB": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "STL": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        },
+        "TOV": {
+          "compared": 582,
+          "exact_matches": 582,
+          "mismatches": 0,
+          "missing_derived": 0,
+          "missing_official": 0,
+          "tolerance_matches": 0
+        }
+      },
+      "known_semantic_differences": [
+        "NBA Base percentages are rounded; derived percentages use summed makes/attempts.",
+        "NBA Base minutes may retain precision absent from older game logs.",
+        "Fields without RELIABLE game-row coverage are intentionally not compared."
+      ],
+      "match_rate": 1.0,
+      "mismatch_examples": [],
+      "mismatches": 0,
+      "official_only_players": [],
+      "official_total_players": 582,
+      "passes_v1_gate": true,
+      "shared_players": 582,
+      "tolerance_matches": 1461
+    }
+  },
+  "bronze": {
+    "advanced_rows": 2198,
+    "base_rows": 2198,
+    "player_game_rows": 148989,
+    "request_artifacts": 28
+  },
+  "decision": "PASS",
+  "games": {
+    "distinct_official_game_ids": 7328,
+    "legacy_game_id_matches": 5653,
+    "official_only_game_ids": 1675
+  },
+  "identity": {
+    "distinct_player_ids": 2138,
+    "legacy_match_rate": 0.88353601,
+    "legacy_matches": 1889,
+    "nba_api_provisional": 249,
+    "unresolved": 0
+  },
+  "pass_conditions": {
+    "advanced_partitions_created": true,
+    "all_bulk_partitions_ingested": true,
+    "all_requests_resumed_from_cache": true,
+    "base_reconciliation_sufficient": true,
+    "coverage_detects_sparse_or_unavailable": true,
+    "identity_unresolved_zero": true,
+    "no_critical_quality_issues": true,
+    "season_aggregation_created": true,
+    "team_unresolved_zero": true,
+    "transform_conflicts_explicitly_quarantined": true
+  },
+  "pilot_seasons": [
+    "1946-47",
+    "1961-62",
+    "1973-74",
+    "1979-80",
+    "1984-85",
+    "1996-97",
+    "2022-23",
+    "2025-26"
+  ],
+  "quality_gates": [
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1946-47",
+      "season_type": "PLAYOFF",
+      "silver_rows": 360,
+      "source_rows": 360
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1946-47",
+      "season_type": "REGULAR",
+      "silver_rows": 6507,
+      "source_rows": 6508
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1961-62",
+      "season_type": "PLAYOFF",
+      "silver_rows": 515,
+      "source_rows": 515
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1961-62",
+      "season_type": "REGULAR",
+      "silver_rows": 6812,
+      "source_rows": 6812
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1973-74",
+      "season_type": "PLAYOFF",
+      "silver_rows": 743,
+      "source_rows": 743
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1973-74",
+      "season_type": "REGULAR",
+      "silver_rows": 13380,
+      "source_rows": 13380
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1979-80",
+      "season_type": "PLAYOFF",
+      "silver_rows": 918,
+      "source_rows": 918
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1979-80",
+      "season_type": "REGULAR",
+      "silver_rows": 17782,
+      "source_rows": 17782
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1984-85",
+      "season_type": "PLAYOFF",
+      "silver_rows": 1359,
+      "source_rows": 1359
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1984-85",
+      "season_type": "REGULAR",
+      "silver_rows": 19249,
+      "source_rows": 19249
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1996-97",
+      "season_type": "PLAYOFF",
+      "silver_rows": 1412,
+      "source_rows": 1412
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "1996-97",
+      "season_type": "REGULAR",
+      "silver_rows": 23757,
+      "source_rows": 23757
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "2022-23",
+      "season_type": "PLAYOFF",
+      "silver_rows": 1728,
+      "source_rows": 1728
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "2022-23",
+      "season_type": "REGULAR",
+      "silver_rows": 25894,
+      "source_rows": 25894
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "2025-26",
+      "season_type": "PLAYOFF",
+      "silver_rows": 1921,
+      "source_rows": 1921
+    },
+    {
+      "duplicate_player_game_keys": 0,
+      "game_dates_outside_expected_window": 0,
+      "impossible_shooting_relationships": 0,
+      "invalid_season_labels": 0,
+      "invalid_season_types": 0,
+      "missing_source_provenance": 0,
+      "negative_box_score_counts": 0,
+      "null_to_zero_violations": 0,
+      "orphan_game_ids": 0,
+      "orphan_player_ids": 0,
+      "orphan_team_ids": 0,
+      "rebound_inconsistencies_under_reliable_coverage": 0,
+      "season": "2025-26",
+      "season_type": "REGULAR",
+      "silver_rows": 26651,
+      "source_rows": 26651
+    }
+  ],
+  "quality_totals": {
+    "duplicate_player_game_keys": 0,
+    "duplicate_total_season_rows": 0,
+    "game_dates_outside_expected_window": 0,
+    "impossible_shooting_relationships": 0,
+    "missing_source_provenance": 0,
+    "negative_box_score_counts": 0,
+    "null_to_zero_violations": 0,
+    "orphan_game_ids": 0,
+    "orphan_player_ids": 0,
+    "orphan_team_ids": 0,
+    "rebound_inconsistencies_under_reliable_coverage": 0
+  },
+  "run_at": "2026-08-27T15:00:00Z",
+  "schema_version": 1,
+  "season_types": [
+    "Regular Season",
+    "Playoffs"
+  ],
+  "silver": {
+    "advanced_rows": 2198,
+    "partitions": [
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1946/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 360,
+        "sha256": "184261b81d18377601843022d3e66e5730267802fdd47e07a76721eae6775ca1",
+        "size_bytes": 10832
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1946/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 122,
+        "sha256": "032c685416d4129490a675aaf774df469eaa3acc75741ed8d20d8dcea89ddeb8",
+        "size_bytes": 11165
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1946/season_type=REGULAR/part-00000.parquet",
+        "rows": 6507,
+        "sha256": "f04e191410c9afb89ccc687ec13778cfa44e7d67a9ffadecbd292c65160763ad",
+        "size_bytes": 51064
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1946/season_type=REGULAR/part-00000.parquet",
+        "rows": 344,
+        "sha256": "4b320b0b8d916a158b7d125745e1fc3c2aac1377da867ebc3c2f209bb97c2b92",
+        "size_bytes": 14905
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1961/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 515,
+        "sha256": "0b214bb32a7e50d10a5a1d967a3dd1c131bc697789272922c574067c59281671",
+        "size_bytes": 13820
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1961/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 128,
+        "sha256": "b1b90ec26b09f8739b1004699c45ecd92fdea48797f61e469e82d245f95b25cc",
+        "size_bytes": 12146
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1961/season_type=REGULAR/part-00000.parquet",
+        "rows": 6812,
+        "sha256": "0d312c0d748069a0675c8a096acd2c7cd438a804006d24786e19bd8620d425ed",
+        "size_bytes": 71945
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1961/season_type=REGULAR/part-00000.parquet",
+        "rows": 238,
+        "sha256": "87d5036513d3538bd03d79aa312f857c67913be50304b46127eaeb4491a9370f",
+        "size_bytes": 16019
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1973/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 743,
+        "sha256": "cb5bb0bca7044764806e8266d99662490a3f6e16df2cc420f898e490df488c6b",
+        "size_bytes": 17999
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1973/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 178,
+        "sha256": "8828619dcf1c51734ef88c70c57ab11cb1a6c38c7681d74b379ae349cf41999c",
+        "size_bytes": 15810
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1973/season_type=REGULAR/part-00000.parquet",
+        "rows": 13380,
+        "sha256": "e76cad9b607b76433f55a0096d05f67c595706c853fd744d88712456f3be64d7",
+        "size_bytes": 165891
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1973/season_type=REGULAR/part-00000.parquet",
+        "rows": 456,
+        "sha256": "ffed679221107a748e23ae5580d488395a3fc0a429471644274247f975d6d816",
+        "size_bytes": 21662
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1979/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 918,
+        "sha256": "d1fb920d763b348824e4c4ab7eb49023a199445a96fd3bca98251613298dbedb",
+        "size_bytes": 22487
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1979/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 258,
+        "sha256": "e08baf169a4a690dc51fc9e6a17152229cd9daaba1a7b0eb5f61269d1ae27e5f",
+        "size_bytes": 18834
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1979/season_type=REGULAR/part-00000.parquet",
+        "rows": 17782,
+        "sha256": "082001c2bfd288c6f815dfa38d1cc7c68c5ef108e3bcf76373c15e975396f6e1",
+        "size_bytes": 252792
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1979/season_type=REGULAR/part-00000.parquet",
+        "rows": 611,
+        "sha256": "d349be6a8bef8ddbc9573481c8fc488fb83a9520dafb1a2587834802ec2b7162",
+        "size_bytes": 27127
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1984/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 1359,
+        "sha256": "d38d1bc901b384af9ecdc01132149cf27a055cdee412c7edc8bf21985951069a",
+        "size_bytes": 29846
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1984/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 370,
+        "sha256": "38445c103b9435df3386ee72021abc781364570fab0faa984f2c89cfc43cb4f3",
+        "size_bytes": 26502
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1984/season_type=REGULAR/part-00000.parquet",
+        "rows": 19249,
+        "sha256": "f2c78f1cd48dbf2ca4fdd839f5ff68eb0fc274c1d188a4fa5edf6b8419ec6cf0",
+        "size_bytes": 290240
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1984/season_type=REGULAR/part-00000.parquet",
+        "rows": 662,
+        "sha256": "41f970d6a94415433d132855f3618c3d66594bae85b1edf8cb680a67c83ee0ca",
+        "size_bytes": 31101
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1996/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 1412,
+        "sha256": "d375192bfcad1ecbbfa530231984fe14edbbd375e5853b53e6204b330375fcac",
+        "size_bytes": 35770
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1996/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 378,
+        "sha256": "b94db66c6e7ab5d6045577856db11f4c95f3fb3edb4402c7e5e990988362fde5",
+        "size_bytes": 28057
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=1996/season_type=REGULAR/part-00000.parquet",
+        "rows": 23757,
+        "sha256": "eb2e19c88950ffa50147375c1bd433ea66239dde651fe326506c73b4ae9963a7",
+        "size_bytes": 446638
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=1996/season_type=REGULAR/part-00000.parquet",
+        "rows": 952,
+        "sha256": "4307ef4fb716dbb6885768be9ef02c027ac3ae61561b6737d4e1ed4af802af01",
+        "size_bytes": 73310
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=2022/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 1728,
+        "sha256": "6cf5907914678ec8b922d0a5f3f189867e7e7eec4aa41bcf541d8348ed39b606",
+        "size_bytes": 41579
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=2022/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 434,
+        "sha256": "452da2101cf0bbde0b4c8017a1a800d26b8c24fac331a9b77fc6067c7f2609b3",
+        "size_bytes": 31003
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=2022/season_type=REGULAR/part-00000.parquet",
+        "rows": 25894,
+        "sha256": "9325f717d693eb9fb131c36f252b4d6dcccd53a22fd13220a87aeac28a6f56d9",
+        "size_bytes": 491546
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=2022/season_type=REGULAR/part-00000.parquet",
+        "rows": 1148,
+        "sha256": "7d0d0f7788730886e8ee2a05172036c62fbf047e8f4830f745499f471069841d",
+        "size_bytes": 85772
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=2025/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 1921,
+        "sha256": "e44ef4dfb11db3e64f685f195b827ffe33a16c5d3eac9b066e88afe154ccb252",
+        "size_bytes": 44347
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=2025/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 460,
+        "sha256": "c64c944c937eaf420ee564e49ae484ffa72ac2a6174698d37cef66941454354a",
+        "size_bytes": 32689
+      },
+      {
+        "columns": 26,
+        "path": "data/silver/player_game_stats/season=2025/season_type=REGULAR/part-00000.parquet",
+        "rows": 26651,
+        "sha256": "bebdb8ff269ab93007514b89f520a735c65d2fd0921cf4ec43ed04f616c069e9",
+        "size_bytes": 504258
+      },
+      {
+        "columns": 35,
+        "path": "data/silver/player_season_stats/season=2025/season_type=REGULAR/part-00000.parquet",
+        "rows": 1243,
+        "sha256": "0631c0e3ac79e280bed8984aaec9f4c2893b4a0aeecb9c87c3caad089ca66705",
+        "size_bytes": 90183
+      },
+      {
+        "columns": 23,
+        "path": "data/silver/player_season_advanced/season=1996/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 189,
+        "sha256": "fe2481c49b8961d246eae0ab1d5c9fd5bbfe736330eb972eb9821f67e4ba475d",
+        "size_bytes": 20114
+      },
+      {
+        "columns": 23,
+        "path": "data/silver/player_season_advanced/season=1996/season_type=REGULAR/part-00000.parquet",
+        "rows": 441,
+        "sha256": "f236c65eea1c737843799695df17d54e3e23962044831be8ddf730713a207b97",
+        "size_bytes": 33515
+      },
+      {
+        "columns": 23,
+        "path": "data/silver/player_season_advanced/season=2022/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 217,
+        "sha256": "de51f3352d4e91ece4e6075b5bb6accbec441edbe910cec3acab5ff2140355f7",
+        "size_bytes": 21770
+      },
+      {
+        "columns": 23,
+        "path": "data/silver/player_season_advanced/season=2022/season_type=REGULAR/part-00000.parquet",
+        "rows": 539,
+        "sha256": "7f36bc927e289abf11d40b4c6e567fa8c2bf5afbd58917ec31449569c758e5d8",
+        "size_bytes": 38334
+      },
+      {
+        "columns": 23,
+        "path": "data/silver/player_season_advanced/season=2025/season_type=PLAYOFF/part-00000.parquet",
+        "rows": 230,
+        "sha256": "870fc36666d28e8d7043fd48e3332943320a6cc599d562ecfbe80dd02ad6ee4a",
+        "size_bytes": 22503
+      },
+      {
+        "columns": 23,
+        "path": "data/silver/player_season_advanced/season=2025/season_type=REGULAR/part-00000.parquet",
+        "rows": 582,
+        "sha256": "5020d84a670aeae7ecb0ffec6cc81ab0f374bd84483c750607b50ee5f2e2609a",
+        "size_bytes": 40549
+      }
+    ],
+    "player_game_rows": 148988,
+    "player_season_rows": 7982,
+    "player_season_team_rows": 4153,
+    "player_season_total_rows": 3829
+  },
+  "step": "STEP-0005",
+  "teams": {
+    "canonical_team_versions": 53,
+    "distinct_source_team_ids": 38,
+    "legacy_id_matches": 30,
+    "unmatched_team_ids": [
+      "1610610025",
+      "1610610026",
+      "1610610028",
+      "1610610031",
+      "1610610032",
+      "1610610034",
+      "1610610035",
+      "1610610036"
+    ],
+    "unresolved": 0
+  },
+  "transform_quarantine": [
+    {
+      "error": "1 validation error for PlayerGameStats\n  Value error, made shots cannot exceed attempts [type=value_error, input_value={'game_id': 'game_d1a9065...=datetime.timezone.utc)}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+      "nba_game_id": "0024600055",
+      "nba_player_id": 76137,
+      "nba_team_id": 1610610031,
+      "season": "1946-47",
+      "season_type": "Regular Season",
+      "source_row_number": 5383,
+      "source_values": {
+        "FG3A": null,
+        "FG3M": null,
+        "FGA": null,
+        "FGM": 5,
+        "FTA": 0,
+        "FTM": 1,
+        "MIN": 0,
+        "PTS": 11
+      }
+    }
+  ]
+}
