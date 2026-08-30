@@ -44,3 +44,14 @@ This living summary may be extended, but methodology changes must also receive a
 - Shooting percentages use summed makes divided by summed attempts only when the attempt denominator is positive. Per-game values use qualified `games_played`; unavailable totals or denominators produce NULL.
 - Official numeric player, team, and game identifiers are source business keys. Team name supplies version evidence, never the primary join. Stale legacy windows are reported but cannot invalidate official player facts.
 - Contradictory source rows remain unchanged in Bronze and enter an explicit quarantine rather than an automatic repair path.
+
+## Frozen historical corpus V1
+
+- `GOATLAB-HIST-V1` freezes 1946-47 through 2025-26 for `REGULAR` and `PLAYOFF`. It contains 80 seasons and excludes every later season.
+- The frozen identity includes the request matrix, source/client versions, canonicalization timestamp, schema and methodology versions, per-partition hashes, and aggregate corpus fingerprint. It is governed by ADR-0008.
+- Future current-season refreshes must use separate versioned outputs. Neither new games nor upstream corrections may silently mutate this research release.
+- All 280 intended bulk scopes are checkpointed independently. Successful cache entries and output partitions survive later failures; API failure is never interpreted as an empty result.
+- Full-history identity and team enrichment cannot change an already assigned canonical ID merely because more metadata becomes available.
+- Reconciliation blocks the corpus when a field has at least a 1% mismatch rate or mismatches in at least three partitions. Rounding-tolerance matches are reported separately from exact matches.
+- Quality reporting distinguishes `SOURCE_ANOMALY` from `PIPELINE_ERROR`. Source-faithful Bronze remains untouched; contradictory source rows are quarantined before Silver without repair.
+- The complete V1 coverage matrix preserves the ADR-0007 thresholds. It is eligibility evidence for later research, not a GOAT feature or score.

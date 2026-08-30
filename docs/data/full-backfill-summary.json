@@ -1,0 +1,175 @@
+{
+  "acquisition_performance": {
+    "all_requests_from_cache": false,
+    "cache_hits": 46,
+    "full_cache_bytes": 437122200,
+    "network_requests_made": 234,
+    "network_response_seconds": 365.729536,
+    "network_retries": 1,
+    "peak_rss_bytes": 600653824,
+    "reconciliation_seconds": 0.35842,
+    "run_completed_utc": "2026-08-29T21:43:18.121833Z",
+    "run_started_utc": "2026-08-29T21:07:00.458882Z",
+    "selected_bronze_bytes": 436742963,
+    "silver_bytes": 31928415,
+    "total_build_seconds": 783.709074,
+    "transformation_seconds": 397.100872,
+    "wall_seconds": 373.721538
+  },
+  "base_reconciliation": {
+    "derived_only_players": 0,
+    "exact_matches": 362422,
+    "mismatch_examples": [],
+    "mismatches": 0,
+    "mismatches_by_field": {
+      "AST": 0,
+      "BLK": 0,
+      "DREB": 0,
+      "FG3A": 0,
+      "FG3M": 0,
+      "FG3_PCT": 0,
+      "FGA": 0,
+      "FGM": 0,
+      "FG_PCT": 0,
+      "FTA": 0,
+      "FTM": 0,
+      "FT_PCT": 0,
+      "GP": 0,
+      "MIN": 0,
+      "OREB": 0,
+      "PF": 0,
+      "PTS": 0,
+      "REB": 0,
+      "STL": 0,
+      "TOV": 0
+    },
+    "official_only_players": 0,
+    "partitions": 60,
+    "partitions_passing_v1_gate": 60,
+    "tolerance_matches": 45625,
+    "values_compared": 408047
+  },
+  "bronze": {
+    "advanced_rows": 20668,
+    "base_rows": 20668,
+    "files": 560,
+    "metadata_bytes": 400052,
+    "payload_bytes": 436342911,
+    "player_game_rows": 1481850,
+    "total_bytes": 436742963
+  },
+  "corpus_id": "GOATLAB-HIST-V1",
+  "coverage": {
+    "classification_counts": {
+      "PARTIAL": 113,
+      "RELIABLE": 2072,
+      "SPARSE": 167,
+      "UNAVAILABLE": 588,
+      "UNKNOWN": 100
+    },
+    "records": 3040,
+    "thresholds": {
+      "PARTIAL": "0.80 <= non-null percentage < 0.99",
+      "RELIABLE": "non-null percentage >= 0.99",
+      "SPARSE": "0 < non-null percentage < 0.80",
+      "UNAVAILABLE": "documented historical unavailability or unsupported source field",
+      "UNKNOWN": "no rows or no observations despite conceptual availability"
+    }
+  },
+  "decision": "PASS",
+  "games": {
+    "distinct_official_game_ids": 73135,
+    "legacy_matches": 64034,
+    "official_only": 9101
+  },
+  "identity": {
+    "distinct_player_ids": 5103,
+    "legacy_matches": 4792,
+    "official_source_only": 311,
+    "provisional": 311,
+    "unresolved": 0
+  },
+  "pass_conditions": {
+    "advanced_partitions_complete": true,
+    "all_intended_scopes_accounted_for": true,
+    "base_reconciliation_no_systematic_mismatch": true,
+    "cache_only_reproducible": true,
+    "frozen_cutoff_enforced": true,
+    "full_season_aggregation_complete": true,
+    "historical_null_semantics_preserved": true,
+    "metric_coverage_complete": true,
+    "no_pipeline_error_quarantine": true,
+    "no_uncontrolled_api_failures": true,
+    "player_game_keys_unique": true,
+    "player_identities_resolved": true,
+    "quarantine_accounted": true,
+    "teams_resolved": true
+  },
+  "quality": {
+    "duplicate_player_game_keys": 0,
+    "duplicate_total_season_rows": 0,
+    "game_dates_outside_expected_window": 3743,
+    "impossible_shooting_relationships": 0,
+    "missing_source_provenance": 0,
+    "negative_box_score_counts": 0,
+    "null_to_zero_violations": 0,
+    "orphan_game_ids": 0,
+    "orphan_player_ids": 0,
+    "orphan_team_ids": 0,
+    "pipeline_error_quarantine_rows": 0,
+    "rebound_inconsistencies_under_reliable_coverage": 0,
+    "source_anomaly_quarantine_rows": 125
+  },
+  "quarantined_rows": 125,
+  "reproducibility": {
+    "all_requests_from_cache": true,
+    "certified_at": "2026-08-29T16:00:00Z",
+    "expected_corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "expected_partitions": 380,
+    "mismatched_partitions": [],
+    "network_requests_made": 0,
+    "observed_corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "observed_partitions": 380,
+    "pass": true
+  },
+  "requests": {
+    "failed": 0,
+    "recorded_source_response_seconds": 421.140655,
+    "retry_count": 1,
+    "status_counts": {
+      "SUCCESS_WITH_ROWS": 280
+    },
+    "success_empty": 0,
+    "success_with_rows": 280,
+    "total": 280
+  },
+  "run_at": "2026-08-29T16:00:00Z",
+  "schema_version": 1,
+  "season_count": 80,
+  "season_end": "2025-26",
+  "season_start": "1946-47",
+  "season_types": [
+    "Regular Season",
+    "Playoffs"
+  ],
+  "silver": {
+    "advanced_rows": 20668,
+    "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "partition_files": 380,
+    "player_game_rows": 1481725,
+    "player_season_rows": 78025,
+    "player_season_team_rows": 40553,
+    "player_season_total_rows": 37472,
+    "size_bytes": 31928415
+  },
+  "step": "STEP-0006",
+  "teams": {
+    "canonical_team_identities": 74,
+    "conflicts": 27,
+    "distinct_official_team_ids": 45,
+    "historical_name_versions": 74,
+    "legacy_matches": 30,
+    "official_only_historical_clubs": 15,
+    "unresolved": 0
+  }
+}

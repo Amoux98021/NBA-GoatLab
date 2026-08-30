@@ -166,6 +166,17 @@ def test_player_and_team_resolvers_use_official_ids_not_names() -> None:
     assert team_report["stale_window_conflicts"]
 
 
+def test_player_resolver_retains_official_id_when_name_is_missing() -> None:
+    identities, report = resolve_player_identities(
+        [{"PLAYER_ID": 999, "PLAYER_NAME": None}],
+        set(),
+        source_id="fixture:identity",
+    )
+    assert identities["999"].player_id == canonical_id("player", "nba", "999")
+    assert identities["999"].diagnostic_name is None
+    assert report["unresolved"] == 0
+
+
 def test_player_game_mapping_preserves_historical_null_and_observed_zero() -> None:
     record = _fixture_record()
     row = {**record["row"], "SEASON_YEAR": "1946-47", "TEAM_NAME": "St. Louis Bombers"}

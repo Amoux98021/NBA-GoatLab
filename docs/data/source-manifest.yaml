@@ -1,4 +1,4 @@
-manifest_version: 3
+manifest_version: 4
 source:
   name: nbadb
   upstream_repository: https://github.com/wyattowalsh/nbadb
@@ -160,3 +160,90 @@ player_fact_ingestion_pilot:
     metric_coverage: docs/data/metric-coverage-pilot.json
     player_identity: docs/data/player-identity-reconciliation.json
     team_crosswalk: docs/data/team-crosswalk-report.json
+historical_player_fact_corpus_v1:
+  step: STEP-0006
+  corpus_id: GOATLAB-HIST-V1
+  frozen_scope:
+    first_season: 1946-47
+    last_season: 2025-26
+    season_count: 80
+    season_types: [REGULAR, PLAYOFF]
+    future_seasons_excluded: true
+  retrieval:
+    started_utc: 2026-08-29T21:07:00.458882Z
+    completed_utc: 2026-08-29T21:43:18.121824Z
+    canonicalized_at_utc: 2026-08-29T16:00:00Z
+    source_client: nba_api
+    source_client_version: 1.11.4
+    total_scopes: 280
+    success_with_rows: 280
+    success_empty: 0
+    failed: 0
+    network_requests_made: 234
+    reused_cache_entries: 46
+    retries: 1
+  request_contract:
+    player_game_logs:
+      endpoint: playergamelogs
+      scopes: 160
+      player_id: unset
+      first_season: 1946-47
+      last_season: 2025-26
+    base_totals:
+      endpoint: leaguedashplayerstats
+      scopes: 60
+      measure_type: Base
+      per_mode: Totals
+      first_season: 1996-97
+      last_season: 2025-26
+    advanced_totals:
+      endpoint: leaguedashplayerstats
+      scopes: 60
+      measure_type: Advanced
+      per_mode: Totals
+      first_season: 1996-97
+      last_season: 2025-26
+  bronze:
+    path: data/bronze/nba_api
+    selected_files: 560
+    selected_size_bytes: 436742963
+    player_game_rows: 1481850
+    base_rows: 20668
+    advanced_rows: 20668
+    git_ignored: true
+  silver:
+    path: data/silver
+    player_game_rows: 1481725
+    player_season_rows: 78025
+    player_season_advanced_rows: 20668
+    parquet_files: 380
+    size_bytes: 31928415
+    corpus_fingerprint: 283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c
+    git_ignored: true
+  reconciliation:
+    base_partitions: 60
+    values_compared: 408047
+    exact_matches: 362422
+    tolerance_matches: 45625
+    mismatches: 0
+    distinct_players: 5103
+    unresolved_players: 0
+    distinct_official_team_ids: 45
+    unresolved_teams: 0
+    distinct_games: 73135
+    source_anomaly_quarantine_rows: 125
+    pipeline_error_quarantine_rows: 0
+  reproducibility:
+    cache_only_network_requests: 0
+    expected_partitions: 380
+    mismatched_partitions: 0
+    reproduced_corpus_fingerprint: true
+  evidence:
+    narrative: docs/data/HISTORICAL_CORPUS_V1.md
+    manifest: docs/data/historical-corpus-v1-manifest.json
+    summary: docs/data/full-backfill-summary.json
+    metric_coverage: docs/data/full-metric-coverage.json
+    player_identity: docs/data/full-identity-reconciliation.json
+    team_crosswalk: docs/data/full-team-crosswalk.json
+    base_reconciliation: docs/data/full-base-reconciliation.json
+    data_quality: docs/data/full-data-quality-report.json

@@ -1,0 +1,1931 @@
+{
+  "business_key": "official NBA PLAYER_ID",
+  "common_player_info_matches": 3612,
+  "corpus_id": "GOATLAB-HIST-V1",
+  "distinct_player_ids": 5103,
+  "legacy_match_rate": 0.93905546,
+  "legacy_matches": 4792,
+  "missing_id_rows": 0,
+  "name_variant_conflicts": [
+    {
+      "diagnostic_names": [
+        "Bobby Portis",
+        "Bobby Portis Jr."
+      ],
+      "nba_player_id": "1626171"
+    },
+    {
+      "diagnostic_names": [
+        "Vlatko Cancar",
+        "Vlatko Čančar"
+      ],
+      "nba_player_id": "1628427"
+    },
+    {
+      "diagnostic_names": [
+        "Brandon Boston",
+        "Brandon Boston Jr."
+      ],
+      "nba_player_id": "1630527"
+    },
+    {
+      "diagnostic_names": [
+        "Terrence Shannon Jr",
+        "Terrence Shannon Jr."
+      ],
+      "nba_player_id": "1630545"
+    },
+    {
+      "diagnostic_names": [
+        "Lester Quinones",
+        "Lester Quiñones"
+      ],
+      "nba_player_id": "1631311"
+    },
+    {
+      "diagnostic_names": [
+        "Jonas Valanciunas",
+        "Jonas Valančiūnas"
+      ],
+      "nba_player_id": "202685"
+    }
+  ],
+  "nba_api_provisional": 311,
+  "official_source_only_identities": 311,
+  "official_source_only_records": [
+    {
+      "diagnostic_name": "Sasha Vezenkov",
+      "nba_player_id": "1628426",
+      "player_id": "player_3b5886ef71ac5a1e9791bb922a34d57e",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Chance Comanche",
+      "nba_player_id": "1628435",
+      "player_id": "player_feace6b1932752d2ad067d71b1fe3c9a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jack McVeigh",
+      "nba_player_id": "1629098",
+      "player_id": "player_1f8c59fab9ce5ecab4aabad986243763",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kaiser Gates",
+      "nba_player_id": "1629232",
+      "player_id": "player_28e22bacf2d65a0180b426919f24571c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jalen Pickett",
+      "nba_player_id": "1629618",
+      "player_id": "player_9b6088ba75045c0782adf7a35dc908c2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Filip Petrusev",
+      "nba_player_id": "1630196",
+      "player_id": "player_5d04ba1118fc5bc7841885cfa1b1ea48",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jordan Ford",
+      "nba_player_id": "1630259",
+      "player_id": "player_690d3ba2cc775fd6981c063fed319f7a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kylor Kelley",
+      "nba_player_id": "1630283",
+      "player_id": "player_32f28aa9a4805e7db333f36afd48e75a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Pat Spencer",
+      "nba_player_id": "1630311",
+      "player_id": "player_c4a6a1ae19dd543ebd70dc9fd7ec6576",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Marcus Bagley",
+      "nba_player_id": "1630542",
+      "player_id": "player_383b2c61e96859558d843bbd0d1d6407",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Terrence Shannon Jr",
+      "nba_player_id": "1630545",
+      "player_id": "player_a7747c9e3302588fb8f10621cf633be3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Matt Hurt",
+      "nba_player_id": "1630562",
+      "player_id": "player_74cf989525f752b1b6c7d598f0dbc27e",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "RaiQuan Gray",
+      "nba_player_id": "1630564",
+      "player_id": "player_9da96a96f6d95688811552932193db74",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ariel Hukporti",
+      "nba_player_id": "1630574",
+      "player_id": "player_3c80a82194905259a4b852ef98a14864",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jalen Wilson",
+      "nba_player_id": "1630592",
+      "player_id": "player_e711cf0e5fae5922ac49eb6e2db00fe3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Malcolm Cazalon",
+      "nba_player_id": "1630608",
+      "player_id": "player_1bd27f108bab53aa962c3dccc9f7489a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Gui Santos",
+      "nba_player_id": "1630611",
+      "player_id": "player_b0923c123c375f9fa11f8bc438d660f4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "D.J. Carton",
+      "nba_player_id": "1630618",
+      "player_id": "player_84b369f036c05fb2af0685c41a2424cc",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Moussa Cisse",
+      "nba_player_id": "1630619",
+      "player_id": "player_30322849afa85d4f973ccfeb5af3de59",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Hunter Dickinson",
+      "nba_player_id": "1630621",
+      "player_id": "player_3147bb12f83c5b09a7ba5e1eb4c0b7c8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jalen Crutcher",
+      "nba_player_id": "1630622",
+      "player_id": "player_5385710861a65b538ea96e175d36e78f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tyson Etienne",
+      "nba_player_id": "1630623",
+      "player_id": "player_22b65213d2735defb2914e484afb53d0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Colin Castleton",
+      "nba_player_id": "1630658",
+      "player_id": "player_c3eb2206b7685126afd21819c71493a8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ethan Thompson",
+      "nba_player_id": "1630679",
+      "player_id": "player_d0696d634d0c569cbe11f60e04278833",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Scoot Henderson",
+      "nba_player_id": "1630703",
+      "player_id": "player_7a3acb0b25f05b3c9185ce9c57eac22c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Phillip Wheeler",
+      "nba_player_id": "1630762",
+      "player_id": "player_d9c396d9457d5f16837442515a862385",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Keaton Wallace",
+      "nba_player_id": "1630811",
+      "player_id": "player_439e75fa877451d59083e5186b9516e1",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Alex Antetokounmpo",
+      "nba_player_id": "1630828",
+      "player_id": "player_f66366234e765623a4b4e02d71bfd151",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Henri Drell",
+      "nba_player_id": "1630929",
+      "player_id": "player_8d9aa7d3ae745ac5a9d7be01f370a866",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Julian Strawther",
+      "nba_player_id": "1631124",
+      "player_id": "player_441f574b699e599a857768cc47d1c506",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Caleb Love",
+      "nba_player_id": "1631126",
+      "player_id": "player_4faa86a285825a909eda9cfbb75f59af",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Harrison Ingram",
+      "nba_player_id": "1631127",
+      "player_id": "player_861dadf405b85f1ca17a73dbf0de6548",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Oscar Tshiebwe",
+      "nba_player_id": "1631131",
+      "player_id": "player_0e0b5aaae1a75587ba89b919fadc5d00",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Leonard Miller",
+      "nba_player_id": "1631159",
+      "player_id": "player_18ea0974e3225ed08cea075b14844464",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Drew Timme",
+      "nba_player_id": "1631166",
+      "player_id": "player_5b08d3a1c60c598c8169ae66a1071b4a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Izaiah Brockington",
+      "nba_player_id": "1631167",
+      "player_id": "player_5e1fb33a20cc5ac78017e0a5380ad7c8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jaime Jaquez Jr.",
+      "nba_player_id": "1631170",
+      "player_id": "player_799eaa709d97549b9fdef2f94641dda0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Terquavion Smith",
+      "nba_player_id": "1631173",
+      "player_id": "player_af5398f5e8145e6fae9c2e55b68fec7d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tyler Burton",
+      "nba_player_id": "1631174",
+      "player_id": "player_113bf783013c5806979b4d94b293b50a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kris Murray",
+      "nba_player_id": "1631200",
+      "player_id": "player_61b4ef1a162f57fe8688ffe9c2e4b3d7",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Marcus Sasser",
+      "nba_player_id": "1631204",
+      "player_id": "player_41805d056ff459f4be16358fba4fbdaa",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Isaiah Wong",
+      "nba_player_id": "1631209",
+      "player_id": "player_eb05b462bb7454b5bb93cbc9bd9abfeb",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jacob Toppin",
+      "nba_player_id": "1631210",
+      "player_id": "player_7ee6cca668885b6187a6519892906852",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Trayce Jackson-Davis",
+      "nba_player_id": "1631218",
+      "player_id": "player_9d6568861a4552cea16077b32a22fece",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Keion Brooks Jr.",
+      "nba_player_id": "1631232",
+      "player_id": "player_eb1dc4b39d3b5ebb8313cf1901ac6fc1",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Javon Freeman-Liberty",
+      "nba_player_id": "1631241",
+      "player_id": "player_1d83a0bc14b35d7da379596c6321d800",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Mouhamed Gueye",
+      "nba_player_id": "1631243",
+      "player_id": "player_a29252da59fc574c88b64a7204f2190f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Luke Travers",
+      "nba_player_id": "1631247",
+      "player_id": "player_2d8e3e5a74c2552381c3123c7bad35a3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Baylor Scheierman",
+      "nba_player_id": "1631248",
+      "player_id": "player_3ae1af06b5385063b8232862a81e9ce2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Pete Nance",
+      "nba_player_id": "1631250",
+      "player_id": "player_4b04b757a07952bba613cd35197610e0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Karlo Matković",
+      "nba_player_id": "1631255",
+      "player_id": "player_5642e88e25335537949364dd2b6a4b01",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jermaine Samuels Jr.",
+      "nba_player_id": "1631257",
+      "player_id": "player_caad9348e2b3525c8124aedce650b8ec",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jules Bernard",
+      "nba_player_id": "1631262",
+      "player_id": "player_389de6fceb715116a16d0eeeeedc15d8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jaylen Sims",
+      "nba_player_id": "1631301",
+      "player_id": "player_dbc73ee8c7b2586c8ae2d50ab8f342cb",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Justin Minaya",
+      "nba_player_id": "1631303",
+      "player_id": "player_38a52053978b5673a98e6c14beaf0d7d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Sidy Cissoko",
+      "nba_player_id": "1631321",
+      "player_id": "player_a7400e9c2f8c531ea82bef80584efed0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Mouhamadou Gueye",
+      "nba_player_id": "1631338",
+      "player_id": "player_c97bdd606d9e56f6b80b2208b859f174",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Daeqwon Plowden",
+      "nba_player_id": "1631342",
+      "player_id": "player_345da64b7fa1553896f507df9dadf1c3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Lucas Williamson",
+      "nba_player_id": "1631351",
+      "player_id": "player_f2b42f2dacdf5328b7730cebc6432e5a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jacob Gilyard",
+      "nba_player_id": "1631367",
+      "player_id": "player_8ffff8588ca45b94bc4b8e19b0536e44",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dmytro Skapintsev",
+      "nba_player_id": "1631376",
+      "player_id": "player_1fe66d266bea562ebb652d9d0b775097",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Taze Moore",
+      "nba_player_id": "1631386",
+      "player_id": "player_4692fe0554275161ac84b7745bff0042",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Javonte Cooke",
+      "nba_player_id": "1631451",
+      "player_id": "player_5f337bd09c23514b9c8b82fdba11d70a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Alex Morales",
+      "nba_player_id": "1631457",
+      "player_id": "player_dcfc8d7dd62d5a8687d7dfa67abcd51a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Nate Williams",
+      "nba_player_id": "1631466",
+      "player_id": "player_2eea047694ce5c2cb30ca1b07628faae",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Victor Wembanyama",
+      "nba_player_id": "1641705",
+      "player_id": "player_7fa2db9a7cd05b8fb4376bbb338ed101",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Brandon Miller",
+      "nba_player_id": "1641706",
+      "player_id": "player_c4db7c9ed0c455f09f2b81cf4e0310ad",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Taylor Hendricks",
+      "nba_player_id": "1641707",
+      "player_id": "player_712e2105bf35514d89f299c32b5406de",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Amen Thompson",
+      "nba_player_id": "1641708",
+      "player_id": "player_f2ae309982a55a609498ebb7725e4d64",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ausar Thompson",
+      "nba_player_id": "1641709",
+      "player_id": "player_af908016edf250c4ac701523460f448a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Anthony Black",
+      "nba_player_id": "1641710",
+      "player_id": "player_84a89399ed0159cf96213220216cbbb5",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Gradey Dick",
+      "nba_player_id": "1641711",
+      "player_id": "player_71f5f99d932a5372a411bc097900ef15",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Rayan Rupert",
+      "nba_player_id": "1641712",
+      "player_id": "player_f8ce16d029f857839c2d8123ab3d9098",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "GG Jackson",
+      "nba_player_id": "1641713",
+      "player_id": "player_3e2bd4aa5dfc593c83b481e2fc0c5fc8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cam Whitmore",
+      "nba_player_id": "1641715",
+      "player_id": "player_9402cebdc0af50b48bcddd56ee14f527",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jarace Walker",
+      "nba_player_id": "1641716",
+      "player_id": "player_6dfb236729fa551490c4abed7ba34c6e",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cason Wallace",
+      "nba_player_id": "1641717",
+      "player_id": "player_22f05bc0684d5ff9aa58bff7d5e65ca3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Keyonte George",
+      "nba_player_id": "1641718",
+      "player_id": "player_5c3c8e98d51a5c29ac170b5543e1c2da",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jalen Hood-Schifino",
+      "nba_player_id": "1641720",
+      "player_id": "player_f7c50ed37c775e0caaa11f05c728aac2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Maxwell Lewis",
+      "nba_player_id": "1641721",
+      "player_id": "player_7639980df60e589b8d2485e802847903",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jordan Hawkins",
+      "nba_player_id": "1641722",
+      "player_id": "player_298fb447d18b5763b3ef259d28bfb4a6",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kobe Bufkin",
+      "nba_player_id": "1641723",
+      "player_id": "player_f694c56fcc415a6f9740d0388fb803b6",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jett Howard",
+      "nba_player_id": "1641724",
+      "player_id": "player_2b6dc8f7d0aa5eca8e3ca046f4e29933",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Trey Alexander",
+      "nba_player_id": "1641725",
+      "player_id": "player_23acaef01bf8506f84977ced7e5803a2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dereck Lively II",
+      "nba_player_id": "1641726",
+      "player_id": "player_188d51f1ccea517a87b2ee257bcf89aa",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dariq Whitehead",
+      "nba_player_id": "1641727",
+      "player_id": "player_0ab7c6044f12522d8d8cbb25f20bf2e7",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Brice Sensabaugh",
+      "nba_player_id": "1641729",
+      "player_id": "player_0df95d454c805e988e9f299abc528a3a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Noah Clowney",
+      "nba_player_id": "1641730",
+      "player_id": "player_3f5394d8a85c5617b204683e6da36f6f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Bilal Coulibaly",
+      "nba_player_id": "1641731",
+      "player_id": "player_dbe9e090da3356f485b40b1a7e2e5e21",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Colby Jones",
+      "nba_player_id": "1641732",
+      "player_id": "player_2842580a677f5a4d8b88c0912e67f5d7",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Nick Smith Jr.",
+      "nba_player_id": "1641733",
+      "player_id": "player_6b647418c302575c930375168b304147",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Emoni Bates",
+      "nba_player_id": "1641734",
+      "player_id": "player_5ff36308b51f5796a5f83f400651de2b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Amari Bailey",
+      "nba_player_id": "1641735",
+      "player_id": "player_3f68850691bf591bbfa2c7ab3f216202",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Reece Beekman",
+      "nba_player_id": "1641736",
+      "player_id": "player_e3bf9425cadc5a15ab67767a27f91885",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Adem Bona",
+      "nba_player_id": "1641737",
+      "player_id": "player_9c8afe89d5d759c78d6f65f55b708be2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kobe Brown",
+      "nba_player_id": "1641738",
+      "player_id": "player_51f655230d805926b92d0cfabb097a04",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Toumani Camara",
+      "nba_player_id": "1641739",
+      "player_id": "player_368c3274465453269825a79b5cb6a79d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jaylen Clark",
+      "nba_player_id": "1641740",
+      "player_id": "player_c2c93c425d1b5a408e58c9f61755a6d2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ricky Council IV",
+      "nba_player_id": "1641741",
+      "player_id": "player_77e39a663fe75553b1e4e1333d7ba617",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Zach Edey",
+      "nba_player_id": "1641744",
+      "player_id": "player_cc95d03a54ba518f9727d99ae89617ed",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Adam Flagler",
+      "nba_player_id": "1641745",
+      "player_id": "player_71ba721a381659639fbaffe58cb5a095",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "DaRon Holmes II",
+      "nba_player_id": "1641747",
+      "player_id": "player_33b82ec100f1502f900308065405060c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Andre Jackson Jr.",
+      "nba_player_id": "1641748",
+      "player_id": "player_a15842e34bd2562abaee537f7b1c7e19",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Keyontae Johnson",
+      "nba_player_id": "1641749",
+      "player_id": "player_332e3688316e5eafa57982c002d1bdfd",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ryan Kalkbrenner",
+      "nba_player_id": "1641750",
+      "player_id": "player_6a073f8b025a5b65a4395479c487646c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Bobi Klintman",
+      "nba_player_id": "1641752",
+      "player_id": "player_ec1f04b5820657c08a601637bf088b69",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Chris Livingston",
+      "nba_player_id": "1641753",
+      "player_id": "player_fad835573ed853dd9078de19116c6da1",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Seth Lundy",
+      "nba_player_id": "1641754",
+      "player_id": "player_410985889ad75e9d9805f5bf0e28ed69",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kevin McCullar Jr.",
+      "nba_player_id": "1641755",
+      "player_id": "player_8606b432202b55e89c91cd1db901e0dc",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jordan Miller",
+      "nba_player_id": "1641757",
+      "player_id": "player_dc4ba24d12bd5a239910eec90a6988e1",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Grant Nelson",
+      "nba_player_id": "1641761",
+      "player_id": "player_9fb0520732ac5c5e9df6dc85d2b22476",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Julian Phillips",
+      "nba_player_id": "1641763",
+      "player_id": "player_ca1ae15a49c35bdb8a545faad4bf6998",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Brandin Podziemski",
+      "nba_player_id": "1641764",
+      "player_id": "player_1b404b180cf658229bfb4a2d1501c84a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Olivier-Maxence Prosper",
+      "nba_player_id": "1641765",
+      "player_id": "player_24426efa389b510b8d3ef1df2445841b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Adama Sanogo",
+      "nba_player_id": "1641766",
+      "player_id": "player_4572799a363d5dbf97e07d93425b2747",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ben Sheppard",
+      "nba_player_id": "1641767",
+      "player_id": "player_f42f4dbb5ce250d9ae27ffbf05abb0dc",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jalen Slawson",
+      "nba_player_id": "1641771",
+      "player_id": "player_e26541f4a4905254a99cf26e1d4e58da",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Nae'Qwan Tomlin",
+      "nba_player_id": "1641772",
+      "player_id": "player_fcae59329c465f0d9afa781e56db0fc9",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tristan Vukcevic",
+      "nba_player_id": "1641774",
+      "player_id": "player_237983bdd500566c8b863a0a009b32d9",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jordan Walsh",
+      "nba_player_id": "1641775",
+      "player_id": "player_2db3d77344af5a04add7ec57d975b8d5",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Leaky Black",
+      "nba_player_id": "1641778",
+      "player_id": "player_e2f0d204aa96538faef832e6c5169d9b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jalen Bridges",
+      "nba_player_id": "1641779",
+      "player_id": "player_85ec706080ef59ebbdff391178b438d8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Johni Broome",
+      "nba_player_id": "1641780",
+      "player_id": "player_08963bc456d45c2cb29f3befd272e95e",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tristan da Silva",
+      "nba_player_id": "1641783",
+      "player_id": "player_b21d36486e685cf89e70c973346f1845",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tosan Evbuomwan",
+      "nba_player_id": "1641787",
+      "player_id": "player_5ef52999894354a1a5dc43ce5c2b0b71",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Alex Fudge",
+      "nba_player_id": "1641788",
+      "player_id": "player_8da1743dc15e55b29522bf4693236874",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jazian Gortman",
+      "nba_player_id": "1641789",
+      "player_id": "player_2cbb21d981cb54cc80b3888c4db2b464",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "PJ Hall",
+      "nba_player_id": "1641790",
+      "player_id": "player_0b2c8d8d2aeb586dbd363f314a8ea17b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "D'Moi Hodge",
+      "nba_player_id": "1641793",
+      "player_id": "player_75ed3a7c821c5972904f3d908761cdf3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dillon Jones",
+      "nba_player_id": "1641794",
+      "player_id": "player_5524c12a7f165f75bf1d615213881388",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Pelle Larsson",
+      "nba_player_id": "1641796",
+      "player_id": "player_3dd30ef3a5f05707a2de558d4f149cf8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jaylen Martin",
+      "nba_player_id": "1641798",
+      "player_id": "player_8b47963a27f8578e90f2d34dae889bcb",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Emanuel Miller",
+      "nba_player_id": "1641801",
+      "player_id": "player_270094596d1e521c8d81e1972a3448df",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tristen Newton",
+      "nba_player_id": "1641803",
+      "player_id": "player_d69c14f8984256e4980bb2e5343b252a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Markquis Nowell",
+      "nba_player_id": "1641806",
+      "player_id": "player_b55173bfdd2754a386353f3cef72a4cd",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Norchad Omier",
+      "nba_player_id": "1641807",
+      "player_id": "player_e9ccb3b254395a39be5e99ed40ff261c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Drew Peterson",
+      "nba_player_id": "1641809",
+      "player_id": "player_20491ebaa2c35fca83edc833c061ab27",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Antonio Reeves",
+      "nba_player_id": "1641810",
+      "player_id": "player_aa948f7d32595bc89c027fab3336404c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Mark Sears",
+      "nba_player_id": "1641813",
+      "player_id": "player_942f73b718095f6db93e82ee35bb4566",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Isaiah Stevens",
+      "nba_player_id": "1641815",
+      "player_id": "player_e49bf94ac32251d78959006848bbe9b9",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Hunter Tyson",
+      "nba_player_id": "1641816",
+      "player_id": "player_3dff01514e5857cbb4f7671397aceb78",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Anton Watson",
+      "nba_player_id": "1641817",
+      "player_id": "player_4c50be6bf45055f5b3d5dac8b0bde611",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Matas Buzelis",
+      "nba_player_id": "1641824",
+      "player_id": "player_5f66c06ac3e857dfaf1dda01b89ad16b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ronald Holland II",
+      "nba_player_id": "1641842",
+      "player_id": "player_4fa8f792275e5388b4388b40a31ad58f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Andrew Funk",
+      "nba_player_id": "1641847",
+      "player_id": "player_de11a93a75de5e8e8019bbe7307a727d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Timmy Allen",
+      "nba_player_id": "1641851",
+      "player_id": "player_2e2dc321979d5ed5bcfdb419501ac0a7",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Craig Porter Jr.",
+      "nba_player_id": "1641854",
+      "player_id": "player_0868901d328d5fbaa24beda43228884b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Liam Robbins",
+      "nba_player_id": "1641857",
+      "player_id": "player_469613ccd27b5fa1b1d8c672a5d31b12",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Malachi Smith",
+      "nba_player_id": "1641869",
+      "player_id": "player_b8de3c12a26f50bcafabdcffade9d655",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Duop Reath",
+      "nba_player_id": "1641871",
+      "player_id": "player_af10553d927154e0a88126e8299e535d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Nathan Mensah",
+      "nba_player_id": "1641877",
+      "player_id": "player_bc4cd4b76dcd57d6bec416185964187a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Damion Baugh",
+      "nba_player_id": "1641878",
+      "player_id": "player_7f99e70275695981bbeb3d11496eea3f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Yuri Collins",
+      "nba_player_id": "1641879",
+      "player_id": "player_df8add21f3c950ca993fd0285ab35196",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tyler Smith",
+      "nba_player_id": "1641890",
+      "player_id": "player_96aa567ed593589698cd17ba192d893b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dexter Dennis",
+      "nba_player_id": "1641926",
+      "player_id": "player_07fb7905c4875a4ea61a0d81f72b385d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Onuralp Bitim",
+      "nba_player_id": "1641931",
+      "player_id": "player_b77275191d7054b9bb97c592d4783dc1",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Miles Norris",
+      "nba_player_id": "1641936",
+      "player_id": "player_530a7ca57f82501ba3d063a50310a030",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Maozinha Pereira",
+      "nba_player_id": "1641970",
+      "player_id": "player_1fcd1106d6bc5de79657a6b793fa07ec",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Elijah Harkless",
+      "nba_player_id": "1641989",
+      "player_id": "player_bf522c5f30515a93a4dafa14622e216f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Trey Jemison III",
+      "nba_player_id": "1641998",
+      "player_id": "player_27eb007d10b3569eb10e514b5468a243",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Malik Williams",
+      "nba_player_id": "1642013",
+      "player_id": "player_d9581b7dcdae5cccb6c01c8c131a499c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Alex Reese",
+      "nba_player_id": "1642024",
+      "player_id": "player_494e7ce1dfe9594ba411458a4322e11d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jackson Rowe",
+      "nba_player_id": "1642050",
+      "player_id": "player_206cbb2093475dba85deb989a9af0525",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Myron Gardner",
+      "nba_player_id": "1642066",
+      "player_id": "player_2a45a699e43c5f259d42c02cd0d00dd8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Zaccharie Risacher",
+      "nba_player_id": "1642258",
+      "player_id": "player_5eb4df3cd8bd5692a430d639a90ef49a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Alex Sarr",
+      "nba_player_id": "1642259",
+      "player_id": "player_d2426b996c0e5a3d9b96e6a699c78458",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Nikola Topić",
+      "nba_player_id": "1642260",
+      "player_id": "player_ade8d89b98c45b0c89bd2e4bf5df2d1a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dalton Knecht",
+      "nba_player_id": "1642261",
+      "player_id": "player_7df73a8ec8ee50f1a97f14a141ac86b3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cody Williams",
+      "nba_player_id": "1642262",
+      "player_id": "player_9bfd648e20905316afee215c7addb839",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Reed Sheppard",
+      "nba_player_id": "1642263",
+      "player_id": "player_b6b10e380ec050c6851bf24943c940a0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Stephon Castle",
+      "nba_player_id": "1642264",
+      "player_id": "player_e727b85413005590a6e0db09a2c42f20",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Rob Dillingham",
+      "nba_player_id": "1642265",
+      "player_id": "player_d0a04fa787465e2e8de8782729d95a80",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ja'Kobe Walter",
+      "nba_player_id": "1642266",
+      "player_id": "player_b0f9cf3c4d745c6b8ab2aa56a083ea67",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Bub Carrington",
+      "nba_player_id": "1642267",
+      "player_id": "player_a83a0ae426c056fea667b6826836203f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Isaiah Collier",
+      "nba_player_id": "1642268",
+      "player_id": "player_6ead05efbfa25a1ea8d6c520e2354a9b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Devin Carter",
+      "nba_player_id": "1642269",
+      "player_id": "player_b31d4a20d3695e568994511e7c87ef41",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Donovan Clingan",
+      "nba_player_id": "1642270",
+      "player_id": "player_be2d84ea99ca5197bbeb194e9bfcaf5a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kyle Filipowski",
+      "nba_player_id": "1642271",
+      "player_id": "player_317042c103e957bca8b52f81073e169a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jared McCain",
+      "nba_player_id": "1642272",
+      "player_id": "player_1c59a4e2584e51e591a17caac3410d4d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kyshawn George",
+      "nba_player_id": "1642273",
+      "player_id": "player_7c321e27b94e56eda32b69b40621c889",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Yves Missi",
+      "nba_player_id": "1642274",
+      "player_id": "player_ba71cfb63e645c0085de9b64e9ce4906",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tidjane Salaün",
+      "nba_player_id": "1642275",
+      "player_id": "player_2b9c8a4387e450bfa42fa1d0e47c4517",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kel'el Ware",
+      "nba_player_id": "1642276",
+      "player_id": "player_16d519cf18c65e0883143ef70237ad57",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Johnny Furphy",
+      "nba_player_id": "1642277",
+      "player_id": "player_9e920704b33f542891606db2baa7a803",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tyler Kolek",
+      "nba_player_id": "1642278",
+      "player_id": "player_318434b771365b1bbd7fc33d2557c695",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ulrich Chomche",
+      "nba_player_id": "1642279",
+      "player_id": "player_81deedfa3ac65c6a91d24a8c4728c87f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Trentyn Flowers",
+      "nba_player_id": "1642280",
+      "player_id": "player_27b752cd17f45331bc9da1a16f54f0a0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jaylon Tyson",
+      "nba_player_id": "1642281",
+      "player_id": "player_e03ad71761d25225839099858ef9c994",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Hunter Sallis",
+      "nba_player_id": "1642282",
+      "player_id": "player_f036847833135b009e166c7e683496a6",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cam Spencer",
+      "nba_player_id": "1642285",
+      "player_id": "player_f28c8a481a365480aa9e8e8829578bf8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Oso Ighodaro",
+      "nba_player_id": "1642345",
+      "player_id": "player_c7488fb6a2315be9b29b0adcee8fc2a4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ryan Dunn",
+      "nba_player_id": "1642346",
+      "player_id": "player_5db9fdb8f81f57d3b5c67918fed0cab4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jamal Shead",
+      "nba_player_id": "1642347",
+      "player_id": "player_f18f4036a2fb5080a189c5c30e7928fb",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Justin Edwards",
+      "nba_player_id": "1642348",
+      "player_id": "player_b75d99f72320591c89f7899578744387",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ajay Mitchell",
+      "nba_player_id": "1642349",
+      "player_id": "player_f0d6d117b75557668adb72dd859ceddc",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Keshad Johnson",
+      "nba_player_id": "1642352",
+      "player_id": "player_a90880bdd0025b9492039416d5b6b38c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cam Christie",
+      "nba_player_id": "1642353",
+      "player_id": "player_6deba25791535ab7aba1c53a94d5eed4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "KJ Simpson",
+      "nba_player_id": "1642354",
+      "player_id": "player_b914fcc6155859db8b341d43fd567d99",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Bronny James",
+      "nba_player_id": "1642355",
+      "player_id": "player_2de99f530ca2596183c3ef6c5ec8e822",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "David Jones Garcia",
+      "nba_player_id": "1642357",
+      "player_id": "player_a15e29ed82155a358fc4584e875f3e4a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "AJ Johnson",
+      "nba_player_id": "1642358",
+      "player_id": "player_443d966ab3a753ac999410bc01060939",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Pacôme Dadiet",
+      "nba_player_id": "1642359",
+      "player_id": "player_a7ee4b0306c953d694aa566581c4d934",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Payton Sandfort",
+      "nba_player_id": "1642362",
+      "player_id": "player_e8d2386861f25c04ab95825d10cf3a1a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Nique Clifford",
+      "nba_player_id": "1642363",
+      "player_id": "player_c3cb9b3ceab75d6d9bf87c617bff128b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jamir Watkins",
+      "nba_player_id": "1642364",
+      "player_id": "player_31d7da2355635146badeed241af71d9a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Quinten Post",
+      "nba_player_id": "1642366",
+      "player_id": "player_071676a17c045fc8acf4404a30ac0e62",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jonathan Mogbo",
+      "nba_player_id": "1642367",
+      "player_id": "player_3fad1ef6d99f571c8eaa5dbd8a6070e5",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "N'Faly Dante",
+      "nba_player_id": "1642368",
+      "player_id": "player_b589c52070e35a7c9fbacc29c67f259c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jaylen Wells",
+      "nba_player_id": "1642377",
+      "player_id": "player_00364ef7d8545b528e05b56ddc6c4343",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Adama Bal",
+      "nba_player_id": "1642380",
+      "player_id": "player_f08bebb3de7c5a7690bafda6479c0790",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Branden Carlson",
+      "nba_player_id": "1642382",
+      "player_id": "player_73b3d3baacea54db8eb11b215676ec59",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Walter Clayton Jr.",
+      "nba_player_id": "1642383",
+      "player_id": "player_2c091aeaf4ca51758b1abb16847a9823",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Isaiah Crawford",
+      "nba_player_id": "1642384",
+      "player_id": "player_071102576946545db0b18729277ecf1d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cui Cui",
+      "nba_player_id": "1642385",
+      "player_id": "player_44eac00801ce51dca55c48c49d32e22d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Zyon Pullin",
+      "nba_player_id": "1642389",
+      "player_id": "player_5912366e54855b28bc0a7ac19a0f1841",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Blake Hinson",
+      "nba_player_id": "1642396",
+      "player_id": "player_602f1df14f405d75b2de59eaf4fa4c9c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jesse Edwards",
+      "nba_player_id": "1642399",
+      "player_id": "player_466338e2ffba558585d6aafeaf3a1b20",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tristan Enaruna",
+      "nba_player_id": "1642400",
+      "player_id": "player_f78893f07bb85c9d9ffca22129c8c77a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Enrique Freeman",
+      "nba_player_id": "1642402",
+      "player_id": "player_5a23a242f354523f98817ba0f970409d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Isaac Jones",
+      "nba_player_id": "1642403",
+      "player_id": "player_9239abe7aef85d158f774f56048d3491",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Chaz Lanier",
+      "nba_player_id": "1642404",
+      "player_id": "player_eed0c56f306a575eb119e67f9e616796",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jamison Battle",
+      "nba_player_id": "1642419",
+      "player_id": "player_e19025b7b9ec52e788cc8d2cd2a3be9b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Armel Traore",
+      "nba_player_id": "1642422",
+      "player_id": "player_87a3eb81fa1b5f7788dd08d120c8a036",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Riley Minix",
+      "nba_player_id": "1642434",
+      "player_id": "player_ab43d80b34f35be49e5fc111c7b30cf6",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Quincy Olivari",
+      "nba_player_id": "1642439",
+      "player_id": "player_03ff382758d45db8b6ac324a325a53c3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jahmir Young",
+      "nba_player_id": "1642443",
+      "player_id": "player_b5574a19cced5ac5ba2095c2f116475f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tolu Smith",
+      "nba_player_id": "1642449",
+      "player_id": "player_58c104196b97543ab8012fc195ac8530",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Daniss Jenkins",
+      "nba_player_id": "1642450",
+      "player_id": "player_c597f4a3e817560490e7157dc9e009c7",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Spencer Jones",
+      "nba_player_id": "1642461",
+      "player_id": "player_f078165464f8560a823eeb7427140e74",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Darius Brown II",
+      "nba_player_id": "1642468",
+      "player_id": "player_07de601aac155770b2307a56a1574973",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "RayJ Dennis",
+      "nba_player_id": "1642484",
+      "player_id": "player_b9c829d63f145564b2eceee5d788eb84",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Josh Oduro",
+      "nba_player_id": "1642490",
+      "player_id": "player_8cfb451a05a55e8c8f51c52fa9c83e26",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Malevy Leons",
+      "nba_player_id": "1642502",
+      "player_id": "player_20526b5bfa66534493ee70ff07e5cf24",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cormac Ryan",
+      "nba_player_id": "1642504",
+      "player_id": "player_5631bcf6da0e5cba8adb9d6688288c6b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Alex Ducas",
+      "nba_player_id": "1642505",
+      "player_id": "player_885b14d769fe5b0492763f98e1579d42",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Yuki Kawamura",
+      "nba_player_id": "1642530",
+      "player_id": "player_567d295d4d225b6fb3a8ab05b9781f2e",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cooper Flagg",
+      "nba_player_id": "1642843",
+      "player_id": "player_4766fe43dbb658dca7e43f4662115507",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dylan Harper",
+      "nba_player_id": "1642844",
+      "player_id": "player_dfa036aa65d55452a2a93edf646d7ed4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "VJ Edgecombe",
+      "nba_player_id": "1642845",
+      "player_id": "player_f52ad1b2875e564fb454b9a4f5eba5e8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ace Bailey",
+      "nba_player_id": "1642846",
+      "player_id": "player_c0456ca4149552158ed217ba0863af1e",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jeremiah Fears",
+      "nba_player_id": "1642847",
+      "player_id": "player_afdd2dd6055657b99401f28bea1d79c4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tre Johnson",
+      "nba_player_id": "1642848",
+      "player_id": "player_f1837bdf55dc5cf3af250363f8ddd472",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Nolan Traore",
+      "nba_player_id": "1642849",
+      "player_id": "player_0f4e1e3e03ce59828e5bf609e3c601f4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kon Knueppel",
+      "nba_player_id": "1642851",
+      "player_id": "player_a86c73cc1da15082855bc754c32b0126",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Derik Queen",
+      "nba_player_id": "1642852",
+      "player_id": "player_0811b897533053e491b790cc3088fa8b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Rasheer Fleming",
+      "nba_player_id": "1642853",
+      "player_id": "player_e5abfdb19bce588b957e029c5e82d893",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Asa Newell",
+      "nba_player_id": "1642854",
+      "player_id": "player_13c7b7fe767e51e9a452b4c1f9369ba0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Noa Essengue",
+      "nba_player_id": "1642855",
+      "player_id": "player_3b70afaa6ba45359a250805153ccbb2f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Egor Dëmin",
+      "nba_player_id": "1642856",
+      "player_id": "player_4655abe3684e53b5be098be3416e89eb",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kasparas Jakučionis",
+      "nba_player_id": "1642857",
+      "player_id": "player_a74da09f288f53c5a2e4e39c96d33dba",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jase Richardson",
+      "nba_player_id": "1642859",
+      "player_id": "player_689b285d899b5953899dc6793ebb063f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Will Riley",
+      "nba_player_id": "1642860",
+      "player_id": "player_13d844bda5c55747857cf8f03df0e2e4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Liam McNeeley",
+      "nba_player_id": "1642862",
+      "player_id": "player_a30abd19204159aa9a2cd54e9fc108df",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Khaman Maluach",
+      "nba_player_id": "1642863",
+      "player_id": "player_6c32c3af50055e82aa254dfbdee8d265",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Hugo González",
+      "nba_player_id": "1642864",
+      "player_id": "player_8794d91a2e8f54afb587bf1a4dea5a3f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Joan Beringer",
+      "nba_player_id": "1642866",
+      "player_id": "player_625a729409a3513fb11fb2f475c3d5e1",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Collin Murray-Boyles",
+      "nba_player_id": "1642867",
+      "player_id": "player_e9d255581c635bbb91ba7fa004401eb6",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Carter Bryant",
+      "nba_player_id": "1642868",
+      "player_id": "player_637c2b3c17e75a53812c9fc608de2854",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Noah Penda",
+      "nba_player_id": "1642869",
+      "player_id": "player_c92245e002bc503c84cbadb58fc1b14e",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Amari Williams",
+      "nba_player_id": "1642873",
+      "player_id": "player_8d96ab903e565ad5a901a7236bae1fe9",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Danny Wolf",
+      "nba_player_id": "1642874",
+      "player_id": "player_b5dfa37db2155107ac181f9ba1e735c6",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Maxime Raynaud",
+      "nba_player_id": "1642875",
+      "player_id": "player_db083567db3e53cdbc8120b3e4a2d7a0",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Adou Thiero",
+      "nba_player_id": "1642876",
+      "player_id": "player_e45a79c8b5b05a6e96e9197b7ea468ae",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Micah Peavy",
+      "nba_player_id": "1642877",
+      "player_id": "player_bbe209dcaae55d1ba817d9354958534d",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Tyrese Proctor",
+      "nba_player_id": "1642878",
+      "player_id": "player_f10dac6c51ce5293ade03261642aa90b",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ben Saraf",
+      "nba_player_id": "1642879",
+      "player_id": "player_b23d1ea6518252a1a0e635f22f00f934",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kam Jones",
+      "nba_player_id": "1642880",
+      "player_id": "player_c675691d815755e7ba297d28c540687c",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Julian Reese",
+      "nba_player_id": "1642882",
+      "player_id": "player_5ec2ea1b1db25bdf8a4a57309bdc9208",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Sion James",
+      "nba_player_id": "1642883",
+      "player_id": "player_f8408f83ad1955ec9cd5990921df2f55",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Vladislav Goldin",
+      "nba_player_id": "1642884",
+      "player_id": "player_d58b6e7767d25a9ca6725225fb0d9d12",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Mohamed Diawara",
+      "nba_player_id": "1642885",
+      "player_id": "player_12a60da491f85a61bef546aa500b55ed",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Koby Brea",
+      "nba_player_id": "1642886",
+      "player_id": "player_0c48c6ab44875910819cf44c98169812",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Yang Hansen",
+      "nba_player_id": "1642905",
+      "player_id": "player_ad45688876665ad290b714976a9cee72",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Cedric Coward",
+      "nba_player_id": "1642907",
+      "player_id": "player_3142db5d8e25565289a45a1367bf42d4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "John Tonje",
+      "nba_player_id": "1642910",
+      "player_id": "player_2c7fb5cb581450a4a75ab6af2b259988",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Rocco Zikarsky",
+      "nba_player_id": "1642911",
+      "player_id": "player_eca907b234345a2c9cd1630b524cdfe8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Javon Small",
+      "nba_player_id": "1642914",
+      "player_id": "player_f71fd745a52851dbae3955f6ff33efd7",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Max Shulga",
+      "nba_player_id": "1642917",
+      "player_id": "player_8c70b8c216425485b555933b6e74ae73",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Alijah Martin",
+      "nba_player_id": "1642918",
+      "player_id": "player_38391b841d3e54079a985142bf83e7b8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kobe Sanders",
+      "nba_player_id": "1642920",
+      "player_id": "player_cfc1348d99b2512b8187f541c5d778f3",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Dylan Cardwell",
+      "nba_player_id": "1642928",
+      "player_id": "player_2852ef8d0ad6536cb4c198a83ec3b7f9",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Keshon Gilbert",
+      "nba_player_id": "1642933",
+      "player_id": "player_ff37fabf3dab5e0793ce09cacfe0a200",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Chucky Hepburn",
+      "nba_player_id": "1642935",
+      "player_id": "player_2c3f35e4a4b852cb9136016a006ac5f4",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Curtis Jones",
+      "nba_player_id": "1642938",
+      "player_id": "player_6b603d0aa9d75a979000da02b5cabfca",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Miles Kelly",
+      "nba_player_id": "1642939",
+      "player_id": "player_fe938ff24dd65d66a9f720de0253cc81",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jahmai Mashack",
+      "nba_player_id": "1642942",
+      "player_id": "player_87086204eeff5b18a6821cc3532090c7",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Ryan Nembhard",
+      "nba_player_id": "1642948",
+      "player_id": "player_dd60b5deeff553c59618a73b5a063709",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Yanic Konan Niederhäuser",
+      "nba_player_id": "1642949",
+      "player_id": "player_9e14685345e35f8c83612c7f75de360a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Lachlan Olbrich",
+      "nba_player_id": "1642950",
+      "player_id": "player_02e926044ae953b891b85386edc49440",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Sean Pedulla",
+      "nba_player_id": "1642951",
+      "player_id": "player_394c0691e05b50669fcf1ad1160468f8",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Will Richard",
+      "nba_player_id": "1642954",
+      "player_id": "player_08a8e324e57750f182b5aaa330d613b9",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Kadary Richmond",
+      "nba_player_id": "1642955",
+      "player_id": "player_3581c243e63a5bb48a717a2121e555c2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Chris Youngblood",
+      "nba_player_id": "1642959",
+      "player_id": "player_46d9d58b5bd858d0b97618c4eee0c2df",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Drake Powell",
+      "nba_player_id": "1642962",
+      "player_id": "player_86a002fbaf1c56b89adba13be42241fe",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Brooks Barnhizer",
+      "nba_player_id": "1642964",
+      "player_id": "player_063c2c8db4b85bc9bd1734cbce06fecf",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "John Poulakidas",
+      "nba_player_id": "1642967",
+      "player_id": "player_55749e82c20452a3bbcefa661494ac96",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Taelon Peter",
+      "nba_player_id": "1643007",
+      "player_id": "player_d1887d6812515f19a74db69a42b1b570",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Bez Mbeng",
+      "nba_player_id": "1643016",
+      "player_id": "player_447cdf3da70a538c9b743e73aa4e86c5",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "LJ Cryer",
+      "nba_player_id": "1643018",
+      "player_id": "player_31616263d0825eddbe260d51b8908897",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Chris Mañon",
+      "nba_player_id": "1643024",
+      "player_id": "player_1112c907b7be569bb52fcd1fda7a3eab",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "CJ Huntley",
+      "nba_player_id": "1643047",
+      "player_id": "player_5045d4ec89ab5fabb6990617a794991f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Chaney Johnson",
+      "nba_player_id": "1643052",
+      "player_id": "player_b31a899a8cc658c48b754d2d6f342335",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Hayden Gray",
+      "nba_player_id": "1643060",
+      "player_id": "player_907b9b543ead55b48383111940a15231",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Lawson Lovering",
+      "nba_player_id": "1643133",
+      "player_id": "player_ca5a7233e1565904ae23aeb662740944",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jahmyl Telfort",
+      "nba_player_id": "1643141",
+      "player_id": "player_39553653959454fc8ee1c81ed0975be2",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Andersson Garcia",
+      "nba_player_id": "1643158",
+      "player_id": "player_957d0f8ea20c50bfbf26f61ddbc26563",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Toby Okani",
+      "nba_player_id": "1643253",
+      "player_id": "player_051cd7c548ad5f2789640fc45a36d367",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Jayson Kent",
+      "nba_player_id": "1643257",
+      "player_id": "player_73262521069e57e2a5a900433e37698f",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Corey Williams",
+      "nba_player_id": "200603",
+      "player_id": "player_918fd05db65c53fdb926981bd46d3a1a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Vasilije Micic",
+      "nba_player_id": "203995",
+      "player_id": "player_8118cde9d8095905921a5def649fdfe5",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    },
+    {
+      "diagnostic_name": "Bobby Watson",
+      "nba_player_id": "79635",
+      "player_id": "player_700b684881e05d93ada5e57338a9a84a",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006"
+    }
+  ],
+  "provisional_identities": 311,
+  "run_at": "2026-08-29T16:00:00Z",
+  "schema_version": 1,
+  "source_rows": 1481850,
+  "step": "STEP-0006",
+  "step_0005_canonical_id_conflicts": [],
+  "step_0005_canonical_ids_checked": 249,
+  "unresolved": 0
+}

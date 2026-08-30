@@ -68,3 +68,19 @@ The STEP-0005 empirical coverage report uses an analytical qualification vocabul
 - `UNKNOWN`: the metric is conceptually applicable but has no usable observation.
 
 Each record stores row, non-null, null, observed-zero, and distinct-player counts plus percentages, endpoint, documented status, and thresholds. Column existence alone never produces `RELIABLE`.
+
+## GOATLAB-HIST-V1 physical corpus
+
+The STEP-0006 frozen release applies the existing Silver contracts to every Regular Season and Playoff partition from 1946-47 through 2025-26:
+
+- 160 `player_game_stats` partitions at canonical grain `(game_id, player_id, team_id)`.
+- 160 `player_season_stats` partitions containing 40,553 TEAM and 37,472 TOTAL rows.
+- 60 `player_season_advanced` TOTAL partitions from the empirical 1996-97 boundary.
+
+The generated Parquet files remain ignored. `docs/data/historical-corpus-v1-manifest.json` is the committed physical catalog: it stores relative path, row/column count, byte size, and SHA-256 for each of 380 partitions plus an aggregate fingerprint. `historical_corpus_end_season` is fixed at `2025-26`; a post-cutoff partition is invalid for this corpus.
+
+The ignored backfill checkpoint records one state for every request scope: `PENDING`, `SUCCESS_WITH_ROWS`, `SUCCESS_EMPTY`, `FAILED_RETRYABLE`, `FAILED_PERMANENT`, or `UNSUPPORTED`. Output state is tracked separately so acquisition success cannot be confused with a written/reconciled Silver partition.
+
+Official-source-only `nba_player_id` values receive deterministic canonical IDs and a provenance-bearing provisional identity rather than losing their facts. Provisional describes incomplete biography metadata, not an unresolved relational key. Team crosswalk rows use official `nba_team_id` and observed name/version evidence; legacy validity-window conflicts are diagnostic.
+
+The full empirical metric matrix contains 3,040 records using the unchanged qualification vocabulary. The full quality report separately counts source anomaly quarantine and pipeline error quarantine; only accepted Silver rows participate in aggregation.

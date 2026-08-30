@@ -129,6 +129,7 @@ def resolve_player_identities(
             missing += 1
             continue
         nba_id = str(value)
+        names.setdefault(nba_id, set())
         if row.get("PLAYER_NAME"):
             names[nba_id].add(str(row["PLAYER_NAME"]).strip())
     resolved: dict[str, IdentityResolution] = {}

@@ -1,0 +1,1531 @@
+{
+  "business_key": "official NBA TEAM_ID plus observed name-version evidence",
+  "canonical_team_identities": 74,
+  "canonical_team_versions": 74,
+  "corpus_id": "GOATLAB-HIST-V1",
+  "crosswalk": [
+    {
+      "abbreviation": "AND",
+      "franchise_id": "franchise_867772b812475698ba7c17897437da08",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610023",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_12eedcf19a855d65a89163cbc1b34da8",
+      "team_name": "Anderson Packers",
+      "valid_from_year_observed": 1949,
+      "valid_to_year_observed": 1949
+    },
+    {
+      "abbreviation": "BAL",
+      "franchise_id": "franchise_3f3afc2537925615b913bd4fe8435acf",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610024",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_fb3b70ea336f5ba0b1d416af99cbb992",
+      "team_name": "Baltimore Bullets",
+      "valid_from_year_observed": 1947,
+      "valid_to_year_observed": 1953
+    },
+    {
+      "abbreviation": "CHS",
+      "franchise_id": "franchise_1a5ac0ec657a55669a14281b5ceb3e5f",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610025",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_20dd6ead1a9855b6a8fcdb801be663b8",
+      "team_name": "Chicago Stags",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1949
+    },
+    {
+      "abbreviation": "CLR",
+      "franchise_id": "franchise_3b08772edc2153ba98a2b0795d845edf",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610026",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_ffb5b8e284a650df92af7f728d2d23eb",
+      "team_name": "Cleveland Rebels",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1946
+    },
+    {
+      "abbreviation": "DN",
+      "franchise_id": "franchise_e01d09f411605d02aef108eeea0fecc5",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610027",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_9bbb1c058db2557085c75d9539a242c3",
+      "team_name": "Denver Nuggets",
+      "valid_from_year_observed": 1949,
+      "valid_to_year_observed": 1949
+    },
+    {
+      "abbreviation": "DEF",
+      "franchise_id": "franchise_7a7bc3b4371452dd9b7fff1758568619",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610028",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_e213990065a95b7d9ef84f1bff57ae52",
+      "team_name": "Detroit Falcons",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1946
+    },
+    {
+      "abbreviation": "JET",
+      "franchise_id": "franchise_c144c270d18a528ab71e176048f234d1",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610029",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_95c03767fb8753f8b1f3c00588251fd4",
+      "team_name": "Indianapolis Jets",
+      "valid_from_year_observed": 1948,
+      "valid_to_year_observed": 1948
+    },
+    {
+      "abbreviation": "INO",
+      "franchise_id": "franchise_e703ab5e22d75ffb9765e3727fa28735",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610030",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_81b109855ee051348d49340b0be3a31f",
+      "team_name": "Indianapolis Olympians",
+      "valid_from_year_observed": 1949,
+      "valid_to_year_observed": 1952
+    },
+    {
+      "abbreviation": "PIT",
+      "franchise_id": "franchise_2b1e6ab9ecd45a25aa22feaf359cfcbb",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610031",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_026e52473be8535f91ed2dc44f8d9214",
+      "team_name": "Pittsburgh Ironmen",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1946
+    },
+    {
+      "abbreviation": "PRO",
+      "franchise_id": "franchise_b4961353f4705889a771228e540b2713",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610032",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_78e74ff3e72a5ba6bbd388cda2336996",
+      "team_name": "Providence Steamrollers",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1948
+    },
+    {
+      "abbreviation": "SHE",
+      "franchise_id": "franchise_ceffc7da13f6570d9829c22ce5041117",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610033",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_591f8221ec6f5b13b8c2da4b5cb6f202",
+      "team_name": "Sheboygan Redskins",
+      "valid_from_year_observed": 1949,
+      "valid_to_year_observed": 1949
+    },
+    {
+      "abbreviation": "BOM",
+      "franchise_id": "franchise_bca7e990fd3358cf92fcc203d1c95e69",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610034",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_b97f3c4fbe3754f1838554848507fc44",
+      "team_name": "St. Louis Bombers",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1949
+    },
+    {
+      "abbreviation": "HUS",
+      "franchise_id": "franchise_59f8d3877a3d5730a16f490d793d3886",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610035",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_da92e824ed8c5d0db85f1e4f617b96d6",
+      "team_name": "Toronto Huskies",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1946
+    },
+    {
+      "abbreviation": "WAS",
+      "franchise_id": "franchise_36afcffb115a5db298599af27d1b0113",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610036",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_1fc87c6402c058a78bf368f805c285cc",
+      "team_name": "Washington Capitols",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1950
+    },
+    {
+      "abbreviation": "WAT",
+      "franchise_id": "franchise_8fc479b1a86758b1b469322287704a26",
+      "legacy_id_match": false,
+      "nba_team_id": "1610610037",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_d3b7eb3c4ffc56d4b77324e6190380b5",
+      "team_name": "Waterloo Hawks",
+      "valid_from_year_observed": 1949,
+      "valid_to_year_observed": 1949
+    },
+    {
+      "abbreviation": "ATL",
+      "franchise_id": "franchise_91cc9885aa395f52b2d82fa868dba316",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612737",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_0806b2c1c9b6521eb6dd10ccecd3463d",
+      "team_name": "Atlanta Hawks",
+      "valid_from_year_observed": 1968,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "MIH",
+      "franchise_id": "franchise_91cc9885aa395f52b2d82fa868dba316",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612737",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_af520f2cd5e15eb9b3d643536e677586",
+      "team_name": "Milwaukee Hawks",
+      "valid_from_year_observed": 1951,
+      "valid_to_year_observed": 1954
+    },
+    {
+      "abbreviation": "STL",
+      "franchise_id": "franchise_91cc9885aa395f52b2d82fa868dba316",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612737",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_048c89ece26253f1aa7f0d0b4fbabf45",
+      "team_name": "St. Louis Hawks",
+      "valid_from_year_observed": 1955,
+      "valid_to_year_observed": 1967
+    },
+    {
+      "abbreviation": "TCB",
+      "franchise_id": "franchise_91cc9885aa395f52b2d82fa868dba316",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612737",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_d10ea7dd59455bae88b58ec30a968be4",
+      "team_name": "Tri-Cities Blackhawks",
+      "valid_from_year_observed": 1949,
+      "valid_to_year_observed": 1950
+    },
+    {
+      "abbreviation": "BOS",
+      "franchise_id": "franchise_032c4009c7ce5ee4911e57e36aac494d",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612738",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_e5b01fd2ead15319b849ac265529c655",
+      "team_name": "Boston Celtics",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "CLE",
+      "franchise_id": "franchise_425b27b0265f5b1e88c0dbef7a50f21c",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612739",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_b16d68d8e22f5bbf8b0f85a11560e122",
+      "team_name": "Cleveland Cavaliers",
+      "valid_from_year_observed": 1970,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "NOH",
+      "franchise_id": "franchise_6363a1c98b865c2e8d1899ea417adeb4",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612740",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_8f9f836acbf8588691b04b93f0334f6f",
+      "team_name": "New Orleans Hornets",
+      "valid_from_year_observed": 2002,
+      "valid_to_year_observed": 2012
+    },
+    {
+      "abbreviation": "NOP",
+      "franchise_id": "franchise_6363a1c98b865c2e8d1899ea417adeb4",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612740",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_b450d22d31fd5dcfb4e2e0b3bad07114",
+      "team_name": "New Orleans Pelicans",
+      "valid_from_year_observed": 2013,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "NOK",
+      "franchise_id": "franchise_6363a1c98b865c2e8d1899ea417adeb4",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612740",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_3c1d1e64369c516993c947837038b2f6",
+      "team_name": "New Orleans/Oklahoma City Hornets",
+      "valid_from_year_observed": 2005,
+      "valid_to_year_observed": 2006
+    },
+    {
+      "abbreviation": "CHI",
+      "franchise_id": "franchise_8d0b53b6e3b955e7abdb1cf29dcdb54d",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612741",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_9dd8832e3c945d8bad9bc4be900f64b5",
+      "team_name": "Chicago Bulls",
+      "valid_from_year_observed": 1966,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "DAL",
+      "franchise_id": "franchise_5d3924de7437515789fa63979fb86eb6",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612742",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_53d3d175ac51506c9678c737dd8c2662",
+      "team_name": "Dallas Mavericks",
+      "valid_from_year_observed": 1980,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "DEN",
+      "franchise_id": "franchise_9c1252dee8c4567c87d141c7157ff4ee",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612743",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_34900ca560ae5eb09fa089f5519c7ee1",
+      "team_name": "Denver Nuggets",
+      "valid_from_year_observed": 1976,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": null,
+      "franchise_id": "franchise_7cc4f7c27786575c8808c6831bad0dd5",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612744",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_e9fd4acebea1516195408b656d27b3ab",
+      "team_name": "Golden State Warriors",
+      "valid_from_year_observed": 1971,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "PHW",
+      "franchise_id": "franchise_7cc4f7c27786575c8808c6831bad0dd5",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612744",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_f5ebe3ef44965cf0828ac7013b3ace67",
+      "team_name": "Philadelphia Warriors",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 1961
+    },
+    {
+      "abbreviation": "SFW",
+      "franchise_id": "franchise_7cc4f7c27786575c8808c6831bad0dd5",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612744",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_0c99281e2dde5372870042742ad7e2fb",
+      "team_name": "San Francisco Warriors",
+      "valid_from_year_observed": 1962,
+      "valid_to_year_observed": 1970
+    },
+    {
+      "abbreviation": "HOU",
+      "franchise_id": "franchise_6c23dd7223a059ccbbc00d433d85cf20",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612745",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_d4b32bd55ea35f5883187ec07a0c863e",
+      "team_name": "Houston Rockets",
+      "valid_from_year_observed": 1971,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "SDR",
+      "franchise_id": "franchise_6c23dd7223a059ccbbc00d433d85cf20",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612745",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_de11393dd3bd5e849ef02dcc867d907d",
+      "team_name": "San Diego Rockets",
+      "valid_from_year_observed": 1967,
+      "valid_to_year_observed": 1970
+    },
+    {
+      "abbreviation": "BUF",
+      "franchise_id": "franchise_dae91e003a98578b816f445143f74649",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612746",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_c9f3744ec99c5630aa9bf998f58ffa55",
+      "team_name": "Buffalo Braves",
+      "valid_from_year_observed": 1970,
+      "valid_to_year_observed": 1977
+    },
+    {
+      "abbreviation": "LAC",
+      "franchise_id": "franchise_dae91e003a98578b816f445143f74649",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612746",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_79d1495886955963b23ab4e9f1292b89",
+      "team_name": "LA Clippers",
+      "valid_from_year_observed": 2015,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "LAC",
+      "franchise_id": "franchise_dae91e003a98578b816f445143f74649",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612746",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_cfa0d690b8da5b9486ba6c98e9f8270e",
+      "team_name": "Los Angeles Clippers",
+      "valid_from_year_observed": 1984,
+      "valid_to_year_observed": 2014
+    },
+    {
+      "abbreviation": "SDC",
+      "franchise_id": "franchise_dae91e003a98578b816f445143f74649",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612746",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_fc11968891915a4aaa13ffd311c30466",
+      "team_name": "San Diego Clippers",
+      "valid_from_year_observed": 1978,
+      "valid_to_year_observed": 1983
+    },
+    {
+      "abbreviation": "LAL",
+      "franchise_id": "franchise_5903ea16604653c2925308ac0b6f20e5",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612747",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_d3ff8ac617565d7cae88c6bdf4cb2fc7",
+      "team_name": "Los Angeles Lakers",
+      "valid_from_year_observed": 1960,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "MNL",
+      "franchise_id": "franchise_5903ea16604653c2925308ac0b6f20e5",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612747",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_bff9dfb00af35542969be2c53f1bcff2",
+      "team_name": "Minneapolis Lakers",
+      "valid_from_year_observed": 1948,
+      "valid_to_year_observed": 1959
+    },
+    {
+      "abbreviation": "MIA",
+      "franchise_id": "franchise_a739516477aa517ca88d4510bc5e9c62",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612748",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_47b9f8492a455586ac832a7527561625",
+      "team_name": "Miami Heat",
+      "valid_from_year_observed": 1988,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "MIL",
+      "franchise_id": "franchise_da19931ff3f459098375871fce2d8590",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612749",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_3e319881fa24561eb0a6c43acc87123b",
+      "team_name": "Milwaukee Bucks",
+      "valid_from_year_observed": 1968,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "MIN",
+      "franchise_id": "franchise_979be22be2d85c65936b5e251019b6e6",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612750",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_a4f37627c9445bb1960326339a8bf29c",
+      "team_name": "Minnesota Timberwolves",
+      "valid_from_year_observed": 1989,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "BKN",
+      "franchise_id": "franchise_a78d7ab4ab9a5376937ae3ea6a2e48f0",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612751",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_d26981fc151c539aa364a7fb6ddd2d25",
+      "team_name": "Brooklyn Nets",
+      "valid_from_year_observed": 2012,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "NJN",
+      "franchise_id": "franchise_a78d7ab4ab9a5376937ae3ea6a2e48f0",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612751",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_48e31ec0da595e479c71399a08ce9010",
+      "team_name": "New Jersey Nets",
+      "valid_from_year_observed": 1977,
+      "valid_to_year_observed": 2011
+    },
+    {
+      "abbreviation": "NYN",
+      "franchise_id": "franchise_a78d7ab4ab9a5376937ae3ea6a2e48f0",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612751",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_715bf6e880925b8da116235b2d8daa24",
+      "team_name": "New York Nets",
+      "valid_from_year_observed": 1976,
+      "valid_to_year_observed": 1976
+    },
+    {
+      "abbreviation": "NYK",
+      "franchise_id": "franchise_4fa32d3f556959bb8675918074ee9b89",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612752",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_6cd7b38253855a49a2d3a26450ae347e",
+      "team_name": "New York Knicks",
+      "valid_from_year_observed": 1946,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "ORL",
+      "franchise_id": "franchise_a5eb94e4b00c513186caea9b6053cef8",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612753",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_5d9fa55d92845741a63217b29cb58d11",
+      "team_name": "Orlando Magic",
+      "valid_from_year_observed": 1989,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "IND",
+      "franchise_id": "franchise_4f7a30f5d4bc5f18bd919be08dffe94c",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612754",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_301ebe1a7cbb543b853e0d920f51dabb",
+      "team_name": "Indiana Pacers",
+      "valid_from_year_observed": 1976,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": null,
+      "franchise_id": "franchise_1a2a8b15748c58338730673e5234740c",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612755",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_491b2999b1eb5a30b33e43580d6773a9",
+      "team_name": "Philadelphia 76ers",
+      "valid_from_year_observed": 1963,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "SYR",
+      "franchise_id": "franchise_1a2a8b15748c58338730673e5234740c",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612755",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_154ff2395c2b5078ad8cba4620aaa81f",
+      "team_name": "Syracuse Nationals",
+      "valid_from_year_observed": 1949,
+      "valid_to_year_observed": 1962
+    },
+    {
+      "abbreviation": "PHX",
+      "franchise_id": "franchise_b1668145a88d534b879b0e3944e566cc",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612756",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_d084053875b1559cac2cca1b3a984a86",
+      "team_name": "Phoenix Suns",
+      "valid_from_year_observed": 1968,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "POR",
+      "franchise_id": "franchise_955f867ceab45e7a822aebd0ccbc31d4",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612757",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_5354dd542b4953748fd484927b65610a",
+      "team_name": "Portland Trail Blazers",
+      "valid_from_year_observed": 1970,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "CIN",
+      "franchise_id": "franchise_e7775eed12055d3c86e2248a5a7d0ec3",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612758",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_93dda9a967af5399b287068fa532f277",
+      "team_name": "Cincinnati Royals",
+      "valid_from_year_observed": 1957,
+      "valid_to_year_observed": 1971
+    },
+    {
+      "abbreviation": "KCK",
+      "franchise_id": "franchise_e7775eed12055d3c86e2248a5a7d0ec3",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612758",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_0c35d66c4a385e8984812841238af1e8",
+      "team_name": "Kansas City Kings",
+      "valid_from_year_observed": 1975,
+      "valid_to_year_observed": 1984
+    },
+    {
+      "abbreviation": "KCK",
+      "franchise_id": "franchise_e7775eed12055d3c86e2248a5a7d0ec3",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612758",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_742005ba2de1573092d73581028624f6",
+      "team_name": "Kansas City-Omaha Kings",
+      "valid_from_year_observed": 1972,
+      "valid_to_year_observed": 1974
+    },
+    {
+      "abbreviation": "ROC",
+      "franchise_id": "franchise_e7775eed12055d3c86e2248a5a7d0ec3",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612758",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_a33a20ac89145b59b155de515d1c3ef6",
+      "team_name": "Rochester Royals",
+      "valid_from_year_observed": 1948,
+      "valid_to_year_observed": 1956
+    },
+    {
+      "abbreviation": "SAC",
+      "franchise_id": "franchise_e7775eed12055d3c86e2248a5a7d0ec3",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612758",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_cc3e45249179559dad213bfb5263917a",
+      "team_name": "Sacramento Kings",
+      "valid_from_year_observed": 1985,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": null,
+      "franchise_id": "franchise_9bb619a9e1725915bae341d02de75d2e",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612759",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_b0e86502eb955720bee8be34ed1e765e",
+      "team_name": "San Antonio Spurs",
+      "valid_from_year_observed": 1976,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "OKC",
+      "franchise_id": "franchise_fdceaa2ee5ef544695f98c4e3eeaf707",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612760",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_71fbdf9275955e16a689e08279467832",
+      "team_name": "Oklahoma City Thunder",
+      "valid_from_year_observed": 2008,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "SEA",
+      "franchise_id": "franchise_fdceaa2ee5ef544695f98c4e3eeaf707",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612760",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_b18cc5f56c085b60a3e04c106759d268",
+      "team_name": "Seattle SuperSonics",
+      "valid_from_year_observed": 1967,
+      "valid_to_year_observed": 2007
+    },
+    {
+      "abbreviation": "TOR",
+      "franchise_id": "franchise_beb21d6271195c2c8f758af03cba6874",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612761",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_ab96ff9ee3d454ecb7c0bb39962023da",
+      "team_name": "Toronto Raptors",
+      "valid_from_year_observed": 1995,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "NOJ",
+      "franchise_id": "franchise_f7f13d80cec85d20993f037084b75ed7",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612762",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_8f4dfb12fe235b8cbef276b70438dc42",
+      "team_name": "New Orleans Jazz",
+      "valid_from_year_observed": 1974,
+      "valid_to_year_observed": 1978
+    },
+    {
+      "abbreviation": null,
+      "franchise_id": "franchise_f7f13d80cec85d20993f037084b75ed7",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612762",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_250aca094729582f8b2a2cd301332425",
+      "team_name": "Utah Jazz",
+      "valid_from_year_observed": 1979,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "MEM",
+      "franchise_id": "franchise_2cd2a364bfbe5612b4e7704f7e58931a",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612763",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_994313dbcabc5c44b82bf0ab20df68f3",
+      "team_name": "Memphis Grizzlies",
+      "valid_from_year_observed": 2001,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "VAN",
+      "franchise_id": "franchise_2cd2a364bfbe5612b4e7704f7e58931a",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612763",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_8a3a0b3d8e795883abdb52e6e28a0c63",
+      "team_name": "Vancouver Grizzlies",
+      "valid_from_year_observed": 1995,
+      "valid_to_year_observed": 2000
+    },
+    {
+      "abbreviation": "BLT",
+      "franchise_id": "franchise_a6d064cd69e85c27a897b0950c44df3b",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612764",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_a25c1b81e92c50b3aa9f421298b0b5ba",
+      "team_name": "Baltimore Bullets",
+      "valid_from_year_observed": 1963,
+      "valid_to_year_observed": 1972
+    },
+    {
+      "abbreviation": "CAP",
+      "franchise_id": "franchise_a6d064cd69e85c27a897b0950c44df3b",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612764",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_7116c29f16ca59e99027fa298aea9cb4",
+      "team_name": "Capital Bullets",
+      "valid_from_year_observed": 1973,
+      "valid_to_year_observed": 1973
+    },
+    {
+      "abbreviation": "CHP",
+      "franchise_id": "franchise_a6d064cd69e85c27a897b0950c44df3b",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612764",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_081de37f005855eaa37397c03f2feb79",
+      "team_name": "Chicago Packers",
+      "valid_from_year_observed": 1961,
+      "valid_to_year_observed": 1961
+    },
+    {
+      "abbreviation": "CHZ",
+      "franchise_id": "franchise_a6d064cd69e85c27a897b0950c44df3b",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612764",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_c0f4710b14c95a13830f382c5f265b18",
+      "team_name": "Chicago Zephyrs",
+      "valid_from_year_observed": 1962,
+      "valid_to_year_observed": 1962
+    },
+    {
+      "abbreviation": "WAS",
+      "franchise_id": "franchise_a6d064cd69e85c27a897b0950c44df3b",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612764",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_127f69ca42d95b079a6e727bb3f7cfc7",
+      "team_name": "Washington Bullets",
+      "valid_from_year_observed": 1974,
+      "valid_to_year_observed": 1996
+    },
+    {
+      "abbreviation": "WAS",
+      "franchise_id": "franchise_a6d064cd69e85c27a897b0950c44df3b",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612764",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_3c41b0389eb555ffa743cc0ab23341a4",
+      "team_name": "Washington Wizards",
+      "valid_from_year_observed": 1997,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "DET",
+      "franchise_id": "franchise_a2e54ebc7f905e4ab26a283fedcb8706",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612765",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": true,
+      "team_id": "team_67aae6072a7a557fbdb698905ed5a392",
+      "team_name": "Detroit Pistons",
+      "valid_from_year_observed": 1957,
+      "valid_to_year_observed": 2025
+    },
+    {
+      "abbreviation": "FTW",
+      "franchise_id": "franchise_a2e54ebc7f905e4ab26a283fedcb8706",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612765",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_f3ef2a7b0aad5ab6acb9372db7df1060",
+      "team_name": "Ft. Wayne Zollner Pistons",
+      "valid_from_year_observed": 1948,
+      "valid_to_year_observed": 1956
+    },
+    {
+      "abbreviation": "CHA",
+      "franchise_id": "franchise_1138f87f0cd4513c8159f01528f051a9",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612766",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_2ea3ed4bc3375a1cb0c22a848c06ea8d",
+      "team_name": "Charlotte Bobcats",
+      "valid_from_year_observed": 2004,
+      "valid_to_year_observed": 2013
+    },
+    {
+      "abbreviation": null,
+      "franchise_id": "franchise_1138f87f0cd4513c8159f01528f051a9",
+      "legacy_id_match": true,
+      "nba_team_id": "1610612766",
+      "source_id": "nba_api:1.11.4:historical-corpus-v1:step-0006",
+      "stale_window_conflict": false,
+      "team_id": "team_67961d324827598e92e37b216560fbc1",
+      "team_name": "Charlotte Hornets",
+      "valid_from_year_observed": 1988,
+      "valid_to_year_observed": 2025
+    }
+  ],
+  "distinct_source_team_ids": 45,
+  "franchise_relationships": 45,
+  "legacy_id_matches": 30,
+  "missing_identity_rows": 0,
+  "official_only_historical_clubs": 15,
+  "run_at": "2026-08-29T16:00:00Z",
+  "schema_version": 1,
+  "stale_window_conflicts": [
+    {
+      "legacy_windows": [
+        [
+          1968,
+          2019
+        ],
+        [
+          1955,
+          1967
+        ],
+        [
+          1951,
+          1954
+        ],
+        [
+          1949,
+          1950
+        ]
+      ],
+      "nba_team_id": "1610612737",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Atlanta Hawks"
+    },
+    {
+      "legacy_windows": [
+        [
+          1946,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612738",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Boston Celtics"
+    },
+    {
+      "legacy_windows": [
+        [
+          1970,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612739",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Cleveland Cavaliers"
+    },
+    {
+      "legacy_windows": [
+        [
+          2013,
+          2019
+        ],
+        [
+          2007,
+          2012
+        ],
+        [
+          2005,
+          2006
+        ],
+        [
+          2002,
+          2004
+        ]
+      ],
+      "nba_team_id": "1610612740",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "New Orleans Pelicans"
+    },
+    {
+      "legacy_windows": [
+        [
+          1966,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612741",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Chicago Bulls"
+    },
+    {
+      "legacy_windows": [
+        [
+          1980,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612742",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Dallas Mavericks"
+    },
+    {
+      "legacy_windows": [
+        [
+          1976,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612743",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Denver Nuggets"
+    },
+    {
+      "legacy_windows": [
+        [
+          1971,
+          2019
+        ],
+        [
+          1962,
+          1970
+        ],
+        [
+          1946,
+          1961
+        ]
+      ],
+      "nba_team_id": "1610612744",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Golden State Warriors"
+    },
+    {
+      "legacy_windows": [
+        [
+          1971,
+          2019
+        ],
+        [
+          1967,
+          1970
+        ]
+      ],
+      "nba_team_id": "1610612745",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Houston Rockets"
+    },
+    {
+      "legacy_windows": [
+        [
+          1984,
+          2019
+        ],
+        [
+          1978,
+          1983
+        ],
+        [
+          1970,
+          1977
+        ]
+      ],
+      "nba_team_id": "1610612746",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "LA Clippers"
+    },
+    {
+      "legacy_windows": [
+        [
+          1960,
+          2019
+        ],
+        [
+          1948,
+          1959
+        ]
+      ],
+      "nba_team_id": "1610612747",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Los Angeles Lakers"
+    },
+    {
+      "legacy_windows": [
+        [
+          1988,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612748",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Miami Heat"
+    },
+    {
+      "legacy_windows": [
+        [
+          1968,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612749",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Milwaukee Bucks"
+    },
+    {
+      "legacy_windows": [
+        [
+          1989,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612750",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Minnesota Timberwolves"
+    },
+    {
+      "legacy_windows": [
+        [
+          2012,
+          2019
+        ],
+        [
+          1977,
+          2011
+        ],
+        [
+          1976,
+          1976
+        ]
+      ],
+      "nba_team_id": "1610612751",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Brooklyn Nets"
+    },
+    {
+      "legacy_windows": [
+        [
+          1946,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612752",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "New York Knicks"
+    },
+    {
+      "legacy_windows": [
+        [
+          1989,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612753",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Orlando Magic"
+    },
+    {
+      "legacy_windows": [
+        [
+          1976,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612754",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Indiana Pacers"
+    },
+    {
+      "legacy_windows": [
+        [
+          1963,
+          2019
+        ],
+        [
+          1949,
+          1962
+        ]
+      ],
+      "nba_team_id": "1610612755",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Philadelphia 76ers"
+    },
+    {
+      "legacy_windows": [
+        [
+          1968,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612756",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Phoenix Suns"
+    },
+    {
+      "legacy_windows": [
+        [
+          1970,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612757",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Portland Trail Blazers"
+    },
+    {
+      "legacy_windows": [
+        [
+          1985,
+          2019
+        ],
+        [
+          1975,
+          1984
+        ],
+        [
+          1972,
+          1974
+        ],
+        [
+          1957,
+          1971
+        ],
+        [
+          1948,
+          1956
+        ]
+      ],
+      "nba_team_id": "1610612758",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Sacramento Kings"
+    },
+    {
+      "legacy_windows": [
+        [
+          2008,
+          2019
+        ],
+        [
+          1967,
+          2007
+        ]
+      ],
+      "nba_team_id": "1610612760",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Oklahoma City Thunder"
+    },
+    {
+      "legacy_windows": [
+        [
+          1995,
+          2019
+        ]
+      ],
+      "nba_team_id": "1610612761",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Toronto Raptors"
+    },
+    {
+      "legacy_windows": [
+        [
+          1979,
+          2019
+        ],
+        [
+          1974,
+          1978
+        ]
+      ],
+      "nba_team_id": "1610612762",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Utah Jazz"
+    },
+    {
+      "legacy_windows": [
+        [
+          2001,
+          2019
+        ],
+        [
+          1995,
+          2000
+        ]
+      ],
+      "nba_team_id": "1610612763",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Memphis Grizzlies"
+    },
+    {
+      "legacy_windows": [
+        [
+          1957,
+          2019
+        ],
+        [
+          1948,
+          1956
+        ]
+      ],
+      "nba_team_id": "1610612765",
+      "official_seasons_outside_legacy_windows": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "resolution": "official TEAM_ID and observed name version retained",
+      "team_name": "Detroit Pistons"
+    }
+  ],
+  "step": "STEP-0006",
+  "step_0005_canonical_id_conflicts": [],
+  "step_0005_versions_checked": 53,
+  "unmatched_team_ids": [
+    "1610610023",
+    "1610610024",
+    "1610610025",
+    "1610610026",
+    "1610610027",
+    "1610610028",
+    "1610610029",
+    "1610610030",
+    "1610610031",
+    "1610610032",
+    "1610610033",
+    "1610610034",
+    "1610610035",
+    "1610610036",
+    "1610610037"
+  ],
+  "unresolved": 0
+}
