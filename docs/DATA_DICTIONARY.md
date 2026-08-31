@@ -1,6 +1,6 @@
 # Data dictionary
 
-This document indexes project-owned data concepts. The machine-readable contracts are exported to `docs/data/canonical-schema-v1.json`; field-level source lineage is in `docs/data/NBADB_TO_CANONICAL_MAPPING.md`.
+This document indexes project-owned data concepts. Historical Silver contracts remain in `docs/data/canonical-schema-v1.json`; STEP-0009 award-event evolution is exported to `docs/data/canonical-schema-v2.json`. Field-level source lineage is in `docs/data/NBADB_TO_CANONICAL_MAPPING.md`.
 
 ## Missingness vocabulary
 
@@ -116,3 +116,11 @@ Generated career Gold is deterministically bucketed by player into 32 partitions
 All entities carry career methodology version, normalization version/fingerprint, and corpus ID/fingerprint. Unavailable metric-career and peak combinations have explicit coverage status and NULL values. Gap rows use GAP_NO_APPEARANCE; games are observed zero for a season in which the player did not appear, while unavailable statistics remain NULL.
 
 Career status vocabulary is ACTIVE_TO_CUTOFF, SOURCE_CONFIRMED_COMPLETE, and INDETERMINATE. Age fields use audited birth dates only. Peak variant vocabulary is QUALITY and AVAILABILITY_ADJUSTED. Non-contiguous top-three/top-five sets are stored separately in metric career summaries and never use peak-window naming.
+
+## Silver awards and Gold accolades V1
+
+`player_awards` is one official source event keyed by deterministic `award_id`. It carries canonical and NBA player IDs, nullable canonical season plus raw label/status, controlled award type/scope/level, month/week/conference, every raw description/subtype/team field, taxonomy status, source fingerprint, retrieval timestamp, methodology version, and provenance.
+
+Taxonomy status is `CANONICAL_CORE`, `CANONICAL_SECONDARY`, `MINOR_RECURRING`, `NON_PLAYER_COMPETITIVE`, or `UNKNOWN`. Award acquisition status is `PENDING`, `SUCCESS_WITH_ROWS`, `SUCCESS_EMPTY`, `FAILED_RETRYABLE`, `FAILED_PERMANENT`, or `NOT_QUERIED`.
+
+`player_career_accolades` is one row per master player. Supported event-type and structured-level fields are factual integer counts only for successful requests. Every count is NULL for `NOT_QUERIED`. It carries candidate/status/provenance fields and creates no composite value.

@@ -29,3 +29,15 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Random seed:** not applicable; every operation is deterministic.
 - **Artifacts:** peak-window-sensitivity.json, longevity-sensitivity.json, award-candidate-universe-analysis.json, ADR-0011, ADR-0012, and STEP-0008.
 - **Limitations:** opportunity shrinkage and thresholds represent multiple interpretable lenses, not endorsed Peak or Longevity weights.
+
+## STEP-0009 award taxonomy and source-coverage audit
+
+- **Objective:** establish reproducible official award facts and source gaps without valuing accolades.
+- **Input:** STEP-0008 broad 2,140-player acquisition universe; full 5,103-player identity registry remains retained.
+- **Methodology version:** official-player-awards-canonical-v1.
+- **Probe:** 20 representative IDs, 1,220 events, 29 description mappings before full acquisition.
+- **Full result:** 33 descriptions, 8,137 canonical events, zero unknowns after evidence review, zero quarantines, and zero request failures/retries.
+- **Validation:** six official history count checks matched exactly; All-Star semantics remain partial and statistical titles absent.
+- **Optimization target:** none. Counts are descriptive and no award value or player ordering was evaluated.
+- **Random seed:** 9009 controls retry jitter only; no statistical experiment uses randomness.
+- **Artifacts:** award taxonomy, coverage, acquisition/canonicalization, official-reference, case-study, output, and quarantine reports plus ADR-0013/0014.

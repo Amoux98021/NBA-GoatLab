@@ -123,7 +123,7 @@ def validate_canonical_batch(batch: CanonicalBatch) -> None:
     for award in batch.player_awards:
         if award.player_id not in player_ids:
             errors.append(f"player_awards references unknown player {award.player_id}")
-        if award.season_id not in season_ids:
+        if award.season_id is not None and award.season_id not in season_ids:
             errors.append(f"player_awards references unknown season {award.season_id}")
     if errors:
         raise CanonicalIntegrityError("; ".join(errors))

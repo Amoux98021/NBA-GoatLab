@@ -82,3 +82,13 @@ This living summary may be extended, but methodology changes must also receive a
 - Age is calculated on February 1 of the ending calendar year only for audited birth dates; missing age is never inferred.
 - Award candidate flags are broad acquisition-planning evidence only and never remove a player from the master corpus.
 - No metric categories are combined into a final Peak, Longevity, Playoff, or GOAT score.
+
+## Official awards and accolades V1
+
+- `official-player-awards-canonical-v1` queries only the broad 2,140-player STEP-0008 acquisition universe while retaining all 5,103 identities.
+- `SUCCESS_EMPTY` is observed no rows; `NOT_QUERIED` is no claim. Gold counts are zero only for successfully queried players and NULL otherwise.
+- Official numeric `PERSON_ID` is the only source identity key. Integral-float serialization is normalized mathematically; names cannot repair identity.
+- Exact observed descriptions map through a versioned registry. Every raw field and any future unknown description remains preserved.
+- All-NBA/All-Defense/All-Rookie levels use structured team number. Calendar-only event labels remain unjoined to NBA seasons.
+- All-Star coverage is `PARTIAL`; statistical titles are `REQUIRES_SEPARATE_SOURCE` and should be derived from frozen facts later.
+- Silver stores events. Gold stores factual counts. No event is weighted and no accolade score exists.

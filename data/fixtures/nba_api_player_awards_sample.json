@@ -1,0 +1,19 @@
+{
+  "resultSets": [
+    {
+      "name": "PlayerAwards",
+      "headers": [
+        "PERSON_ID", "FIRST_NAME", "LAST_NAME", "TEAM", "DESCRIPTION",
+        "ALL_NBA_TEAM_NUMBER", "SEASON", "MONTH", "WEEK", "CONFERENCE",
+        "TYPE", "SUBTYPE1", "SUBTYPE2", "SUBTYPE3"
+      ],
+      "rowSet": [
+        [2544, "LeBron", "James", "Cleveland Cavaliers", "All-NBA", "1", "2005-06", null, null, "1610612739", "Award", "Kia Motors", "KIANT", null],
+        [2544, "LeBron", "James", "Cleveland Cavaliers", "NBA Player of the Week", null, "2005-06", null, "2006-01-02T00:00:00", "East", "Award", "Kia Motors", "KIPWK", null],
+        [2544, "LeBron", "James", "Cleveland Cavaliers", "NBA Player of the Week", null, "2005-06", null, "2006-01-09T00:00:00", "East", "Award", "Kia Motors", "KIPWK", null],
+        [2544, "LeBron", "James", null, "Hall of Fame Inductee", null, "2040", null, null, null, "Award", "Hall of Fame", null, null],
+        [2544, "LeBron", "James", null, "Fixture Unknown Honor", null, "2005-06", null, null, null, "Award", "Fixture", "FIX", null]
+      ]
+    }
+  ]
+}

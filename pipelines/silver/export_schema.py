@@ -18,7 +18,7 @@ from goatlab.schemas import (
     Team,
 )
 
-OUTPUT_PATH = Path("docs/data/canonical-schema-v1.json")
+OUTPUT_PATH = Path("docs/data/canonical-schema-v2.json")
 MODELS = (
     Player,
     Season,
@@ -35,7 +35,7 @@ MODELS = (
 
 def main() -> None:
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "entities": {model.__name__: model.model_json_schema() for model in MODELS},
     }
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

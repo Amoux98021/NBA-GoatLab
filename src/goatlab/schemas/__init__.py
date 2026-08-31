@@ -1,6 +1,8 @@
 """Typed project-owned schemas."""
 
 from goatlab.schemas.canonical import (
+    AwardScope,
+    AwardTaxonomyStatus,
     AwardType,
     CoverageStatus,
     Franchise,
@@ -19,6 +21,8 @@ from goatlab.schemas.canonical import (
 )
 
 __all__ = [
+    "AwardScope",
+    "AwardTaxonomyStatus",
     "AwardType",
     "CoverageStatus",
     "Franchise",

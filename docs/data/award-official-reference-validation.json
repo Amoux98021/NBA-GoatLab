@@ -1,0 +1,81 @@
+{
+  "candidate_scope_note": "team selections and Rookie of the Year are not asserted as complete league-wide counts because 2,963 master players were intentionally not queried",
+  "exact_count_checks_failed": 0,
+  "exact_count_checks_passed": 6,
+  "methodology": "limited manual reconciliation to official NBA history tables; no web page was ingested into Silver",
+  "references": [
+    {
+      "award_type": "MVP",
+      "candidate_endpoint_event_count": 71,
+      "official_event_count_through_2025_26": 71,
+      "official_first_season": 1955,
+      "result": "EXACT",
+      "url": "https://www.nba.com/news/history-mvp-award-winners"
+    },
+    {
+      "award_type": "FINALS_MVP",
+      "candidate_endpoint_event_count": 58,
+      "official_event_count_through_2025_26": 58,
+      "official_first_season": 1968,
+      "result": "EXACT",
+      "url": "https://www.nba.com/news/history-finals-mvp-winners"
+    },
+    {
+      "award_type": "DPOY",
+      "candidate_endpoint_event_count": 44,
+      "official_event_count_through_2025_26": 44,
+      "official_first_season": 1982,
+      "result": "EXACT",
+      "url": "https://www.nba.com/news/history-defensive-player-of-the-year-winners"
+    },
+    {
+      "award_type": "SIXTH_MAN",
+      "candidate_endpoint_event_count": 44,
+      "official_event_count_through_2025_26": 44,
+      "official_first_season": 1982,
+      "result": "EXACT",
+      "url": "https://www.nba.com/news/history-sixth-man-of-the-year-winners"
+    },
+    {
+      "award_type": "MIP",
+      "candidate_endpoint_event_count": 41,
+      "official_event_count_through_2025_26": 41,
+      "official_first_season": 1985,
+      "result": "EXACT",
+      "url": "https://www.nba.com/news/history-most-improved-award-winners"
+    },
+    {
+      "award_type": "CONFERENCE_FINALS_MVP",
+      "candidate_endpoint_event_count": 10,
+      "official_event_count_through_2025_26": 10,
+      "official_first_season": 2021,
+      "result": "EXACT",
+      "url": "https://www.nba.com/news/history-conference-finals-mvp-award-winners"
+    },
+    {
+      "award_type": "ALL_NBA",
+      "candidate_endpoint_event_count": 985,
+      "notes": "candidate-scoped acquisition is not a global league-event count",
+      "official_first_season": 1946,
+      "result": "STRUCTURE_AND_BOUNDARY_VALIDATED",
+      "url": "https://www.nba.com/news/history-all-nba-teams"
+    },
+    {
+      "award_type": "ALL_DEFENSE",
+      "candidate_endpoint_event_count": 592,
+      "official_first_season": 1968,
+      "result": "STRUCTURE_AND_BOUNDARY_VALIDATED",
+      "url": "https://www.nba.com/news/history-all-defensive-team"
+    },
+    {
+      "award_type": "ALL_STAR",
+      "candidate_endpoint_event_count": 1837,
+      "notes": "PlayerAwards does not distinguish original selection, replacement, injury, or game participation; a separate official roster pipeline is required.",
+      "official_first_season": 1950,
+      "result": "PARTIAL_SEMANTICS",
+      "url": "https://www.nba.com/news/history-nba-all-star-game"
+    }
+  ],
+  "retrieved_at": "2026-08-31T21:25:00Z",
+  "step": "STEP-0009"
+}

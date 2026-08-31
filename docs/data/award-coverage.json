@@ -1,0 +1,278 @@
+{
+  "all_star_finding": "PlayerAwards returns NBA All-Star events, but roster selection, participation, injury, and replacement semantics are not structurally distinguished; coverage is PARTIAL.",
+  "coverage": [
+    {
+      "award_type": "MVP",
+      "event_count": 71,
+      "first_observed_season": 1955,
+      "known_introduction_season": 1955,
+      "last_observed_season": 2025,
+      "player_count": 37,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "FINALS_MVP",
+      "event_count": 58,
+      "first_observed_season": 1968,
+      "known_introduction_season": 1968,
+      "last_observed_season": 2025,
+      "player_count": 37,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "CONFERENCE_FINALS_MVP",
+      "event_count": 10,
+      "first_observed_season": 2021,
+      "known_introduction_season": 2021,
+      "last_observed_season": 2025,
+      "player_count": 10,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "DPOY",
+      "event_count": 44,
+      "first_observed_season": 1982,
+      "known_introduction_season": 1982,
+      "last_observed_season": 2025,
+      "player_count": 27,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ROY",
+      "event_count": 76,
+      "first_observed_season": 1952,
+      "known_introduction_season": 1952,
+      "last_observed_season": 2025,
+      "player_count": 76,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "MIP",
+      "event_count": 41,
+      "first_observed_season": 1985,
+      "known_introduction_season": 1985,
+      "last_observed_season": 2025,
+      "player_count": 41,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "SIXTH_MAN",
+      "event_count": 44,
+      "first_observed_season": 1982,
+      "known_introduction_season": 1982,
+      "last_observed_season": 2025,
+      "player_count": 37,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "CLUTCH_PLAYER",
+      "event_count": 4,
+      "first_observed_season": 2022,
+      "known_introduction_season": 2022,
+      "last_observed_season": 2025,
+      "player_count": 4,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "COMEBACK_PLAYER",
+      "event_count": 6,
+      "first_observed_season": 1980,
+      "known_introduction_season": 1980,
+      "last_observed_season": 1985,
+      "player_count": 6,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ALL_NBA",
+      "event_count": 985,
+      "first_observed_season": 1946,
+      "known_introduction_season": 1946,
+      "last_observed_season": 2025,
+      "player_count": 265,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ALL_DEFENSE",
+      "event_count": 592,
+      "first_observed_season": 1968,
+      "known_introduction_season": 1968,
+      "last_observed_season": 2025,
+      "player_count": 187,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ALL_ROOKIE",
+      "event_count": 485,
+      "first_observed_season": 1962,
+      "known_introduction_season": 1962,
+      "last_observed_season": 2025,
+      "player_count": 484,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ALL_STAR",
+      "event_count": 1837,
+      "first_observed_season": 1950,
+      "known_introduction_season": 1950,
+      "last_observed_season": 2025,
+      "player_count": 458,
+      "source_coverage_status": "PARTIAL",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ALL_STAR_MVP",
+      "event_count": 79,
+      "first_observed_season": 1950,
+      "known_introduction_season": 1950,
+      "last_observed_season": 2025,
+      "player_count": 56,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "NBA_CUP_MVP",
+      "event_count": 3,
+      "first_observed_season": 2023,
+      "known_introduction_season": 2023,
+      "last_observed_season": 2025,
+      "player_count": 3,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "NBA_CUP_ALL_TOURNAMENT",
+      "event_count": 10,
+      "first_observed_season": 2023,
+      "known_introduction_season": 2023,
+      "last_observed_season": 2024,
+      "player_count": 9,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "NBA_CHAMPION",
+      "event_count": 845,
+      "first_observed_season": 1946,
+      "known_introduction_season": null,
+      "last_observed_season": 2025,
+      "player_count": 506,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "PLAYER_OF_MONTH",
+      "event_count": 408,
+      "first_observed_season": 1979,
+      "known_introduction_season": null,
+      "last_observed_season": 2025,
+      "player_count": 122,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "PLAYER_OF_WEEK",
+      "event_count": 1578,
+      "first_observed_season": 1979,
+      "known_introduction_season": null,
+      "last_observed_season": 2025,
+      "player_count": 378,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ROOKIE_OF_MONTH",
+      "event_count": 368,
+      "first_observed_season": 1981,
+      "known_introduction_season": null,
+      "last_observed_season": 2025,
+      "player_count": 186,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "DEFENSIVE_PLAYER_OF_MONTH",
+      "event_count": 20,
+      "first_observed_season": 2024,
+      "known_introduction_season": null,
+      "last_observed_season": 2025,
+      "player_count": 14,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "SCORING_TITLE",
+      "event_count": 0,
+      "first_observed_season": null,
+      "known_introduction_season": null,
+      "last_observed_season": null,
+      "player_count": 0,
+      "source_coverage_status": "REQUIRES_SEPARATE_SOURCE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "REBOUND_TITLE",
+      "event_count": 0,
+      "first_observed_season": null,
+      "known_introduction_season": null,
+      "last_observed_season": null,
+      "player_count": 0,
+      "source_coverage_status": "REQUIRES_SEPARATE_SOURCE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "ASSIST_TITLE",
+      "event_count": 0,
+      "first_observed_season": null,
+      "known_introduction_season": null,
+      "last_observed_season": null,
+      "player_count": 0,
+      "source_coverage_status": "REQUIRES_SEPARATE_SOURCE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "STEAL_TITLE",
+      "event_count": 0,
+      "first_observed_season": null,
+      "known_introduction_season": null,
+      "last_observed_season": null,
+      "player_count": 0,
+      "source_coverage_status": "REQUIRES_SEPARATE_SOURCE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "BLOCK_TITLE",
+      "event_count": 0,
+      "first_observed_season": null,
+      "known_introduction_season": null,
+      "last_observed_season": null,
+      "player_count": 0,
+      "source_coverage_status": "REQUIRES_SEPARATE_SOURCE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    },
+    {
+      "award_type": "OTHER",
+      "event_count": 573,
+      "first_observed_season": 1958,
+      "known_introduction_season": null,
+      "last_observed_season": 2016,
+      "player_count": 319,
+      "source_coverage_status": "RELIABLE",
+      "zero_semantics": "no event is a non-selection only for successfully queried players during applicable seasons"
+    }
+  ],
+  "methodology_version": "official-player-awards-canonical-v1",
+  "statistical_title_finding": "No statistical-title descriptions were observed; derive titles later from GOATLAB-HIST-V1 rather than interpreting absence as zero.",
+  "step": "STEP-0009"
+}

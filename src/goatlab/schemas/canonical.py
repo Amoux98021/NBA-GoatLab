@@ -45,18 +45,47 @@ class SeasonRowScope(StrEnum):
 class AwardType(StrEnum):
     MVP = "MVP"
     FINALS_MVP = "FINALS_MVP"
+    CONFERENCE_FINALS_MVP = "CONFERENCE_FINALS_MVP"
     DPOY = "DPOY"
     ROY = "ROY"
     MIP = "MIP"
     SIXTH_MAN = "SIXTH_MAN"
+    CLUTCH_PLAYER = "CLUTCH_PLAYER"
+    COMEBACK_PLAYER = "COMEBACK_PLAYER"
     ALL_NBA = "ALL_NBA"
     ALL_DEFENSE = "ALL_DEFENSE"
+    ALL_ROOKIE = "ALL_ROOKIE"
     ALL_STAR = "ALL_STAR"
+    ALL_STAR_MVP = "ALL_STAR_MVP"
+    NBA_CUP_MVP = "NBA_CUP_MVP"
+    NBA_CUP_ALL_TOURNAMENT = "NBA_CUP_ALL_TOURNAMENT"
+    NBA_CHAMPION = "NBA_CHAMPION"
+    PLAYER_OF_MONTH = "PLAYER_OF_MONTH"
+    PLAYER_OF_WEEK = "PLAYER_OF_WEEK"
+    ROOKIE_OF_MONTH = "ROOKIE_OF_MONTH"
+    DEFENSIVE_PLAYER_OF_MONTH = "DEFENSIVE_PLAYER_OF_MONTH"
     SCORING_TITLE = "SCORING_TITLE"
     REBOUND_TITLE = "REBOUND_TITLE"
     ASSIST_TITLE = "ASSIST_TITLE"
     STEAL_TITLE = "STEAL_TITLE"
     BLOCK_TITLE = "BLOCK_TITLE"
+    OTHER = "OTHER"
+
+
+class AwardScope(StrEnum):
+    LEAGUE = "LEAGUE"
+    CONFERENCE = "CONFERENCE"
+    TEAM = "TEAM"
+    EXTERNAL = "EXTERNAL"
+    UNKNOWN = "UNKNOWN"
+
+
+class AwardTaxonomyStatus(StrEnum):
+    CANONICAL_CORE = "CANONICAL_CORE"
+    CANONICAL_SECONDARY = "CANONICAL_SECONDARY"
+    MINOR_RECURRING = "MINOR_RECURRING"
+    NON_PLAYER_COMPETITIVE = "NON_PLAYER_COMPETITIVE"
+    UNKNOWN = "UNKNOWN"
 
 
 class CoverageStatus(StrEnum):
@@ -304,11 +333,43 @@ class PlayerSeasonAdvanced(CanonicalModel):
 class PlayerAward(CanonicalModel):
     award_id: str
     player_id: str
-    season_id: int = Field(ge=1946)
+    nba_player_id: str
+    season_id: int | None = Field(default=None, ge=1946)
+    season_label_raw: str | None
+    season_mapping_status: str
     award_type: AwardType
     award_level: str | None
+    award_scope: AwardScope
+    team_number: int | None = Field(default=None, ge=1, le=3)
+    conference: str | None
+    month: str | None
+    week: str | None
+    source_description: str
+    source_type: str | None
+    source_subtype1: str | None
+    source_subtype2: str | None
+    source_subtype3: str | None
+    source_team: str | None
+    taxonomy_status: AwardTaxonomyStatus
+    source_event_fingerprint: str
     source_id: str
+    retrieved_at: datetime
+    methodology_version: str
     updated_at: datetime
+
+    @model_validator(mode="after")
+    def season_and_team_level_are_consistent(self) -> Self:
+        if self.season_mapping_status == "MAPPED" and self.season_id is None:
+            raise ValueError("mapped award season requires season_id")
+        if self.season_mapping_status != "MAPPED" and self.season_id is not None:
+            raise ValueError("unmapped award season cannot carry season_id")
+        if self.team_number is None and self.award_level is not None:
+            raise ValueError("award_level requires team_number")
+        if self.team_number is not None:
+            expected = {1: "FIRST", 2: "SECOND", 3: "THIRD"}[self.team_number]
+            if self.award_level != expected:
+                raise ValueError("award_level conflicts with team_number")
+        return self
 
 
 class MetricCoverage(CanonicalModel):

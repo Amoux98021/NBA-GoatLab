@@ -198,17 +198,36 @@ No advanced player source exists physically. All metric values remain unavailabl
 
 ## `player_awards`
 
-No physical award table exists. Names or narrative play-by-play are not used to infer awards.
+No physical award table exists in nbadb v238. STEP-0009 therefore maps factual events from
+official NBA Stats `PlayerAwards`; names remain diagnostic and are never identity keys.
 
 | Canonical field | Status | Source table | Source column | Transformation / null behavior | Key behavior | Known limitations |
 |---|---|---|---|---|---|---|
-| `award_id` | Unavailable | — | — | Future deterministic event ID; no v238 row. | Canonical PK. | Requires audited award event source. |
-| `player_id` | Unavailable | — | — | Future player crosswalk; no v238 row. | FK to `players`. | Same. |
-| `season_id` | Unavailable | — | — | Future award-season normalization; no v238 row. | FK to `seasons`. | Award season labeling must be verified. |
-| `award_type` | Project methodology | — | — | Closed canonical vocabulary; applied only to future source events. | Event classification. | Source award names need explicit mapping. |
-| `award_level` | Unavailable | — | — | Nullable (e.g. All-NBA First Team); no v238 row. | Attribute only. | Vocabulary not yet fixed. |
-| `source_id` | Project metadata | — | — | Required on future event. | Provenance field. | No v238 rows. |
-| `updated_at` | Project metadata | — | — | Required on future event. | Audit field. | No v238 rows. |
+| `award_id` | Derived | `PlayerAwards` | complete raw row | UUIDv5 over deterministic source-event fingerprint. | Canonical PK. | Exact source duplicates collapse; distinct week/month events remain. |
+| `player_id` | Mapped | Candidate identity registry | `player_id` | Join requested numeric ID to STEP-0008 canonical identity. | FK to `players`. | Candidate scope is not permanent eligibility. |
+| `nba_player_id` | Mapped | `PlayerAwards` | `PERSON_ID` | Normalize integral numeric representations; must equal requested ID. | Source business key. | Names never repair a mismatch. |
+| `season_id` | Derived | `PlayerAwards` | `SEASON` | Parse valid `YYYY-YY` to start year; calendar-only labels remain NULL. | Nullable FK to `seasons`. | External/Hall of Fame/Olympic calendar years are not guessed into NBA seasons. |
+| `season_label_raw` | Raw | `PlayerAwards` | `SEASON` | Trim only; preserve provider label. | Audit attribute. | May be calendar year. |
+| `season_mapping_status` | Derived | `PlayerAwards` | `SEASON` | `MAPPED` or `SEASON_MAPPING_UNKNOWN`. | Coverage attribute. | No inferred fallback. |
+| `award_type` | Mapped | `PlayerAwards` | `DESCRIPTION` | Exact observed-string registry; unrecognized descriptions map to `OTHER`. | Controlled vocabulary. | Registry is versioned and exhaustive for this acquisition. |
+| `award_level` | Derived | `PlayerAwards` | `ALL_NBA_TEAM_NUMBER` | `FIRST`, `SECOND`, or `THIRD` only for structured team awards. | Attribute. | No text inference. |
+| `award_scope` | Mapped | `PlayerAwards` | `DESCRIPTION` | `LEAGUE`, `CONFERENCE`, `TEAM`, `EXTERNAL`, or `UNKNOWN`. | Attribute. | Scope is not award value. |
+| `team_number` | Raw-normalized | `PlayerAwards` | `ALL_NBA_TEAM_NUMBER` | Integer 1/2/3 for All-NBA, All-Defense, All-Rookie, and Cup team. | Attribute. | Historical level absence is structural. |
+| `conference` | Raw | `PlayerAwards` | `CONFERENCE` | Trim blank to NULL. | Attribute. | Source alternates team ID and East/West strings. |
+| `month` | Raw | `PlayerAwards` | `MONTH` | Preserve provider value. | Repeated-event key component. | Format is source-specific. |
+| `week` | Raw | `PlayerAwards` | `WEEK` | Preserve provider value. | Repeated-event key component. | Distinct weeks never collapse. |
+| `source_description` | Raw | `PlayerAwards` | `DESCRIPTION` | Required verbatim value after whitespace trim. | Taxonomy evidence. | No raw description disappears. |
+| `source_type` | Raw | `PlayerAwards` | `TYPE` | Nullable source field. | Audit attribute. | All observed values are `Award`. |
+| `source_subtype1` | Raw | `PlayerAwards` | `SUBTYPE1` | Blank to NULL. | Audit attribute. | Sponsor/series semantics vary. |
+| `source_subtype2` | Raw | `PlayerAwards` | `SUBTYPE2` | Blank to NULL. | Audit attribute. | Provider code is retained, not modeled directly. |
+| `source_subtype3` | Raw | `PlayerAwards` | `SUBTYPE3` | Blank to NULL. | Audit attribute. | Sparse. |
+| `source_team` | Raw | `PlayerAwards` | `TEAM` | Blank to NULL; not used as a relational key. | Diagnostic attribute. | Historical names may vary. |
+| `taxonomy_status` | Mapped | STEP-0009 registry | `DESCRIPTION` | Core, secondary, recurring, non-player competitive, or unknown. | Coverage attribute. | Describes event category, never greatness value. |
+| `source_event_fingerprint` | Derived | `PlayerAwards` | complete raw row | SHA-256 of sorted raw source fields. | Deduplication evidence. | Row order excluded. |
+| `source_id` | Project metadata | Source manifest | — | `nba_stats:playerawards:nba_api:1.11.4`. | Provenance field. | — |
+| `retrieved_at` | Project metadata | Acquisition checkpoint | — | Original request/cache evidence timestamp. | Provenance field. | Stable on cache-only rebuild. |
+| `methodology_version` | Project metadata | STEP-0009 | — | `official-player-awards-canonical-v1`. | Version attribute. | Mapping changes require a new step/version. |
+| `updated_at` | Project metadata | Pipeline | — | Equal to retrieval evidence timestamp for V1. | Audit field. | Timezone-aware. |
 
 ## `metric_coverage`
 

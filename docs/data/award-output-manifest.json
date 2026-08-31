@@ -1,0 +1,460 @@
+{
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "manifest_version": 1,
+  "methodology_version": "official-player-awards-canonical-v1",
+  "output_fingerprint": "666dbbdffd457847342754e116a857db7821e514e304ee23fe118f6d4a5bb258",
+  "partition_count": 64,
+  "partitions": [
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=00/part-00000.parquet",
+      "rows": 285,
+      "sha256": "d64fb89e8e5a3d2d23d1997983c3a4fee27f2e34dec157249a462448938ab047",
+      "size_bytes": 28851
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=01/part-00000.parquet",
+      "rows": 158,
+      "sha256": "9c52ab06b9e6c52e497da750663a8b933b6ae749dcc3b6ba71400633573c2796",
+      "size_bytes": 20880
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=02/part-00000.parquet",
+      "rows": 249,
+      "sha256": "3151a95e59305fb9a8cffd98a225a21d1b9a89bda738098c2a540c17798c57fd",
+      "size_bytes": 26854
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=03/part-00000.parquet",
+      "rows": 508,
+      "sha256": "0733dcab8f7f307b88bd0cf82de942d57c5fc62381c7f607daeed7a38e5ae1ee",
+      "size_bytes": 43300
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=04/part-00000.parquet",
+      "rows": 386,
+      "sha256": "1aa3a8d1f94692ff87ba19d0d746122d510c815fa4036bb881de58620ede769b",
+      "size_bytes": 35620
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=05/part-00000.parquet",
+      "rows": 112,
+      "sha256": "8adea0f0a831dbf99c1b2ed49d9c95ead5a6a7cec27c99311138f902e50a94c0",
+      "size_bytes": 17300
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=06/part-00000.parquet",
+      "rows": 143,
+      "sha256": "5fa6e8153451df98e7441dde2130a89eac8876f3b1d3556da05ea4dd8e0fb55a",
+      "size_bytes": 19537
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=07/part-00000.parquet",
+      "rows": 319,
+      "sha256": "2f029181fa8cac64e79f834d7b2f738e132cb81aa67c83ef4fb7be006732f311",
+      "size_bytes": 31220
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=08/part-00000.parquet",
+      "rows": 327,
+      "sha256": "e666a01f9c40354a48c453c36c8dae7ea82b5aff3a76c4caa262c40dba86f2f8",
+      "size_bytes": 31697
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=09/part-00000.parquet",
+      "rows": 348,
+      "sha256": "185530b23250fe2ee759f5931c0c2c5c9346aee38fb2036bf5e3f0552335b371",
+      "size_bytes": 33340
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=10/part-00000.parquet",
+      "rows": 285,
+      "sha256": "fc72f1b2f563702745e409e28bff89967a3dc2c83e4694845d258057ead159d1",
+      "size_bytes": 28540
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=11/part-00000.parquet",
+      "rows": 396,
+      "sha256": "11d26a9c805c5a1ec0af9c82d6f7b8c4b19ecc111e1d833ad91125ac7ad7bb12",
+      "size_bytes": 36427
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=12/part-00000.parquet",
+      "rows": 202,
+      "sha256": "25a4e5b32d3d63de552ebaddbaaec45fdddb22cee5d83255403f2318d154df11",
+      "size_bytes": 23514
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=13/part-00000.parquet",
+      "rows": 163,
+      "sha256": "d983bac631111178cc069487e1d5f5f62a7b51447532bc47396d050f27fa6cb4",
+      "size_bytes": 21211
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=14/part-00000.parquet",
+      "rows": 280,
+      "sha256": "a7fd888ebeeb39acb867881a9799c5c32aeedda8f609c2aae9b5a8dd3dc4f171",
+      "size_bytes": 28735
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=15/part-00000.parquet",
+      "rows": 231,
+      "sha256": "528af0b7c6af04d9f95aa0c5f073d8590f6dfd11648fd3080def8a8ff8e8299a",
+      "size_bytes": 25581
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=16/part-00000.parquet",
+      "rows": 312,
+      "sha256": "719a0e769a3d76bf33ce4f6557cc841c13561510026dde28cd103e26b9f2fbbe",
+      "size_bytes": 30834
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=17/part-00000.parquet",
+      "rows": 270,
+      "sha256": "3024c0bcdbcf2aac9b6c41ba690cf2fa969ffc1de9379fb7d952ea6f5df3eecf",
+      "size_bytes": 27912
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=18/part-00000.parquet",
+      "rows": 172,
+      "sha256": "c780b6abdbce6eedc09662dde87efccac157fa513579778825a977e3b18a4a6c",
+      "size_bytes": 21921
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=19/part-00000.parquet",
+      "rows": 434,
+      "sha256": "d9926889c6154083c3fac8d5487e3958bcecd0143d94af91d30628dc889808fc",
+      "size_bytes": 39568
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=20/part-00000.parquet",
+      "rows": 124,
+      "sha256": "3dd1de058016cb70fa50dfb93e645c320483871b232aa16b5693ffc7cd95a384",
+      "size_bytes": 18043
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=21/part-00000.parquet",
+      "rows": 219,
+      "sha256": "20d8442f9cff3347dd7b4a08a3ba16025133158bb0f93455783ef6e366715545",
+      "size_bytes": 24857
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=22/part-00000.parquet",
+      "rows": 139,
+      "sha256": "a9789dd31e3381fce5a5994fdbb8aecc5d0927bf61c4535d01beb056eb15b79a",
+      "size_bytes": 19323
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=23/part-00000.parquet",
+      "rows": 247,
+      "sha256": "917db46fbb901eb5375fec009e7850191801ad8137e6ad759af86d99507bb8f6",
+      "size_bytes": 26248
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=24/part-00000.parquet",
+      "rows": 274,
+      "sha256": "162dcbd5ba55f3ce0c9c04d550ff05e371f16a5351f2aa94f500984a14296fd7",
+      "size_bytes": 28567
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=25/part-00000.parquet",
+      "rows": 214,
+      "sha256": "bf212492c2c5faf809d5563b395edf27cf487c2ccbec96f8874c11cb1dbaa9ac",
+      "size_bytes": 24653
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=26/part-00000.parquet",
+      "rows": 176,
+      "sha256": "1d5c8d3dd9ffab948a44aa65ac44e676c1d51cb5eee699670d3a1f316a027aa5",
+      "size_bytes": 22081
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=27/part-00000.parquet",
+      "rows": 311,
+      "sha256": "c8014dd7bedcf84655484b6de897bb9b121dba0110a4665b949232143f4b657f",
+      "size_bytes": 30880
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=28/part-00000.parquet",
+      "rows": 288,
+      "sha256": "f214f3ac7c7b618257ef2ec538da007b7577f5bde1ed7cf56969a70d5d91d2fd",
+      "size_bytes": 29718
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=29/part-00000.parquet",
+      "rows": 119,
+      "sha256": "74d0c3decb15c7532c9f6c8e83ced93f352994b97fc018b6aa3bf5a5752a00cb",
+      "size_bytes": 18251
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=30/part-00000.parquet",
+      "rows": 239,
+      "sha256": "06c54c4d51c6ef79eab290864e6c1ae3ee7f1eb340f619a413ae0a58b2e81326",
+      "size_bytes": 26449
+    },
+    {
+      "columns": 25,
+      "path": "data/silver/player_awards/bucket=31/part-00000.parquet",
+      "rows": 207,
+      "sha256": "d1f737b12c0f26cf947cc076a3897caabae27207763816eebe4b3eabd5da77d7",
+      "size_bytes": 24268
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=00/part-00000.parquet",
+      "rows": 151,
+      "sha256": "ceea6463bca5e1498972f5cb8c33dbe72532d5183df6235e09c704f38eeb6618",
+      "size_bytes": 21269
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=01/part-00000.parquet",
+      "rows": 162,
+      "sha256": "997081b134c1cf42478685d6e3cdb5d25373e8fc56354dc181da303d0bed0c03",
+      "size_bytes": 21494
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=02/part-00000.parquet",
+      "rows": 146,
+      "sha256": "5c8c4435533430fd84e913a6b1d16bf37e279c27063ecc983236f650b02908f5",
+      "size_bytes": 21001
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=03/part-00000.parquet",
+      "rows": 175,
+      "sha256": "5dad00b873061e67171e4bb2d51a05c9993b830c42ba7eaafb46959b20fb4ae7",
+      "size_bytes": 22136
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=04/part-00000.parquet",
+      "rows": 154,
+      "sha256": "3ee670dc08e91c9e066b3d3270affbf85ed626d322b884d73c8cb1b6c44c4ab5",
+      "size_bytes": 21438
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=05/part-00000.parquet",
+      "rows": 151,
+      "sha256": "3cbbb8a4d2897cd0a290ad2bafadbb78a51cfcfe277415cdbb9ff320a7da2e35",
+      "size_bytes": 20918
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=06/part-00000.parquet",
+      "rows": 170,
+      "sha256": "2d409bf3d5df247d502588d8a477ca6dd2edc1b9e28200b6e77308e06d338eb5",
+      "size_bytes": 21883
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=07/part-00000.parquet",
+      "rows": 160,
+      "sha256": "733cfd08472fe7760345f32415e2a9ea736ff26c60f65aa03d5daeb11302ac1d",
+      "size_bytes": 21472
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=08/part-00000.parquet",
+      "rows": 159,
+      "sha256": "0be235e960959b188f933f79aaccb377f1fdfee316c50a463121354631ff8a15",
+      "size_bytes": 21582
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=09/part-00000.parquet",
+      "rows": 189,
+      "sha256": "a8e94300c13b1cc87b934a972b8e6226696f6ae790319072f8ea49990a13c8b5",
+      "size_bytes": 22701
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=10/part-00000.parquet",
+      "rows": 145,
+      "sha256": "56eb0669a54b479654fd4b06a295e0fe2e2e910d14533a9e302ee6a79dce6e6b",
+      "size_bytes": 20937
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=11/part-00000.parquet",
+      "rows": 151,
+      "sha256": "1a5e526d30ecddf0a613e09543b6b7cc686d8e9c556547dd5671fad0a21fcfb7",
+      "size_bytes": 21377
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=12/part-00000.parquet",
+      "rows": 161,
+      "sha256": "c7df9c6ac93eb14e431103182d6135a4bdd3f1be368420f31a31e7e15798d951",
+      "size_bytes": 21559
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=13/part-00000.parquet",
+      "rows": 174,
+      "sha256": "7497a1eb61065e2c0611430d91c98335f41d1b29348c1e9034edf02ff93989a4",
+      "size_bytes": 22171
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=14/part-00000.parquet",
+      "rows": 158,
+      "sha256": "7f67d60d6cf1a7e8596d626bed1572dbfe32300839e84fdbba4b4a9bb4734fa0",
+      "size_bytes": 21531
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=15/part-00000.parquet",
+      "rows": 158,
+      "sha256": "6252a123745267f568ab4754fd1c42a7adf4f3984cdfef1807e5f9e3d9c64fc7",
+      "size_bytes": 21425
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=16/part-00000.parquet",
+      "rows": 156,
+      "sha256": "be8d2015a9379e006ad523bb410596c412243bd4461dda24912a9597bfcfe682",
+      "size_bytes": 21494
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=17/part-00000.parquet",
+      "rows": 154,
+      "sha256": "d5b04874f29130cd8fa08b9a25d814fa8b3e09232d3d940390eb66f4b401afe2",
+      "size_bytes": 21310
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=18/part-00000.parquet",
+      "rows": 155,
+      "sha256": "7ce8448f96d5f298aee36293b29b52f94240bd41706b58168a7d714afc410b56",
+      "size_bytes": 21306
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=19/part-00000.parquet",
+      "rows": 174,
+      "sha256": "22d94a6476ee49c1719b8b1b99cf023e73e8218cf38ae569b587a5965ffedb83",
+      "size_bytes": 22371
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=20/part-00000.parquet",
+      "rows": 149,
+      "sha256": "6e0bbb1f40cb02b47cadcf54b62d283488e266597adcea9d5de87b6e36ba2803",
+      "size_bytes": 20839
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=21/part-00000.parquet",
+      "rows": 136,
+      "sha256": "32ef7685bbba05e3ac213dc89e3865bc734244ce8ae56b850fa0c739f0dee7a4",
+      "size_bytes": 20528
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=22/part-00000.parquet",
+      "rows": 148,
+      "sha256": "f4706db2c3777faaa4b5bd4156b9a22132332c0ec0c66de5cc2b6da843bac579",
+      "size_bytes": 20975
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=23/part-00000.parquet",
+      "rows": 160,
+      "sha256": "20b587a70f941a4c584c80ab480d8fe6645ebaa7fa3f05f60185925101566cd5",
+      "size_bytes": 21533
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=24/part-00000.parquet",
+      "rows": 167,
+      "sha256": "663d645ccc3f74d6f7cba09e79528b15c068e0b7673eefd63062bc82b50ea123",
+      "size_bytes": 21805
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=25/part-00000.parquet",
+      "rows": 171,
+      "sha256": "97859d2fbaca7dc44f581e1ce101d556847cc4cae542bcdfd534c2f3dfeaeecc",
+      "size_bytes": 21928
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=26/part-00000.parquet",
+      "rows": 156,
+      "sha256": "394c317936fee88bc5fb7f28a28947070ae5c6334b395557a102c5d5c98dc70d",
+      "size_bytes": 21365
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=27/part-00000.parquet",
+      "rows": 156,
+      "sha256": "32d84783d9f52b9cd7987e51a32d55355ccc4c8e06edfb90e51c1bc06aeebef5",
+      "size_bytes": 21456
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=28/part-00000.parquet",
+      "rows": 165,
+      "sha256": "5682a77e85008935338f54a350001a5a4ff98b4ffb14bad9d43525d4e32cb0a2",
+      "size_bytes": 21727
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=29/part-00000.parquet",
+      "rows": 155,
+      "sha256": "363debcbe434332fb40d6b11bd76488a13d5264c35a12656ae19eb716abe16c8",
+      "size_bytes": 21244
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=30/part-00000.parquet",
+      "rows": 165,
+      "sha256": "94830c3e5fbb250044a0b2a5d1422eba9d41acf3776a352ddfee6e9a274d0e63",
+      "size_bytes": 21800
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_accolades/bucket=31/part-00000.parquet",
+      "rows": 172,
+      "sha256": "96ff2c6cb58c64a22790aeb3a27e4a8b6c6be6c99bda9485d6f5c369a2e5369d",
+      "size_bytes": 22019
+    }
+  ],
+  "size_bytes": 1554774,
+  "step": "STEP-0009"
+}
