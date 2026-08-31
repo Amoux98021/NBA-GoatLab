@@ -55,3 +55,16 @@ This living summary may be extended, but methodology changes must also receive a
 - Reconciliation blocks the corpus when a field has at least a 1% mismatch rate or mismatches in at least three partitions. Rounding-tolerance matches are reported separately from exact matches.
 - Quality reporting distinguishes `SOURCE_ANOMALY` from `PIPELINE_ERROR`. Source-faithful Bronze remains untouched; contradictory source rows are quarantined before Silver without repair.
 - The complete V1 coverage matrix preserves the ADR-0007 thresholds. It is eligibility evidence for later research, not a GOAT feature or score.
+
+## Era normalization V1
+
+- era-normalized-player-season-v1 is an offline Gold derivation of immutable GOATLAB-HIST-V1; every output records corpus ID/fingerprint and methodology version.
+- Comparison populations use TOTAL rows only and never mix season types. Regular Season qualification is games >= max(5, ceil(20% × team-opportunity games)); Playoffs use games >= max(2, ceil(10% × team-opportunity games)). All excluded rows remain and are labeled.
+- Opportunity uses the maximum distinct games played by a team, allowing shortened-season scaling without incomplete minutes.
+- Standard z-score uses population standard deviation. Robust z-score is 0.6744897501960817 × (value - median) / MAD. Percentiles use midrank ties in [0,1].
+- Ratio indexes require a positive, meaningful league reference. Shooting references use aggregate qualified makes/attempts; TS uses points and FGA + 0.44 × FTA.
+- Every source metric must be RELIABLE. Per-36 additionally requires at least 99% positive player-game minutes; per-75 requires at least 99% positive official Advanced/Totals possessions. No pre-1996 possession or pace reconstruction is allowed.
+- Early placeholder zeros make per-36 unavailable even when a raw minute field exists.
+- Gold NULL carries eligibility metadata. Zero variance, zero MAD, missing inputs, invalid references, unavailable possessions, and coverage failure remain distinct.
+- Long Gold is the authoritative feature/provenance representation. Wide Gold is ergonomic and cannot redefine the registry.
+- Primitive metrics remain separate; no Offense, Defense, Peak, Longevity, playoff impact, award, winning, or GOAT composite is created.

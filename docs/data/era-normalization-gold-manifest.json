@@ -1,0 +1,3378 @@
+{
+  "corpus_id": "GOATLAB-HIST-V1",
+  "input_corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "manifest_version": 1,
+  "methodology_version": "era-normalized-player-season-v1",
+  "output_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+  "partition_count": 480,
+  "partitions": [
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1946/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "363fd7705b7bd7a915734ad1ca4753da46a15c06e06f2baf3522d2db776b04cf",
+      "size_bytes": 16788
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1946/season_type=REGULAR/part-00000.parquet",
+      "rows": 2576,
+      "sha256": "c99bc02709443ce16ca03918c16de592ce04e12b9943eecbc9f520184cd8185c",
+      "size_bytes": 22861
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1946/season_type=REGULAR/part-00000.parquet",
+      "rows": 161,
+      "sha256": "3931fdf6b855dc5fb294aea00c7fe3115bf27a3ee776791d1ff82d26c91eb9b1",
+      "size_bytes": 20297
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1946/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "6a4c3a4aaa54caa2bed30a642df94de691020234dd3fa948bdc9a91082451389",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1946/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 976,
+      "sha256": "b49dfb594b66c940a83b95b685adbb7e45d11693c81e8986fd3aa8c26e76fc65",
+      "size_bytes": 15865
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1946/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 61,
+      "sha256": "c4493cd290a96eb9d9d4618f7f4cb01651327734d5fb531401940481da7bd0ce",
+      "size_bytes": 13939
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1947/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "89d3be9ff680819aa1fd39c743d43704102ce468126d10922954fb9a89a71d0a",
+      "size_bytes": 16788
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1947/season_type=REGULAR/part-00000.parquet",
+      "rows": 1648,
+      "sha256": "0bfe515d2daab93e7be117eae721007673e3d20dc9ab723c47da5f4ee240715a",
+      "size_bytes": 18427
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1947/season_type=REGULAR/part-00000.parquet",
+      "rows": 103,
+      "sha256": "a7360c54036562f5bf485a12fbdd6125e35bfbc5451ebf2d84dd5e4e5a144288",
+      "size_bytes": 17066
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1947/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "9730893aec44ec3ce4141ed881000fa9cb69c9a70fd647d301d51e688ac65f86",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1947/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 944,
+      "sha256": "49ab5937ca0b6ae61b5915eee19985a95724572294b9dd8233d661a398f4fb57",
+      "size_bytes": 16057
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1947/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 59,
+      "sha256": "c0bf3343ff2379bfd8cd8661426ab61ad575a1feea5c3bc0abb87d784088dd7c",
+      "size_bytes": 13910
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1948/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "08f927172e29b63e1f5952d8db660967cdd749c858b3eef9d8ab869dfb683cb7",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1948/season_type=REGULAR/part-00000.parquet",
+      "rows": 2704,
+      "sha256": "e44817927638fcc45a4fd738c09457a126d40d53513d2fd1f31d4ba967b55f4f",
+      "size_bytes": 29590
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1948/season_type=REGULAR/part-00000.parquet",
+      "rows": 169,
+      "sha256": "146643b9d972e289f39564d8c8e7cc2b4fe6756d65eb400ba0d11d58bfe96b56",
+      "size_bytes": 20806
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1948/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "7c95c47d2c36b8e93a04e760f44adfba421260aa757a91fb41b9891974f28242",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1948/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1376,
+      "sha256": "79f2d960b4c76db4cb619701ca000a4e5ae78cfdb1cc47361f715de15507139f",
+      "size_bytes": 17261
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1948/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 86,
+      "sha256": "bf5ba3c0f4a4f27fe87db5689f8319a7683b0f71ae239dfff4d0f76079530355",
+      "size_bytes": 14931
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1949/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "bc61cea5011358890d3c2e6cd682aed30c94940cefbfe0eb6825b2fb099fc06c",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1949/season_type=REGULAR/part-00000.parquet",
+      "rows": 3568,
+      "sha256": "742b42c09aa778c36044a09226e3cc918249273e0dde129bc68dde3a8f688096",
+      "size_bytes": 35621
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1949/season_type=REGULAR/part-00000.parquet",
+      "rows": 223,
+      "sha256": "d5b75a7b429486b3c2531234fbe78dbe16fcb03a843d6cb0e287e9cf8fea58c8",
+      "size_bytes": 23470
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1949/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "75d824579a5e02fcbbe4a27ea90033e9b4d6fc5993e7eccce7bac6afa5380536",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1949/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2000,
+      "sha256": "2a05a3a41b0e74d634c8b1ef20c87b01319aa7e577fe28654061489e0e865337",
+      "size_bytes": 20655
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1949/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 125,
+      "sha256": "96661188b694d3afcf453d640a215cff8c851597fe461ec09c24339e3b4b1ac7",
+      "size_bytes": 16558
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1950/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "04621a8c56b82aa9633d6c73ab1116a588389127507f22ce1f3856c6f16118e4",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1950/season_type=REGULAR/part-00000.parquet",
+      "rows": 2160,
+      "sha256": "ad05629d095b8977506be5f29ba8f8d06ffa4fd57e86a606790c57985a23c774",
+      "size_bytes": 26552
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1950/season_type=REGULAR/part-00000.parquet",
+      "rows": 135,
+      "sha256": "e4f9baa7577f3cb81f5ac03058998f565db0af620062b1901d2d938eec957435",
+      "size_bytes": 19118
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1950/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f4b0ec98bd88b1abcf2f4506c7b0cf705a832e33ca4baf93d88b01ba69f44ec3",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1950/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1296,
+      "sha256": "d1e1644d1c7aa8802b353d4fda468af6cd73c11c072558703c15248f4ffe1362",
+      "size_bytes": 17179
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1950/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 81,
+      "sha256": "23229138a2c7540c9d2f0678eb66d673aae138887d21dbf834880c82e2e1e5c5",
+      "size_bytes": 14900
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1951/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8e1a22ca49c633becfefdd3e789fdd3728d6a9b8d5c3e7176bb1ba91d15e23a9",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1951/season_type=REGULAR/part-00000.parquet",
+      "rows": 1856,
+      "sha256": "8366f9293fe07da9d0e4ba745513bcd7f93ce9a8036e010286ef155ab7a2484c",
+      "size_bytes": 24545
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1951/season_type=REGULAR/part-00000.parquet",
+      "rows": 116,
+      "sha256": "39b4e674c93f9881364ce07dff90a6c4c0d9391e848a479a3701dad6a1fcf53f",
+      "size_bytes": 18331
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1951/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "ea0a0d024a895bedbecbafbd9549d3ba4ed5b156a8154018eacf905dc3712a3b",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1951/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1216,
+      "sha256": "ba9ad2e296b1515b4140fecf8aea7b38ea72d29d5408f86d04a6dc455eabb214",
+      "size_bytes": 17740
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1951/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 76,
+      "sha256": "3c4be5d8399adc88479a2a888663f774f30559137870bd60c0c6dea5ab0f1362",
+      "size_bytes": 15027
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1952/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "4e622b0ef93a082c2ef1d7a1d70ccda39141557168f2b67d79f57d8c53179804",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1952/season_type=REGULAR/part-00000.parquet",
+      "rows": 1984,
+      "sha256": "a58239b7f05ba9ecf8e4a52f70502c7b231477bdb91fe48764b0c55bef09afb0",
+      "size_bytes": 25504
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1952/season_type=REGULAR/part-00000.parquet",
+      "rows": 124,
+      "sha256": "31959291ee6b8be52730a06626453f3e22e8a775a259d0eb31b84bc69b949163",
+      "size_bytes": 18812
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1952/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8e7613349aa02b42087df1ca4575679e9cf94e195771e3491fb028bc8b97da98",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1952/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1264,
+      "sha256": "b796c6b13457bf6d1aace9e3f9b010d4dc47940db69790bb588fc3cafb673460",
+      "size_bytes": 17692
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1952/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 79,
+      "sha256": "992cfaf981836442eff0f352a1a9cfdeaf8796e5692a338c02a1307116c4b824",
+      "size_bytes": 14979
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1953/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "75d8f5c14e132690b4eee89703efd04c518069f7fcff1c1aac98488b5df0ea07",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1953/season_type=REGULAR/part-00000.parquet",
+      "rows": 1760,
+      "sha256": "b7ec1946ae64bd440b9f7820ae0461585690e93009b4195a14facf604a8570a3",
+      "size_bytes": 23602
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1953/season_type=REGULAR/part-00000.parquet",
+      "rows": 110,
+      "sha256": "8f9bf496bf68bfb773294e369d0d7393a36942080101e51451d774186a707cbd",
+      "size_bytes": 17785
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1953/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "9cddc1a2f32e34005b63b2d76113bf3659c1a8e4eafdfa268088d84f242a9719",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1953/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 928,
+      "sha256": "271461d44e57389e6dfd6a930444aa943dc9d46a924b7028650368699e9b0591",
+      "size_bytes": 15941
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1953/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 58,
+      "sha256": "5d10a0b8990b0649b483edb499fa9c62711d5c2d9908036f11b3db8f3eed95fe",
+      "size_bytes": 13977
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1954/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "71325e4233a08ac0bc6425c340a82cbf88ae783033fe24c851a12bfd8279107b",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1954/season_type=REGULAR/part-00000.parquet",
+      "rows": 1616,
+      "sha256": "9d3788846bb33b6c052dd162106d5248495f750d502272f95466210a2f7adb67",
+      "size_bytes": 22585
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1954/season_type=REGULAR/part-00000.parquet",
+      "rows": 101,
+      "sha256": "651af4b33af6ac8ad570741263c89569afddf107241d38dd85d47e69a442e7a4",
+      "size_bytes": 17340
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1954/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "593cee4ca8f8666f8f21251e31c659406ee714f72781d8e3c90d8bc377425906",
+      "size_bytes": 16951
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1954/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 960,
+      "sha256": "8c9d9dddbdc39a935ffcd81cfdee87961da68d322e3c4ba4934aaac78764a563",
+      "size_bytes": 14065
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1954/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 60,
+      "sha256": "e23b9914fac086f6c8719331a3cf1bca0a373932a4201494affdfb4b16469be0",
+      "size_bytes": 14153
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1955/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "46c88a93e66f0f11382a423bedca3b247c100a78a647241324cbc49db6b27e3a",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1955/season_type=REGULAR/part-00000.parquet",
+      "rows": 1472,
+      "sha256": "4fef5e3e45c97dcec3f2f3410daba34e4aace45ec48040c4b99d5bd798fd8f55",
+      "size_bytes": 22042
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1955/season_type=REGULAR/part-00000.parquet",
+      "rows": 92,
+      "sha256": "9ea2fb7626a8e36c89db477d40bd4f3f40be9aefbdfe91cf8a38cb0a8528ca4a",
+      "size_bytes": 16711
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1955/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "cc75f4c83afcf534f72c755fa2213b6439a3ecfef4c6784ffcd1e91bea8fa5be",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1955/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 960,
+      "sha256": "6590d1ba2a5730e68a98c03a43115af3efa23dc1bbe177e051a41d6550ae199f",
+      "size_bytes": 16210
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1955/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 60,
+      "sha256": "abd882c646e7c63fe0e6681ed0f295f71d754721fbdcec96900f62524f5bc1cd",
+      "size_bytes": 13985
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1956/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "77fe2e05b215ea70177e0ad45cc3a66beb81efcb4c3752cc82fe1fb857134ab3",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1956/season_type=REGULAR/part-00000.parquet",
+      "rows": 1584,
+      "sha256": "5500274dbaf2e0ac101ad9e35c2a8a23b53365c6f2413b8d3169314e53dd271f",
+      "size_bytes": 22499
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1956/season_type=REGULAR/part-00000.parquet",
+      "rows": 99,
+      "sha256": "ead4742067035d565c2d1d4cc79e36a01a8633bc9ed364d3060b452732af501f",
+      "size_bytes": 17209
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1956/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "0aabd464658b26e4a6682c700cd5c073f57e19f3ebc89afbafa276171a487c4d",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1956/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 944,
+      "sha256": "2333a2b02da808baafe6316ece546e22cd9a04ff897f99804a37626a2e764cee",
+      "size_bytes": 15614
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1956/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 59,
+      "sha256": "96e159ee875245614d467305d01bb48dfd006fffb0c7964e617b0645c8ecc04e",
+      "size_bytes": 13881
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1957/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "06a249e7323e24b6ec7df6bf965c89c7096da3a880e2966adc2ac09f5f0c4c56",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1957/season_type=REGULAR/part-00000.parquet",
+      "rows": 1584,
+      "sha256": "8cc792e8738f6e5c54f37b8f9dfe64e257cab0abdc530a5458208b5221bf53f0",
+      "size_bytes": 22256
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1957/season_type=REGULAR/part-00000.parquet",
+      "rows": 99,
+      "sha256": "7e82d6f0ac999e23a42b1a53dacd588fd1d8678c2b76f150c972e53ba4079900",
+      "size_bytes": 16931
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1957/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8917875c4a90e63bd3a542ade52d4a19657954021cb94e9618527525e8a762bc",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1957/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 960,
+      "sha256": "37248b913b7537e2df1f128387b5f174d075d7d9a6bbe9bc0eb5e80519248f74",
+      "size_bytes": 16301
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1957/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 60,
+      "sha256": "e76d48842fcf1ddf30a28c090c79cb3ab9b42980ccde4fded694fa390b0f7acb",
+      "size_bytes": 14175
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1958/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "ed97e1aa8bd92d1c033f95588f099d2c860df993c04cec722230dc281193be14",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1958/season_type=REGULAR/part-00000.parquet",
+      "rows": 1472,
+      "sha256": "669588f00c5f1235b1356a103b1595e0eedea8a9fdf6aec860947b7154baf6d3",
+      "size_bytes": 21703
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1958/season_type=REGULAR/part-00000.parquet",
+      "rows": 92,
+      "sha256": "bde0d6861d5c12f474ed285ca434b832e28b12a2a5adc2ee3b35c859f8219b1c",
+      "size_bytes": 16760
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1958/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "812584bd8c688cd5de7bafab51bf44a77fa2c8c2cbb20cb9f9483e4a42af4c20",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1958/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 960,
+      "sha256": "21c85fe24a0a4a47a216d96a55875ddb52f96b6e26903462f4903a432922672e",
+      "size_bytes": 16260
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1958/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 60,
+      "sha256": "d9e5a3e2be8083f702114885b205e081e86b04812a29b9987d8d1321cc5f320a",
+      "size_bytes": 14205
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1959/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "07045d89412b87c12d1ced5774452598dabbe6a85a4e75a2fe8bf32ee80dce9d",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1959/season_type=REGULAR/part-00000.parquet",
+      "rows": 1584,
+      "sha256": "e0fb59a0749a97670fc30f6853b025905f65616fd57535a2ab7473fe4668ac6a",
+      "size_bytes": 23052
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1959/season_type=REGULAR/part-00000.parquet",
+      "rows": 99,
+      "sha256": "1f735135abbb1b77a0cb5262152a63bc96adbe684939205e6f7739db778f4f69",
+      "size_bytes": 16984
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1959/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8602e0d2b7181dde7522aa3f67c86b50f82c438c0d106aa161e4e5feca274949",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1959/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 960,
+      "sha256": "80525b8336425c9c95f036c7ce0be32dc4d77d259bd6b0cfd39f1af658771a54",
+      "size_bytes": 16182
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1959/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 60,
+      "sha256": "9bc66a6e1be2d9222139810f046e73c777317a22f996549f926abf3185c685c7",
+      "size_bytes": 14120
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1960/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8d3c47067cb7a56d7c32fbb86cfc859b77e16b0ad6742df07bdef41c67405ea1",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1960/season_type=REGULAR/part-00000.parquet",
+      "rows": 1504,
+      "sha256": "993fd50cb059720255ffb22fe6b61e5b17da131254c2e64577258f548b2ec8fa",
+      "size_bytes": 22440
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1960/season_type=REGULAR/part-00000.parquet",
+      "rows": 94,
+      "sha256": "e7fe184cd3d0843622593cd3b026e6bf725d1c074187a71923e4743cdcddc382",
+      "size_bytes": 16969
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1960/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "7ed29f0a1f895ff5f0a8915e4ac48f3bc41f719bc02805a9c0a649e7354942af",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1960/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 944,
+      "sha256": "a46209e80dfaa015e7c910de129ffef21645f3cb26a050f821d541a6f46afec5",
+      "size_bytes": 16460
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1960/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 59,
+      "sha256": "717770d57b4e14c6856b7481f71841da5f13a52313eb3da35cfc1555cfba504c",
+      "size_bytes": 14207
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1961/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "9f0ad1d5985a92a21fa3d33f437d4bb4de76ecc66f37aa50027f5a2c14abd6d9",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1961/season_type=REGULAR/part-00000.parquet",
+      "rows": 1808,
+      "sha256": "23aa2ace8a1878d9b21b2ea1445303aec7f29780099e675e28cfc4b452bf5ee9",
+      "size_bytes": 24252
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1961/season_type=REGULAR/part-00000.parquet",
+      "rows": 113,
+      "sha256": "d1199c1082f5fd03b0316bb1d0de6c548cb481c094547464937055d31db90375",
+      "size_bytes": 17986
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1961/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "dc663ebe159dc6b2d00f758acf72642c9a52f4d1d8cd801c80e6801fd8c1b6cb",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1961/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1024,
+      "sha256": "5836a41c76e03b27153715a5e708def3dff6d4d340e9b014f4946e0682d5b309",
+      "size_bytes": 17173
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1961/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 64,
+      "sha256": "a77ce715d6b099877f0f75b43c28d59062fe663efbe8e805949fee66cd8807fb",
+      "size_bytes": 14785
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1962/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f8b4b6654be4b30b63c47e0087791a0089700019fc6632f85be8e35a66540a63",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1962/season_type=REGULAR/part-00000.parquet",
+      "rows": 1872,
+      "sha256": "63b59f477ba56f063daa5c824c3e56d1f318ec11934e109f9d202962d71926e7",
+      "size_bytes": 25157
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1962/season_type=REGULAR/part-00000.parquet",
+      "rows": 117,
+      "sha256": "f32b6f47902650cd64ca96f6ee3f1785e2f81e064d282f3169f86baabe006c3b",
+      "size_bytes": 18404
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1962/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "15f03a6b9641bc7e51d8e906d4ec7bf6359a2e67f57559ac2615db7cac5d49b3",
+      "size_bytes": 17540
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1962/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1008,
+      "sha256": "b4ae729ccf67186832e7eeba1aec1a83860b2efcf84ce3214a31c11259255933",
+      "size_bytes": 23684
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1962/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 63,
+      "sha256": "4938eb0ac76b59fd9bd31761a01f3c2ce6a76b1165b1029d50f3957d24eb449b",
+      "size_bytes": 19897
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1963/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "7e450508ba1943edd20c58efd51af031447135d6b49d8259fa452e10fb67ffae",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1963/season_type=REGULAR/part-00000.parquet",
+      "rows": 1776,
+      "sha256": "5527d702a8b6f3ac1bfcd694ec7f79ed0b2fa5c2c81e6938c7caff0e7015f5fa",
+      "size_bytes": 24315
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1963/season_type=REGULAR/part-00000.parquet",
+      "rows": 111,
+      "sha256": "4a1b3f69e5ccee02f9490e3577fdf61c83e415115857a46807bd15a72e374e83",
+      "size_bytes": 17632
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1963/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8b8ee5c76754d297b8fbde3ff0c9b26c50935144ced8799d794d901eb969dc36",
+      "size_bytes": 17703
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1963/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1040,
+      "sha256": "b144b757b9f2b8ca73331db346ef3da33e1f7bb481ced45e0178f3cd15814943",
+      "size_bytes": 23668
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1963/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 65,
+      "sha256": "3b80f13b22bc0030eab22ee17069fe7bc5f079f5a23721dbd26f1caceceaeeb1",
+      "size_bytes": 20026
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1964/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "1d68b973107c13001ca1caf950d7701590554d7fd7a41ddec674032e9110b726",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1964/season_type=REGULAR/part-00000.parquet",
+      "rows": 1824,
+      "sha256": "87f421a52e27b38a6a76f6a982666cfa8852b572475322c638a30f8ac0242c85",
+      "size_bytes": 24431
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1964/season_type=REGULAR/part-00000.parquet",
+      "rows": 114,
+      "sha256": "8f7afbe3bef187ee2e471b5d1a757e5af68a7b8760715d0eb4df50c1028eb56f",
+      "size_bytes": 18224
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1964/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "94cfe96da3d7129b406e2189ab1a532dda665079894f041b2ac14e47e9058692",
+      "size_bytes": 18173
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1964/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1040,
+      "sha256": "63a24941653145837bbeb8acc9eb5a65a1d2bb3b63f98e19c445ff3d0e04be37",
+      "size_bytes": 25206
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1964/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 65,
+      "sha256": "bca803cbf18598b96ebb5b0839cd4e0b7ef335bf43cf425bd1578d409e57c7c8",
+      "size_bytes": 21781
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1965/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "5e2fc690c36f2349f98de43ca20b734d87adf1555ebdfc5a1a5ae4272a94ae9d",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1965/season_type=REGULAR/part-00000.parquet",
+      "rows": 1776,
+      "sha256": "9b1cf1acbf93ef1bf79f5053e9f2224e2c5055c2ab098342ae0688337a5886b0",
+      "size_bytes": 23840
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1965/season_type=REGULAR/part-00000.parquet",
+      "rows": 111,
+      "sha256": "6700683b665b69a92ec48b5a21e3693c9e3c5d6d33821c7d8651cb8fe794aaf0",
+      "size_bytes": 17859
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1965/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "b9e01d126aae6c890bc516d7e5b4897e8fca274d8955cd816c1e01d77f811f6a",
+      "size_bytes": 18010
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1965/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1024,
+      "sha256": "024634c7c9c513b931397856a158adb07230ebaaf916c434f2d28b6ab290e597",
+      "size_bytes": 25621
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1965/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 64,
+      "sha256": "e1da09f26cdee35211c758b633a7b952ec5a936db3ebb71eca23a31b2d99dc69",
+      "size_bytes": 22179
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1966/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "009bd29709a9e618b3c261788956d9bb7741fecb889034175b7b4438c67d8728",
+      "size_bytes": 16882
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1966/season_type=REGULAR/part-00000.parquet",
+      "rows": 1968,
+      "sha256": "cc0252ab45d6751e6a332664bc507c62d6c35bd612c44aa5d1b59d508c037cc5",
+      "size_bytes": 25611
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1966/season_type=REGULAR/part-00000.parquet",
+      "rows": 123,
+      "sha256": "e5a88e62122bc172f7dcca68e6d0a15e3c8f55f2bc4746e7e942ebb5d94a1c0d",
+      "size_bytes": 18508
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1966/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "9b723c80a36fd3b5e14318f38b62605d68e1a488fb3b0966ad5b0f1557a6ae0b",
+      "size_bytes": 18173
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1966/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1456,
+      "sha256": "b8fcc5da609e2c31389189003656a11cd763352b806b342741659bc6999a2468",
+      "size_bytes": 28792
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1966/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 91,
+      "sha256": "9f1b048c568cfe53adee1062a096ef0c8f5225eb0fb4a96f389c8455fab9fd5d",
+      "size_bytes": 23847
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1967/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "5ab0fa335edeb7a4e5012ea3f7cd7464cf76b73cd8d50c267483d3f64969f4e1",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1967/season_type=REGULAR/part-00000.parquet",
+      "rows": 2416,
+      "sha256": "dc3f713af3e9e91abba268f22fd317ab0c4fe1a3146c04a2d03cd9901c15ea87",
+      "size_bytes": 29068
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1967/season_type=REGULAR/part-00000.parquet",
+      "rows": 151,
+      "sha256": "8960865705e95798c4d0ef859b5a765318594a22a9e1c84aef23cb42cd13216c",
+      "size_bytes": 20320
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1967/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "fe146dfae54380fb3721a23ada778625157da5eb591f5905b6c5cee02aff88f9",
+      "size_bytes": 18173
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1967/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1408,
+      "sha256": "9195db5cde436df7d62543c495a48984df6aba729124652d305249e7b9665c8b",
+      "size_bytes": 29860
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1967/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 88,
+      "sha256": "6e1efc1b4910ca01f2574323d5ffc3c43da7e831f3288966f61a3c6f20c13442",
+      "size_bytes": 25280
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1968/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "6a0234f545a31c39501dc1e6ac521c44aad0e46e90399c5942fb1d702cf3a29e",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1968/season_type=REGULAR/part-00000.parquet",
+      "rows": 2688,
+      "sha256": "33e36c168bcda4d810214b8c44c0f70088c44b79368f384ecc4a95da0530653d",
+      "size_bytes": 31123
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1968/season_type=REGULAR/part-00000.parquet",
+      "rows": 168,
+      "sha256": "c9c1152d0bc9aef4d8360b268e8536f80dfd6824ca1bf2f08569e730eda8a70b",
+      "size_bytes": 21477
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1968/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "62b55f3e32fdaa66234828f2134482e4ffb372d59682fcf8e86071ecfa3a18ac",
+      "size_bytes": 18173
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1968/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1360,
+      "sha256": "c19114163b18f708e322ad7df8cad9b0ecc4aa3726805a53c0bc97ad11b2e8e3",
+      "size_bytes": 29720
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1968/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 85,
+      "sha256": "659b12ae28e5ee537228a10f77837a1af1bbf226679705ee8c960e110d37a3d7",
+      "size_bytes": 24398
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1969/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "7ca8321561cb6104f62729b4b064acfd2c4c7a25bb03ea6552fd6b78a2d7c889",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1969/season_type=REGULAR/part-00000.parquet",
+      "rows": 2736,
+      "sha256": "87c1eb7a15fd7e5bd378a16a15720c029fc29c5a00a7a9be8a7c1c1112c17ffb",
+      "size_bytes": 31308
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1969/season_type=REGULAR/part-00000.parquet",
+      "rows": 171,
+      "sha256": "c968e2e3c2a0da782dc312d628c60f65d6fc29baf1f0783072a59d6c64e4e00b",
+      "size_bytes": 21654
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1969/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "364c17b965a4a634e922718c6d5d353bbb5ab5d408a67f4f088b5e410a10bd69",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1969/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1424,
+      "sha256": "1ff14dfba02ab1accc9d73564d75c44ff25ac05a94d474dc3ef287c9b7187ee8",
+      "size_bytes": 42254
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1969/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 89,
+      "sha256": "162fca79a9aa1f79cb3816305f433a00b47ae3640eb2e2b6f5ee53da7218f22a",
+      "size_bytes": 26301
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1970/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "65cbd7ba5dc2d13f4211732d55c908194c4ed0e0641c755999a7cf9cefd9e5f1",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1970/season_type=REGULAR/part-00000.parquet",
+      "rows": 3472,
+      "sha256": "9dc76c1b504f0a202bf555abc20ad36639936be9457b43e93953426cfe822880",
+      "size_bytes": 35579
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1970/season_type=REGULAR/part-00000.parquet",
+      "rows": 217,
+      "sha256": "02aa19ac7eb681899ef3448d85e617af36abdff249e91ffef4f13904230db749",
+      "size_bytes": 23323
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1970/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f0e3948ccc5351f962fae1e3d8c66ec6ba07ec7555f3c2114748106721839028",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1970/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1360,
+      "sha256": "acc5b09876740b6eda4bfcb5eefde1b784ebc49841a02582ff9ae8ddbddd98ac",
+      "size_bytes": 41180
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1970/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 85,
+      "sha256": "83c8bf7b8a251bd5a4990cff3091289c3fe784d934c01c733d8c4c7cb48d4298",
+      "size_bytes": 25163
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1971/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "669338921664b487687a18b5e389abb1dff66c7a1c415b11299e2ac295d8d1f6",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1971/season_type=REGULAR/part-00000.parquet",
+      "rows": 3456,
+      "sha256": "ddf6e69819944996f79db5cc209c6f0b86b3a78b8e2722c9117841fce9eea3e4",
+      "size_bytes": 36749
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1971/season_type=REGULAR/part-00000.parquet",
+      "rows": 216,
+      "sha256": "1145cf496252a45373f8ee5396cba8b053145d58de0fb28d78dee2ba716a54e1",
+      "size_bytes": 24339
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1971/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "17e9db21a05025222ee887d7917893023cbe0e78bd0a7295ea9b39305dd13d9a",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1971/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1408,
+      "sha256": "60da12881446398fcba30504ff008ca01c533db244a6bf88f94bc48ae9857a20",
+      "size_bytes": 41691
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1971/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 88,
+      "sha256": "196510906f4e6bba0a7b035f7721f750ba7a3ce9f0f6304320fc5907f9683bfe",
+      "size_bytes": 25634
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1972/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "4ba162c9813842e88fc9c67beeb2800f2981585563c08c2ea76834b8ccc2b432",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1972/season_type=REGULAR/part-00000.parquet",
+      "rows": 3440,
+      "sha256": "8cb97ff0acea596a56a3b9bea65db0dbb6e8fe344fb13d734fa0f75965f3655c",
+      "size_bytes": 37266
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1972/season_type=REGULAR/part-00000.parquet",
+      "rows": 215,
+      "sha256": "33704367ad1832745bb987fa0678c4d89376f709b94ff40141a7b640aef1057a",
+      "size_bytes": 24286
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1972/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "e7e25f85700f8f2f4db0f2fa965e5eff7a2834e7557771fd10f0b5812a99a48f",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1972/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1456,
+      "sha256": "98e490dab7351dc4892c4a8cc39f2774a6103e593a75d8da0dd75f3950bc70e7",
+      "size_bytes": 41913
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1972/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 91,
+      "sha256": "5bc6a2b34e1291f230dc0c7241e174fb309ace9d56d3346ed50a861f4c56f2d3",
+      "size_bytes": 26234
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1973/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "6c30b7ec9df3d41b6e592d8567583043635a9df509dbe8a692153ce9626fed8a",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1973/season_type=REGULAR/part-00000.parquet",
+      "rows": 3552,
+      "sha256": "5adb69af32dd6b972f92c26897cb9bcd052b98f81d4a09427f88e4008a0d7c84",
+      "size_bytes": 36605
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1973/season_type=REGULAR/part-00000.parquet",
+      "rows": 222,
+      "sha256": "789347b3688bc5e86d7ef012b487ea6d4068f2e4b3a44ca9654582d966a6f14c",
+      "size_bytes": 23943
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1973/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "6441589f0d129e70c83a367fad424e9ebe4859490d7690d06136537473cbaf0d",
+      "size_bytes": 18173
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1973/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1424,
+      "sha256": "014d519241bbb877d4566694fc7c42b73649bc9a10974977e11d1f0cdf501889",
+      "size_bytes": 30334
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1973/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 89,
+      "sha256": "e4cca0c7873ff15310e3a4724a9142e4379de3e7833cd05d5b81aa40e34a2ca0",
+      "size_bytes": 25425
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1974/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8e07f5eae15ba896b3306258269df8bc5bfeb8167d29a7fce786c560ccf3eac3",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1974/season_type=REGULAR/part-00000.parquet",
+      "rows": 3760,
+      "sha256": "bfe04645c10662e1af0a93438089621271b5dbeaf5f175c634e72ec79a6814de",
+      "size_bytes": 39079
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1974/season_type=REGULAR/part-00000.parquet",
+      "rows": 235,
+      "sha256": "eef9d282199ed063b7aa011f3264b2a7adeb4c9b3809e8825858175cfad68b47",
+      "size_bytes": 25331
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1974/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "5efa307aae0acae60a76e1657e4eb7ed15851df1ebeced257c57a9899314d65a",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1974/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1808,
+      "sha256": "a001d5b35a32ea8f2b88f1a9edd56df5afa63b615e10629d0fb620788a1e1966",
+      "size_bytes": 49581
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1974/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 113,
+      "sha256": "b2e3da02825f4a4959d6d2cc499c9ff82ecdf12562b7b8b78eaeb033c13c2f42",
+      "size_bytes": 29372
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1975/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f93572a9427b8edc217ce11a96b37851c70ccbd723cf975222c13779849b57ad",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1975/season_type=REGULAR/part-00000.parquet",
+      "rows": 3808,
+      "sha256": "9c85724f4bcea75d8489968f34c5ad313ed9a4b2e440de9df21b6664eba6dcd0",
+      "size_bytes": 39050
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1975/season_type=REGULAR/part-00000.parquet",
+      "rows": 238,
+      "sha256": "62084179a3edaa2858c9889a22b44dbf6497ae09f33c5aa989c4e8e4b5044dfd",
+      "size_bytes": 25603
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1975/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "58817b3298d00ca39df07e9305c01eb64abafddd1a28d02ba371cb6ecdfa210e",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1975/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1856,
+      "sha256": "585e397add61dd30ca592c391f7ee71ab13b0c188043b3e9a3bde1570aec318a",
+      "size_bytes": 50946
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1975/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 116,
+      "sha256": "c74236299c65316cb97b4d40ed37da0c6f12297ddf763d2b34206b96d6b1d091",
+      "size_bytes": 29183
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1976/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "c0c8df3246362b77fb077683958a2640350626134bad975a8cf3cc7c6f67a3a7",
+      "size_bytes": 17515
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1976/season_type=REGULAR/part-00000.parquet",
+      "rows": 4720,
+      "sha256": "25ffb7a34a1df11b0d35ecf475dac38a6cda133e401543d9c9ac0f6a18c8ae3d",
+      "size_bytes": 54847
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1976/season_type=REGULAR/part-00000.parquet",
+      "rows": 295,
+      "sha256": "c780aadad83b3a0fa71d760c12516abf29135dbba7d088f0d8302f130762386d",
+      "size_bytes": 36811
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1976/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "5b98df3a7846e44aedb28c81c03258eea6f694af2880915eacf72a4a6b6553cc",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1976/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2144,
+      "sha256": "9d99533778d2cfed17df22fcfd0ac8507087134586526e2b00bc6b63b207c70e",
+      "size_bytes": 55277
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1976/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 134,
+      "sha256": "b488e637865ec1a2c064506935bd6adf3409c5a99a99a9cc88778e051cdcc698",
+      "size_bytes": 30866
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1977/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "d713fb1b16ca0d24defbb10fc786d5877ac0048252e2afa7447a61365fc25ba0",
+      "size_bytes": 17515
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1977/season_type=REGULAR/part-00000.parquet",
+      "rows": 4560,
+      "sha256": "22c58f33823cd793e4510ae35f6f2e067f6818c0f8b70eb1d810cbec22398d74",
+      "size_bytes": 54550
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1977/season_type=REGULAR/part-00000.parquet",
+      "rows": 285,
+      "sha256": "19a5b5cd12cec9daa583aee0213b563ea1676da211d758a09749da0be47d6c66",
+      "size_bytes": 37605
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1977/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "3541715d68047f3a8abdd89d6a4af24fcdcb4665a23cfc0b1eb8af5a22f603c6",
+      "size_bytes": 19503
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1977/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2048,
+      "sha256": "53fe47f91f1b1acd4e56c0943b5909e788ad9791e6a1cd20facd3d87491dcc3d",
+      "size_bytes": 58226
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1977/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 128,
+      "sha256": "581d8424e54e695c3fe76d9ad03f8dcf24be392009a012010c1b621e42369489",
+      "size_bytes": 35048
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1978/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "372265116375428c148ac998604a5eb8da34c77dc9614e0206d3cfa38101b407",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1978/season_type=REGULAR/part-00000.parquet",
+      "rows": 4480,
+      "sha256": "e926ab041b5329d5067f733a593674620fc8ceeed1bdcb60374f57b461a73c23",
+      "size_bytes": 43310
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1978/season_type=REGULAR/part-00000.parquet",
+      "rows": 280,
+      "sha256": "a55565c3149eba21bf326d1b4765ff4aa46a580b040dd5779df8dfa41750b1fd",
+      "size_bytes": 27732
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1978/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "33e59a9cbec8054df1a6f4106762109cb9d7c8fc3de6858f4865b835dfda679e",
+      "size_bytes": 18563
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1978/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2032,
+      "sha256": "b8dd2364dd7cd369f873de64173a4cfc756374dc7459cb275f25712f9058cb34",
+      "size_bytes": 54316
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1978/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 127,
+      "sha256": "d9a1c020d234e4af5252fa017e0b5f821241a3b33c0c079b885aad6944546682",
+      "size_bytes": 30999
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1979/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "9cd940d2e86754bcecaec49e77b1ce57eb42f9b7255b695f9c37adf27dd0e93d",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1979/season_type=REGULAR/part-00000.parquet",
+      "rows": 4592,
+      "sha256": "3ea99a6906edfd78fcf8c16529e388f5881cbae0fd0bdda843b77d4e58fd43ee",
+      "size_bytes": 44216
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1979/season_type=REGULAR/part-00000.parquet",
+      "rows": 287,
+      "sha256": "27d1848593200f383cb3b31600c28e19e645e2f3de3388f387e8e254043a6ccf",
+      "size_bytes": 28182
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1979/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "3bc89a6104fb709766d847fc8dcf4364de3d1bc7faf4d4315853ffde14acfacf",
+      "size_bytes": 18751
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1979/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2064,
+      "sha256": "a86f3afc4a0d51332591853b34de44d0a80f6af899e7ab4a1731366c444cc44e",
+      "size_bytes": 58810
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1979/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 129,
+      "sha256": "b1e7b371f90c60b3d2de2c80bd3b3bcdb3149011c9ed17d37827da04433a8439",
+      "size_bytes": 33184
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1980/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "d2181e2b0efc592deaf287e2eb6fd1e3ed94e99329c6b1e1a49d91b94420a8c3",
+      "size_bytes": 18187
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1980/season_type=REGULAR/part-00000.parquet",
+      "rows": 4864,
+      "sha256": "5254b51704d3cd89d991a57c560d3643799734bad868f4e47efbec6227f981e2",
+      "size_bytes": 116900
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1980/season_type=REGULAR/part-00000.parquet",
+      "rows": 304,
+      "sha256": "5addca450d129774fc3727b94b477c7da780a157270a243f43163211bda8b219",
+      "size_bytes": 58150
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1980/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "829f42edcc2ea963724d641ec1ad44fb552c9f76816d783b139d47a8a7118f1a",
+      "size_bytes": 18751
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1980/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2080,
+      "sha256": "a43806acda32798c4596d72205a461bc4f648c2d42585331220d87ffa5dbad51",
+      "size_bytes": 58447
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1980/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 130,
+      "sha256": "069b1cb45748f8dc989c18e6938d98a971beb1dd838ac8563d20008f66eec7ca",
+      "size_bytes": 34293
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1981/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "2910f44142668d5968ff896cd5192dc66d7f075a7bfc1887de3f108d19e5fa69",
+      "size_bytes": 17045
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1981/season_type=REGULAR/part-00000.parquet",
+      "rows": 5056,
+      "sha256": "c355bd8c6492f0510712ba01aead3babdf924651984a2d889ae50a29a40ff02c",
+      "size_bytes": 47794
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1981/season_type=REGULAR/part-00000.parquet",
+      "rows": 316,
+      "sha256": "54c3a250fba53be22f26a564d5b72e8b431a54af2364db30164802b8b7124750",
+      "size_bytes": 30027
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1981/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "4ae9ddb08b26a8779acb384536636d7b86b3e4d262192ffcb56389b292e31011",
+      "size_bytes": 18751
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1981/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2208,
+      "sha256": "2870f0526ad043a4f54a47dbc447e3ee99fe1a396df136a0ab767600a993effc",
+      "size_bytes": 60449
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1981/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 138,
+      "sha256": "b76178d9928a971ef7eb488aee65a7bd316a3dc98813f63a362445f9d8697026",
+      "size_bytes": 35446
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1982/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "63288b9113cdfd4d74174ad8f24e6fff3e86bcbcd6f145af09e4a0a3ecbcc4e5",
+      "size_bytes": 18657
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1982/season_type=REGULAR/part-00000.parquet",
+      "rows": 5056,
+      "sha256": "acde36bb738fe36245627ead0c245c34ba8bd61cce787e2f361fa835e5c376d5",
+      "size_bytes": 152260
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1982/season_type=REGULAR/part-00000.parquet",
+      "rows": 316,
+      "sha256": "c912e984fa1ad0fd766e2a256a86954742181ea388bc9b86f9ecbfb314238437",
+      "size_bytes": 74658
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1982/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "1ec8d81efbad9d93676eac41f6876c1940740a75f36d3c157fc48bd847c0217f",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1982/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2304,
+      "sha256": "5feda76fad70628210a3caef1ce16e72e3129e584c70a9e33359356371e4fc9e",
+      "size_bytes": 66039
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1982/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 144,
+      "sha256": "3c0e96cad2fcf7b7b48e7581b229a227e6be8c3e1e44efb1ec0d780507d199c7",
+      "size_bytes": 42153
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1983/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "362c672bac88aee4d26401766860487f4cc54c2b1eb728081bef75324990ba7d",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1983/season_type=REGULAR/part-00000.parquet",
+      "rows": 4960,
+      "sha256": "b07ef72348d858f8fde0a5b2fd13674507042bdfbd2058448aa6b9ec935b472d",
+      "size_bytes": 178311
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1983/season_type=REGULAR/part-00000.parquet",
+      "rows": 310,
+      "sha256": "6e020dd4a285a962917886ea8f1d7b4eaf51ae8adf454d59a2d81e7694faa957",
+      "size_bytes": 96362
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1983/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "dfea914138127f597b04ad7eb4c3cc27ed4a1a9e74636441315010501ed84c5a",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1983/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2928,
+      "sha256": "08e8055e88776966f4a3e1ce2d5125d487b49d63a85b1ded3615ef83fe78cfe7",
+      "size_bytes": 85540
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1983/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 183,
+      "sha256": "d8bbddcfd380075fcbb9d6b4c9e11b8ff32b6b7e8171951d12203bf9e4a783d1",
+      "size_bytes": 49443
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1984/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "19184f8652847699fbb919b395e1639517710167253e2526165448256ea7bbd8",
+      "size_bytes": 17327
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1984/season_type=REGULAR/part-00000.parquet",
+      "rows": 5120,
+      "sha256": "4e2abb737ec60b532adcc2f2fba2b9024122c4d8a75f3d1095e1482178181655",
+      "size_bytes": 86131
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1984/season_type=REGULAR/part-00000.parquet",
+      "rows": 320,
+      "sha256": "e7929069cb4c950dc99441515e128c5a6f093a000178922babf411056b729fd3",
+      "size_bytes": 54383
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1984/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "c8512baa99096825d92734b76491a6d05bfee6b99faa385e36e45a953230544d",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1984/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2960,
+      "sha256": "700d7c7737ba3b14e1dd37134b2574737f8cc01e9a72f79eef4f3c821f9dcb7b",
+      "size_bytes": 83432
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1984/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 185,
+      "sha256": "1f29f87c60a73e69ef22804ee7af98a5c14ee3ecd9fff5f2fe73dae99118e6b9",
+      "size_bytes": 48177
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1985/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "94adfb449c160912a55b263e2cac2b313a9c938270118854de72d5979675dd8e",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1985/season_type=REGULAR/part-00000.parquet",
+      "rows": 5200,
+      "sha256": "9f98da5f59c3d7544c0ef946fdef820acc31c077aacc013f8861de7af621866d",
+      "size_bytes": 179489
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1985/season_type=REGULAR/part-00000.parquet",
+      "rows": 325,
+      "sha256": "3493422ad7d66155423a14711378834c8e1ef3e80f7f12786e17e5f4db65b26d",
+      "size_bytes": 93934
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1985/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "88e312ec54fce6b4505ea908ad7d22ef48273bc7aaf533d967b6db3741fe243c",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1985/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2944,
+      "sha256": "1724c1c4440fc2274c7930e84b5beb583186be29a21ccab11aaf1d85f74e5f11",
+      "size_bytes": 82768
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1985/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 184,
+      "sha256": "960267225211d33269f2c19cfb537760da9970e150896a81c03d9039f5458209",
+      "size_bytes": 48322
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1986/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "13c86cfab6163276afb8440db692900e4563ba550b7b403e87011732bac3ebdb",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1986/season_type=REGULAR/part-00000.parquet",
+      "rows": 5360,
+      "sha256": "ab0a992b367c90f95dd91bab4f0216f81ef454db3dde97718058e6581964241f",
+      "size_bytes": 185160
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1986/season_type=REGULAR/part-00000.parquet",
+      "rows": 335,
+      "sha256": "7fb61e40825b2d73ba1aab8db47a6068852ceb3e7b70ccbd1b1b3297c0970cc4",
+      "size_bytes": 98851
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1986/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "724316fcfbed40175059ed931cec909eebf17447b95bcc79cddf8295f8f033d9",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1986/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2944,
+      "sha256": "cc8b65c67a0c77a26b804eb081ccd30404fd251108a1dc8b9d26320a222a925f",
+      "size_bytes": 84053
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1986/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 184,
+      "sha256": "64a5bcfc53751e4b4646a2a7615c92131f0cad6d2f6846737a4d9db2fac86d5d",
+      "size_bytes": 49503
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1987/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "dfe10a96193364ae75b6a7a70a3d6d8e52a068484e1964432729c4085166fe10",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1987/season_type=REGULAR/part-00000.parquet",
+      "rows": 5312,
+      "sha256": "416a922c00d1ff98223e65ce9261e925a2677c817574afcda1bfbf0498770468",
+      "size_bytes": 183531
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1987/season_type=REGULAR/part-00000.parquet",
+      "rows": 332,
+      "sha256": "253685d95d57b42f04802c718d2d69fd1427f644142f9abf406c750277dcf029",
+      "size_bytes": 102717
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1987/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "93156add9dfb3f7920fc05c03e6043f5b4fa058630caa0cbb189dc8b6f5b1aa0",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1987/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3008,
+      "sha256": "8f7723e6ef45209e21cea47b4ee55b3522943c6af9af60fcff32946d7e4da5f5",
+      "size_bytes": 84853
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1987/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 188,
+      "sha256": "cfa6dfbf8ed117df63f554cf5a85decc7b55964a167abba5bd517ed4ffb98d0b",
+      "size_bytes": 51671
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1988/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "4de4af289e3fceea0d897c19105df9656540c4ad79ee16ca0833ac93eb699e1a",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1988/season_type=REGULAR/part-00000.parquet",
+      "rows": 5648,
+      "sha256": "5498b55f341eaa0f5750bc6509e45769b8b3852059156760ed720b1291cf5f1c",
+      "size_bytes": 194617
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1988/season_type=REGULAR/part-00000.parquet",
+      "rows": 353,
+      "sha256": "bd6a7e911f824278aa5e0cd41ec54cd6526e785820aaed82867d1bf6c85d1235",
+      "size_bytes": 108361
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1988/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "b51e1550f9bbc546de0074d6d4aeb1ca01cecf0e2662fb695169af6a357fee0a",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1988/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2928,
+      "sha256": "6e5b015d0eb24388ce298b19b1daa5f5f8a0bf3d0ad8694868e3b1c7a21b52f1",
+      "size_bytes": 82991
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1988/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 183,
+      "sha256": "6e3d5becbab301e338bbe2dc17a07f4cd92884982213b317048caddc0963527c",
+      "size_bytes": 46795
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1989/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "3d9d3123d82b9ff0f3aca857344f8519d9b1935c5793c91acf553aa603071ddc",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1989/season_type=REGULAR/part-00000.parquet",
+      "rows": 6096,
+      "sha256": "1e5caa9a28bb4ca556cdf56eca7d22f6686b09a73beca9e022833cf0bf14696d",
+      "size_bytes": 210138
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1989/season_type=REGULAR/part-00000.parquet",
+      "rows": 381,
+      "sha256": "f857524eb420a2beffe685aef984f9844cc84b7870eace4fdd5a96ff74c695d7",
+      "size_bytes": 114582
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1989/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f68a5df7de3df799f2bbb74f7a7ccfc59ce3ba6aefc2f203746b5a5442af5e7c",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1989/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2976,
+      "sha256": "708ec5e7aa939716118ab032349e42f6e5af19c2a911c14ae4662354f02f935b",
+      "size_bytes": 83095
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1989/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 186,
+      "sha256": "cc8e40a43f90bdf0340e8cd389c2b2aa5e11e460a46dd01e896fdd39aa443558",
+      "size_bytes": 47771
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1990/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "93cec674b4d47395a8342cc79746a38ab4c59aad3fb68335c414d3a57c98912c",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1990/season_type=REGULAR/part-00000.parquet",
+      "rows": 6176,
+      "sha256": "90ee77c17273b1afdb697ec77e345bd6ed19351ce6eb71fb206472bea6a4229e",
+      "size_bytes": 211347
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1990/season_type=REGULAR/part-00000.parquet",
+      "rows": 386,
+      "sha256": "8db0142355e5d0c88f0fe47dcc4e7df73e811e0d67bde97ecf00a0c83c755c38",
+      "size_bytes": 113930
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1990/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "5fbe6356f29b1f7e161611d6911e5639d22dba90cb88340bd409dddd1873f38f",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1990/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3008,
+      "sha256": "16adb47d9ba22af25405b7a59294c8fdf2ca255846ea4d699fb396bf7b8a97f4",
+      "size_bytes": 85398
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1990/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 188,
+      "sha256": "17a13f1fb5f349b1b1c0d75669e3481fb98baea5064a4592a4740e55e44f63c6",
+      "size_bytes": 49137
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1991/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "d2e3e34448a53f386a19b9cd99e4e1ae656a18ace0907ddf97e59a7c537e1f05",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1991/season_type=REGULAR/part-00000.parquet",
+      "rows": 6144,
+      "sha256": "6ed5d7f26f3613525278122d7be1d00fcbdab4ea7c6f3730551606d434d9c7f8",
+      "size_bytes": 206568
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1991/season_type=REGULAR/part-00000.parquet",
+      "rows": 384,
+      "sha256": "965af7a4d573c1dfcd70f0cb045c6715e75144bf49538aa6b3508542f960ea39",
+      "size_bytes": 106834
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1991/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "22eab5c78681fcdcc0f3ba35a4685853ef9af069ac313e5afffb6266d6bdbb01",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1991/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2944,
+      "sha256": "5a81f2929d2451f320c194b3b70c9e5d34f61ad1ba1d070bdce4994008a59b5c",
+      "size_bytes": 82465
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1991/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 184,
+      "sha256": "a08adccc28c5b7613272d4f01dac3e54d8574c8ffa0f1f791b592963e695bd27",
+      "size_bytes": 50130
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1992/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "19f57fe1fe4267186c87366d0faacf1fa87d3b8a85d880b63851a12529c676d9",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1992/season_type=REGULAR/part-00000.parquet",
+      "rows": 6192,
+      "sha256": "086383b5c1db3caece6cf199e7d2036f429c62a6ad15abc9e6b9de37458a564e",
+      "size_bytes": 211460
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1992/season_type=REGULAR/part-00000.parquet",
+      "rows": 387,
+      "sha256": "f7ea74f05fc0b5fffe8102b140abfd22fe3ce930a19808242d5f6e5c94d43651",
+      "size_bytes": 116631
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1992/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "875925925cbfbc0e13a3ad0bc6eadb9db30364ca6cfb6b7adb3dd099355b1a24",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1992/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2960,
+      "sha256": "7ffbe0fe0ab3eee31624bce821df0d896520f5b91c94f9e90b0618dd7e1596ad",
+      "size_bytes": 85349
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1992/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 185,
+      "sha256": "84ea5661a00f04afe44e4a75769f8df7a847c1fdd7067ed95902111d266a4179",
+      "size_bytes": 50947
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1993/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "1597e7199318f77b41c3671cac3d405f9bcbcaed498e84906b8cea4e71703820",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1993/season_type=REGULAR/part-00000.parquet",
+      "rows": 6416,
+      "sha256": "7ae16494902b0409ff4f52afe0898ee57b095984b8efc71e19bc5080c286bbd5",
+      "size_bytes": 216826
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1993/season_type=REGULAR/part-00000.parquet",
+      "rows": 401,
+      "sha256": "ed3d7bc21dc096f11efb7af49b6883705fdb1f46ca2ba27a0c2a39fa1a42d7b2",
+      "size_bytes": 114126
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1993/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "bca4ba4125def745fa5c062509b0d27539d982b2fd7d472455a259e55dc24bfb",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1993/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2960,
+      "sha256": "afb93790bf58c063518ddb079bebf89f3666c5f6eacf92907a87f1f9b11eabfb",
+      "size_bytes": 84132
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1993/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 185,
+      "sha256": "1bdb2dfb17cab2bad2b360eea9ec5ab598cc9e520d54e883ddf9c4c19143d6b6",
+      "size_bytes": 50092
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1994/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "2ea9ad3f005759526eed28ca2c251addc6806ab03f7bb8d185961c934335811f",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1994/season_type=REGULAR/part-00000.parquet",
+      "rows": 6496,
+      "sha256": "2b30ede19b2179b7998bee808f611a84053ec2163cbdb94a019d7d43b5ff0dde",
+      "size_bytes": 219429
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1994/season_type=REGULAR/part-00000.parquet",
+      "rows": 406,
+      "sha256": "c93a568b12035cb8ce244ed045a6b0112a0a49cfa1ff222a4c58251f8ce2dad6",
+      "size_bytes": 114643
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1994/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "709963354a874d4e27f88c45bd0336425fabfd9ac7426577f12e8acd4f33efa9",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1994/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2960,
+      "sha256": "69bdf95cb12f85bbc3a4cad5f705357296ee657dfc4e866e3491dbc9af21f394",
+      "size_bytes": 84573
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1994/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 185,
+      "sha256": "120f37b8c37b4981986f0c935aa12ec989e70499f75a6256a965d50f40ffa076",
+      "size_bytes": 49199
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1995/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "fdd2046a80287f5152de163aaba3a2462039ee963a9645fc6b059de7ea9490ec",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1995/season_type=REGULAR/part-00000.parquet",
+      "rows": 6800,
+      "sha256": "ae39f699baa904194141c209c8145aeed2780635dfc944efd7da1f99262827a7",
+      "size_bytes": 230038
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1995/season_type=REGULAR/part-00000.parquet",
+      "rows": 425,
+      "sha256": "8aebfc7c77f0f0a0a556232d716a4b4872c456c918d933b31438c70547814f87",
+      "size_bytes": 115392
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1995/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "73f802a9270c710bed32d91dd43b0ff191122f781e3975661dc8de0621579f2e",
+      "size_bytes": 19691
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1995/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3008,
+      "sha256": "19172d8b0c23aed0d63b1d2a53e2c32c8697fa72503dea4dba39d2540ce08ea0",
+      "size_bytes": 82146
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1995/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 188,
+      "sha256": "39c23453b36e50cc70ef7476fb15681f4eb25c9ad036e29f7ffdc47f6f607bee",
+      "size_bytes": 47462
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1996/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "b042781059927be66e9e74ca0919ce9f1d15c33cc41ea9be72cdb203b6ccfc0e",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1996/season_type=REGULAR/part-00000.parquet",
+      "rows": 7056,
+      "sha256": "677f6d96d96de3b252e924120b6bf391bbbdc2eac61f43361f23164d7db924a2",
+      "size_bytes": 262253
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1996/season_type=REGULAR/part-00000.parquet",
+      "rows": 441,
+      "sha256": "7c852754fb8c9912090bc8baa7e7535432706352251d42cc3d52357d72aaa232",
+      "size_bytes": 117832
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1996/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "ec6a0246831e3f89db01ab0438658a05fadd3ea53a1059d0ca2941d101e75e37",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1996/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3024,
+      "sha256": "117ff1b7e085a6dd7d18384aa1c91baef47ed4dd40712d547fa6645304cba6f3",
+      "size_bytes": 97606
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1996/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 189,
+      "sha256": "76f8d3948e26bc307273e40062121b72f06779cfaae5224339b2953d0987c63e",
+      "size_bytes": 48948
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1997/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "67140fb0b46a5933807e7701dc7aa3caa4a7f8a50ff723a9ceb87a9e61ba0226",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1997/season_type=REGULAR/part-00000.parquet",
+      "rows": 7024,
+      "sha256": "e90f78a2e26260e67f9698655ac955163670b74348634f9faef64b4370269e7c",
+      "size_bytes": 258701
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1997/season_type=REGULAR/part-00000.parquet",
+      "rows": 439,
+      "sha256": "566686f262584acf57805c2594ff302646778fb1d6203484693db8535f1101f5",
+      "size_bytes": 127739
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1997/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "dc9938d3ede6dcbd28638c8fcfd5a3ae13715954f8d8c7d16e38c808a0e0387b",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1997/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3040,
+      "sha256": "edc6451efc2d90a4589c348a183a519b16e5ddf365a8bbdc9d2236da5698ed29",
+      "size_bytes": 97555
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1997/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 190,
+      "sha256": "4566853ddafb13acdaff43525268d574477f31d0317317a3fe65723726c5a1c4",
+      "size_bytes": 49230
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1998/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "73fb29fd2a21eeaa2e80eb61c4ea9ba8e89724ab0967ce1d757f6bb2e50e863a",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1998/season_type=REGULAR/part-00000.parquet",
+      "rows": 7040,
+      "sha256": "dcae85ed35885b7616e0d2becc98befdd93e9de46cd033ebee5f82aae41f08ad",
+      "size_bytes": 244058
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1998/season_type=REGULAR/part-00000.parquet",
+      "rows": 440,
+      "sha256": "0348ac21daaa52cf28855da37320244f939e77ca05c7f3b5d2ac6bc76b2bdab6",
+      "size_bytes": 116762
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1998/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "7a6172639e8cd7c5d0766e69c9fc6d44cbb16410dd8b7c71d22fc12e2f325fe6",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1998/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3024,
+      "sha256": "060873784fa4a4dfcd88931ce46176bf81ca9a86cfd2662c545864aa1ad5892b",
+      "size_bytes": 98541
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1998/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 189,
+      "sha256": "1bac61f35ea24b491d2ae4e87d4e4cff4d4fbcf06cf981c6b7f8eae20d19e66e",
+      "size_bytes": 50305
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1999/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "bc3e875180dacf38d7dc6becdff9a494f823f96c14b6edc618dc44c69d5aa645",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1999/season_type=REGULAR/part-00000.parquet",
+      "rows": 7024,
+      "sha256": "9907465193c22c3d27a310b91e69c0941c51d32a4d4c2109b79de57e8f8789f8",
+      "size_bytes": 260413
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1999/season_type=REGULAR/part-00000.parquet",
+      "rows": 439,
+      "sha256": "5be48323f910a56aab6a00d9f09a740f4632baf5f5c0697893215589c511d524",
+      "size_bytes": 129281
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=1999/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "4a73fd8d14a9a373ba915517bff4fb8e9930a94d31fde5435f636d555c561add",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=1999/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2896,
+      "sha256": "74d2f17d0bac04f178e8b7d0a7942aeee5975985f28740880bd9474b5bcd6c73",
+      "size_bytes": 94818
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=1999/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 181,
+      "sha256": "9584ea34c3d62a7d97881b74f2846e00333f2fbac9eb3d1a0116c229032bba54",
+      "size_bytes": 49305
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2000/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "990dcede792a2aff258d91f9b1f6d1b84d7bb018c7b6f658444cce50731d35c8",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2000/season_type=REGULAR/part-00000.parquet",
+      "rows": 7056,
+      "sha256": "23be47cb00f702f30e484531c1934fef6e03914726432c663589d2d458cf1b10",
+      "size_bytes": 262239
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2000/season_type=REGULAR/part-00000.parquet",
+      "rows": 441,
+      "sha256": "f1d2d96d93fe887b79a8705581e5dd24426858e457b9bf05911e42ffde4eefdf",
+      "size_bytes": 129974
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2000/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "94e52de1fd016a805104de504c6fba9fe9ef7d62a75f4ef4e42562ee6687bfcd",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2000/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3040,
+      "sha256": "59078de3e81731c8963e5f121c773f73e805b4906b689205cd00b4d04dbd630f",
+      "size_bytes": 97667
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2000/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 190,
+      "sha256": "fc0be8ace184697e9164a9f37168109f2447a4deceb2a8c5c2c10252a42c34ca",
+      "size_bytes": 50079
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2001/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "32d9846eea0ce2cb69fa71d553f1ab5dada922aa006c802b38861fd3e5f3cece",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2001/season_type=REGULAR/part-00000.parquet",
+      "rows": 7040,
+      "sha256": "f9fb6843f2ab8688c1c958562016b1aa83cc52e50afa586854077534e1ff5738",
+      "size_bytes": 262300
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2001/season_type=REGULAR/part-00000.parquet",
+      "rows": 440,
+      "sha256": "44f17b37bab2d1a331e3ebdf1383af39e23a772cf10cbddb906c1e7d528797ea",
+      "size_bytes": 118259
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2001/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "0da80350fd8cc23c3f1ec34b80e865e74d9a3ef01935b59a2bf113d557218105",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2001/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2976,
+      "sha256": "2fa126c5478f900e098278afad54b79e6b84d8a718aebdff61e5ca1ef554f4c2",
+      "size_bytes": 95345
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2001/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 186,
+      "sha256": "2642db39659dc966aa70049faf09f77b01bafb900f85434502b9f48f866c5d19",
+      "size_bytes": 47242
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2002/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "924b2a1abb9cade388bcd573a37dc687f413cd626d7079bf6afe9369ec0477f1",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2002/season_type=REGULAR/part-00000.parquet",
+      "rows": 6848,
+      "sha256": "26b0cc33e320e4334301e798971f3412832bb26886343dd50caf2be5d5a7e1fb",
+      "size_bytes": 253294
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2002/season_type=REGULAR/part-00000.parquet",
+      "rows": 428,
+      "sha256": "87858826e8b5c7ad86f7de7150965107613c67c6366330bb822615e5620f94ce",
+      "size_bytes": 126436
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2002/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "bf1f20bea4e52181da35cfd7bc861f10058da34cda5bedf86cbb47ed293056d7",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2002/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 2992,
+      "sha256": "9810e8e308da723f6bac3ca9af60ca2b4509b6f1db251d34486209dae527dae8",
+      "size_bytes": 100892
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2002/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 187,
+      "sha256": "7461c1dc53cdb4752b75673eed5164abf800103c57c4f39d12ca1fe5363e0f05",
+      "size_bytes": 52507
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2003/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "09359c13fcc3f998e1b392ed6a1a0bad61d88ab53b6e8a9b8100e42f0bbe1a4f",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2003/season_type=REGULAR/part-00000.parquet",
+      "rows": 7072,
+      "sha256": "5961713f548c4d9a802da44feaf6dd4366a6dca8c2ea8bc754e59afb6cec995b",
+      "size_bytes": 262695
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2003/season_type=REGULAR/part-00000.parquet",
+      "rows": 442,
+      "sha256": "0bc86ea41a4741aabe651815c97a5b93debb1aa06db2b1f57f14a515f88911f1",
+      "size_bytes": 126646
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2003/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "b9babf82188605e17390685a27100b637f0b1a8684003da8d7a90dba8e1e828e",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2003/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3024,
+      "sha256": "a22cb2905500e0b03c8e834a56c1b82f39774e034ba408ede06424be98a30128",
+      "size_bytes": 100039
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2003/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 189,
+      "sha256": "1b6fdde91f34f78479d7b67f4f88938408cd9f1d611111a65ba6cfa46f2b4696",
+      "size_bytes": 52561
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2004/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "1d9ed9c4f1728fc55484594275ece21655b871516f2dc557da8f703707bdc82b",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2004/season_type=REGULAR/part-00000.parquet",
+      "rows": 7424,
+      "sha256": "15ba6909e02e1e2ad423a466fdfcd9bd61f422a5947ada17c573dfd338108b54",
+      "size_bytes": 275482
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2004/season_type=REGULAR/part-00000.parquet",
+      "rows": 464,
+      "sha256": "a607bf9c8e3b2071dc8e39e1d8d290e8ec5ae8e55b6a2c3297dda3c4d916b97f",
+      "size_bytes": 135608
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2004/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "5207141377ead1ef54f9a6b362f764d3d8dac2d68fbfe48c719c118079b4cfbf",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2004/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3008,
+      "sha256": "67098465febb805ab6aac22ea0a8b1436bab01e5cb9595bf28f2d48bef82ac2b",
+      "size_bytes": 100895
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2004/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 188,
+      "sha256": "7b92bc738ef97fdcce9644b1b39fdea742eedd72836b3dac83140fec4bbdb8c5",
+      "size_bytes": 52827
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2005/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "c9ad85cc36407090daaaf2be10b99e8dad6d483b02609136231dd814f0430d52",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2005/season_type=REGULAR/part-00000.parquet",
+      "rows": 7328,
+      "sha256": "415207a364c3cd7f62b4859a9f1dc4c14b3187d7a04dd9dc237ef573c281ec14",
+      "size_bytes": 269777
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2005/season_type=REGULAR/part-00000.parquet",
+      "rows": 458,
+      "sha256": "1fa89efea5e5491a8ed95d3f111e511c2152e23c0b6ebcd8e4f0f19bc9a2dade",
+      "size_bytes": 131137
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2005/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "5471d6e61bb577534d00fcc93138a5da5770bb57729ce49a1b2b81b9173423c9",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2005/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3120,
+      "sha256": "0b5da0c1238010ff97391f4d3f8b6a8884f47ad04e8e19e3a1bb8d9b54557908",
+      "size_bytes": 101030
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2005/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 195,
+      "sha256": "d943cef6796b21ad92c10a0d255d567dcf15c9074474d0f6b0def3b7dc197c3e",
+      "size_bytes": 52818
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2006/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "3e8460f1c986a6ac7204bea37534af56fdded67c60b392ec584b80316dff0094",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2006/season_type=REGULAR/part-00000.parquet",
+      "rows": 7328,
+      "sha256": "dec24147e532056ee281c8be8f17fbae59128d0b32ec762cc82ca297448e981c",
+      "size_bytes": 270666
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2006/season_type=REGULAR/part-00000.parquet",
+      "rows": 458,
+      "sha256": "fe6e522eff4bdbf0f19fe9da51258c7af621d071f84a93baab07096304beee40",
+      "size_bytes": 130477
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2006/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f99f474aae14e15f27571caf11c45fd0496ffdc6ca0f36472952cf849eace7c0",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2006/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3056,
+      "sha256": "52ade284da105f4eaefbc9cf4e75dbc43428b59b05caa84566fc4011dd3f811b",
+      "size_bytes": 100064
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2006/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 191,
+      "sha256": "878248a1bcd98c7824c2d3a4bddcbe17b9a46d232491e83297ceee94c20348cd",
+      "size_bytes": 51127
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2007/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "d09ffc7828261564130db378c581315580c87593a363c212e9ade4e65ab2bf2f",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2007/season_type=REGULAR/part-00000.parquet",
+      "rows": 7216,
+      "sha256": "95bb1b7ac82da7507057a49f14dac8f3e17927a887d3212dd4ce55dc3c76dc66",
+      "size_bytes": 268054
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2007/season_type=REGULAR/part-00000.parquet",
+      "rows": 451,
+      "sha256": "abc3e8a0af8889aa0fa2bebe8b7320602c97ea1990ce90e3a0a62470b3989863",
+      "size_bytes": 126292
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2007/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "15528ece938c8ec59aeaf4fb607c53a9c72f2fa33b67187282f51349165378ad",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2007/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3232,
+      "sha256": "a64f912804801547a43eb7c952029fd1d46fe67a623753ea2d844d1c6fd41e9a",
+      "size_bytes": 105064
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2007/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 202,
+      "sha256": "614d4fe933429c334b0cbeaa4c3d2e0c5b198c6070d63fa9de8789d77f29167f",
+      "size_bytes": 52997
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2008/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "e75d2f540e3a96b0d9621af4f85d0cbbdc116b1cb3fdf92d112cca68dd515587",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2008/season_type=REGULAR/part-00000.parquet",
+      "rows": 7120,
+      "sha256": "7f2a6cd166351c90209c20a6938d6fd7d9008c483d0a1715fae097c6a7a382a9",
+      "size_bytes": 268132
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2008/season_type=REGULAR/part-00000.parquet",
+      "rows": 445,
+      "sha256": "8c4eccd517df3e43bfea65bd6f73ab516c777ed290595486475d55080fc537ae",
+      "size_bytes": 131640
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2008/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "21635e6bc35e6f44ab61d562deb26732932a0dfd3386f890bc89ff7902d51aca",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2008/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3184,
+      "sha256": "cb243ff6bf517996e01e65ae6877046d280f1a7c1fd5168ce4cb0ba3ecc083d5",
+      "size_bytes": 103745
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2008/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 199,
+      "sha256": "d25b6b7b5344c408bb84a52eba5d7b28342cb77167b8d0c0d14cb787aea3ebef",
+      "size_bytes": 54230
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2009/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f4cfdab4e2bd0cb2e2d8c1eacfe6eff9b7fa2aa3d072aa8c8773e32d1742685d",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2009/season_type=REGULAR/part-00000.parquet",
+      "rows": 7072,
+      "sha256": "8e73c5a2b500fe547cd4de75bf2a995a9e9d0a4275698380166bb1eac57695f0",
+      "size_bytes": 264073
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2009/season_type=REGULAR/part-00000.parquet",
+      "rows": 442,
+      "sha256": "5febe3ccc19370e6ba9d6d0f4c955a1062ac4eb06e5bb4d307a64ab06a06013b",
+      "size_bytes": 124263
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2009/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "d2fe48bc6769733c01d85c99d7cecfe9f5796e610b3735a6addaabfd69b2ee93",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2009/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3184,
+      "sha256": "fe597ffba62fdc8f4286cb345afea7221cb4b449767859665284c0ff5a1ebc1e",
+      "size_bytes": 102215
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2009/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 199,
+      "sha256": "2355bf197d172a5c11157867c4c88bba07c04e0a62dce77b1bcc4abb82639594",
+      "size_bytes": 53343
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2010/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "c80b068ce29375f6a867cfba5c3bacc9d3079b954a8a7f3007d6cb8bd0bd0afd",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2010/season_type=REGULAR/part-00000.parquet",
+      "rows": 7232,
+      "sha256": "63f1865a5038e1aab55272d3748b51c5552a8f443a01156a4560a07ac0b332e9",
+      "size_bytes": 269269
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2010/season_type=REGULAR/part-00000.parquet",
+      "rows": 452,
+      "sha256": "f8f14404d23271bd79be7388220062953b2022dcb4a6fffc1749a9fcfd709bf1",
+      "size_bytes": 124101
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2010/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "61a5cfd508efe6cd25162f5309c0e662aa84ebafc7e28669ceb354a9bc626796",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2010/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3104,
+      "sha256": "5ff8fb186c5f7d1b4d932d25c554fb1be9ebd4184044418ef5862a39e69e168a",
+      "size_bytes": 101843
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2010/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 194,
+      "sha256": "7bb41af2665a9a8966b9c881ce3223a3a4be7fc323c1b31b10f9ce8c0565aefd",
+      "size_bytes": 52502
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2011/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "c9f2f80272b76a8c64dcf0f0bb1e07dbc257385bc8532236f3f118edfc683c34",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2011/season_type=REGULAR/part-00000.parquet",
+      "rows": 7648,
+      "sha256": "9267ea08ddb52d1e665db13d3c255e3d484b23bef1a455604d53375389e5f35c",
+      "size_bytes": 278931
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2011/season_type=REGULAR/part-00000.parquet",
+      "rows": 478,
+      "sha256": "da00b508b786a7e9d62947d6875c0e3bb44753c5560d1492cf6afb3640fbb771",
+      "size_bytes": 126371
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2011/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "4f18a61d874984266aa96463bae0561f6d55f3ea2f865e9227849ef50ef980ec",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2011/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3264,
+      "sha256": "cf53c5115972ef59a9f17a90c4868bbc8ee19d1c001ee55d73045fb03be39e0b",
+      "size_bytes": 106964
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2011/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 204,
+      "sha256": "f6875029390ec40c112005a8b9aa47c9c07af009a0c27ba59264fc84f3802699",
+      "size_bytes": 53750
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2012/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "21992710a6144a5fbef6fbeeb1b32b9915585b69768ecffa531bff3d12ac7658",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2012/season_type=REGULAR/part-00000.parquet",
+      "rows": 7504,
+      "sha256": "7b432dab3f0935812bbb5953d6e83cd45b1dbf4f49064330148d25485c38992c",
+      "size_bytes": 279103
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2012/season_type=REGULAR/part-00000.parquet",
+      "rows": 469,
+      "sha256": "07ab84d57f7eb577ec06d4299daed72f3f307cbfd589847217236b0d5dbcc41d",
+      "size_bytes": 124783
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2012/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "207424035b05344693101ce161cddd5a98311a48915742768552ca418878ab18",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2012/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3344,
+      "sha256": "6c64a892fc8bfc135026f12a75c0a976f997445752419c8fdf3a2ff88acb9ac8",
+      "size_bytes": 107509
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2012/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 209,
+      "sha256": "d2690966625ea1ec1131f2225457c4ac8a72f66efba5c3ee5a57fff60efbdf4b",
+      "size_bytes": 53973
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2013/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "9a505a85aa784b532680d1ff5327c503f59aff9d7e3ee276876f07b4a689d6a0",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2013/season_type=REGULAR/part-00000.parquet",
+      "rows": 7712,
+      "sha256": "cc09d934465359ee561f027f56b0fb5b200d577d3bcdf1051eff2d6929b968fd",
+      "size_bytes": 285599
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2013/season_type=REGULAR/part-00000.parquet",
+      "rows": 482,
+      "sha256": "0f90a963b859ecda9b14a9840df254a5441990ac4307a89acb06ae365bb4499e",
+      "size_bytes": 139252
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2013/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "fa069c16db0d42bff11e0a2ef8c3423d3cac20a72847980236239ce2beac572f",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2013/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3264,
+      "sha256": "5a9ba49d6708168d0ef1876431537bc718d5f4a8c205ffeb3653efdd10356bca",
+      "size_bytes": 108617
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2013/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 204,
+      "sha256": "7478c481c5847336f8b854d0534fe45a8caa8870518ce8a92f3359daa092dbd8",
+      "size_bytes": 56384
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2014/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "fb4e5b32ba0d8c8ada0b80831bb24325e520a2b2a57bede9676fa1c249bced84",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2014/season_type=REGULAR/part-00000.parquet",
+      "rows": 7872,
+      "sha256": "acbbec715cb6ee0753be02c0c9e2c10a33949b8e4160b30fc0b73a3fb3604943",
+      "size_bytes": 293889
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2014/season_type=REGULAR/part-00000.parquet",
+      "rows": 492,
+      "sha256": "294431de156b305efea4faa400b2a8bdec4a0100b7a1b0cfae2575c4e499e680",
+      "size_bytes": 142444
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2014/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "9668b7df58a1792e2ca4268e6d06fb35b061f1d08a269b47d2b210780adeaf6b",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2014/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3328,
+      "sha256": "7065dd72ac0a9601ab61cb76c40907ffad59aca9d8dcb511207376b94ead045d",
+      "size_bytes": 106962
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2014/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 208,
+      "sha256": "4754e11b9ef55f7d9bb2fc2f671d810084c8f9f0fbd79fb4f1b420560a262651",
+      "size_bytes": 54802
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2015/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "f36dcbca0f3d36d8058ec11f82467e96b221b334045db5d79655a43dfe9bc747",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2015/season_type=REGULAR/part-00000.parquet",
+      "rows": 7616,
+      "sha256": "cd407ae4ee14081831c7cfa4bb774b5fab89bb8cd50869da1c880b4293971bb4",
+      "size_bytes": 286881
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2015/season_type=REGULAR/part-00000.parquet",
+      "rows": 476,
+      "sha256": "ea82ec3ecb82c0f14bdc16b27d50fa4c6d75f486dfd4be2a788a3b61bb76e055",
+      "size_bytes": 139805
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2015/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "410dd9515e52288e1f18f07f46397941ba9d96d9e39fb9ddb17a5f633d472ee0",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2015/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3440,
+      "sha256": "eedb314aa185b0961a720e64e5ea6585b0033e42704a7d9aac3fe1d2b537ab07",
+      "size_bytes": 111415
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2015/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 215,
+      "sha256": "230cdef45f08c187a928a92a6d3f71f930530b6c0aff2c609ff1f92fd21523b0",
+      "size_bytes": 54912
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2016/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "507f628cd634a8bd3872c1ea29a444cfeca4d5dd5ef52e0b7eae9cfe23ad5357",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2016/season_type=REGULAR/part-00000.parquet",
+      "rows": 7776,
+      "sha256": "d70b64ec50c092ff5dc2fd14193bf1df48257fc8769fdbc73dd3a4706a2e35cd",
+      "size_bytes": 291791
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2016/season_type=REGULAR/part-00000.parquet",
+      "rows": 486,
+      "sha256": "9dde79e2aa264084706be6b08a76304286026e96caea87d1ebaae7a55ada1544",
+      "size_bytes": 138736
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2016/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "084d4e1946e19442b5a08da80bbc9d92070c11d1ebaee6cd93fae95fda06282d",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2016/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3440,
+      "sha256": "23397576512f99ddbf8da4331da99348063d9b8aa96efbd1c486d1a2ed05815f",
+      "size_bytes": 113851
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2016/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 215,
+      "sha256": "a736efdfd211697d2c7ef9d7cf7c9c624abb7a93f334fee92bddbdc4670edb72",
+      "size_bytes": 56292
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2017/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "22e441e5ccb16cfbc826c5174809e8d2e5d212b8b78e5d0aa0f87941f879f731",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2017/season_type=REGULAR/part-00000.parquet",
+      "rows": 8640,
+      "sha256": "079ec6a6f99a9a0b4e231368dff8615e19f1e64723ea3953968aed96112db60f",
+      "size_bytes": 311367
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2017/season_type=REGULAR/part-00000.parquet",
+      "rows": 540,
+      "sha256": "8d949f956ec13577895f5ac3af2e2c51c020782687cf5bfc1543876642016a30",
+      "size_bytes": 146502
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2017/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "71f8e83ca04005376fa7dcf1a16d61089413e5c5c019b67f4e306165b8c5eec1",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2017/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3360,
+      "sha256": "de0747840a56e576c2d0f99bcb68655adea7aa94afb8bdaeb6f81caa2818fbd6",
+      "size_bytes": 108684
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2017/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 210,
+      "sha256": "838c9e5d9dbe73eb5421e6fa6d7e3dfbd6ab93ab6c678e8335c723bb4464eae6",
+      "size_bytes": 56235
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2018/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "6d4bc178646eb1ab93f042ba61b99422cfe801870ab95cb91685a34b668d8fdf",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2018/season_type=REGULAR/part-00000.parquet",
+      "rows": 8480,
+      "sha256": "39d7c7161e88cbfda738ce619c0cbc1c457f386ee2d55a33925b3c2defcffe26",
+      "size_bytes": 309867
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2018/season_type=REGULAR/part-00000.parquet",
+      "rows": 530,
+      "sha256": "bd75819612d79826b2de6b6111cc82036093a93e2f204ddcd96a5d91725ae9eb",
+      "size_bytes": 148376
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2018/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "b59d94b370b8f5700455401b72b1b8b1ecbe634cba00cc228e78dc6c1c62914e",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2018/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3392,
+      "sha256": "50f2ff42e21dbf4ca2a7e95d0cc4db57f82ebf9da8fd6c73172d2f0705c4e5c8",
+      "size_bytes": 111310
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2018/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 212,
+      "sha256": "f15091ec27828dfb0f578a0b1bbecee89ba62dc1683af8a3b6e0c5bab53b79a0",
+      "size_bytes": 55905
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2019/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "03670539d1bf998b2857fe5b091c5dc907faf2b69f44e741106f31419215e39e",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2019/season_type=REGULAR/part-00000.parquet",
+      "rows": 8464,
+      "sha256": "d91a9ad89e3335cd5c66f53a5cbf31b8f7c3daf60bb0bd6c6248d6e4a10c3e6b",
+      "size_bytes": 307176
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2019/season_type=REGULAR/part-00000.parquet",
+      "rows": 529,
+      "sha256": "c6b45156c8cde9c97c3a473142539f2e98bc968cc004b4a7f05a379e02a4f2bf",
+      "size_bytes": 143364
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2019/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "23f815aa502720fb0292552edfded4ad8eb860d9360b99d0045e042b119bf55b",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2019/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3472,
+      "sha256": "a6896c114b66048f14df250b16958a7731a5475912c3d5aee1c461b2dacb33af",
+      "size_bytes": 110279
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2019/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 217,
+      "sha256": "7ffa12bfff2a8ed3bea2f7be5e5b86e1ed141a2d3303b44d6add9f4d7ecbc74c",
+      "size_bytes": 56236
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2020/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8c9784c052531f8f46a11dd6d0b68e9c951bf5b15ff770e738dd91b921d8e08e",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2020/season_type=REGULAR/part-00000.parquet",
+      "rows": 8640,
+      "sha256": "104d34484943cd530778ea1aaf99bf94cc2088eb2ab4dfd6378c621deda92d5d",
+      "size_bytes": 316242
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2020/season_type=REGULAR/part-00000.parquet",
+      "rows": 540,
+      "sha256": "ca2b214aa544208581a87b3d5365816e295c7221cad21bfd2ccc36c1c2a4bd79",
+      "size_bytes": 148184
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2020/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "1bfd0aeb1da06c74f3cda5f2c99698fe7eea6331fa16cda98d9aae36976aab00",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2020/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3824,
+      "sha256": "5b27a43dcbf67ae36291d52c2f19902a0c4f0d5e6682616080658311f052655a",
+      "size_bytes": 117989
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2020/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 239,
+      "sha256": "6b1919cc8ffd8c7a8d725a5ed87e9c59b1d36d47fdfb971314858ce4136507b0",
+      "size_bytes": 56583
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2021/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "04d816eaf9593f9c7cf0f54c623cfef0b89058feb55a1d0403063fe54745c2d8",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2021/season_type=REGULAR/part-00000.parquet",
+      "rows": 9680,
+      "sha256": "26e3185bf95fbb088af3c5de200bdd4b7cf62a8ea6887859fb4d4d6432321740",
+      "size_bytes": 341697
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2021/season_type=REGULAR/part-00000.parquet",
+      "rows": 605,
+      "sha256": "5964011c9adeddea35d318640ba440a4f9e24ca23b5e2d38097929d716ac9f9f",
+      "size_bytes": 159820
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2021/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "b478054217a79283f27be112cffc06799be4b93e7e0e9e0ae67e394753858dbd",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2021/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3472,
+      "sha256": "480ce7cc6767f40aabd18965332577081153f1cca670613fb07e9504fe48ffa4",
+      "size_bytes": 111128
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2021/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 217,
+      "sha256": "573ce0838245b4367218954b5be038d31c2ab6e9d1dc7b8549e8289282be883a",
+      "size_bytes": 56087
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2022/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "90295dc8c18b55707bb3086889b9afacb636254b7991652f7c1f043052d5dcb5",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2022/season_type=REGULAR/part-00000.parquet",
+      "rows": 8624,
+      "sha256": "109d815596e427c396b11c5038e54636d59d7dd42a8d8fb5302c7adf8f2d6682",
+      "size_bytes": 318220
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2022/season_type=REGULAR/part-00000.parquet",
+      "rows": 539,
+      "sha256": "4ec511b8d83ac45c28382dfd3c619423e66058468446676a0a5291af3c6442e6",
+      "size_bytes": 144278
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2022/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "88a1df9fe6ced7e2f1725e9c1bd42ab91f5a8d049b0d3c7cce47aafe6c29955b",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2022/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3472,
+      "sha256": "cb135a404cac7189f3a5e619df7ce63cf2edc08201b6e7755246535ebf871021",
+      "size_bytes": 110024
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2022/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 217,
+      "sha256": "405913d40ec946b21d1b0f8c5f73bc2bcf12fd9cdba03db2bc8a0255db61dfc2",
+      "size_bytes": 55500
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2023/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "3287062e4c98d66b31550fb71a7dc3d3b2d1f8a8743e12b64e9723dc64ae6c5b",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2023/season_type=REGULAR/part-00000.parquet",
+      "rows": 9152,
+      "sha256": "9cb017d0b45a4c6f70f399aab304a190817c2210c5b2c32c77fecb7b4d713cd2",
+      "size_bytes": 329885
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2023/season_type=REGULAR/part-00000.parquet",
+      "rows": 572,
+      "sha256": "f0077ccd70d1ad9bcd336fc4acbb6bc56de4affc1c6a655d35d4b87d29173a9c",
+      "size_bytes": 150050
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2023/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "cf5452534899211b686afddc41abbb5eb25bebbe0eac5e923391121fd5d823d9",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2023/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3424,
+      "sha256": "0606a9645575ac89153ba113bd6dd4e79941a1baa89d2ddd1584ce104f01b5f9",
+      "size_bytes": 109360
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2023/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 214,
+      "sha256": "577084900b8c815f1ddd2f5fe8238a83e89a6d723de0458bd0e416deae58af6e",
+      "size_bytes": 54553
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2024/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "433c86b55e2ffda22cc3cc5325d88e6d8d4bb4a388d09356d5c3fcb9bd05a844",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2024/season_type=REGULAR/part-00000.parquet",
+      "rows": 9104,
+      "sha256": "e800ccaf4f365dd869b65301085da4d62d060a7c15e126b31315db22c6d68f53",
+      "size_bytes": 332895
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2024/season_type=REGULAR/part-00000.parquet",
+      "rows": 569,
+      "sha256": "bf0bde9837435efaa7aa9d2ea2864eae5feb30b38da35935d701b436f193595f",
+      "size_bytes": 150606
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2024/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "119082f97dcfe84e107e1448b2386b5142d8e1d2fa166d287dfad8106edee61b",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2024/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3504,
+      "sha256": "02b32203a4059a0a0cfcc1aff7b3b111e4bf64c6e32263258249a1a428c04b6e",
+      "size_bytes": 112927
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2024/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 219,
+      "sha256": "ab6c0dadec1b10f56072b581c1f41fd44a5e2099151671ee51dc962ad4d7272b",
+      "size_bytes": 56603
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2025/season_type=REGULAR/part-00000.parquet",
+      "rows": 1,
+      "sha256": "06fee48d2e6b5bc47c03dda853ec1dad8689966261aeca8c10bdfaefc6dfd1cd",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2025/season_type=REGULAR/part-00000.parquet",
+      "rows": 9312,
+      "sha256": "7c7171eb9c931f99e31d5d186ca1439a6a08f9f7a63c79d398e49e0327b7bb42",
+      "size_bytes": 339753
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2025/season_type=REGULAR/part-00000.parquet",
+      "rows": 582,
+      "sha256": "2e4cc5b88fa026bc83df97402b59c69576698ee80eeac243f511b85f45357431",
+      "size_bytes": 153328
+    },
+    {
+      "columns": 67,
+      "path": "data/gold/league_season_context/season=2025/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 1,
+      "sha256": "8d0c71d75707568260da148dfd11f38ba45a00c432b30079fa9eaac85de9f680",
+      "size_bytes": 19805
+    },
+    {
+      "columns": 27,
+      "path": "data/gold/player_season_feature_long/season=2025/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 3680,
+      "sha256": "1a253f546aede9989dbcf1453e2d7deb30ceda44ae20c083061a3add91479e7a",
+      "size_bytes": 119234
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_season_normalized/season=2025/season_type=PLAYOFF/part-00000.parquet",
+      "rows": 230,
+      "sha256": "d1497f7a94dbb8419a0a40cac11b7801204e5e262c0ae09414ed61f6d1c3d12d",
+      "size_bytes": 59137
+    }
+  ],
+  "reproducibility": {
+    "expected_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "observed_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "pass": true
+  },
+  "run_at": "2026-08-31T12:00:00Z",
+  "size_bytes": 30189330,
+  "step": "STEP-0007"
+}

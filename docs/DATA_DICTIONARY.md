@@ -84,3 +84,19 @@ The ignored backfill checkpoint records one state for every request scope: `PEND
 Official-source-only `nba_player_id` values receive deterministic canonical IDs and a provenance-bearing provisional identity rather than losing their facts. Provisional describes incomplete biography metadata, not an unresolved relational key. Team crosswalk rows use official `nba_team_id` and observed name/version evidence; legacy validity-window conflicts are diagnostic.
 
 The full empirical metric matrix contains 3,040 records using the unchanged qualification vocabulary. The full quality report separately counts source anomaly quarantine and pipeline error quarantine; only accepted Silver rows participate in aggregation.
+
+## Gold era-normalization V1
+
+Generated Gold is deterministic Parquet partitioned by season and season_type and remains Git-ignored.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| league_season_context | season × season type | Qualified population counts/distributions, shooting references, accepted-game team scoring context, and eligible official advanced context. |
+| player_season_feature_long | player × season × type × metric × rate basis | Authoritative primitive value, distribution statistics, normalization results, eligibility, qualification, sample size, and provenance. |
+| player_season_normalized | player × season × type | Curated wide materialization of commonly consumed normalized primitives. |
+
+Every Gold row carries corpus_id, corpus_fingerprint, and methodology_version. Only Silver TOTAL rows feed distributions. qualification_status is QUALIFIED or NOT_QUALIFIED, and non-qualified rows remain. Long-Gold coverage_status is a method eligibility result such as AVAILABLE, UNAVAILABLE_COVERAGE with a reason, UNAVAILABLE_POSSESSIONS, or a variance/denominator condition. It is not Silver coverage vocabulary or a performance score.
+
+The long record includes identity and partition keys, metric/rate basis, raw and comparison values, population size, mean, median, standard deviation, MAD, z-scores, percentile, relative index, coverage/qualification, opportunity, sample games, methodology, corpus identity, and source lineage. Percentile uses [0,1] midrank ties.
+
+The registry defines 16 primitives: games, minutes, PPG, points per 36/per 75, RPG/rebounds per 36, APG/assists per 36, SPG, BPG, FG%, FT%, 3P%, eFG%, and TS%. Per-36 requires reliable positive minutes. Per-75 requires official Advanced/Totals possessions and has no pre-1996 substitute. The feature registry and eligibility matrix form the legal input contract for later Gold/model work.

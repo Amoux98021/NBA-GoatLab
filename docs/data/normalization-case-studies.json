@@ -1,0 +1,498 @@
+{
+  "cases": [
+    {
+      "display_name": "Wilt Chamberlain",
+      "metrics": {
+        "apg": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:assists=SPARSE",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 80,
+          "z_score": null
+        },
+        "points_per_36": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:minutes_positive_share<0.99",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 80,
+          "z_score": null
+        },
+        "points_per_75": {
+          "coverage_status": "UNAVAILABLE_POSSESSIONS",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 80,
+          "z_score": null
+        },
+        "ppg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 11.860986008487,
+          "percentile": 0.995098039216,
+          "raw_value": 50.3625,
+          "relative_index": 424.606351984274,
+          "robust_z_score": 5.789982290577,
+          "sample_size_games": 80,
+          "z_score": 4.426800879881
+        },
+        "rpg": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:rebounds=SPARSE",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 80,
+          "z_score": null
+        },
+        "ts_pct": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:fga=SPARSE",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 80,
+          "z_score": null
+        }
+      },
+      "nba_player_id": "76375",
+      "player_id": "player_860bacb725f05f02b5871e085270f726",
+      "qualification_status": "QUALIFIED",
+      "season": "1961-62",
+      "season_type": "REGULAR"
+    },
+    {
+      "display_name": "Kareem Abdul-Jabbar",
+      "metrics": {
+        "apg": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:assists=PARTIAL",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 81,
+          "z_score": null
+        },
+        "points_per_36": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:minutes_positive_share<0.99",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 81,
+          "z_score": null
+        },
+        "points_per_75": {
+          "coverage_status": "UNAVAILABLE_POSSESSIONS",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 81,
+          "z_score": null
+        },
+        "ppg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 10.344165101198,
+          "percentile": 0.99756097561,
+          "raw_value": 34.83950617284,
+          "relative_index": 336.803461971071,
+          "robust_z_score": 3.871783263611,
+          "sample_size_games": 81,
+          "z_score": 3.470452166432
+        },
+        "rpg": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:rebounds=PARTIAL",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 81,
+          "z_score": null
+        },
+        "ts_pct": {
+          "coverage_status": "UNAVAILABLE_COVERAGE:fga=PARTIAL",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 81,
+          "z_score": null
+        }
+      },
+      "nba_player_id": "76003",
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "qualification_status": "QUALIFIED",
+      "season": "1971-72",
+      "season_type": "REGULAR"
+    },
+    {
+      "display_name": "Michael Jordan",
+      "metrics": {
+        "apg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 2.250743841362,
+          "percentile": 0.918639053254,
+          "raw_value": 5.524390243902,
+          "relative_index": 245.447311345743,
+          "robust_z_score": 2.826270052651,
+          "sample_size_games": 82,
+          "z_score": 1.488883203953
+        },
+        "points_per_36": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 14.860229646601,
+          "percentile": 0.998525073746,
+          "raw_value": 30.613052076467,
+          "relative_index": 206.006588084388,
+          "robust_z_score": 3.403544794286,
+          "sample_size_games": 82,
+          "z_score": 3.473047916304
+        },
+        "points_per_75": {
+          "coverage_status": "UNAVAILABLE_POSSESSIONS",
+          "league_mean": null,
+          "percentile": null,
+          "raw_value": null,
+          "relative_index": null,
+          "robust_z_score": null,
+          "sample_size_games": 82,
+          "z_score": null
+        },
+        "ppg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 9.713222067713,
+          "percentile": 0.998525073746,
+          "raw_value": 31.463414634146,
+          "relative_index": 323.923559193947,
+          "robust_z_score": 3.598763026369,
+          "sample_size_games": 82,
+          "z_score": 3.383295486426
+        },
+        "rpg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 3.990932401843,
+          "percentile": 0.788461538462,
+          "raw_value": 6.0,
+          "relative_index": 150.340807507285,
+          "robust_z_score": 1.232002692758,
+          "sample_size_games": 82,
+          "z_score": 0.755129116187
+        },
+        "ts_pct": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 0.519006744787,
+          "percentile": 0.942307692308,
+          "raw_value": 0.60499756125,
+          "relative_index": 113.140500124882,
+          "robust_z_score": 1.670351737016,
+          "sample_size_games": 82,
+          "z_score": 1.597802839957
+        }
+      },
+      "nba_player_id": "893",
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "qualification_status": "QUALIFIED",
+      "season": "1990-91",
+      "season_type": "REGULAR"
+    },
+    {
+      "display_name": "Shaquille O'Neal",
+      "metrics": {
+        "apg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 1.998590387917,
+          "percentile": 0.863636363636,
+          "raw_value": 3.784810126582,
+          "relative_index": 189.373978253073,
+          "robust_z_score": 1.825128545078,
+          "sample_size_games": 79,
+          "z_score": 0.969661630281
+        },
+        "points_per_36": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 13.367362319364,
+          "percentile": 0.998701298701,
+          "raw_value": 26.660123236934,
+          "relative_index": 199.441913819556,
+          "robust_z_score": 3.506668399788,
+          "sample_size_games": 79,
+          "z_score": 3.389034413602
+        },
+        "points_per_75": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 13.903617524366,
+          "percentile": 0.998701298701,
+          "raw_value": 28.304620834004,
+          "relative_index": 203.577383975071,
+          "robust_z_score": 3.800587926358,
+          "sample_size_games": 79,
+          "z_score": 3.51074302617
+        },
+        "ppg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 8.73175983684,
+          "percentile": 0.998701298701,
+          "raw_value": 29.670886075949,
+          "relative_index": 339.804193316984,
+          "robust_z_score": 4.286108925495,
+          "sample_size_games": 79,
+          "z_score": 3.66354721986
+        },
+        "rpg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 3.918992313512,
+          "percentile": 0.996103896104,
+          "raw_value": 13.645569620253,
+          "relative_index": 348.190772745444,
+          "robust_z_score": 4.522394636781,
+          "sample_size_games": 79,
+          "z_score": 3.976795041344
+        },
+        "ts_pct": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 0.509315738939,
+          "percentile": 0.933766233766,
+          "raw_value": 0.578034682081,
+          "relative_index": 110.454975555946,
+          "robust_z_score": 1.266950569471,
+          "sample_size_games": 79,
+          "z_score": 1.325821056534
+        }
+      },
+      "nba_player_id": "406",
+      "player_id": "player_4c8e42fcb36d59baaaebcc5bc75ca6a8",
+      "qualification_status": "QUALIFIED",
+      "season": "1999-00",
+      "season_type": "REGULAR"
+    },
+    {
+      "display_name": "LeBron James",
+      "metrics": {
+        "apg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 1.969311355389,
+          "percentile": 0.972355769231,
+          "raw_value": 7.25,
+          "relative_index": 368.148996864298,
+          "robust_z_score": 4.94036844255,
+          "sample_size_games": 76,
+          "z_score": 2.848033475232
+        },
+        "points_per_36": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 13.486442649238,
+          "percentile": 0.991586538462,
+          "raw_value": 25.47605103135,
+          "relative_index": 188.901192804832,
+          "robust_z_score": 3.069726561983,
+          "sample_size_games": 76,
+          "z_score": 2.959395479522
+        },
+        "points_per_75": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 14.304298034543,
+          "percentile": 0.993990384615,
+          "raw_value": 27.51847179672,
+          "relative_index": 192.379043908807,
+          "robust_z_score": 3.205228183797,
+          "sample_size_games": 76,
+          "z_score": 3.059571101643
+        },
+        "ppg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 8.681770370401,
+          "percentile": 0.991586538462,
+          "raw_value": 26.789473684211,
+          "relative_index": 308.571553280694,
+          "robust_z_score": 3.518886340987,
+          "sample_size_games": 76,
+          "z_score": 3.367703258022
+        },
+        "rpg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 3.786676167653,
+          "percentile": 0.929086538462,
+          "raw_value": 8.026315789474,
+          "relative_index": 211.962033036722,
+          "robust_z_score": 2.609660779608,
+          "sample_size_games": 76,
+          "z_score": 1.69613802305
+        },
+        "ts_pct": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 0.520269496759,
+          "percentile": 0.984375,
+          "raw_value": 0.6404932679,
+          "relative_index": 119.674620081149,
+          "robust_z_score": 2.201932558051,
+          "sample_size_games": 76,
+          "z_score": 2.000578655925
+        }
+      },
+      "nba_player_id": "2544",
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "qualification_status": "QUALIFIED",
+      "season": "2012-13",
+      "season_type": "REGULAR"
+    },
+    {
+      "display_name": "Stephen Curry",
+      "metrics": {
+        "apg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 1.963313985467,
+          "percentile": 0.975177304965,
+          "raw_value": 6.670886075949,
+          "relative_index": 339.776832708789,
+          "robust_z_score": 4.551109647634,
+          "sample_size_games": 79,
+          "z_score": 2.628238055823
+        },
+        "points_per_36": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 14.171158823952,
+          "percentile": 0.998817966903,
+          "raw_value": 31.666959879258,
+          "relative_index": 223.460623599352,
+          "robust_z_score": 4.398790470489,
+          "sample_size_games": 79,
+          "z_score": 4.068302871358
+        },
+        "points_per_75": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 14.477703070796,
+          "percentile": 0.998817966903,
+          "raw_value": 30.822806713964,
+          "relative_index": 212.89845884559,
+          "robust_z_score": 3.922513278678,
+          "sample_size_games": 79,
+          "z_score": 3.721916056595
+        },
+        "ppg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 8.964762292312,
+          "percentile": 0.998817966903,
+          "raw_value": 30.063291139241,
+          "relative_index": 335.349562642869,
+          "robust_z_score": 4.436821444329,
+          "sample_size_games": 79,
+          "z_score": 3.77191781916
+        },
+        "rpg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 3.860978442932,
+          "percentile": 0.793144208038,
+          "raw_value": 5.443037974684,
+          "relative_index": 140.975611626321,
+          "robust_z_score": 1.129730958022,
+          "sample_size_games": 79,
+          "z_score": 0.663118595626
+        },
+        "ts_pct": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 0.53124892195,
+          "percentile": 0.998817966903,
+          "raw_value": 0.669391206313,
+          "relative_index": 123.595434335374,
+          "robust_z_score": 2.963975151224,
+          "sample_size_games": 79,
+          "z_score": 2.571063757141
+        }
+      },
+      "nba_player_id": "201939",
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e",
+      "qualification_status": "QUALIFIED",
+      "season": "2015-16",
+      "season_type": "REGULAR"
+    },
+    {
+      "display_name": "Nikola Jokic",
+      "metrics": {
+        "apg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 2.20101043154,
+          "percentile": 0.983660130719,
+          "raw_value": 7.891891891892,
+          "relative_index": 358.557677819434,
+          "robust_z_score": 4.851026167645,
+          "sample_size_games": 74,
+          "z_score": 3.027540378234
+        },
+        "points_per_36": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 15.326680278982,
+          "percentile": 0.988017429194,
+          "raw_value": 29.142124273322,
+          "relative_index": 190.139832911409,
+          "robust_z_score": 3.325839965161,
+          "sample_size_games": 74,
+          "z_score": 2.919318471635
+        },
+        "points_per_75": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 15.288235635867,
+          "percentile": 0.990196078431,
+          "raw_value": 29.264018691589,
+          "relative_index": 191.415277659214,
+          "robust_z_score": 3.351902487525,
+          "sample_size_games": 74,
+          "z_score": 2.953293791155
+        },
+        "ppg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 9.847311633128,
+          "percentile": 0.979302832244,
+          "raw_value": 27.081081081081,
+          "relative_index": 275.009891938193,
+          "robust_z_score": 3.546529717202,
+          "sample_size_games": 74,
+          "z_score": 2.776446930787
+        },
+        "rpg": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 3.995558063537,
+          "percentile": 0.996732026144,
+          "raw_value": 13.77027027027,
+          "relative_index": 344.639473417672,
+          "robust_z_score": 5.480304030653,
+          "sample_size_games": 74,
+          "z_score": 4.165581211981
+        },
+        "ts_pct": {
+          "coverage_status": "AVAILABLE",
+          "league_mean": 0.558644741229,
+          "percentile": 0.953159041394,
+          "raw_value": 0.660549007199,
+          "relative_index": 116.49881296726,
+          "robust_z_score": 1.925649287199,
+          "sample_size_games": 74,
+          "z_score": 1.697168020865
+        }
+      },
+      "nba_player_id": "203999",
+      "player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "qualification_status": "QUALIFIED",
+      "season": "2021-22",
+      "season_type": "REGULAR"
+    }
+  ],
+  "corpus_id": "GOATLAB-HIST-V1",
+  "methodology_version": "era-normalized-player-season-v1",
+  "purpose": "diagnostic primitive-feature interpretation; no composite or ranking",
+  "step": "STEP-0007"
+}

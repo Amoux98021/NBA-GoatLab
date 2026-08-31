@@ -1,0 +1,108 @@
+{
+  "available_partition_counts_by_feature": {
+    "apg": 105,
+    "assists_per_36": 99,
+    "bpg": 87,
+    "efg_pct": 92,
+    "fg3_pct": 89,
+    "fg_pct": 109,
+    "ft_pct": 157,
+    "games_played": 160,
+    "minutes_total": 100,
+    "points_per_36": 100,
+    "points_per_75": 60,
+    "ppg": 160,
+    "rebounds_per_36": 100,
+    "rpg": 110,
+    "spg": 87,
+    "ts_pct": 109
+  },
+  "decision": "PASS",
+  "eligibility": {
+    "AVAILABLE": 6890,
+    "UNAVAILABLE_COVERAGE": 2944,
+    "UNAVAILABLE_POSSESSIONS": 400,
+    "UNAVAILABLE_ZERO_MAD": 6
+  },
+  "feature_methodology_version": "era-normalized-player-season-v1",
+  "input": {
+    "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "corpus_id": "GOATLAB-HIST-V1",
+    "network_requests": 0,
+    "silver_partitions_verified": 380
+  },
+  "outputs": {
+    "eligibility_records": 10240,
+    "feature_long_rows": 599552,
+    "gold_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "gold_partitions": 480,
+    "gold_size_bytes": 30189330,
+    "league_context_rows": 160,
+    "normalized_wide_rows": 37472
+  },
+  "pass_conditions": {
+    "all_160_contexts_written": true,
+    "coverage_gating_complete": true,
+    "frozen_input_verified": true,
+    "gold_reproducible_when_expected": true,
+    "no_network_required": true,
+    "no_quality_gate_failure": true,
+    "normalization_properties_valid": true,
+    "qualification_sensitivity_complete": true,
+    "regular_playoff_isolated": true
+  },
+  "performance": {
+    "gold_size_bytes": 30189330,
+    "runtime_seconds": 29.417934
+  },
+  "qualification": {
+    "playoff_rule": "games >= max(2, ceil(10% * maximum team games))",
+    "regular_rule": "games >= max(5, ceil(20% * maximum team games))",
+    "representative_record_status_counts": {
+      "NOT_QUALIFIED": 11552,
+      "QUALIFIED": 81264
+    },
+    "sensitivity_candidates": 7
+  },
+  "quality_checks": {
+    "duplicate_long_keys": 0,
+    "duplicate_wide_keys": 0,
+    "incorrect_total_source_rows": 0,
+    "non_finite_values": 0,
+    "null_to_zero_conversions": 0,
+    "orphan_player_ids": 0,
+    "orphan_season_ids": 0,
+    "percentile_bounds_violations": 0,
+    "representative_validation_season_type_mixing": 0,
+    "season_type_mixing": 0,
+    "team_rows_consumed": 0,
+    "unavailable_metric_non_null_leakage": 0
+  },
+  "reproducibility": {
+    "expected_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "observed_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "pass": true
+  },
+  "run_at": "2026-08-31T12:00:00Z",
+  "step": "STEP-0007",
+  "validation": {
+    "maximum_absolute_qualified_z_mean": 0.0,
+    "maximum_absolute_qualified_z_std_error": 0.0,
+    "percentile_ordering_failures": 0,
+    "representative_seasons": [
+      "1961-62",
+      "1971-72",
+      "1984-85",
+      "1990-91",
+      "1999-00",
+      "2008-09",
+      "2012-13",
+      "2015-16",
+      "2021-22",
+      "2023-24"
+    ],
+    "season_type_mixing_failures": 0,
+    "z_distribution_failures": 0,
+    "z_distribution_groups_checked": 263
+  }
+}

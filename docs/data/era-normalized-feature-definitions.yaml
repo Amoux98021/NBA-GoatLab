@@ -1,0 +1,256 @@
+registry_version: 1
+methodology_version: era-normalized-player-season-v1
+corpus_id: GOATLAB-HIST-V1
+corpus_fingerprint: 283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c
+normalization:
+  standard_z: (value - qualified population mean) / population standard deviation
+    (ddof=0)
+  robust_z: 0.6744897501960817 * (value - median) / median_absolute_deviation
+  percentile: 'midrank empirical percentile: (count_less + 0.5 * count_equal) / N'
+  relative_index: 100 * value / metric-specific league reference; positive denominators
+    only
+comparison_population:
+  regular: games >= max(5, ceil(0.20 * maximum team games))
+  playoff: games >= max(2, ceil(0.10 * maximum team games))
+  minutes: reported as opportunity metadata; not required because early seasons lack
+    minutes
+  team_rows: excluded; only canonical TOTAL player-season rows define populations
+rate_eligibility:
+  per_game: numerator coverage RELIABLE and games_played positive
+  per_36: numerator/minutes RELIABLE and at least 99% of player-game minutes positive
+  per_75: post-1996 official Advanced/Totals possessions with at least 99% positive
+    coverage
+features:
+- name: games_played
+  description: Official distinct game appearances in the season/type.
+  rate_basis: TOTAL
+  source_metrics:
+  - games_played
+  required_coverage: []
+  formula: games_played
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: null
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: minutes_total
+  description: Qualified observed minutes across the season/type.
+  rate_basis: TOTAL
+  source_metrics:
+  - minutes_total
+  required_coverage:
+  - minutes
+  formula: sum(minutes)
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1951
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: ppg
+  description: Points per game.
+  rate_basis: PER_GAME
+  source_metrics:
+  - points_total
+  - games_played
+  required_coverage:
+  - points
+  formula: points_total / games_played
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: null
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: points_per_36
+  description: Points per 36 observed minutes.
+  rate_basis: PER_36
+  source_metrics:
+  - points_total
+  - minutes_total
+  required_coverage:
+  - points
+  - minutes
+  formula: 36 * points_total / minutes_total
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1951
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: points_per_75
+  description: Points per 75 official player possessions.
+  rate_basis: PER_75
+  source_metrics:
+  - points_total
+  - possessions
+  required_coverage:
+  - points
+  formula: 75 * points_total / official_advanced_possessions
+  relative_index_supported: true
+  possession_required: true
+  known_start_season: 1996
+  limitations: Available only when official Advanced/Totals possessions qualify.
+  comparison_population: qualified players in the same season and season_type
+- name: rpg
+  description: Rebounds per game.
+  rate_basis: PER_GAME
+  source_metrics:
+  - rebounds_total
+  - games_played
+  required_coverage:
+  - rebounds
+  formula: rebounds_total / games_played
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1950
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: rebounds_per_36
+  description: Rebounds per 36 observed minutes.
+  rate_basis: PER_36
+  source_metrics:
+  - rebounds_total
+  - minutes_total
+  required_coverage:
+  - rebounds
+  - minutes
+  formula: 36 * rebounds_total / minutes_total
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1951
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: apg
+  description: Assists per game.
+  rate_basis: PER_GAME
+  source_metrics:
+  - assists_total
+  - games_played
+  required_coverage:
+  - assists
+  formula: assists_total / games_played
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: null
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: assists_per_36
+  description: Assists per 36 observed minutes.
+  rate_basis: PER_36
+  source_metrics:
+  - assists_total
+  - minutes_total
+  required_coverage:
+  - assists
+  - minutes
+  formula: 36 * assists_total / minutes_total
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1951
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: spg
+  description: Steals per game.
+  rate_basis: PER_GAME
+  source_metrics:
+  - steals_total
+  - games_played
+  required_coverage:
+  - steals
+  formula: steals_total / games_played
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1973
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: bpg
+  description: Blocks per game.
+  rate_basis: PER_GAME
+  source_metrics:
+  - blocks_total
+  - games_played
+  required_coverage:
+  - blocks
+  formula: blocks_total / games_played
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1973
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: fg_pct
+  description: Field goals made divided by field goals attempted.
+  rate_basis: PERCENTAGE
+  source_metrics:
+  - fgm_total
+  - fga_total
+  required_coverage:
+  - fgm
+  - fga
+  formula: fgm_total / fga_total
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: null
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: ft_pct
+  description: Free throws made divided by free throws attempted.
+  rate_basis: PERCENTAGE
+  source_metrics:
+  - ftm_total
+  - fta_total
+  required_coverage:
+  - ftm
+  - fta
+  formula: ftm_total / fta_total
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: null
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: fg3_pct
+  description: Three-point field goals made divided by attempts.
+  rate_basis: PERCENTAGE
+  source_metrics:
+  - fg3m_total
+  - fg3a_total
+  required_coverage:
+  - fg3m
+  - fg3a
+  formula: fg3m_total / fg3a_total
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1979
+  limitations: ''
+  comparison_population: qualified players in the same season and season_type
+- name: efg_pct
+  description: Effective field-goal percentage.
+  rate_basis: PERCENTAGE
+  source_metrics:
+  - fgm_total
+  - fg3m_total
+  - fga_total
+  required_coverage:
+  - fgm
+  - fg3m
+  - fga
+  formula: (fgm_total + 0.5 * fg3m_total) / fga_total
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: 1979
+  limitations: Not fabricated for seasons before the three-point field goal existed.
+  comparison_population: qualified players in the same season and season_type
+- name: ts_pct
+  description: True shooting percentage using the consistent 0.44 free-throw factor.
+  rate_basis: PERCENTAGE
+  source_metrics:
+  - points_total
+  - fga_total
+  - fta_total
+  required_coverage:
+  - points
+  - fga
+  - fta
+  formula: points_total / (2 * (fga_total + 0.44 * fta_total))
+  relative_index_supported: true
+  possession_required: false
+  known_start_season: null
+  limitations: The 0.44 factor is a documented estimate and is not possession reconstruction.
+  comparison_population: qualified players in the same season and season_type
