@@ -15,3 +15,17 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Random seed:** not applicable; all calculations are deterministic.
 - **Artifacts:** docs/data/qualification-sensitivity-analysis.json, ADR-0009, and STEP-0007.
 - **Limitations:** qualification controls distribution membership, not sampling uncertainty. Later changes require a new methodology version and preserve this record.
+
+## STEP-0008 peak and longevity sensitivity analyses
+
+- **Objective:** measure how availability policy, percentile threshold, cumulative baseline, and candidate-universe rules alter descriptive career primitives without selecting a preferred GOAT definition.
+- **Input:** GOATLAB-HIST-V1 plus era-normalized-player-season-v1 at their frozen fingerprints.
+- **Methodology version:** career-trajectory-peak-longevity-v1.
+- **Peak candidates:** QUALITY and AVAILABILITY_ADJUSTED complete contiguous windows at one, three, and five seasons.
+- **Peak result:** availability adjustment changes 16%–18% of eligible PPG window selections, about 12% of TS% selections, and 24%–27% of APG selections depending on window length. Both variants are retained.
+- **Longevity candidates:** percentile thresholds 0.80/0.90/0.95/0.99; positive-z sums; weighted positive-z; percentile area above 0.50/0.80/0.90 with weighted variants.
+- **Candidate-universe result:** proposals range from 867 players at ten qualified seasons to 2,617 in the broad three-season/core-95th union. The recommended five-season/core-90th union contains 2,140 and is an acquisition flag, not ranking eligibility.
+- **Optimization target:** none. Famous careers are diagnostics only and no ordering was evaluated.
+- **Random seed:** not applicable; every operation is deterministic.
+- **Artifacts:** peak-window-sensitivity.json, longevity-sensitivity.json, award-candidate-universe-analysis.json, ADR-0011, ADR-0012, and STEP-0008.
+- **Limitations:** opportunity shrinkage and thresholds represent multiple interpretable lenses, not endorsed Peak or Longevity weights.

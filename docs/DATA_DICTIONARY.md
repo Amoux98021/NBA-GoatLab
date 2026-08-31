@@ -100,3 +100,19 @@ Every Gold row carries corpus_id, corpus_fingerprint, and methodology_version. O
 The long record includes identity and partition keys, metric/rate basis, raw and comparison values, population size, mean, median, standard deviation, MAD, z-scores, percentile, relative index, coverage/qualification, opportunity, sample games, methodology, corpus identity, and source lineage. Percentile uses [0,1] midrank ties.
 
 The registry defines 16 primitives: games, minutes, PPG, points per 36/per 75, RPG/rebounds per 36, APG/assists per 36, SPG, BPG, FG%, FT%, 3P%, eFG%, and TS%. Per-36 requires reliable positive minutes. Per-75 requires official Advanced/Totals possessions and has no pre-1996 substitute. The feature registry and eligibility matrix form the legal input contract for later Gold/model work.
+
+## Gold career trajectory V1
+
+Generated career Gold is deterministically bucketed by player into 32 partitions per entity and remains Git-ignored.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| player_career_summary | player | Participation, completion/active evidence, minutes coverage, and age availability across both season types. |
+| player_career_trajectory | player × season type × elapsed season | Appeared seasons and explicit gaps, qualification, opportunity, feature count, minutes, age, and provenance. |
+| player_career_features | player × season type × metric × normalization method | Metric-specific career distribution, best season, non-contiguous best sets, elite counts, cumulative dominance, and coverage. |
+| player_peak_windows | player × season type × metric × method × window × variant | Complete contiguous 1/3/5-year quality and availability-adjusted peak records. |
+| player_prime_runs | player × season type × metric × percentile threshold | Elite counts/proportions and longest consecutive 80th/90th/95th/99th-percentile runs. |
+
+All entities carry career methodology version, normalization version/fingerprint, and corpus ID/fingerprint. Unavailable metric-career and peak combinations have explicit coverage status and NULL values. Gap rows use GAP_NO_APPEARANCE; games are observed zero for a season in which the player did not appear, while unavailable statistics remain NULL.
+
+Career status vocabulary is ACTIVE_TO_CUTOFF, SOURCE_CONFIRMED_COMPLETE, and INDETERMINATE. Age fields use audited birth dates only. Peak variant vocabulary is QUALITY and AVAILABILITY_ADJUSTED. Non-contiguous top-three/top-five sets are stored separately in metric career summaries and never use peak-window naming.

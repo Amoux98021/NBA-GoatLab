@@ -1,0 +1,1140 @@
+{
+  "career_methodology_version": "career-trajectory-peak-longevity-v1",
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "manifest_version": 1,
+  "normalization_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+  "normalization_version": "era-normalized-player-season-v1",
+  "output_fingerprint": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+  "partition_count": 160,
+  "partitions": [
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=00/part-00000.parquet",
+      "rows": 151,
+      "sha256": "58ddf91c5b9eabd58098297fb58758477cc898d6cffa1d2b1fa918ecbcc1e06e",
+      "size_bytes": 23373
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=00/part-00000.parquet",
+      "rows": 1292,
+      "sha256": "668d4b31083ffba41f3795fee3e298cc05d052d78c4d3a3dd249383b8bebd803",
+      "size_bytes": 28128
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=00/part-00000.parquet",
+      "rows": 15296,
+      "sha256": "636deefb286801c916d26d95455a3b3f9d7be16060159993dbf2b06575f194b5",
+      "size_bytes": 1014369
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=00/part-00000.parquet",
+      "rows": 91776,
+      "sha256": "6d105e798fe2643e513d69ec976118a02e3fbb17385ec7dedc0d1cf05873c274",
+      "size_bytes": 909420
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=00/part-00000.parquet",
+      "rows": 15296,
+      "sha256": "1a97115e4c1e3beb0373d848fbab97c33c407273111d2f152b37c921d250817d",
+      "size_bytes": 69988
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=01/part-00000.parquet",
+      "rows": 162,
+      "sha256": "6710d72cdf9cc5e743989eeb72b7a5ed42219c560c9f92d4ccb6b168bfd8a1b2",
+      "size_bytes": 24147
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=01/part-00000.parquet",
+      "rows": 1418,
+      "sha256": "b36e2fa2c8aaac20945e8c91db13553b9de5c7f963f97f18eaf6c76cc1924188",
+      "size_bytes": 29728
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=01/part-00000.parquet",
+      "rows": 17088,
+      "sha256": "6af550f98e61fe6780f5ac8b20c316a8f8f2df572abbd1a5d11bd0ae4d674767",
+      "size_bytes": 1108298
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=01/part-00000.parquet",
+      "rows": 102528,
+      "sha256": "a79060b1edf5e665c9441ba933c1f174b19081258d21d080356941c469d43c5a",
+      "size_bytes": 987726
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=01/part-00000.parquet",
+      "rows": 17088,
+      "sha256": "25677f5b94f108f3623ffe957057a959be5f5bec5018efa23b0aa317f14aa0bf",
+      "size_bytes": 69898
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=02/part-00000.parquet",
+      "rows": 146,
+      "sha256": "dbc2509d84344bae3e2f445d38e0b3c32bd330c6a73d289c98e3bee724bee012",
+      "size_bytes": 22826
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=02/part-00000.parquet",
+      "rows": 1323,
+      "sha256": "351bdcd1b5b7bae2f2c7d6c8258d31be86789f8e6c34103d040e72283748a29b",
+      "size_bytes": 27502
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=02/part-00000.parquet",
+      "rows": 15040,
+      "sha256": "79078fa55bb8d8f95e2a513929e7905626df31d616942c904c492225471d4fc4",
+      "size_bytes": 972976
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=02/part-00000.parquet",
+      "rows": 90240,
+      "sha256": "876517a1faf003d383369a3a9c6f7701fdadbade88cb8646a8b196d27a99addc",
+      "size_bytes": 841180
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=02/part-00000.parquet",
+      "rows": 15040,
+      "sha256": "4f7ab30ab586af8643569cafecf4faa6d82cc0a896835bd476f7ade39c53d28b",
+      "size_bytes": 63834
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=03/part-00000.parquet",
+      "rows": 175,
+      "sha256": "d74cd88601c65088a286029870c5dc882a1a4587b15b59aad060a1adc43896d0",
+      "size_bytes": 24649
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=03/part-00000.parquet",
+      "rows": 1415,
+      "sha256": "c4c6b30bc04e74c1164290889f1c43e541c564e50f4c484d2a6f97f5f0294b60",
+      "size_bytes": 29277
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=03/part-00000.parquet",
+      "rows": 17856,
+      "sha256": "e4c820130b3552761cacb2a6d4b0e52cea6d957759301372646610b22a2331ea",
+      "size_bytes": 1051713
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=03/part-00000.parquet",
+      "rows": 107136,
+      "sha256": "01693593fd29f963907fb10f1cbb9233a670f7fab1f0be1343693f26343c5162",
+      "size_bytes": 966219
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=03/part-00000.parquet",
+      "rows": 17856,
+      "sha256": "ebee54b45d2510d719e3a14bb5742b2ca3e1a17b7b5e1f29ad296af59d3bf7a9",
+      "size_bytes": 72583
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=04/part-00000.parquet",
+      "rows": 154,
+      "sha256": "e51995a75a2f6892baae5ed480aeb7c3025bfd847ceffb3feaff81753715651b",
+      "size_bytes": 23553
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=04/part-00000.parquet",
+      "rows": 1267,
+      "sha256": "36ab259582d4d4ddfde5ac85b4eef06a7ccc6605d0d989312d9517ecba583343",
+      "size_bytes": 27665
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=04/part-00000.parquet",
+      "rows": 15552,
+      "sha256": "a90e81a049a806d5c497491c88c60c21781d415da0b3c8ac10f715aed2eee540",
+      "size_bytes": 971045
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=04/part-00000.parquet",
+      "rows": 93312,
+      "sha256": "232fd839cbc1b308837d5a1dd7deb1c930d01bff3034ba4212642e4ac667f87b",
+      "size_bytes": 893989
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=04/part-00000.parquet",
+      "rows": 15552,
+      "sha256": "e26d96d73d64d22331350c341328b84fb4c75e3d024acf3e07f2d064046ecb3d",
+      "size_bytes": 72276
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=05/part-00000.parquet",
+      "rows": 151,
+      "sha256": "77e788c4d7d55aad56f219ed7f315b88e1f4b2f0e0f15d5c8e7f16bad68f3cef",
+      "size_bytes": 23006
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=05/part-00000.parquet",
+      "rows": 1122,
+      "sha256": "1849a47afcaf6a22068a6bc4d304f4f9980cd5f7735cbc325489d6b88a6b6acc",
+      "size_bytes": 25692
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=05/part-00000.parquet",
+      "rows": 14912,
+      "sha256": "dd80ea14daef0454e97451e47c5c63170a76f07f4d3f7e0a593528b56e0cdd42",
+      "size_bytes": 943715
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=05/part-00000.parquet",
+      "rows": 89472,
+      "sha256": "7fc23cb057d035c75c8e51c1e6f4bb58ae69ceaacc585253f7617d192b4520e0",
+      "size_bytes": 846980
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=05/part-00000.parquet",
+      "rows": 14912,
+      "sha256": "ebea4bf46d92f52fdd8a289e05f0915cb251d8b6ed7cca3786617f846a1cb7e5",
+      "size_bytes": 56536
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=06/part-00000.parquet",
+      "rows": 170,
+      "sha256": "d1ea00bfcf986ce22979a222f60c4077a81f4d5f18586fef0840cfc522c10aa4",
+      "size_bytes": 24511
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=06/part-00000.parquet",
+      "rows": 1287,
+      "sha256": "34cc86f2836ca7ea915d0606d33e4378fa156c739c7a65c28ad7f354d3b1cef5",
+      "size_bytes": 28600
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=06/part-00000.parquet",
+      "rows": 17216,
+      "sha256": "aca8e45e5370f3535fa01602f12a575c4e0918d458e152a5189e6555fa8789a0",
+      "size_bytes": 1049219
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=06/part-00000.parquet",
+      "rows": 103296,
+      "sha256": "d4b980a8ecb242a97e3eec13d045febf3731c6ae3df417df4c9b1f28565ce31d",
+      "size_bytes": 954264
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=06/part-00000.parquet",
+      "rows": 17216,
+      "sha256": "e6810ce8359b8a3857fd345e4ab890168af134e54c36fc69685f36251ac91a3f",
+      "size_bytes": 63264
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=07/part-00000.parquet",
+      "rows": 160,
+      "sha256": "42331dc52b1b8d5876e4697232dd7552ddf68c8ced3acd6e5212870d9c23bb7c",
+      "size_bytes": 23901
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=07/part-00000.parquet",
+      "rows": 1298,
+      "sha256": "c42ea43de1599dd99ba66d0ec751272c1e76146081e3be2a7552f1e84b593dc2",
+      "size_bytes": 28468
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=07/part-00000.parquet",
+      "rows": 16384,
+      "sha256": "ef3be3f5293a4a284fb03e2ee5f44b2241f2c49bc111d0349a7cafa96d7572ef",
+      "size_bytes": 1010246
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=07/part-00000.parquet",
+      "rows": 98304,
+      "sha256": "84a4a704f1ffdd0bcf73151275b7906ff601ae05ed381f6014540b34ef4a51d5",
+      "size_bytes": 938024
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=07/part-00000.parquet",
+      "rows": 16384,
+      "sha256": "9bf15c03fc453fa802200710d00e6125225e2447bf7c1e4b98afb0efee114b14",
+      "size_bytes": 68864
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=08/part-00000.parquet",
+      "rows": 159,
+      "sha256": "0fe5b28b8bad89ae5731f3618cb65b294b9cd564396dfc60bcb7be8de339580c",
+      "size_bytes": 23863
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=08/part-00000.parquet",
+      "rows": 1289,
+      "sha256": "a83ef648f0d7d4eacf5a4301e1ec858abf000fb012ab4f6fea0d1c2f93f96ba9",
+      "size_bytes": 27990
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=08/part-00000.parquet",
+      "rows": 16256,
+      "sha256": "8709a9f5860b0386c566ab438916af44d1330b2ea982c1c972bec88b4427ec7e",
+      "size_bytes": 1028928
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=08/part-00000.parquet",
+      "rows": 97536,
+      "sha256": "82b7bdcaa479e63d9f1137bdb0233cb9d049260ef12320816452e88bb9356729",
+      "size_bytes": 921232
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=08/part-00000.parquet",
+      "rows": 16256,
+      "sha256": "89ec864f8aa4e07c115b4104b94d2fc3a01ebdd092c5cdc8374a19dda1b66075",
+      "size_bytes": 67629
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=09/part-00000.parquet",
+      "rows": 189,
+      "sha256": "9060941bb0d703dd89282a213798d25fbe20e7162d3e326ad9513a5381448cee",
+      "size_bytes": 25728
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=09/part-00000.parquet",
+      "rows": 1597,
+      "sha256": "00cce9b7a4a824b66a3f66d99b8b86023a162cb760e8207a2b1c134aeb4e39c9",
+      "size_bytes": 31764
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=09/part-00000.parquet",
+      "rows": 19328,
+      "sha256": "b49ec77bba712e70a6195c7d87919b76fad12bcb26c585f2c8b4496c6859bf2d",
+      "size_bytes": 1227118
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=09/part-00000.parquet",
+      "rows": 115968,
+      "sha256": "6b2393d568c95d96f7a62a5cf8e503cd56cbff060d920c0c2a6ebfeeaabcfb62",
+      "size_bytes": 1135130
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=09/part-00000.parquet",
+      "rows": 19328,
+      "sha256": "774ab544127c41f5accc513732cf5903debb97300330044b7d7de2d1ba336437",
+      "size_bytes": 77761
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=10/part-00000.parquet",
+      "rows": 145,
+      "sha256": "b9a1006537e4557ec7fead98b41311d3b04c1fc5e5aa35c91e34a66c2c66df5f",
+      "size_bytes": 22861
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=10/part-00000.parquet",
+      "rows": 1251,
+      "sha256": "736fabd791dec5a198a235b3ae1e63d365141160b021de1d803591a149e4c9ec",
+      "size_bytes": 26985
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=10/part-00000.parquet",
+      "rows": 14784,
+      "sha256": "4fd59af5e051ba14d9122f40bd2efed6428e3d295a9e3ed5d0e61593f0a0ec3b",
+      "size_bytes": 987083
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=10/part-00000.parquet",
+      "rows": 88704,
+      "sha256": "04124196a642fe4ff2d4e1901867d97a2d292923ef11e4307df8f443d87eb2b1",
+      "size_bytes": 901483
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=10/part-00000.parquet",
+      "rows": 14784,
+      "sha256": "c6149898f7fb06431e4ccffa1a69abb10919e0a25464f16947bc43f02af3f7b5",
+      "size_bytes": 61874
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=11/part-00000.parquet",
+      "rows": 151,
+      "sha256": "c0142a542d6259d2618216b05145340be38e03545cae21da248eed282a98082f",
+      "size_bytes": 23660
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=11/part-00000.parquet",
+      "rows": 1375,
+      "sha256": "1feccd953fa5b8840c4b25826a29a1c69f0e669e765804bc9e6694fdaf9b2eb1",
+      "size_bytes": 29614
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=11/part-00000.parquet",
+      "rows": 15808,
+      "sha256": "af14001f6e3cfc9c57b7e5866b42924c74fa5aa353e6b5cbc3839eeb4b4b652a",
+      "size_bytes": 1086734
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=11/part-00000.parquet",
+      "rows": 94848,
+      "sha256": "eec36ea24b5820aec625a532cb17a2776b0751ab318b3d74cafac422471d3af6",
+      "size_bytes": 990712
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=11/part-00000.parquet",
+      "rows": 15808,
+      "sha256": "315a81578993113f5b9890a656d2681244dd90658a702bb3b15065c0cc5345e1",
+      "size_bytes": 72657
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=12/part-00000.parquet",
+      "rows": 161,
+      "sha256": "c0267e60af74ac3c0008ef083face200cd63edd470137a6c467af86521fab161",
+      "size_bytes": 23992
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=12/part-00000.parquet",
+      "rows": 1299,
+      "sha256": "ddb0260d72b20f3365e97974db0cb9a67a550625599574877c1db3b83910dd74",
+      "size_bytes": 27961
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=12/part-00000.parquet",
+      "rows": 16640,
+      "sha256": "5bd9ff158d19ef853fa783827818699077b413d95ad6725aa832b5e150ecd0fa",
+      "size_bytes": 1108532
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=12/part-00000.parquet",
+      "rows": 99840,
+      "sha256": "bcd49e7f5e13e7534793878e528d7424748246464ae3b6864e3f50b2aa1325f1",
+      "size_bytes": 976944
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=12/part-00000.parquet",
+      "rows": 16640,
+      "sha256": "f02e56d648bbdc7faa946afd10da6e16116dc5c79f4d3ce723cd5fb89a3ce491",
+      "size_bytes": 69640
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=13/part-00000.parquet",
+      "rows": 174,
+      "sha256": "731d927ff3752929cc5293676b9c0bc4dd0505c61fcdb5bf9268167fa8cc4ff3",
+      "size_bytes": 25062
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=13/part-00000.parquet",
+      "rows": 1562,
+      "sha256": "9490f2e6641e308c6c938098ae79d7ea5bb7ab651314a26b58b288e61f28622e",
+      "size_bytes": 31553
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=13/part-00000.parquet",
+      "rows": 17792,
+      "sha256": "dfa04bef557921b95d43216d829a74df69072c8a3de55339e8f45c0145c49075",
+      "size_bytes": 1285107
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=13/part-00000.parquet",
+      "rows": 106752,
+      "sha256": "c7e2da59ad860a3a9d39386bd872468235834bdece710dd55386a982325f753c",
+      "size_bytes": 1162418
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=13/part-00000.parquet",
+      "rows": 17792,
+      "sha256": "d65eb3bb5b2368902f435da2b8f212fbc42d56d22eac24da1691249004f82f3a",
+      "size_bytes": 78490
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=14/part-00000.parquet",
+      "rows": 158,
+      "sha256": "29ba6d9d43868e60fa6f29c3d9a167d46bf9eb54b154bb904984df4c4cf921a3",
+      "size_bytes": 23881
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=14/part-00000.parquet",
+      "rows": 1370,
+      "sha256": "e280ac0df8c4d09046dadb0377bafe5c61fffc8caf2b1a73eb29abe634c3b98c",
+      "size_bytes": 29148
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=14/part-00000.parquet",
+      "rows": 16064,
+      "sha256": "a1f1dfe43c8414e07c96cdc6bb3d97d8ba3f972867abdd6c49ca8d7eb3dec055",
+      "size_bytes": 1032483
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=14/part-00000.parquet",
+      "rows": 96384,
+      "sha256": "62f09ceb9341bfd23fddf6e82c47e1b959f318b5fb724a7d383fe81bd3d930c3",
+      "size_bytes": 936809
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=14/part-00000.parquet",
+      "rows": 16064,
+      "sha256": "e516bed6d67323f62400d9c5a9eae9bbee23c27ab9de7d07728c333acafdd0d5",
+      "size_bytes": 67625
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=15/part-00000.parquet",
+      "rows": 158,
+      "sha256": "cee950966343cabd3a11586a0690ca00cb9c61446e66f609f2fcfb7820df15aa",
+      "size_bytes": 23835
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=15/part-00000.parquet",
+      "rows": 1274,
+      "sha256": "e4a9cdc462bbd7a43c5ac310aea0cee7cbb790d3ef26b217bc35f13e12b40c03",
+      "size_bytes": 28174
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=15/part-00000.parquet",
+      "rows": 16256,
+      "sha256": "b074b90f9a4d6585aa6ffd5e30fdae351571a5d42cab85d2421437af752b7ed5",
+      "size_bytes": 1066603
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=15/part-00000.parquet",
+      "rows": 97536,
+      "sha256": "9e5fe07b957c45884186eb594a01524963d9b43fb5c61dc7f3772606daa4ef65",
+      "size_bytes": 979127
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=15/part-00000.parquet",
+      "rows": 16256,
+      "sha256": "1166e426e53052e2873cb281100c257f12f54bbd7410c4e40813a77642df1157",
+      "size_bytes": 71155
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=16/part-00000.parquet",
+      "rows": 156,
+      "sha256": "c229e190dbd8aeb9487dbacaabbe145fb42257341c18e733162fdaf83513c913",
+      "size_bytes": 23726
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=16/part-00000.parquet",
+      "rows": 1398,
+      "sha256": "6655bee3e9973b71d5b5e2523f407c34fee3863d3ad750b5bcc13b1f1e20a069",
+      "size_bytes": 29157
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=16/part-00000.parquet",
+      "rows": 15616,
+      "sha256": "d30609bfc443bf42341d64fec9a782d8ab258978a97a620203378aab1e1e27ee",
+      "size_bytes": 1045904
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=16/part-00000.parquet",
+      "rows": 93696,
+      "sha256": "9e92a528dca0f3eefd1cd13b697337aa1da4c22783c335502e83a46bb57f011f",
+      "size_bytes": 957212
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=16/part-00000.parquet",
+      "rows": 15616,
+      "sha256": "fb44ba65fca933748f993ed3d23e7d314934b0c1319bf83c7671dca00140dd42",
+      "size_bytes": 70857
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=17/part-00000.parquet",
+      "rows": 154,
+      "sha256": "b664c0abe0bbc59790f7a97ac758a48c092dd44d00406e2d5370a768344d90a0",
+      "size_bytes": 23432
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=17/part-00000.parquet",
+      "rows": 1292,
+      "sha256": "d4ef7b783e87c28d184014dfb177e6843ea1876eee360b72f22eb7381675974b",
+      "size_bytes": 28121
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=17/part-00000.parquet",
+      "rows": 15552,
+      "sha256": "9ea928bc2da3526893f1dad6321c8445c5859b5bd499c43ce0edf166b598e2fb",
+      "size_bytes": 1052363
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=17/part-00000.parquet",
+      "rows": 93312,
+      "sha256": "42e0b1af7ff78c5d570a3d557e114bdc1392aea50d31694c801bb7eb0fa7b18d",
+      "size_bytes": 953014
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=17/part-00000.parquet",
+      "rows": 15552,
+      "sha256": "d85f7ee413382d6a2f0558ad22bfc5963f09c1ab32ea71a23d4c313656d85c38",
+      "size_bytes": 68366
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=18/part-00000.parquet",
+      "rows": 155,
+      "sha256": "8d24cbda9e9182e45b9b0d7b8ef7d45f9745f13c771c273c45fa611f56517aa4",
+      "size_bytes": 23667
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=18/part-00000.parquet",
+      "rows": 1352,
+      "sha256": "3d1c5d1034b21a21bcb3a6bc00b5602379f5a218e2addec2e7f55564bd82ca32",
+      "size_bytes": 28819
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=18/part-00000.parquet",
+      "rows": 16000,
+      "sha256": "71a919bdbf5c3ece65bf8b477523b7d3e5f065a890d0edc5986768784b0a5e70",
+      "size_bytes": 1105748
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=18/part-00000.parquet",
+      "rows": 96000,
+      "sha256": "b19611e7b28a0c04cd7fb71201e715b517b70a1cce43e281b39e0208e0fd788f",
+      "size_bytes": 993586
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=18/part-00000.parquet",
+      "rows": 16000,
+      "sha256": "d715103b525f677e2dc906503292b10e72709b82f69b605041beca3b6aebda7d",
+      "size_bytes": 70077
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=19/part-00000.parquet",
+      "rows": 174,
+      "sha256": "823e6db6e57b7699ddb8c49deb8ee6d9ed200e0204fc70fffca9c9461d05b1cf",
+      "size_bytes": 24854
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=19/part-00000.parquet",
+      "rows": 1540,
+      "sha256": "89d5ab5a8b2c129b50aa49568f7a2ba2f61987ceecaa879ba0e1565eafb65bba",
+      "size_bytes": 30810
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=19/part-00000.parquet",
+      "rows": 17664,
+      "sha256": "229afb98d38b874af31081428a7ee5b65fc4ce1190710095c4821c0770cda370",
+      "size_bytes": 1152374
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=19/part-00000.parquet",
+      "rows": 105984,
+      "sha256": "41f479bcc1a1aea5db891e3e5eeca57ecdf5f6d5d6919e1152d6f6e1d921d7da",
+      "size_bytes": 1037228
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=19/part-00000.parquet",
+      "rows": 17664,
+      "sha256": "3233968d4bf1f06a86ca1722d4c9866cefd3afe3dbd7736296e5d9b651e3d07b",
+      "size_bytes": 79584
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=20/part-00000.parquet",
+      "rows": 149,
+      "sha256": "4515447229d34cf61fa1c86d79984bc89870710205c96a36eb8360450fa93374",
+      "size_bytes": 22793
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=20/part-00000.parquet",
+      "rows": 1162,
+      "sha256": "546ec465bdb7895acd82bcec524796d6e3649a239665cd6ea837d6ee4b5f4bf9",
+      "size_bytes": 25498
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=20/part-00000.parquet",
+      "rows": 14720,
+      "sha256": "a1a35f2fdb96a287f0372a6b820b176d6edc11928d4c17aba64f7fa1666cf80c",
+      "size_bytes": 896244
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=20/part-00000.parquet",
+      "rows": 88320,
+      "sha256": "de52b3eb431d397b84d3b5b2c74129620bea8e626e77d91220d0451a9ac23e7c",
+      "size_bytes": 800858
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=20/part-00000.parquet",
+      "rows": 14720,
+      "sha256": "f5d21e675e45c7ab74ed303d71820c7b2d2a605f7303c3ce6956787b340f30ff",
+      "size_bytes": 59356
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=21/part-00000.parquet",
+      "rows": 136,
+      "sha256": "2c72945a62ce95010cd291e18f7f57b21758c1825508d88682b1bf760ea45c06",
+      "size_bytes": 22296
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=21/part-00000.parquet",
+      "rows": 1149,
+      "sha256": "91ed2fa86e7e2672f41fee73c28161d6f0b3df6a29034c8c1d37c5caed7cd100",
+      "size_bytes": 26154
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=21/part-00000.parquet",
+      "rows": 14208,
+      "sha256": "ce1b1156af67eb4ba0b68cbad24d612067b4dd965f33eba8e9c35378622f70ea",
+      "size_bytes": 931060
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=21/part-00000.parquet",
+      "rows": 85248,
+      "sha256": "64554ce3ebde26de0c37e053592d33ab6bd44f02f0e4268261c9be7dc1b2dfcf",
+      "size_bytes": 842439
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=21/part-00000.parquet",
+      "rows": 14208,
+      "sha256": "48eed8d14436008a7e0bf410f6eb3a675c6cd9cc9afae936fa0954f659723cb1",
+      "size_bytes": 62102
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=22/part-00000.parquet",
+      "rows": 148,
+      "sha256": "b2a86697d7835847b08dc243263c22fb240e7410c25d91ff25384a902dba76db",
+      "size_bytes": 23149
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=22/part-00000.parquet",
+      "rows": 1249,
+      "sha256": "8fd3c476bd6cfeb00f0cd1f68a391661a9b71c752de9887cac6894db25c5551f",
+      "size_bytes": 27134
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=22/part-00000.parquet",
+      "rows": 15296,
+      "sha256": "5d75d4e01b8db11d6acd863d93d321ec1a2b4b843b7d03d550fcc41f4cede710",
+      "size_bytes": 952002
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=22/part-00000.parquet",
+      "rows": 91776,
+      "sha256": "b88ee1489e6d3d70b16589df0bc3a335a709c14b6db091f13e52c7248a126b7d",
+      "size_bytes": 849390
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=22/part-00000.parquet",
+      "rows": 15296,
+      "sha256": "1afc946a9b2b6b6c60cf1cdc3a9c53291ea5716e80ee014e6d9c48721c749fb4",
+      "size_bytes": 60432
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=23/part-00000.parquet",
+      "rows": 160,
+      "sha256": "bd667984b44b2188d7f43537bdb21196c7c5b52bd9280a6a4aec6392db1a2e89",
+      "size_bytes": 23691
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=23/part-00000.parquet",
+      "rows": 1280,
+      "sha256": "d0875ec8026181babf62a255a7c86d5fd22d4fcfdfd34795de46c73da1869e3a",
+      "size_bytes": 27445
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=23/part-00000.parquet",
+      "rows": 16512,
+      "sha256": "cbc7494ae16eca4fd18492aff9fd16dccbecbd287fea8edaa9f972b139e17cee",
+      "size_bytes": 959983
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=23/part-00000.parquet",
+      "rows": 99072,
+      "sha256": "01194121bd7cc5f4b071374a77682230ba7b4f1dce57ccf4c23ba1af76950509",
+      "size_bytes": 880268
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=23/part-00000.parquet",
+      "rows": 16512,
+      "sha256": "6b8ef7c5d6c0b25ab60e74698829c7070acac6fac60802daad3e4e608d7b2534",
+      "size_bytes": 63899
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=24/part-00000.parquet",
+      "rows": 167,
+      "sha256": "ee7f628583b2a8ceae863194f4a40abba8e06b86ad7d62a3d5f0fd058c83aed8",
+      "size_bytes": 24250
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=24/part-00000.parquet",
+      "rows": 1434,
+      "sha256": "0076afb141ec35b99a37174c1d6309d83dae6cfa2d72e5e27cdfc69b0fa12d57",
+      "size_bytes": 29285
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=24/part-00000.parquet",
+      "rows": 16640,
+      "sha256": "d07480cd92be71332b3ae75436f7cc2e327247b23edd14e20e8c00d1a5d505d6",
+      "size_bytes": 1113325
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=24/part-00000.parquet",
+      "rows": 99840,
+      "sha256": "ce559249a0ac014c3c98a0ca0b4cf64737f02e8a829ce0193f2267543518eedf",
+      "size_bytes": 987357
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=24/part-00000.parquet",
+      "rows": 16640,
+      "sha256": "36aacca37606b0a556dbc98332adb61593524085cfe87916eb2d92d6ea2669a5",
+      "size_bytes": 71295
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=25/part-00000.parquet",
+      "rows": 171,
+      "sha256": "dc6dc45415ae891ea65db32fd7fdcea05e08cd098d97320fd28084e69857696c",
+      "size_bytes": 24453
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=25/part-00000.parquet",
+      "rows": 1276,
+      "sha256": "3b791ad52763f025e1431e07188f6413f0410d4c0e81943a0ba735bf9ded2ec3",
+      "size_bytes": 28310
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=25/part-00000.parquet",
+      "rows": 16768,
+      "sha256": "84ffee81ae200a8cc58c0c22a0daf84ee9f919f049484830b0c7e6db0dfbd60c",
+      "size_bytes": 1055021
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=25/part-00000.parquet",
+      "rows": 100608,
+      "sha256": "83e5e307e5b5f9202beaf1a7f450df317f0173870207dc02f2613195ea6b4107",
+      "size_bytes": 971775
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=25/part-00000.parquet",
+      "rows": 16768,
+      "sha256": "99bd96c14969dfe0c84361b2edfcde9be298a61bdd2a9bcee78c5436541f129b",
+      "size_bytes": 68595
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=26/part-00000.parquet",
+      "rows": 156,
+      "sha256": "8e975b53f28a68b683c037d563406b018aaeac62ad0ae441376b0d11c0c52575",
+      "size_bytes": 23576
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=26/part-00000.parquet",
+      "rows": 1290,
+      "sha256": "6c1de15288e978c55385c3de86aa888aeb186fcdb507d238effdb459dec675d6",
+      "size_bytes": 27980
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=26/part-00000.parquet",
+      "rows": 15680,
+      "sha256": "2a288cfed4cb64630c264930d8132eb1898aa35e832cf0daa314dc5ed29bcb3f",
+      "size_bytes": 1023860
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=26/part-00000.parquet",
+      "rows": 94080,
+      "sha256": "f5a59dbb6f32fbbdabd9c54e15ffdaddae5b1ad8d1de9dbda2f0b6260270973d",
+      "size_bytes": 929796
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=26/part-00000.parquet",
+      "rows": 15680,
+      "sha256": "0276eda589640c9a35b45c29219c09305c1d3c13c46a927a337761b042287d21",
+      "size_bytes": 65510
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=27/part-00000.parquet",
+      "rows": 156,
+      "sha256": "94166946a8d646943ea9a2f5bd5d08e2be06672e7bc933b5f6acd72bf33cdd20",
+      "size_bytes": 23764
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=27/part-00000.parquet",
+      "rows": 1396,
+      "sha256": "1e819b11ed19a84bcc88d08b2f81a84e58733fd12737f004dd442e24250af4b4",
+      "size_bytes": 29341
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=27/part-00000.parquet",
+      "rows": 15616,
+      "sha256": "9de6d6b4aa365a854efcfc4ec951168dcc7b9cefa9a3f77a86e2ab2113e09407",
+      "size_bytes": 1115700
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=27/part-00000.parquet",
+      "rows": 93696,
+      "sha256": "eddc80dae981046b2f6121a0647e5a60389f6c1b5491587c3ea53c604f40fff5",
+      "size_bytes": 989051
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=27/part-00000.parquet",
+      "rows": 15616,
+      "sha256": "4c116777492c0c2a0556ec1414b5b450d4b29321d02f24788f537a64b1b3cd4b",
+      "size_bytes": 72562
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=28/part-00000.parquet",
+      "rows": 165,
+      "sha256": "86bb3df371a519eb27f87950819ee5da18514db538e39c7d525986037b6d6384",
+      "size_bytes": 24246
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=28/part-00000.parquet",
+      "rows": 1451,
+      "sha256": "4d11d53c6b646f765aa8fb5cdbc6a19ec63c7082c078c6d886f33d856ecf04da",
+      "size_bytes": 29895
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=28/part-00000.parquet",
+      "rows": 16576,
+      "sha256": "928bba775a4a0d92b62ecd6bea0ae722a1688e4309cb33f63a1b8105cb41b35c",
+      "size_bytes": 1128315
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=28/part-00000.parquet",
+      "rows": 99456,
+      "sha256": "dd0b52e71a7950435fe21b5cd2d6b986550afbbd0cfa184ce68cb7a4bf56b849",
+      "size_bytes": 1023786
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=28/part-00000.parquet",
+      "rows": 16576,
+      "sha256": "5ff33c682dee873f92aac7b62a9699a967677a8859803f5c6592904a5952ccb2",
+      "size_bytes": 75299
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=29/part-00000.parquet",
+      "rows": 155,
+      "sha256": "2212c19dc44090514f48d61ccb8b655299a51128e61ef28ec29e3e0680a0ca6e",
+      "size_bytes": 23593
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=29/part-00000.parquet",
+      "rows": 1273,
+      "sha256": "7a7b27050d110f300bfcf5ebdace2be4e219f6a1751f6e55c8d2514f8caca997",
+      "size_bytes": 27929
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=29/part-00000.parquet",
+      "rows": 16064,
+      "sha256": "ed552651b5ee39e91fccb2a268c5642de03135b138b356333d73d7801c00a55b",
+      "size_bytes": 1120285
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=29/part-00000.parquet",
+      "rows": 96384,
+      "sha256": "69cba70fa199f7ac9c5e2ae8f26e3c45b1c13be24ba8bec4e2fcb8a312ed6639",
+      "size_bytes": 1015610
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=29/part-00000.parquet",
+      "rows": 16064,
+      "sha256": "5c0794dca5579fa78a19e5f997ed7a9aa0cf79e4c733513224a2675967dccc68",
+      "size_bytes": 66642
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=30/part-00000.parquet",
+      "rows": 165,
+      "sha256": "22f5fb9c021195aef52b66069d5e0fd7f85427e6aa4271e3612a7bfa3abd82d9",
+      "size_bytes": 24369
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=30/part-00000.parquet",
+      "rows": 1380,
+      "sha256": "9f6cee03587e5ba667dc5db0a9a2031d80492341e6d2acb20f9411eff48ad8ef",
+      "size_bytes": 29895
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=30/part-00000.parquet",
+      "rows": 16384,
+      "sha256": "667bdd60a9b3aefefdf654e85067f1e437b00e8dc16643290d06ada77f275716",
+      "size_bytes": 1173094
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=30/part-00000.parquet",
+      "rows": 98304,
+      "sha256": "826201b72e415d4d85318b50c6d15cd95b5b5e9e2d655ae7ea8dd58d11bbbc5d",
+      "size_bytes": 1028448
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=30/part-00000.parquet",
+      "rows": 16384,
+      "sha256": "1a33586b06bcc180857e49f2b7533ce289508195f9fe68f34c4996d5445e969e",
+      "size_bytes": 75263
+    },
+    {
+      "columns": 34,
+      "path": "data/gold/player_career_summary/bucket=31/part-00000.parquet",
+      "rows": 172,
+      "sha256": "a73cd2afc1f2d9127a6208f28872f6df8011418ad49db514d34ebe46e6cdd3ad",
+      "size_bytes": 24752
+    },
+    {
+      "columns": 20,
+      "path": "data/gold/player_career_trajectory/bucket=31/part-00000.parquet",
+      "rows": 1525,
+      "sha256": "e59ee4b428b093e905890df082f2cd47b6ab9303ce939fd1f93a986a658df258",
+      "size_bytes": 31036
+    },
+    {
+      "columns": 46,
+      "path": "data/gold/player_career_features/bucket=31/part-00000.parquet",
+      "rows": 17792,
+      "sha256": "3a78d46d0003175335cb789fae4d63589fa9da99cf722c6fbd830ce917d7f95e",
+      "size_bytes": 1227291
+    },
+    {
+      "columns": 28,
+      "path": "data/gold/player_peak_windows/bucket=31/part-00000.parquet",
+      "rows": 106752,
+      "sha256": "799ce85c0736164a49dc2d269eebe065bb80fae3a6a1f943fb1782c90daedf2d",
+      "size_bytes": 1094826
+    },
+    {
+      "columns": 23,
+      "path": "data/gold/player_prime_runs/bucket=31/part-00000.parquet",
+      "rows": 17792,
+      "sha256": "1938c1acacfeedc9b7ac88501a175a5098ae5ee11a4ffaec1619cd9a24f8095a",
+      "size_bytes": 78099
+    }
+  ],
+  "reproducibility": {
+    "expected_fingerprint": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+    "observed_fingerprint": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+    "pass": true
+  },
+  "run_at": "2026-08-31T18:00:00Z",
+  "size_bytes": 68583568,
+  "step": "STEP-0008"
+}

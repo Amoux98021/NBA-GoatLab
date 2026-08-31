@@ -1,0 +1,185 @@
+{
+  "candidate_universe_counts": {
+    "elite_any_core_p90": 1491,
+    "elite_any_core_p95": 984,
+    "multi_core_2_p90": 756,
+    "multi_core_2_p95": 387,
+    "multi_core_3_p90": 377,
+    "participation_q10": 867,
+    "participation_q3": 2574,
+    "participation_q5": 1891,
+    "participation_q8": 1227,
+    "union_q3_or_p95": 2617,
+    "union_q5_or_p90_recommended": 2140,
+    "union_q8_or_p90": 1767
+  },
+  "career_methodology_version": "career-trajectory-peak-longevity-v1",
+  "decision": "PASS",
+  "input": {
+    "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "corpus_id": "GOATLAB-HIST-V1",
+    "identity_sqlite_fingerprint": "65b6412234d2d8817678d04f7cd2548aec82fec02b6c5b86679cade7572c21c7",
+    "network_requests": 0,
+    "normalization_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "normalization_partitions_verified": 480,
+    "normalization_version": "era-normalized-player-season-v1"
+  },
+  "outputs": {
+    "fingerprint": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+    "partition_count": 160,
+    "rows": {
+      "player_career_features": 519360,
+      "player_career_summary": 5103,
+      "player_career_trajectory": 42886,
+      "player_peak_windows": 3116160,
+      "player_prime_runs": 519360
+    },
+    "size_bytes": 68583568
+  },
+  "participation": {
+    "playoff_games": {
+      "count": 5103,
+      "maximum": 302.0,
+      "mean": 18.020184205369,
+      "median": 3.0,
+      "minimum": 0.0
+    },
+    "playoff_seasons_appeared": {
+      "count": 5103,
+      "maximum": 19.0,
+      "mean": 2.299823633157,
+      "median": 1.0,
+      "minimum": 0.0
+    },
+    "qualified_playoff_seasons": {
+      "count": 5103,
+      "maximum": 19.0,
+      "mean": 2.101312953165,
+      "median": 1.0,
+      "minimum": 0.0
+    },
+    "regular_qualified_seasons": {
+      "count": 5103,
+      "maximum": 23.0,
+      "mean": 4.400744660004,
+      "median": 3.0,
+      "minimum": 0.0
+    },
+    "regular_seasons_appeared": {
+      "count": 5103,
+      "maximum": 23.0,
+      "mean": 5.043307858123,
+      "median": 3.0,
+      "minimum": 0.0
+    },
+    "regular_total_games": {
+      "count": 5103,
+      "maximum": 1622.0,
+      "mean": 272.340388007055,
+      "median": 130.0,
+      "minimum": 0.0
+    }
+  },
+  "pass_conditions": {
+    "active_status_explicit": true,
+    "all_players_have_sequences": true,
+    "candidate_universes_complete": true,
+    "historical_missingness_preserved": true,
+    "no_network": true,
+    "no_ranking_target": true,
+    "peak_windows_generated": true,
+    "prime_thresholds_generated": true,
+    "provenance_complete": true,
+    "quality_availability_distinct": true,
+    "reproducible_when_expected": true,
+    "season_types_isolated": true
+  },
+  "performance": {
+    "runtime_seconds": 153.971063,
+    "size_bytes": 68583568
+  },
+  "players": {
+    "age_birth_date_available": 3612,
+    "age_birth_date_unavailable": 1491,
+    "career_status_counts": {
+      "ACTIVE_TO_CUTOFF": 582,
+      "INDETERMINATE": 271,
+      "SOURCE_CONFIRMED_COMPLETE": 4250
+    },
+    "processed": 5103
+  },
+  "prime_threshold_player_records": {
+    "PLAYOFF_P80": 12526,
+    "PLAYOFF_P90": 7583,
+    "PLAYOFF_P95": 4123,
+    "PLAYOFF_P99": 936,
+    "REGULAR_P80": 15474,
+    "REGULAR_P90": 9346,
+    "REGULAR_P95": 5212,
+    "REGULAR_P99": 1387
+  },
+  "prime_threshold_unique_players": {
+    "PLAYOFF_P80": 2382,
+    "PLAYOFF_P90": 2092,
+    "PLAYOFF_P95": 1506,
+    "PLAYOFF_P99": 535,
+    "REGULAR_P80": 3133,
+    "REGULAR_P90": 2596,
+    "REGULAR_P95": 1930,
+    "REGULAR_P99": 815
+  },
+  "quality_availability_changed_windows": {
+    "apg_1": 810,
+    "apg_3": 421,
+    "apg_5": 321,
+    "ppg_1": 770,
+    "ppg_3": 445,
+    "ppg_5": 287,
+    "rpg_1": 638,
+    "rpg_3": 381,
+    "rpg_5": 248,
+    "ts_pct_1": 369,
+    "ts_pct_3": 233,
+    "ts_pct_5": 163
+  },
+  "quality_availability_eligible_comparisons": {
+    "apg_1": 2953,
+    "apg_3": 1761,
+    "apg_5": 1250,
+    "ppg_1": 4187,
+    "ppg_3": 2456,
+    "ppg_5": 1765,
+    "rpg_1": 3178,
+    "rpg_3": 1761,
+    "rpg_5": 1250,
+    "ts_pct_1": 3045,
+    "ts_pct_3": 1851,
+    "ts_pct_5": 1310
+  },
+  "quality_checks": {
+    "all_players_summarized": true,
+    "candidate_master_preserved": true,
+    "case_identity_failures": 0,
+    "duplicate_feature_keys": 0,
+    "duplicate_peak_keys": 0,
+    "invalid_available_windows": 0,
+    "network_requests": 0,
+    "non_finite_values": 0
+  },
+  "recommended_award_candidate_count": 2140,
+  "reproducibility": {
+    "expected_fingerprint": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+    "observed_fingerprint": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+    "pass": true
+  },
+  "run_at": "2026-08-31T18:00:00Z",
+  "step": "STEP-0008",
+  "valid_peak_records": {
+    "1_AVAILABILITY_ADJUSTED": 347420,
+    "1_QUALITY": 347420,
+    "3_AVAILABILITY_ADJUSTED": 177472,
+    "3_QUALITY": 177472,
+    "5_AVAILABILITY_ADJUSTED": 110971,
+    "5_QUALITY": 110971
+  }
+}

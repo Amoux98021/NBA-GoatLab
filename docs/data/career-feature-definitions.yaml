@@ -1,0 +1,85 @@
+registry_version: 1
+career_methodology_version: career-trajectory-peak-longevity-v1
+normalization_version: era-normalized-player-season-v1
+normalization_fingerprint: a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852
+corpus_id: GOATLAB-HIST-V1
+corpus_fingerprint: 283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c
+comparison_scope: each player, metric, normalization method, and season type separately
+regular_playoff_policy: never combined
+missingness_policy: unavailable remains NULL with explicit coverage status
+age_policy: age on February 1 of season end; only authoritative birth dates
+active_policy: ACTIVE_TO_CUTOFF for 2025-26 Regular Season appearances; SOURCE_CONFIRMED_COMPLETE
+  only from inactive legacy evidence; otherwise INDETERMINATE
+definitions:
+- feature_name: career_distribution_summary
+  category: METRIC_CAREER_SUMMARY
+  formula: count, mean, median, min, max, population std over qualified values
+  window_definition: null
+  threshold: null
+  opportunity_weighting: none
+- feature_name: best_non_contiguous_3_or_5
+  category: NON_CONTIGUOUS_BEST_SEASONS
+  formula: mean of top N qualified season values
+  window_definition: best N values; seasons need not be consecutive
+  threshold: null
+  opportunity_weighting: quality and league-baseline shrinkage variants
+- feature_name: contiguous_peak_1_3_5
+  category: PEAK_WINDOW
+  formula: best mean across complete consecutive N-season windows
+  window_definition: all N consecutive NBA seasons observed, qualified, and available
+  threshold: null
+  opportunity_weighting: QUALITY and AVAILABILITY_ADJUSTED retained separately
+- feature_name: elite_season_count_and_run
+  category: PRIME_AND_LONGEVITY
+  formula: count/proportion and longest consecutive percentile run
+  window_definition: missed or below-threshold season breaks run
+  threshold:
+  - 0.8
+  - 0.9
+  - 0.95
+  - 0.99
+  opportunity_weighting: none
+- feature_name: cumulative_positive_z
+  category: CUMULATIVE_DOMINANCE
+  formula: sum(max(standard_z, 0))
+  window_definition: qualified available career seasons
+  threshold: 0.0
+  opportunity_weighting: unweighted and games/opportunity weighted
+- feature_name: area_above_percentile_baseline
+  category: CUMULATIVE_DOMINANCE
+  formula: sum(max(percentile - baseline, 0))
+  window_definition: qualified available career seasons
+  threshold:
+  - 0.5
+  - 0.8
+  - 0.9
+  opportunity_weighting: unweighted and games/opportunity weighted
+- feature_name: late_career_elite_p80
+  category: LONGEVITY
+  formula: count of >=80th percentile seasons among final five appearances
+  window_definition: final five observed seasons of the season-type career
+  threshold: 0.8
+  opportunity_weighting: none
+normalization_methods:
+- STANDARD_Z
+- ROBUST_Z
+- PERCENTILE
+- RELATIVE_INDEX
+window_sizes:
+- 1
+- 3
+- 5
+elite_thresholds:
+- 0.8
+- 0.9
+- 0.95
+- 0.99
+percentile_area_baselines:
+- 0.5
+- 0.8
+- 0.9
+known_limitations:
+- Qualification is inherited from STEP-0007 and is not an uncertainty model.
+- Availability adjustment shrinks toward the method-specific league baseline.
+- Age features are unavailable when the audited identity snapshot lacks birth date.
+- No primitive combines unrelated basketball metrics or defines greatness.

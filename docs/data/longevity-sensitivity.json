@@ -1,0 +1,66 @@
+{
+  "career_methodology_version": "career-trajectory-peak-longevity-v1",
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "elite_threshold_metric_player_records": {
+    "PLAYOFF_P80": 12526,
+    "PLAYOFF_P90": 7583,
+    "PLAYOFF_P95": 4123,
+    "PLAYOFF_P99": 936,
+    "REGULAR_P80": 15474,
+    "REGULAR_P90": 9346,
+    "REGULAR_P95": 5212,
+    "REGULAR_P99": 1387
+  },
+  "interpretation": {
+    "p80": "broad sustained above-average performance",
+    "p90": "elite-season emphasis",
+    "p95": "rarer elite-season emphasis",
+    "p99": "extreme-season emphasis",
+    "positive_z": "rewards length above the season mean",
+    "weighted_positive_z": "also rewards games availability"
+  },
+  "maximum_consecutive_run": {
+    "PLAYOFF_P80": 19,
+    "PLAYOFF_P90": 17,
+    "PLAYOFF_P95": 16,
+    "PLAYOFF_P99": 10,
+    "REGULAR_P80": 23,
+    "REGULAR_P90": 23,
+    "REGULAR_P95": 23,
+    "REGULAR_P99": 16
+  },
+  "metric_player_runs_at_least_3": {
+    "PLAYOFF_P80": 1682,
+    "PLAYOFF_P90": 702,
+    "PLAYOFF_P95": 274,
+    "PLAYOFF_P99": 29,
+    "REGULAR_P80": 5221,
+    "REGULAR_P90": 2408,
+    "REGULAR_P95": 1069,
+    "REGULAR_P99": 171
+  },
+  "metric_player_runs_at_least_5": {
+    "PLAYOFF_P80": 592,
+    "PLAYOFF_P90": 234,
+    "PLAYOFF_P95": 91,
+    "PLAYOFF_P99": 6,
+    "REGULAR_P80": 2782,
+    "REGULAR_P90": 1209,
+    "REGULAR_P95": 496,
+    "REGULAR_P99": 74
+  },
+  "normalization_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+  "normalization_version": "era-normalized-player-season-v1",
+  "step": "STEP-0008",
+  "unique_players_above_threshold": {
+    "PLAYOFF_P80": 2382,
+    "PLAYOFF_P90": 2092,
+    "PLAYOFF_P95": 1506,
+    "PLAYOFF_P99": 535,
+    "REGULAR_P80": 3133,
+    "REGULAR_P90": 2596,
+    "REGULAR_P95": 1930,
+    "REGULAR_P99": 815
+  }
+}

@@ -1,0 +1,1054 @@
+{
+  "adjustment": "shrink each season value toward method-specific league baseline by games/opportunity",
+  "career_methodology_version": "career-trajectory-peak-longevity-v1",
+  "changed_best_window_counts": {
+    "apg_1": 810,
+    "apg_3": 421,
+    "apg_5": 321,
+    "ppg_1": 770,
+    "ppg_3": 445,
+    "ppg_5": 287,
+    "rpg_1": 638,
+    "rpg_3": 381,
+    "rpg_5": 248,
+    "ts_pct_1": 369,
+    "ts_pct_3": 233,
+    "ts_pct_5": 163
+  },
+  "changed_best_window_rates": {
+    "apg_1": 0.274297324754,
+    "apg_3": 0.23906871096,
+    "apg_5": 0.2568,
+    "ppg_1": 0.183902555529,
+    "ppg_3": 0.181188925081,
+    "ppg_5": 0.162606232295,
+    "rpg_1": 0.200755191945,
+    "rpg_3": 0.216354344123,
+    "rpg_5": 0.1984,
+    "ts_pct_1": 0.12118226601,
+    "ts_pct_3": 0.125877903836,
+    "ts_pct_5": 0.124427480916
+  },
+  "comparison": "QUALITY versus AVAILABILITY_ADJUSTED peak selection",
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "eligible_window_comparisons": {
+    "apg_1": 2953,
+    "apg_3": 1761,
+    "apg_5": 1250,
+    "ppg_1": 4187,
+    "ppg_3": 2456,
+    "ppg_5": 1765,
+    "rpg_1": 3178,
+    "rpg_3": 1761,
+    "rpg_5": 1250,
+    "ts_pct_1": 3045,
+    "ts_pct_3": 1851,
+    "ts_pct_5": 1310
+  },
+  "examples": [
+    {
+      "adjusted_mean": -0.173726035791,
+      "adjusted_start": 1994,
+      "display_name": "Kenny Gattison",
+      "metric_name": "apg",
+      "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+      "quality_mean": -0.314623335208,
+      "quality_start": 1991,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.143264255503,
+      "adjusted_start": 2022,
+      "display_name": "Dillon Brooks",
+      "metric_name": "apg",
+      "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+      "quality_mean": 0.29206162478,
+      "quality_start": 2021,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.99805977781,
+      "adjusted_start": 2008,
+      "display_name": "Ramon Sessions",
+      "metric_name": "apg",
+      "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8",
+      "quality_mean": 2.871889357847,
+      "quality_start": 2007,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.192909299432,
+      "adjusted_start": 2001,
+      "display_name": "Chucky Brown",
+      "metric_name": "apg",
+      "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+      "quality_mean": -0.36480981972,
+      "quality_start": 1998,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.458385986771,
+      "adjusted_start": 1990,
+      "display_name": "Joe Dumars",
+      "metric_name": "apg",
+      "player_id": "player_00eab900a9085ab28822b085b517b0cf",
+      "quality_mean": 1.685366002098,
+      "quality_start": 1994,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.317536568498,
+      "adjusted_start": 1999,
+      "display_name": "Duane Causwell",
+      "metric_name": "apg",
+      "player_id": "player_01077d88af5951c3b782a4f1cd2072f3",
+      "quality_mean": -0.610739594726,
+      "quality_start": 1990,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.2409010833,
+      "adjusted_start": 1991,
+      "display_name": "Tony Massenburg",
+      "metric_name": "apg",
+      "player_id": "player_013675cd561c5fa7994917bf8f87e0ad",
+      "quality_mean": -0.664237981141,
+      "quality_start": 1994,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.195577690037,
+      "adjusted_start": 1982,
+      "display_name": "Mike O'Koren",
+      "metric_name": "apg",
+      "player_id": "player_0153246aef1352a5a81389b1bdd0db6d",
+      "quality_mean": -0.279722237733,
+      "quality_start": 1985,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.751887946809,
+      "adjusted_start": 1988,
+      "display_name": "Winston Garland",
+      "metric_name": "apg",
+      "player_id": "player_01943414713a54cfaa458c11f9dfb098",
+      "quality_mean": 1.884062209974,
+      "quality_start": 1987,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.358211600466,
+      "adjusted_start": 1982,
+      "display_name": "Keith Edmonson",
+      "metric_name": "apg",
+      "player_id": "player_019eff0749de5456a777e21d7444197d",
+      "quality_mean": -0.869055347456,
+      "quality_start": 1983,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.208447337955,
+      "adjusted_start": 2006,
+      "display_name": "Ronald Dupree",
+      "metric_name": "apg",
+      "player_id": "player_01c5f0b3f14157aab99bd5ee0c2fe2f4",
+      "quality_mean": -0.457660737778,
+      "quality_start": 2003,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.349491087652,
+      "adjusted_start": 1986,
+      "display_name": "James Bailey",
+      "metric_name": "apg",
+      "player_id": "player_01cb4a5be30b5ef2b8f62cc3a164f77a",
+      "quality_mean": -0.617629940625,
+      "quality_start": 1985,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.258788973797,
+      "adjusted_start": 2015,
+      "display_name": "Jarell Martin",
+      "metric_name": "apg",
+      "player_id": "player_01dc05dc2ca350aeb065ad7f5f7af626",
+      "quality_mean": -0.602297606017,
+      "quality_start": 2017,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.215817599529,
+      "adjusted_start": 2019,
+      "display_name": "Garrison Mathews",
+      "metric_name": "apg",
+      "player_id": "player_02d12656adb55cfc9fc789a3e021a0ae",
+      "quality_mean": -0.56579673658,
+      "quality_start": 2024,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.126592909127,
+      "adjusted_start": 1997,
+      "display_name": "Mitchell Butler",
+      "metric_name": "apg",
+      "player_id": "player_02dcb8698fab5ed09076dd2842d7af9c",
+      "quality_mean": -0.482596413391,
+      "quality_start": 1994,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.259281701633,
+      "adjusted_start": 2006,
+      "display_name": "Pat Burke",
+      "metric_name": "apg",
+      "player_id": "player_032eff1d7bee5b069df98a93ae751299",
+      "quality_mean": -0.795039218777,
+      "quality_start": 2005,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.438634237286,
+      "adjusted_start": 1983,
+      "display_name": "Rory White",
+      "metric_name": "apg",
+      "player_id": "player_037d79d0aa2c53e99bfde5d528119efd",
+      "quality_mean": -0.574953445278,
+      "quality_start": 1986,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.171897580908,
+      "adjusted_start": 1987,
+      "display_name": "Adrian Branch",
+      "metric_name": "apg",
+      "player_id": "player_03b12f5b06c25fc189cec5c78de5de4c",
+      "quality_mean": -0.622389713975,
+      "quality_start": 1988,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.196281146034,
+      "adjusted_start": 2008,
+      "display_name": "Lorenzen Wright",
+      "metric_name": "apg",
+      "player_id": "player_03d62db51a9d5fd48d103bc6468343c0",
+      "quality_mean": -0.407408885148,
+      "quality_start": 2000,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.342929356317,
+      "adjusted_start": 1991,
+      "display_name": "Tom Tolbert",
+      "metric_name": "apg",
+      "player_id": "player_04570e461e535f49829b0a1562c9fa8a",
+      "quality_mean": -0.46615054806,
+      "quality_start": 1990,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.200976239615,
+      "adjusted_start": 2016,
+      "display_name": "Cheick Diallo",
+      "metric_name": "apg",
+      "player_id": "player_0496219301be518cb94ecb759beb0cc5",
+      "quality_mean": -0.915458284346,
+      "quality_start": 2018,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 3.04555792655,
+      "adjusted_start": 2010,
+      "display_name": "Derrick Rose",
+      "metric_name": "apg",
+      "player_id": "player_04db562387df512b86bb0958c9c78121",
+      "quality_mean": 3.307665700008,
+      "quality_start": 2011,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.578152747803,
+      "adjusted_start": 2025,
+      "display_name": "Donovan Mitchell",
+      "metric_name": "apg",
+      "player_id": "player_0565c011a46659b599f64ddb86d348a0",
+      "quality_mean": 1.968570677532,
+      "quality_start": 2023,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.304361757738,
+      "adjusted_start": 2005,
+      "display_name": "Loren Woods",
+      "metric_name": "apg",
+      "player_id": "player_05677ad2d346537bb3ff46d4eb8ef0ed",
+      "quality_mean": -0.8495030698,
+      "quality_start": 2002,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.260588030771,
+      "adjusted_start": 2023,
+      "display_name": "Cam Thomas",
+      "metric_name": "apg",
+      "player_id": "player_05959b8870805c48baa69366c2666bc5",
+      "quality_mean": 0.767733969201,
+      "quality_start": 2024,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.679735986961,
+      "adjusted_start": 2025,
+      "display_name": "Brandon Williams",
+      "metric_name": "apg",
+      "player_id": "player_059d9af1210054828cc3797615e9ca8a",
+      "quality_mean": 0.912726536865,
+      "quality_start": 2021,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.311351388875,
+      "adjusted_start": 1995,
+      "display_name": "John Amaechi",
+      "metric_name": "apg",
+      "player_id": "player_060ca60b35225cfab24fdc8d8fb58105",
+      "quality_mean": -0.440305977383,
+      "quality_start": 1999,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.290866189673,
+      "adjusted_start": 2007,
+      "display_name": "Justin Williams",
+      "metric_name": "apg",
+      "player_id": "player_06540443ea765c68bd0e0067b2c6af24",
+      "quality_mean": -1.000453640932,
+      "quality_start": 2006,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.232420089181,
+      "adjusted_start": 2021,
+      "display_name": "Usman Garuba",
+      "metric_name": "apg",
+      "player_id": "player_07148935f1b65652993479dbc056fcc9",
+      "quality_mean": -0.737011091235,
+      "quality_start": 2022,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.274193395377,
+      "adjusted_start": 2024,
+      "display_name": "Quinten Post",
+      "metric_name": "apg",
+      "player_id": "player_071676a17c045fc8acf4404a30ac0e62",
+      "quality_mean": -0.531370492541,
+      "quality_start": 2025,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.17299903592,
+      "adjusted_start": 1985,
+      "display_name": "Paul Thompson",
+      "metric_name": "apg",
+      "player_id": "player_0765d8c7b95550c995e06e2d7a0f3aa2",
+      "quality_mean": -0.447875052371,
+      "quality_start": 1983,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.208529515937,
+      "adjusted_start": 2014,
+      "display_name": "Michael Kidd-Gilchrist",
+      "metric_name": "apg",
+      "player_id": "player_078910fcb3fd53f88f5e0bcf122bb935",
+      "quality_mean": -0.253113663844,
+      "quality_start": 2012,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.319966080001,
+      "adjusted_start": 2020,
+      "display_name": "Paul Reed",
+      "metric_name": "apg",
+      "player_id": "player_0830feda0df354e5a1ecf7be10c7239a",
+      "quality_mean": -0.502354280319,
+      "quality_start": 2023,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.215223026054,
+      "adjusted_start": 2000,
+      "display_name": "Mark Bryant",
+      "metric_name": "apg",
+      "player_id": "player_087f9d27ec0b547ab3b4bec01cbe9870",
+      "quality_mean": -0.431356518964,
+      "quality_start": 1998,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.301573353141,
+      "adjusted_start": 1993,
+      "display_name": "Rich King",
+      "metric_name": "apg",
+      "player_id": "player_08806a58ae8d534e95638da0769b7126",
+      "quality_mean": -0.950436380154,
+      "quality_start": 1991,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.297151209233,
+      "adjusted_start": 1983,
+      "display_name": "Bill Walton",
+      "metric_name": "apg",
+      "player_id": "player_08d55e41e6aa5836a9754a7bfb0c3796",
+      "quality_mean": 0.615013128593,
+      "quality_start": 1982,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.271219167925,
+      "adjusted_start": 1987,
+      "display_name": "Ray Tolbert",
+      "metric_name": "apg",
+      "player_id": "player_08e9b587be625fd788e720af181ee21c",
+      "quality_mean": -0.877941457542,
+      "quality_start": 1988,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.30327462453,
+      "adjusted_start": 2012,
+      "display_name": "Quincy Acy",
+      "metric_name": "apg",
+      "player_id": "player_0901c4723c915c1ab4b67556f1f22dde",
+      "quality_mean": -0.538034481475,
+      "quality_start": 2014,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.049356014306,
+      "adjusted_start": 1990,
+      "display_name": "Willie Anderson",
+      "metric_name": "apg",
+      "player_id": "player_092df473d8e15575b4846fcc3fdc054d",
+      "quality_mean": 1.498735429871,
+      "quality_start": 1991,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.161021659948,
+      "adjusted_start": 2021,
+      "display_name": "Kyle Guy",
+      "metric_name": "apg",
+      "player_id": "player_09cd0f74d14a542f8692192eb7d2fa47",
+      "quality_mean": -0.586728379876,
+      "quality_start": 2020,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.195408408955,
+      "adjusted_start": 2013,
+      "display_name": "Ian Clark",
+      "metric_name": "apg",
+      "player_id": "player_0a283d6f8f275ffbb1b7b683528ed0ba",
+      "quality_mean": -0.326499482739,
+      "quality_start": 2017,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.642859832766,
+      "adjusted_start": 1999,
+      "display_name": "Vonteego Cummings",
+      "metric_name": "apg",
+      "player_id": "player_0a63458b6991556ba0ee083662d12322",
+      "quality_mean": 0.791020868194,
+      "quality_start": 2000,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.003158584274,
+      "adjusted_start": 2016,
+      "display_name": "Patrick Beverley",
+      "metric_name": "apg",
+      "player_id": "player_0a6973d788985a97b32b86e196d36686",
+      "quality_mean": 1.28726570795,
+      "quality_start": 2021,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.284421314555,
+      "adjusted_start": 1995,
+      "display_name": "Byron Houston",
+      "metric_name": "apg",
+      "player_id": "player_0b8e2712aa8b5354be92cf9f93fc80fd",
+      "quality_mean": -0.686775848287,
+      "quality_start": 1992,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.296890742699,
+      "adjusted_start": 2008,
+      "display_name": "Maceo Baston",
+      "metric_name": "apg",
+      "player_id": "player_0b9e5cc72b9d5d5b90e23f4d0b1b4db2",
+      "quality_mean": -0.857777446702,
+      "quality_start": 2006,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.124332231203,
+      "adjusted_start": 2013,
+      "display_name": "Marcin Gortat",
+      "metric_name": "apg",
+      "player_id": "player_0bd1784d1695574aa764cfbcb0615089",
+      "quality_mean": -0.125256543192,
+      "quality_start": 2017,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.274115905926,
+      "adjusted_start": 2005,
+      "display_name": "Anthony Johnson",
+      "metric_name": "apg",
+      "player_id": "player_0c5b8cd488f45ed6a7163892657f492b",
+      "quality_mean": 1.579913446391,
+      "quality_start": 2004,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.33666321206,
+      "adjusted_start": 2002,
+      "display_name": "Devean George",
+      "metric_name": "apg",
+      "player_id": "player_0d92166ff9e350179a49e215e97e7c61",
+      "quality_mean": -0.338012303901,
+      "quality_start": 2001,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.116561133716,
+      "adjusted_start": 2023,
+      "display_name": "Brice Sensabaugh",
+      "metric_name": "apg",
+      "player_id": "player_0df95d454c805e988e9f299abc528a3a",
+      "quality_mean": -0.251456862651,
+      "quality_start": 2025,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.174285195262,
+      "adjusted_start": 2024,
+      "display_name": "Mitchell Robinson",
+      "metric_name": "apg",
+      "player_id": "player_0e27a5429a8158e3b11d7a746e988e5e",
+      "quality_mean": -0.713745741945,
+      "quality_start": 2022,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.152423568625,
+      "adjusted_start": 2020,
+      "display_name": "Cam Reddish",
+      "metric_name": "apg",
+      "player_id": "player_0e96bff196a05427aac9e9fcbee2c527",
+      "quality_mean": -0.375895666615,
+      "quality_start": 2019,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.368990826431,
+      "adjusted_start": 2017,
+      "display_name": "Justin Anderson",
+      "metric_name": "apg",
+      "player_id": "player_0ede7a50f5225f50ac9094c381c6e907",
+      "quality_mean": -0.611592811082,
+      "quality_start": 2016,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.256390590653,
+      "adjusted_start": 1983,
+      "display_name": "Clark Kellogg",
+      "metric_name": "apg",
+      "player_id": "player_0eedfcae8fb85b08b2015dc5809b5b88",
+      "quality_mean": 0.302051439157,
+      "quality_start": 1985,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.2289345456,
+      "adjusted_start": 2013,
+      "display_name": "Austin Daye",
+      "metric_name": "apg",
+      "player_id": "player_0f50e41c1db55667b7e8bab7dc5a2b77",
+      "quality_mean": -0.436822627212,
+      "quality_start": 2010,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.074898210335,
+      "adjusted_start": 2005,
+      "display_name": "Jarvis Hayes",
+      "metric_name": "apg",
+      "player_id": "player_0f8bf586a219596b8c1f2f1a7770dd73",
+      "quality_mean": -0.157958650168,
+      "quality_start": 2004,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.2251165092,
+      "adjusted_start": 2001,
+      "display_name": "Donny Marshall",
+      "metric_name": "apg",
+      "player_id": "player_0f8e6294b0f258f9ac7da5ff2fbecb0a",
+      "quality_mean": -0.81574097877,
+      "quality_start": 1996,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.157149353711,
+      "adjusted_start": 1994,
+      "display_name": "Walter Bond",
+      "metric_name": "apg",
+      "player_id": "player_0fa7de46250656948b97275470c902e0",
+      "quality_mean": -0.305900291426,
+      "quality_start": 1992,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.7334699807,
+      "adjusted_start": 1986,
+      "display_name": "Dwayne Washington",
+      "metric_name": "apg",
+      "player_id": "player_0fc86e777d415103bca88401db516f2e",
+      "quality_mean": 0.838333762632,
+      "quality_start": 1988,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.222951879634,
+      "adjusted_start": 2017,
+      "display_name": "Derrick Jones Jr.",
+      "metric_name": "apg",
+      "player_id": "player_0fe06f07720f5dadac3d999869f83157",
+      "quality_mean": -0.544144109393,
+      "quality_start": 2025,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.809653684561,
+      "adjusted_start": 2023,
+      "display_name": "Jusuf Nurkic",
+      "metric_name": "apg",
+      "player_id": "player_103441eb04215eab93dd61067149e932",
+      "quality_mean": 1.345626928309,
+      "quality_start": 2025,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.169355189668,
+      "adjusted_start": 2013,
+      "display_name": "Ryan Anderson",
+      "metric_name": "apg",
+      "player_id": "player_10e6c0e0a8365f04b7107a6ec696a2a5",
+      "quality_mean": -0.41624432387,
+      "quality_start": 2012,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.114235916837,
+      "adjusted_start": 1996,
+      "display_name": "Lloyd Daniels",
+      "metric_name": "apg",
+      "player_id": "player_1159a4548572534d8937055035212ab0",
+      "quality_mean": -0.171562866106,
+      "quality_start": 1992,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.41965248259,
+      "adjusted_start": 2011,
+      "display_name": "Sam Young",
+      "metric_name": "apg",
+      "player_id": "player_11b65721b45b544c9c0e73c762263bee",
+      "quality_mean": -0.52901769943,
+      "quality_start": 2010,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.431814512578,
+      "adjusted_start": 2015,
+      "display_name": "Troy Daniels",
+      "metric_name": "apg",
+      "player_id": "player_11f12263f35a5d50b52db421163095c1",
+      "quality_mean": -0.718951103416,
+      "quality_start": 2016,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.385954037632,
+      "adjusted_start": 1996,
+      "display_name": "Mark Strickland",
+      "metric_name": "apg",
+      "player_id": "player_12639e35e0e758a09a378849c332567e",
+      "quality_mean": -0.825038491822,
+      "quality_start": 2001,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.339991873908,
+      "adjusted_start": 2015,
+      "display_name": "Lucas Nogueira",
+      "metric_name": "apg",
+      "player_id": "player_149f8f131698542c8ed1c82edbc29a27",
+      "quality_mean": -0.691047713595,
+      "quality_start": 2016,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.464405040696,
+      "adjusted_start": 1994,
+      "display_name": "Tim Breaux",
+      "metric_name": "apg",
+      "player_id": "player_14c5b891cc085320bf19c0d538504980",
+      "quality_mean": -0.849199740407,
+      "quality_start": 1995,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.299691653853,
+      "adjusted_start": 2016,
+      "display_name": "Hollis Thompson",
+      "metric_name": "apg",
+      "player_id": "player_14d3b28159b2559fb688cfd910f1681d",
+      "quality_mean": -0.378303992648,
+      "quality_start": 2015,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.289409629219,
+      "adjusted_start": 2014,
+      "display_name": "JaVale McGee",
+      "metric_name": "apg",
+      "player_id": "player_151e46406245511baebb241dcdcc7b4a",
+      "quality_mean": -0.683459430411,
+      "quality_start": 2020,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.26084669587,
+      "adjusted_start": 1994,
+      "display_name": "Doug Lee",
+      "metric_name": "apg",
+      "player_id": "player_15209d83869352c5b73b8e97c173fdd1",
+      "quality_mean": -0.863087432087,
+      "quality_start": 1991,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.417953870571,
+      "adjusted_start": 1996,
+      "display_name": "Chris Gatling",
+      "metric_name": "apg",
+      "player_id": "player_1539b9401dd4581e877d1f00fec1b1cf",
+      "quality_mean": -0.615392243661,
+      "quality_start": 1997,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.209580967167,
+      "adjusted_start": 2011,
+      "display_name": "Eddy Curry",
+      "metric_name": "apg",
+      "player_id": "player_15d3c7b7e9625aad96d43c98cba79511",
+      "quality_mean": -0.587544949388,
+      "quality_start": 2006,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.368117546145,
+      "adjusted_start": 2017,
+      "display_name": "Timothe Luwawu-Cabarrot",
+      "metric_name": "apg",
+      "player_id": "player_15e5a3dfd9cb51b981f3af3487f75b6b",
+      "quality_mean": -0.496728658535,
+      "quality_start": 2016,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.263787424866,
+      "adjusted_start": 2001,
+      "display_name": "Bruno Sundov",
+      "metric_name": "apg",
+      "player_id": "player_173cffb6f8775fe2aac223d4fda8e978",
+      "quality_mean": -0.983097356663,
+      "quality_start": 2002,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 2.527906354993,
+      "adjusted_start": 1998,
+      "display_name": "David Wesley",
+      "metric_name": "apg",
+      "player_id": "player_17572da6a0b755c694952c9bedc72eec",
+      "quality_mean": 2.719180808068,
+      "quality_start": 1996,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.72355935449,
+      "adjusted_start": 1985,
+      "display_name": "Steve Hayes",
+      "metric_name": "apg",
+      "player_id": "player_175bfdac8bbc578e8d17f065c7bc17ca",
+      "quality_mean": -0.987395528031,
+      "quality_start": 1982,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.105420023576,
+      "adjusted_start": 2017,
+      "display_name": "Luke Kornet",
+      "metric_name": "apg",
+      "player_id": "player_175f74271d295b2aae60965b265b76be",
+      "quality_mean": -0.281314012914,
+      "quality_start": 2025,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.464908486428,
+      "adjusted_start": 2017,
+      "display_name": "Marreese Speights",
+      "metric_name": "apg",
+      "player_id": "player_17d4591f8ee759c9b840cbdc991ebba1",
+      "quality_mean": -0.567920788112,
+      "quality_start": 2014,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.489742157584,
+      "adjusted_start": 1994,
+      "display_name": "Bobby Hurley",
+      "metric_name": "apg",
+      "player_id": "player_1831d218349e5ca29afce7ca1b5f34d6",
+      "quality_mean": 1.921664995591,
+      "quality_start": 1993,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.170947913846,
+      "adjusted_start": 1996,
+      "display_name": "Stanley Roberts",
+      "metric_name": "apg",
+      "player_id": "player_18449f36f6f7599ebf12de5317866b98",
+      "quality_mean": -0.66622599544,
+      "quality_start": 1995,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.119678754924,
+      "adjusted_start": 2017,
+      "display_name": "Dorian Finney-Smith",
+      "metric_name": "apg",
+      "player_id": "player_18797bcab6705afda78cea2aca7214ff",
+      "quality_mean": -0.173437059283,
+      "quality_start": 2021,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.429453008477,
+      "adjusted_start": 1991,
+      "display_name": "Kevin Brooks",
+      "metric_name": "apg",
+      "player_id": "player_18816acd83a65bb29e8507509d86e386",
+      "quality_mean": -0.812174762872,
+      "quality_start": 1992,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.082184437813,
+      "adjusted_start": 2024,
+      "display_name": "Svi Mykhailiuk",
+      "metric_name": "apg",
+      "player_id": "player_18876537ebac5b7e95f863a06f9b3577",
+      "quality_mean": -0.15820201615,
+      "quality_start": 2019,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 2.290775984312,
+      "adjusted_start": 1991,
+      "display_name": "Johnny Dawkins",
+      "metric_name": "apg",
+      "player_id": "player_18ade41f624a5b46a0c2b0d8ce9179b8",
+      "quality_mean": 2.337621522994,
+      "quality_start": 1987,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.19723569401,
+      "adjusted_start": 2023,
+      "display_name": "Leonard Miller",
+      "metric_name": "apg",
+      "player_id": "player_18ea0974e3225ed08cea075b14844464",
+      "quality_mean": -0.827810725525,
+      "quality_start": 2025,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.466565163448,
+      "adjusted_start": 2004,
+      "display_name": "John Thomas",
+      "metric_name": "apg",
+      "player_id": "player_199090ed53c552258d7473ea3aa5dfca",
+      "quality_mean": -0.806983510982,
+      "quality_start": 1998,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.166935576542,
+      "adjusted_start": 1997,
+      "display_name": "Marty Conlon",
+      "metric_name": "apg",
+      "player_id": "player_199802d9c9175471abf1c38dd2ff4d20",
+      "quality_mean": -0.310038286053,
+      "quality_start": 1996,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.60680952054,
+      "adjusted_start": 2020,
+      "display_name": "Jordan McLaughlin",
+      "metric_name": "apg",
+      "player_id": "player_19dcefb4ac2452c2af89ae197ec9e8b6",
+      "quality_mean": 1.101782445634,
+      "quality_start": 2019,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.243261341245,
+      "adjusted_start": 2017,
+      "display_name": "Chris McCullough",
+      "metric_name": "apg",
+      "player_id": "player_1a1a92777cd5586bac646b691cf38449",
+      "quality_mean": -0.886755886254,
+      "quality_start": 2015,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.569633885883,
+      "adjusted_start": 1998,
+      "display_name": "John Starks",
+      "metric_name": "apg",
+      "player_id": "player_1af077bc385c5a4bbb0c78a48c9d8360",
+      "quality_mean": 1.844493385494,
+      "quality_start": 1993,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 2.369427426653,
+      "adjusted_start": 2015,
+      "display_name": "Isaiah Thomas",
+      "metric_name": "apg",
+      "player_id": "player_1b1ff42bec735414b66af738c62a6cc5",
+      "quality_mean": 2.37217505774,
+      "quality_start": 2013,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 1.927662853383,
+      "adjusted_start": 2018,
+      "display_name": "Kevin Durant",
+      "metric_name": "apg",
+      "player_id": "player_1b91b9433ba05bf8898bb53db51b4826",
+      "quality_mean": 2.224183435516,
+      "quality_start": 2021,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.26495735383,
+      "adjusted_start": 2021,
+      "display_name": "Alex Len",
+      "metric_name": "apg",
+      "player_id": "player_1b92e924883d5b91a6ed3eef0b108ede",
+      "quality_mean": -0.401822129506,
+      "quality_start": 2015,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.156395769744,
+      "adjusted_start": 1998,
+      "display_name": "Shawn Respert",
+      "metric_name": "apg",
+      "player_id": "player_1bbd6a1c80d8502db22fe16d75c0295c",
+      "quality_mean": -0.517164099979,
+      "quality_start": 1995,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.199760134652,
+      "adjusted_start": 2015,
+      "display_name": "Greg Smith",
+      "metric_name": "apg",
+      "player_id": "player_1bd59b9ee0fd52a0b8d185c2e40e1ed7",
+      "quality_mean": -0.869490734964,
+      "quality_start": 2012,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.220791347424,
+      "adjusted_start": 2007,
+      "display_name": "Stephen Graham",
+      "metric_name": "apg",
+      "player_id": "player_1c2382885df35bb7b6a830caead99ea7",
+      "quality_mean": -0.65275471412,
+      "quality_start": 2010,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.296669649926,
+      "adjusted_start": 2025,
+      "display_name": "Matisse Thybulle",
+      "metric_name": "apg",
+      "player_id": "player_1c81c8732c045d858d158afbc0b557ad",
+      "quality_mean": -0.473412377841,
+      "quality_start": 2023,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.492603445578,
+      "adjusted_start": 2008,
+      "display_name": "Shelden Williams",
+      "metric_name": "apg",
+      "player_id": "player_1d6612c9023b5d819f7ddd7c6bca726f",
+      "quality_mean": -0.69503936186,
+      "quality_start": 2011,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": 0.488487489376,
+      "adjusted_start": 1991,
+      "display_name": "Sarunas Marciulionis",
+      "metric_name": "apg",
+      "player_id": "player_1ddcc32d56815f15b0a52c601c139afc",
+      "quality_mean": 0.603679618526,
+      "quality_start": 1992,
+      "window_size": 1
+    },
+    {
+      "adjusted_mean": -0.258391831638,
+      "adjusted_start": 2020,
+      "display_name": "Trey Lyles",
+      "metric_name": "apg",
+      "player_id": "player_1de64fb15e53560e83fef8b50d8c306c",
+      "quality_mean": -0.450900984787,
+      "quality_start": 2018,
+      "window_size": 1
+    }
+  ],
+  "normalization_fingerprint": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+  "normalization_version": "era-normalized-player-season-v1",
+  "step": "STEP-0008"
+}

@@ -68,3 +68,17 @@ This living summary may be extended, but methodology changes must also receive a
 - Gold NULL carries eligibility metadata. Zero variance, zero MAD, missing inputs, invalid references, unavailable possessions, and coverage failure remain distinct.
 - Long Gold is the authoritative feature/provenance representation. Wide Gold is ergonomic and cannot redefine the registry.
 - Primitive metrics remain separate; no Offense, Defense, Peak, Longevity, playoff impact, award, winning, or GOAT composite is created.
+
+## Career trajectory and peak/longevity primitives V1
+
+- career-trajectory-peak-longevity-v1 derives only from frozen STEP-0007 Gold, Silver participation facts, and fingerprinted identity evidence.
+- Player careers are ordered separately by season type. Every season between first and last appearance is materialized; a missed season is a gap and breaks contiguity.
+- A valid N-year peak requires N consecutive observed, qualified, feature-available seasons. Quality and availability-adjusted 1/3/5-year peaks remain separate under ADR-0011.
+- Availability adjustment shrinks each season toward its normalization baseline by games/opportunity: 0 for z, 0.5 for percentile, and 100 for relative index.
+- Best three/five season sets are explicitly NON_CONTIGUOUS and cannot be described as three-year/five-year peaks.
+- Elite thresholds remain plural at 80th, 90th, 95th, and 99th percentile. Missed and below-threshold seasons break a prime run.
+- Cumulative positive z and percentile area above 0.50/0.80/0.90 are descriptive alternatives. Opportunity-weighted variants remain separate and none is named career value.
+- Active careers are observed through the 2025-26 cutoff without projection. Completion can remain indeterminate.
+- Age is calculated on February 1 of the ending calendar year only for audited birth dates; missing age is never inferred.
+- Award candidate flags are broad acquisition-planning evidence only and never remove a player from the master corpus.
+- No metric categories are combined into a final Peak, Longevity, Playoff, or GOAT score.
