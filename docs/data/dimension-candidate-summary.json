@@ -1,0 +1,601 @@
+{
+  "analytical_populations": {
+    "ALL_PLAYERS": 5103,
+    "BROAD_HIGH_RECALL": 2656,
+    "CAREER_SIGNAL": 2606,
+    "PARTICIPATION_QUALIFIED": 1891
+  },
+  "cache_only_rebuild_verified": true,
+  "candidate_definitions": 38,
+  "candidate_status_counts": {
+    "DEFERRED": 2,
+    "REJECTED": 4,
+    "VALIDATED_FOR_EXPERIMENT": 32
+  },
+  "career_status_counts": {
+    "ACTIVE_TO_CUTOFF": 582,
+    "INDETERMINATE": 271,
+    "SOURCE_CONFIRMED_COMPLETE": 4250
+  },
+  "committed_report_fingerprint": "4e76b85c1251b4f48bed66d9b4e403d26a27ba7eaf299c8a847797f9505e2758",
+  "coverage_rows": 193914,
+  "dimensions": 8,
+  "final_candidate_count": 0,
+  "input_fingerprints": {
+    "all_star_stat_leaders": "e0a3bab4ef5957ab4e0acc1a669f82f508217d139b30599df970248f8c1d1880",
+    "awards": "666dbbdffd457847342754e116a857db7821e514e304ee23fe118f6d4a5bb258",
+    "career": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+    "corpus": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "normalization": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "team_success": "707be9dccdbccd70ba88d0f57d66af990f0cc5fd07127221a7aa0b7d2f17c333"
+  },
+  "master_players": 5103,
+  "methodology_version": "goat-dimension-candidates-v1",
+  "missingness_policies": [
+    "CORE_FEATURE_ONLY",
+    "AVAILABLE_FEATURE_RENORMALIZATION",
+    "COVERAGE_THRESHOLD",
+    "ERA_SPECIFIC_ENRICHMENT"
+  ],
+  "monte_carlo_samples_per_candidate": 200,
+  "no_overall_score": true,
+  "no_player_ordering_report": true,
+  "output_fingerprint": "e5cd648afbc36306251ec1229b4c9f2beba830ca0ce93056c8e783e596bfc11f",
+  "output_partitions": 77,
+  "output_size_bytes": 12673627,
+  "partitions": [
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ACCOLADES/candidate=ACCOLADES-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "2d9d8eb0a492f767bb0caec1555fca7446e2329b447e98151ba64c3b5606f294",
+      "size_bytes": 110457
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ACCOLADES/candidate=ACCOLADES-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "fe3cd199253f354999b1e56c95d860b07bc8e1d8c0c13f89f869d899fbaf16b1",
+      "size_bytes": 110458
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ACCOLADES/candidate=ACCOLADES-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "629bec433409cba8ac342d3cb6d4ab0e62b0a3633c98304b75a29611da4b8b73",
+      "size_bytes": 110458
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ACCOLADES/candidate=ACCOLADES-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "5aab44abae2b59a4166291bbc36e692d9a8ae00af29e2d9cb58b93408a6003c9",
+      "size_bytes": 110033
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ACCOLADES/candidate=ACCOLADES-E/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "41203f88876237bc0c14aedda3accc48b51d04c98cbe92e83efa50923eabe529",
+      "size_bytes": 110458
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=DEFENSE/candidate=DEFENSE-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "17c482656f33b480c4e81980e0111376a33cef7fd0830488c59d9d376d81c257",
+      "size_bytes": 113680
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=DEFENSE/candidate=DEFENSE-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "d3db3afc10949a9e1fec4b818221c628d973e061c22db07f183097aa6f1b3047",
+      "size_bytes": 116348
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=DEFENSE/candidate=DEFENSE-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "23d839ace2270ac71db81a2363fddb6439a27fb7bb5286db52335d17f771c984",
+      "size_bytes": 112883
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=DEFENSE/candidate=DEFENSE-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "21a4ef4cf57d22bbb0fa3fd3d1fe2debaf30d44403a2292abaa20bd251f2543a",
+      "size_bytes": 115195
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ERA_DOMINANCE/candidate=ERA-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "db13b457c6145fee09caa610f3ed29a57895b67f1e1e46789eb1650bdba2328f",
+      "size_bytes": 113529
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ERA_DOMINANCE/candidate=ERA-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "6c0587e69a37be1ff7f9878210196c5c53068c2a4bf5c518e3e314c7d844795b",
+      "size_bytes": 113326
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ERA_DOMINANCE/candidate=ERA-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "a278344ebb77e4dc2dec7768a14e06f775e64f3384c3a8233eccac69dc3a6171",
+      "size_bytes": 103704
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ERA_DOMINANCE/candidate=ERA-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "0cc0fcc822f894b3fc44a26f62d1f4d672393927580a1da642681ec86f129c5f",
+      "size_bytes": 103704
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=ERA_DOMINANCE/candidate=ERA-E/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "071bedafdb62be3fd020047017ab1c0eb6000b38340b16ac3612fe371d042325",
+      "size_bytes": 103704
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=LONGEVITY/candidate=LONGEVITY-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "eb6f8fb5362993bbbfaee65b878ffc026de5a986fe9709d0f314cb2b9518d0bc",
+      "size_bytes": 103716
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=LONGEVITY/candidate=LONGEVITY-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "2c0afb660beb15d627d0bbdad6bb8cbcd6ede9c95f152ed757cff8b6b1475cff",
+      "size_bytes": 103716
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=LONGEVITY/candidate=LONGEVITY-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "fd66390befb3f0127be99f15cd121d2feb1d41d6627fb23dc72e6ac56576c479",
+      "size_bytes": 113542
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=LONGEVITY/candidate=LONGEVITY-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "a9d68c78afff00b1075ac3608befefe577568192b2570cbd6629c546587e4359",
+      "size_bytes": 112822
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=LONGEVITY/candidate=LONGEVITY-E/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "e3be9bd3be50702b1db28980328db07236fc80459409648c830b55835b7105dd",
+      "size_bytes": 103716
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=OFFENSE/candidate=OFFENSE-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "8cb20992d1ec3a8453b42499fc1cfc1deb2fbed8b0e4fe989dee5ae06f949171",
+      "size_bytes": 114840
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=OFFENSE/candidate=OFFENSE-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "d5ad643426ebe4d3e84d15d870cb74d72b4bf4b023fc6eb1f5baed54fef27dda",
+      "size_bytes": 112590
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=OFFENSE/candidate=OFFENSE-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "4a289a9ca8bc01a06da4e07eb0638430ffa9b2422b6f9114613be37599a6cd69",
+      "size_bytes": 114439
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=OFFENSE/candidate=OFFENSE-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "cecdfa231e2ec72a7bc1e40a4dbda81c98ad6462040b136941d8c7506cd61123",
+      "size_bytes": 110491
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PEAK/candidate=PEAK-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "d87310344ddc22fdf5bfb98a66cd85670f95e05290fa2eefc80591dd319c658d",
+      "size_bytes": 113478
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PEAK/candidate=PEAK-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "6d2fec61ab37d5b213c8cc49f31d3fc7e3f7874d31513c5981459fd770d16888",
+      "size_bytes": 112872
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PEAK/candidate=PEAK-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "d1a7e5c47b501a851b99a70f81387172165af798dd229ee03d178957c7c8e923",
+      "size_bytes": 111848
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PEAK/candidate=PEAK-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "16856918c498aed51e4077fa567b1de8c91209f2be49741527414c0b6bdd73c4",
+      "size_bytes": 117444
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PEAK/candidate=PEAK-E/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "d57c997a4a2c1a00700cdc2671ad397b6fb1c80c47f1a4870bb665841394c232",
+      "size_bytes": 112872
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PLAYOFFS/candidate=PLAYOFFS-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "2ad1621d52946dd4360ee7aba119275e430595a34561772cdd058e371c600385",
+      "size_bytes": 112386
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PLAYOFFS/candidate=PLAYOFFS-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "0bbbf050c608a228d9cbf6bf4c9f99da46fa4bd17c362888d695b8c173ec348a",
+      "size_bytes": 114685
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PLAYOFFS/candidate=PLAYOFFS-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "7a25b66627144c0c15b02bbac597f3c65519e062d669a563c26b49fc557dc0a0",
+      "size_bytes": 110062
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PLAYOFFS/candidate=PLAYOFFS-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "697661efa0c59d17124d0219cd372a402cb18cc98117ba22ebef3422b1249272",
+      "size_bytes": 113477
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=PLAYOFFS/candidate=PLAYOFFS-E/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "65b73f555a4338d43aa0b680527a2ab8d25fcf1fe1d6a86aa2a666554a7af631",
+      "size_bytes": 109978
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=WINNING/candidate=WINNING-A/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "05c8de45f25df3ae3d02d4761df1aa35ede9ff589356b299055bcc6bde6b4f5b",
+      "size_bytes": 103691
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=WINNING/candidate=WINNING-B/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "ef97f79b822d6ac7448ba26c9c948e59ed4ccc8f36e563fd212d8a5addee5ffa",
+      "size_bytes": 103637
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=WINNING/candidate=WINNING-C/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "b2828b0393ede450ed38e1c9bb0504d045396b93c76828c1fa776b9fccb0444e",
+      "size_bytes": 103637
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=WINNING/candidate=WINNING-D/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "ac6f966d502c93b79d617581c17635b2b9724a310efd5fc286962bcbd30bbd55",
+      "size_bytes": 112456
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/dimension_candidate_coverage/dimension=WINNING/candidate=WINNING-E/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "2f9b0a0588d552af50200668ec1ea10fdd1291ddebe901fd17365df07eaff4fd",
+      "size_bytes": 103637
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ACCOLADES/candidate=ACCOLADES-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "dfddd5647fb99ce183a0878d8f82aca2863d0c93a75a5fbf109202d90f43d705",
+      "size_bytes": 148208
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ACCOLADES/candidate=ACCOLADES-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "3ed08f9d15734e6840fc18d374c7cb9d5e24f8e0ff93eda76baa2ad70f2b95dd",
+      "size_bytes": 148226
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ACCOLADES/candidate=ACCOLADES-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "0f8cbd2bf1d507351c7e57d609510518083024869d05e908144008e777874696",
+      "size_bytes": 150541
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ACCOLADES/candidate=ACCOLADES-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "1c40ecfa777a5a99d522dad789bb7e630f0c4eec9f4cd5b78817fd556bda28ee",
+      "size_bytes": 154364
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ACCOLADES/candidate=ACCOLADES-E/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "a4edfde1d5d24404fd6737c202eab975138384e76f08ac97f9770ee9c8c4a08b",
+      "size_bytes": 144409
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=DEFENSE/candidate=DEFENSE-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "e4c7c6600551b3fbc5c940e82f9f891ed1e8984a0ef0687cd6408d5e54c95e8b",
+      "size_bytes": 319853
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=DEFENSE/candidate=DEFENSE-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "64ca507fdf67c3a64c3630055c46513ea5c38539d864047f413096a5b56d26aa",
+      "size_bytes": 341210
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=DEFENSE/candidate=DEFENSE-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "f87d6460ced7012a74556cf22f51ede6e955c700c8dc5b7766f2db93347669a1",
+      "size_bytes": 225960
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=DEFENSE/candidate=DEFENSE-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "2e0833e6a8046e80e8a50c403e3907fd42c881777ef304bbb5bf03df238dce75",
+      "size_bytes": 292381
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ERA_DOMINANCE/candidate=ERA-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "77e1371f35f30d51c73ec9b94fa758381159d281a132eb5989bda45332a363df",
+      "size_bytes": 265796
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ERA_DOMINANCE/candidate=ERA-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "1192d90d3069f8741b6fb18d6365a6012e52e82d383268fd44d962cc0fbb5d43",
+      "size_bytes": 227064
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ERA_DOMINANCE/candidate=ERA-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "6ff32feb188b0cc2f4d46313fd65dd01221f0054030160a01c12ab25eaf04274",
+      "size_bytes": 143444
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ERA_DOMINANCE/candidate=ERA-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "f03de82bbf5d1821512fa241b1075011022172b63e737a17828dcbff6d69b942",
+      "size_bytes": 157494
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=ERA_DOMINANCE/candidate=ERA-E/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "f518e48f46bcee5d43d7bc547b6b213c661ed1478eff24c193d88ae02488e71d",
+      "size_bytes": 206498
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=LONGEVITY/candidate=LONGEVITY-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "ac733267754b9f7e73e1f345a167e238721229af68a7d3e46fca129b2a4d1a0f",
+      "size_bytes": 153925
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=LONGEVITY/candidate=LONGEVITY-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "5373d64904413066e6b68e2c0eceb74a2a8b4c133be04b36840e45e560e9cdd1",
+      "size_bytes": 208587
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=LONGEVITY/candidate=LONGEVITY-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "8c45b91a79479561bb295366cd1f4d6849d8f0797ba0cc0aed8579f8dc03b4d5",
+      "size_bytes": 179880
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=LONGEVITY/candidate=LONGEVITY-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "0fde6f8cbe76d3c3ee0bef086461810d04ad2beeffdb6374cd4d3b120d7c48fb",
+      "size_bytes": 285586
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=LONGEVITY/candidate=LONGEVITY-E/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "a574b979f47c6c7ea517509f3e14f600101d341652ccf7da499c042070f4d631",
+      "size_bytes": 146877
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=OFFENSE/candidate=OFFENSE-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "d75ea854c32de78a3e6a5d9d50db0e04a06b573dd882305bcd5125b4488f76d7",
+      "size_bytes": 353087
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=OFFENSE/candidate=OFFENSE-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "fee9c4404a7963b28698948bbdd95a6d0b63064caf6c8b0251b9d9cee6ccc789",
+      "size_bytes": 261526
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=OFFENSE/candidate=OFFENSE-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "54d858aafba011456936584572830836b7e861c3fb267c3f34862d62ad8ac177",
+      "size_bytes": 354139
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=OFFENSE/candidate=OFFENSE-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "b0d0181c2dcbf3d2c45c7630518498b8de29d20872805fa0d6523af6a665818b",
+      "size_bytes": 206510
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PEAK/candidate=PEAK-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "0a1136b2b4cedd37f9f002c1eb483ff75837a5c0ce037e7103a0552f944cef78",
+      "size_bytes": 263767
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PEAK/candidate=PEAK-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "979917dc69dad4ffa72083815d28dcd4f6569c79d077324451a7b4449e424099",
+      "size_bytes": 220882
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PEAK/candidate=PEAK-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "80e3f19c9ddf8be820d175b8bf83e06135d0912a192fe81967adeae0b72bb88c",
+      "size_bytes": 201438
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PEAK/candidate=PEAK-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "df75ac89949e2960f36571b0dfc40af87c7b46dc733068029c8097ca56d7b2ab",
+      "size_bytes": 276512
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PEAK/candidate=PEAK-E/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "3955b2262e50f8ec2a39418ed95fb88ab7099879572ad182d92c228a29bbae9c",
+      "size_bytes": 220624
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PLAYOFFS/candidate=PLAYOFFS-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "4634d85e6897440687998ff0aaa2e3f9617d0c60930bdab18a655b9bb9b4c9d8",
+      "size_bytes": 227851
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PLAYOFFS/candidate=PLAYOFFS-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "a81c6f992a4dec59430e21429a9517c1f2724ac984c662726a9e25a11bf4917c",
+      "size_bytes": 233306
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PLAYOFFS/candidate=PLAYOFFS-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "895675e9e1bf269d3b75a7c215e3358512adb72b82128c2a996470f60b14d221",
+      "size_bytes": 215489
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PLAYOFFS/candidate=PLAYOFFS-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "7a4e8cd705d4d9583ac3315c40aec00097bbe4577c1423709058e4bffd16b3ed",
+      "size_bytes": 228702
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=PLAYOFFS/candidate=PLAYOFFS-E/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "8e8b8fdba23daa5ab1de7719d3013a807a391b57730c9b5a7d676ad3edafb578",
+      "size_bytes": 205210
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=WINNING/candidate=WINNING-A/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "a82ae28e31f67109b6ce75904e99da15e82e05e5a9b3c11a98b73420f233af37",
+      "size_bytes": 240104
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=WINNING/candidate=WINNING-B/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "ce7f538d77285d6179a2b09caadf0d8fb17f43695bd6ce7f96531ef3282ea575",
+      "size_bytes": 184170
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=WINNING/candidate=WINNING-C/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "c3fb6ee679128c0fa90b0bd885accbb4ba1d84f155da89b52c7d7e481241b0cb",
+      "size_bytes": 137426
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=WINNING/candidate=WINNING-D/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "ca0556cbb2e30471be27baba87e8eeb015562452539d8f2a1e11ff8eaba3747e",
+      "size_bytes": 375668
+    },
+    {
+      "columns": 16,
+      "path": "data/gold/dimension_candidate_scores/dimension=WINNING/candidate=WINNING-E/part-00000.parquet",
+      "rows": 81648,
+      "sha256": "d3c26e3c32b05b997663913715e128facedfadb542ce770ace40049081ef4a28",
+      "size_bytes": 154076
+    },
+    {
+      "columns": 10,
+      "path": "data/gold/dimension_candidate_sensitivity/part-00000.parquet",
+      "rows": 38,
+      "sha256": "39a32f9b0808e95b5d434c35171307fdeb83a3ecb9ee9353c0d3af1fa2446f0c",
+      "size_bytes": 18868
+    }
+  ],
+  "random_seed": 120012,
+  "result": "PASS",
+  "run_at": "2026-09-01T19:00:00Z",
+  "runtime_definition": "baseline successful build; preserved across identical rebuilds",
+  "runtime_seconds": 199.377876999904,
+  "scaling_methods": [
+    "CAREER_UNIVERSE_PERCENTILE",
+    "ROBUST_STANDARDIZATION",
+    "STANDARD_Z",
+    "EMPIRICAL_CDF"
+  ],
+  "score_rows": 3102624,
+  "sensitivity_rows": 38,
+  "step": "STEP-0012"
+}

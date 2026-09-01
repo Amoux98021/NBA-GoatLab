@@ -68,3 +68,18 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** none. No player order, award value, title weight, or GOAT output was evaluated.
 - **Random seed:** 9011 controls retry jitter only; transformations are deterministic.
 - **Artifacts:** ACCOLADE_FACT_COMPLETION_V1, source/reconciliation/coverage reports, case studies, ADR-0017, ADR-0018, and STEP-0011.
+
+## STEP-0012 dimension candidate and redundancy audit
+
+- **Objective:** test multiple interpretable definitions for eight proposed GOAT dimensions while quantifying ownership overlap, missingness, era coverage, redundancy, and arbitrary internal-weight sensitivity.
+- **Inputs:** frozen corpus, era normalization, career, awards, team-success, All-Star, and statistical-leader artifacts at their recorded fingerprints.
+- **Methodology version:** `goat-dimension-candidates-v1`.
+- **Populations:** all 5,103; participation-qualified 1,891; career-signal 2,606; broad high-recall 2,656. The broad population is a diagnostic scaling reference only.
+- **Candidates:** 38 across eight dimensions. Thirty-two are validated for further experiment, four rejected, two deferred, zero final.
+- **Scaling/missingness:** four scales crossed with four policies; no imputation or zero fill.
+- **Redundancy result:** 15 shared primitives and 31 candidate pairs at absolute Spearman >= 0.95. Peak/Era and Longevity/Era exhibit the strongest cross-dimension overlap.
+- **Coverage result:** five-year Peak and contiguous playoff Peak fail the 50% broad-availability gate. Modern offense/defense are structurally post-1996 and deferred from universal use.
+- **Weight experiment:** 200 uniform-simplex samples per candidate, deterministic seed 120012. Sampled ordering stability ranges 0.830–1.000; none fails the 0.75 instability rule.
+- **Optimization target:** none. No external ranking, player order, overall score, or Top 100 exists.
+- **Artifacts:** GOAT_DIMENSION_CANDIDATES_V1, registry, coverage/redundancy/era/sensitivity/case-study reports, ADR-0019 through ADR-0021, and STEP-0012.
+- **Limitations:** award evidence remains candidate-scoped, early Defense remains structurally limited, and scaling/ownership choices remain experimental.

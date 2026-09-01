@@ -160,3 +160,17 @@ All-Star selection status is `ROSTER_LISTED`, `PLAYERAWARDS_EVENT`, `MULTIPLE_EV
 Stat category is `PTS`, `REB`, `AST`, `STL`, or `BLK`. Reconciliation status is `EXACT_MATCH`, `TIE_MATCH`, `VALUE_MATCH`, `QUALIFICATION_DIFFERENCE`, `SOURCE_COVERAGE_GAP`, `DERIVED_COVERAGE_GAP`, or `UNRESOLVED`. `leader_semantics` names the evidence; an official source rank is not silently promoted to an official historical title.
 
 Canonical schema V4 adds `PlayerAllStarEvidence` and `PlayerStatLeader`; existing schema exports and frozen Silver facts remain unchanged.
+
+## Gold dimension candidate audit V1
+
+Generated STEP-0012 Gold remains ignored and is partitioned by dimension/candidate.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `dimension_candidate_scores` | player × candidate × scaling × missingness policy | Internal diagnostic candidate value with population flags, career-completeness context, and coverage; never an overall or final score. |
+| `dimension_candidate_coverage` | player × candidate | Expected/available component counts, core/optional coverage, confidence, and historical comparability. |
+| `dimension_candidate_sensitivity` | candidate | Fixed-seed internal-weight variance, percentile IQR, and sampled ordering stability. |
+
+Closed candidate dimensions are `PEAK`, `LONGEVITY`, `OFFENSE`, `DEFENSE`, `PLAYOFFS`, `ACCOLADES`, `WINNING`, and `ERA_DOMINANCE`. Scaling is `CAREER_UNIVERSE_PERCENTILE`, `ROBUST_STANDARDIZATION`, `STANDARD_Z`, or `EMPIRICAL_CDF`. Missingness is `CORE_FEATURE_ONLY`, `AVAILABLE_FEATURE_RENORMALIZATION`, `COVERAGE_THRESHOLD`, or `ERA_SPECIFIC_ENRICHMENT`. Coverage confidence is `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and is never a quality penalty.
+
+Candidate status may be `PROPOSED`, `VALIDATED_FOR_EXPERIMENT`, `REJECTED`, or `DEFERRED`; `FINAL` is prohibited in this methodology version. All rows carry corpus and methodology provenance. No table combines candidates across dimensions.

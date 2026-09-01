@@ -114,3 +114,17 @@ This living summary may be extended, but methodology changes must also receive a
 - PTS/AST applicability begins in 1946-47, REB in 1950-51, and STL/BLK in 1973-74. A derived qualified leader additionally requires `RELIABLE` empirical metric coverage.
 - `NOT_QUERIED` PlayerAwards absence remains NULL even when league-wide roster or participation evidence exists. League-wide evidence includes players outside the former candidate universe.
 - Career outputs use exact evidence-family names. No ambiguous All-Star count, official-title inference, accolade value, or composite score is created.
+
+## GOAT dimension candidate audit V1
+
+- `goat-dimension-candidates-v1` consumes frozen factual and primitive layers without mutating Silver or previous Gold.
+- All 5,103 players remain. The 2,656-player broad high-recall population is a diagnostic scaling reference, not ranking eligibility.
+- The audit evaluates 38 definitions across Peak, Longevity, Offense, Defense, Playoffs, Accolades, Winning, and Era Dominance. Every value is labeled by candidate, scale, missingness policy, coverage, and methodology.
+- Component scales are career-universe midrank percentile, robust standardization (`1.4826 × MAD`), population z-score, and right-continuous empirical CDF. Ties remain tied; extremes are not clipped.
+- Missingness policies are core-only, available-feature renormalization, two-thirds coverage threshold, and era-specific enrichment. Missing evidence is never zero, average, or synthetic.
+- Coverage confidence is `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE`; it describes evidence, not performance, and applies no automatic penalty.
+- Primitive ownership is explicit. Raw-evidence separation is the default future experimental policy: box performance, award events, playoff performance, and team outcomes retain distinct primary homes.
+- Equal weights are only a baseline. Each multi-input candidate receives 200 deterministic uniform-simplex samples with seed 120012; score/percentile variance, IQR, and ordering stability are reported.
+- Modern-only offense and defense are deferred from universal comparison. Five-year Peak and contiguous playoff Peak fail broad coverage; two augmented candidates fail near-duplicate checks.
+- Cross-dimension correlations are findings, not optimization targets. Peak/Era and Longevity/Era overlap is substantial enough that Era Dominance cannot be assumed independent.
+- Active careers are to-date with no projection or completion penalty. No candidate is final and no overall player ordering exists.

@@ -1,0 +1,726 @@
+{
+  "methodology_version": "goat-dimension-candidates-v1",
+  "not_a_ranking": true,
+  "players": [
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "display_name": "Tim Duncan",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.88096476048,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.917541567778,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.957690135542,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.864264511096,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.831555706353,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.993804768123,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.868433877018,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.990838353414,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.971385542169,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "1495",
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213"
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "display_name": "Hakeem Olajuwon",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.834575843075,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.899741902689,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.930016942771,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.876853717688,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.991528037132,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.979896881831,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.994853411287,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.951681726908,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.951807228916,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "165",
+      "player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a"
+    },
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "display_name": "Stephen Curry",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.921172597436,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.921883764266,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.951195406627,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.969667225239,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.630214352213,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.981156230936,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.856521901284,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.989081325301,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.96140813253,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "201939",
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e"
+    },
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "display_name": "Nikola Jokic",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.975187068872,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.979988308122,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.983245481928,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.961864299923,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.754593154307,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.975753607786,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.849693467265,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.799824297189,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.98390436747,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "203999",
+      "player_id": "player_8b852194a9735db8bdaecde0153ecad9"
+    },
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "display_name": "LeBron James",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.955059382435,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.971401408531,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.996234939759,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.928292218168,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.851148195757,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.999372767971,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.991521155376,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.994979919679,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.996140813253,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "2544",
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966"
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "display_name": "Kareem Abdul-Jabbar",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.889893571732,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.844152404288,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.864951995482,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.974388457586,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.774601566256,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.992983603719,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.998398251023,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.998054718876,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.908320783133,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "76003",
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81"
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "display_name": "Wilt Chamberlain",
+      "examples": [
+        {
+          "available_components": 1,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": null,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 1,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": null,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.467291039157,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 1,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": null,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 2,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": null,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.991354222269,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.984777968004,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.978727409639,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.429593373494,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "76375",
+      "player_id": "player_860bacb725f05f02b5871e085270f726"
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "display_name": "Magic Johnson",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.926373570956,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.940162347867,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.966820406627,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.956584023889,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.68072234228,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.993097190979,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.857908402478,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.996109437751,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.970350150602,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "77142",
+      "player_id": "player_8f4568aa56f35088b26a2d5f0a00b995"
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "display_name": "Michael Jordan",
+      "examples": [
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-A",
+          "diagnostic_value": 0.919181626019,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PEAK-E",
+          "diagnostic_value": 0.93964667042,
+          "dimension": "PEAK",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 8,
+          "candidate_id": "LONGEVITY-B",
+          "diagnostic_value": 0.964655496988,
+          "dimension": "LONGEVITY",
+          "expected_components": 8,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "OFFENSE-C",
+          "diagnostic_value": 0.885257756378,
+          "dimension": "OFFENSE",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 5,
+          "candidate_id": "DEFENSE-B",
+          "diagnostic_value": 0.941362896767,
+          "dimension": "DEFENSE",
+          "expected_components": 5,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "PLAYOFFS-E",
+          "diagnostic_value": 0.990305883344,
+          "dimension": "PLAYOFFS",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ACCOLADES-D",
+          "diagnostic_value": 0.995945633951,
+          "dimension": "ACCOLADES",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 3,
+          "candidate_id": "WINNING-C",
+          "diagnostic_value": 0.992407128514,
+          "dimension": "WINNING",
+          "expected_components": 3,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        },
+        {
+          "available_components": 4,
+          "candidate_id": "ERA-E",
+          "diagnostic_value": 0.969503012048,
+          "dimension": "ERA_DOMINANCE",
+          "expected_components": 4,
+          "interpretation": "Change is driven by documented component availability and candidate philosophy; no correctness judgment."
+        }
+      ],
+      "nba_player_id": "893",
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84"
+    }
+  ]
+}

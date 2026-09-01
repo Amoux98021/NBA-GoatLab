@@ -1,0 +1,2321 @@
+registry_version: 1
+methodology_version: goat-dimension-candidates-v1
+candidate_count: 38
+final_candidate_count: 0
+double_counting_policies_evaluated:
+- STRICT_OWNERSHIP
+- SHARED_EVIDENCE_WITH_PENALTY
+- RAW_EVIDENCE_SEPARATION
+selected_experimental_policy: RAW_EVIDENCE_SEPARATION
+feature_ownership:
+- feature_name: all_defense_total_count
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - DEFENSE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: all_defense_total_count
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: DEFENSE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ACCOLADES
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: all_nba_total_count
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: all_star_roster_seasons
+  source_methodology: all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: apg_playoff_lift
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: award_opportunity_index
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: award_scarcity_index
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: champion_finals_seasons
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: champion_playoff_seasons
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: champion_regular_seasons
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: dpoy_count
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - DEFENSE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: dpoy_count
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: DEFENSE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ACCOLADES
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: elite_team_seasons
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: finals_games
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: finals_mvp_count
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: finals_seasons
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: mean_finals_game_share
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: mean_playoff_game_share
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: mean_regular_game_share
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: mean_team_win_percentile
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: modern_def_rating_mean_z
+  source_methodology: GOATLAB-HIST-V1:player_season_advanced
+  candidate_dimension: DEFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: modern_reg_apg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: OFFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: modern_reg_bpg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: DEFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: modern_reg_spg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: DEFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: modern_reg_ts_pct_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: OFFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: mvp_count
+  source_methodology: official-player-awards-canonical-v1+all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: playoff_games
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - WINNING
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: playoff_games
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - PLAYOFFS
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: playoff_seasons
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - WINNING
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: playoff_seasons
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - PLAYOFFS
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: playoff_wins
+  source_methodology: team-success-postseason-v1
+  candidate_dimension: WINNING
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_apg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_apg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_apg_peak1_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_apg_peak3_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_apg_weighted_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_ppg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_ppg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_ppg_peak1_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_ppg_peak3_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_ppg_weighted_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_rpg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_rpg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_rpg_peak1_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_rpg_peak3_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_rpg_weighted_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: po_ts_pct_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: ppg_playoff_lift
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_area_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_area_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_elite_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_elite_p95
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_max_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - OFFENSE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: OFFENSE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_peak1_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_peak3_adjusted
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_peak3_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_peak5_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_run_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_run_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_run_p95
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_apg_top3_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_bpg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: DEFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_efg_pct_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: OFFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_points_per_75_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: OFFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_area_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_area_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_elite_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_elite_p95
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_max_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - OFFENSE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: OFFENSE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_peak1_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_peak3_adjusted
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_peak3_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_peak5_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_run_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_run_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_run_p95
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ppg_top3_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_area_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_area_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_elite_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_elite_p95
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_max_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: DEFENSE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - DEFENSE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_peak1_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_peak3_adjusted
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_peak3_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_peak5_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_run_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_run_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_run_p95
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_rpg_top3_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_spg_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: DEFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_area_p80
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_area_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_cum_positive_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: ERA_DOMINANCE
+  ownership_type: SECONDARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - LONGEVITY
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_elite_p90
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap:
+  - ERA_DOMINANCE
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_elite_p95
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_mean_z
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: OFFENSE
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_peak1_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_peak3_adjusted
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_peak3_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: reg_ts_pct_peak5_quality
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PEAK
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: regular_qualified_seasons
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: regular_total_games
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: LONGEVITY
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: rpg_playoff_lift
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: stat_title_count
+  source_methodology: all-star-stat-leader-facts-v1
+  candidate_dimension: ACCOLADES
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+- feature_name: ts_pct_playoff_lift
+  source_methodology: career-trajectory-peak-longevity-v1
+  candidate_dimension: PLAYOFFS
+  ownership_type: PRIMARY
+  coverage: INHERITED_FROM_SOURCE_PRIMITIVE
+  known_overlap: []
+  notes: Evidence quality is reported separately from player quality.
+candidates:
+- dimension: PEAK
+  candidate_id: PEAK-A
+  name: Single-season dominance
+  description: Best qualified season across cross-era performance primitives.
+  input_primitives:
+  - reg_ppg_peak1_quality
+  - reg_rpg_peak1_quality
+  - reg_apg_peak1_quality
+  - reg_ts_pct_peak1_quality
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: PEAK
+  candidate_id: PEAK-B
+  name: Three-year contiguous prime
+  description: Best complete contiguous three-season quality window.
+  input_primitives:
+  - reg_ppg_peak3_quality
+  - reg_rpg_peak3_quality
+  - reg_apg_peak3_quality
+  - reg_ts_pct_peak3_quality
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: PEAK
+  candidate_id: PEAK-C
+  name: Five-year contiguous prime
+  description: Best complete contiguous five-season quality window.
+  input_primitives:
+  - reg_ppg_peak5_quality
+  - reg_rpg_peak5_quality
+  - reg_apg_peak5_quality
+  - reg_ts_pct_peak5_quality
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: REJECTED
+  status_reasons:
+  - SEVERE_COVERAGE_LIMITATION
+- dimension: PEAK
+  candidate_id: PEAK-D
+  name: Multi-horizon peak
+  description: Parallel one-, three-, and five-season evidence without a final horizon
+    choice.
+  input_primitives:
+  - reg_ppg_peak1_quality
+  - reg_rpg_peak1_quality
+  - reg_apg_peak1_quality
+  - reg_ppg_peak3_quality
+  - reg_rpg_peak3_quality
+  - reg_apg_peak3_quality
+  - reg_ppg_peak5_quality
+  - reg_rpg_peak5_quality
+  - reg_apg_peak5_quality
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases:
+  - Correlated horizons can duplicate one performance signal.
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: PEAK
+  candidate_id: PEAK-E
+  name: Availability-aware peak
+  description: Opportunity-adjusted three-season peak kept separate from quality peak.
+  input_primitives:
+  - reg_ppg_peak3_adjusted
+  - reg_rpg_peak3_adjusted
+  - reg_apg_peak3_adjusted
+  - reg_ts_pct_peak3_adjusted
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: LONGEVITY
+  candidate_id: LONGEVITY-A
+  name: Elite-season count
+  description: Counts at multiple percentile thresholds across core categories.
+  input_primitives:
+  - reg_ppg_elite_p80
+  - reg_ppg_elite_p90
+  - reg_ppg_elite_p95
+  - reg_rpg_elite_p80
+  - reg_rpg_elite_p90
+  - reg_rpg_elite_p95
+  - reg_apg_elite_p80
+  - reg_apg_elite_p90
+  - reg_apg_elite_p95
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - ERA_DOMINANCE
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: LONGEVITY
+  candidate_id: LONGEVITY-B
+  name: Cumulative dominance
+  description: Cumulative positive z and percentile area above elite baselines.
+  input_primitives:
+  - reg_ppg_cum_positive_z
+  - reg_ppg_area_p80
+  - reg_rpg_cum_positive_z
+  - reg_rpg_area_p80
+  - reg_apg_cum_positive_z
+  - reg_apg_area_p80
+  - reg_ts_pct_cum_positive_z
+  - reg_ts_pct_area_p80
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - ERA_DOMINANCE
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: LONGEVITY
+  candidate_id: LONGEVITY-C
+  name: Prime persistence
+  description: Longest repeated elite runs at several thresholds.
+  input_primitives:
+  - reg_ppg_run_p80
+  - reg_ppg_run_p90
+  - reg_ppg_run_p95
+  - reg_rpg_run_p80
+  - reg_rpg_run_p90
+  - reg_rpg_run_p95
+  - reg_apg_run_p80
+  - reg_apg_run_p90
+  - reg_apg_run_p95
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: LONGEVITY
+  candidate_id: LONGEVITY-D
+  name: Participation plus quality
+  description: Qualified seasons and games alongside average era-relative quality.
+  input_primitives:
+  - regular_qualified_seasons
+  - regular_total_games
+  - reg_ppg_mean_z
+  - reg_apg_mean_z
+  - reg_rpg_mean_z
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - DEFENSE
+  - OFFENSE
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: LONGEVITY
+  candidate_id: LONGEVITY-E
+  name: High-bar longevity
+  description: Seasons remaining at the 90th and 95th percentiles.
+  input_primitives:
+  - reg_ppg_elite_p90
+  - reg_ppg_elite_p95
+  - reg_rpg_elite_p90
+  - reg_rpg_elite_p95
+  - reg_apg_elite_p90
+  - reg_apg_elite_p95
+  - reg_ts_pct_elite_p90
+  - reg_ts_pct_elite_p95
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - ERA_DOMINANCE
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: OFFENSE
+  candidate_id: OFFENSE-A
+  name: Cross-era core
+  description: Broad scoring and playmaking with efficiency when supported.
+  input_primitives:
+  - reg_ppg_mean_z
+  - reg_apg_mean_z
+  - reg_ts_pct_mean_z
+  feature_ownership:
+  - SECONDARY
+  - SECONDARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - LONGEVITY
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: OFFENSE
+  candidate_id: OFFENSE-B
+  name: Balanced scoring plus playmaking
+  description: Scoring and creation kept as equal, separately scaled evidence.
+  input_primitives:
+  - reg_ppg_mean_z
+  - reg_apg_mean_z
+  feature_ownership:
+  - SECONDARY
+  - SECONDARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - LONGEVITY
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: OFFENSE
+  candidate_id: OFFENSE-C
+  name: Efficiency-adjusted production
+  description: Scoring volume with TS and eFG efficiency evidence.
+  input_primitives:
+  - reg_ppg_mean_z
+  - reg_ts_pct_mean_z
+  - reg_efg_pct_mean_z
+  feature_ownership:
+  - SECONDARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - LONGEVITY
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: OFFENSE
+  candidate_id: OFFENSE-D
+  name: Modern enriched offense
+  description: Post-1996 possession-rate scoring plus playmaking and efficiency.
+  input_primitives:
+  - reg_points_per_75_mean_z
+  - modern_reg_apg_mean_z
+  - modern_reg_ts_pct_mean_z
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases:
+  - Not universally comparable before 1996-97.
+  historical_limitations:
+  - reg_points_per_75_mean_z
+  - modern_reg_apg_mean_z
+  - modern_reg_ts_pct_mean_z
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: DEFERRED
+  status_reasons:
+  - HIDDEN_MODERN_ERA_DEPENDENCY
+- dimension: DEFENSE
+  candidate_id: DEFENSE-A
+  name: Box-performance core
+  description: Individual rebounding, steals, and blocks only where recorded.
+  input_primitives:
+  - reg_rpg_mean_z
+  - reg_spg_mean_z
+  - reg_bpg_mean_z
+  feature_ownership:
+  - SECONDARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - LONGEVITY
+  known_biases:
+  - Steals and blocks do not exist before 1973-74.
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: DEFENSE
+  candidate_id: DEFENSE-B
+  name: Honors augmented
+  description: Box evidence plus factual DPOY and All-Defense evidence.
+  input_primitives:
+  - reg_rpg_mean_z
+  - reg_spg_mean_z
+  - reg_bpg_mean_z
+  - dpoy_count
+  - all_defense_total_count
+  feature_ownership:
+  - SECONDARY
+  - PRIMARY
+  - PRIMARY
+  - SECONDARY
+  - SECONDARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - ACCOLADES
+  - LONGEVITY
+  known_biases:
+  - Defensive honors overlap ACCOLADES and begin well after league founding.
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: REJECTED
+  status_reasons:
+  - NEAR_DUPLICATE_SIGNAL
+- dimension: DEFENSE
+  candidate_id: DEFENSE-C
+  name: Modern advanced defense
+  description: Post-1996 season-relative defensive-rating evidence.
+  input_primitives:
+  - modern_def_rating_mean_z
+  - modern_reg_spg_mean_z
+  - modern_reg_bpg_mean_z
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases:
+  - Official advanced coverage begins in 1996-97.
+  historical_limitations:
+  - modern_def_rating_mean_z
+  - modern_reg_spg_mean_z
+  - modern_reg_bpg_mean_z
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: DEFERRED
+  status_reasons:
+  - HIDDEN_MODERN_ERA_DEPENDENCY
+- dimension: DEFENSE
+  candidate_id: DEFENSE-D
+  name: Coverage-bridged defense
+  description: Rebounding core with honors as explicit historical bridge evidence.
+  input_primitives:
+  - reg_rpg_mean_z
+  - dpoy_count
+  - all_defense_total_count
+  feature_ownership:
+  - SECONDARY
+  - SECONDARY
+  - SECONDARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - ACCOLADES
+  - LONGEVITY
+  known_biases:
+  - Bridge is incomplete before All-Defense and DPOY introductions.
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: PLAYOFFS
+  candidate_id: PLAYOFFS-A
+  name: Absolute postseason performance
+  description: Career mean playoff scoring, rebounding, creation, and efficiency.
+  input_primitives:
+  - po_ppg_mean_z
+  - po_rpg_mean_z
+  - po_apg_mean_z
+  - po_ts_pct_mean_z
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: PLAYOFFS
+  candidate_id: PLAYOFFS-B
+  name: Postseason peak
+  description: Best playoff season and best complete three-season playoff windows.
+  input_primitives:
+  - po_ppg_peak1_quality
+  - po_ppg_peak3_quality
+  - po_rpg_peak1_quality
+  - po_rpg_peak3_quality
+  - po_apg_peak1_quality
+  - po_apg_peak3_quality
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: REJECTED
+  status_reasons:
+  - SEVERE_COVERAGE_LIMITATION
+- dimension: PLAYOFFS
+  candidate_id: PLAYOFFS-C
+  name: Postseason longevity
+  description: Playoff seasons, games, and cumulative dominance.
+  input_primitives:
+  - playoff_seasons
+  - playoff_games
+  - po_ppg_cum_positive_z
+  - po_apg_cum_positive_z
+  - po_rpg_cum_positive_z
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - WINNING
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: PLAYOFFS
+  candidate_id: PLAYOFFS-D
+  name: Regular-to-playoff change
+  description: Difference between playoff and regular-season normalized performance;
+    no ratios.
+  input_primitives:
+  - ppg_playoff_lift
+  - rpg_playoff_lift
+  - apg_playoff_lift
+  - ts_pct_playoff_lift
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases:
+  - Selection into playoffs and small samples affect interpretation.
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: PLAYOFFS
+  candidate_id: PLAYOFFS-E
+  name: Sample-aware postseason impact
+  description: Opportunity-weighted playoff cumulative production with sample metadata.
+  input_primitives:
+  - po_ppg_weighted_positive_z
+  - po_rpg_weighted_positive_z
+  - po_apg_weighted_positive_z
+  - playoff_games
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - WINNING
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: REJECTED
+  status_reasons:
+  - NEAR_DUPLICATE_SIGNAL
+- dimension: ACCOLADES
+  candidate_id: ACCOLADES-A
+  name: Raw major-award profile
+  description: Separately scaled factual major-award counts.
+  input_primitives:
+  - mvp_count
+  - finals_mvp_count
+  - dpoy_count
+  - all_nba_total_count
+  - all_defense_total_count
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - DEFENSE
+  known_biases:
+  - PlayerAwards was candidate-scoped; NOT_QUERIED remains missing.
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ACCOLADES
+  candidate_id: ACCOLADES-B
+  name: Award-scarcity normalized
+  description: Observed events weighted only by empirical event scarcity, not manual
+    points.
+  input_primitives:
+  - award_scarcity_index
+  feature_ownership:
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ACCOLADES
+  candidate_id: ACCOLADES-C
+  name: Award-opportunity normalized
+  description: Major events divided by applicable career-season opportunity.
+  input_primitives:
+  - award_opportunity_index
+  feature_ownership:
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases:
+  - Opportunity does not encode voting strength or award slots beyond applicability.
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ACCOLADES
+  candidate_id: ACCOLADES-D
+  name: Honor-level persistence
+  description: Persistent All-NBA, All-Defense, All-Star roster, and title evidence.
+  input_primitives:
+  - all_nba_total_count
+  - all_defense_total_count
+  - all_star_roster_seasons
+  - stat_title_count
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - DEFENSE
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ACCOLADES
+  candidate_id: ACCOLADES-E
+  name: Major-winner emphasis
+  description: MVP, Finals MVP, and DPOY winner-event profile without equivalence
+    weights.
+  input_primitives:
+  - mvp_count
+  - finals_mvp_count
+  - dpoy_count
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - DEFENSE
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: WINNING
+  candidate_id: WINNING-A
+  name: Team outcomes
+  description: Team strength, playoffs, Finals, and regular champion-team membership.
+  input_primitives:
+  - mean_team_win_percentile
+  - playoff_seasons
+  - finals_seasons
+  - champion_regular_seasons
+  feature_ownership:
+  - PRIMARY
+  - SECONDARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - PLAYOFFS
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: WINNING
+  candidate_id: WINNING-B
+  name: Participation-qualified winning
+  description: Postseason participation and championships with actual playoff participation.
+  input_primitives:
+  - playoff_games
+  - playoff_wins
+  - champion_playoff_seasons
+  feature_ownership:
+  - SECONDARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - PLAYOFFS
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: WINNING
+  candidate_id: WINNING-C
+  name: Finals-participation winning
+  description: Finals games and championships with actual Finals participation.
+  input_primitives:
+  - finals_seasons
+  - finals_games
+  - champion_finals_seasons
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: WINNING
+  candidate_id: WINNING-D
+  name: Role/opportunity-aware winning
+  description: Game-share proxies and outcome facts without a subjective role label.
+  input_primitives:
+  - mean_regular_game_share
+  - mean_playoff_game_share
+  - mean_finals_game_share
+  - champion_finals_seasons
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: WINNING
+  candidate_id: WINNING-E
+  name: Sustained team success
+  description: Repeated elite-team, playoff, Finals, and participant-champion seasons.
+  input_primitives:
+  - elite_team_seasons
+  - playoff_seasons
+  - finals_seasons
+  - champion_playoff_seasons
+  feature_ownership:
+  - PRIMARY
+  - SECONDARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - PLAYOFFS
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ERA_DOMINANCE
+  candidate_id: ERA-A
+  name: Single-season extremeness
+  description: Maximum single-season z-score across core statistical categories.
+  input_primitives:
+  - reg_ppg_max_z
+  - reg_rpg_max_z
+  - reg_apg_max_z
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ERA_DOMINANCE
+  candidate_id: ERA-B
+  name: Multi-season era dominance
+  description: Best three-season mean across core statistical categories.
+  input_primitives:
+  - reg_ppg_top3_z
+  - reg_rpg_top3_z
+  - reg_apg_top3_z
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ERA_DOMINANCE
+  candidate_id: ERA-C
+  name: Category-breadth dominance
+  description: Number of core categories with 90th-percentile seasons.
+  input_primitives:
+  - reg_ppg_elite_p90
+  - reg_rpg_elite_p90
+  - reg_apg_elite_p90
+  - reg_ts_pct_elite_p90
+  feature_ownership:
+  - SECONDARY
+  - SECONDARY
+  - SECONDARY
+  - SECONDARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - LONGEVITY
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ERA_DOMINANCE
+  candidate_id: ERA-D
+  name: Percentile separation
+  description: Area above the 90th-percentile baseline across core categories.
+  input_primitives:
+  - reg_ppg_area_p90
+  - reg_rpg_area_p90
+  - reg_apg_area_p90
+  - reg_ts_pct_area_p90
+  feature_ownership:
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  - PRIMARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap: []
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []
+- dimension: ERA_DOMINANCE
+  candidate_id: ERA-E
+  name: Career era dominance
+  description: Cumulative positive season z-scores across core categories.
+  input_primitives:
+  - reg_ppg_cum_positive_z
+  - reg_rpg_cum_positive_z
+  - reg_apg_cum_positive_z
+  - reg_ts_pct_cum_positive_z
+  feature_ownership:
+  - SECONDARY
+  - SECONDARY
+  - SECONDARY
+  - SECONDARY
+  coverage_requirements: policy-dependent; threshold=0.666667
+  scaling_methods:
+  - CAREER_UNIVERSE_PERCENTILE
+  - ROBUST_STANDARDIZATION
+  - STANDARD_Z
+  - EMPIRICAL_CDF
+  missingness_policies:
+  - CORE_FEATURE_ONLY
+  - AVAILABLE_FEATURE_RENORMALIZATION
+  - COVERAGE_THRESHOLD
+  - ERA_SPECIFIC_ENRICHMENT
+  combination_method: weighted arithmetic mean after component scaling; diagnostic
+    only
+  weight_policy: equal baseline plus deterministic uniform-simplex sensitivity
+  known_overlap:
+  - LONGEVITY
+  known_biases: []
+  historical_limitations: []
+  active_career_limitations: to-date only; no projection; longevity/accolades/winning
+    incomplete
+  status: VALIDATED_FOR_EXPERIMENT
+  status_reasons: []

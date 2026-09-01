@@ -1,0 +1,2783 @@
+{
+  "candidate_results": [
+    {
+      "candidate_id": "PEAK-A",
+      "complete_players": 2080,
+      "mean_percentile_variance": 0.014490325507,
+      "mean_score_variance": 0.008309048726,
+      "median_of_player_median_percentiles": 0.498076923077,
+      "median_player_percentile_iqr": 0.151502403846,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.424759615385,
+          "percentile_iqr": 0.430649038462,
+          "percentile_variance": 0.063658018069,
+          "player_id": "player_42dcc0c34c5855209d9bcc8960a179e9"
+        },
+        {
+          "median_percentile": 0.483894230769,
+          "percentile_iqr": 0.408293269231,
+          "percentile_variance": 0.057186757529,
+          "player_id": "player_1865519bcf695567a49d99b53fd08ed4"
+        },
+        {
+          "median_percentile": 0.595913461538,
+          "percentile_iqr": 0.371153846154,
+          "percentile_variance": 0.049907609075,
+          "player_id": "player_517a0fda000f508eb9e3468d890a2d89"
+        },
+        {
+          "median_percentile": 0.565625,
+          "percentile_iqr": 0.356370192308,
+          "percentile_variance": 0.049495515348,
+          "player_id": "player_918fcfbf87cc5919a5fbdddbfa619755"
+        },
+        {
+          "median_percentile": 0.437980769231,
+          "percentile_iqr": 0.336418269231,
+          "percentile_variance": 0.049298140694,
+          "player_id": "player_6a073f8b025a5b65a4395479c487646c"
+        },
+        {
+          "median_percentile": 0.588221153846,
+          "percentile_iqr": 0.392307692308,
+          "percentile_variance": 0.048976178902,
+          "player_id": "player_368cd378c3b65766a31e34a9fd1f6c3d"
+        },
+        {
+          "median_percentile": 0.527644230769,
+          "percentile_iqr": 0.359975961538,
+          "percentile_variance": 0.048512654771,
+          "player_id": "player_372fa6d411835641bb5647b378a55158"
+        },
+        {
+          "median_percentile": 0.289423076923,
+          "percentile_iqr": 0.307572115385,
+          "percentile_variance": 0.0483303943,
+          "player_id": "player_4096682138035fe3987ecfd0591a8d63"
+        },
+        {
+          "median_percentile": 0.313461538462,
+          "percentile_iqr": 0.334375,
+          "percentile_variance": 0.048309825253,
+          "player_id": "player_bf1a4d4e4b765b4c9fede8b8aef09821"
+        },
+        {
+          "median_percentile": 0.506490384615,
+          "percentile_iqr": 0.345673076923,
+          "percentile_variance": 0.048281810922,
+          "player_id": "player_99043498f13b5909a28c548822e03f63"
+        }
+      ],
+      "pairwise_ordering_stability": 0.88178,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PEAK-B",
+      "complete_players": 1761,
+      "mean_percentile_variance": 0.011881455696,
+      "mean_score_variance": 0.007762755473,
+      "median_of_player_median_percentiles": 0.500567859171,
+      "median_player_percentile_iqr": 0.13202725724,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.631743327655,
+          "percentile_iqr": 0.376348665531,
+          "percentile_variance": 0.053029777547,
+          "player_id": "player_0e27a5429a8158e3b11d7a746e988e5e"
+        },
+        {
+          "median_percentile": 0.357751277683,
+          "percentile_iqr": 0.364423622942,
+          "percentile_variance": 0.05049649929,
+          "player_id": "player_d04a1e8a5f9351c5b443f0e06d4f608e"
+        },
+        {
+          "median_percentile": 0.613855763771,
+          "percentile_iqr": 0.36484951732,
+          "percentile_variance": 0.050063856135,
+          "player_id": "player_617ff6658916543f9fdefcf9fd241c81"
+        },
+        {
+          "median_percentile": 0.360306643952,
+          "percentile_iqr": 0.359454855196,
+          "percentile_variance": 0.048556636382,
+          "player_id": "player_0496219301be518cb94ecb759beb0cc5"
+        },
+        {
+          "median_percentile": 0.32538330494,
+          "percentile_iqr": 0.348807495741,
+          "percentile_variance": 0.047687289564,
+          "player_id": "player_834116c428c95f97bd1ee629668f9e0c"
+        },
+        {
+          "median_percentile": 0.286201022147,
+          "percentile_iqr": 0.33886996025,
+          "percentile_variance": 0.047660962471,
+          "player_id": "player_b551bd3c00e05dbe90bd4c6bb9b61330"
+        },
+        {
+          "median_percentile": 0.536342986939,
+          "percentile_iqr": 0.367404883589,
+          "percentile_variance": 0.047642734966,
+          "player_id": "player_f854d9de67365590b61c6abc1c77913c"
+        },
+        {
+          "median_percentile": 0.220045428734,
+          "percentile_iqr": 0.288898353208,
+          "percentile_variance": 0.047374028287,
+          "player_id": "player_4096682138035fe3987ecfd0591a8d63"
+        },
+        {
+          "median_percentile": 0.498580352073,
+          "percentile_iqr": 0.368256672345,
+          "percentile_variance": 0.047197524951,
+          "player_id": "player_cda2eb99583e57e8bd13c53b3d80d6a4"
+        },
+        {
+          "median_percentile": 0.630607609313,
+          "percentile_iqr": 0.351788756388,
+          "percentile_variance": 0.04587625133,
+          "player_id": "player_b6fe6ed394635dbcb72c7f185af97c21"
+        }
+      ],
+      "pairwise_ordering_stability": 0.8916,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PEAK-C",
+      "complete_players": 1250,
+      "mean_percentile_variance": 0.014300093797,
+      "mean_score_variance": 0.008448585882,
+      "median_of_player_median_percentiles": 0.503,
+      "median_player_percentile_iqr": 0.1606,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.5676,
+          "percentile_iqr": 0.408,
+          "percentile_variance": 0.058293371584,
+          "player_id": "player_0e27a5429a8158e3b11d7a746e988e5e"
+        },
+        {
+          "median_percentile": 0.28,
+          "percentile_iqr": 0.351,
+          "percentile_variance": 0.0533012412,
+          "player_id": "player_d04a1e8a5f9351c5b443f0e06d4f608e"
+        },
+        {
+          "median_percentile": 0.4104,
+          "percentile_iqr": 0.3778,
+          "percentile_variance": 0.051643000176,
+          "player_id": "player_cda2eb99583e57e8bd13c53b3d80d6a4"
+        },
+        {
+          "median_percentile": 0.4228,
+          "percentile_iqr": 0.3742,
+          "percentile_variance": 0.051276625776,
+          "player_id": "player_617ff6658916543f9fdefcf9fd241c81"
+        },
+        {
+          "median_percentile": 0.5216,
+          "percentile_iqr": 0.3804,
+          "percentile_variance": 0.050855638976,
+          "player_id": "player_b6fe6ed394635dbcb72c7f185af97c21"
+        },
+        {
+          "median_percentile": 0.4368,
+          "percentile_iqr": 0.3846,
+          "percentile_variance": 0.0472987456,
+          "player_id": "player_f854d9de67365590b61c6abc1c77913c"
+        },
+        {
+          "median_percentile": 0.3036,
+          "percentile_iqr": 0.3136,
+          "percentile_variance": 0.046382208256,
+          "player_id": "player_64cf6e00512b5263897d3177b58e3842"
+        },
+        {
+          "median_percentile": 0.2368,
+          "percentile_iqr": 0.3026,
+          "percentile_variance": 0.046273667264,
+          "player_id": "player_b0ba1ef661f7548c86d20cbcca9ca9c9"
+        },
+        {
+          "median_percentile": 0.676,
+          "percentile_iqr": 0.365,
+          "percentile_variance": 0.046025814896,
+          "player_id": "player_cd2268b142f4506691417f5a61a6e55e"
+        },
+        {
+          "median_percentile": 0.5332,
+          "percentile_iqr": 0.3544,
+          "percentile_variance": 0.045775272896,
+          "player_id": "player_151e46406245511baebb241dcdcc7b4a"
+        }
+      ],
+      "pairwise_ordering_stability": 0.86738,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PEAK-D",
+      "complete_players": 1250,
+      "mean_percentile_variance": 0.00648275557,
+      "mean_score_variance": 0.003576818826,
+      "median_of_player_median_percentiles": 0.4956,
+      "median_player_percentile_iqr": 0.0939,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.636,
+          "percentile_iqr": 0.249,
+          "percentile_variance": 0.027199426544,
+          "player_id": "player_ec4f0bb4aced53cca31b6f2f22c6860f"
+        },
+        {
+          "median_percentile": 0.3128,
+          "percentile_iqr": 0.2324,
+          "percentile_variance": 0.024797853696,
+          "player_id": "player_0e27a5429a8158e3b11d7a746e988e5e"
+        },
+        {
+          "median_percentile": 0.5324,
+          "percentile_iqr": 0.236,
+          "percentile_variance": 0.024525420736,
+          "player_id": "player_3da021efbb9f566e89daf1a2bd725b50"
+        },
+        {
+          "median_percentile": 0.4444,
+          "percentile_iqr": 0.2286,
+          "percentile_variance": 0.0236190656,
+          "player_id": "player_cd2268b142f4506691417f5a61a6e55e"
+        },
+        {
+          "median_percentile": 0.2984,
+          "percentile_iqr": 0.2154,
+          "percentile_variance": 0.0234916608,
+          "player_id": "player_aa12367238045f379d96f8bfb30039c1"
+        },
+        {
+          "median_percentile": 0.3732,
+          "percentile_iqr": 0.2226,
+          "percentile_variance": 0.0234080896,
+          "player_id": "player_9eb4ff8da9be5d9b80349f3876b0f10f"
+        },
+        {
+          "median_percentile": 0.5356,
+          "percentile_iqr": 0.22,
+          "percentile_variance": 0.022905893824,
+          "player_id": "player_cb97bc2ff59652a9bbf02954e8e9ece8"
+        },
+        {
+          "median_percentile": 0.4428,
+          "percentile_iqr": 0.2198,
+          "percentile_variance": 0.022847610864,
+          "player_id": "player_50cdb55d47535b2f82133be296c97c85"
+        },
+        {
+          "median_percentile": 0.7256,
+          "percentile_iqr": 0.2032,
+          "percentile_variance": 0.022772550384,
+          "player_id": "player_1b1ff42bec735414b66af738c62a6cc5"
+        },
+        {
+          "median_percentile": 0.5744,
+          "percentile_iqr": 0.2286,
+          "percentile_variance": 0.0227139968,
+          "player_id": "player_e73c1079dc7d52769b9bed87a486691c"
+        }
+      ],
+      "pairwise_ordering_stability": 0.93026,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PEAK-E",
+      "complete_players": 1761,
+      "mean_percentile_variance": 0.01072846384,
+      "mean_score_variance": 0.006774766232,
+      "median_of_player_median_percentiles": 0.500567859171,
+      "median_player_percentile_iqr": 0.124787052811,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.365417376491,
+          "percentile_iqr": 0.333617262919,
+          "percentile_variance": 0.048593116481,
+          "player_id": "player_d8268b5537af52d7b2d96b55442d9a75"
+        },
+        {
+          "median_percentile": 0.277967064168,
+          "percentile_iqr": 0.288756388416,
+          "percentile_variance": 0.044906254351,
+          "player_id": "player_bf1a4d4e4b765b4c9fede8b8aef09821"
+        },
+        {
+          "median_percentile": 0.225440090857,
+          "percentile_iqr": 0.267319704713,
+          "percentile_variance": 0.044439773101,
+          "player_id": "player_7cf08ff7c5585672b2fbf9f73b847dd9"
+        },
+        {
+          "median_percentile": 0.608745031232,
+          "percentile_iqr": 0.325525269733,
+          "percentile_variance": 0.042719798542,
+          "player_id": "player_b6fe6ed394635dbcb72c7f185af97c21"
+        },
+        {
+          "median_percentile": 0.302101078932,
+          "percentile_iqr": 0.329074389551,
+          "percentile_variance": 0.041678664901,
+          "player_id": "player_834116c428c95f97bd1ee629668f9e0c"
+        },
+        {
+          "median_percentile": 0.355479840999,
+          "percentile_iqr": 0.314168086315,
+          "percentile_variance": 0.041573600127,
+          "player_id": "player_d04a1e8a5f9351c5b443f0e06d4f608e"
+        },
+        {
+          "median_percentile": 0.348381601363,
+          "percentile_iqr": 0.294576944918,
+          "percentile_variance": 0.040205889128,
+          "player_id": "player_1919841862b45a9d9968ad3936ff1dc5"
+        },
+        {
+          "median_percentile": 0.688813174333,
+          "percentile_iqr": 0.309625212947,
+          "percentile_variance": 0.039931514281,
+          "player_id": "player_cd2268b142f4506691417f5a61a6e55e"
+        },
+        {
+          "median_percentile": 0.489210675752,
+          "percentile_iqr": 0.246308915389,
+          "percentile_variance": 0.039821941292,
+          "player_id": "player_b1a719d617f25df3a9ca5035ddd82138"
+        },
+        {
+          "median_percentile": 0.673480976718,
+          "percentile_iqr": 0.265190232822,
+          "percentile_variance": 0.03943372212,
+          "player_id": "player_9e978f27eeb655928d3573b030e3a73e"
+        }
+      ],
+      "pairwise_ordering_stability": 0.8985,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "LONGEVITY-A",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.002812583967,
+      "mean_score_variance": 0.002156151417,
+      "median_of_player_median_percentiles": 0.525978915663,
+      "median_player_percentile_iqr": 0.043721762048,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.808170180723,
+          "percentile_iqr": 0.165568524096,
+          "percentile_variance": 0.011490448112,
+          "player_id": "player_f510d09a71ec5bcda01cb29746432db8"
+        },
+        {
+          "median_percentile": 0.804969879518,
+          "percentile_iqr": 0.16453313253,
+          "percentile_variance": 0.011476241984,
+          "player_id": "player_3da021efbb9f566e89daf1a2bd725b50"
+        },
+        {
+          "median_percentile": 0.803652108434,
+          "percentile_iqr": 0.162462349398,
+          "percentile_variance": 0.011432942714,
+          "player_id": "player_eebe4af33c6b50339b341e77675a1fa7"
+        },
+        {
+          "median_percentile": 0.805722891566,
+          "percentile_iqr": 0.162274096386,
+          "percentile_variance": 0.011429778791,
+          "player_id": "player_c3c83e907ca15151bf081cac4f08bebc"
+        },
+        {
+          "median_percentile": 0.705760542169,
+          "percentile_iqr": 0.170368975904,
+          "percentile_variance": 0.011377713948,
+          "player_id": "player_647f428f1794537d8a6a0ec47ccea6da"
+        },
+        {
+          "median_percentile": 0.797439759036,
+          "percentile_iqr": 0.16594503012,
+          "percentile_variance": 0.011340543174,
+          "player_id": "player_9c1ab8c7723f52deba27d8c35071ff77"
+        },
+        {
+          "median_percentile": 0.800451807229,
+          "percentile_iqr": 0.160203313253,
+          "percentile_variance": 0.011331288714,
+          "player_id": "player_b79ee0db4fda56b290bc75ed350e4854"
+        },
+        {
+          "median_percentile": 0.798004518072,
+          "percentile_iqr": 0.161050451807,
+          "percentile_variance": 0.01128376305,
+          "player_id": "player_406f8f5582765911ad8afe4f581c3f6a"
+        },
+        {
+          "median_percentile": 0.797063253012,
+          "percentile_iqr": 0.158791415663,
+          "percentile_variance": 0.011254517048,
+          "player_id": "player_f684df7573f755109ac09dff5225540b"
+        },
+        {
+          "median_percentile": 0.795368975904,
+          "percentile_iqr": 0.162556475904,
+          "percentile_variance": 0.01123204758,
+          "player_id": "player_9e37f844b12957a1b4c1e260d27a5bed"
+        }
+      ],
+      "pairwise_ordering_stability": 0.96428,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "LONGEVITY-B",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.008273650503,
+      "mean_score_variance": 0.003876333895,
+      "median_of_player_median_percentiles": 0.488704819277,
+      "median_player_percentile_iqr": 0.123870481928,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.429028614458,
+          "percentile_iqr": 0.286238704819,
+          "percentile_variance": 0.02992420422,
+          "player_id": "player_583dda346d7d5dc2901a0199660f50a0"
+        },
+        {
+          "median_percentile": 0.397590361446,
+          "percentile_iqr": 0.254518072289,
+          "percentile_variance": 0.026854949123,
+          "player_id": "player_2e0c091879055216861f0c9ffb6a4655"
+        },
+        {
+          "median_percentile": 0.396649096386,
+          "percentile_iqr": 0.263083584337,
+          "percentile_variance": 0.02617058439,
+          "player_id": "player_dba1a501ee51579196936adad71e1328"
+        },
+        {
+          "median_percentile": 0.387424698795,
+          "percentile_iqr": 0.243505271084,
+          "percentile_variance": 0.025539669148,
+          "player_id": "player_1831d218349e5ca29afce7ca1b5f34d6"
+        },
+        {
+          "median_percentile": 0.46875,
+          "percentile_iqr": 0.253482680723,
+          "percentile_variance": 0.025172688953,
+          "player_id": "player_02961f13f6b05e27a91f4511dfce0711"
+        },
+        {
+          "median_percentile": 0.44390060241,
+          "percentile_iqr": 0.23625753012,
+          "percentile_variance": 0.025013222361,
+          "player_id": "player_5a14af3ebf685cd2826bd3ad7c86451e"
+        },
+        {
+          "median_percentile": 0.498305722892,
+          "percentile_iqr": 0.246517319277,
+          "percentile_variance": 0.024933356502,
+          "player_id": "player_3aeb111b9c6a563883d973723aa806b2"
+        },
+        {
+          "median_percentile": 0.379518072289,
+          "percentile_iqr": 0.241999246988,
+          "percentile_variance": 0.024793318007,
+          "player_id": "player_f18f4036a2fb5080a189c5c30e7928fb"
+        },
+        {
+          "median_percentile": 0.538403614458,
+          "percentile_iqr": 0.239928463855,
+          "percentile_variance": 0.024640121466,
+          "player_id": "player_7cf08ff7c5585672b2fbf9f73b847dd9"
+        },
+        {
+          "median_percentile": 0.52202560241,
+          "percentile_iqr": 0.233621987952,
+          "percentile_variance": 0.024618942321,
+          "player_id": "player_aa12367238045f379d96f8bfb30039c1"
+        }
+      ],
+      "pairwise_ordering_stability": 0.91306,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "LONGEVITY-C",
+      "complete_players": 2080,
+      "mean_percentile_variance": 0.003142780147,
+      "mean_score_variance": 0.002333887628,
+      "median_of_player_median_percentiles": 0.496153846154,
+      "median_player_percentile_iqr": 0.072235576923,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.7875,
+          "percentile_iqr": 0.152163461538,
+          "percentile_variance": 0.011622682317,
+          "player_id": "player_c3cd5af847385207a7f8b5cc22ce9b1a"
+        },
+        {
+          "median_percentile": 0.786538461538,
+          "percentile_iqr": 0.155048076923,
+          "percentile_variance": 0.011532804867,
+          "player_id": "player_91c79029921d5889be70d269ef41060f"
+        },
+        {
+          "median_percentile": 0.781490384615,
+          "percentile_iqr": 0.156370192308,
+          "percentile_variance": 0.011363268861,
+          "player_id": "player_3de4ea2eced156689d2c65cadf7d09b0"
+        },
+        {
+          "median_percentile": 0.777884615385,
+          "percentile_iqr": 0.157572115385,
+          "percentile_variance": 0.011312228406,
+          "player_id": "player_ce6a689b1cdc5bc2828e8aa11b74769e"
+        },
+        {
+          "median_percentile": 0.773557692308,
+          "percentile_iqr": 0.153004807692,
+          "percentile_variance": 0.011243970761,
+          "player_id": "player_4ed346bec0785ab999e99ef2901f1d57"
+        },
+        {
+          "median_percentile": 0.772836538462,
+          "percentile_iqr": 0.154206730769,
+          "percentile_variance": 0.011166297147,
+          "player_id": "player_8a991c147a355ad0a565a34050a62af8"
+        },
+        {
+          "median_percentile": 0.774759615385,
+          "percentile_iqr": 0.156730769231,
+          "percentile_variance": 0.011153134656,
+          "player_id": "player_187600120c615d689992740b10470bd9"
+        },
+        {
+          "median_percentile": 0.770673076923,
+          "percentile_iqr": 0.153605769231,
+          "percentile_variance": 0.0111245422,
+          "player_id": "player_3eac5ab7442f5a7bac80d45ae8e47a9d"
+        },
+        {
+          "median_percentile": 0.767067307692,
+          "percentile_iqr": 0.158894230769,
+          "percentile_variance": 0.011004868967,
+          "player_id": "player_c14e6ba247445dc090f927b48aecb063"
+        },
+        {
+          "median_percentile": 0.739423076923,
+          "percentile_iqr": 0.150360576923,
+          "percentile_variance": 0.011000458372,
+          "player_id": "player_247adbfedea25e788d9ce452b2596207"
+        }
+      ],
+      "pairwise_ordering_stability": 0.94604,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "LONGEVITY-D",
+      "complete_players": 2080,
+      "mean_percentile_variance": 0.007013497312,
+      "mean_score_variance": 0.00488006227,
+      "median_of_player_median_percentiles": 0.504567307693,
+      "median_player_percentile_iqr": 0.101081730769,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.568028846154,
+          "percentile_iqr": 0.366105769231,
+          "percentile_variance": 0.050437675845,
+          "player_id": "player_4766fe43dbb658dca7e43f4662115507"
+        },
+        {
+          "median_percentile": 0.475,
+          "percentile_iqr": 0.303365384615,
+          "percentile_variance": 0.041749853221,
+          "player_id": "player_0811b897533053e491b790cc3088fa8b"
+        },
+        {
+          "median_percentile": 0.640144230769,
+          "percentile_iqr": 0.331490384615,
+          "percentile_variance": 0.039852485756,
+          "player_id": "player_7fa2db9a7cd05b8fb4376bbb338ed101"
+        },
+        {
+          "median_percentile": 0.499519230769,
+          "percentile_iqr": 0.324278846154,
+          "percentile_variance": 0.039035917414,
+          "player_id": "player_d2426b996c0e5a3d9b96e6a699c78458"
+        },
+        {
+          "median_percentile": 0.538221153846,
+          "percentile_iqr": 0.298677884615,
+          "percentile_variance": 0.038916906152,
+          "player_id": "player_e727b85413005590a6e0db09a2c42f20"
+        },
+        {
+          "median_percentile": 0.607932692308,
+          "percentile_iqr": 0.275,
+          "percentile_variance": 0.035232282637,
+          "player_id": "player_a21cd076b4a558f5a5f7f5e0b1ea4326"
+        },
+        {
+          "median_percentile": 0.360336538462,
+          "percentile_iqr": 0.274639423077,
+          "percentile_variance": 0.034740128606,
+          "player_id": "player_db083567db3e53cdbc8120b3e4a2d7a0"
+        },
+        {
+          "median_percentile": 0.611057692308,
+          "percentile_iqr": 0.268990384615,
+          "percentile_variance": 0.033353366402,
+          "player_id": "player_f2ae309982a55a609498ebb7725e4d64"
+        },
+        {
+          "median_percentile": 0.592548076923,
+          "percentile_iqr": 0.280889423077,
+          "percentile_variance": 0.033310893116,
+          "player_id": "player_583dda346d7d5dc2901a0199660f50a0"
+        },
+        {
+          "median_percentile": 0.555528846154,
+          "percentile_iqr": 0.2890625,
+          "percentile_variance": 0.032770382743,
+          "player_id": "player_c4db7c9ed0c455f09f2b81cf4e0310ad"
+        }
+      ],
+      "pairwise_ordering_stability": 0.9051,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "LONGEVITY-E",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.003523831701,
+      "mean_score_variance": 0.002291889748,
+      "median_of_player_median_percentiles": 0.25094126506,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.765436746988,
+          "percentile_iqr": 0.188629518072,
+          "percentile_variance": 0.013110466967,
+          "player_id": "player_dd4464299b7550d1a2cf08d3a187f1b1"
+        },
+        {
+          "median_percentile": 0.76468373494,
+          "percentile_iqr": 0.187876506024,
+          "percentile_variance": 0.013004812926,
+          "player_id": "player_319bc954993a53a2b3886ace6604074b"
+        },
+        {
+          "median_percentile": 0.761859939759,
+          "percentile_iqr": 0.186370481928,
+          "percentile_variance": 0.012940886991,
+          "player_id": "player_b138b7776e195161bc1a78c4da795825"
+        },
+        {
+          "median_percentile": 0.761106927711,
+          "percentile_iqr": 0.189288403614,
+          "percentile_variance": 0.01289978858,
+          "player_id": "player_f510d09a71ec5bcda01cb29746432db8"
+        },
+        {
+          "median_percentile": 0.760353915663,
+          "percentile_iqr": 0.189100150602,
+          "percentile_variance": 0.012876542526,
+          "player_id": "player_5cea3b8f3f9a56f4a02d717df5ff709b"
+        },
+        {
+          "median_percentile": 0.759600903614,
+          "percentile_iqr": 0.190512048193,
+          "percentile_variance": 0.012857862157,
+          "player_id": "player_3da021efbb9f566e89daf1a2bd725b50"
+        },
+        {
+          "median_percentile": 0.759977409639,
+          "percentile_iqr": 0.183923192771,
+          "percentile_variance": 0.012829102895,
+          "player_id": "player_73d5d0db30ce53229e931e45c3c5bda4"
+        },
+        {
+          "median_percentile": 0.758659638554,
+          "percentile_iqr": 0.18797063253,
+          "percentile_variance": 0.012823169945,
+          "player_id": "player_9e37f844b12957a1b4c1e260d27a5bed"
+        },
+        {
+          "median_percentile": 0.758659638554,
+          "percentile_iqr": 0.189006024096,
+          "percentile_variance": 0.012807323039,
+          "player_id": "player_eebe4af33c6b50339b341e77675a1fa7"
+        },
+        {
+          "median_percentile": 0.757906626506,
+          "percentile_iqr": 0.185805722892,
+          "percentile_variance": 0.012794461392,
+          "player_id": "player_32bb2343bc315aa5ad2f594b0f934b4d"
+        }
+      ],
+      "pairwise_ordering_stability": 0.94428,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "OFFENSE-A",
+      "complete_players": 2080,
+      "mean_percentile_variance": 0.013453702191,
+      "mean_score_variance": 0.00910473575,
+      "median_of_player_median_percentiles": 0.496995192307,
+      "median_player_percentile_iqr": 0.137980769231,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.218028846154,
+          "percentile_iqr": 0.370072115385,
+          "percentile_variance": 0.073856859046,
+          "player_id": "player_4a9d902e44cf59ec8b79e51c2361340f"
+        },
+        {
+          "median_percentile": 0.223317307692,
+          "percentile_iqr": 0.366346153846,
+          "percentile_variance": 0.072767930144,
+          "player_id": "player_4096682138035fe3987ecfd0591a8d63"
+        },
+        {
+          "median_percentile": 0.226682692308,
+          "percentile_iqr": 0.3640625,
+          "percentile_variance": 0.070751703258,
+          "player_id": "player_9239abe7aef85d158f774f56048d3491"
+        },
+        {
+          "median_percentile": 0.229086538462,
+          "percentile_iqr": 0.357572115385,
+          "percentile_variance": 0.070455986958,
+          "player_id": "player_d84bc4d07d4d58d4ac8b8316ef013010"
+        },
+        {
+          "median_percentile": 0.245913461538,
+          "percentile_iqr": 0.368269230769,
+          "percentile_variance": 0.070148797563,
+          "player_id": "player_4fef3c177e305f14a01a091c55926431"
+        },
+        {
+          "median_percentile": 0.20625,
+          "percentile_iqr": 0.351442307692,
+          "percentile_variance": 0.07006913517,
+          "player_id": "player_5767b9abe3785ed3be90266e2e3c6189"
+        },
+        {
+          "median_percentile": 0.234615384615,
+          "percentile_iqr": 0.366225961538,
+          "percentile_variance": 0.070013352233,
+          "player_id": "player_625a729409a3513fb11fb2f475c3d5e1"
+        },
+        {
+          "median_percentile": 0.247836538462,
+          "percentile_iqr": 0.368990384615,
+          "percentile_variance": 0.069910025864,
+          "player_id": "player_9e14685345e35f8c83612c7f75de360a"
+        },
+        {
+          "median_percentile": 0.246634615385,
+          "percentile_iqr": 0.362740384615,
+          "percentile_variance": 0.069765548718,
+          "player_id": "player_33b82ec100f1502f900308065405060c"
+        },
+        {
+          "median_percentile": 0.209615384615,
+          "percentile_iqr": 0.347596153846,
+          "percentile_variance": 0.068970848691,
+          "player_id": "player_e6a63d6150aa51d99ee51a8c7d35ae9f"
+        }
+      ],
+      "pairwise_ordering_stability": 0.89752,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "OFFENSE-B",
+      "complete_players": 2080,
+      "mean_percentile_variance": 0.004592801927,
+      "mean_score_variance": 0.004209825024,
+      "median_of_player_median_percentiles": 0.500120192308,
+      "median_player_percentile_iqr": 0.066165865385,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.489423076923,
+          "percentile_iqr": 0.432091346154,
+          "percentile_variance": 0.059889244522,
+          "player_id": "player_42dcc0c34c5855209d9bcc8960a179e9"
+        },
+        {
+          "median_percentile": 0.461538461538,
+          "percentile_iqr": 0.403365384615,
+          "percentile_variance": 0.055998319475,
+          "player_id": "player_0c6dbab247b058c9b2eb751d3d47dae6"
+        },
+        {
+          "median_percentile": 0.470673076923,
+          "percentile_iqr": 0.396514423077,
+          "percentile_variance": 0.052368255542,
+          "player_id": "player_1865519bcf695567a49d99b53fd08ed4"
+        },
+        {
+          "median_percentile": 0.464423076923,
+          "percentile_iqr": 0.372235576923,
+          "percentile_variance": 0.047598568232,
+          "player_id": "player_5ed77161d95455bd828aa86642bffb63"
+        },
+        {
+          "median_percentile": 0.349278846154,
+          "percentile_iqr": 0.365504807692,
+          "percentile_variance": 0.046087026535,
+          "player_id": "player_54ea9413109a555fa2c602538b32dd92"
+        },
+        {
+          "median_percentile": 0.595192307692,
+          "percentile_iqr": 0.358533653846,
+          "percentile_variance": 0.044028373798,
+          "player_id": "player_81f67a10901f5eeeac010b10ba58ee32"
+        },
+        {
+          "median_percentile": 0.463221153846,
+          "percentile_iqr": 0.353605769231,
+          "percentile_variance": 0.04348384208,
+          "player_id": "player_d8268b5537af52d7b2d96b55442d9a75"
+        },
+        {
+          "median_percentile": 0.568990384615,
+          "percentile_iqr": 0.35625,
+          "percentile_variance": 0.04263534809,
+          "player_id": "player_2e0c091879055216861f0c9ffb6a4655"
+        },
+        {
+          "median_percentile": 0.606490384615,
+          "percentile_iqr": 0.358774038462,
+          "percentile_variance": 0.042435285682,
+          "player_id": "player_7c6d4fc1fd415df9ab5f26848b4e27f5"
+        },
+        {
+          "median_percentile": 0.536298076923,
+          "percentile_iqr": 0.357331730769,
+          "percentile_variance": 0.041626801677,
+          "player_id": "player_1831d218349e5ca29afce7ca1b5f34d6"
+        }
+      ],
+      "pairwise_ordering_stability": 0.93362,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "OFFENSE-C",
+      "complete_players": 2130,
+      "mean_percentile_variance": 0.009973869672,
+      "mean_score_variance": 0.007384094337,
+      "median_of_player_median_percentiles": 0.500938967136,
+      "median_player_percentile_iqr": 0.100821596244,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.750704225352,
+          "percentile_iqr": 0.476525821596,
+          "percentile_variance": 0.075568378403,
+          "player_id": "player_4a9d902e44cf59ec8b79e51c2361340f"
+        },
+        {
+          "median_percentile": 0.715492957746,
+          "percentile_iqr": 0.46396713615,
+          "percentile_variance": 0.070537827454,
+          "player_id": "player_5767b9abe3785ed3be90266e2e3c6189"
+        },
+        {
+          "median_percentile": 0.745539906103,
+          "percentile_iqr": 0.453990610329,
+          "percentile_variance": 0.069362007626,
+          "player_id": "player_4fef3c177e305f14a01a091c55926431"
+        },
+        {
+          "median_percentile": 0.755399061033,
+          "percentile_iqr": 0.450117370892,
+          "percentile_variance": 0.069149407475,
+          "player_id": "player_e6a63d6150aa51d99ee51a8c7d35ae9f"
+        },
+        {
+          "median_percentile": 0.770187793427,
+          "percentile_iqr": 0.455399061033,
+          "percentile_variance": 0.069029454468,
+          "player_id": "player_d04a1e8a5f9351c5b443f0e06d4f608e"
+        },
+        {
+          "median_percentile": 0.698122065728,
+          "percentile_iqr": 0.458215962441,
+          "percentile_variance": 0.068116424073,
+          "player_id": "player_3c80a82194905259a4b852ef98a14864"
+        },
+        {
+          "median_percentile": 0.707042253521,
+          "percentile_iqr": 0.453873239437,
+          "percentile_variance": 0.067489860472,
+          "player_id": "player_e19823ab3d2658af88e340ef3c343b61"
+        },
+        {
+          "median_percentile": 0.774882629108,
+          "percentile_iqr": 0.446361502347,
+          "percentile_variance": 0.066944941788,
+          "player_id": "player_149f8f131698542c8ed1c82edbc29a27"
+        },
+        {
+          "median_percentile": 0.767136150235,
+          "percentile_iqr": 0.444483568075,
+          "percentile_variance": 0.066402760453,
+          "player_id": "player_d84bc4d07d4d58d4ac8b8316ef013010"
+        },
+        {
+          "median_percentile": 0.77441314554,
+          "percentile_iqr": 0.442957746479,
+          "percentile_variance": 0.066290394322,
+          "player_id": "player_4096682138035fe3987ecfd0591a8d63"
+        }
+      ],
+      "pairwise_ordering_stability": 0.90302,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "OFFENSE-D",
+      "complete_players": 1657,
+      "mean_percentile_variance": 0.01599458041,
+      "mean_score_variance": 0.009944953183,
+      "median_of_player_median_percentiles": 0.504526252263,
+      "median_player_percentile_iqr": 0.152987326494,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.212130356065,
+          "percentile_iqr": 0.47585998793,
+          "percentile_variance": 0.08384648584,
+          "player_id": "player_575a586f28b553f697bb1ae999615eb8"
+        },
+        {
+          "median_percentile": 0.228123114062,
+          "percentile_iqr": 0.471031985516,
+          "percentile_variance": 0.083006609512,
+          "player_id": "player_368cd378c3b65766a31e34a9fd1f6c3d"
+        },
+        {
+          "median_percentile": 0.274592637296,
+          "percentile_iqr": 0.476614363307,
+          "percentile_variance": 0.081695292115,
+          "player_id": "player_d04a1e8a5f9351c5b443f0e06d4f608e"
+        },
+        {
+          "median_percentile": 0.256789378395,
+          "percentile_iqr": 0.461375980688,
+          "percentile_variance": 0.078899168748,
+          "player_id": "player_eccfe2879c4350b18f4eb8812ce33a81"
+        },
+        {
+          "median_percentile": 0.304767652384,
+          "percentile_iqr": 0.464242607121,
+          "percentile_variance": 0.076707428772,
+          "player_id": "player_149f8f131698542c8ed1c82edbc29a27"
+        },
+        {
+          "median_percentile": 0.343391671696,
+          "percentile_iqr": 0.439649969825,
+          "percentile_variance": 0.074583803674,
+          "player_id": "player_4096682138035fe3987ecfd0591a8d63"
+        },
+        {
+          "median_percentile": 0.276403138202,
+          "percentile_iqr": 0.459565479783,
+          "percentile_variance": 0.074563808957,
+          "player_id": "player_999c6ab0be8857db9762fdc056ca29f4"
+        },
+        {
+          "median_percentile": 0.296318648159,
+          "percentile_iqr": 0.436330718165,
+          "percentile_variance": 0.073575849562,
+          "player_id": "player_9c8afe89d5d759c78d6f65f55b708be2"
+        },
+        {
+          "median_percentile": 0.369342184671,
+          "percentile_iqr": 0.423958961979,
+          "percentile_variance": 0.070698525185,
+          "player_id": "player_d84bc4d07d4d58d4ac8b8316ef013010"
+        },
+        {
+          "median_percentile": 0.260410380205,
+          "percentile_iqr": 0.435878092939,
+          "percentile_variance": 0.070105683929,
+          "player_id": "player_ff6a82b9154f52d297dea16500e47e55"
+        }
+      ],
+      "pairwise_ordering_stability": 0.88312,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "DEFENSE-A",
+      "complete_players": 2049,
+      "mean_percentile_variance": 0.010432128825,
+      "mean_score_variance": 0.007246808405,
+      "median_of_player_median_percentiles": 0.498047828209,
+      "median_player_percentile_iqr": 0.130673499268,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.411664226452,
+          "percentile_iqr": 0.343948267448,
+          "percentile_variance": 0.048767289713,
+          "player_id": "player_e6a63d6150aa51d99ee51a8c7d35ae9f"
+        },
+        {
+          "median_percentile": 0.65495363592,
+          "percentile_iqr": 0.357125427038,
+          "percentile_variance": 0.047693293232,
+          "player_id": "player_5e8816d1ad1f5ea7be9934b2a8775e84"
+        },
+        {
+          "median_percentile": 0.60980966325,
+          "percentile_iqr": 0.355295265983,
+          "percentile_variance": 0.046299734774,
+          "player_id": "player_617ff6658916543f9fdefcf9fd241c81"
+        },
+        {
+          "median_percentile": 0.349926793558,
+          "percentile_iqr": 0.328940946803,
+          "percentile_variance": 0.045795052712,
+          "player_id": "player_464065807625587a83f801454817008b"
+        },
+        {
+          "median_percentile": 0.542459736457,
+          "percentile_iqr": 0.347364568082,
+          "percentile_variance": 0.045781375124,
+          "player_id": "player_3b0291c4fa3651c791f236df3c9f3be5"
+        },
+        {
+          "median_percentile": 0.409712054661,
+          "percentile_iqr": 0.348218643241,
+          "percentile_variance": 0.045725030643,
+          "player_id": "player_54ea9413109a555fa2c602538b32dd92"
+        },
+        {
+          "median_percentile": 0.622010736945,
+          "percentile_iqr": 0.324914592484,
+          "percentile_variance": 0.045675706799,
+          "player_id": "player_6818fe98e91450b19aeaa438ede2d62d"
+        },
+        {
+          "median_percentile": 0.620058565154,
+          "percentile_iqr": 0.362249877989,
+          "percentile_variance": 0.044864322012,
+          "player_id": "player_6066f200b15e52c090783505580473ee"
+        },
+        {
+          "median_percentile": 0.605173255246,
+          "percentile_iqr": 0.340409956076,
+          "percentile_variance": 0.044413718842,
+          "player_id": "player_8344fac094cc5dc5afc626a039d4ac93"
+        },
+        {
+          "median_percentile": 0.696437286481,
+          "percentile_iqr": 0.336383601757,
+          "percentile_variance": 0.044304390743,
+          "player_id": "player_0aa66fe91c345dc68a1b850df2ec3cde"
+        }
+      ],
+      "pairwise_ordering_stability": 0.89028,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "DEFENSE-B",
+      "complete_players": 1704,
+      "mean_percentile_variance": 0.012254253712,
+      "mean_score_variance": 0.005218840264,
+      "median_of_player_median_percentiles": 0.49765258216,
+      "median_player_percentile_iqr": 0.133802816901,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.520833333333,
+          "percentile_iqr": 0.555017605634,
+          "percentile_variance": 0.077534028527,
+          "player_id": "player_3af078fcd19a55eb9d4146268f52b624"
+        },
+        {
+          "median_percentile": 0.18632629108,
+          "percentile_iqr": 0.313526995305,
+          "percentile_variance": 0.075856098052,
+          "player_id": "player_bf04075dba2d5c7ca5056a18b12ddc71"
+        },
+        {
+          "median_percentile": 0.221537558685,
+          "percentile_iqr": 0.300322769953,
+          "percentile_variance": 0.07055444996,
+          "player_id": "player_9fe6ef9d89435f6482e05c193e4ccfb2"
+        },
+        {
+          "median_percentile": 0.320129107981,
+          "percentile_iqr": 0.385563380282,
+          "percentile_variance": 0.067678871139,
+          "player_id": "player_fe869c4b2c3852deb0b21305ea0a1a2d"
+        },
+        {
+          "median_percentile": 0.520246478873,
+          "percentile_iqr": 0.487822769953,
+          "percentile_variance": 0.06136195846,
+          "player_id": "player_00eab900a9085ab28822b085b517b0cf"
+        },
+        {
+          "median_percentile": 0.609448356808,
+          "percentile_iqr": 0.490757042254,
+          "percentile_variance": 0.05938823436,
+          "player_id": "player_7647f9c3fe6e5dd4aa30b84f8d4b8a18"
+        },
+        {
+          "median_percentile": 0.636443661972,
+          "percentile_iqr": 0.412998826291,
+          "percentile_variance": 0.05795769977,
+          "player_id": "player_98f2bfdfe73e5823a9d95b6d51b9dfa5"
+        },
+        {
+          "median_percentile": 0.668427230047,
+          "percentile_iqr": 0.438820422535,
+          "percentile_variance": 0.054989850922,
+          "player_id": "player_3b0291c4fa3651c791f236df3c9f3be5"
+        },
+        {
+          "median_percentile": 0.568075117371,
+          "percentile_iqr": 0.366343896714,
+          "percentile_variance": 0.052039539664,
+          "player_id": "player_0aa66fe91c345dc68a1b850df2ec3cde"
+        },
+        {
+          "median_percentile": 0.589201877934,
+          "percentile_iqr": 0.368397887324,
+          "percentile_variance": 0.050756811292,
+          "player_id": "player_f854d9de67365590b61c6abc1c77913c"
+        }
+      ],
+      "pairwise_ordering_stability": 0.89352,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "DEFENSE-C",
+      "complete_players": 1657,
+      "mean_percentile_variance": 0.025192770396,
+      "mean_score_variance": 0.012623777183,
+      "median_of_player_median_percentiles": 0.500603500302,
+      "median_player_percentile_iqr": 0.235515992758,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.800543150272,
+          "percentile_iqr": 0.472842486421,
+          "percentile_variance": 0.084172746762,
+          "player_id": "player_e6a63d6150aa51d99ee51a8c7d35ae9f"
+        },
+        {
+          "median_percentile": 0.144538322269,
+          "percentile_iqr": 0.479782739891,
+          "percentile_variance": 0.082465677796,
+          "player_id": "player_b3d4be00460d5a34804747f0c9291c26"
+        },
+        {
+          "median_percentile": 0.157513578757,
+          "percentile_iqr": 0.479330114665,
+          "percentile_variance": 0.082446261667,
+          "player_id": "player_609090a7d96b5f37bcf3d8b6ca43c10f"
+        },
+        {
+          "median_percentile": 0.709112854556,
+          "percentile_iqr": 0.503470126735,
+          "percentile_variance": 0.08228835747,
+          "player_id": "player_fe5b3fa0b81a544c9ccf395f244b0fb0"
+        },
+        {
+          "median_percentile": 0.571514785757,
+          "percentile_iqr": 0.551297525649,
+          "percentile_variance": 0.082017242554,
+          "player_id": "player_0b2c8d8d2aeb586dbd363f314a8ea17b"
+        },
+        {
+          "median_percentile": 0.700362100181,
+          "percentile_iqr": 0.481894990947,
+          "percentile_variance": 0.080598532442,
+          "player_id": "player_9e14685345e35f8c83612c7f75de360a"
+        },
+        {
+          "median_percentile": 0.669885334943,
+          "percentile_iqr": 0.501810500905,
+          "percentile_variance": 0.080320570328,
+          "player_id": "player_3c80a82194905259a4b852ef98a14864"
+        },
+        {
+          "median_percentile": 0.622812311406,
+          "percentile_iqr": 0.524441762221,
+          "percentile_variance": 0.080212841445,
+          "player_id": "player_4fef3c177e305f14a01a091c55926431"
+        },
+        {
+          "median_percentile": 0.694628847314,
+          "percentile_iqr": 0.504677127339,
+          "percentile_variance": 0.079695527132,
+          "player_id": "player_6bfab664928b5aafb62cbd90f1a81afb"
+        },
+        {
+          "median_percentile": 0.642426071213,
+          "percentile_iqr": 0.516294508147,
+          "percentile_variance": 0.079110443023,
+          "player_id": "player_b6fe6ed394635dbcb72c7f185af97c21"
+        }
+      ],
+      "pairwise_ordering_stability": 0.83046,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "DEFENSE-D",
+      "complete_players": 1850,
+      "mean_percentile_variance": 0.001702304325,
+      "mean_score_variance": 0.005336940395,
+      "median_of_player_median_percentiles": 0.5,
+      "median_player_percentile_iqr": 0.012432432432,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.371081081081,
+          "percentile_iqr": 0.826486486486,
+          "percentile_variance": 0.134828900628,
+          "player_id": "player_1f123d649e215abb86e9dc32c883a9b4"
+        },
+        {
+          "median_percentile": 0.462432432432,
+          "percentile_iqr": 0.739189189189,
+          "percentile_variance": 0.113159361804,
+          "player_id": "player_162b014ae46d5757810255559b802fb4"
+        },
+        {
+          "median_percentile": 0.553513513514,
+          "percentile_iqr": 0.67527027027,
+          "percentile_variance": 0.099594731563,
+          "player_id": "player_1c81c8732c045d858d158afbc0b557ad"
+        },
+        {
+          "median_percentile": 0.612702702703,
+          "percentile_iqr": 0.641891891892,
+          "percentile_variance": 0.093141149094,
+          "player_id": "player_3af078fcd19a55eb9d4146268f52b624"
+        },
+        {
+          "median_percentile": 0.606486486486,
+          "percentile_iqr": 0.632027027027,
+          "percentile_variance": 0.088547541972,
+          "player_id": "player_fe869c4b2c3852deb0b21305ea0a1a2d"
+        },
+        {
+          "median_percentile": 0.631081081081,
+          "percentile_iqr": 0.606621621622,
+          "percentile_variance": 0.083254824244,
+          "player_id": "player_bf04075dba2d5c7ca5056a18b12ddc71"
+        },
+        {
+          "median_percentile": 0.684864864865,
+          "percentile_iqr": 0.577702702703,
+          "percentile_variance": 0.079719531855,
+          "player_id": "player_00eab900a9085ab28822b085b517b0cf"
+        },
+        {
+          "median_percentile": 0.621351351351,
+          "percentile_iqr": 0.597432432432,
+          "percentile_variance": 0.078620437684,
+          "player_id": "player_a0b22462fd3c5db58f2c903a40a330d4"
+        },
+        {
+          "median_percentile": 0.70972972973,
+          "percentile_iqr": 0.555135135135,
+          "percentile_variance": 0.07414553244,
+          "player_id": "player_7647f9c3fe6e5dd4aa30b84f8d4b8a18"
+        },
+        {
+          "median_percentile": 0.651081081081,
+          "percentile_iqr": 0.568108108108,
+          "percentile_variance": 0.07267815851,
+          "player_id": "player_c822cacbd03250e393cf148f08c26104"
+        }
+      ],
+      "pairwise_ordering_stability": 0.98646,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PLAYOFFS-A",
+      "complete_players": 2062,
+      "mean_percentile_variance": 0.01071301027,
+      "mean_score_variance": 0.007012762113,
+      "median_of_player_median_percentiles": 0.499878758487,
+      "median_player_percentile_iqr": 0.127364209505,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.326624636275,
+          "percentile_iqr": 0.279340446169,
+          "percentile_variance": 0.05009260923,
+          "player_id": "player_1049de7fb913500e8c23110d92c98fa0"
+        },
+        {
+          "median_percentile": 0.620514064016,
+          "percentile_iqr": 0.336930164888,
+          "percentile_variance": 0.044856986757,
+          "player_id": "player_49b8fa15dbfc5ae383fa2bd48dcb29c9"
+        },
+        {
+          "median_percentile": 0.377303588749,
+          "percentile_iqr": 0.284553831232,
+          "percentile_variance": 0.043006253281,
+          "player_id": "player_60d06920179b522aafe87a25c242fb31"
+        },
+        {
+          "median_percentile": 0.33777885548,
+          "percentile_iqr": 0.245877788555,
+          "percentile_variance": 0.042677249589,
+          "player_id": "player_2e0c091879055216861f0c9ffb6a4655"
+        },
+        {
+          "median_percentile": 0.556013579049,
+          "percentile_iqr": 0.301770126091,
+          "percentile_variance": 0.042554379018,
+          "player_id": "player_d62581c497bd50ffa76b53d938aa43d8"
+        },
+        {
+          "median_percentile": 0.146217264791,
+          "percentile_iqr": 0.246605237633,
+          "percentile_variance": 0.04181004072,
+          "player_id": "player_7025325dc35d5031b7a56078d3ba2333"
+        },
+        {
+          "median_percentile": 0.137487875849,
+          "percentile_iqr": 0.243452958293,
+          "percentile_variance": 0.041533234898,
+          "player_id": "player_ec47e0fc55bc59498b51dd9936fd8a2f"
+        },
+        {
+          "median_percentile": 0.181134820563,
+          "percentile_iqr": 0.238360814743,
+          "percentile_variance": 0.041395324893,
+          "player_id": "player_733cc1e01cb852dcb6af886db8e976ec"
+        },
+        {
+          "median_percentile": 0.188409311348,
+          "percentile_iqr": 0.229752667313,
+          "percentile_variance": 0.041211321717,
+          "player_id": "player_1c0ba91e2374578e8b5e64c4e21ccce1"
+        },
+        {
+          "median_percentile": 0.151309408341,
+          "percentile_iqr": 0.245029097963,
+          "percentile_variance": 0.040938990612,
+          "player_id": "player_1922cf1f6e2453648d8aaa58bb8cab81"
+        }
+      ],
+      "pairwise_ordering_stability": 0.9029,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PLAYOFFS-B",
+      "complete_players": 969,
+      "mean_percentile_variance": 0.006472822266,
+      "mean_score_variance": 0.004425427938,
+      "median_of_player_median_percentiles": 0.499484004128,
+      "median_player_percentile_iqr": 0.08875128999,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.559855521156,
+          "percentile_iqr": 0.2564499484,
+          "percentile_variance": 0.032424344541,
+          "player_id": "player_5ccf549b06fd5434b9de8d2a5378b53a"
+        },
+        {
+          "median_percentile": 0.566563467492,
+          "percentile_iqr": 0.261867905057,
+          "percentile_variance": 0.030951114157,
+          "player_id": "player_fb625a9ee464595080abeb4402c8c6ef"
+        },
+        {
+          "median_percentile": 0.5,
+          "percentile_iqr": 0.24742002064,
+          "percentile_variance": 0.030153714478,
+          "player_id": "player_62e3353cce5e5b88824ca479b0094ec1"
+        },
+        {
+          "median_percentile": 0.488648090815,
+          "percentile_iqr": 0.252063983488,
+          "percentile_variance": 0.0286525881,
+          "player_id": "player_fad215a351415e1687c8776fd04c6c8f"
+        },
+        {
+          "median_percentile": 0.529927760578,
+          "percentile_iqr": 0.257223942208,
+          "percentile_variance": 0.02625149969,
+          "player_id": "player_8ef91eabfa595ddebf495d4159e79f5c"
+        },
+        {
+          "median_percentile": 0.28689370485,
+          "percentile_iqr": 0.206398348813,
+          "percentile_variance": 0.025434620581,
+          "player_id": "player_cf1b9adaaab9528786d5a100f6bb2190"
+        },
+        {
+          "median_percentile": 0.531991744066,
+          "percentile_iqr": 0.233488132095,
+          "percentile_variance": 0.025430798404,
+          "player_id": "player_0a85a93d4d025001af6d9880bf1acef1"
+        },
+        {
+          "median_percentile": 0.59649122807,
+          "percentile_iqr": 0.244324045408,
+          "percentile_variance": 0.025090208193,
+          "player_id": "player_3e837548ba3951d8abbf1191ea14080e"
+        },
+        {
+          "median_percentile": 0.467492260062,
+          "percentile_iqr": 0.232972136223,
+          "percentile_variance": 0.024825186456,
+          "player_id": "player_90858b07c3dc5c8bb2663877de94e040"
+        },
+        {
+          "median_percentile": 0.59391124871,
+          "percentile_iqr": 0.225232198142,
+          "percentile_variance": 0.024313733478,
+          "player_id": "player_724dd308f5975b8fbe79704cf0bdad6a"
+        }
+      ],
+      "pairwise_ordering_stability": 0.92272,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PLAYOFFS-C",
+      "complete_players": 2370,
+      "mean_percentile_variance": 0.004366941176,
+      "mean_score_variance": 0.003624431006,
+      "median_of_player_median_percentiles": 0.498206751055,
+      "median_player_percentile_iqr": 0.076793248945,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.575105485232,
+          "percentile_iqr": 0.265189873418,
+          "percentile_variance": 0.028284778859,
+          "player_id": "player_241c798e45205f278c5fbec8522a70fd"
+        },
+        {
+          "median_percentile": 0.523417721519,
+          "percentile_iqr": 0.271202531646,
+          "percentile_variance": 0.026414426886,
+          "player_id": "player_0d4f8c81886f5b2e8f51fde9c673ccf9"
+        },
+        {
+          "median_percentile": 0.54388185654,
+          "percentile_iqr": 0.258860759494,
+          "percentile_variance": 0.026326516744,
+          "player_id": "player_eb10a6ce445051139148679b70b2a83a"
+        },
+        {
+          "median_percentile": 0.507383966245,
+          "percentile_iqr": 0.233438818565,
+          "percentile_variance": 0.024167057825,
+          "player_id": "player_0b8e17c4505653838389254435558ddd"
+        },
+        {
+          "median_percentile": 0.348312236287,
+          "percentile_iqr": 0.240717299578,
+          "percentile_variance": 0.023558095529,
+          "player_id": "player_9bc3f8a04a215fa1850d8447cff62d07"
+        },
+        {
+          "median_percentile": 0.45611814346,
+          "percentile_iqr": 0.231540084388,
+          "percentile_variance": 0.023286974661,
+          "player_id": "player_654921257b825d17990b4e3ab8809223"
+        },
+        {
+          "median_percentile": 0.461181434599,
+          "percentile_iqr": 0.252320675105,
+          "percentile_variance": 0.022838117783,
+          "player_id": "player_61b7efd548575a7687d695b70e9397e8"
+        },
+        {
+          "median_percentile": 0.339240506329,
+          "percentile_iqr": 0.245675105485,
+          "percentile_variance": 0.022516320461,
+          "player_id": "player_42de5d0aa6be575b936197ebb87e6939"
+        },
+        {
+          "median_percentile": 0.440084388186,
+          "percentile_iqr": 0.25664556962,
+          "percentile_variance": 0.022453145325,
+          "player_id": "player_43a3ebaf3593508c87310f8b9ba5dec9"
+        },
+        {
+          "median_percentile": 0.448523206751,
+          "percentile_iqr": 0.230063291139,
+          "percentile_variance": 0.02153423614,
+          "player_id": "player_f972892c27335526a1117aadc384b6d3"
+        }
+      ],
+      "pairwise_ordering_stability": 0.9419,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PLAYOFFS-D",
+      "complete_players": 1754,
+      "mean_percentile_variance": 0.015925276578,
+      "mean_score_variance": 0.009119373384,
+      "median_of_player_median_percentiles": 0.498004561003,
+      "median_player_percentile_iqr": 0.162058152794,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.403078677309,
+          "percentile_iqr": 0.462514253136,
+          "percentile_variance": 0.067568428021,
+          "player_id": "player_640a77e7e1245f8096a8b6865c140665"
+        },
+        {
+          "median_percentile": 0.103192702395,
+          "percentile_iqr": 0.306584948689,
+          "percentile_variance": 0.06456130064,
+          "player_id": "player_733cc1e01cb852dcb6af886db8e976ec"
+        },
+        {
+          "median_percentile": 0.100342075257,
+          "percentile_iqr": 0.307297605473,
+          "percentile_variance": 0.06109995039,
+          "player_id": "player_c3e7498575f759be9bbfdd7265682bdd"
+        },
+        {
+          "median_percentile": 0.083523375143,
+          "percentile_iqr": 0.289908779932,
+          "percentile_variance": 0.059999796653,
+          "player_id": "player_21afa253f79856aaa332c4907b1c0942"
+        },
+        {
+          "median_percentile": 0.610889395667,
+          "percentile_iqr": 0.437428734322,
+          "percentile_variance": 0.059402013113,
+          "player_id": "player_42dcc0c34c5855209d9bcc8960a179e9"
+        },
+        {
+          "median_percentile": 0.273090079818,
+          "percentile_iqr": 0.346921322691,
+          "percentile_variance": 0.057838070719,
+          "player_id": "player_41daa1a5cbdc540ea1c7fc26ce3bb812"
+        },
+        {
+          "median_percentile": 0.416476624857,
+          "percentile_iqr": 0.405359179019,
+          "percentile_variance": 0.057096046234,
+          "player_id": "player_0f99a20dcc255c7493c844725b9997da"
+        },
+        {
+          "median_percentile": 0.421037628278,
+          "percentile_iqr": 0.375427594071,
+          "percentile_variance": 0.056739112286,
+          "player_id": "player_7025325dc35d5031b7a56078d3ba2333"
+        },
+        {
+          "median_percentile": 0.591220068415,
+          "percentile_iqr": 0.377137970353,
+          "percentile_variance": 0.056529114419,
+          "player_id": "player_7a3acb0b25f05b3c9185ce9c57eac22c"
+        },
+        {
+          "median_percentile": 0.243728620296,
+          "percentile_iqr": 0.310148232611,
+          "percentile_variance": 0.056127359967,
+          "player_id": "player_b859fd522e295b30b1381f732a49c64b"
+        }
+      ],
+      "pairwise_ordering_stability": 0.86138,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "PLAYOFFS-E",
+      "complete_players": 2370,
+      "mean_percentile_variance": 0.004378323855,
+      "mean_score_variance": 0.004228197001,
+      "median_of_player_median_percentiles": 0.505801687763,
+      "median_player_percentile_iqr": 0.068459915612,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.533544303797,
+          "percentile_iqr": 0.209282700422,
+          "percentile_variance": 0.022718430736,
+          "player_id": "player_0b8e17c4505653838389254435558ddd"
+        },
+        {
+          "median_percentile": 0.467932489451,
+          "percentile_iqr": 0.202109704641,
+          "percentile_variance": 0.022089004215,
+          "player_id": "player_654921257b825d17990b4e3ab8809223"
+        },
+        {
+          "median_percentile": 0.669831223629,
+          "percentile_iqr": 0.235021097046,
+          "percentile_variance": 0.021641445708,
+          "player_id": "player_0abffe589c2654b0bc5c90a18835aced"
+        },
+        {
+          "median_percentile": 0.449367088608,
+          "percentile_iqr": 0.232172995781,
+          "percentile_variance": 0.021560183215,
+          "player_id": "player_e31c1ec2d0d752f0bf1406fc8458abac"
+        },
+        {
+          "median_percentile": 0.437130801688,
+          "percentile_iqr": 0.222890295359,
+          "percentile_variance": 0.021481040391,
+          "player_id": "player_0b3a9e861da75617bed76c20cbd81868"
+        },
+        {
+          "median_percentile": 0.512658227848,
+          "percentile_iqr": 0.214873417722,
+          "percentile_variance": 0.021248878167,
+          "player_id": "player_409c1b2d9e285cf0b6328348c22512bf"
+        },
+        {
+          "median_percentile": 0.36582278481,
+          "percentile_iqr": 0.234915611814,
+          "percentile_variance": 0.021244194658,
+          "player_id": "player_cc95d03a54ba518f9727d99ae89617ed"
+        },
+        {
+          "median_percentile": 0.338396624473,
+          "percentile_iqr": 0.239345991561,
+          "percentile_variance": 0.0209952812,
+          "player_id": "player_4caebfa45a1e527aaa0df85f5bbdba63"
+        },
+        {
+          "median_percentile": 0.341772151899,
+          "percentile_iqr": 0.254957805907,
+          "percentile_variance": 0.020938757304,
+          "player_id": "player_ceff728d642b5b7b8321891e2f4d141c"
+        },
+        {
+          "median_percentile": 0.358860759494,
+          "percentile_iqr": 0.205379746835,
+          "percentile_variance": 0.020547347643,
+          "player_id": "player_34871733181c5d6f8da5f08ce7f7430c"
+        }
+      ],
+      "pairwise_ordering_stability": 0.93588,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ACCOLADES-A",
+      "complete_players": 2120,
+      "mean_percentile_variance": 0.000149490262,
+      "mean_score_variance": 0.001069025763,
+      "median_of_player_median_percentiles": 0.41108490566,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.89929245283,
+          "percentile_iqr": 0.143514150943,
+          "percentile_variance": 0.003980758894,
+          "player_id": "player_e873bfc87c975b53a908224b2df10f97"
+        },
+        {
+          "median_percentile": 0.964858490566,
+          "percentile_iqr": 0.055070754717,
+          "percentile_variance": 0.001807096186,
+          "player_id": "player_782712e68a115e61a7966ec12cccfe4c"
+        },
+        {
+          "median_percentile": 0.962971698113,
+          "percentile_iqr": 0.055070754717,
+          "percentile_variance": 0.001801911178,
+          "player_id": "player_c157ac33aa445169886c2bff6591950c"
+        },
+        {
+          "median_percentile": 0.962971698113,
+          "percentile_iqr": 0.055070754717,
+          "percentile_variance": 0.001801911178,
+          "player_id": "player_eecffdc2fe5252cc9602690423c114cc"
+        },
+        {
+          "median_percentile": 0.966273584906,
+          "percentile_iqr": 0.055896226415,
+          "percentile_variance": 0.001780030149,
+          "player_id": "player_ce64ea7477285e31afb09d0aa2535313"
+        },
+        {
+          "median_percentile": 0.871933962264,
+          "percentile_iqr": 0.08125,
+          "percentile_variance": 0.001759213861,
+          "player_id": "player_31d31085e4395cab997d7dc0d6b86260"
+        },
+        {
+          "median_percentile": 0.966273584906,
+          "percentile_iqr": 0.049528301887,
+          "percentile_variance": 0.001755553578,
+          "player_id": "player_f5372d2f97245323a123f1b1ff02e6c2"
+        },
+        {
+          "median_percentile": 0.871462264151,
+          "percentile_iqr": 0.081132075472,
+          "percentile_variance": 0.00174482654,
+          "player_id": "player_4373698c22b956448da037c4c3317ab4"
+        },
+        {
+          "median_percentile": 0.870047169811,
+          "percentile_iqr": 0.081132075472,
+          "percentile_variance": 0.001718649647,
+          "player_id": "player_28a7a81b8bf555eb98fdb6acd1783ff0"
+        },
+        {
+          "median_percentile": 0.870047169811,
+          "percentile_iqr": 0.081132075472,
+          "percentile_variance": 0.001718649647,
+          "player_id": "player_53076504c1f1513ca72581f28c438c5e"
+        }
+      ],
+      "pairwise_ordering_stability": 0.99632,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ACCOLADES-B",
+      "complete_players": 2120,
+      "mean_percentile_variance": 0.0,
+      "mean_score_variance": 0.0,
+      "median_of_player_median_percentiles": 0.41108490566,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d"
+        },
+        {
+          "median_percentile": 0.864150943396,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd"
+        },
+        {
+          "median_percentile": 0.88679245283,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_00dd275e83da526a89de5566c3df2ac0"
+        },
+        {
+          "median_percentile": 0.977594339623,
+          "percentile_iqr": 0.0,
+          "percentile_variance": -0.0,
+          "player_id": "player_00eab900a9085ab28822b085b517b0cf"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_01077d88af5951c3b782a4f1cd2072f3"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_013675cd561c5fa7994917bf8f87e0ad"
+        }
+      ],
+      "pairwise_ordering_stability": 1.0,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ACCOLADES-C",
+      "complete_players": 2120,
+      "mean_percentile_variance": 0.0,
+      "mean_score_variance": 0.0,
+      "median_of_player_median_percentiles": 0.41108490566,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d"
+        },
+        {
+          "median_percentile": 0.856839622642,
+          "percentile_iqr": 0.0,
+          "percentile_variance": -0.0,
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd"
+        },
+        {
+          "median_percentile": 0.933018867925,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_00dd275e83da526a89de5566c3df2ac0"
+        },
+        {
+          "median_percentile": 0.955424528302,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_00eab900a9085ab28822b085b517b0cf"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_01077d88af5951c3b782a4f1cd2072f3"
+        },
+        {
+          "median_percentile": 0.41108490566,
+          "percentile_iqr": 0.0,
+          "percentile_variance": 0.0,
+          "player_id": "player_013675cd561c5fa7994917bf8f87e0ad"
+        }
+      ],
+      "pairwise_ordering_stability": 1.0,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ACCOLADES-D",
+      "complete_players": 2120,
+      "mean_percentile_variance": 0.000313990969,
+      "mean_score_variance": 0.002465749329,
+      "median_of_player_median_percentiles": 0.369339622642,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.820047169811,
+          "percentile_iqr": 0.139150943396,
+          "percentile_variance": 0.005386902139,
+          "player_id": "player_8d3beed52c865e0684a1c7fe885dafde"
+        },
+        {
+          "median_percentile": 0.819575471698,
+          "percentile_iqr": 0.139150943396,
+          "percentile_variance": 0.005358824849,
+          "player_id": "player_6fbee650bfbc5b1fbe96a2e7ad22b96d"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_08ae3d6b4a18531bba6f69e0bd071466"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_3cfc9258411154bb9e8424f3f2f06f68"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_51f681e5aae155d6ad0fceac3c90c5b6"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_54ea9413109a555fa2c602538b32dd92"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_8ae03ed871df5e9187a76ddb5d8bd0f6"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_924ad6e8234654e1902901c8f760c886"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_a64b8546e94f5c43ac2e0c8c4e88b21a"
+        },
+        {
+          "median_percentile": 0.816981132075,
+          "percentile_iqr": 0.13608490566,
+          "percentile_variance": 0.005273817172,
+          "player_id": "player_b4b30cbb7dcc517293597e659347d92b"
+        }
+      ],
+      "pairwise_ordering_stability": 0.99162,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ACCOLADES-E",
+      "complete_players": 2120,
+      "mean_percentile_variance": 1.766595e-06,
+      "mean_score_variance": 0.000449926225,
+      "median_of_player_median_percentiles": 0.482311320755,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.980424528302,
+          "percentile_iqr": 0.015919811321,
+          "percentile_variance": 7.5024475e-05,
+          "player_id": "player_850b0046892e5ac4b512a001328f409b"
+        },
+        {
+          "median_percentile": 0.979245283019,
+          "percentile_iqr": 0.015566037736,
+          "percentile_variance": 7.471084e-05,
+          "player_id": "player_89da3dc71ba153879fc1d08570794248"
+        },
+        {
+          "median_percentile": 0.979245283019,
+          "percentile_iqr": 0.015566037736,
+          "percentile_variance": 7.471084e-05,
+          "player_id": "player_aae2bb0e360057d48e7ab2d48990cb4a"
+        },
+        {
+          "median_percentile": 0.979245283019,
+          "percentile_iqr": 0.015566037736,
+          "percentile_variance": 7.471084e-05,
+          "player_id": "player_ca7fe50b2a365222a60ea5124d7fd093"
+        },
+        {
+          "median_percentile": 0.979245283019,
+          "percentile_iqr": 0.015566037736,
+          "percentile_variance": 7.471084e-05,
+          "player_id": "player_ce64ea7477285e31afb09d0aa2535313"
+        },
+        {
+          "median_percentile": 0.975235849057,
+          "percentile_iqr": 0.014622641509,
+          "percentile_variance": 7.4399202e-05,
+          "player_id": "player_4aa6e8b4cf88505b97eee0aaab498cb2"
+        },
+        {
+          "median_percentile": 0.975235849057,
+          "percentile_iqr": 0.014622641509,
+          "percentile_variance": 7.4399202e-05,
+          "player_id": "player_54bcb31d5b925a30ac6feb0702c50c7c"
+        },
+        {
+          "median_percentile": 0.975235849057,
+          "percentile_iqr": 0.014622641509,
+          "percentile_variance": 7.4399202e-05,
+          "player_id": "player_782712e68a115e61a7966ec12cccfe4c"
+        },
+        {
+          "median_percentile": 0.975235849057,
+          "percentile_iqr": 0.014622641509,
+          "percentile_variance": 7.4399202e-05,
+          "player_id": "player_7fa2db9a7cd05b8fb4376bbb338ed101"
+        },
+        {
+          "median_percentile": 0.975235849057,
+          "percentile_iqr": 0.014622641509,
+          "percentile_variance": 7.4399202e-05,
+          "player_id": "player_a7f4187b2881554297f01af08d9a1136"
+        }
+      ],
+      "pairwise_ordering_stability": 1.0,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "WINNING-A",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.005631067378,
+      "mean_score_variance": 0.004922156095,
+      "median_of_player_median_percentiles": 0.502164909639,
+      "median_player_percentile_iqr": 0.081937123494,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.213290662651,
+          "percentile_iqr": 0.320689006024,
+          "percentile_variance": 0.045653037759,
+          "player_id": "player_15d3c7b7e9625aad96d43c98cba79511"
+        },
+        {
+          "median_percentile": 0.213667168675,
+          "percentile_iqr": 0.320877259036,
+          "percentile_variance": 0.045637214672,
+          "player_id": "player_1c2305bc29585595ada11066625e9357"
+        },
+        {
+          "median_percentile": 0.214796686747,
+          "percentile_iqr": 0.31842996988,
+          "percentile_variance": 0.045470855599,
+          "player_id": "player_5f522737996c5e36b57b0280eb3317db"
+        },
+        {
+          "median_percentile": 0.217996987952,
+          "percentile_iqr": 0.312688253012,
+          "percentile_variance": 0.044997789129,
+          "player_id": "player_a5bd047466455ca8ab3d10a07c6deed0"
+        },
+        {
+          "median_percentile": 0.451995481928,
+          "percentile_iqr": 0.340079066265,
+          "percentile_variance": 0.044927314718,
+          "player_id": "player_6d08b3d5f5a9597d9efe62383bb1c6d3"
+        },
+        {
+          "median_percentile": 0.696159638554,
+          "percentile_iqr": 0.325583584337,
+          "percentile_variance": 0.044568519131,
+          "player_id": "player_9599d908050d5172b981485335709dfb"
+        },
+        {
+          "median_percentile": 0.479668674699,
+          "percentile_iqr": 0.404649849398,
+          "percentile_variance": 0.043875542074,
+          "player_id": "player_aef7e90da88651acba43f802c061e086"
+        },
+        {
+          "median_percentile": 0.226468373494,
+          "percentile_iqr": 0.300734186747,
+          "percentile_variance": 0.043710087753,
+          "player_id": "player_206e094ac1e3582289389717f85e1a55"
+        },
+        {
+          "median_percentile": 0.495858433735,
+          "percentile_iqr": 0.394954819277,
+          "percentile_variance": 0.041724621959,
+          "player_id": "player_cd1f56ada0a45e0eb124a55dcc3032f1"
+        },
+        {
+          "median_percentile": 0.504706325301,
+          "percentile_iqr": 0.358245481928,
+          "percentile_variance": 0.039414241666,
+          "player_id": "player_48f5e1d4af56527a8e09fca2265622ab"
+        }
+      ],
+      "pairwise_ordering_stability": 0.93356,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "WINNING-B",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.001132805584,
+      "mean_score_variance": 0.00398405751,
+      "median_of_player_median_percentiles": 0.50047063253,
+      "median_player_percentile_iqr": 0.021084337349,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.336031626506,
+          "percentile_iqr": 0.359563253012,
+          "percentile_variance": 0.048013586931,
+          "player_id": "player_e09935d0ec5c51d38b18ecd2b316e630"
+        },
+        {
+          "median_percentile": 0.369540662651,
+          "percentile_iqr": 0.332925451807,
+          "percentile_variance": 0.044860538809,
+          "player_id": "player_7f0e0998c04e5a35a5c9faa5a1a8efa4"
+        },
+        {
+          "median_percentile": 0.38968373494,
+          "percentile_iqr": 0.354480421687,
+          "percentile_variance": 0.042340397363,
+          "player_id": "player_0f50e41c1db55667b7e8bab7dc5a2b77"
+        },
+        {
+          "median_percentile": 0.417733433735,
+          "percentile_iqr": 0.319559487952,
+          "percentile_variance": 0.038496963339,
+          "player_id": "player_75777ef0c24754c688d1e4d14d193926"
+        },
+        {
+          "median_percentile": 0.417733433735,
+          "percentile_iqr": 0.319559487952,
+          "percentile_variance": 0.038496963339,
+          "player_id": "player_deccbce332165863ab5fabbd6464ac78"
+        },
+        {
+          "median_percentile": 0.439759036145,
+          "percentile_iqr": 0.324736445783,
+          "percentile_variance": 0.034647836097,
+          "player_id": "player_1f073853515a5f1fa7dcf1d4ca73b46e"
+        },
+        {
+          "median_percentile": 0.469314759036,
+          "percentile_iqr": 0.310146837349,
+          "percentile_variance": 0.033179130736,
+          "player_id": "player_22e14ff373b25ffe949598b7f5260c39"
+        },
+        {
+          "median_percentile": 0.454631024096,
+          "percentile_iqr": 0.326054216867,
+          "percentile_variance": 0.032934997085,
+          "player_id": "player_c4f23456de5f552f9a7846c271464f61"
+        },
+        {
+          "median_percentile": 0.47797439759,
+          "percentile_iqr": 0.329442771084,
+          "percentile_variance": 0.031834093212,
+          "player_id": "player_58d3f25159ac5eab820f8e3138adecb8"
+        },
+        {
+          "median_percentile": 0.481739457831,
+          "percentile_iqr": 0.315888554217,
+          "percentile_variance": 0.029368516721,
+          "player_id": "player_64bfaf2c68bd5f59b5eda18095e547b8"
+        }
+      ],
+      "pairwise_ordering_stability": 0.98228,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "WINNING-C",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.000135549556,
+      "mean_score_variance": 0.001369820424,
+      "median_of_player_median_percentiles": 0.331325301205,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.887612951807,
+          "percentile_iqr": 0.132153614458,
+          "percentile_variance": 0.003861266943,
+          "player_id": "player_2b44bdc1faa55e7291f7cf4a2b10ad53"
+        },
+        {
+          "median_percentile": 0.772402108434,
+          "percentile_iqr": 0.078313253012,
+          "percentile_variance": 0.003698354569,
+          "player_id": "player_0c428850da185e15a7b35385a71e24c6"
+        },
+        {
+          "median_percentile": 0.879518072289,
+          "percentile_iqr": 0.117281626506,
+          "percentile_variance": 0.003353145183,
+          "player_id": "player_3f0c7d4c98bb51e09eb7bec2da395474"
+        },
+        {
+          "median_percentile": 0.880459337349,
+          "percentile_iqr": 0.118034638554,
+          "percentile_variance": 0.003303447695,
+          "player_id": "player_539ddac3c57f5fa7a4c99306b505dc19"
+        },
+        {
+          "median_percentile": 0.879894578313,
+          "percentile_iqr": 0.115681475904,
+          "percentile_variance": 0.003271570758,
+          "player_id": "player_329e372b0b86555d888e2f5c94bf3a62"
+        },
+        {
+          "median_percentile": 0.879894578313,
+          "percentile_iqr": 0.115681475904,
+          "percentile_variance": 0.003271570758,
+          "player_id": "player_d92930381047517db95c61ebd340aaf8"
+        },
+        {
+          "median_percentile": 0.852409638554,
+          "percentile_iqr": 0.094597138554,
+          "percentile_variance": 0.002840032627,
+          "player_id": "player_8803800efca8597ebbae4f4e3776ac4e"
+        },
+        {
+          "median_percentile": 0.875188253012,
+          "percentile_iqr": 0.091585090361,
+          "percentile_variance": 0.002765124,
+          "player_id": "player_92a08d43e6cd5b0d939fc26c74141ad0"
+        },
+        {
+          "median_percentile": 0.87311746988,
+          "percentile_iqr": 0.091585090361,
+          "percentile_variance": 0.002710300091,
+          "player_id": "player_47a43d09a43c5afca9c143c84715cc53"
+        },
+        {
+          "median_percentile": 0.87311746988,
+          "percentile_iqr": 0.091585090361,
+          "percentile_variance": 0.002710300091,
+          "player_id": "player_b2183321e540567e9199e06bea61ea2a"
+        }
+      ],
+      "pairwise_ordering_stability": 0.99466,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "WINNING-D",
+      "complete_players": 896,
+      "mean_percentile_variance": 0.011904595077,
+      "mean_score_variance": 0.007669613248,
+      "median_of_player_median_percentiles": 0.502790178571,
+      "median_player_percentile_iqr": 0.151088169642,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.416294642857,
+          "percentile_iqr": 0.317522321429,
+          "percentile_variance": 0.036709470134,
+          "player_id": "player_f70020402691560d9c2116d2b436a349"
+        },
+        {
+          "median_percentile": 0.426339285714,
+          "percentile_iqr": 0.309988839286,
+          "percentile_variance": 0.035107396932,
+          "player_id": "player_699c99422c7851cd90ebb2351f247e44"
+        },
+        {
+          "median_percentile": 0.427455357143,
+          "percentile_iqr": 0.309709821429,
+          "percentile_variance": 0.035053411492,
+          "player_id": "player_207a11b70864535e9c926dedd53c1b3d"
+        },
+        {
+          "median_percentile": 0.409598214286,
+          "percentile_iqr": 0.241629464286,
+          "percentile_variance": 0.034470484395,
+          "player_id": "player_d7558b65ea14553fb7b4ad26d4b4369c"
+        },
+        {
+          "median_percentile": 0.698102678571,
+          "percentile_iqr": 0.256696428571,
+          "percentile_variance": 0.034043614477,
+          "player_id": "player_95bdcd17b55152a6ac72f087643d95c4"
+        },
+        {
+          "median_percentile": 0.440848214286,
+          "percentile_iqr": 0.302734375,
+          "percentile_variance": 0.033365219147,
+          "player_id": "player_eec644b2cb0a5a5ba6877f93bd056f89"
+        },
+        {
+          "median_percentile": 0.438058035714,
+          "percentile_iqr": 0.238560267857,
+          "percentile_variance": 0.031992489904,
+          "player_id": "player_0bd5cb47851d523eb5cdd8e63d7a5780"
+        },
+        {
+          "median_percentile": 0.465959821429,
+          "percentile_iqr": 0.285435267857,
+          "percentile_variance": 0.030403686399,
+          "player_id": "player_3a444aa9adde5f48bf08f6bb689fb335"
+        },
+        {
+          "median_percentile": 0.428013392857,
+          "percentile_iqr": 0.285435267857,
+          "percentile_variance": 0.02937737651,
+          "player_id": "player_35648ba171d85863a401a11e4d37a92c"
+        },
+        {
+          "median_percentile": 0.4453125,
+          "percentile_iqr": 0.290178571429,
+          "percentile_variance": 0.02922862745,
+          "player_id": "player_5cdcbe0b2eca500d972e82cc7b54f7ea"
+        }
+      ],
+      "pairwise_ordering_stability": 0.89114,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "WINNING-E",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.004280527461,
+      "mean_score_variance": 0.00481291738,
+      "median_of_player_median_percentiles": 0.485881024096,
+      "median_player_percentile_iqr": 0.063158885542,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.407756024096,
+          "percentile_iqr": 0.39796686747,
+          "percentile_variance": 0.048275842772,
+          "player_id": "player_0f7fe0af095c51a6837ce900ad88bb9b"
+        },
+        {
+          "median_percentile": 0.407756024096,
+          "percentile_iqr": 0.39796686747,
+          "percentile_variance": 0.048275842772,
+          "player_id": "player_46858e9137ac56428369d86d7f1db982"
+        },
+        {
+          "median_percentile": 0.407756024096,
+          "percentile_iqr": 0.39796686747,
+          "percentile_variance": 0.048275842772,
+          "player_id": "player_9599d908050d5172b981485335709dfb"
+        },
+        {
+          "median_percentile": 0.407756024096,
+          "percentile_iqr": 0.39796686747,
+          "percentile_variance": 0.048275842772,
+          "player_id": "player_9c3d7ad2c62f5495bcbfd8664028303e"
+        },
+        {
+          "median_percentile": 0.520331325301,
+          "percentile_iqr": 0.337255271084,
+          "percentile_variance": 0.035956490019,
+          "player_id": "player_57179edcf1235a8881ad5ff4704d9593"
+        },
+        {
+          "median_percentile": 0.465926204819,
+          "percentile_iqr": 0.301016566265,
+          "percentile_variance": 0.031109649579,
+          "player_id": "player_513bc3ee6aab5d808e3bd785f6b6770d"
+        },
+        {
+          "median_percentile": 0.465926204819,
+          "percentile_iqr": 0.301016566265,
+          "percentile_variance": 0.031109649579,
+          "player_id": "player_6cb8747fb9995d7980da9d7c81c7c546"
+        },
+        {
+          "median_percentile": 0.465926204819,
+          "percentile_iqr": 0.301016566265,
+          "percentile_variance": 0.031109649579,
+          "player_id": "player_7080fc97975f511390d18d5442ba0d2e"
+        },
+        {
+          "median_percentile": 0.465926204819,
+          "percentile_iqr": 0.301016566265,
+          "percentile_variance": 0.031109649579,
+          "player_id": "player_785bb9b3c3d75afab54c5d5eab4ceb74"
+        },
+        {
+          "median_percentile": 0.465926204819,
+          "percentile_iqr": 0.301016566265,
+          "percentile_variance": 0.031109649579,
+          "player_id": "player_801e060b70d85a07ba5703cb41c477c2"
+        }
+      ],
+      "pairwise_ordering_stability": 0.94136,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ERA-A",
+      "complete_players": 2080,
+      "mean_percentile_variance": 0.009866572997,
+      "mean_score_variance": 0.007115712978,
+      "median_of_player_median_percentiles": 0.49891826923,
+      "median_player_percentile_iqr": 0.117848557692,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.651682692308,
+          "percentile_iqr": 0.433173076923,
+          "percentile_variance": 0.056574943226,
+          "player_id": "player_42dcc0c34c5855209d9bcc8960a179e9"
+        },
+        {
+          "median_percentile": 0.666826923077,
+          "percentile_iqr": 0.411538461538,
+          "percentile_variance": 0.055120065037,
+          "player_id": "player_1865519bcf695567a49d99b53fd08ed4"
+        },
+        {
+          "median_percentile": 0.560817307692,
+          "percentile_iqr": 0.342908653846,
+          "percentile_variance": 0.052253128675,
+          "player_id": "player_54ea9413109a555fa2c602538b32dd92"
+        },
+        {
+          "median_percentile": 0.723798076923,
+          "percentile_iqr": 0.297235576923,
+          "percentile_variance": 0.045085005033,
+          "player_id": "player_5ccf549b06fd5434b9de8d2a5378b53a"
+        },
+        {
+          "median_percentile": 0.510817307692,
+          "percentile_iqr": 0.310697115385,
+          "percentile_variance": 0.043213663924,
+          "player_id": "player_3520216d99625724a5236eeac2441bd7"
+        },
+        {
+          "median_percentile": 0.459615384615,
+          "percentile_iqr": 0.322235576923,
+          "percentile_variance": 0.042846253415,
+          "player_id": "player_8ef91eabfa595ddebf495d4159e79f5c"
+        },
+        {
+          "median_percentile": 0.682211538462,
+          "percentile_iqr": 0.296634615385,
+          "percentile_variance": 0.041700224893,
+          "player_id": "player_1c72a45346c15a2588972bf9e5e6727b"
+        },
+        {
+          "median_percentile": 0.342548076923,
+          "percentile_iqr": 0.277764423077,
+          "percentile_variance": 0.041537352626,
+          "player_id": "player_ecc330dcf4665c5c9278a1c8ff5c70a0"
+        },
+        {
+          "median_percentile": 0.432692307692,
+          "percentile_iqr": 0.334615384615,
+          "percentile_variance": 0.040504788069,
+          "player_id": "player_b4ca26f68b33584db09dc45394780b09"
+        },
+        {
+          "median_percentile": 0.495673076923,
+          "percentile_iqr": 0.344711538462,
+          "percentile_variance": 0.039839407539,
+          "player_id": "player_81f67a10901f5eeeac010b10ba58ee32"
+        }
+      ],
+      "pairwise_ordering_stability": 0.89038,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ERA-B",
+      "complete_players": 1906,
+      "mean_percentile_variance": 0.007875650313,
+      "mean_score_variance": 0.005984112984,
+      "median_of_player_median_percentiles": 0.494491080797,
+      "median_player_percentile_iqr": 0.10388247639,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.722717733473,
+          "percentile_iqr": 0.326600209864,
+          "percentile_variance": 0.038776858018,
+          "player_id": "player_7c6d4fc1fd415df9ab5f26848b4e27f5"
+        },
+        {
+          "median_percentile": 0.290136411333,
+          "percentile_iqr": 0.291841552991,
+          "percentile_variance": 0.038026942525,
+          "player_id": "player_81f67a10901f5eeeac010b10ba58ee32"
+        },
+        {
+          "median_percentile": 0.448321091291,
+          "percentile_iqr": 0.253279118573,
+          "percentile_variance": 0.035404284359,
+          "player_id": "player_0e27a5429a8158e3b11d7a746e988e5e"
+        },
+        {
+          "median_percentile": 0.356505771249,
+          "percentile_iqr": 0.267313746065,
+          "percentile_variance": 0.034267267164,
+          "player_id": "player_583dda346d7d5dc2901a0199660f50a0"
+        },
+        {
+          "median_percentile": 0.424186778594,
+          "percentile_iqr": 0.284889821616,
+          "percentile_variance": 0.034229700955,
+          "player_id": "player_aa12367238045f379d96f8bfb30039c1"
+        },
+        {
+          "median_percentile": 0.724029380902,
+          "percentile_iqr": 0.281610703043,
+          "percentile_variance": 0.033583718278,
+          "player_id": "player_ec4f0bb4aced53cca31b6f2f22c6860f"
+        },
+        {
+          "median_percentile": 0.673924449108,
+          "percentile_iqr": 0.270986358867,
+          "percentile_variance": 0.032299060871,
+          "player_id": "player_2c1bbf60582c58a9b5483a4abf791897"
+        },
+        {
+          "median_percentile": 0.502098635887,
+          "percentile_iqr": 0.250524658972,
+          "percentile_variance": 0.032188695216,
+          "player_id": "player_5d5b007bd6ab507c8d49beac5887638b"
+        },
+        {
+          "median_percentile": 0.416316894019,
+          "percentile_iqr": 0.262460650577,
+          "percentile_variance": 0.031673978236,
+          "player_id": "player_cf1b9adaaab9528786d5a100f6bb2190"
+        },
+        {
+          "median_percentile": 0.546169989507,
+          "percentile_iqr": 0.261542497377,
+          "percentile_variance": 0.031409552867,
+          "player_id": "player_4caebfa45a1e527aaa0df85f5bbdba63"
+        }
+      ],
+      "pairwise_ordering_stability": 0.90814,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ERA-C",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.004725713501,
+      "mean_score_variance": 0.004723984203,
+      "median_of_player_median_percentiles": 0.25094126506,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.723268072289,
+          "percentile_iqr": 0.249246987952,
+          "percentile_variance": 0.019135209292,
+          "player_id": "player_4733d4ff21ac54e19d4091c89123e725"
+        },
+        {
+          "median_percentile": 0.710843373494,
+          "percentile_iqr": 0.249623493976,
+          "percentile_variance": 0.018946901012,
+          "player_id": "player_782712e68a115e61a7966ec12cccfe4c"
+        },
+        {
+          "median_percentile": 0.71046686747,
+          "percentile_iqr": 0.247835090361,
+          "percentile_variance": 0.01883001589,
+          "player_id": "player_4f49f92700925d318a60491a09a749ff"
+        },
+        {
+          "median_percentile": 0.709713855422,
+          "percentile_iqr": 0.245576054217,
+          "percentile_variance": 0.018498078455,
+          "player_id": "player_103441eb04215eab93dd61067149e932"
+        },
+        {
+          "median_percentile": 0.709713855422,
+          "percentile_iqr": 0.245576054217,
+          "percentile_variance": 0.018498078455,
+          "player_id": "player_3e46574edf3f5b30878b721c000ff9c2"
+        },
+        {
+          "median_percentile": 0.709713855422,
+          "percentile_iqr": 0.245576054217,
+          "percentile_variance": 0.018498078455,
+          "player_id": "player_f351c5ac65be5055af77470a96c882a7"
+        },
+        {
+          "median_percentile": 0.704631024096,
+          "percentile_iqr": 0.242564006024,
+          "percentile_variance": 0.01820565734,
+          "player_id": "player_dd4464299b7550d1a2cf08d3a187f1b1"
+        },
+        {
+          "median_percentile": 0.705760542169,
+          "percentile_iqr": 0.252917921687,
+          "percentile_variance": 0.018065808742,
+          "player_id": "player_cfd3d61dd2d0544bb4c6bfb84d18b7fc"
+        },
+        {
+          "median_percentile": 0.705760542169,
+          "percentile_iqr": 0.252917921687,
+          "percentile_variance": 0.018065808742,
+          "player_id": "player_f4990cced09a55f3a1edf29a95c5a769"
+        },
+        {
+          "median_percentile": 0.704254518072,
+          "percentile_iqr": 0.239457831325,
+          "percentile_variance": 0.018060724323,
+          "player_id": "player_319bc954993a53a2b3886ace6604074b"
+        }
+      ],
+      "pairwise_ordering_stability": 0.93382,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ERA-D",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.00486486497,
+      "mean_score_variance": 0.004995558491,
+      "median_of_player_median_percentiles": 0.251506024096,
+      "median_player_percentile_iqr": 0.0,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.711031626506,
+          "percentile_iqr": 0.239740210843,
+          "percentile_variance": 0.018272061237,
+          "player_id": "player_dd4464299b7550d1a2cf08d3a187f1b1"
+        },
+        {
+          "median_percentile": 0.710655120482,
+          "percentile_iqr": 0.239457831325,
+          "percentile_variance": 0.01824878188,
+          "player_id": "player_319bc954993a53a2b3886ace6604074b"
+        },
+        {
+          "median_percentile": 0.733621987952,
+          "percentile_iqr": 0.261389307229,
+          "percentile_variance": 0.018168706226,
+          "player_id": "player_782712e68a115e61a7966ec12cccfe4c"
+        },
+        {
+          "median_percentile": 0.70952560241,
+          "percentile_iqr": 0.237292921687,
+          "percentile_variance": 0.018096286025,
+          "player_id": "player_b138b7776e195161bc1a78c4da795825"
+        },
+        {
+          "median_percentile": 0.732304216867,
+          "percentile_iqr": 0.261389307229,
+          "percentile_variance": 0.01808914446,
+          "player_id": "player_4733d4ff21ac54e19d4091c89123e725"
+        },
+        {
+          "median_percentile": 0.731362951807,
+          "percentile_iqr": 0.261389307229,
+          "percentile_variance": 0.018058867284,
+          "player_id": "player_4f49f92700925d318a60491a09a749ff"
+        },
+        {
+          "median_percentile": 0.708772590361,
+          "percentile_iqr": 0.236539909639,
+          "percentile_variance": 0.018022435333,
+          "player_id": "player_f510d09a71ec5bcda01cb29746432db8"
+        },
+        {
+          "median_percentile": 0.707831325301,
+          "percentile_iqr": 0.235692771084,
+          "percentile_variance": 0.017975216091,
+          "player_id": "player_73d5d0db30ce53229e931e45c3c5bda4"
+        },
+        {
+          "median_percentile": 0.706890060241,
+          "percentile_iqr": 0.235598644578,
+          "percentile_variance": 0.017941099541,
+          "player_id": "player_eebe4af33c6b50339b341e77675a1fa7"
+        },
+        {
+          "median_percentile": 0.706325301205,
+          "percentile_iqr": 0.235598644578,
+          "percentile_variance": 0.01793459074,
+          "player_id": "player_5cea3b8f3f9a56f4a02d717df5ff709b"
+        }
+      ],
+      "pairwise_ordering_stability": 0.93262,
+      "samples": 200,
+      "seed": 120012
+    },
+    {
+      "candidate_id": "ERA-E",
+      "complete_players": 2656,
+      "mean_percentile_variance": 0.010640417859,
+      "mean_score_variance": 0.00714529559,
+      "median_of_player_median_percentiles": 0.492752259036,
+      "median_player_percentile_iqr": 0.151308358434,
+      "most_weight_sensitive_players": [
+        {
+          "median_percentile": 0.337537650602,
+          "percentile_iqr": 0.326336596386,
+          "percentile_variance": 0.04222043092,
+          "player_id": "player_583dda346d7d5dc2901a0199660f50a0"
+        },
+        {
+          "median_percentile": 0.664156626506,
+          "percentile_iqr": 0.286803463855,
+          "percentile_variance": 0.036195894181,
+          "player_id": "player_3b0291c4fa3651c791f236df3c9f3be5"
+        },
+        {
+          "median_percentile": 0.591490963855,
+          "percentile_iqr": 0.312217620482,
+          "percentile_variance": 0.035644676919,
+          "player_id": "player_9f8d96ce2f2252f6b36cb8af987685b5"
+        },
+        {
+          "median_percentile": 0.314194277108,
+          "percentile_iqr": 0.300169427711,
+          "percentile_variance": 0.035397674476,
+          "player_id": "player_dba1a501ee51579196936adad71e1328"
+        },
+        {
+          "median_percentile": 0.279932228916,
+          "percentile_iqr": 0.261106927711,
+          "percentile_variance": 0.034604148413,
+          "player_id": "player_2e0c091879055216861f0c9ffb6a4655"
+        },
+        {
+          "median_percentile": 0.595067771084,
+          "percentile_iqr": 0.323136295181,
+          "percentile_variance": 0.034582191687,
+          "player_id": "player_99043498f13b5909a28c548822e03f63"
+        },
+        {
+          "median_percentile": 0.546310240964,
+          "percentile_iqr": 0.298475150602,
+          "percentile_variance": 0.033490622757,
+          "player_id": "player_34871733181c5d6f8da5f08ce7f7430c"
+        },
+        {
+          "median_percentile": 0.638365963855,
+          "percentile_iqr": 0.282850150602,
+          "percentile_variance": 0.033223873512,
+          "player_id": "player_918fcfbf87cc5919a5fbdddbfa619755"
+        },
+        {
+          "median_percentile": 0.273155120482,
+          "percentile_iqr": 0.257059487952,
+          "percentile_variance": 0.033128246287,
+          "player_id": "player_1831d218349e5ca29afce7ca1b5f34d6"
+        },
+        {
+          "median_percentile": 0.474774096386,
+          "percentile_iqr": 0.272119728916,
+          "percentile_variance": 0.033009183285,
+          "player_id": "player_aa12367238045f379d96f8bfb30039c1"
+        }
+      ],
+      "pairwise_ordering_stability": 0.89768,
+      "samples": 200,
+      "seed": 120012
+    }
+  ],
+  "methodology_version": "goat-dimension-candidates-v1",
+  "random_seed": 120012,
+  "reference_population": "BROAD_HIGH_RECALL",
+  "samples_per_candidate": 200,
+  "weight_distribution": "uniform simplex via normalized exponential draws"
+}

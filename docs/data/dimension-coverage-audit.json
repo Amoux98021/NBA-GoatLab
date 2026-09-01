@@ -1,0 +1,1757 @@
+{
+  "active_career_audit": [
+    {
+      "candidate_id": "PEAK-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.477097861824,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "PEAK-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.367307175506,
+      "players": 4521,
+      "score_available": 2512,
+      "score_available_pct": 0.555629285556
+    },
+    {
+      "candidate_id": "PEAK-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.572693901543,
+      "players": 582,
+      "score_available": 344,
+      "score_available_pct": 0.591065292096
+    },
+    {
+      "candidate_id": "PEAK-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.498959431202,
+      "players": 4521,
+      "score_available": 1417,
+      "score_available_pct": 0.313426233134
+    },
+    {
+      "candidate_id": "PEAK-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.55246217806,
+      "players": 582,
+      "score_available": 230,
+      "score_available_pct": 0.395189003436
+    },
+    {
+      "candidate_id": "PEAK-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.492670313345,
+      "players": 4521,
+      "score_available": 1020,
+      "score_available_pct": 0.225613802256
+    },
+    {
+      "candidate_id": "PEAK-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.574087971366,
+      "players": 582,
+      "score_available": 344,
+      "score_available_pct": 0.591065292096
+    },
+    {
+      "candidate_id": "PEAK-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.469863891833,
+      "players": 4521,
+      "score_available": 1417,
+      "score_available_pct": 0.313426233134
+    },
+    {
+      "candidate_id": "PEAK-E",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.567116108498,
+      "players": 582,
+      "score_available": 344,
+      "score_available_pct": 0.591065292096
+    },
+    {
+      "candidate_id": "PEAK-E",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PEAK",
+      "median_diagnostic_score": 0.487782909372,
+      "players": 4521,
+      "score_available": 1417,
+      "score_available_pct": 0.313426233134
+    },
+    {
+      "candidate_id": "LONGEVITY-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.411353748327,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "LONGEVITY-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.411353748327,
+      "players": 4521,
+      "score_available": 4520,
+      "score_available_pct": 0.999778809998
+    },
+    {
+      "candidate_id": "LONGEVITY-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.446077277861,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "LONGEVITY-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.309487951807,
+      "players": 4521,
+      "score_available": 4520,
+      "score_available_pct": 0.999778809998
+    },
+    {
+      "candidate_id": "LONGEVITY-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.442653833523,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "LONGEVITY-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.399170927541,
+      "players": 4521,
+      "score_available": 2661,
+      "score_available_pct": 0.588586595886
+    },
+    {
+      "candidate_id": "LONGEVITY-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.433738943969,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "LONGEVITY-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.350230847602,
+      "players": 4521,
+      "score_available": 2661,
+      "score_available_pct": 0.588586595886
+    },
+    {
+      "candidate_id": "LONGEVITY-E",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.427451995482,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "LONGEVITY-E",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "LONGEVITY",
+      "median_diagnostic_score": 0.427451995482,
+      "players": 4521,
+      "score_available": 4520,
+      "score_available_pct": 0.999778809998
+    },
+    {
+      "candidate_id": "OFFENSE-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.527395932592,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "OFFENSE-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.371644749819,
+      "players": 4521,
+      "score_available": 2527,
+      "score_available_pct": 0.558947135589
+    },
+    {
+      "candidate_id": "OFFENSE-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.520258920297,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "OFFENSE-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.357466404078,
+      "players": 4521,
+      "score_available": 2435,
+      "score_available_pct": 0.538597655386
+    },
+    {
+      "candidate_id": "OFFENSE-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.548837662858,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "OFFENSE-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.388607776175,
+      "players": 4521,
+      "score_available": 2527,
+      "score_available_pct": 0.558947135589
+    },
+    {
+      "candidate_id": "OFFENSE-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.518758801046,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "OFFENSE-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "OFFENSE",
+      "median_diagnostic_score": 0.411587205793,
+      "players": 4521,
+      "score_available": 1790,
+      "score_available_pct": 0.395930103959
+    },
+    {
+      "candidate_id": "DEFENSE-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.570083695537,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "DEFENSE-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.383892622072,
+      "players": 4521,
+      "score_available": 2383,
+      "score_available_pct": 0.527095775271
+    },
+    {
+      "candidate_id": "DEFENSE-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.598463065689,
+      "players": 582,
+      "score_available": 335,
+      "score_available_pct": 0.57560137457
+    },
+    {
+      "candidate_id": "DEFENSE-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.507416484798,
+      "players": 4521,
+      "score_available": 1391,
+      "score_available_pct": 0.307675293077
+    },
+    {
+      "candidate_id": "DEFENSE-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.522381572213,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "DEFENSE-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.448880969372,
+      "players": 4521,
+      "score_available": 1790,
+      "score_available_pct": 0.395930103959
+    },
+    {
+      "candidate_id": "DEFENSE-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.552210953176,
+      "players": 582,
+      "score_available": 335,
+      "score_available_pct": 0.57560137457
+    },
+    {
+      "candidate_id": "DEFENSE-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "DEFENSE",
+      "median_diagnostic_score": 0.474764150943,
+      "players": 4521,
+      "score_available": 1805,
+      "score_available_pct": 0.399247953992
+    },
+    {
+      "candidate_id": "PLAYOFFS-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.560203513984,
+      "players": 582,
+      "score_available": 377,
+      "score_available_pct": 0.647766323024
+    },
+    {
+      "candidate_id": "PLAYOFFS-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.445471743593,
+      "players": 4521,
+      "score_available": 2046,
+      "score_available_pct": 0.452554744526
+    },
+    {
+      "candidate_id": "PLAYOFFS-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.648342170911,
+      "players": 582,
+      "score_available": 150,
+      "score_available_pct": 0.257731958763
+    },
+    {
+      "candidate_id": "PLAYOFFS-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.584529416051,
+      "players": 4521,
+      "score_available": 845,
+      "score_available_pct": 0.186905551869
+    },
+    {
+      "candidate_id": "PLAYOFFS-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.470757301357,
+      "players": 582,
+      "score_available": 394,
+      "score_available_pct": 0.676975945017
+    },
+    {
+      "candidate_id": "PLAYOFFS-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.399729773524,
+      "players": 4521,
+      "score_available": 2619,
+      "score_available_pct": 0.579296615793
+    },
+    {
+      "candidate_id": "PLAYOFFS-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.50291396027,
+      "players": 582,
+      "score_available": 375,
+      "score_available_pct": 0.644329896907
+    },
+    {
+      "candidate_id": "PLAYOFFS-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.491273923479,
+      "players": 4521,
+      "score_available": 1648,
+      "score_available_pct": 0.364521123645
+    },
+    {
+      "candidate_id": "PLAYOFFS-E",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.48431820637,
+      "players": 582,
+      "score_available": 394,
+      "score_available_pct": 0.676975945017
+    },
+    {
+      "candidate_id": "PLAYOFFS-E",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "PLAYOFFS",
+      "median_diagnostic_score": 0.375060725497,
+      "players": 4521,
+      "score_available": 2619,
+      "score_available_pct": 0.579296615793
+    },
+    {
+      "candidate_id": "ACCOLADES-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.47391509434,
+      "players": 582,
+      "score_available": 335,
+      "score_available_pct": 0.57560137457
+    },
+    {
+      "candidate_id": "ACCOLADES-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.47391509434,
+      "players": 4521,
+      "score_available": 1805,
+      "score_available_pct": 0.399247953992
+    },
+    {
+      "candidate_id": "ACCOLADES-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.41108490566,
+      "players": 582,
+      "score_available": 335,
+      "score_available_pct": 0.57560137457
+    },
+    {
+      "candidate_id": "ACCOLADES-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.41108490566,
+      "players": 4521,
+      "score_available": 1805,
+      "score_available_pct": 0.399247953992
+    },
+    {
+      "candidate_id": "ACCOLADES-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.41108490566,
+      "players": 582,
+      "score_available": 335,
+      "score_available_pct": 0.57560137457
+    },
+    {
+      "candidate_id": "ACCOLADES-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.41108490566,
+      "players": 4521,
+      "score_available": 1805,
+      "score_available_pct": 0.399247953992
+    },
+    {
+      "candidate_id": "ACCOLADES-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.445581737327,
+      "players": 582,
+      "score_available": 335,
+      "score_available_pct": 0.57560137457
+    },
+    {
+      "candidate_id": "ACCOLADES-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.445581737327,
+      "players": 4521,
+      "score_available": 1805,
+      "score_available_pct": 0.399247953992
+    },
+    {
+      "candidate_id": "ACCOLADES-E",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.492059748428,
+      "players": 582,
+      "score_available": 335,
+      "score_available_pct": 0.57560137457
+    },
+    {
+      "candidate_id": "ACCOLADES-E",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ACCOLADES",
+      "median_diagnostic_score": 0.492059748428,
+      "players": 4521,
+      "score_available": 1805,
+      "score_available_pct": 0.399247953992
+    },
+    {
+      "candidate_id": "WINNING-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.403779179216,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "WINNING-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.377776731928,
+      "players": 4521,
+      "score_available": 4521,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "WINNING-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.323920682731,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "WINNING-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.245168172691,
+      "players": 4521,
+      "score_available": 4521,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "WINNING-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.354856927711,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "WINNING-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.354856927711,
+      "players": 4521,
+      "score_available": 4521,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "WINNING-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.493822018029,
+      "players": 582,
+      "score_available": 394,
+      "score_available_pct": 0.676975945017
+    },
+    {
+      "candidate_id": "WINNING-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.461687811372,
+      "players": 4521,
+      "score_available": 2618,
+      "score_available_pct": 0.579075425791
+    },
+    {
+      "candidate_id": "WINNING-E",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.333772590361,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "WINNING-E",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "WINNING",
+      "median_diagnostic_score": 0.297204442771,
+      "players": 4521,
+      "score_available": 4521,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "ERA-A",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.470426930966,
+      "players": 582,
+      "score_available": 518,
+      "score_available_pct": 0.890034364261
+    },
+    {
+      "candidate_id": "ERA-A",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.349899053145,
+      "players": 4521,
+      "score_available": 2661,
+      "score_available_pct": 0.588586595886
+    },
+    {
+      "candidate_id": "ERA-B",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.589646867497,
+      "players": 582,
+      "score_available": 351,
+      "score_available_pct": 0.603092783505
+    },
+    {
+      "candidate_id": "ERA-B",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.493800346614,
+      "players": 4521,
+      "score_available": 1641,
+      "score_available_pct": 0.36297279363
+    },
+    {
+      "candidate_id": "ERA-C",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.407332454819,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "ERA-C",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.407332454819,
+      "players": 4521,
+      "score_available": 4520,
+      "score_available_pct": 0.999778809998
+    },
+    {
+      "candidate_id": "ERA-D",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.407614834337,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "ERA-D",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.407614834337,
+      "players": 4521,
+      "score_available": 4520,
+      "score_available_pct": 0.999778809998
+    },
+    {
+      "candidate_id": "ERA-E",
+      "cohort": "ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "TO_DATE_NO_PROJECTION_NO_COMPLETION_PENALTY",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.456678275603,
+      "players": 582,
+      "score_available": 582,
+      "score_available_pct": 1.0
+    },
+    {
+      "candidate_id": "ERA-E",
+      "cohort": "NOT_ACTIVE_TO_CUTOFF",
+      "completeness_treatment": "COMPLETE_OR_INDETERMINATE_AS_RECORDED",
+      "dimension": "ERA_DOMINANCE",
+      "median_diagnostic_score": 0.278332078313,
+      "players": 4521,
+      "score_available": 4520,
+      "score_available_pct": 0.999778809998
+    }
+  ],
+  "confidence_thresholds": {
+    "LIMITED": ">0%-<75%",
+    "MODERATE": "75%-<100%",
+    "STRONG": "100%",
+    "UNAVAILABLE": "0%"
+  },
+  "coverage_is_not_score_penalty": true,
+  "methodology_version": "goat-dimension-candidates-v1",
+  "records": [
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2952,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3030,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3030,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2952,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3030,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3030,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2952,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 3030,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 3030,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2952,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3030,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3030
+      },
+      "candidate_id": "PEAK-A",
+      "confidence_counts": {
+        "LIMITED": 1157,
+        "MODERATE": 78,
+        "STRONG": 2952,
+        "UNAVAILABLE": 916
+      },
+      "dimension": "PEAK",
+      "primary_available_rate": 0.801957831325
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 1761,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 1761,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 1761,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 1761,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 1761,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 1761,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 1761,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 1761,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 1761
+      },
+      "candidate_id": "PEAK-B",
+      "confidence_counts": {
+        "LIMITED": 695,
+        "STRONG": 1761,
+        "UNAVAILABLE": 2647
+      },
+      "dimension": "PEAK",
+      "primary_available_rate": 0.663027108434
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 1765,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 1250,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 1250,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 1250,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 1765,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 1250,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 1250,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 1250,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 1765,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 1250,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 1250,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 1250,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 1765,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 1250,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 1250,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 1250
+      },
+      "candidate_id": "PEAK-C",
+      "confidence_counts": {
+        "LIMITED": 515,
+        "STRONG": 1250,
+        "UNAVAILABLE": 3338
+      },
+      "dimension": "PEAK",
+      "primary_available_rate": 0.47063253012
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 1250,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 1761,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 1250,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 1761,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 1250,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 1761,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 1250,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 1761,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 1761
+      },
+      "candidate_id": "PEAK-D",
+      "confidence_counts": {
+        "LIMITED": 2895,
+        "MODERATE": 42,
+        "STRONG": 1250,
+        "UNAVAILABLE": 916
+      },
+      "dimension": "PEAK",
+      "primary_available_rate": 0.663027108434
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 1761,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 1761,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 1761,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 1761,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 1761,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 1761,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 1761,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2456,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 1761,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 1761,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 1761
+      },
+      "candidate_id": "PEAK-E",
+      "confidence_counts": {
+        "LIMITED": 695,
+        "STRONG": 1761,
+        "UNAVAILABLE": 2647
+      },
+      "dimension": "PEAK",
+      "primary_available_rate": 0.663027108434
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5102,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5102,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5102
+      },
+      "candidate_id": "LONGEVITY-A",
+      "confidence_counts": {
+        "STRONG": 5102,
+        "UNAVAILABLE": 1
+      },
+      "dimension": "LONGEVITY",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5102,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5102,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5102
+      },
+      "candidate_id": "LONGEVITY-B",
+      "confidence_counts": {
+        "STRONG": 5102,
+        "UNAVAILABLE": 1
+      },
+      "dimension": "LONGEVITY",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2952,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3179,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2952,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3179,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2952,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3179,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3179
+      },
+      "candidate_id": "LONGEVITY-C",
+      "confidence_counts": {
+        "LIMITED": 1235,
+        "STRONG": 2952,
+        "UNAVAILABLE": 916
+      },
+      "dimension": "LONGEVITY",
+      "primary_available_rate": 0.842620481928
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2952,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3179,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2952,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3179,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2952,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 3179,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2952,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3179,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3179
+      },
+      "candidate_id": "LONGEVITY-D",
+      "confidence_counts": {
+        "LIMITED": 1924,
+        "MODERATE": 227,
+        "STRONG": 2952
+      },
+      "dimension": "LONGEVITY",
+      "primary_available_rate": 0.842620481928
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5102,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5102,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5102
+      },
+      "candidate_id": "LONGEVITY-E",
+      "confidence_counts": {
+        "STRONG": 5102,
+        "UNAVAILABLE": 1
+      },
+      "dimension": "LONGEVITY",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2953,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3045,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2953,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2953,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3045,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2953,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2953,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 3045,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 2953,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2953,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3045,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2953
+      },
+      "candidate_id": "OFFENSE-A",
+      "confidence_counts": {
+        "LIMITED": 1234,
+        "STRONG": 2953,
+        "UNAVAILABLE": 916
+      },
+      "dimension": "OFFENSE",
+      "primary_available_rate": 0.801957831325
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2953,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2953,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2953,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2953,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2953,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2953,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2953,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 2953,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 2953,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2953,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2953,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2953
+      },
+      "candidate_id": "OFFENSE-B",
+      "confidence_counts": {
+        "LIMITED": 1234,
+        "STRONG": 2953,
+        "UNAVAILABLE": 916
+      },
+      "dimension": "OFFENSE",
+      "primary_available_rate": 0.78313253012
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 3045,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3045,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3045,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 3045,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3045,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3045,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 3045,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 3045,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 3045,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 3045,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3045,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3045
+      },
+      "candidate_id": "OFFENSE-C",
+      "confidence_counts": {
+        "LIMITED": 1142,
+        "STRONG": 3045,
+        "UNAVAILABLE": 916
+      },
+      "dimension": "OFFENSE",
+      "primary_available_rate": 0.801957831325
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2308,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2308,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2308,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2308,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2308,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2308,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2308,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2308,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2308,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2308,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 2308,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 2308,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2308,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2308,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2308,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2308
+      },
+      "candidate_id": "OFFENSE-D",
+      "confidence_counts": {
+        "STRONG": 2308,
+        "UNAVAILABLE": 2795
+      },
+      "dimension": "OFFENSE",
+      "primary_available_rate": 0.623870481928
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 3178,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 3178,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2901,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 3178,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 3178,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2901,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 3178,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 3178,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 2901,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 3178,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 3178,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2901,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3178
+      },
+      "candidate_id": "DEFENSE-A",
+      "confidence_counts": {
+        "LIMITED": 279,
+        "STRONG": 2899,
+        "UNAVAILABLE": 1925
+      },
+      "dimension": "DEFENSE",
+      "primary_available_rate": 0.772213855422
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 3448,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 3178,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 1726,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 3448,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 3178,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 1726,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 3178,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 3178,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 3448,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 3178,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 1726,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3178
+      },
+      "candidate_id": "DEFENSE-B",
+      "confidence_counts": {
+        "LIMITED": 1722,
+        "MODERATE": 2,
+        "STRONG": 1724,
+        "UNAVAILABLE": 1655
+      },
+      "dimension": "DEFENSE",
+      "primary_available_rate": 0.642319277108
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2859,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2308,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2308,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2308,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2859,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2308,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2308,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2308,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2859,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2308,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 2308,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 2308,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2859,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2308,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2308,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2308
+      },
+      "candidate_id": "DEFENSE-C",
+      "confidence_counts": {
+        "LIMITED": 551,
+        "STRONG": 2308,
+        "UNAVAILABLE": 2244
+      },
+      "dimension": "DEFENSE",
+      "primary_available_rate": 0.623870481928
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 3448,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 3178,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 3448,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 3178,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2140,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 3178,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 3178,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 3178,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 3448,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 3178,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2140,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3178
+      },
+      "candidate_id": "DEFENSE-D",
+      "confidence_counts": {
+        "LIMITED": 1578,
+        "STRONG": 1870,
+        "UNAVAILABLE": 1655
+      },
+      "dimension": "DEFENSE",
+      "primary_available_rate": 0.798192771084
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2382,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2423,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2423,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2382,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2423,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2423,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2382,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 2423,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 2423,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2382,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2423,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2423
+      },
+      "candidate_id": "PLAYOFFS-A",
+      "confidence_counts": {
+        "LIMITED": 345,
+        "MODERATE": 41,
+        "STRONG": 2382,
+        "UNAVAILABLE": 2335
+      },
+      "dimension": "PLAYOFFS",
+      "primary_available_rate": 0.786144578313
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 973,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 995,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 995,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 973,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 995,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 995,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 973,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 995,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 995,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2768,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 973,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 995,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 995
+      },
+      "candidate_id": "PLAYOFFS-B",
+      "confidence_counts": {
+        "LIMITED": 1779,
+        "MODERATE": 16,
+        "STRONG": 973,
+        "UNAVAILABLE": 2335
+      },
+      "dimension": "PLAYOFFS",
+      "primary_available_rate": 0.37311746988
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 3013,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3013,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3013,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 3013,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3013,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3013,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 3013,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3013,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3013
+      },
+      "candidate_id": "PLAYOFFS-C",
+      "confidence_counts": {
+        "LIMITED": 2090,
+        "STRONG": 3013
+      },
+      "dimension": "PLAYOFFS",
+      "primary_available_rate": 0.892319277108
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2735,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 1961,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2023,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2023,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2735,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 1961,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2023,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2023,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2735,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 1961,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 2023,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 2023,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2735,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 1961,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2023,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2023
+      },
+      "candidate_id": "PLAYOFFS-D",
+      "confidence_counts": {
+        "LIMITED": 712,
+        "MODERATE": 62,
+        "STRONG": 1961,
+        "UNAVAILABLE": 2368
+      },
+      "dimension": "PLAYOFFS",
+      "primary_available_rate": 0.679969879518
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 3013,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3013,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3013,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 3013,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3013,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3013,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 3013,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3013,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3013
+      },
+      "candidate_id": "PLAYOFFS-E",
+      "confidence_counts": {
+        "LIMITED": 2090,
+        "STRONG": 3013
+      },
+      "dimension": "PLAYOFFS",
+      "primary_available_rate": 0.892319277108
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2140,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2140,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2140,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2140,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2140
+      },
+      "candidate_id": "ACCOLADES-A",
+      "confidence_counts": {
+        "STRONG": 2140,
+        "UNAVAILABLE": 2963
+      },
+      "dimension": "ACCOLADES",
+      "primary_available_rate": 0.798192771084
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2140,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2140,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2140,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2140,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2140
+      },
+      "candidate_id": "ACCOLADES-B",
+      "confidence_counts": {
+        "STRONG": 2140,
+        "UNAVAILABLE": 2963
+      },
+      "dimension": "ACCOLADES",
+      "primary_available_rate": 0.798192771084
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2140,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2140,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2140,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2140,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2140
+      },
+      "candidate_id": "ACCOLADES-C",
+      "confidence_counts": {
+        "STRONG": 2140,
+        "UNAVAILABLE": 2963
+      },
+      "dimension": "ACCOLADES",
+      "primary_available_rate": 0.798192771084
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2140,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2140,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2140,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2140,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2140
+      },
+      "candidate_id": "ACCOLADES-D",
+      "confidence_counts": {
+        "LIMITED": 2963,
+        "STRONG": 2140
+      },
+      "dimension": "ACCOLADES",
+      "primary_available_rate": 0.798192771084
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 2140,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2140,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 2140,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 2140,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2140,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2140,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 2140,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 2140
+      },
+      "candidate_id": "ACCOLADES-E",
+      "confidence_counts": {
+        "STRONG": 2140,
+        "UNAVAILABLE": 2963
+      },
+      "dimension": "ACCOLADES",
+      "primary_available_rate": 0.798192771084
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5103,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5103,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5103
+      },
+      "candidate_id": "WINNING-A",
+      "confidence_counts": {
+        "MODERATE": 1,
+        "STRONG": 5102
+      },
+      "dimension": "WINNING",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5103,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5103,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 5103,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5103,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5103,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5103
+      },
+      "candidate_id": "WINNING-B",
+      "confidence_counts": {
+        "STRONG": 5103
+      },
+      "dimension": "WINNING",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5103,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5103,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5103,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5103,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5103
+      },
+      "candidate_id": "WINNING-C",
+      "confidence_counts": {
+        "STRONG": 5103
+      },
+      "dimension": "WINNING",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3012,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3012,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 5102,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3012,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5102
+      },
+      "candidate_id": "WINNING-D",
+      "confidence_counts": {
+        "LIMITED": 2091,
+        "MODERATE": 2017,
+        "STRONG": 995
+      },
+      "dimension": "WINNING",
+      "primary_available_rate": 0.892319277108
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5103,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5103,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5103,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5103,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5103,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5103,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5103,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5103
+      },
+      "candidate_id": "WINNING-E",
+      "confidence_counts": {
+        "STRONG": 5103
+      },
+      "dimension": "WINNING",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 2952,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 3179,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 2952,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 3179,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 2952,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 3179,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 3179,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 4187,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 2952,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 3179,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 3179
+      },
+      "candidate_id": "ERA-A",
+      "confidence_counts": {
+        "LIMITED": 1235,
+        "STRONG": 2952,
+        "UNAVAILABLE": 916
+      },
+      "dimension": "ERA_DOMINANCE",
+      "primary_available_rate": 0.842620481928
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 2574,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 1906,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 1992,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 1992,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 2574,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 1906,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 1992,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 1992,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 2574,
+        "ROBUST_STANDARDIZATION:CORE_FEATURE_ONLY": 1906,
+        "ROBUST_STANDARDIZATION:COVERAGE_THRESHOLD": 1992,
+        "ROBUST_STANDARDIZATION:ERA_SPECIFIC_ENRICHMENT": 1992,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 2574,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 1906,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 1992,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 1992
+      },
+      "candidate_id": "ERA-B",
+      "confidence_counts": {
+        "LIMITED": 668,
+        "STRONG": 1906,
+        "UNAVAILABLE": 2529
+      },
+      "dimension": "ERA_DOMINANCE",
+      "primary_available_rate": 0.75
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5102,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5102,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5102
+      },
+      "candidate_id": "ERA-C",
+      "confidence_counts": {
+        "STRONG": 5102,
+        "UNAVAILABLE": 1
+      },
+      "dimension": "ERA_DOMINANCE",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5102,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5102,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5102
+      },
+      "candidate_id": "ERA-D",
+      "confidence_counts": {
+        "STRONG": 5102,
+        "UNAVAILABLE": 1
+      },
+      "dimension": "ERA_DOMINANCE",
+      "primary_available_rate": 1.0
+    },
+    {
+      "availability_by_scaling_policy": {
+        "CAREER_UNIVERSE_PERCENTILE:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:CORE_FEATURE_ONLY": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:COVERAGE_THRESHOLD": 5102,
+        "CAREER_UNIVERSE_PERCENTILE:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "EMPIRICAL_CDF:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "EMPIRICAL_CDF:CORE_FEATURE_ONLY": 5102,
+        "EMPIRICAL_CDF:COVERAGE_THRESHOLD": 5102,
+        "EMPIRICAL_CDF:ERA_SPECIFIC_ENRICHMENT": 5102,
+        "ROBUST_STANDARDIZATION:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:AVAILABLE_FEATURE_RENORMALIZATION": 5102,
+        "STANDARD_Z:CORE_FEATURE_ONLY": 5102,
+        "STANDARD_Z:COVERAGE_THRESHOLD": 5102,
+        "STANDARD_Z:ERA_SPECIFIC_ENRICHMENT": 5102
+      },
+      "candidate_id": "ERA-E",
+      "confidence_counts": {
+        "STRONG": 5102,
+        "UNAVAILABLE": 1
+      },
+      "dimension": "ERA_DOMINANCE",
+      "primary_available_rate": 1.0
+    }
+  ]
+}
