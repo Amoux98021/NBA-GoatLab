@@ -88,6 +88,37 @@ class AwardTaxonomyStatus(StrEnum):
     UNKNOWN = "UNKNOWN"
 
 
+class AllStarSelectionStatus(StrEnum):
+    ROSTER_LISTED = "ROSTER_LISTED"
+    PLAYERAWARDS_EVENT = "PLAYERAWARDS_EVENT"
+    MULTIPLE_EVIDENCE = "MULTIPLE_EVIDENCE"
+    PARTICIPATION_ONLY = "PARTICIPATION_ONLY"
+
+
+class AllStarParticipationStatus(StrEnum):
+    GAME_PARTICIPANT = "GAME_PARTICIPANT"
+    DNP_ROSTERED = "DNP_ROSTERED"
+    NO_PARTICIPATION_EVIDENCE = "NO_PARTICIPATION_EVIDENCE"
+
+
+class StatLeaderCategory(StrEnum):
+    PTS = "PTS"
+    REB = "REB"
+    AST = "AST"
+    STL = "STL"
+    BLK = "BLK"
+
+
+class StatLeaderReconciliationStatus(StrEnum):
+    EXACT_MATCH = "EXACT_MATCH"
+    TIE_MATCH = "TIE_MATCH"
+    VALUE_MATCH = "VALUE_MATCH"
+    QUALIFICATION_DIFFERENCE = "QUALIFICATION_DIFFERENCE"
+    SOURCE_COVERAGE_GAP = "SOURCE_COVERAGE_GAP"
+    DERIVED_COVERAGE_GAP = "DERIVED_COVERAGE_GAP"
+    UNRESOLVED = "UNRESOLVED"
+
+
 class PostseasonFormatStatus(StrEnum):
     STANDARD_SERIES_BRACKET = "STANDARD_SERIES_BRACKET"
     NONSTANDARD_SERIES_FORMAT = "NONSTANDARD_SERIES_FORMAT"
@@ -376,6 +407,83 @@ class PlayerAward(CanonicalModel):
             expected = {1: "FIRST", 2: "SECOND", 3: "THIRD"}[self.team_number]
             if self.award_level != expected:
                 raise ValueError("award_level conflicts with team_number")
+        return self
+
+
+class PlayerAllStarEvidence(CanonicalModel):
+    all_star_event_id: str
+    player_id: str
+    nba_player_id: str
+    season_id: int = Field(ge=1950)
+    source_game_ids: tuple[str, ...]
+    roster_evidence: bool
+    participation_evidence: bool
+    playerawards_evidence: bool | None
+    playerawards_acquisition_status: str
+    selection_status: AllStarSelectionStatus
+    participation_status: AllStarParticipationStatus
+    all_star_games_played: int = Field(ge=0)
+    minutes: float | None = Field(default=None, ge=0)
+    points: int | None = Field(default=None, ge=0)
+    rebounds: int | None = Field(default=None, ge=0)
+    assists: int | None = Field(default=None, ge=0)
+    steals: int | None = Field(default=None, ge=0)
+    blocks: int | None = Field(default=None, ge=0)
+    source_roster_labels: tuple[str, ...]
+    roster_scope: str
+    starter_status: str | None
+    replacement_status: str | None
+    coverage_status: str
+    corpus_id: str
+    methodology_version: str
+    source_id: str
+    updated_at: datetime
+
+    @model_validator(mode="after")
+    def evidence_is_consistent(self) -> Self:
+        if not (self.roster_evidence or self.participation_evidence or self.playerawards_evidence):
+            raise ValueError("All-Star record requires factual evidence")
+        if self.participation_evidence != (self.all_star_games_played > 0):
+            raise ValueError("participation evidence must agree with games played")
+        if self.participation_status is AllStarParticipationStatus.DNP_ROSTERED and not (
+            self.roster_evidence and self.all_star_games_played == 0
+        ):
+            raise ValueError("DNP status requires roster evidence and zero games")
+        return self
+
+
+class PlayerStatLeader(CanonicalModel):
+    stat_leader_event_id: str
+    player_id: str
+    nba_player_id: str
+    season_id: int = Field(ge=1946)
+    stat_category: StatLeaderCategory
+    official_source_rank: int | None = Field(default=None, ge=1)
+    official_source_value: float | None
+    derived_per_game_value: float | None
+    derived_total_value: float | None
+    is_derived_raw_per_game_leader: bool
+    is_derived_raw_total_leader: bool
+    is_derived_qualified_leader: bool
+    leader_semantics: tuple[str, ...]
+    qualification_status: str
+    reconciliation_status: StatLeaderReconciliationStatus
+    source_coverage_status: str
+    corpus_id: str
+    methodology_version: str
+    source_id: str
+    updated_at: datetime
+
+    @model_validator(mode="after")
+    def leader_evidence_is_present(self) -> Self:
+        if self.official_source_rank is None and not (
+            self.is_derived_raw_per_game_leader
+            or self.is_derived_raw_total_leader
+            or self.is_derived_qualified_leader
+        ):
+            raise ValueError("stat leader event requires source or derived leader evidence")
+        if not self.leader_semantics:
+            raise ValueError("stat leader semantics cannot be empty")
         return self
 
 

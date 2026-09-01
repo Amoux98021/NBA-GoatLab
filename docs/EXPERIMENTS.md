@@ -55,3 +55,16 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** none. No player ordering, championship credit, role label, or team-success composite was evaluated.
 - **Random seed:** not applicable; every derivation is deterministic.
 - **Artifacts:** TEAM_SUCCESS_V1, postseason format registry, championship reconciliation, player participation audit, case studies, ADR-0015, ADR-0016, and STEP-0010.
+
+## STEP-0011 All-Star and statistical-leader source audit
+
+- **Objective:** test league-wide official evidence for All-Star event rosters/participation and statistical leaders without assigning accolade value.
+- **Inputs:** GOATLAB-HIST-V1, STEP-0007 qualification/coverage, and candidate-scoped official-player-awards-canonical-v1.
+- **Methodology version:** all-star-stat-leader-facts-v1.
+- **All-Star candidates:** PlayerGameLogs participation, V3 event-game roster listing, and PlayerAwards event evidence retained separately.
+- **Leader candidates:** official-source rank one, raw per-game maximum, raw total maximum, and coverage-qualified frozen-corpus leader.
+- **Result:** 1,852 All-Star evidence rows across 472 players; 422 leader event rows; 238 exact partition reconciliations, 10 qualification differences, 83 derived coverage gaps, and 11 source gaps.
+- **Sensitivity finding:** modern All-Star multi-game formats prove why game appearances cannot be renamed selections. Early metric sparsity proves why source rank and derived qualified leader cannot be forced into uniform historical coverage.
+- **Optimization target:** none. No player order, award value, title weight, or GOAT output was evaluated.
+- **Random seed:** 9011 controls retry jitter only; transformations are deterministic.
+- **Artifacts:** ACCOLADE_FACT_COMPLETION_V1, source/reconciliation/coverage reports, case studies, ADR-0017, ADR-0018, and STEP-0011.

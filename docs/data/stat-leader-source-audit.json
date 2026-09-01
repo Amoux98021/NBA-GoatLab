@@ -1,0 +1,30 @@
+{
+  "category_introduction_policy": {
+    "AST": 1946,
+    "BLK": 1973,
+    "PTS": 1946,
+    "REB": 1950,
+    "STL": 1973
+  },
+  "methodology_version": "all-star-stat-leader-facts-v1",
+  "official_qualification_reference": "https://www.nba.com/stats/help/statminimums",
+  "per_game_outcomes": {
+    "SUCCESS_EMPTY": 11,
+    "SUCCESS_WITH_ROWS": 331
+  },
+  "representative_totals_probes": 43,
+  "request_contract": {
+    "categories": [
+      "PTS",
+      "REB",
+      "AST",
+      "STL",
+      "BLK"
+    ],
+    "endpoint": "LeagueLeaders",
+    "primary_per_mode": "PerGame",
+    "scope": "S",
+    "season_type": "Regular Season"
+  },
+  "semantic_limit": "RANK=1 is retained as OFFICIAL_SOURCE_RANK_ONE; exact historical title qualification is not inferred from current rules."
+}

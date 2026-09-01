@@ -306,3 +306,65 @@ official_nba_player_awards_v1:
     canonicalization: docs/data/award-canonicalization-summary.json
     official_validation: docs/data/award-official-reference-validation.json
     cases: docs/data/award-case-studies.json
+official_nba_accolade_fact_completion_v1:
+  step: STEP-0011
+  methodology_version: all-star-stat-leader-facts-v1
+  source_client: nba_api
+  source_client_version: 1.11.4
+  corpus_id: GOATLAB-HIST-V1
+  corpus_fingerprint: 283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c
+  endpoints:
+    playergamelogs_all_star: 75
+    leaguedashplayerstats_all_star_base_totals: 75
+    boxscoretraditionalv3: 80
+    leagueleaders: 385
+  request_contract:
+    timeout_seconds: 30
+    maximum_attempts: 3
+    minimum_interval_seconds: 0.7
+    all_star_start_season: 1950-51
+    corpus_end_season: 2025-26
+    no_game_seasons: [1998-99]
+    leader_season_type: Regular Season
+    leader_primary_per_mode: PerGame
+    leader_scope: S
+  acquisition:
+    total_requests: 615
+    network_requests: 606
+    reused_cache_entries: 9
+    success_with_rows: 553
+    success_empty: 62
+    failures: 0
+    retries: 0
+    recorded_response_seconds: 453.32
+    cache_only_network_requests: 0
+  bronze:
+    paths:
+      - data/bronze/nba_api/playergamelogs
+      - data/bronze/nba_api/leaguedashplayerstats
+      - data/bronze/nba_api/boxscoretraditionalv3
+      - data/bronze/nba_api/leagueleaders
+    selected_cache_size_approx: 433M
+    git_ignored: true
+  silver:
+    all_star_evidence_rows: 1852
+    stat_leader_event_rows: 422
+    git_ignored: true
+  gold:
+    career_all_star_rows: 472
+    career_stat_leader_rows: 157
+    complete_accolade_rows: 5103
+    git_ignored: true
+  reproducibility:
+    output_fingerprint: e0a3bab4ef5957ab4e0acc1a669f82f508217d139b30599df970248f8c1d1880
+    cache_only_network_requests: 0
+    partition_hashes_reproduced: true
+  evidence:
+    narrative: docs/data/ACCOLADE_FACT_COMPLETION_V1.md
+    all_star_source_audit: docs/data/all-star-source-audit.json
+    all_star_reconciliation: docs/data/all-star-reconciliation.json
+    stat_leader_source_audit: docs/data/stat-leader-source-audit.json
+    stat_leader_reconciliation: docs/data/stat-leader-reconciliation.json
+    coverage: docs/data/accolade-coverage-complete.json
+    summary: docs/data/accolade-fact-completion-summary.json
+    cases: docs/data/accolade-fact-case-studies.json

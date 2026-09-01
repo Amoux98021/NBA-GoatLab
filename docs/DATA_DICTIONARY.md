@@ -144,3 +144,19 @@ Postseason format status is `STANDARD_SERIES_BRACKET`, `NONSTANDARD_SERIES_FORMA
 Player championship facts are not interchangeable: regular-season membership, playoff participation, Finals participation, and official NBA Champion award event are separate fields. The award field is nullable because STEP-0009 did not query every player. Game shares use distinct player appearances divided by team games. Minute shares are NULL unless the underlying partition passes empirical coverage and positive-minute gates.
 
 Canonical schema V3 adds `TeamSeasonResult`, `FinalsGame`, and `PlayerTeamSeasonParticipation`; it does not alter frozen GOATLAB-HIST-V1 player facts. Gold career rows create no subjective championship or team-success value.
+
+## Silver All-Star/leader evidence and Gold factual counts V1
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `player_all_star_evidence` | player × All-Star season | Independent official event-roster, game-participation, and nullable PlayerAwards evidence with contributing game IDs and provenance. |
+| `player_stat_leaders` | player × season × category | Union of official-source rank one, raw per-game/total, and coverage-qualified leader evidence. |
+| `player_career_all_star` | player with All-Star evidence | Explicit event-roster-season, game-participation, and nullable PlayerAwards-event counts. |
+| `player_career_stat_titles` | player with leader evidence | Source-rank-one and derived-qualified counts by category; no value or weighting. |
+| `player_career_accolades_complete` | master player | STEP-0009 counts extended with separately named STEP-0011 evidence fields. |
+
+All-Star selection status is `ROSTER_LISTED`, `PLAYERAWARDS_EVENT`, `MULTIPLE_EVIDENCE`, or `PARTICIPATION_ONLY`. Participation status is `GAME_PARTICIPANT`, `DNP_ROSTERED`, or `NO_PARTICIPATION_EVIDENCE`. `roster_scope=OFFICIAL_EVENT_GAME_ROSTER` does not claim original-selection semantics.
+
+Stat category is `PTS`, `REB`, `AST`, `STL`, or `BLK`. Reconciliation status is `EXACT_MATCH`, `TIE_MATCH`, `VALUE_MATCH`, `QUALIFICATION_DIFFERENCE`, `SOURCE_COVERAGE_GAP`, `DERIVED_COVERAGE_GAP`, or `UNRESOLVED`. `leader_semantics` names the evidence; an official source rank is not silently promoted to an official historical title.
+
+Canonical schema V4 adds `PlayerAllStarEvidence` and `PlayerStatLeader`; existing schema exports and frozen Silver facts remain unchanged.

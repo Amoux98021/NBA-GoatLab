@@ -11,17 +11,19 @@ from goatlab.schemas import (
     Game,
     MetricCoverage,
     Player,
+    PlayerAllStarEvidence,
     PlayerAward,
     PlayerGameStats,
     PlayerSeasonAdvanced,
     PlayerSeasonStats,
+    PlayerStatLeader,
     PlayerTeamSeasonParticipation,
     Season,
     Team,
     TeamSeasonResult,
 )
 
-OUTPUT_PATH = Path("docs/data/canonical-schema-v3.json")
+OUTPUT_PATH = Path("docs/data/canonical-schema-v4.json")
 MODELS = (
     Player,
     Season,
@@ -32,6 +34,8 @@ MODELS = (
     PlayerSeasonStats,
     PlayerSeasonAdvanced,
     PlayerAward,
+    PlayerAllStarEvidence,
+    PlayerStatLeader,
     MetricCoverage,
     TeamSeasonResult,
     FinalsGame,
@@ -41,7 +45,7 @@ MODELS = (
 
 def main() -> None:
     payload = {
-        "schema_version": 3,
+        "schema_version": 4,
         "entities": {model.__name__: model.model_json_schema() for model in MODELS},
     }
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,1093 @@
+{
+  "applicability": [
+    {
+      "season": "1946-47",
+      "season_id": 1946,
+      "status": "NOT_APPLICABLE"
+    },
+    {
+      "season": "1947-48",
+      "season_id": 1947,
+      "status": "NOT_APPLICABLE"
+    },
+    {
+      "season": "1948-49",
+      "season_id": 1948,
+      "status": "NOT_APPLICABLE"
+    },
+    {
+      "season": "1949-50",
+      "season_id": 1949,
+      "status": "NOT_APPLICABLE"
+    },
+    {
+      "season": "1950-51",
+      "season_id": 1950,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1951-52",
+      "season_id": 1951,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1952-53",
+      "season_id": 1952,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1953-54",
+      "season_id": 1953,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1954-55",
+      "season_id": 1954,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1955-56",
+      "season_id": 1955,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1956-57",
+      "season_id": 1956,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1957-58",
+      "season_id": 1957,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1958-59",
+      "season_id": 1958,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1959-60",
+      "season_id": 1959,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1960-61",
+      "season_id": 1960,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1961-62",
+      "season_id": 1961,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1962-63",
+      "season_id": 1962,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1963-64",
+      "season_id": 1963,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1964-65",
+      "season_id": 1964,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1965-66",
+      "season_id": 1965,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1966-67",
+      "season_id": 1966,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1967-68",
+      "season_id": 1967,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1968-69",
+      "season_id": 1968,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1969-70",
+      "season_id": 1969,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1970-71",
+      "season_id": 1970,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1971-72",
+      "season_id": 1971,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1972-73",
+      "season_id": 1972,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1973-74",
+      "season_id": 1973,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1974-75",
+      "season_id": 1974,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1975-76",
+      "season_id": 1975,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1976-77",
+      "season_id": 1976,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1977-78",
+      "season_id": 1977,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1978-79",
+      "season_id": 1978,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1979-80",
+      "season_id": 1979,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1980-81",
+      "season_id": 1980,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1981-82",
+      "season_id": 1981,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1982-83",
+      "season_id": 1982,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1983-84",
+      "season_id": 1983,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1984-85",
+      "season_id": 1984,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1985-86",
+      "season_id": 1985,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1986-87",
+      "season_id": 1986,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1987-88",
+      "season_id": 1987,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1988-89",
+      "season_id": 1988,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1989-90",
+      "season_id": 1989,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1990-91",
+      "season_id": 1990,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1991-92",
+      "season_id": 1991,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1992-93",
+      "season_id": 1992,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1993-94",
+      "season_id": 1993,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1994-95",
+      "season_id": 1994,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1995-96",
+      "season_id": 1995,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1996-97",
+      "season_id": 1996,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1997-98",
+      "season_id": 1997,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "1998-99",
+      "season_id": 1998,
+      "status": "NO_GAME_HELD"
+    },
+    {
+      "season": "1999-00",
+      "season_id": 1999,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2000-01",
+      "season_id": 2000,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2001-02",
+      "season_id": 2001,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2002-03",
+      "season_id": 2002,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2003-04",
+      "season_id": 2003,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2004-05",
+      "season_id": 2004,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2005-06",
+      "season_id": 2005,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2006-07",
+      "season_id": 2006,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2007-08",
+      "season_id": 2007,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2008-09",
+      "season_id": 2008,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2009-10",
+      "season_id": 2009,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2010-11",
+      "season_id": 2010,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2011-12",
+      "season_id": 2011,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2012-13",
+      "season_id": 2012,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2013-14",
+      "season_id": 2013,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2014-15",
+      "season_id": 2014,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2015-16",
+      "season_id": 2015,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2016-17",
+      "season_id": 2016,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2017-18",
+      "season_id": 2017,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2018-19",
+      "season_id": 2018,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2019-20",
+      "season_id": 2019,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2020-21",
+      "season_id": 2020,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2021-22",
+      "season_id": 2021,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2022-23",
+      "season_id": 2022,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2023-24",
+      "season_id": 2023,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2024-25",
+      "season_id": 2024,
+      "status": "APPLICABLE"
+    },
+    {
+      "season": "2025-26",
+      "season_id": 2025,
+      "status": "APPLICABLE"
+    }
+  ],
+  "league_dash_probe": {
+    "1950": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1951": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1952": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1953": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1954": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1955": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1956": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1957": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1958": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1959": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1960": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1961": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1962": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1963": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1964": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1965": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1966": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1967": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1968": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1969": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1970": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1971": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1972": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1973": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1974": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1975": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1976": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1977": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1978": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1979": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1980": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1981": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1982": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1983": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1984": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1985": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1986": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1987": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1988": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1989": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1990": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1991": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1992": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1993": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1994": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1995": {
+      "player_count": 0,
+      "row_count": 0
+    },
+    "1996": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1997": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1999": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2000": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2001": {
+      "player_count": 23,
+      "row_count": 23
+    },
+    "2002": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2003": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2004": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2005": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2006": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2007": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2008": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2009": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2010": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2011": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2012": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2013": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2014": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2015": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2016": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2017": {
+      "player_count": 23,
+      "row_count": 23
+    },
+    "2018": {
+      "player_count": 26,
+      "row_count": 26
+    },
+    "2019": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2020": {
+      "player_count": 22,
+      "row_count": 22
+    },
+    "2021": {
+      "player_count": 23,
+      "row_count": 23
+    },
+    "2022": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2023": {
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2024": {
+      "player_count": 30,
+      "row_count": 30
+    },
+    "2025": {
+      "player_count": 25,
+      "row_count": 25
+    }
+  },
+  "methodology_version": "all-star-stat-leader-facts-v1",
+  "official_box_score_game_count": 80,
+  "official_urls": [
+    "https://www.nba.com/news/history-nba-all-star-game",
+    "https://www.nba.com/news/history-all-star-recap-1951",
+    "https://www.nba.com/news/history-season-review-1998-99",
+    "https://www.nba.com/news/2025-nba-all-star-game-new-format",
+    "https://www.nba.com/news/nba-all-star-faq-2026"
+  ],
+  "player_game_logs": {
+    "1950": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1951": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1952": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1953": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1954": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1955": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1956": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1957": {
+      "game_count": 1,
+      "player_count": 19,
+      "row_count": 19
+    },
+    "1958": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1959": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1960": {
+      "game_count": 1,
+      "player_count": 22,
+      "row_count": 22
+    },
+    "1961": {
+      "game_count": 1,
+      "player_count": 22,
+      "row_count": 22
+    },
+    "1962": {
+      "game_count": 1,
+      "player_count": 23,
+      "row_count": 23
+    },
+    "1963": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1964": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1965": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1966": {
+      "game_count": 1,
+      "player_count": 20,
+      "row_count": 20
+    },
+    "1967": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1968": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1969": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1970": {
+      "game_count": 1,
+      "player_count": 28,
+      "row_count": 28
+    },
+    "1971": {
+      "game_count": 1,
+      "player_count": 28,
+      "row_count": 28
+    },
+    "1972": {
+      "game_count": 1,
+      "player_count": 28,
+      "row_count": 28
+    },
+    "1973": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1974": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1975": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1976": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1977": {
+      "game_count": 1,
+      "player_count": 22,
+      "row_count": 22
+    },
+    "1978": {
+      "game_count": 1,
+      "player_count": 22,
+      "row_count": 22
+    },
+    "1979": {
+      "game_count": 1,
+      "player_count": 22,
+      "row_count": 22
+    },
+    "1980": {
+      "game_count": 1,
+      "player_count": 22,
+      "row_count": 22
+    },
+    "1981": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1982": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1983": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1984": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1985": {
+      "game_count": 1,
+      "player_count": 23,
+      "row_count": 23
+    },
+    "1986": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1987": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1988": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1989": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1990": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1991": {
+      "game_count": 1,
+      "player_count": 25,
+      "row_count": 25
+    },
+    "1992": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1993": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1994": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1995": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1996": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1997": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "1999": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2000": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2001": {
+      "game_count": 1,
+      "player_count": 23,
+      "row_count": 23
+    },
+    "2002": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2003": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2004": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2005": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2006": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2007": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2008": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2009": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2010": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2011": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2012": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2013": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2014": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2015": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2016": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2017": {
+      "game_count": 1,
+      "player_count": 23,
+      "row_count": 23
+    },
+    "2018": {
+      "game_count": 1,
+      "player_count": 26,
+      "row_count": 26
+    },
+    "2019": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2020": {
+      "game_count": 1,
+      "player_count": 22,
+      "row_count": 22
+    },
+    "2021": {
+      "game_count": 1,
+      "player_count": 23,
+      "row_count": 23
+    },
+    "2022": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2023": {
+      "game_count": 1,
+      "player_count": 24,
+      "row_count": 24
+    },
+    "2024": {
+      "game_count": 3,
+      "player_count": 30,
+      "row_count": 45
+    },
+    "2025": {
+      "game_count": 4,
+      "player_count": 25,
+      "row_count": 63
+    }
+  },
+  "semantic_limit": "BoxScoreTraditionalV3 proves event-game roster listing; it does not universally prove original selection or replacement status."
+}

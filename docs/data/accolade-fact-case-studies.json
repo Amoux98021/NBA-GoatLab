@@ -1,0 +1,23 @@
+{
+  "methodology_version": "all-star-stat-leader-facts-v1",
+  "notes": [
+    "Counts are factual evidence-family counts, not accolade values.",
+    "A PlayerAwards event, event-game roster season, and game participation are distinct.",
+    "Official-source rank one and derived-qualified leader are distinct semantics."
+  ],
+  "players": [
+    {"name": "Bill Russell", "all_star_roster_seasons": 12, "all_star_games_participated": 12, "all_star_playerawards_events": 12, "reb_source_rank_one": 5, "reb_derived_qualified": 0},
+    {"name": "Wilt Chamberlain", "all_star_roster_seasons": 13, "all_star_games_participated": 13, "all_star_playerawards_events": 13, "pts_source_rank_one": 7, "pts_derived_qualified": 7, "reb_source_rank_one": 11, "reb_derived_qualified": 0},
+    {"name": "Kareem Abdul-Jabbar", "all_star_roster_seasons": 18, "all_star_games_participated": 18, "all_star_playerawards_events": 19, "pts_source_rank_one": 2, "blk_source_rank_one": 4},
+    {"name": "Michael Jordan", "all_star_roster_seasons": 13, "all_star_games_participated": 13, "all_star_playerawards_events": 14, "pts_source_rank_one": 10, "pts_derived_qualified": 10, "stl_source_rank_one": 3, "stl_derived_qualified": 3},
+    {"name": "Shaquille O'Neal", "all_star_roster_seasons": 13, "all_star_games_participated": 12, "all_star_playerawards_events": 15, "pts_source_rank_one": 2, "pts_derived_qualified": 2},
+    {"name": "LeBron James", "all_star_roster_seasons": 22, "all_star_games_participated": 23, "all_star_playerawards_events": 22, "pts_source_rank_one": 1, "ast_source_rank_one": 1},
+    {"name": "Stephen Curry", "all_star_roster_seasons": 11, "all_star_games_participated": 11, "all_star_playerawards_events": 12, "pts_source_rank_one": 2, "stl_source_rank_one": 1},
+    {"name": "Nikola Jokic", "all_star_roster_seasons": 8, "all_star_games_participated": 9, "all_star_playerawards_events": 8, "reb_source_rank_one": 1, "ast_source_rank_one": 1}
+  ],
+  "source_anomalies": [
+    {"season": "1997-98", "finding": "Official V3 box score includes a blank zero-stat PERSON_ID=1302 placeholder; it is not canonicalized as a player."},
+    {"season": "2024-25", "finding": "Three-game format produces 45 player-game rows for 30 players and includes Rising Stars event participants."},
+    {"season": "2025-26", "finding": "Four-game format produces 63 player-game rows for 25 players."}
+  ]
+}

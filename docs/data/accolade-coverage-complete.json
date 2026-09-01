@@ -1,0 +1,49 @@
+{
+  "all_star": {
+    "first_applicable_season": 1950,
+    "last_applicable_season": 2025,
+    "no_game_seasons": [
+      1998
+    ],
+    "roster_scope": "OFFICIAL_EVENT_GAME_ROSTER",
+    "selection_semantics": "PARTIAL"
+  },
+  "methodology_version": "all-star-stat-leader-facts-v1",
+  "stat_leaders": {
+    "AST": {
+      "coverage_status": "PARTIAL",
+      "first_applicable_season": 1946,
+      "known_semantics": "OFFICIAL_SOURCE_RANK_ONE distinct from derived qualified leader",
+      "last_applicable_season": 2025,
+      "source": "NBA Stats LeagueLeaders"
+    },
+    "BLK": {
+      "coverage_status": "RELIABLE",
+      "first_applicable_season": 1973,
+      "known_semantics": "OFFICIAL_SOURCE_RANK_ONE distinct from derived qualified leader",
+      "last_applicable_season": 2025,
+      "source": "NBA Stats LeagueLeaders"
+    },
+    "PTS": {
+      "coverage_status": "PARTIAL",
+      "first_applicable_season": 1946,
+      "known_semantics": "OFFICIAL_SOURCE_RANK_ONE distinct from derived qualified leader",
+      "last_applicable_season": 2025,
+      "source": "NBA Stats LeagueLeaders"
+    },
+    "REB": {
+      "coverage_status": "PARTIAL",
+      "first_applicable_season": 1950,
+      "known_semantics": "OFFICIAL_SOURCE_RANK_ONE distinct from derived qualified leader",
+      "last_applicable_season": 2025,
+      "source": "NBA Stats LeagueLeaders"
+    },
+    "STL": {
+      "coverage_status": "RELIABLE",
+      "first_applicable_season": 1973,
+      "known_semantics": "OFFICIAL_SOURCE_RANK_ONE distinct from derived qualified leader",
+      "last_applicable_season": 2025,
+      "source": "NBA Stats LeagueLeaders"
+    }
+  }
+}

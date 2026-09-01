@@ -104,3 +104,13 @@ This living summary may be extended, but methodology changes must also receive a
 - Award evidence is NULL for `NOT_QUERIED`; it is never interpreted as no championship event. Team championships never derive from candidate-scoped awards.
 - Game share and coverage-qualified minute share are factual opportunity proxies. Minute shares require RELIABLE empirical coverage and at least 99% positive observations. No role label or credit score is created.
 - Team ranks, percentiles, z-scores, career team context, and participation counts remain separate descriptive primitives. No Winning, team-success, championship-value, or rings composite exists.
+
+## All-Star and statistical-leader fact completion V1
+
+- `all-star-stat-leader-facts-v1` retains All-Star event-game roster listing, actual game participation, and candidate-scoped PlayerAwards evidence independently under ADR-0017.
+- All-Star begins in 1950-51. Pre-introduction seasons are `NOT_APPLICABLE`; 1998-99 is `NO_GAME_HELD`. Multiple modern event games are preserved rather than collapsed into East/West assumptions.
+- Official box-score V3 rows establish `OFFICIAL_EVENT_GAME_ROSTER`, not universally original selection or replacement status. Blank source placeholders are quarantined rather than assigned player identities.
+- LeagueLeaders `RANK=1`, frozen raw per-game/total maxima, and STEP-0007-qualified leaders remain separate under ADR-0018. Current qualification rules are not retroactively applied.
+- PTS/AST applicability begins in 1946-47, REB in 1950-51, and STL/BLK in 1973-74. A derived qualified leader additionally requires `RELIABLE` empirical metric coverage.
+- `NOT_QUERIED` PlayerAwards absence remains NULL even when league-wide roster or participation evidence exists. League-wide evidence includes players outside the former candidate universe.
+- Career outputs use exact evidence-family names. No ambiguous All-Star count, official-title inference, accolade value, or composite score is created.

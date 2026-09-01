@@ -50,8 +50,11 @@ def test_request_cache_key_is_deterministic_and_scope_sensitive() -> None:
 def test_retry_classification_and_bounded_retry(tmp_path: Path) -> None:
     transport = SequenceTransport([_response(503, []), _response(200, [[1]])])
     client = NBAAPIClient(
-        ResponseCache(tmp_path), transport=transport, max_attempts=2,
-        rate_limiter=RateLimiter(0), sleeper=lambda _: None,
+        ResponseCache(tmp_path),
+        transport=transport,
+        max_attempts=2,
+        rate_limiter=RateLimiter(0),
+        sleeper=lambda _: None,
     )
     result = client.execute(RequestSpec("test", {"Season": "2022-23"}))
     assert result.outcome is RequestOutcome.SUCCESS_WITH_ROWS
@@ -69,11 +72,22 @@ def test_errors_are_not_classified_as_empty() -> None:
     )
 
 
+def test_nested_v3_box_score_contract_classifies_roster_rows() -> None:
+    payload = {
+        "boxScoreTraditional": {
+            "homeTeam": {"players": [{"personId": 1}]},
+            "awayTeam": {"players": []},
+        }
+    }
+    outcome, parsed, error = classify_http_response(200, json.dumps(payload))
+    assert outcome is RequestOutcome.SUCCESS_WITH_ROWS
+    assert parsed == payload
+    assert error is None
+
+
 def test_cache_is_resumable_and_preserves_provenance(tmp_path: Path) -> None:
     transport = SequenceTransport([_response(200, [[76003]])])
-    client = NBAAPIClient(
-        ResponseCache(tmp_path), transport=transport, rate_limiter=RateLimiter(0)
-    )
+    client = NBAAPIClient(ResponseCache(tmp_path), transport=transport, rate_limiter=RateLimiter(0))
     spec = RequestSpec("test", {"Season": "1955-56"})
     first = client.execute(spec)
     second = client.execute(spec)
@@ -81,4 +95,3 @@ def test_cache_is_resumable_and_preserves_provenance(tmp_path: Path) -> None:
     assert second.from_cache
     assert second.cache_key == spec.cache_key()
     assert transport.calls == 1
-

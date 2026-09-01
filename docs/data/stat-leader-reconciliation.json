@@ -1,0 +1,5941 @@
+{
+  "event_rows": 422,
+  "records": [
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76764"
+      ],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1946-47",
+      "season_id": 1946,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76764"
+      ],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1947-48",
+      "season_id": 1947,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "600012"
+      ],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1948-49",
+      "season_id": 1948,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "600012"
+      ],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1949-50",
+      "season_id": 1949,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "600012"
+      ],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1950-51",
+      "season_id": 1950,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76056"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1951-52",
+      "season_id": 1951,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76056"
+      ],
+      "source_value": [
+        25.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77169"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1952-53",
+      "season_id": 1952,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77169"
+      ],
+      "source_value": [
+        22.3
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77169"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1953-54",
+      "season_id": 1953,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77169"
+      ],
+      "source_value": [
+        24.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77169"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1954-55",
+      "season_id": 1954,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77169"
+      ],
+      "source_value": [
+        22.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77847"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1955-56",
+      "season_id": 1955,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77847"
+      ],
+      "source_value": [
+        25.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76056"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1956-57",
+      "season_id": 1956,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76056"
+      ],
+      "source_value": [
+        25.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "78628"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1957-58",
+      "season_id": 1957,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78628"
+      ],
+      "source_value": [
+        27.8
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77847"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1958-59",
+      "season_id": 1958,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77847"
+      ],
+      "source_value": [
+        29.2
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76375"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1959-60",
+      "season_id": 1959,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        37.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76375"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1960-61",
+      "season_id": 1960,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        38.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76375"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1961-62",
+      "season_id": 1961,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        50.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76375"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1962-63",
+      "season_id": 1962,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        44.8
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76375"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1963-64",
+      "season_id": 1963,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        36.9
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76375"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1964-65",
+      "season_id": 1964,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        34.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76375"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1965-66",
+      "season_id": 1965,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        33.5
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "600013"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1966-67",
+      "season_id": 1966,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600013"
+      ],
+      "source_value": [
+        35.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "600015"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1967-68",
+      "season_id": 1967,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        29.2
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76979"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1968-69",
+      "season_id": 1968,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76979"
+      ],
+      "source_value": [
+        28.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "78497"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1969-70",
+      "season_id": 1969,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78497"
+      ],
+      "source_value": [
+        31.2
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76003"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1970-71",
+      "season_id": 1970,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76003"
+      ],
+      "source_value": [
+        31.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76003"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1971-72",
+      "season_id": 1971,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76003"
+      ],
+      "source_value": [
+        34.8
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76054"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1972-73",
+      "season_id": 1972,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76054"
+      ],
+      "source_value": [
+        34.0
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77498"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1973-74",
+      "season_id": 1973,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77498"
+      ],
+      "source_value": [
+        30.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77498"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1974-75",
+      "season_id": 1974,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77498"
+      ],
+      "source_value": [
+        34.5
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77498"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1975-76",
+      "season_id": 1975,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77498"
+      ],
+      "source_value": [
+        31.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77459"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1976-77",
+      "season_id": 1976,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77459"
+      ],
+      "source_value": [
+        31.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76804"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1977-78",
+      "season_id": 1977,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76804"
+      ],
+      "source_value": [
+        27.2
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76804"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1978-79",
+      "season_id": 1978,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76804"
+      ],
+      "source_value": [
+        29.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76804"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1979-80",
+      "season_id": 1979,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76804"
+      ],
+      "source_value": [
+        33.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76504"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1980-81",
+      "season_id": 1980,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76504"
+      ],
+      "source_value": [
+        30.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76804"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1981-82",
+      "season_id": 1981,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76804"
+      ],
+      "source_value": [
+        32.3
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76504"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "1982-83",
+      "season_id": 1982,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76673"
+      ],
+      "source_value": [
+        28.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76504"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1983-84",
+      "season_id": 1983,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76504"
+      ],
+      "source_value": [
+        30.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77264"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1984-85",
+      "season_id": 1984,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77264"
+      ],
+      "source_value": [
+        32.9
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1122"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1985-86",
+      "season_id": 1985,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1122"
+      ],
+      "source_value": [
+        30.3
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1986-87",
+      "season_id": 1986,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        37.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1987-88",
+      "season_id": 1987,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        35.0
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1988-89",
+      "season_id": 1988,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        32.5
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1989-90",
+      "season_id": 1989,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        33.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1990-91",
+      "season_id": 1990,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        31.5
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1991-92",
+      "season_id": 1991,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        30.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1992-93",
+      "season_id": 1992,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        32.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "764"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1993-94",
+      "season_id": 1993,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "764"
+      ],
+      "source_value": [
+        29.8
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "406"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1994-95",
+      "season_id": 1994,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "406"
+      ],
+      "source_value": [
+        29.3
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1995-96",
+      "season_id": 1995,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        30.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1996-97",
+      "season_id": 1996,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        29.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1997-98",
+      "season_id": 1997,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        28.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1998-99",
+      "season_id": 1998,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "947"
+      ],
+      "source_value": [
+        26.8
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "406"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1999-00",
+      "season_id": 1999,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "406"
+      ],
+      "source_value": [
+        29.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2000-01",
+      "season_id": 2000,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "947"
+      ],
+      "source_value": [
+        31.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2001-02",
+      "season_id": 2001,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "947"
+      ],
+      "source_value": [
+        31.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1503"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2002-03",
+      "season_id": 2002,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1503"
+      ],
+      "source_value": [
+        32.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1503"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2003-04",
+      "season_id": 2003,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1503"
+      ],
+      "source_value": [
+        28.0
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2004-05",
+      "season_id": 2004,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "947"
+      ],
+      "source_value": [
+        30.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "977"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2005-06",
+      "season_id": 2005,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "977"
+      ],
+      "source_value": [
+        35.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "977"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2006-07",
+      "season_id": 2006,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "977"
+      ],
+      "source_value": [
+        31.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2544"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2007-08",
+      "season_id": 2007,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2544"
+      ],
+      "source_value": [
+        30.0
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2548"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2008-09",
+      "season_id": 2008,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2548"
+      ],
+      "source_value": [
+        30.2
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2009-10",
+      "season_id": 2009,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201142"
+      ],
+      "source_value": [
+        30.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2010-11",
+      "season_id": 2010,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201142"
+      ],
+      "source_value": [
+        27.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2011-12",
+      "season_id": 2011,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201142"
+      ],
+      "source_value": [
+        28.0
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2546"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2012-13",
+      "season_id": 2012,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2546"
+      ],
+      "source_value": [
+        28.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2013-14",
+      "season_id": 2013,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201142"
+      ],
+      "source_value": [
+        32.0
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201566"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2014-15",
+      "season_id": 2014,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201566"
+      ],
+      "source_value": [
+        28.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201939"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2015-16",
+      "season_id": 2015,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201939"
+      ],
+      "source_value": [
+        30.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201566"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2016-17",
+      "season_id": 2016,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201566"
+      ],
+      "source_value": [
+        31.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201935"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2017-18",
+      "season_id": 2017,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201935"
+      ],
+      "source_value": [
+        30.4
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201935"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2018-19",
+      "season_id": 2018,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201935"
+      ],
+      "source_value": [
+        36.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201935"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2019-20",
+      "season_id": 2019,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201935"
+      ],
+      "source_value": [
+        34.3
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201939"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2020-21",
+      "season_id": 2020,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201939"
+      ],
+      "source_value": [
+        32.0
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203954"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2021-22",
+      "season_id": 2021,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203954"
+      ],
+      "source_value": [
+        30.6
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203954"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2022-23",
+      "season_id": 2022,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203954"
+      ],
+      "source_value": [
+        33.1
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203954"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2023-24",
+      "season_id": 2023,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1629029"
+      ],
+      "source_value": [
+        33.9
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1628983"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2024-25",
+      "season_id": 2024,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1628983"
+      ],
+      "source_value": [
+        32.7
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1629029"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2025-26",
+      "season_id": 2025,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1629029"
+      ],
+      "source_value": [
+        33.5
+      ],
+      "stat_category": "PTS"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1950-51",
+      "season_id": 1950,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1951-52",
+      "season_id": 1951,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600012"
+      ],
+      "source_value": [
+        13.5
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1952-53",
+      "season_id": 1952,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600012"
+      ],
+      "source_value": [
+        14.4
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1953-54",
+      "season_id": 1953,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76773"
+      ],
+      "source_value": [
+        15.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1954-55",
+      "season_id": 1954,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77169"
+      ],
+      "source_value": [
+        15.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1955-56",
+      "season_id": 1955,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600016"
+      ],
+      "source_value": [
+        16.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1956-57",
+      "season_id": 1956,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78049"
+      ],
+      "source_value": [
+        19.6
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1957-58",
+      "season_id": 1957,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78049"
+      ],
+      "source_value": [
+        22.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1958-59",
+      "season_id": 1958,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78049"
+      ],
+      "source_value": [
+        23.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1959-60",
+      "season_id": 1959,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        27.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1960-61",
+      "season_id": 1960,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        27.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1961-62",
+      "season_id": 1961,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        25.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1962-63",
+      "season_id": 1962,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        24.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1963-64",
+      "season_id": 1963,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78049"
+      ],
+      "source_value": [
+        24.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1964-65",
+      "season_id": 1964,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78049"
+      ],
+      "source_value": [
+        24.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1965-66",
+      "season_id": 1965,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        24.6
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1966-67",
+      "season_id": 1966,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        24.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1967-68",
+      "season_id": 1967,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        23.8
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1968-69",
+      "season_id": 1968,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        21.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1969-70",
+      "season_id": 1969,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76979"
+      ],
+      "source_value": [
+        16.9
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1970-71",
+      "season_id": 1970,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        18.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1971-72",
+      "season_id": 1971,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        19.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1972-73",
+      "season_id": 1972,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76375"
+      ],
+      "source_value": [
+        18.6
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1973-74",
+      "season_id": 1973,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76979"
+      ],
+      "source_value": [
+        18.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1974-75",
+      "season_id": 1974,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78392"
+      ],
+      "source_value": [
+        14.8
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1975-76",
+      "season_id": 1975,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76003"
+      ],
+      "source_value": [
+        16.9
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "78450"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1976-77",
+      "season_id": 1976,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78450"
+      ],
+      "source_value": [
+        14.4
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77993"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1977-78",
+      "season_id": 1977,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77993"
+      ],
+      "source_value": [
+        15.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1978-79",
+      "season_id": 1978,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77449"
+      ],
+      "source_value": [
+        17.6
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1979-80",
+      "season_id": 1979,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77689"
+      ],
+      "source_value": [
+        15.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77449"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1980-81",
+      "season_id": 1980,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77449"
+      ],
+      "source_value": [
+        14.8
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1981-82",
+      "season_id": 1981,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77449"
+      ],
+      "source_value": [
+        14.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77449"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1982-83",
+      "season_id": 1982,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77449"
+      ],
+      "source_value": [
+        15.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77449"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1983-84",
+      "season_id": 1983,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77449"
+      ],
+      "source_value": [
+        13.4
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1984-85",
+      "season_id": 1984,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77449"
+      ],
+      "source_value": [
+        13.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "100263"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1985-86",
+      "season_id": 1985,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "100263"
+      ],
+      "source_value": [
+        13.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "787"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1986-87",
+      "season_id": 1986,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "787"
+      ],
+      "source_value": [
+        14.6
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "262"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1987-88",
+      "season_id": 1987,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "262"
+      ],
+      "source_value": [
+        13.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "165"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1988-89",
+      "season_id": 1988,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "165"
+      ],
+      "source_value": [
+        13.5
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "165"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1989-90",
+      "season_id": 1989,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "165"
+      ],
+      "source_value": [
+        14.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "165"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "1990-91",
+      "season_id": 1990,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "764"
+      ],
+      "source_value": [
+        13.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "23"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1991-92",
+      "season_id": 1991,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "23"
+      ],
+      "source_value": [
+        18.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "23"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1992-93",
+      "season_id": 1992,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "23"
+      ],
+      "source_value": [
+        18.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "23"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1993-94",
+      "season_id": 1993,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "23"
+      ],
+      "source_value": [
+        17.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "23"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1994-95",
+      "season_id": 1994,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "23"
+      ],
+      "source_value": [
+        16.8
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "23"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1995-96",
+      "season_id": 1995,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "23"
+      ],
+      "source_value": [
+        14.9
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "23"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1996-97",
+      "season_id": 1996,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "23"
+      ],
+      "source_value": [
+        16.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "23"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1997-98",
+      "season_id": 1997,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "23"
+      ],
+      "source_value": [
+        15.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "185"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1998-99",
+      "season_id": 1998,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "185"
+      ],
+      "source_value": [
+        13.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "87"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1999-00",
+      "season_id": 1999,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "87"
+      ],
+      "source_value": [
+        14.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "87"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2000-01",
+      "season_id": 2000,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "87"
+      ],
+      "source_value": [
+        13.5
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1112"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2001-02",
+      "season_id": 2001,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1112"
+      ],
+      "source_value": [
+        13.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1112"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2002-03",
+      "season_id": 2002,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1112"
+      ],
+      "source_value": [
+        15.4
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "708"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2003-04",
+      "season_id": 2003,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "708"
+      ],
+      "source_value": [
+        13.9
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "708"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2004-05",
+      "season_id": 2004,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "708"
+      ],
+      "source_value": [
+        13.5
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "708"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2005-06",
+      "season_id": 2005,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "708"
+      ],
+      "source_value": [
+        12.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "708"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2006-07",
+      "season_id": 2006,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "708"
+      ],
+      "source_value": [
+        12.8
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2730"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2007-08",
+      "season_id": 2007,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2730"
+      ],
+      "source_value": [
+        14.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2730"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2008-09",
+      "season_id": 2008,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2730"
+      ],
+      "source_value": [
+        13.8
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2730"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2009-10",
+      "season_id": 2009,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2730"
+      ],
+      "source_value": [
+        13.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201567"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2010-11",
+      "season_id": 2010,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201567"
+      ],
+      "source_value": [
+        15.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2730"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2011-12",
+      "season_id": 2011,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2730"
+      ],
+      "source_value": [
+        14.5
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2760"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2012-13",
+      "season_id": 2012,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2730"
+      ],
+      "source_value": [
+        12.4
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201599"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2013-14",
+      "season_id": 2013,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201599"
+      ],
+      "source_value": [
+        13.6
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201599"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2014-15",
+      "season_id": 2014,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201599"
+      ],
+      "source_value": [
+        15.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203083"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2015-16",
+      "season_id": 2015,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203083"
+      ],
+      "source_value": [
+        14.8
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "202355"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2016-17",
+      "season_id": 2016,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "202355"
+      ],
+      "source_value": [
+        14.1
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203083"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2017-18",
+      "season_id": 2017,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203083"
+      ],
+      "source_value": [
+        16.0
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203083"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2018-19",
+      "season_id": 2018,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203083"
+      ],
+      "source_value": [
+        15.6
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203083"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2019-20",
+      "season_id": 2019,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203083"
+      ],
+      "source_value": [
+        15.2
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203991"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2020-21",
+      "season_id": 2020,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203991"
+      ],
+      "source_value": [
+        14.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203497"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2021-22",
+      "season_id": 2021,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203497"
+      ],
+      "source_value": [
+        14.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203076"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2022-23",
+      "season_id": 2022,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1627734"
+      ],
+      "source_value": [
+        12.3
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1627734"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2023-24",
+      "season_id": 2023,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1627734"
+      ],
+      "source_value": [
+        13.7
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1627734"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2024-25",
+      "season_id": 2024,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1627734"
+      ],
+      "source_value": [
+        13.9
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203999"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2025-26",
+      "season_id": 2025,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203999"
+      ],
+      "source_value": [
+        12.9
+      ],
+      "stat_category": "REB"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1946-47",
+      "season_id": 1946,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1947-48",
+      "season_id": 1947,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1948-49",
+      "season_id": 1948,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1949-50",
+      "season_id": 1949,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "SOURCE_COVERAGE_GAP",
+      "season": "1950-51",
+      "season_id": 1950,
+      "source_outcome": "SUCCESS_EMPTY",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1951-52",
+      "season_id": 1951,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77853"
+      ],
+      "source_value": [
+        8.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1952-53",
+      "season_id": 1952,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        7.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1953-54",
+      "season_id": 1953,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        7.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1954-55",
+      "season_id": 1954,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        7.8
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1955-56",
+      "season_id": 1955,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        8.9
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1956-57",
+      "season_id": 1956,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        7.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1957-58",
+      "season_id": 1957,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        7.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1958-59",
+      "season_id": 1958,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        8.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1959-60",
+      "season_id": 1959,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600003"
+      ],
+      "source_value": [
+        9.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1960-61",
+      "season_id": 1960,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        9.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1961-62",
+      "season_id": 1961,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        11.4
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1962-63",
+      "season_id": 1962,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78003"
+      ],
+      "source_value": [
+        10.4
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1963-64",
+      "season_id": 1963,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        11.0
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1964-65",
+      "season_id": 1964,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        11.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1965-66",
+      "season_id": 1965,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        11.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1966-67",
+      "season_id": 1966,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78003"
+      ],
+      "source_value": [
+        11.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1967-68",
+      "season_id": 1967,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        9.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1968-69",
+      "season_id": 1968,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600015"
+      ],
+      "source_value": [
+        9.8
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1969-70",
+      "season_id": 1969,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78530"
+      ],
+      "source_value": [
+        9.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1970-71",
+      "season_id": 1970,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78406"
+      ],
+      "source_value": [
+        10.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1971-72",
+      "season_id": 1971,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78497"
+      ],
+      "source_value": [
+        9.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1972-73",
+      "season_id": 1972,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76054"
+      ],
+      "source_value": [
+        11.4
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1973-74",
+      "season_id": 1973,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76568"
+      ],
+      "source_value": [
+        8.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1974-75",
+      "season_id": 1974,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77876"
+      ],
+      "source_value": [
+        8.0
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1975-76",
+      "season_id": 1975,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78473"
+      ],
+      "source_value": [
+        8.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1976-77",
+      "season_id": 1976,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76317"
+      ],
+      "source_value": [
+        8.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1977-78",
+      "season_id": 1977,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [],
+      "source_value": [],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1978-79",
+      "season_id": 1978,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77876"
+      ],
+      "source_value": [
+        13.4
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1979-80",
+      "season_id": 1979,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77952"
+      ],
+      "source_value": [
+        10.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1980-81",
+      "season_id": 1980,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77876"
+      ],
+      "source_value": [
+        9.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1981-82",
+      "season_id": 1981,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77633"
+      ],
+      "source_value": [
+        9.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1982-83",
+      "season_id": 1982,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77142"
+      ],
+      "source_value": [
+        10.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1983-84",
+      "season_id": 1983,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77142"
+      ],
+      "source_value": [
+        13.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1984-85",
+      "season_id": 1984,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78318"
+      ],
+      "source_value": [
+        13.9
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1985-86",
+      "season_id": 1985,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77142"
+      ],
+      "source_value": [
+        12.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "77142"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1986-87",
+      "season_id": 1986,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77142"
+      ],
+      "source_value": [
+        12.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1987-88",
+      "season_id": 1987,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        13.8
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1988-89",
+      "season_id": 1988,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        13.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1989-90",
+      "season_id": 1989,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        14.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1990-91",
+      "season_id": 1990,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        14.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1991-92",
+      "season_id": 1991,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        13.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1992-93",
+      "season_id": 1992,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        12.0
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1993-94",
+      "season_id": 1993,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        12.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1994-95",
+      "season_id": 1994,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        12.3
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1995-96",
+      "season_id": 1995,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        11.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "349"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1996-97",
+      "season_id": 1996,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "349"
+      ],
+      "source_value": [
+        11.4
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "393"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1997-98",
+      "season_id": 1997,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "393"
+      ],
+      "source_value": [
+        10.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "467"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1998-99",
+      "season_id": 1998,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "467"
+      ],
+      "source_value": [
+        10.8
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "467"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1999-00",
+      "season_id": 1999,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "467"
+      ],
+      "source_value": [
+        10.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "467"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2000-01",
+      "season_id": 2000,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "467"
+      ],
+      "source_value": [
+        9.8
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1889"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2001-02",
+      "season_id": 2001,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1889"
+      ],
+      "source_value": [
+        10.9
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "467"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2002-03",
+      "season_id": 2002,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "467"
+      ],
+      "source_value": [
+        8.9
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "467"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2003-04",
+      "season_id": 2003,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "467"
+      ],
+      "source_value": [
+        9.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "959"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2004-05",
+      "season_id": 2004,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "959"
+      ],
+      "source_value": [
+        11.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "959"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2005-06",
+      "season_id": 2005,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "959"
+      ],
+      "source_value": [
+        10.5
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "959"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2006-07",
+      "season_id": 2006,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "959"
+      ],
+      "source_value": [
+        11.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2007-08",
+      "season_id": 2007,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        11.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2008-09",
+      "season_id": 2008,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        11.0
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "959"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2009-10",
+      "season_id": 2009,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "959"
+      ],
+      "source_value": [
+        11.0
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "959"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2010-11",
+      "season_id": 2010,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "959"
+      ],
+      "source_value": [
+        11.4
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "200765"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2011-12",
+      "season_id": 2011,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "200765"
+      ],
+      "source_value": [
+        11.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "200765"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2012-13",
+      "season_id": 2012,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "200765"
+      ],
+      "source_value": [
+        11.1
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2013-14",
+      "season_id": 2013,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        10.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2014-15",
+      "season_id": 2014,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        10.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "200765"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2015-16",
+      "season_id": 2015,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "200765"
+      ],
+      "source_value": [
+        11.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201935"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2016-17",
+      "season_id": 2016,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201935"
+      ],
+      "source_value": [
+        11.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201566"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2017-18",
+      "season_id": 2017,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201566"
+      ],
+      "source_value": [
+        10.3
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201566"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2018-19",
+      "season_id": 2018,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201566"
+      ],
+      "source_value": [
+        10.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2544"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2019-20",
+      "season_id": 2019,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2544"
+      ],
+      "source_value": [
+        10.2
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201566"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2020-21",
+      "season_id": 2020,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201566"
+      ],
+      "source_value": [
+        11.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2021-22",
+      "season_id": 2021,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        10.8
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201935"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2022-23",
+      "season_id": 2022,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201935"
+      ],
+      "source_value": [
+        10.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1630169"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2023-24",
+      "season_id": 2023,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1630169"
+      ],
+      "source_value": [
+        10.9
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1629027"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2024-25",
+      "season_id": 2024,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1629027"
+      ],
+      "source_value": [
+        11.6
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203999"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2025-26",
+      "season_id": 2025,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203999"
+      ],
+      "source_value": [
+        10.7
+      ],
+      "stat_category": "AST"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1973-74",
+      "season_id": 1973,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78245"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1974-75",
+      "season_id": 1974,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "600013"
+      ],
+      "source_value": [
+        2.9
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1975-76",
+      "season_id": 1975,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78473"
+      ],
+      "source_value": [
+        3.2
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1976-77",
+      "season_id": 1976,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76317"
+      ],
+      "source_value": [
+        3.5
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1977-78",
+      "season_id": 1977,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77364"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1978-79",
+      "season_id": 1978,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76351"
+      ],
+      "source_value": [
+        2.5
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1979-80",
+      "season_id": 1979,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77952"
+      ],
+      "source_value": [
+        3.2
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1980-81",
+      "season_id": 1980,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77142"
+      ],
+      "source_value": [
+        3.4
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1981-82",
+      "season_id": 1981,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77142"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1982-83",
+      "season_id": 1982,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77952"
+      ],
+      "source_value": [
+        2.8
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76874"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1983-84",
+      "season_id": 1983,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76874"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1984-85",
+      "season_id": 1984,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77952"
+      ],
+      "source_value": [
+        3.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "926"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1985-86",
+      "season_id": 1985,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "926"
+      ],
+      "source_value": [
+        3.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "926"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1986-87",
+      "season_id": 1986,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "926"
+      ],
+      "source_value": [
+        3.2
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1987-88",
+      "season_id": 1987,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        3.2
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1988-89",
+      "season_id": 1988,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        3.2
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1989-90",
+      "season_id": 1989,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        2.8
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "926"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1990-91",
+      "season_id": 1990,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "926"
+      ],
+      "source_value": [
+        3.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "304"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1991-92",
+      "season_id": 1991,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "304"
+      ],
+      "source_value": [
+        3.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "893"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1992-93",
+      "season_id": 1992,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "893"
+      ],
+      "source_value": [
+        2.8
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1993-94",
+      "season_id": 1993,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203"
+      ],
+      "source_value": [
+        3.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "937"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1994-95",
+      "season_id": 1994,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "937"
+      ],
+      "source_value": [
+        2.9
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "56"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1995-96",
+      "season_id": 1995,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "56"
+      ],
+      "source_value": [
+        2.9
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "302"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1996-97",
+      "season_id": 1996,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "302"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "302"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1997-98",
+      "season_id": 1997,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "302"
+      ],
+      "source_value": [
+        2.6
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "383"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1998-99",
+      "season_id": 1998,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "383"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "224"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1999-00",
+      "season_id": 1999,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "224"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2000-01",
+      "season_id": 2000,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "947"
+      ],
+      "source_value": [
+        2.5
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2001-02",
+      "season_id": 2001,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "947"
+      ],
+      "source_value": [
+        2.8
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2002-03",
+      "season_id": 2002,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "947"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "947"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2003-04",
+      "season_id": 2003,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1884"
+      ],
+      "source_value": [
+        2.4
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1716"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2004-05",
+      "season_id": 2004,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1716"
+      ],
+      "source_value": [
+        2.9
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2222"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2005-06",
+      "season_id": 2005,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2222"
+      ],
+      "source_value": [
+        2.5
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1884"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2006-07",
+      "season_id": 2006,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1884"
+      ],
+      "source_value": [
+        2.1
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2007-08",
+      "season_id": 2007,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2008-09",
+      "season_id": 2008,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        2.8
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "200765"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2009-10",
+      "season_id": 2009,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "200765"
+      ],
+      "source_value": [
+        2.3
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2010-11",
+      "season_id": 2010,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        2.4
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2011-12",
+      "season_id": 2011,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        2.5
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2012-13",
+      "season_id": 2012,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        2.4
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101108"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2013-14",
+      "season_id": 2013,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101108"
+      ],
+      "source_value": [
+        2.5
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "202695"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2014-15",
+      "season_id": 2014,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "202695"
+      ],
+      "source_value": [
+        2.3
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201939"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2015-16",
+      "season_id": 2015,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201939"
+      ],
+      "source_value": [
+        2.1
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203110"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2016-17",
+      "season_id": 2016,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203110"
+      ],
+      "source_value": [
+        2.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203506"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2017-18",
+      "season_id": 2017,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203506"
+      ],
+      "source_value": [
+        2.4
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "202331"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2018-19",
+      "season_id": 2018,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "202331"
+      ],
+      "source_value": [
+        2.2
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1627732"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2019-20",
+      "season_id": 2019,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1627732"
+      ],
+      "source_value": [
+        2.1
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "202710"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2020-21",
+      "season_id": 2020,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "202710"
+      ],
+      "source_value": [
+        2.1
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "202331"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2021-22",
+      "season_id": 2021,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1627749"
+      ],
+      "source_value": [
+        2.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1628384"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2022-23",
+      "season_id": 2022,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1628384"
+      ],
+      "source_value": [
+        1.9
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203935"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2023-24",
+      "season_id": 2023,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1628368"
+      ],
+      "source_value": [
+        2.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1630700"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2024-25",
+      "season_id": 2024,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1630700"
+      ],
+      "source_value": [
+        3.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1629645"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2025-26",
+      "season_id": 2025,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1641709"
+      ],
+      "source_value": [
+        2.0
+      ],
+      "stat_category": "STL"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1973-74",
+      "season_id": 1973,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78188"
+      ],
+      "source_value": [
+        4.9
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1974-75",
+      "season_id": 1974,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76003"
+      ],
+      "source_value": [
+        3.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1975-76",
+      "season_id": 1975,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76003"
+      ],
+      "source_value": [
+        4.1
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1976-77",
+      "season_id": 1976,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78450"
+      ],
+      "source_value": [
+        3.2
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1977-78",
+      "season_id": 1977,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77149"
+      ],
+      "source_value": [
+        3.4
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1978-79",
+      "season_id": 1978,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76003"
+      ],
+      "source_value": [
+        4.0
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1979-80",
+      "season_id": 1979,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76003"
+      ],
+      "source_value": [
+        3.4
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1980-81",
+      "season_id": 1980,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77149"
+      ],
+      "source_value": [
+        3.4
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "SPARSE",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1981-82",
+      "season_id": 1981,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "77149"
+      ],
+      "source_value": [
+        3.1
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1982-83",
+      "season_id": 1982,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "78014"
+      ],
+      "source_value": [
+        4.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76631"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1983-84",
+      "season_id": 1983,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76631"
+      ],
+      "source_value": [
+        4.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "PARTIAL",
+      "derived_qualified_player_ids": [],
+      "reconciliation_status": "DERIVED_COVERAGE_GAP",
+      "season": "1984-85",
+      "season_id": 1984,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76631"
+      ],
+      "source_value": [
+        5.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76195"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1985-86",
+      "season_id": 1985,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76195"
+      ],
+      "source_value": [
+        5.0
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76631"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1986-87",
+      "season_id": 1986,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76631"
+      ],
+      "source_value": [
+        4.1
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76631"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1987-88",
+      "season_id": 1987,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76631"
+      ],
+      "source_value": [
+        3.7
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "76195"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1988-89",
+      "season_id": 1988,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "76195"
+      ],
+      "source_value": [
+        4.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "165"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1989-90",
+      "season_id": 1989,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "165"
+      ],
+      "source_value": [
+        4.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "165"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1990-91",
+      "season_id": 1990,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "165"
+      ],
+      "source_value": [
+        3.9
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "764"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1991-92",
+      "season_id": 1991,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "764"
+      ],
+      "source_value": [
+        4.5
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "165"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1992-93",
+      "season_id": 1992,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "165"
+      ],
+      "source_value": [
+        4.2
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "87"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1993-94",
+      "season_id": 1993,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "87"
+      ],
+      "source_value": [
+        4.1
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "87"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1994-95",
+      "season_id": 1994,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "87"
+      ],
+      "source_value": [
+        3.9
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "87"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1995-96",
+      "season_id": 1995,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "87"
+      ],
+      "source_value": [
+        4.5
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "762"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1996-97",
+      "season_id": 1996,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "762"
+      ],
+      "source_value": [
+        3.4
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "948"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1997-98",
+      "season_id": 1997,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "948"
+      ],
+      "source_value": [
+        3.7
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "297"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1998-99",
+      "season_id": 1998,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "297"
+      ],
+      "source_value": [
+        3.9
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "297"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "1999-00",
+      "season_id": 1999,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "297"
+      ],
+      "source_value": [
+        3.7
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "689"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2000-01",
+      "season_id": 2000,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "689"
+      ],
+      "source_value": [
+        3.7
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1112"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2001-02",
+      "season_id": 2001,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1112"
+      ],
+      "source_value": [
+        3.5
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "689"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2002-03",
+      "season_id": 2002,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "689"
+      ],
+      "source_value": [
+        3.2
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "689"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2003-04",
+      "season_id": 2003,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "689"
+      ],
+      "source_value": [
+        3.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1905"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2004-05",
+      "season_id": 2004,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1905"
+      ],
+      "source_value": [
+        3.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "948"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2005-06",
+      "season_id": 2005,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "948"
+      ],
+      "source_value": [
+        3.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "948"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2006-07",
+      "season_id": 2006,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "948"
+      ],
+      "source_value": [
+        3.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "948"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2007-08",
+      "season_id": 2007,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "948"
+      ],
+      "source_value": [
+        3.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2730"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2008-09",
+      "season_id": 2008,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2730"
+      ],
+      "source_value": [
+        2.9
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "2730"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2009-10",
+      "season_id": 2009,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "2730"
+      ],
+      "source_value": [
+        2.8
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "101106"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2010-11",
+      "season_id": 2010,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "101106"
+      ],
+      "source_value": [
+        2.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201586"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2011-12",
+      "season_id": 2011,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201586"
+      ],
+      "source_value": [
+        3.7
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "201586"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2012-13",
+      "season_id": 2012,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "201586"
+      ],
+      "source_value": [
+        3.0
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203076"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2013-14",
+      "season_id": 2013,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203076"
+      ],
+      "source_value": [
+        2.8
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203076"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2014-15",
+      "season_id": 2014,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203076"
+      ],
+      "source_value": [
+        2.9
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "202355"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2015-16",
+      "season_id": 2015,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "202355"
+      ],
+      "source_value": [
+        3.7
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203497"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2016-17",
+      "season_id": 2016,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203497"
+      ],
+      "source_value": [
+        2.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "203076"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2017-18",
+      "season_id": 2017,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "203076"
+      ],
+      "source_value": [
+        2.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1626167"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2018-19",
+      "season_id": 2018,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1626167"
+      ],
+      "source_value": [
+        2.7
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "202355"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2019-20",
+      "season_id": 2019,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "202355"
+      ],
+      "source_value": [
+        2.9
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1626167"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2020-21",
+      "season_id": 2020,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1626167"
+      ],
+      "source_value": [
+        3.4
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1626167"
+      ],
+      "reconciliation_status": "QUALIFICATION_DIFFERENCE",
+      "season": "2021-22",
+      "season_id": 2021,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1628991"
+      ],
+      "source_value": [
+        2.3
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1628991"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2022-23",
+      "season_id": 2022,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1628991"
+      ],
+      "source_value": [
+        3.0
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1641705"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2023-24",
+      "season_id": 2023,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1641705"
+      ],
+      "source_value": [
+        3.6
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1641705"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2024-25",
+      "season_id": 2024,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1641705"
+      ],
+      "source_value": [
+        3.8
+      ],
+      "stat_category": "BLK"
+    },
+    {
+      "applicability": "APPLICABLE",
+      "coverage_classification": "RELIABLE",
+      "derived_qualified_player_ids": [
+        "1641705"
+      ],
+      "reconciliation_status": "EXACT_MATCH",
+      "season": "2025-26",
+      "season_id": 2025,
+      "source_outcome": "SUCCESS_WITH_ROWS",
+      "source_rank_one_player_ids": [
+        "1641705"
+      ],
+      "source_value": [
+        3.1
+      ],
+      "stat_category": "BLK"
+    }
+  ],
+  "status_counts": {
+    "DERIVED_COVERAGE_GAP": 83,
+    "EXACT_MATCH": 238,
+    "QUALIFICATION_DIFFERENCE": 10,
+    "SOURCE_COVERAGE_GAP": 11
+  }
+}

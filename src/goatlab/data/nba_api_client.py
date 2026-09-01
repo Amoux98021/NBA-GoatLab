@@ -216,6 +216,21 @@ def _parse_payload(body: str) -> dict[str, Any] | None:
 
 
 def _response_has_rows(payload: Mapping[str, Any]) -> bool | None:
+    # Modern NBA box-score V3 endpoints use a nested response contract rather
+    # than the legacy resultSets/rowSet shape.  A listed player is a source row,
+    # including an explicitly rostered DNP.
+    box_score = payload.get("boxScoreTraditional")
+    if isinstance(box_score, Mapping):
+        found_team = False
+        for key in ("homeTeam", "awayTeam"):
+            team = box_score.get(key)
+            if not isinstance(team, Mapping) or "players" not in team:
+                continue
+            found_team = True
+            players = team.get("players")
+            if isinstance(players, list) and players:
+                return True
+        return False if found_team else None
     raw_results = payload.get("resultSets", payload.get("resultSet"))
     if raw_results is None:
         return None

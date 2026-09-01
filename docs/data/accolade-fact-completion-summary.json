@@ -1,0 +1,99 @@
+{
+  "all_star": {
+    "all_star_evidence_rows": 1852,
+    "class_counts": {
+      "AWARD + NO_ROSTER_EVIDENCE": 85,
+      "AWARD + ROSTER + DID_NOT_PLAY": 21,
+      "AWARD + ROSTER + PLAYED": 1730,
+      "NOT_QUERIED + ROSTER + PLAYED": 10,
+      "PLAYED + NO_AWARD_EVENT": 6
+    },
+    "distinct_players": 472,
+    "former_non_candidate_players": 8,
+    "participation_game_appearances": 1799,
+    "participation_player_seasons": 1746,
+    "roster_evidence_rows": 1767
+  },
+  "awards_fingerprint": "666dbbdffd457847342754e116a857db7821e514e304ee23fe118f6d4a5bb258",
+  "cache_only": true,
+  "career_rows": {
+    "all_star": 472,
+    "complete": 5103,
+    "stat_titles": 157
+  },
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "decision": "PASS",
+  "methodology_version": "all-star-stat-leader-facts-v1",
+  "nba_api_version": "1.11.4",
+  "output_fingerprint": "e0a3bab4ef5957ab4e0acc1a669f82f508217d139b30599df970248f8c1d1880",
+  "output_size_bytes": 312434,
+  "outputs": [
+    {
+      "columns": 27,
+      "path": "data/silver/player_all_star_evidence/part-00000.parquet",
+      "rows": 1852,
+      "sha256": "84bddd9a797e59ec5945328dc57c5d2db8745a56dabe8492edb9cdf4e8d1ed7f",
+      "size_bytes": 62837
+    },
+    {
+      "columns": 20,
+      "path": "data/silver/player_stat_leaders/part-00000.parquet",
+      "rows": 422,
+      "sha256": "a39a834675220b072386083f370768af32d32546c6830a9c6c4f9c704c06a319",
+      "size_bytes": 21763
+    },
+    {
+      "columns": 7,
+      "path": "data/gold/player_career_all_star/part-00000.parquet",
+      "rows": 472,
+      "sha256": "2b3dc232b69662183d7cbbd06e886d88c5360a813d45215f4d48959514846053",
+      "size_bytes": 13779
+    },
+    {
+      "columns": 14,
+      "path": "data/gold/player_career_stat_titles/part-00000.parquet",
+      "rows": 157,
+      "sha256": "6d2517d1c3fce8a1ed71ac03f6f2e2040bfa897bfaa60ea3e494dd52ff372bc6",
+      "size_bytes": 9279
+    },
+    {
+      "columns": 47,
+      "path": "data/gold/player_career_accolades_complete/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "5f8b1e56279be99ee41cd2e46b8a543e27c03764baf0acf1f12cca95cde08bf8",
+      "size_bytes": 204776
+    }
+  ],
+  "requests": {
+    "endpoint_counts": {
+      "boxscoretraditionalv3": 80,
+      "leaguedashplayerstats": 75,
+      "leagueleaders": 385,
+      "playergamelogs": 75
+    },
+    "network": 0,
+    "recorded_response_seconds": 0,
+    "retries": 0,
+    "status_counts": {
+      "SUCCESS_EMPTY": 62,
+      "SUCCESS_WITH_ROWS": 553
+    },
+    "total": 615
+  },
+  "run_at": "2026-09-01T15:30:00Z",
+  "runtime_seconds": 2.1,
+  "stat_leaders": {
+    "derived_qualified_events": 253,
+    "event_rows": 422,
+    "reconciliation_counts": {
+      "DERIVED_COVERAGE_GAP": 83,
+      "EXACT_MATCH": 238,
+      "QUALIFICATION_DIFFERENCE": 10,
+      "SOURCE_COVERAGE_GAP": 11
+    },
+    "source_rank_one_events": 330
+  },
+  "step": "STEP-0011",
+  "subjective_values_created": false
+}
