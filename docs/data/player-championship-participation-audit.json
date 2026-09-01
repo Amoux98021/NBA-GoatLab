@@ -1,0 +1,32 @@
+{
+  "award_events_with_champion_finals_participation": 808,
+  "award_events_with_champion_playoff_participation": 837,
+  "award_events_with_regular_champion_membership": 844,
+  "award_events_without_any_player_game_participation": 0,
+  "award_events_without_finals_appearance": 37,
+  "methodology_version": "team-success-postseason-v1",
+  "nonqueried_champion_finals_participants": 101,
+  "official_champion_award_player_seasons": 845,
+  "queried_champion_finals_participants": 810,
+  "queried_champion_finals_participants_without_award_event": 2,
+  "queried_champion_finals_participants_without_award_examples": [
+    {
+      "display_name": "Lucious Jackson",
+      "player_id": "player_b9c3a0fa8f4a51d2b41b56171e952ce4",
+      "season_id": 1966
+    },
+    {
+      "display_name": "Charles Jones",
+      "player_id": "player_575a586f28b553f697bb1ae999615eb8",
+      "season_id": 1994
+    }
+  ],
+  "regular_champion_members_without_champion_playoffs": 217,
+  "semantics": {
+    "finals_participation": "at least one accepted player-game in the validated Finals set",
+    "official_award": "candidate-scoped STEP-0009 NBA Champion source event; NULL when NOT_QUERIED",
+    "playoff_participation": "at least one accepted Playoff player-game for that team",
+    "regular_membership": "at least one accepted Regular Season player-game for that team",
+    "team_champion": "derived from frozen postseason games and official validation"
+  }
+}

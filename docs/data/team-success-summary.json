@@ -1,0 +1,79 @@
+{
+  "award_fingerprint": "666dbbdffd457847342754e116a857db7821e514e304ee23fe118f6d4a5bb258",
+  "career_rows": 5103,
+  "champion_matches": 80,
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "finalist_matches": 80,
+  "finals_games": 461,
+  "format_counts": {
+    "NONSTANDARD_SERIES_FORMAT": 36,
+    "ROUND_ROBIN_OR_MIXED": 1,
+    "STANDARD_SERIES_BRACKET": 43
+  },
+  "methodology_version": "team-success-postseason-v1",
+  "minute_eligibility_partitions": {
+    "PLAYOFF_False": 24,
+    "PLAYOFF_True": 56,
+    "REGULAR_False": 36,
+    "REGULAR_True": 44
+  },
+  "output_fingerprint": "707be9dccdbccd70ba88d0f57d66af990f0cc5fd07127221a7aa0b7d2f17c333",
+  "output_size_bytes": 6273942,
+  "overlap_reconciliation": {
+    "partitions": [
+      {
+        "api_games": 1230,
+        "api_only": 0,
+        "legacy_games": 1230,
+        "legacy_only": 0,
+        "mismatches": 0,
+        "season_id": 2022,
+        "season_type": "REGULAR",
+        "shared_games": 1230
+      },
+      {
+        "api_games": 84,
+        "api_only": 0,
+        "legacy_games": 84,
+        "legacy_only": 0,
+        "mismatches": 0,
+        "season_id": 2022,
+        "season_type": "PLAYOFF",
+        "shared_games": 84
+      }
+    ],
+    "passes": true
+  },
+  "partition_count": 304,
+  "player_team_season_rows": 28839,
+  "playoff_games": 4606,
+  "playoff_team_seasons": 990,
+  "quality": {
+    "champion_count_failures": 0,
+    "duplicate_player_team_season_keys": 0,
+    "duplicate_team_season_keys": 0,
+    "finalist_count_failures": 0,
+    "finals_game_team_failures": 0,
+    "null_to_zero_failures": 0,
+    "playoff_record_failures": 0,
+    "regular_record_failures": 0,
+    "traded_team_outcome_leakage_failures": 0
+  },
+  "regular_games": 68529,
+  "regular_scoring_context_seasons": 76,
+  "regular_scoring_context_withheld_seasons": [
+    1960,
+    1970,
+    1975,
+    1976
+  ],
+  "run_at": "2026-09-01T12:00:00+00:00",
+  "runtime_seconds": 57.324702,
+  "season_count": 80,
+  "series_inference_seasons": 79,
+  "series_result_matches": 80,
+  "step": "STEP-0010",
+  "subjective_scores_created": 0,
+  "team_season_rows": 1723
+}

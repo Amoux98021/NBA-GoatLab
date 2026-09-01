@@ -1,0 +1,34 @@
+registry_version: 1
+methodology_version: team-success-postseason-v1
+principle: Team outcome and player participation are separate factual surfaces.
+features:
+- feature: regular_wins_losses
+  status: RELIABLE
+  source: canonical game results
+  notes: Universal across 80 seasons; W + L = GP gate.
+- feature: regular_point_differential
+  status: PARTIAL
+  source: canonical final scores
+  notes: Reliable in 76 seasons. Withheld in 1960-61, 1970-71, 1975-76, and 1976-77
+    because fallback team-point sums conflict with recorded W/L.
+- feature: champion_finalist_finals_games
+  status: RELIABLE
+  source: frozen playoff games plus official NBA history validation
+  notes: 80/80 champion and finalist identity and Finals score reconciliations.
+- feature: series_won_lost
+  status: FORMAT_BLOCKED
+  source: unordered playoff opponent pairs
+  notes: Available in 79 seasons; blocked for the 1953-54 round-robin/mixed format.
+- feature: player_minutes_share
+  status: PARTIAL
+  source: canonical player-game minutes
+  notes: Requires RELIABLE coverage and at least 99% positive minute observations.
+participation_variants:
+- regular_season_member_of_champion_team
+- played_playoffs_for_champion_team
+- played_finals_for_champion_team
+- official_nba_champion_award_event
+prohibited_composites:
+- winning_score
+- team_success_score
+- rings_score

@@ -92,3 +92,15 @@ This living summary may be extended, but methodology changes must also receive a
 - All-NBA/All-Defense/All-Rookie levels use structured team number. Calendar-only event labels remain unjoined to NBA seasons.
 - All-Star coverage is `PARTIAL`; statistical titles are `REQUIRES_SEPARATE_SOURCE` and should be derived from frozen facts later.
 - Silver stores events. Gold stores factual counts. No event is weighted and no accolade score exists.
+
+## Team success and postseason V1
+
+- `team-success-postseason-v1` is an offline derivation from frozen `GOATLAB-HIST-V1` plus fingerprinted STEP-0009 award evidence. It does not mutate the corpus.
+- Regular and playoff W/L derive from isolated canonical game evidence. Complete legacy game partitions are preferred; already frozen NBA API game evidence fills 23 missing legacy partitions after exact 2022-23 overlap validation.
+- Champion and runner-up derive from the unique chronologically final playoff game. The complete Finals set is every playoff game between those team IDs. Official NBA history validates champion, runner-up, and series result for all 80 seasons without overwriting derived facts.
+- Postseason formats are qualified under ADR-0015. Modern round labels start only with the standard 1983-84 bracket. Opponent-pair series facts are available in 79 seasons and blocked for the 1953-54 round-robin/mixed structure.
+- Regular W/L remains valid when source team-point sums conflict with recorded outcomes. Point-differential context is withheld, not repaired, for 1960-61, 1970-71, 1975-76, and 1976-77.
+- Player outcomes join at player × team × season before career aggregation. Regular champion membership, champion playoff participation, champion Finals participation, and official champion award evidence remain distinct.
+- Award evidence is NULL for `NOT_QUERIED`; it is never interpreted as no championship event. Team championships never derive from candidate-scoped awards.
+- Game share and coverage-qualified minute share are factual opportunity proxies. Minute shares require RELIABLE empirical coverage and at least 99% positive observations. No role label or credit score is created.
+- Team ranks, percentiles, z-scores, career team context, and participation counts remain separate descriptive primitives. No Winning, team-success, championship-value, or rings composite exists.

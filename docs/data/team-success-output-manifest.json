@@ -1,0 +1,2141 @@
+{
+  "award_fingerprint": "666dbbdffd457847342754e116a857db7821e514e304ee23fe118f6d4a5bb258",
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "manifest_version": 1,
+  "methodology_version": "team-success-postseason-v1",
+  "output_fingerprint": "707be9dccdbccd70ba88d0f57d66af990f0cc5fd07127221a7aa0b7d2f17c333",
+  "partition_count": 304,
+  "partitions": [
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=00/part-00000.parquet",
+      "rows": 151,
+      "sha256": "c3e4e2766464b49b93e56241dc2ab418f67895203582856d43d65d3d5f2a1d9f",
+      "size_bytes": 18141
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=01/part-00000.parquet",
+      "rows": 162,
+      "sha256": "2a2ef28f10d2a9c39452f0095853bacfd400366837779d0411c27660fef94057",
+      "size_bytes": 18619
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=02/part-00000.parquet",
+      "rows": 146,
+      "sha256": "a5eaefe9a4088b3b7b1c7bf0a8b5c2fbbb17e0c08e4e019e3c396f2083484c00",
+      "size_bytes": 17805
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=03/part-00000.parquet",
+      "rows": 175,
+      "sha256": "f5ae2c7807b9a86a8720b444b95b170867aaaac19370148eaf539516189cdde1",
+      "size_bytes": 19073
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=04/part-00000.parquet",
+      "rows": 154,
+      "sha256": "03ac7d88ecde42a18959d53bbafd996e1fea4f5e6d2e80efddf1fe9f40d40876",
+      "size_bytes": 18239
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=05/part-00000.parquet",
+      "rows": 151,
+      "sha256": "00d3410e15294b76ea372a19de97a345781b26fc5e6b08f095bc1f15444afbf4",
+      "size_bytes": 17895
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=06/part-00000.parquet",
+      "rows": 170,
+      "sha256": "3bafb03f01aacc0c12d3f69b5abd5b6d36c8c0c2c9392e9bd85740c9928945af",
+      "size_bytes": 18900
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=07/part-00000.parquet",
+      "rows": 160,
+      "sha256": "98cf12de4300e42a5e6e0a3b31cf9622a51d4f81328060d122312e549acae013",
+      "size_bytes": 18370
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=08/part-00000.parquet",
+      "rows": 159,
+      "sha256": "593d6ceb4c756ef66095789de40f64b27391135d817db033e26914cd40fc1338",
+      "size_bytes": 18467
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=09/part-00000.parquet",
+      "rows": 189,
+      "sha256": "ec85764ac6d99a164b795984a35ff6e687517ec40faaff6962dfc70f9bcee17e",
+      "size_bytes": 19961
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=10/part-00000.parquet",
+      "rows": 145,
+      "sha256": "6391bbb5e32c37600c8cd397215ccf0e425fcb93265eccbe050cecb021dfcc5d",
+      "size_bytes": 17757
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=11/part-00000.parquet",
+      "rows": 151,
+      "sha256": "7950a9f3787be99ef35bc0dd7930ca1fd21840e5a3269f551c39284bb7d0c4e3",
+      "size_bytes": 18135
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=12/part-00000.parquet",
+      "rows": 161,
+      "sha256": "94a856257308b8a502a87fbd43cf2d48b162705aee5f37d94137af8b3c7a062c",
+      "size_bytes": 18541
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=13/part-00000.parquet",
+      "rows": 174,
+      "sha256": "fff1b463eba146629c23217221d806f498e79e20506fd0e0cdf93b410ce89ae0",
+      "size_bytes": 19257
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=14/part-00000.parquet",
+      "rows": 158,
+      "sha256": "7d4c0fe1edc47f8b7b1985f017dcdf116966cc6f2f12ad6a221cb12fcd05cdcb",
+      "size_bytes": 18487
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=15/part-00000.parquet",
+      "rows": 158,
+      "sha256": "68535ade267b27218c005398a4cfedcacb922dc75589badde6529e8b94061618",
+      "size_bytes": 18386
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=16/part-00000.parquet",
+      "rows": 156,
+      "sha256": "27930e15d487e4cd3e42d503e5a4e54ed61f2ff2500287d4d45d98611e3747ad",
+      "size_bytes": 18469
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=17/part-00000.parquet",
+      "rows": 154,
+      "sha256": "39cc436e97480417ffdb1401e3d1dd5154b1cc0e6d437d3f2f7104b7be98bab1",
+      "size_bytes": 18276
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=18/part-00000.parquet",
+      "rows": 155,
+      "sha256": "08281424f69e05726d75f7496a45e99bef3e6aa56f5c50a09a1476d4fe3f5b39",
+      "size_bytes": 18311
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=19/part-00000.parquet",
+      "rows": 174,
+      "sha256": "8997875288a8d09e4ebecdb73c3ed88faeaed31fb074c0aaf8176a8ac8b7e2ea",
+      "size_bytes": 19357
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=20/part-00000.parquet",
+      "rows": 149,
+      "sha256": "d78dd10b4f2e486da6b81f2335751e783bb5b64aa61d98d66ca6e52aa4eac0d4",
+      "size_bytes": 17771
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=21/part-00000.parquet",
+      "rows": 136,
+      "sha256": "e7f70635cfc6872d44b985dfa89dedb7f69b6d767ace547e8b2b990ff996f3a7",
+      "size_bytes": 17283
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=22/part-00000.parquet",
+      "rows": 148,
+      "sha256": "4fc32dbb98157968ddeb7e0282fc953fd7cb8d7b75a8a22082b51105242bbedd",
+      "size_bytes": 17917
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=23/part-00000.parquet",
+      "rows": 160,
+      "sha256": "22fde035cb3864a929e3359296808724ef1520e9a8df9d4a851076d3261436ee",
+      "size_bytes": 18496
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=24/part-00000.parquet",
+      "rows": 167,
+      "sha256": "fc2ae8aac33d68282b0524371248c64f37ebb38bf1612368b87fed607abb36cb",
+      "size_bytes": 18891
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=25/part-00000.parquet",
+      "rows": 171,
+      "sha256": "ddaceafc12614cff9318fd6a0436fa0e3dc1d2f08c42f7a91ddcdf3b66773b25",
+      "size_bytes": 18903
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=26/part-00000.parquet",
+      "rows": 156,
+      "sha256": "0aee0c135aeac2f1051760834eb2ce0d18301048512321bb07694274098eee0c",
+      "size_bytes": 18201
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=27/part-00000.parquet",
+      "rows": 156,
+      "sha256": "21aaff3e30850dbe3f4e4d75a7e670462a41f59333e65c1a79984ea78516839f",
+      "size_bytes": 18232
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=28/part-00000.parquet",
+      "rows": 165,
+      "sha256": "f364ce8c2c9dbe64f58335efab3ba7c1425361c4de47f6445328497d76e23d1c",
+      "size_bytes": 18655
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=29/part-00000.parquet",
+      "rows": 155,
+      "sha256": "20a6b8c5a4ab535dfe7b083bacc26f811da3dc41ddbfa0a3fad6899801c89120",
+      "size_bytes": 18263
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=30/part-00000.parquet",
+      "rows": 165,
+      "sha256": "efa7a9a2d562386188cc3bd10af44d3975aa45293e7b8acc2998b28ac3eb3cf0",
+      "size_bytes": 18738
+    },
+    {
+      "columns": 26,
+      "path": "data/gold/player_career_team_context/bucket=31/part-00000.parquet",
+      "rows": 172,
+      "sha256": "fbed7d3f8f3678aaa59a94bbf65d8acab498003fdbc3a5aab3e7ca7e319ff857",
+      "size_bytes": 19039
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=00/part-00000.parquet",
+      "rows": 873,
+      "sha256": "c7c86806ba1e749c4fbcda2de8441844e0b9795c7b4f51be590736fadef0dcd6",
+      "size_bytes": 55135
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=01/part-00000.parquet",
+      "rows": 948,
+      "sha256": "e68aff1b55c28882006a7bb0e397c1500c5a729be73da5eceeec4a1a59f05137",
+      "size_bytes": 58014
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=02/part-00000.parquet",
+      "rows": 868,
+      "sha256": "5e2d549f53d2fa91b2eb70a036c3384d3786278dea51ea90741617811293a3cd",
+      "size_bytes": 54615
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=03/part-00000.parquet",
+      "rows": 934,
+      "sha256": "4303c910b2e66673f661c026956e564f4da940795404123d40290c40e07b2524",
+      "size_bytes": 57492
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=04/part-00000.parquet",
+      "rows": 831,
+      "sha256": "4b133a74944ec8f4f5f5b473a09e05261cfdee3c57d596c6699fec5bf18ab673",
+      "size_bytes": 54050
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=05/part-00000.parquet",
+      "rows": 762,
+      "sha256": "cf706bb98c4602f1d2a7f165052eddd65cc3fa3107b541b33d5b5bbf6531faad",
+      "size_bytes": 51225
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=06/part-00000.parquet",
+      "rows": 888,
+      "sha256": "76b444de635934859806f6eb2c4e329201d8e55c97f32b632fdce5906ec2b7df",
+      "size_bytes": 55624
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=07/part-00000.parquet",
+      "rows": 862,
+      "sha256": "0397b59fbdc23ff448f7183d618c1c604a517063ead05f6e3aadc75945b0b4a6",
+      "size_bytes": 55469
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=08/part-00000.parquet",
+      "rows": 882,
+      "sha256": "fab9da8b56baad16daceca64994aa19a1bab0d030324ead02d2a98fc7684dba6",
+      "size_bytes": 56471
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=09/part-00000.parquet",
+      "rows": 1075,
+      "sha256": "66722b415d0b2ac2c8e1ce3eba149329f275ff5383f361a8c9599879189f6f62",
+      "size_bytes": 63462
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=10/part-00000.parquet",
+      "rows": 843,
+      "sha256": "363660666379bc6a60d98cfa58c9ad6e96bee42a05621974a597320c1217453f",
+      "size_bytes": 53657
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=11/part-00000.parquet",
+      "rows": 944,
+      "sha256": "0f93f29d1904d954c6c5f2faa137bf1b8c5e1fc62cfa8ef371017fd292894249",
+      "size_bytes": 58392
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=12/part-00000.parquet",
+      "rows": 899,
+      "sha256": "f2af094c4f38a1f0f4b6224b421b2d11db5268975db19168208c680d7c85a7e1",
+      "size_bytes": 56857
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=13/part-00000.parquet",
+      "rows": 1033,
+      "sha256": "b8b5f8b11652293be5d77f42873e73dd7aa964ca6aa8bb6cf37d0cdb1b5e5fbd",
+      "size_bytes": 61957
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=14/part-00000.parquet",
+      "rows": 910,
+      "sha256": "ed833e5c24b725e44c8699211f86110ca712cd06045a7ebc2605f718be17f52d",
+      "size_bytes": 57339
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=15/part-00000.parquet",
+      "rows": 862,
+      "sha256": "5d4a28c1a4b74cf1a3002024f2b8d73dd28ec8a041e3dac6552f7be8a57454ea",
+      "size_bytes": 54694
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=16/part-00000.parquet",
+      "rows": 937,
+      "sha256": "da71e3e39283e64d357a9a958736bbe919f8acfb1cde7ca06bde0252c17af5f4",
+      "size_bytes": 57613
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=17/part-00000.parquet",
+      "rows": 858,
+      "sha256": "a5714ea2875912603687cc465f603faa526c0babda1cea565008f18a4f6147f1",
+      "size_bytes": 55511
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=18/part-00000.parquet",
+      "rows": 910,
+      "sha256": "be67007fd76aea85d8d5bb442b8751b48744ab77f295925d52841a9383a4776d",
+      "size_bytes": 56906
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=19/part-00000.parquet",
+      "rows": 991,
+      "sha256": "09adac09d23342e22888daaa146225f274a565bb54e9212cc85fd4aefa453257",
+      "size_bytes": 59322
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=20/part-00000.parquet",
+      "rows": 776,
+      "sha256": "f16f8e220c635da3c68249a5c4ced9765e1c13d9006e5f82cecf55387bec915a",
+      "size_bytes": 50847
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=21/part-00000.parquet",
+      "rows": 784,
+      "sha256": "f1c9388b47d08f0c800d1505f20c7fe63aa60e4b95348b67952b702a9ebde4e8",
+      "size_bytes": 52332
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=22/part-00000.parquet",
+      "rows": 842,
+      "sha256": "b195deeabf56f64e03b5ed1da827cdcc194af21c5e6d1e38b0f4fa637678cf4f",
+      "size_bytes": 52916
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=23/part-00000.parquet",
+      "rows": 834,
+      "sha256": "2240066fd9d99d969e03d8473e4369212d7093118726256c65323a59b49f6b6f",
+      "size_bytes": 53492
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=24/part-00000.parquet",
+      "rows": 950,
+      "sha256": "70e07bbbdb498bc9fa27bc58a922be00a91abdc5ba47ada31116c9c4b67682c0",
+      "size_bytes": 58675
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=25/part-00000.parquet",
+      "rows": 883,
+      "sha256": "49482a87b92dd43f001631f35b46134c1d3e30fcb3593ccbf6e41393f711b698",
+      "size_bytes": 55374
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=26/part-00000.parquet",
+      "rows": 887,
+      "sha256": "0357c5e5b1ec5466005f502c8ed8f9b3ff2564ebfd3862a36ba4996685b4ad2f",
+      "size_bytes": 55173
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=27/part-00000.parquet",
+      "rows": 957,
+      "sha256": "e40632eb3560f964648fbd5c459c0f5e017378e8ec415afc1875d3d0486c6945",
+      "size_bytes": 58216
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=28/part-00000.parquet",
+      "rows": 968,
+      "sha256": "c906735d220f68dbdd961fce569983f9f05d8a5312b4166b1ddb849bee153b69",
+      "size_bytes": 58309
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=29/part-00000.parquet",
+      "rows": 870,
+      "sha256": "7e8ef20259f6eb2735bdab75d01854533ea68d6811a4627be1d67facf8d52410",
+      "size_bytes": 55720
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=30/part-00000.parquet",
+      "rows": 937,
+      "sha256": "e64f18fcb49c5fdb30190787eb4e208f8f1df876604279f0d025f65f3cf58f60",
+      "size_bytes": 58136
+    },
+    {
+      "columns": 45,
+      "path": "data/gold/player_team_success_primitives/bucket=31/part-00000.parquet",
+      "rows": 1041,
+      "sha256": "a644da4aa4ef7d91b6d708c267677cb221a4aad75370693ad28f18694b487044",
+      "size_bytes": 60800
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1946/part-00000.parquet",
+      "rows": 5,
+      "sha256": "ffea514ce681d042b8471534df621a2944e78ad6dea9463b9a66ba587b936a31",
+      "size_bytes": 6727
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1947/part-00000.parquet",
+      "rows": 6,
+      "sha256": "f9337ee438b0b4a3fc875041e3498cf7aafe5b75ce3caf36ddcfd7ae7c1e4b66",
+      "size_bytes": 6764
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1948/part-00000.parquet",
+      "rows": 6,
+      "sha256": "dd262a173eea7cb80ae691b25d4442a3ab6bd28bd1d44e4ecbb3061c065da514",
+      "size_bytes": 6764
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1949/part-00000.parquet",
+      "rows": 6,
+      "sha256": "9283b418827c7e82df1c296bf1a7a90f57fab09460e42262c901974eb929b2ca",
+      "size_bytes": 6771
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1950/part-00000.parquet",
+      "rows": 7,
+      "sha256": "836f84859dddb4d03edad3eea78adb65d5dc33ba1ecf3a48e95a3af847301c13",
+      "size_bytes": 6809
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1951/part-00000.parquet",
+      "rows": 7,
+      "sha256": "947917dd327031d3a3f8e017b702ed4f358020812559f9dfba17feaca060a5ef",
+      "size_bytes": 6807
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1952/part-00000.parquet",
+      "rows": 5,
+      "sha256": "8ff94b7906d785749394b1498f0febe6b94ee0fe51135e777f40e93c1a47b75c",
+      "size_bytes": 6722
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1953/part-00000.parquet",
+      "rows": 7,
+      "sha256": "1e67b07e68b872e22627c50c9df2e742f293de2438e9d8e339d7de2e3b4bba3c",
+      "size_bytes": 6818
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1954/part-00000.parquet",
+      "rows": 7,
+      "sha256": "0982fd05f12db81eff7dcbc72863d232e92708af5998d9ee1d4a43a85c90ae47",
+      "size_bytes": 6812
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1955/part-00000.parquet",
+      "rows": 5,
+      "sha256": "7d316cde082e08586ba019ad9fc032865a755f3671da6d96f46e675a9adb2ee7",
+      "size_bytes": 6730
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1956/part-00000.parquet",
+      "rows": 7,
+      "sha256": "d37cc66fe08b58b284973a4b7895a8b7edc2b8d237034eaa4b22cd7ab32df877",
+      "size_bytes": 6808
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1957/part-00000.parquet",
+      "rows": 6,
+      "sha256": "a81444d76305eabb6f3f57094702e2f892d58b72691d7c4fabcdfaeefc3cc9e2",
+      "size_bytes": 7105
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1958/part-00000.parquet",
+      "rows": 4,
+      "sha256": "9d5ef1b469e1fd605a88c9bb82084159e0d86eaf05b776e39b1172197c166731",
+      "size_bytes": 7007
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1959/part-00000.parquet",
+      "rows": 7,
+      "sha256": "c022b589faacbc1a9b584de9a920e4365b83f970d93efb25255076f5c0646cd2",
+      "size_bytes": 6805
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1960/part-00000.parquet",
+      "rows": 5,
+      "sha256": "55b703d4e7b64f6fb08799b338eadb9ed58b10a41d8041b99a72d00a817db88b",
+      "size_bytes": 7069
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1961/part-00000.parquet",
+      "rows": 7,
+      "sha256": "c188a94324bcf11eebdbcb509740422023bbf658ef957b2d16d1c1d8c2532f04",
+      "size_bytes": 6818
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1962/part-00000.parquet",
+      "rows": 6,
+      "sha256": "551467d5d0e93f5ad45de7239082e38cb15396b4174f406dba7e8a8535d261c3",
+      "size_bytes": 6769
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1963/part-00000.parquet",
+      "rows": 5,
+      "sha256": "9ea3c05d208fcf0d35a2b7f0b1851a8479309a6313f9d75572c3e2c13e2b0384",
+      "size_bytes": 6732
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1964/part-00000.parquet",
+      "rows": 5,
+      "sha256": "169a98aec5219e2d7a13ccf9afaf5aced721f16b1f91305782f087602beae051",
+      "size_bytes": 7071
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1965/part-00000.parquet",
+      "rows": 7,
+      "sha256": "53e633fbb2c56248a6240cd4900033aec9e9bfdde0c1665e50e6c26f772def84",
+      "size_bytes": 6816
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1966/part-00000.parquet",
+      "rows": 6,
+      "sha256": "0963de4ffae9d66427e46570b1448b225a6986ba6125fbac08deb49e95f6a124",
+      "size_bytes": 6763
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1967/part-00000.parquet",
+      "rows": 6,
+      "sha256": "49209d5fa9b846ac20f700dca5ec08d6ee4247d4009badb8c2607ad4ff45a859",
+      "size_bytes": 6770
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1968/part-00000.parquet",
+      "rows": 7,
+      "sha256": "4216f73abe7ee43fabdc8a7a509b7324f6f1f15a46c9e013cb691fb2fd92f0b6",
+      "size_bytes": 7167
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1969/part-00000.parquet",
+      "rows": 7,
+      "sha256": "ceb363a8040382143fe60a8d92e0c4b984ac8025b8a51129829b4d40238e3b28",
+      "size_bytes": 6807
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1970/part-00000.parquet",
+      "rows": 4,
+      "sha256": "42131f6487a9e0e36094557edf2f3141282bc174738c536ab5e8c17c9d6a0224",
+      "size_bytes": 6661
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1971/part-00000.parquet",
+      "rows": 5,
+      "sha256": "d59021a9208b0f4c69efdd849a71897fb99294f76b83959b2a5c51e02c04421c",
+      "size_bytes": 6737
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1972/part-00000.parquet",
+      "rows": 5,
+      "sha256": "280f9f5f62507d64d4d374bff4fc7286971448089b8f344e5bc72f6f31e41f56",
+      "size_bytes": 6729
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1973/part-00000.parquet",
+      "rows": 7,
+      "sha256": "878b89e6a6a8653dfa40783e7c6d6ad38358acd8ffce6519bac385ba0d19c917",
+      "size_bytes": 6805
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1974/part-00000.parquet",
+      "rows": 4,
+      "sha256": "8f8893a1f84a519d8434f2c9f0974d224a7ef3a4cc1348d1a1dbe32e1349651c",
+      "size_bytes": 6672
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1975/part-00000.parquet",
+      "rows": 6,
+      "sha256": "fa6a1c87627ad55d20071ac089fbc79b603b6f4335a450847cf4b467dc9ab99a",
+      "size_bytes": 6778
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1976/part-00000.parquet",
+      "rows": 6,
+      "sha256": "659273b49299910b1e88205f590908b51a98e29b38a8488a707a160ea0e86c22",
+      "size_bytes": 6758
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1977/part-00000.parquet",
+      "rows": 7,
+      "sha256": "266b7d9de347a0df3afc7e72b65a899ca979de2f84d819bacbda59c3792497af",
+      "size_bytes": 6825
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1978/part-00000.parquet",
+      "rows": 5,
+      "sha256": "3020c6b37ef74944bea9077d7bff2bfcef83df90f62e81f4bc8fc4abd55cfb79",
+      "size_bytes": 6741
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1979/part-00000.parquet",
+      "rows": 6,
+      "sha256": "94d02bdf1be9b252f28c82beff49197d3e099e0880ba7325418ba1d91516719c",
+      "size_bytes": 6768
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1980/part-00000.parquet",
+      "rows": 6,
+      "sha256": "1821cb648443942df8e8c1f71dc19d50b37f832a746e8c8e26d0b82d41a6a120",
+      "size_bytes": 6761
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1981/part-00000.parquet",
+      "rows": 6,
+      "sha256": "4da6aabb873f434633badaef70bca96d76908e1c0a81886697e60f9261bcd7d4",
+      "size_bytes": 6773
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1982/part-00000.parquet",
+      "rows": 4,
+      "sha256": "5638f04bdde570058f5e77efc30ed6be01cda6d16eb4dc5b10e0c2d5d93d5569",
+      "size_bytes": 6666
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1983/part-00000.parquet",
+      "rows": 7,
+      "sha256": "4a6ce4393d12dd31eafb1427b97fe828b7fbc1f9573e0f10a81eac3005988290",
+      "size_bytes": 6821
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1984/part-00000.parquet",
+      "rows": 6,
+      "sha256": "67d18acb1fa56ea18d14771d3491634a67ac9ad86b1f51e87dbc5b56c860f8f3",
+      "size_bytes": 6765
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1985/part-00000.parquet",
+      "rows": 6,
+      "sha256": "119c574bc50e388fedb8a6c228618632f01ff3e36fd08589411008119e180212",
+      "size_bytes": 6774
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1986/part-00000.parquet",
+      "rows": 6,
+      "sha256": "a9679ba3cbcc106a8cd81cba706b4bcc0a9898b42e6ffc084b6cc52b938b6942",
+      "size_bytes": 6762
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1987/part-00000.parquet",
+      "rows": 7,
+      "sha256": "40046343a634d9dc5fb794c1a366ecb65aa712d2119e45fe8abb549f3b58c1ec",
+      "size_bytes": 6815
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1988/part-00000.parquet",
+      "rows": 4,
+      "sha256": "5f4edd3c58d88a6ef74f83b9107d8bbe631e7b282e35e2e2f931001a4e7b3015",
+      "size_bytes": 6659
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1989/part-00000.parquet",
+      "rows": 5,
+      "sha256": "4bb25cb1548eaf9104d59c03a58dec6f99cf9e7c42338d51bb61faf12f348e85",
+      "size_bytes": 6727
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1990/part-00000.parquet",
+      "rows": 5,
+      "sha256": "b5f1e8f27e23045a7bfb3342e9c3abb5a8c9784ce39783252cb81d8d87ddc707",
+      "size_bytes": 6720
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1991/part-00000.parquet",
+      "rows": 6,
+      "sha256": "70eae7e4638a147fcd5578765e70c0ab847189aa7bec54427014c1e36998ffdc",
+      "size_bytes": 6773
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1992/part-00000.parquet",
+      "rows": 6,
+      "sha256": "f5cb1ba964f9af701635bab9cbc1f415260c94749a7a4babbce263a43083c3bf",
+      "size_bytes": 6761
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1993/part-00000.parquet",
+      "rows": 7,
+      "sha256": "0f5c39e5ca4aa868678994e1c6f1dbf7539a6802b2d323c4072f562e7b941b9c",
+      "size_bytes": 7145
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1994/part-00000.parquet",
+      "rows": 4,
+      "sha256": "b517dcd6ea661da7c294b8b81b38a675ac9b28731d6cbfa1e67b29c2d935d523",
+      "size_bytes": 6663
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1995/part-00000.parquet",
+      "rows": 6,
+      "sha256": "781d023874d5cf2b756e106c6e496999168b49164f0b7ca6bd21d868c24d2c56",
+      "size_bytes": 7104
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1996/part-00000.parquet",
+      "rows": 6,
+      "sha256": "5beff4e32547144c240125b9b7a2d7d35fb1877f4bbae0e5537cf1da2be3381d",
+      "size_bytes": 6767
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1997/part-00000.parquet",
+      "rows": 6,
+      "sha256": "935a0449a7856c652906177bffab24d6d4a2ff35c32cf2c286a0ec179d80c7eb",
+      "size_bytes": 6759
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1998/part-00000.parquet",
+      "rows": 5,
+      "sha256": "f503ddc931a168984226ffaadff3c99e0582853959de35ffe538049fd9ace8d1",
+      "size_bytes": 6716
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=1999/part-00000.parquet",
+      "rows": 6,
+      "sha256": "dbd93a26836db39cad569cad541d75998cea2d15a7014b1228cc22964078d0f8",
+      "size_bytes": 7108
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2000/part-00000.parquet",
+      "rows": 5,
+      "sha256": "aab0a6aa3f717ec982c737b9beae1611657c6e40d871d111051a0747d077baa9",
+      "size_bytes": 6726
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2001/part-00000.parquet",
+      "rows": 4,
+      "sha256": "ee209af35b2508fdc0b17a66a59b794bb18aefb9a856bb074fec9d4a6ff377a8",
+      "size_bytes": 7008
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2002/part-00000.parquet",
+      "rows": 6,
+      "sha256": "a8fa83f2c9842a43805f606393e1792d2cb9c50364d047f5869e6c2f039fc990",
+      "size_bytes": 6766
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2003/part-00000.parquet",
+      "rows": 5,
+      "sha256": "02a411e1dba8218c49fbd8f7b666f73ee681668b970dc667ad12e2f2baf13552",
+      "size_bytes": 6727
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2004/part-00000.parquet",
+      "rows": 7,
+      "sha256": "4cc905d5edde9fb2aad4b7a32042a343ce9b4f0f3a2607f4c0c591d72fa77b2d",
+      "size_bytes": 6805
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2005/part-00000.parquet",
+      "rows": 6,
+      "sha256": "c575e3defa44f54ab88c5f5fd9e0e72644950033674d417bb26a8b99c23b435e",
+      "size_bytes": 7102
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2006/part-00000.parquet",
+      "rows": 4,
+      "sha256": "cbc3617d80a7659d8310a488e0aa7a0f80f1839605430cd931132608430beaf7",
+      "size_bytes": 6661
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2007/part-00000.parquet",
+      "rows": 6,
+      "sha256": "cc8691eb84a08db8b40c6b474b3fff585060ba7d1be8911cd8c0248542fdb2d6",
+      "size_bytes": 6765
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2008/part-00000.parquet",
+      "rows": 5,
+      "sha256": "daee64c2cda7e411d32d7740ac7cfd32e6d4c2f7727739883066a7efd675ba2d",
+      "size_bytes": 6715
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2009/part-00000.parquet",
+      "rows": 7,
+      "sha256": "de878a5617ed42965f5e663de748d059ef35745aab78e02a50aa17b921a51431",
+      "size_bytes": 6814
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2010/part-00000.parquet",
+      "rows": 6,
+      "sha256": "db431b589d923be85515373ae5697e894bad607729408cb12c1d987048027e1c",
+      "size_bytes": 6766
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2011/part-00000.parquet",
+      "rows": 5,
+      "sha256": "4c5ba4c2b5de2eddf6feeaf679c7a28b8268048ef7606d3d21adcd6ba798d434",
+      "size_bytes": 6720
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2012/part-00000.parquet",
+      "rows": 7,
+      "sha256": "6e359a1322280f5497ac304da1cdb6b24d97187d8e75d0d4235ee61ad8589eb2",
+      "size_bytes": 6805
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2013/part-00000.parquet",
+      "rows": 5,
+      "sha256": "2883b7f0ee18c33616d410d45a70ffa0b7e3ba2940ad7911addcef7f91f930c2",
+      "size_bytes": 6730
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2014/part-00000.parquet",
+      "rows": 6,
+      "sha256": "3f0103f036bf8729e4e6059eb226c131f0ead79a1e9d02e2467bc17b9b6eeeb7",
+      "size_bytes": 6762
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2015/part-00000.parquet",
+      "rows": 7,
+      "sha256": "176af8ef92b56341f5bae1fe5dab336724517dd834fae94985c20b3b551bcd93",
+      "size_bytes": 6808
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2016/part-00000.parquet",
+      "rows": 5,
+      "sha256": "76ce5380acae6bbb712e1a791780dcc06960d22c4dd8f133b359a206d6c9c100",
+      "size_bytes": 6725
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2017/part-00000.parquet",
+      "rows": 4,
+      "sha256": "a66e7384331e077a89d876ec2c97ddbe8b3784c3bc860928929c25c7e960cf31",
+      "size_bytes": 6665
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2018/part-00000.parquet",
+      "rows": 6,
+      "sha256": "2e875bdd7d2ca9be06334380c70e1765117b82344240b54edd177744f5439cff",
+      "size_bytes": 6771
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2019/part-00000.parquet",
+      "rows": 6,
+      "sha256": "d603643809092b44dc1ff101d04061e46a850291d628be54bc5cbcad25b6d922",
+      "size_bytes": 6765
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2020/part-00000.parquet",
+      "rows": 6,
+      "sha256": "1139956d2d18aae32816cf308d8d8ceb5254d6eba3ca021eaa744d1fac64916c",
+      "size_bytes": 6763
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2021/part-00000.parquet",
+      "rows": 6,
+      "sha256": "423e6df03b07dbe90de51432c17d13562379c313b6d0e8ff16b400dc3a571851",
+      "size_bytes": 6760
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2022/part-00000.parquet",
+      "rows": 5,
+      "sha256": "5948962a356e803db87c8d347bb4d87d54d756f9b1787d20e76c00560dc3f875",
+      "size_bytes": 6721
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2023/part-00000.parquet",
+      "rows": 5,
+      "sha256": "e7aa458edeab810c9552158f9795b23b333ae0866b99ae92f19f8328885cac8b",
+      "size_bytes": 7073
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2024/part-00000.parquet",
+      "rows": 7,
+      "sha256": "809a409102f212774f11a4454cc6811e9e30f522d20908e2fd5c34f4dc5a0864",
+      "size_bytes": 7146
+    },
+    {
+      "columns": 18,
+      "path": "data/silver/finals_games/season=2025/part-00000.parquet",
+      "rows": 5,
+      "sha256": "5e9828a3dda9f43b4b591e1da5f40ecf5a00db9a7540ca82a22ba97ad5114802",
+      "size_bytes": 7069
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1946/part-00000.parquet",
+      "rows": 183,
+      "sha256": "8b0d09f03ccfe66de73c6e8c89f24fdeec752417ac2b12a5727269e9a8efe3fa",
+      "size_bytes": 16611
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1947/part-00000.parquet",
+      "rows": 119,
+      "sha256": "04ce30fdb0aeedfae0950bf5b5492d6070d0721fb48a089c395c9ca30f5ee78c",
+      "size_bytes": 14967
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1948/part-00000.parquet",
+      "rows": 209,
+      "sha256": "e6407aa50d8a1c4545566def115e32e955d5cb515ebbbdfdb25757a3657d718d",
+      "size_bytes": 16846
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1949/part-00000.parquet",
+      "rows": 271,
+      "sha256": "ce298121d4d5f68c33cb9915407a8ad799a93b79598e963b808b1db176c2fa0e",
+      "size_bytes": 19048
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1950/part-00000.parquet",
+      "rows": 168,
+      "sha256": "d2abab789138537506d2082fd051261a0ca72c7f5fa561b9764c5579fb4af95d",
+      "size_bytes": 16326
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1951/part-00000.parquet",
+      "rows": 128,
+      "sha256": "c9202168912c03fada710b721d82cdff36090afd8cb54ed96729ed7a26e75ed0",
+      "size_bytes": 15211
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1952/part-00000.parquet",
+      "rows": 146,
+      "sha256": "bee415d6abddb5439198dd937306bd9d7f64e197f238443c1be515e0201d7fe4",
+      "size_bytes": 15829
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1953/part-00000.parquet",
+      "rows": 123,
+      "sha256": "26d9bdd031fa4431b63d2e56db0cd02145510466bde836456666aba1693542a3",
+      "size_bytes": 15010
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1954/part-00000.parquet",
+      "rows": 108,
+      "sha256": "dbf768195c0fdd50db4474285afe4703c272e198732719b73316d34746f317a7",
+      "size_bytes": 14530
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1955/part-00000.parquet",
+      "rows": 99,
+      "sha256": "b1e8c69f602d1780224421c1e015c542474f8c6b25bcfb22c03dfcd550551d9f",
+      "size_bytes": 14406
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1956/part-00000.parquet",
+      "rows": 108,
+      "sha256": "841ba177447733c975a9cdabec0c6e98771b805c8d76bc114126d11212a27068",
+      "size_bytes": 14698
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1957/part-00000.parquet",
+      "rows": 105,
+      "sha256": "64d381f61fee97806d718b57d198f69dc990ff2265e06808eff9b3ddc5c963fa",
+      "size_bytes": 14549
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1958/part-00000.parquet",
+      "rows": 101,
+      "sha256": "1ab01b0162399398522a8481ccdabbef500ac99c5bb2d8c0cd46232ccd4d3935",
+      "size_bytes": 14363
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1959/part-00000.parquet",
+      "rows": 113,
+      "sha256": "4527aa364d0d20882502779c7c95dc277258ff6646423e43349a3dff09059192",
+      "size_bytes": 14832
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1960/part-00000.parquet",
+      "rows": 99,
+      "sha256": "a0ec2058ac901ef69c84899dcbdea2369c804f90244305efc7bcf6250f3e4658",
+      "size_bytes": 14530
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1961/part-00000.parquet",
+      "rows": 125,
+      "sha256": "d3c5c7243aaf68e452507bb4856aa8dcafbc11dd8db019cb896b8195f0279d3c",
+      "size_bytes": 14998
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1962/part-00000.parquet",
+      "rows": 125,
+      "sha256": "75535aef47a872cac177d800af0a6ffe403b42dd3f72a6c3211e121f97af4f07",
+      "size_bytes": 15001
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1963/part-00000.parquet",
+      "rows": 124,
+      "sha256": "a062e470594753c7952d125884428160c28543fe8d86d58bebd53328fccb9c7d",
+      "size_bytes": 14906
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1964/part-00000.parquet",
+      "rows": 123,
+      "sha256": "f161d407eecc7eca25ddd19a9f5ef3de19c7aa37bcaf9d33ce037ac03fbc803e",
+      "size_bytes": 14963
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1965/part-00000.parquet",
+      "rows": 124,
+      "sha256": "d01112c3995dbede09dd2d931f09b807d76a8c6ccb34f915442921bf18d41afe",
+      "size_bytes": 14946
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1966/part-00000.parquet",
+      "rows": 128,
+      "sha256": "4cbbf12bb0caa9495dae1939e76bab68cc3903ff9bc8d59d2de96beb1223a803",
+      "size_bytes": 15430
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1967/part-00000.parquet",
+      "rows": 164,
+      "sha256": "acf9e0cfcdb66f58a0ae18d203e309a0f936c9c1abfd1d9cb7a984a8c58de347",
+      "size_bytes": 16391
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1968/part-00000.parquet",
+      "rows": 187,
+      "sha256": "1a61bd2cdfeda826fefc05460b069420fcb0fc6b9547ff3fe8a86f2d4259441b",
+      "size_bytes": 16864
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1969/part-00000.parquet",
+      "rows": 186,
+      "sha256": "0b7744692fa2b8dd9dcc5039955ba0e7cb287403c07f92bc320d706e1806d82e",
+      "size_bytes": 18790
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1970/part-00000.parquet",
+      "rows": 231,
+      "sha256": "c1c54454e5f5ae96ae4b1fc464b765d8ab075e78eb567d4ac09a1e9b37582984",
+      "size_bytes": 19856
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1971/part-00000.parquet",
+      "rows": 241,
+      "sha256": "ae80489cbdbf56672b2b8b7dd46b426c245f97d66263f744ee1fd6663adfd350",
+      "size_bytes": 20039
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1972/part-00000.parquet",
+      "rows": 242,
+      "sha256": "5798a6eadadbb0bfe332698fa7be2f75dbc88fa7bea3cb76f790a57c09105d5c",
+      "size_bytes": 20117
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1973/part-00000.parquet",
+      "rows": 234,
+      "sha256": "7b26cf53bde0092b0e366298b8fb5495c874553cd34dbafe0061313cf4b2146c",
+      "size_bytes": 18452
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1974/part-00000.parquet",
+      "rows": 256,
+      "sha256": "6d4d7210f79893327f86150937a27bbf77a17d5692fa1e4f4af37ad9e420aa79",
+      "size_bytes": 20930
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1975/part-00000.parquet",
+      "rows": 256,
+      "sha256": "d6eef4ea26a3db1782572dcd9834937cf0f49d574338ee160004a66749fa827e",
+      "size_bytes": 21050
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1976/part-00000.parquet",
+      "rows": 328,
+      "sha256": "5fbb43507c4a19a3dbb86ec5bb13c94b61d0f4491d8bd46356d8a2a4e6044073",
+      "size_bytes": 22906
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1977/part-00000.parquet",
+      "rows": 330,
+      "sha256": "c593033c56307a8ce74b5688dce66581abcf363832798296d4dfc93154943d7d",
+      "size_bytes": 22584
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1978/part-00000.parquet",
+      "rows": 314,
+      "sha256": "1ad781effb018c5ce77bbade42a6f8220555828a4d9ab5668bb482c79cc9f361",
+      "size_bytes": 22347
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1979/part-00000.parquet",
+      "rows": 324,
+      "sha256": "8b49efd658b2324cff9bb9c7697bf03dd2c5de34e747a6990810a709a204b4bd",
+      "size_bytes": 22610
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1980/part-00000.parquet",
+      "rows": 334,
+      "sha256": "29cf7d6f968241aa3075923172c73a51d3308d9072acc8097f9a85981da96f9f",
+      "size_bytes": 26454
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1981/part-00000.parquet",
+      "rows": 346,
+      "sha256": "4e33aa9fcf1ff71cb9c2650e36e28a2299091ba398bbe126ac070a90bf7ff4bd",
+      "size_bytes": 23473
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1982/part-00000.parquet",
+      "rows": 361,
+      "sha256": "027af42230d2a51d07428b5db97c12d65608522fa39f2564daf01340899cdf43",
+      "size_bytes": 27436
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1983/part-00000.parquet",
+      "rows": 328,
+      "sha256": "0eeb2e077985ff30a4257260f9ec4b622c1740957c9ee1473826cb03ef45e1a5",
+      "size_bytes": 27160
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1984/part-00000.parquet",
+      "rows": 342,
+      "sha256": "f7fdc0cdd3466aedeb44349e5beed8ffede8796ee79d919d43f78fe2cb0f7910",
+      "size_bytes": 24042
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1985/part-00000.parquet",
+      "rows": 354,
+      "sha256": "2ff8be75153b8b5d71c056b028a8288b51ec70be8fbbccdbb5a8bcda23d1e8b8",
+      "size_bytes": 27902
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1986/part-00000.parquet",
+      "rows": 357,
+      "sha256": "b4277658f75e9c1b14c329e2e0699222c173bd17bebebf280edfd50d08cb4cca",
+      "size_bytes": 28222
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1987/part-00000.parquet",
+      "rows": 380,
+      "sha256": "5ac22a2575189ed2f0af910693f1d030d828febb1ae62c79a04c1f7d403d9826",
+      "size_bytes": 28604
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1988/part-00000.parquet",
+      "rows": 396,
+      "sha256": "b30c139424215bb0fcfa4cec64d10256dd629e2140c9c41ce4a1bb3f7294dc75",
+      "size_bytes": 29020
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1989/part-00000.parquet",
+      "rows": 422,
+      "sha256": "2e1aca3168a402dc12fdd3276631d136721a2bd5811a0b233e4d8962a34300ab",
+      "size_bytes": 30021
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1990/part-00000.parquet",
+      "rows": 415,
+      "sha256": "e2ef650a21c1778e0831d0c6595eaabd29e4a5e1e5d5fb8184ada75f18e229c8",
+      "size_bytes": 30161
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1991/part-00000.parquet",
+      "rows": 423,
+      "sha256": "59a65e4a47cfc79a55079436b591b1eaacc0d7679ff42a4a89e0bcc7d1ff7ac6",
+      "size_bytes": 30411
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1992/part-00000.parquet",
+      "rows": 418,
+      "sha256": "091b5aac4d4f673def77b0049614ddc303bd3d47b0bb5b8ee19f5cc5c51dfd6f",
+      "size_bytes": 30404
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1993/part-00000.parquet",
+      "rows": 442,
+      "sha256": "6a599fa74ec567371840fbac7c5ca3bc979db867d4e3fc4cd08d5bea7d3a3769",
+      "size_bytes": 30929
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1994/part-00000.parquet",
+      "rows": 429,
+      "sha256": "531d4f21554129acc3dbf70f4dfc5f186a8ec81e31ee64f34304f4bb37dfb74c",
+      "size_bytes": 30773
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1995/part-00000.parquet",
+      "rows": 485,
+      "sha256": "ca53982d36d48bb297a1b8f25c294690773ca2b225b3cfcaac0d83705e25925d",
+      "size_bytes": 32116
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1996/part-00000.parquet",
+      "rows": 511,
+      "sha256": "4de3ac577606e574b0a5c6626ab09c57b3f1451d5c785f940c2b04d2b373cceb",
+      "size_bytes": 35741
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1997/part-00000.parquet",
+      "rows": 495,
+      "sha256": "c7a0ff1d2e5f46f94998d8d9e4bc1cb913040414b6d498074c62932da5379b61",
+      "size_bytes": 35454
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1998/part-00000.parquet",
+      "rows": 474,
+      "sha256": "14898e0dadeaa7a6631af20c2476ea5b66b1fc9ac362600b508fb13378762ff1",
+      "size_bytes": 34444
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=1999/part-00000.parquet",
+      "rows": 468,
+      "sha256": "bf0b3e9df019a76e2fad164c4242ba1830f41ca6e4f2f105dac6c309912a81ae",
+      "size_bytes": 34569
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2000/part-00000.parquet",
+      "rows": 490,
+      "sha256": "f9ed8b6a5c5475a568e4796ff583d85da3159a4b29578a3db7c296b206d7d229",
+      "size_bytes": 35234
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2001/part-00000.parquet",
+      "rows": 470,
+      "sha256": "b86cf460d2dd5f8f0dafc85eb13faf7f5dbd8e1f244d36edd886d7fe940d4603",
+      "size_bytes": 34733
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2002/part-00000.parquet",
+      "rows": 456,
+      "sha256": "a031e5b21433fa1493dcc02a2fc616166f55d77b5356bcc052f8bc74a35b573a",
+      "size_bytes": 34270
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2003/part-00000.parquet",
+      "rows": 517,
+      "sha256": "d65a7661b4819ffda1cf4f63a36cc1924f5c26b9240abd9f57758f2d0da5a494",
+      "size_bytes": 35993
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2004/part-00000.parquet",
+      "rows": 526,
+      "sha256": "e7306ad73ea00ef2cb9a02a885b135c5869a9bb1613201e836eed859d778931c",
+      "size_bytes": 36610
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2005/part-00000.parquet",
+      "rows": 512,
+      "sha256": "ea1f6ef0f697f8c0d8a607ce786a48f8e4ca426cdc6c1906d2a6b3c677d3d7f7",
+      "size_bytes": 36304
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2006/part-00000.parquet",
+      "rows": 487,
+      "sha256": "06aa8ee70bfd27ec4db34c33bf0878e4a3157b55ef7c0d9c939dcac95b9bbf3c",
+      "size_bytes": 35559
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2007/part-00000.parquet",
+      "rows": 527,
+      "sha256": "8b30e89b2179acfa4aab5de5dfa7b268f2f8a27e4dc22e270ab8df62faf60168",
+      "size_bytes": 36492
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2008/part-00000.parquet",
+      "rows": 515,
+      "sha256": "2c926a2ae7cf42edec8063bc96c6ba1d6748430e7a5c3b71334d105603f02bcf",
+      "size_bytes": 36042
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2009/part-00000.parquet",
+      "rows": 512,
+      "sha256": "29d1d1c10904fe8f296e57b19cd245618f587c5e144d407200b679f5c0f423ca",
+      "size_bytes": 35800
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2010/part-00000.parquet",
+      "rows": 542,
+      "sha256": "74d139c7ca2401a5e0f0f76ccf3b628010a871f5ce4890a04afe291cf6f83c07",
+      "size_bytes": 36647
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2011/part-00000.parquet",
+      "rows": 515,
+      "sha256": "08bde9d5190987e785cae2f83783fb6e8f7d9406e5dbc307c0dbb47e5e98acd1",
+      "size_bytes": 36603
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2012/part-00000.parquet",
+      "rows": 526,
+      "sha256": "6864bc1dc53304f10abcde0c51267d2b4500b3177475b9e2f710f918fc258a63",
+      "size_bytes": 37359
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2013/part-00000.parquet",
+      "rows": 548,
+      "sha256": "c3a22470f8082ac83dc9647d689e8b2ae2738798f5a3b7eaeeac9235d71f098b",
+      "size_bytes": 37765
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2014/part-00000.parquet",
+      "rows": 575,
+      "sha256": "ae9015bbe851968f53a40ffc714a561562925e7fd62210d2d3a2c7dbaaf4e934",
+      "size_bytes": 38436
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2015/part-00000.parquet",
+      "rows": 530,
+      "sha256": "7542f3c9c51e6e8f2dfcaec95382da25afc481ca550ecf94b99b258027f953b6",
+      "size_bytes": 37374
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2016/part-00000.parquet",
+      "rows": 542,
+      "sha256": "0bdc2421b0736847d34bc8f36f2d5dcbcba5c7ff2e19f5f20329f3adf538c664",
+      "size_bytes": 37838
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2017/part-00000.parquet",
+      "rows": 606,
+      "sha256": "e2c92553e2ed177747da46efc9c88680a6900c104f63a75de571623aa74ea8b1",
+      "size_bytes": 40171
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2018/part-00000.parquet",
+      "rows": 622,
+      "sha256": "6bc95045383aef2821fc78bcc4fe0c8c6e821a9d30497cb83e5d5a11eff6a45e",
+      "size_bytes": 40080
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2019/part-00000.parquet",
+      "rows": 592,
+      "sha256": "4e65ed17db4d3a7652bb8531a251a060750a2366d679075ee0bc63f18fa7519e",
+      "size_bytes": 41038
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2020/part-00000.parquet",
+      "rows": 626,
+      "sha256": "1e9823fa1bde6877b5b273c4d5b9d80b8b3e51c9822e3bf9e8dfc2da627ccdea",
+      "size_bytes": 40713
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2021/part-00000.parquet",
+      "rows": 716,
+      "sha256": "e7d6f40790acd8506a026a6b16096b8d35e1b5926917bf616e429b762e59e661",
+      "size_bytes": 43575
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2022/part-00000.parquet",
+      "rows": 612,
+      "sha256": "8241e1b77b22862ab4099e59b58b51efbd584c006e41b799836374fd74c74dee",
+      "size_bytes": 40189
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2023/part-00000.parquet",
+      "rows": 657,
+      "sha256": "74ed400aaedda5ad061561b7eaebb1ba395fd3f8600acdabcab051ea28d1eb0c",
+      "size_bytes": 41765
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2024/part-00000.parquet",
+      "rows": 655,
+      "sha256": "6732c218efde13f56fd4aadf5c485306f293be2c3382924c8e2ffd6d153a2c6f",
+      "size_bytes": 41735
+    },
+    {
+      "columns": 36,
+      "path": "data/silver/player_team_season_participation/season=2025/part-00000.parquet",
+      "rows": 661,
+      "sha256": "6c58fb0d48d95efebf55d49abf073f5df02f082f4273ccbe9bae12217195ad9c",
+      "size_bytes": 42188
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1946/part-00000.parquet",
+      "rows": 11,
+      "sha256": "e07d24a44306afd7bd9c528a92bbd4b6f7feec0ee15b8b86aa328b79d395a677",
+      "size_bytes": 13647
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1947/part-00000.parquet",
+      "rows": 8,
+      "sha256": "2bb684be1dea65085beee5ce50fdb80bbf49ba7f5a8b6776ed394347db5deb5b",
+      "size_bytes": 13224
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1948/part-00000.parquet",
+      "rows": 12,
+      "sha256": "c60f3eee00240b248a2c5c9e0fa96498d9e5d863519c7e3b171d9c19cb058c43",
+      "size_bytes": 13594
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1949/part-00000.parquet",
+      "rows": 17,
+      "sha256": "5a57c58b018de72dac5426f8d413ab2a7fa0bf8f34a93f4b0ae80870d5affb1d",
+      "size_bytes": 14301
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1950/part-00000.parquet",
+      "rows": 11,
+      "sha256": "862668c81679f151c9a205364aa0dbce097aa7361cf01278b8d7b7f653029982",
+      "size_bytes": 13703
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1951/part-00000.parquet",
+      "rows": 10,
+      "sha256": "45282ddf992043b04bad1c3c71597c584a3f07f114b332a6cf7ca607c262205b",
+      "size_bytes": 13448
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1952/part-00000.parquet",
+      "rows": 10,
+      "sha256": "4a34b1be851af5abe9f2528670fd959918c9be4f04cf4388f591b8d31b6cde9b",
+      "size_bytes": 13489
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1953/part-00000.parquet",
+      "rows": 9,
+      "sha256": "aded8c8ef0f31f575544fe54ea0c9cd9e49b26b000be5ef5c97df4f0d31af8be",
+      "size_bytes": 12995
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1954/part-00000.parquet",
+      "rows": 8,
+      "sha256": "478e18d5973003ba9733650f0d6248481e389be1329cc32eff848bf14c538abf",
+      "size_bytes": 13144
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1955/part-00000.parquet",
+      "rows": 8,
+      "sha256": "d17f3ae40721d1bc2645dafcb081591767d61fadc12713e1364963d226d3def8",
+      "size_bytes": 13211
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1956/part-00000.parquet",
+      "rows": 8,
+      "sha256": "fbf7bb0ec9f61ce705f9eace092b2cd0e070af882056d2a9b01f5dea8af96314",
+      "size_bytes": 13153
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1957/part-00000.parquet",
+      "rows": 8,
+      "sha256": "928352b1df0a8fea78e3b455371d815d82ea50d10c4f4bdce293d56c75fc1908",
+      "size_bytes": 13178
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1958/part-00000.parquet",
+      "rows": 8,
+      "sha256": "1a08d8906e689dab26aca9739032a87a630ac65b3dffd45bddcf9a917a038125",
+      "size_bytes": 13186
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1959/part-00000.parquet",
+      "rows": 8,
+      "sha256": "46d620d2e22891f456339a52e6b424b9c4ee1045a45e9e17310157b4a54cab2c",
+      "size_bytes": 13197
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1960/part-00000.parquet",
+      "rows": 8,
+      "sha256": "556eae1cab42b760e1e5479307bc4d8814c6ca70488da9bd9f7afb008b756583",
+      "size_bytes": 12232
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1961/part-00000.parquet",
+      "rows": 9,
+      "sha256": "505272ab24b3f53524db5b7e70786f4d5d7ba0bcee540d3e493f47fe67cd6a24",
+      "size_bytes": 13339
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1962/part-00000.parquet",
+      "rows": 9,
+      "sha256": "36686d61933a96167e405038e4b9361f6d2b8567f6dc1a194ae28674ddc07ce8",
+      "size_bytes": 13342
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1963/part-00000.parquet",
+      "rows": 9,
+      "sha256": "a9c978d1a47604540e0eea6047d3c660e76aaeff99b9f4c58bfb60c10aca8cda",
+      "size_bytes": 13353
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1964/part-00000.parquet",
+      "rows": 9,
+      "sha256": "5f2faf09d5343c0bbd9f048eddb5507a578b1d7c8c0e6ae1f8015b227d7d8225",
+      "size_bytes": 13337
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1965/part-00000.parquet",
+      "rows": 9,
+      "sha256": "b682816684f728437adc79d68b5f5168351e85c1b676d4125d6c9a93b97d1d3e",
+      "size_bytes": 13327
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1966/part-00000.parquet",
+      "rows": 10,
+      "sha256": "7b1fb921c36dbea5b77c957204294a91e3970b228494a770bf3d9200cf23f7cd",
+      "size_bytes": 13445
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1967/part-00000.parquet",
+      "rows": 12,
+      "sha256": "7e931692d1412a2c41d4d3907dcdd259d64aea666575251347c337e10a504ab3",
+      "size_bytes": 13682
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1968/part-00000.parquet",
+      "rows": 14,
+      "sha256": "08cdbeb82111b2ce884fe0fc84344602b219d624356f7cdf4c91fc102da7fe3e",
+      "size_bytes": 13870
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1969/part-00000.parquet",
+      "rows": 14,
+      "sha256": "3e6caca2ebe1860b410492b1f1ce4ed2bb54413f19203e373ad3b6a9947effe2",
+      "size_bytes": 13875
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1970/part-00000.parquet",
+      "rows": 17,
+      "sha256": "19c51a715d03ef2101ba349dbce985cfa22bfd439ed4b95f0e72a1bde8164fbc",
+      "size_bytes": 12899
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1971/part-00000.parquet",
+      "rows": 17,
+      "sha256": "ebcc0b88b7f648ed3b639f447eea96cbde1889f3f6255c81763956e6ea6fb98b",
+      "size_bytes": 14245
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1972/part-00000.parquet",
+      "rows": 17,
+      "sha256": "a56ac260912cd6d205e333ab15c9171c4d665d479af0b2f20eee6acb16d652b1",
+      "size_bytes": 14235
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1973/part-00000.parquet",
+      "rows": 17,
+      "sha256": "41db04486591c0ae21307ca0f09272bb6c08f411b3120af368e8c0c567cf7e4a",
+      "size_bytes": 14239
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1974/part-00000.parquet",
+      "rows": 18,
+      "sha256": "2c1bb64893e43a4ec297c64d97b387ecca3decbf626e13453494cb4417af92f3",
+      "size_bytes": 14284
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1975/part-00000.parquet",
+      "rows": 18,
+      "sha256": "6599e1bf4fb15e965e9f30b664d00a0c02792b42b1096e0aa6d81ebeab8f703a",
+      "size_bytes": 12937
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1976/part-00000.parquet",
+      "rows": 22,
+      "sha256": "df9a9e56d5b95ae8983aad52560cd9e8f06a05ea0a0557dcb38c9717d82457dc",
+      "size_bytes": 13161
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1977/part-00000.parquet",
+      "rows": 22,
+      "sha256": "120a832fd0f774a3744e19b17e647e7fbdeeae85fc0eac31b2d605786d56d1c6",
+      "size_bytes": 14586
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1978/part-00000.parquet",
+      "rows": 22,
+      "sha256": "df43ba8a7d9068184a265c01cb52cc1c8b9474415d153b9e274c4430a89ee768",
+      "size_bytes": 14576
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1979/part-00000.parquet",
+      "rows": 22,
+      "sha256": "4012041579af99a33134f4f9a78914ece043e93537a9f10a7e93f7a50019dd45",
+      "size_bytes": 14660
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1980/part-00000.parquet",
+      "rows": 23,
+      "sha256": "63197b326a5c30249332a089a16e6f4efdda437112e4c11a7d699ff9910a4be4",
+      "size_bytes": 14755
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1981/part-00000.parquet",
+      "rows": 23,
+      "sha256": "f7632546b49264f1f7f03792dea31904717e59fae73530ad4cd6a8b0ac4be4fa",
+      "size_bytes": 14819
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1982/part-00000.parquet",
+      "rows": 23,
+      "sha256": "3bc362abdac03ccb790a7ed0b7c36baa94be8076bbe2635eb07b54b101eb00b4",
+      "size_bytes": 14812
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1983/part-00000.parquet",
+      "rows": 23,
+      "sha256": "aef6c9bdff4c5343aa60409badc6b8d6f67d74da86e3f0bd0152980d9cf09f64",
+      "size_bytes": 14788
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1984/part-00000.parquet",
+      "rows": 23,
+      "sha256": "be997da8ba0c7b4f5e0b8ad9b9e4467f30726fa1b599911cfeba272edc2e5646",
+      "size_bytes": 14751
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1985/part-00000.parquet",
+      "rows": 23,
+      "sha256": "317c666e66ad4c0b2c74d6741d722759de898fa2f608ebca5eb5929d95ad9868",
+      "size_bytes": 14777
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1986/part-00000.parquet",
+      "rows": 23,
+      "sha256": "639227b357e0a37e395fbe528e888d6b9691f6d56291ecc213727cfa466f1db6",
+      "size_bytes": 14794
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1987/part-00000.parquet",
+      "rows": 23,
+      "sha256": "2bd1f57854599011312a0daf30cf679c326adba25935c172c8380040221f71df",
+      "size_bytes": 14788
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1988/part-00000.parquet",
+      "rows": 25,
+      "sha256": "8c785834328df75368044edd5c9d9009da1040dc9cd1f3bccab241b44ea9b452",
+      "size_bytes": 14936
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1989/part-00000.parquet",
+      "rows": 27,
+      "sha256": "5094ec9517871ba0dfd469162d0a341b011a110163622e1fc695aaa2c2772990",
+      "size_bytes": 15143
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1990/part-00000.parquet",
+      "rows": 27,
+      "sha256": "f8b42d95dba707fc13bd44cc7b3b36038b76b3201d9324a57f28d635b2c77492",
+      "size_bytes": 15161
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1991/part-00000.parquet",
+      "rows": 27,
+      "sha256": "46c40243db0409d0413d1d6a83fc446104fde962a9f7bf46eb832a1caf16219f",
+      "size_bytes": 15167
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1992/part-00000.parquet",
+      "rows": 27,
+      "sha256": "fbab7279be25c65f0c9b73f19b3f16c169609159468a086b9a7afc81e4cf1478",
+      "size_bytes": 15206
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1993/part-00000.parquet",
+      "rows": 27,
+      "sha256": "18335c59e7a3431c68aa3a0329a5702c1a6b3086564f2dc1547ed2d0ae98f51f",
+      "size_bytes": 15098
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1994/part-00000.parquet",
+      "rows": 27,
+      "sha256": "11d81e872bd06fa97689bdaada3e82528a58357fe58f7c81197ca3202abe04df",
+      "size_bytes": 15204
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1995/part-00000.parquet",
+      "rows": 29,
+      "sha256": "fd3c297f5781c48a9bd746097bf9f917b23cd23627b3feec3e26eefcfb8cf3a1",
+      "size_bytes": 15376
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1996/part-00000.parquet",
+      "rows": 29,
+      "sha256": "0125d3fd4126c3873acd450edab3d44c2244974991a9fb45dca307eb6c17efd4",
+      "size_bytes": 15349
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1997/part-00000.parquet",
+      "rows": 29,
+      "sha256": "e23d366df35242e1dfd541293efee14bdb1ec8894ef2808b5a590bb2bd117a7e",
+      "size_bytes": 15358
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1998/part-00000.parquet",
+      "rows": 29,
+      "sha256": "95e4dc369e097c64327b34de9f18889a3f523391fb436e654f02802cb672ed64",
+      "size_bytes": 15222
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=1999/part-00000.parquet",
+      "rows": 29,
+      "sha256": "dfd9fde4c116d859e196ebafc531a8e8c39a2f66d8bf163eeea950e7454dfe40",
+      "size_bytes": 15383
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2000/part-00000.parquet",
+      "rows": 29,
+      "sha256": "a04c1d5ecd2911c130493c2e05798c65edfc169bb8745b9821235c7765e268c4",
+      "size_bytes": 15336
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2001/part-00000.parquet",
+      "rows": 29,
+      "sha256": "51ae0194d612e7ab8fa0b3c0dac522d84731c41b685655f6034f9862642d914a",
+      "size_bytes": 15327
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2002/part-00000.parquet",
+      "rows": 29,
+      "sha256": "c14fea180e4dda3ec956e16bfb493690241dc00e01f80176213b896baa3bb5d0",
+      "size_bytes": 15272
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2003/part-00000.parquet",
+      "rows": 29,
+      "sha256": "a14be4d5ebc5f95a48088eb30d9b1f503cf8ee59a2832060725d65f20922ee2c",
+      "size_bytes": 15322
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2004/part-00000.parquet",
+      "rows": 30,
+      "sha256": "e0efe16e451ef2252b1dc5b4162232161ed197cbbadf713a8c9443f331b5b832",
+      "size_bytes": 15349
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2005/part-00000.parquet",
+      "rows": 30,
+      "sha256": "fa5ad412c57f5d20698aac4669605f12865b9e8bdc8cdd71eaa40644e77cfaca",
+      "size_bytes": 15368
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2006/part-00000.parquet",
+      "rows": 30,
+      "sha256": "2505d2172305b5ad4b5b39a28182d816369f043ba4a5361361ebcf46057a2c81",
+      "size_bytes": 15355
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2007/part-00000.parquet",
+      "rows": 30,
+      "sha256": "02548bc8c11cf8e45f49f431fc68999399764b619fcb1b1c0b48effb367e0955",
+      "size_bytes": 15387
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2008/part-00000.parquet",
+      "rows": 30,
+      "sha256": "ada819717b81640774c8a27c87a529cc57356fd0b2f5542b89092273b6b1d57e",
+      "size_bytes": 15386
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2009/part-00000.parquet",
+      "rows": 30,
+      "sha256": "1f345da135a31735a892f677e8207ac799bcfeecd0665c597f6b62ec31bee8d4",
+      "size_bytes": 15343
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2010/part-00000.parquet",
+      "rows": 30,
+      "sha256": "ea470c2f5b9397feb67a4e10a91d2b6b0e570402976acb5102f6578eb156e87c",
+      "size_bytes": 15406
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2011/part-00000.parquet",
+      "rows": 30,
+      "sha256": "4bf4afa61e312b9be522c2336b4e9c0efabea2163fcfdee5f040cd46470af551",
+      "size_bytes": 15305
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2012/part-00000.parquet",
+      "rows": 30,
+      "sha256": "3dd10f54bb6726652581a20ab971b7b93c7faa49065d96114e897634eb9d1abc",
+      "size_bytes": 15575
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2013/part-00000.parquet",
+      "rows": 30,
+      "sha256": "e39b43dedf4118ed46650addd60562822968f2f20da8025362bb388236da0a56",
+      "size_bytes": 15418
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2014/part-00000.parquet",
+      "rows": 30,
+      "sha256": "5b0c7836e0607bcde1cd42ef24c5f211087448ab85d4c3f71043a7e0c01fa6cb",
+      "size_bytes": 15408
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2015/part-00000.parquet",
+      "rows": 30,
+      "sha256": "839a0e8c249d37ba71585f24c2d932993e1baeefa604801b6f49b05d4673944a",
+      "size_bytes": 15378
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2016/part-00000.parquet",
+      "rows": 30,
+      "sha256": "6419016735b1141d85f6ca3723cea6918da80726d2a542c7dc6fab344cf276a7",
+      "size_bytes": 15404
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2017/part-00000.parquet",
+      "rows": 30,
+      "sha256": "f44f253a306a04d16bbb0cbedbdc1ea17bafced6b79a636bbc4deb2bd7f736e9",
+      "size_bytes": 15367
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2018/part-00000.parquet",
+      "rows": 30,
+      "sha256": "00539592f6df73534795a0cb93be3c7c9cb19765837d80c6ee1419311cd59f5c",
+      "size_bytes": 15387
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2019/part-00000.parquet",
+      "rows": 30,
+      "sha256": "390ff781c753520fa7eaa05f6d523a0cce7aab8c1278fa67374bdae8d5d659c9",
+      "size_bytes": 15606
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2020/part-00000.parquet",
+      "rows": 30,
+      "sha256": "3f2ca2d4e9dea13d8bad4855a7d9b8ead3c123d13032302cb0e6760575fdb6d3",
+      "size_bytes": 15298
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2021/part-00000.parquet",
+      "rows": 30,
+      "sha256": "4923436db294ecec23f7652dc1499e5e8be1be032cc1738c3e77035a8710f330",
+      "size_bytes": 15335
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2022/part-00000.parquet",
+      "rows": 30,
+      "sha256": "dc673a02427c876a35667578e014c8252c1818a5642c22a91568c12432d69492",
+      "size_bytes": 15316
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2023/part-00000.parquet",
+      "rows": 30,
+      "sha256": "6fde7c8a569609734f37fcb33f9d5229070b3ca0bd535b7f1f33201ae524679f",
+      "size_bytes": 15302
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2024/part-00000.parquet",
+      "rows": 30,
+      "sha256": "398e8c26249344d7fc788de1954127d84606a6a2143f670db2c3f8ac965d19b6",
+      "size_bytes": 15340
+    },
+    {
+      "columns": 38,
+      "path": "data/silver/team_season_results/season=2025/part-00000.parquet",
+      "rows": 30,
+      "sha256": "043e1a91256229ffb31dfad1167ec253e3e364c8b26843bc3e7fcb1f059c9ab5",
+      "size_bytes": 15374
+    }
+  ],
+  "size_bytes": 6273942,
+  "step": "STEP-0010"
+}

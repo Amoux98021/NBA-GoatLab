@@ -5,6 +5,7 @@ from goatlab.schemas.canonical import (
     AwardTaxonomyStatus,
     AwardType,
     CoverageStatus,
+    FinalsGame,
     Franchise,
     Game,
     MetricCoverage,
@@ -14,10 +15,13 @@ from goatlab.schemas.canonical import (
     PlayerGameStats,
     PlayerSeasonAdvanced,
     PlayerSeasonStats,
+    PlayerTeamSeasonParticipation,
+    PostseasonFormatStatus,
     Season,
     SeasonRowScope,
     SeasonType,
     Team,
+    TeamSeasonResult,
 )
 
 __all__ = [
@@ -25,6 +29,7 @@ __all__ = [
     "AwardTaxonomyStatus",
     "AwardType",
     "CoverageStatus",
+    "FinalsGame",
     "Franchise",
     "Game",
     "MetricCoverage",
@@ -34,8 +39,11 @@ __all__ = [
     "PlayerGameStats",
     "PlayerSeasonAdvanced",
     "PlayerSeasonStats",
+    "PlayerTeamSeasonParticipation",
+    "PostseasonFormatStatus",
     "Season",
     "SeasonRowScope",
     "SeasonType",
     "Team",
+    "TeamSeasonResult",
 ]

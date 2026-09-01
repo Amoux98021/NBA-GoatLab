@@ -1,0 +1,2652 @@
+{
+  "entities": {
+    "FinalsGame": {
+      "additionalProperties": false,
+      "properties": {
+        "away_score": {
+          "minimum": 0,
+          "title": "Away Score",
+          "type": "integer"
+        },
+        "away_team_id": {
+          "title": "Away Team Id",
+          "type": "string"
+        },
+        "champion_team_id": {
+          "title": "Champion Team Id",
+          "type": "string"
+        },
+        "corpus_fingerprint": {
+          "title": "Corpus Fingerprint",
+          "type": "string"
+        },
+        "corpus_id": {
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "finalist_team_id": {
+          "title": "Finalist Team Id",
+          "type": "string"
+        },
+        "finals_game_number": {
+          "minimum": 1,
+          "title": "Finals Game Number",
+          "type": "integer"
+        },
+        "game_date": {
+          "format": "date",
+          "title": "Game Date",
+          "type": "string"
+        },
+        "game_id": {
+          "title": "Game Id",
+          "type": "string"
+        },
+        "home_score": {
+          "minimum": 0,
+          "title": "Home Score",
+          "type": "integer"
+        },
+        "home_team_id": {
+          "title": "Home Team Id",
+          "type": "string"
+        },
+        "methodology_version": {
+          "title": "Methodology Version",
+          "type": "string"
+        },
+        "nba_game_id": {
+          "title": "Nba Game Id",
+          "type": "string"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "venue_assignment_status": {
+          "title": "Venue Assignment Status",
+          "type": "string"
+        },
+        "winner_team_id": {
+          "title": "Winner Team Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "game_id",
+        "nba_game_id",
+        "season_id",
+        "game_date",
+        "home_team_id",
+        "away_team_id",
+        "home_score",
+        "away_score",
+        "winner_team_id",
+        "venue_assignment_status",
+        "champion_team_id",
+        "finalist_team_id",
+        "finals_game_number",
+        "corpus_id",
+        "corpus_fingerprint",
+        "methodology_version",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "FinalsGame",
+      "type": "object"
+    },
+    "Franchise": {
+      "additionalProperties": false,
+      "properties": {
+        "current_name": {
+          "title": "Current Name",
+          "type": "string"
+        },
+        "franchise_id": {
+          "title": "Franchise Id",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "franchise_id",
+        "current_name",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "Franchise",
+      "type": "object"
+    },
+    "Game": {
+      "$defs": {
+        "SeasonType": {
+          "enum": [
+            "REGULAR",
+            "PLAYOFF",
+            "PLAY_IN",
+            "ALL_STAR",
+            "PRESEASON"
+          ],
+          "title": "SeasonType",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "away_score": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Away Score"
+        },
+        "away_team_id": {
+          "title": "Away Team Id",
+          "type": "string"
+        },
+        "game_date": {
+          "format": "date",
+          "title": "Game Date",
+          "type": "string"
+        },
+        "game_id": {
+          "title": "Game Id",
+          "type": "string"
+        },
+        "home_score": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Home Score"
+        },
+        "home_team_id": {
+          "title": "Home Team Id",
+          "type": "string"
+        },
+        "nba_game_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Nba Game Id"
+        },
+        "playoff_round": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Playoff Round"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "season_type": {
+          "$ref": "#/$defs/SeasonType"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "winner_team_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Winner Team Id"
+        }
+      },
+      "required": [
+        "game_id",
+        "nba_game_id",
+        "season_id",
+        "game_date",
+        "season_type",
+        "playoff_round",
+        "home_team_id",
+        "away_team_id",
+        "winner_team_id",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "Game",
+      "type": "object"
+    },
+    "MetricCoverage": {
+      "$defs": {
+        "CoverageStatus": {
+          "enum": [
+            "OBSERVED",
+            "PARTIAL",
+            "HISTORICALLY_UNAVAILABLE",
+            "SOURCE_UNAVAILABLE",
+            "UNKNOWN"
+          ],
+          "title": "CoverageStatus",
+          "type": "string"
+        },
+        "MetricOrigin": {
+          "enum": [
+            "RAW",
+            "DERIVED"
+          ],
+          "title": "MetricOrigin",
+          "type": "string"
+        },
+        "SeasonType": {
+          "enum": [
+            "REGULAR",
+            "PLAYOFF",
+            "PLAY_IN",
+            "ALL_STAR",
+            "PRESEASON"
+          ],
+          "title": "SeasonType",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "canonical_entity": {
+          "title": "Canonical Entity",
+          "type": "string"
+        },
+        "coverage_status": {
+          "$ref": "#/$defs/CoverageStatus"
+        },
+        "cross_era_eligible": {
+          "title": "Cross Era Eligible",
+          "type": "boolean"
+        },
+        "first_reliable_season": {
+          "anyOf": [
+            {
+              "minimum": 1946,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "First Reliable Season"
+        },
+        "last_reliable_season": {
+          "anyOf": [
+            {
+              "minimum": 1946,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Last Reliable Season"
+        },
+        "methodology": {
+          "title": "Methodology",
+          "type": "string"
+        },
+        "metric": {
+          "title": "Metric",
+          "type": "string"
+        },
+        "metric_origin": {
+          "$ref": "#/$defs/MetricOrigin"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Notes"
+        },
+        "provider": {
+          "title": "Provider",
+          "type": "string"
+        },
+        "season_type": {
+          "$ref": "#/$defs/SeasonType"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "canonical_entity",
+        "metric",
+        "provider",
+        "season_type",
+        "coverage_status",
+        "metric_origin",
+        "cross_era_eligible",
+        "methodology",
+        "notes",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "MetricCoverage",
+      "type": "object"
+    },
+    "Player": {
+      "additionalProperties": false,
+      "properties": {
+        "birth_date": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Birth Date"
+        },
+        "career_end_year": {
+          "anyOf": [
+            {
+              "minimum": 1946,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Career End Year"
+        },
+        "career_start_year": {
+          "anyOf": [
+            {
+              "minimum": 1946,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Career Start Year"
+        },
+        "country": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Country"
+        },
+        "draft_pick": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Draft Pick"
+        },
+        "draft_round": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Draft Round"
+        },
+        "draft_year": {
+          "anyOf": [
+            {
+              "minimum": 1946,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Draft Year"
+        },
+        "first_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "First Name"
+        },
+        "full_name": {
+          "title": "Full Name",
+          "type": "string"
+        },
+        "height_cm": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Height Cm"
+        },
+        "is_active": {
+          "title": "Is Active",
+          "type": "boolean"
+        },
+        "last_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Last Name"
+        },
+        "nba_player_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Nba Player Id"
+        },
+        "player_id": {
+          "title": "Player Id",
+          "type": "string"
+        },
+        "primary_position": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Primary Position"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "weight_kg": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Weight Kg"
+        }
+      },
+      "required": [
+        "player_id",
+        "nba_player_id",
+        "full_name",
+        "first_name",
+        "last_name",
+        "birth_date",
+        "country",
+        "primary_position",
+        "is_active",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "Player",
+      "type": "object"
+    },
+    "PlayerAward": {
+      "$defs": {
+        "AwardScope": {
+          "enum": [
+            "LEAGUE",
+            "CONFERENCE",
+            "TEAM",
+            "EXTERNAL",
+            "UNKNOWN"
+          ],
+          "title": "AwardScope",
+          "type": "string"
+        },
+        "AwardTaxonomyStatus": {
+          "enum": [
+            "CANONICAL_CORE",
+            "CANONICAL_SECONDARY",
+            "MINOR_RECURRING",
+            "NON_PLAYER_COMPETITIVE",
+            "UNKNOWN"
+          ],
+          "title": "AwardTaxonomyStatus",
+          "type": "string"
+        },
+        "AwardType": {
+          "enum": [
+            "MVP",
+            "FINALS_MVP",
+            "CONFERENCE_FINALS_MVP",
+            "DPOY",
+            "ROY",
+            "MIP",
+            "SIXTH_MAN",
+            "CLUTCH_PLAYER",
+            "COMEBACK_PLAYER",
+            "ALL_NBA",
+            "ALL_DEFENSE",
+            "ALL_ROOKIE",
+            "ALL_STAR",
+            "ALL_STAR_MVP",
+            "NBA_CUP_MVP",
+            "NBA_CUP_ALL_TOURNAMENT",
+            "NBA_CHAMPION",
+            "PLAYER_OF_MONTH",
+            "PLAYER_OF_WEEK",
+            "ROOKIE_OF_MONTH",
+            "DEFENSIVE_PLAYER_OF_MONTH",
+            "SCORING_TITLE",
+            "REBOUND_TITLE",
+            "ASSIST_TITLE",
+            "STEAL_TITLE",
+            "BLOCK_TITLE",
+            "OTHER"
+          ],
+          "title": "AwardType",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "award_id": {
+          "title": "Award Id",
+          "type": "string"
+        },
+        "award_level": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Award Level"
+        },
+        "award_scope": {
+          "$ref": "#/$defs/AwardScope"
+        },
+        "award_type": {
+          "$ref": "#/$defs/AwardType"
+        },
+        "conference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Conference"
+        },
+        "methodology_version": {
+          "title": "Methodology Version",
+          "type": "string"
+        },
+        "month": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Month"
+        },
+        "nba_player_id": {
+          "title": "Nba Player Id",
+          "type": "string"
+        },
+        "player_id": {
+          "title": "Player Id",
+          "type": "string"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "season_id": {
+          "anyOf": [
+            {
+              "minimum": 1946,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Season Id"
+        },
+        "season_label_raw": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Season Label Raw"
+        },
+        "season_mapping_status": {
+          "title": "Season Mapping Status",
+          "type": "string"
+        },
+        "source_description": {
+          "title": "Source Description",
+          "type": "string"
+        },
+        "source_event_fingerprint": {
+          "title": "Source Event Fingerprint",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "source_subtype1": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Subtype1"
+        },
+        "source_subtype2": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Subtype2"
+        },
+        "source_subtype3": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Subtype3"
+        },
+        "source_team": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Team"
+        },
+        "source_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Source Type"
+        },
+        "taxonomy_status": {
+          "$ref": "#/$defs/AwardTaxonomyStatus"
+        },
+        "team_number": {
+          "anyOf": [
+            {
+              "maximum": 3,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Team Number"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "week": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Week"
+        }
+      },
+      "required": [
+        "award_id",
+        "player_id",
+        "nba_player_id",
+        "season_label_raw",
+        "season_mapping_status",
+        "award_type",
+        "award_level",
+        "award_scope",
+        "conference",
+        "month",
+        "week",
+        "source_description",
+        "source_type",
+        "source_subtype1",
+        "source_subtype2",
+        "source_subtype3",
+        "source_team",
+        "taxonomy_status",
+        "source_event_fingerprint",
+        "source_id",
+        "retrieved_at",
+        "methodology_version",
+        "updated_at"
+      ],
+      "title": "PlayerAward",
+      "type": "object"
+    },
+    "PlayerGameStats": {
+      "$defs": {
+        "SeasonType": {
+          "enum": [
+            "REGULAR",
+            "PLAYOFF",
+            "PLAY_IN",
+            "ALL_STAR",
+            "PRESEASON"
+          ],
+          "title": "SeasonType",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "assists": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Assists"
+        },
+        "blocks": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Blocks"
+        },
+        "did_play": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Did Play"
+        },
+        "dreb": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dreb"
+        },
+        "fg3a": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fg3A"
+        },
+        "fg3m": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fg3M"
+        },
+        "fga": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fga"
+        },
+        "fgm": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fgm"
+        },
+        "fta": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fta"
+        },
+        "ftm": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ftm"
+        },
+        "game_id": {
+          "title": "Game Id",
+          "type": "string"
+        },
+        "minutes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minutes"
+        },
+        "oreb": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Oreb"
+        },
+        "personal_fouls": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Personal Fouls"
+        },
+        "player_id": {
+          "title": "Player Id",
+          "type": "string"
+        },
+        "plus_minus": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Plus Minus"
+        },
+        "points": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Points"
+        },
+        "rebounds": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rebounds"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "season_type": {
+          "$ref": "#/$defs/SeasonType"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "started": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Started"
+        },
+        "steals": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Steals"
+        },
+        "team_id": {
+          "title": "Team Id",
+          "type": "string"
+        },
+        "turnovers": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Turnovers"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "game_id",
+        "player_id",
+        "team_id",
+        "season_id",
+        "season_type",
+        "started",
+        "did_play",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "PlayerGameStats",
+      "type": "object"
+    },
+    "PlayerSeasonAdvanced": {
+      "$defs": {
+        "SeasonRowScope": {
+          "enum": [
+            "TEAM",
+            "TOTAL"
+          ],
+          "title": "SeasonRowScope",
+          "type": "string"
+        },
+        "SeasonType": {
+          "enum": [
+            "REGULAR",
+            "PLAYOFF",
+            "PLAY_IN",
+            "ALL_STAR",
+            "PRESEASON"
+          ],
+          "title": "SeasonType",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "assist_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Assist Pct"
+        },
+        "defensive_rating": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Defensive Rating"
+        },
+        "dreb_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dreb Pct"
+        },
+        "effective_fg_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Effective Fg Pct"
+        },
+        "games_played": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Games Played"
+        },
+        "minutes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minutes"
+        },
+        "net_rating": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Net Rating"
+        },
+        "offensive_rating": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Offensive Rating"
+        },
+        "oreb_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Oreb Pct"
+        },
+        "pace": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Pace"
+        },
+        "pie": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Pie"
+        },
+        "player_id": {
+          "title": "Player Id",
+          "type": "string"
+        },
+        "possessions": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Possessions"
+        },
+        "rebound_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rebound Pct"
+        },
+        "row_scope": {
+          "$ref": "#/$defs/SeasonRowScope"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "season_type": {
+          "$ref": "#/$defs/SeasonType"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "team_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Team Id"
+        },
+        "true_shooting_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "True Shooting Pct"
+        },
+        "turnover_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Turnover Pct"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "usage_pct": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Usage Pct"
+        }
+      },
+      "required": [
+        "player_id",
+        "season_id",
+        "season_type",
+        "row_scope",
+        "team_id",
+        "offensive_rating",
+        "defensive_rating",
+        "net_rating",
+        "pie",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "PlayerSeasonAdvanced",
+      "type": "object"
+    },
+    "PlayerSeasonStats": {
+      "$defs": {
+        "SeasonRowScope": {
+          "enum": [
+            "TEAM",
+            "TOTAL"
+          ],
+          "title": "SeasonRowScope",
+          "type": "string"
+        },
+        "SeasonType": {
+          "enum": [
+            "REGULAR",
+            "PLAYOFF",
+            "PLAY_IN",
+            "ALL_STAR",
+            "PRESEASON"
+          ],
+          "title": "SeasonType",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "assists_per_game": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Assists Per Game"
+        },
+        "assists_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Assists Total"
+        },
+        "blocks_per_game": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Blocks Per Game"
+        },
+        "blocks_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Blocks Total"
+        },
+        "dreb_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Dreb Total"
+        },
+        "fg3_pct": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fg3 Pct"
+        },
+        "fg3a_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fg3A Total"
+        },
+        "fg3m_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fg3M Total"
+        },
+        "fg_pct": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fg Pct"
+        },
+        "fga_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fga Total"
+        },
+        "fgm_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fgm Total"
+        },
+        "ft_pct": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ft Pct"
+        },
+        "fta_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Fta Total"
+        },
+        "ftm_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ftm Total"
+        },
+        "games_played": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Games Played"
+        },
+        "games_started": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Games Started"
+        },
+        "minutes_per_game": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minutes Per Game"
+        },
+        "minutes_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Minutes Total"
+        },
+        "oreb_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Oreb Total"
+        },
+        "personal_fouls_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Personal Fouls Total"
+        },
+        "player_id": {
+          "title": "Player Id",
+          "type": "string"
+        },
+        "points_per_game": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Points Per Game"
+        },
+        "points_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Points Total"
+        },
+        "rebounds_per_game": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rebounds Per Game"
+        },
+        "rebounds_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Rebounds Total"
+        },
+        "row_scope": {
+          "$ref": "#/$defs/SeasonRowScope"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "season_type": {
+          "$ref": "#/$defs/SeasonType"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "steals_per_game": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Steals Per Game"
+        },
+        "steals_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Steals Total"
+        },
+        "team_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Team Id"
+        },
+        "turnovers_per_game": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Turnovers Per Game"
+        },
+        "turnovers_total": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Turnovers Total"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_id",
+        "season_id",
+        "season_type",
+        "row_scope",
+        "team_id",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "PlayerSeasonStats",
+      "type": "object"
+    },
+    "PlayerTeamSeasonParticipation": {
+      "additionalProperties": false,
+      "properties": {
+        "award_acquisition_status": {
+          "title": "Award Acquisition Status",
+          "type": "string"
+        },
+        "awards_methodology_version": {
+          "title": "Awards Methodology Version",
+          "type": "string"
+        },
+        "corpus_fingerprint": {
+          "title": "Corpus Fingerprint",
+          "type": "string"
+        },
+        "corpus_id": {
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "finals_game_share": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Finals Game Share"
+        },
+        "finals_games": {
+          "minimum": 0,
+          "title": "Finals Games",
+          "type": "integer"
+        },
+        "finals_minutes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Finals Minutes"
+        },
+        "finals_minutes_coverage": {
+          "title": "Finals Minutes Coverage",
+          "type": "string"
+        },
+        "finals_minutes_share": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Finals Minutes Share"
+        },
+        "methodology_version": {
+          "title": "Methodology Version",
+          "type": "string"
+        },
+        "official_nba_champion_award_event": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Official Nba Champion Award Event"
+        },
+        "played_finals_for_champion_team": {
+          "title": "Played Finals For Champion Team",
+          "type": "boolean"
+        },
+        "played_playoffs_for_champion_team": {
+          "title": "Played Playoffs For Champion Team",
+          "type": "boolean"
+        },
+        "player_id": {
+          "title": "Player Id",
+          "type": "string"
+        },
+        "playoff_game_share": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Playoff Game Share"
+        },
+        "playoff_games": {
+          "minimum": 0,
+          "title": "Playoff Games",
+          "type": "integer"
+        },
+        "playoff_minutes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Playoff Minutes"
+        },
+        "playoff_minutes_coverage": {
+          "title": "Playoff Minutes Coverage",
+          "type": "string"
+        },
+        "playoff_minutes_share": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Playoff Minutes Share"
+        },
+        "playoff_wins_while_participating": {
+          "minimum": 0,
+          "title": "Playoff Wins While Participating",
+          "type": "integer"
+        },
+        "regular_game_share": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regular Game Share"
+        },
+        "regular_games": {
+          "minimum": 0,
+          "title": "Regular Games",
+          "type": "integer"
+        },
+        "regular_minutes": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regular Minutes"
+        },
+        "regular_minutes_coverage": {
+          "title": "Regular Minutes Coverage",
+          "type": "string"
+        },
+        "regular_minutes_share": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regular Minutes Share"
+        },
+        "regular_season_member_of_champion_team": {
+          "title": "Regular Season Member Of Champion Team",
+          "type": "boolean"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "team_champion": {
+          "title": "Team Champion",
+          "type": "boolean"
+        },
+        "team_finalist": {
+          "title": "Team Finalist",
+          "type": "boolean"
+        },
+        "team_finals_games": {
+          "minimum": 0,
+          "title": "Team Finals Games",
+          "type": "integer"
+        },
+        "team_id": {
+          "title": "Team Id",
+          "type": "string"
+        },
+        "team_made_playoffs": {
+          "title": "Team Made Playoffs",
+          "type": "boolean"
+        },
+        "team_playoff_games": {
+          "minimum": 0,
+          "title": "Team Playoff Games",
+          "type": "integer"
+        },
+        "team_regular_games": {
+          "minimum": 0,
+          "title": "Team Regular Games",
+          "type": "integer"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "player_id",
+        "team_id",
+        "season_id",
+        "regular_games",
+        "playoff_games",
+        "playoff_wins_while_participating",
+        "finals_games",
+        "team_regular_games",
+        "team_playoff_games",
+        "team_finals_games",
+        "regular_minutes_coverage",
+        "playoff_minutes_coverage",
+        "finals_minutes_coverage",
+        "team_made_playoffs",
+        "team_finalist",
+        "team_champion",
+        "regular_season_member_of_champion_team",
+        "played_playoffs_for_champion_team",
+        "played_finals_for_champion_team",
+        "official_nba_champion_award_event",
+        "award_acquisition_status",
+        "corpus_id",
+        "corpus_fingerprint",
+        "awards_methodology_version",
+        "methodology_version",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "PlayerTeamSeasonParticipation",
+      "type": "object"
+    },
+    "Season": {
+      "additionalProperties": false,
+      "properties": {
+        "end_year": {
+          "minimum": 1947,
+          "title": "End Year",
+          "type": "integer"
+        },
+        "games_scheduled": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Games Scheduled"
+        },
+        "league": {
+          "title": "League",
+          "type": "string"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "season_label": {
+          "title": "Season Label",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "start_year": {
+          "minimum": 1946,
+          "title": "Start Year",
+          "type": "integer"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "season_id",
+        "season_label",
+        "start_year",
+        "end_year",
+        "league",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "Season",
+      "type": "object"
+    },
+    "Team": {
+      "additionalProperties": false,
+      "properties": {
+        "abbreviation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Abbreviation"
+        },
+        "city": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "City"
+        },
+        "franchise_id": {
+          "title": "Franchise Id",
+          "type": "string"
+        },
+        "nba_team_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Nba Team Id"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "team_id": {
+          "title": "Team Id",
+          "type": "string"
+        },
+        "team_name": {
+          "title": "Team Name",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "valid_from_year": {
+          "minimum": 1946,
+          "title": "Valid From Year",
+          "type": "integer"
+        },
+        "valid_to_year": {
+          "anyOf": [
+            {
+              "minimum": 1946,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Valid To Year"
+        }
+      },
+      "required": [
+        "team_id",
+        "nba_team_id",
+        "franchise_id",
+        "team_name",
+        "abbreviation",
+        "city",
+        "valid_from_year",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "Team",
+      "type": "object"
+    },
+    "TeamSeasonResult": {
+      "$defs": {
+        "PostseasonFormatStatus": {
+          "enum": [
+            "STANDARD_SERIES_BRACKET",
+            "NONSTANDARD_SERIES_FORMAT",
+            "ROUND_ROBIN_OR_MIXED",
+            "UNCERTAIN"
+          ],
+          "title": "PostseasonFormatStatus",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "properties": {
+        "champion": {
+          "title": "Champion",
+          "type": "boolean"
+        },
+        "corpus_fingerprint": {
+          "title": "Corpus Fingerprint",
+          "type": "string"
+        },
+        "corpus_id": {
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "finalist": {
+          "title": "Finalist",
+          "type": "boolean"
+        },
+        "finals_opponent_team_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Finals Opponent Team Id"
+        },
+        "franchise_id": {
+          "title": "Franchise Id",
+          "type": "string"
+        },
+        "league_size": {
+          "minimum": 1,
+          "title": "League Size",
+          "type": "integer"
+        },
+        "made_playoffs": {
+          "title": "Made Playoffs",
+          "type": "boolean"
+        },
+        "methodology_version": {
+          "title": "Methodology Version",
+          "type": "string"
+        },
+        "nba_team_id": {
+          "title": "Nba Team Id",
+          "type": "string"
+        },
+        "playoff_games": {
+          "minimum": 0,
+          "title": "Playoff Games",
+          "type": "integer"
+        },
+        "playoff_losses": {
+          "minimum": 0,
+          "title": "Playoff Losses",
+          "type": "integer"
+        },
+        "playoff_win_pct": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Playoff Win Pct"
+        },
+        "playoff_wins": {
+          "minimum": 0,
+          "title": "Playoff Wins",
+          "type": "integer"
+        },
+        "point_diff_percentile": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Point Diff Percentile"
+        },
+        "point_diff_rank": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Point Diff Rank"
+        },
+        "point_diff_z_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Point Diff Z Score"
+        },
+        "postseason_format_status": {
+          "$ref": "#/$defs/PostseasonFormatStatus"
+        },
+        "postseason_stage_confidence": {
+          "title": "Postseason Stage Confidence",
+          "type": "string"
+        },
+        "regular_games": {
+          "minimum": 0,
+          "title": "Regular Games",
+          "type": "integer"
+        },
+        "regular_losses": {
+          "minimum": 0,
+          "title": "Regular Losses",
+          "type": "integer"
+        },
+        "regular_point_diff": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Regular Point Diff"
+        },
+        "regular_point_diff_per_game": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Regular Point Diff Per Game"
+        },
+        "regular_points_against": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regular Points Against"
+        },
+        "regular_points_for": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regular Points For"
+        },
+        "regular_win_pct": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Regular Win Pct"
+        },
+        "regular_wins": {
+          "minimum": 0,
+          "title": "Regular Wins",
+          "type": "integer"
+        },
+        "season_id": {
+          "minimum": 1946,
+          "title": "Season Id",
+          "type": "integer"
+        },
+        "series_lost": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Series Lost"
+        },
+        "series_played": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Series Played"
+        },
+        "series_won": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Series Won"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "team_id": {
+          "title": "Team Id",
+          "type": "string"
+        },
+        "updated_at": {
+          "format": "date-time",
+          "title": "Updated At",
+          "type": "string"
+        },
+        "win_pct_percentile": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Win Pct Percentile",
+          "type": "number"
+        },
+        "win_pct_rank": {
+          "minimum": 1,
+          "title": "Win Pct Rank",
+          "type": "integer"
+        },
+        "win_pct_z_score": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Win Pct Z Score"
+        },
+        "wins_relative_to_league_mean": {
+          "title": "Wins Relative To League Mean",
+          "type": "number"
+        }
+      },
+      "required": [
+        "team_id",
+        "nba_team_id",
+        "franchise_id",
+        "season_id",
+        "regular_games",
+        "regular_wins",
+        "regular_losses",
+        "regular_point_diff",
+        "regular_point_diff_per_game",
+        "league_size",
+        "win_pct_rank",
+        "win_pct_percentile",
+        "wins_relative_to_league_mean",
+        "win_pct_z_score",
+        "point_diff_z_score",
+        "made_playoffs",
+        "playoff_games",
+        "playoff_wins",
+        "playoff_losses",
+        "finalist",
+        "champion",
+        "finals_opponent_team_id",
+        "postseason_format_status",
+        "postseason_stage_confidence",
+        "corpus_id",
+        "corpus_fingerprint",
+        "methodology_version",
+        "source_id",
+        "updated_at"
+      ],
+      "title": "TeamSeasonResult",
+      "type": "object"
+    }
+  },
+  "schema_version": 3
+}

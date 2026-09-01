@@ -41,3 +41,17 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** none. Counts are descriptive and no award value or player ordering was evaluated.
 - **Random seed:** 9009 controls retry jitter only; no statistical experiment uses randomness.
 - **Artifacts:** award taxonomy, coverage, acquisition/canonicalization, official-reference, case-study, output, and quarantine reports plus ADR-0013/0014.
+
+## STEP-0010 postseason inference and participation audit
+
+- **Objective:** test whether frozen game evidence supports universal team W/L, champion/runner-up inference, Finals identification, format-aware series facts, and trade-safe player participation.
+- **Input:** GOATLAB-HIST-V1 plus official-player-awards-canonical-v1 at their frozen fingerprints.
+- **Methodology version:** team-success-postseason-v1.
+- **Hypothesis:** the winner and opponent in the unique chronologically final playoff game identify the champion and runner-up; all games between that team pair form the Finals.
+- **Validation:** complete official NBA champion, runner-up, and series-result evidence across 80 seasons; 2022-23 legacy/API game overlap; W/L accounting and participation integrity gates.
+- **Result:** champion 80/80, runner-up 80/80, and series result 80/80. Opponent-pair series inference is valid in 79 seasons and blocked for the documented 1953-54 round-robin/mixed format.
+- **Coverage finding:** Regular W/L is universal. Four seasons with contradictory fallback point-sum evidence retain W/L but withhold scoring context. Minute shares qualify in 44 Regular and 56 Playoff partitions.
+- **Participation finding:** 217 regular-season champion members have no observed champion playoff participation. Candidate-scoped award comparison retains 37 official champion events without Finals appearances and two queried Finals participants without an award event.
+- **Optimization target:** none. No player ordering, championship credit, role label, or team-success composite was evaluated.
+- **Random seed:** not applicable; every derivation is deterministic.
+- **Artifacts:** TEAM_SUCCESS_V1, postseason format registry, championship reconciliation, player participation audit, case studies, ADR-0015, ADR-0016, and STEP-0010.

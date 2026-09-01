@@ -88,6 +88,13 @@ class AwardTaxonomyStatus(StrEnum):
     UNKNOWN = "UNKNOWN"
 
 
+class PostseasonFormatStatus(StrEnum):
+    STANDARD_SERIES_BRACKET = "STANDARD_SERIES_BRACKET"
+    NONSTANDARD_SERIES_FORMAT = "NONSTANDARD_SERIES_FORMAT"
+    ROUND_ROBIN_OR_MIXED = "ROUND_ROBIN_OR_MIXED"
+    UNCERTAIN = "UNCERTAIN"
+
+
 class CoverageStatus(StrEnum):
     OBSERVED = "OBSERVED"
     PARTIAL = "PARTIAL"
@@ -369,6 +376,147 @@ class PlayerAward(CanonicalModel):
             expected = {1: "FIRST", 2: "SECOND", 3: "THIRD"}[self.team_number]
             if self.award_level != expected:
                 raise ValueError("award_level conflicts with team_number")
+        return self
+
+
+class TeamSeasonResult(CanonicalModel):
+    team_id: str
+    nba_team_id: str
+    franchise_id: str
+    season_id: int = Field(ge=1946)
+    regular_games: int = Field(ge=0)
+    regular_wins: int = Field(ge=0)
+    regular_losses: int = Field(ge=0)
+    regular_win_pct: float | None = Field(default=None, ge=0, le=1)
+    regular_points_for: int | None = Field(default=None, ge=0)
+    regular_points_against: int | None = Field(default=None, ge=0)
+    regular_point_diff: int | None
+    regular_point_diff_per_game: float | None
+    league_size: int = Field(ge=1)
+    win_pct_rank: int = Field(ge=1)
+    win_pct_percentile: float = Field(ge=0, le=1)
+    point_diff_rank: int | None = Field(default=None, ge=1)
+    point_diff_percentile: float | None = Field(default=None, ge=0, le=1)
+    wins_relative_to_league_mean: float
+    win_pct_z_score: float | None
+    point_diff_z_score: float | None
+    made_playoffs: bool
+    playoff_games: int = Field(ge=0)
+    playoff_wins: int = Field(ge=0)
+    playoff_losses: int = Field(ge=0)
+    playoff_win_pct: float | None = Field(default=None, ge=0, le=1)
+    finalist: bool
+    champion: bool
+    finals_opponent_team_id: str | None
+    series_played: int | None = Field(default=None, ge=0)
+    series_won: int | None = Field(default=None, ge=0)
+    series_lost: int | None = Field(default=None, ge=0)
+    postseason_format_status: PostseasonFormatStatus
+    postseason_stage_confidence: str
+    corpus_id: str
+    corpus_fingerprint: str
+    methodology_version: str
+    source_id: str
+    updated_at: datetime
+
+    @model_validator(mode="after")
+    def records_and_postseason_are_consistent(self) -> Self:
+        if self.regular_wins + self.regular_losses != self.regular_games:
+            raise ValueError("regular wins + losses must equal games")
+        if self.playoff_wins + self.playoff_losses != self.playoff_games:
+            raise ValueError("playoff wins + losses must equal games")
+        if self.champion and self.finalist:
+            raise ValueError("champion and runner-up finalist must be distinct")
+        reached_finals = self.champion or self.finalist
+        if reached_finals != (self.finals_opponent_team_id is not None):
+            raise ValueError("Finals participant status and opponent must agree")
+        if not self.made_playoffs and self.playoff_games:
+            raise ValueError("playoff games require postseason participation")
+        return self
+
+
+class FinalsGame(CanonicalModel):
+    game_id: str
+    nba_game_id: str
+    season_id: int = Field(ge=1946)
+    game_date: date
+    home_team_id: str
+    away_team_id: str
+    home_score: int = Field(ge=0)
+    away_score: int = Field(ge=0)
+    winner_team_id: str
+    venue_assignment_status: str
+    champion_team_id: str
+    finalist_team_id: str
+    finals_game_number: int = Field(ge=1)
+    corpus_id: str
+    corpus_fingerprint: str
+    methodology_version: str
+    source_id: str
+    updated_at: datetime
+
+    @model_validator(mode="after")
+    def finals_game_is_consistent(self) -> Self:
+        teams = {self.home_team_id, self.away_team_id}
+        if teams != {self.champion_team_id, self.finalist_team_id}:
+            raise ValueError("Finals game teams must be champion and finalist")
+        if self.winner_team_id not in teams:
+            raise ValueError("Finals winner must participate in the game")
+        return self
+
+
+class PlayerTeamSeasonParticipation(CanonicalModel):
+    player_id: str
+    team_id: str
+    season_id: int = Field(ge=1946)
+    regular_games: int = Field(ge=0)
+    regular_minutes: float | None = Field(default=None, ge=0)
+    playoff_games: int = Field(ge=0)
+    playoff_wins_while_participating: int = Field(ge=0)
+    playoff_minutes: float | None = Field(default=None, ge=0)
+    finals_games: int = Field(ge=0)
+    finals_minutes: float | None = Field(default=None, ge=0)
+    team_regular_games: int = Field(ge=0)
+    team_playoff_games: int = Field(ge=0)
+    team_finals_games: int = Field(ge=0)
+    regular_game_share: float | None = Field(default=None, ge=0, le=1)
+    playoff_game_share: float | None = Field(default=None, ge=0, le=1)
+    finals_game_share: float | None = Field(default=None, ge=0, le=1)
+    regular_minutes_share: float | None = Field(default=None, ge=0, le=1)
+    playoff_minutes_share: float | None = Field(default=None, ge=0, le=1)
+    finals_minutes_share: float | None = Field(default=None, ge=0, le=1)
+    regular_minutes_coverage: str
+    playoff_minutes_coverage: str
+    finals_minutes_coverage: str
+    team_made_playoffs: bool
+    team_finalist: bool
+    team_champion: bool
+    regular_season_member_of_champion_team: bool
+    played_playoffs_for_champion_team: bool
+    played_finals_for_champion_team: bool
+    official_nba_champion_award_event: bool | None
+    award_acquisition_status: str
+    corpus_id: str
+    corpus_fingerprint: str
+    awards_methodology_version: str
+    methodology_version: str
+    source_id: str
+    updated_at: datetime
+
+    @model_validator(mode="after")
+    def shares_and_champion_variants_are_consistent(self) -> Self:
+        if self.regular_games > self.team_regular_games:
+            raise ValueError("player regular games cannot exceed team games")
+        if self.playoff_games > self.team_playoff_games:
+            raise ValueError("player playoff games cannot exceed team playoff games")
+        if self.finals_games > self.team_finals_games:
+            raise ValueError("player Finals games cannot exceed team Finals games")
+        if self.played_playoffs_for_champion_team != (
+            self.team_champion and self.playoff_games > 0
+        ):
+            raise ValueError("playoff champion participation flag conflicts with facts")
+        if self.played_finals_for_champion_team != (self.team_champion and self.finals_games > 0):
+            raise ValueError("Finals champion participation flag conflicts with facts")
         return self
 
 

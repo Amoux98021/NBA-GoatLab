@@ -1,6 +1,6 @@
 # Data dictionary
 
-This document indexes project-owned data concepts. Historical Silver contracts remain in `docs/data/canonical-schema-v1.json`; STEP-0009 award-event evolution is exported to `docs/data/canonical-schema-v2.json`. Field-level source lineage is in `docs/data/NBADB_TO_CANONICAL_MAPPING.md`.
+This document indexes project-owned data concepts. Historical Silver contracts remain in `docs/data/canonical-schema-v1.json`; STEP-0009 award-event evolution is exported to `docs/data/canonical-schema-v2.json`; STEP-0010 factual team/postseason contracts are exported to `docs/data/canonical-schema-v3.json`. Field-level source lineage is in `docs/data/NBADB_TO_CANONICAL_MAPPING.md`.
 
 ## Missingness vocabulary
 
@@ -124,3 +124,23 @@ Career status vocabulary is ACTIVE_TO_CUTOFF, SOURCE_CONFIRMED_COMPLETE, and IND
 Taxonomy status is `CANONICAL_CORE`, `CANONICAL_SECONDARY`, `MINOR_RECURRING`, `NON_PLAYER_COMPETITIVE`, or `UNKNOWN`. Award acquisition status is `PENDING`, `SUCCESS_WITH_ROWS`, `SUCCESS_EMPTY`, `FAILED_RETRYABLE`, `FAILED_PERMANENT`, or `NOT_QUERIED`.
 
 `player_career_accolades` is one row per master player. Supported event-type and structured-level fields are factual integer counts only for successful requests. Every count is NULL for `NOT_QUERIED`. It carries candidate/status/provenance fields and creates no composite value.
+
+## Silver team success and Gold team context V1
+
+Generated STEP-0010 outputs are deterministic Parquet and remain Git-ignored.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `team_season_results` | team × season | Regular/playoff W/L, scoring context, within-season strength primitives, champion/runner-up, and conditional series facts. |
+| `finals_games` | validated Finals game | Champion/runner-up matchup, result, sequence number, venue-assignment evidence, and provenance. |
+| `player_team_season_participation` | player × team × season | Regular/playoff/Finals games and coverage-qualified minutes/shares plus distinct champion participation semantics. |
+| `player_team_success_primitives` | bucketed copy of player-team-season derived facts | Gold-facing factual primitives for later methodology. |
+| `player_career_team_context` | player | Career playoff/Finals participation, team-strength context, and separate championship participation counts. |
+
+`finalist` means the Finals runner-up and is mutually exclusive with `champion`; `champion OR finalist` means the team reached the Finals. `finals_opponent_team_id` is present for both Finals participants.
+
+Postseason format status is `STANDARD_SERIES_BRACKET`, `NONSTANDARD_SERIES_FORMAT`, `ROUND_ROBIN_OR_MIXED`, or `UNCERTAIN`. Team-success coverage uses `RELIABLE`, `PARTIAL`, `UNAVAILABLE`, `FORMAT_BLOCKED`, and `UNKNOWN`. Conditional series fields are NULL when format-blocked.
+
+Player championship facts are not interchangeable: regular-season membership, playoff participation, Finals participation, and official NBA Champion award event are separate fields. The award field is nullable because STEP-0009 did not query every player. Game shares use distinct player appearances divided by team games. Minute shares are NULL unless the underlying partition passes empirical coverage and positive-minute gates.
+
+Canonical schema V3 adds `TeamSeasonResult`, `FinalsGame`, and `PlayerTeamSeasonParticipation`; it does not alter frozen GOATLAB-HIST-V1 player facts. Gold career rows create no subjective championship or team-success value.

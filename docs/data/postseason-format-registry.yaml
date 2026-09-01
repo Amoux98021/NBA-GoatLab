@@ -1,0 +1,764 @@
+registry_version: 1
+methodology_version: team-success-postseason-v1
+official_validation:
+- https://www.nba.com/news/history-nba-champions
+- https://www.nba.com/news/history-season-review-1953-54
+- https://www.nba.com/news/history-season-review-1983-84
+seasons:
+- season_id: 1946
+  season_label: 1946-47
+  teams_in_postseason: 6
+  playoff_games: 19
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1947
+  season_label: 1947-48
+  teams_in_postseason: 6
+  playoff_games: 21
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1948
+  season_label: 1948-49
+  teams_in_postseason: 8
+  playoff_games: 20
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1949
+  season_label: 1949-50
+  teams_in_postseason: 12
+  playoff_games: 30
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1950
+  season_label: 1950-51
+  teams_in_postseason: 8
+  playoff_games: 26
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1951
+  season_label: 1951-52
+  teams_in_postseason: 8
+  playoff_games: 25
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1952
+  season_label: 1952-53
+  teams_in_postseason: 8
+  playoff_games: 23
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1953
+  season_label: 1953-54
+  teams_in_postseason: 6
+  playoff_games: 23
+  format_class: ROUND_ROBIN_OR_MIXED
+  series_inference_allowed: false
+  modern_round_labels_allowed: false
+  known_notes: Official NBA season review documents a division round-robin opening
+    stage.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1954
+  season_label: 1954-55
+  teams_in_postseason: 6
+  playoff_games: 21
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1955
+  season_label: 1955-56
+  teams_in_postseason: 6
+  playoff_games: 21
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1956
+  season_label: 1956-57
+  teams_in_postseason: 6
+  playoff_games: 17
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1957
+  season_label: 1957-58
+  teams_in_postseason: 6
+  playoff_games: 21
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1958
+  season_label: 1958-59
+  teams_in_postseason: 6
+  playoff_games: 22
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1959
+  season_label: 1959-60
+  teams_in_postseason: 6
+  playoff_games: 25
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1960
+  season_label: 1960-61
+  teams_in_postseason: 6
+  playoff_games: 25
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1961
+  season_label: 1961-62
+  teams_in_postseason: 6
+  playoff_games: 29
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1962
+  season_label: 1962-63
+  teams_in_postseason: 6
+  playoff_games: 29
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1963
+  season_label: 1963-64
+  teams_in_postseason: 6
+  playoff_games: 27
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1964
+  season_label: 1964-65
+  teams_in_postseason: 6
+  playoff_games: 26
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1965
+  season_label: 1965-66
+  teams_in_postseason: 6
+  playoff_games: 27
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1966
+  season_label: 1966-67
+  teams_in_postseason: 8
+  playoff_games: 31
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1967
+  season_label: 1967-68
+  teams_in_postseason: 8
+  playoff_games: 40
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1968
+  season_label: 1968-69
+  teams_in_postseason: 8
+  playoff_games: 39
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1969
+  season_label: 1969-70
+  teams_in_postseason: 8
+  playoff_games: 40
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1970
+  season_label: 1970-71
+  teams_in_postseason: 8
+  playoff_games: 40
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1971
+  season_label: 1971-72
+  teams_in_postseason: 8
+  playoff_games: 37
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1972
+  season_label: 1972-73
+  teams_in_postseason: 8
+  playoff_games: 41
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1973
+  season_label: 1973-74
+  teams_in_postseason: 8
+  playoff_games: 41
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1974
+  season_label: 1974-75
+  teams_in_postseason: 10
+  playoff_games: 47
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1975
+  season_label: 1975-76
+  teams_in_postseason: 10
+  playoff_games: 50
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1976
+  season_label: 1976-77
+  teams_in_postseason: 12
+  playoff_games: 53
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1977
+  season_label: 1977-78
+  teams_in_postseason: 12
+  playoff_games: 51
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1978
+  season_label: 1978-79
+  teams_in_postseason: 12
+  playoff_games: 53
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1979
+  season_label: 1979-80
+  teams_in_postseason: 12
+  playoff_games: 48
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1980
+  season_label: 1980-81
+  teams_in_postseason: 12
+  playoff_games: 53
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1981
+  season_label: 1981-82
+  teams_in_postseason: 12
+  playoff_games: 47
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1982
+  season_label: 1982-83
+  teams_in_postseason: 12
+  playoff_games: 43
+  format_class: NONSTANDARD_SERIES_FORMAT
+  series_inference_allowed: true
+  modern_round_labels_allowed: false
+  known_notes: Variable historical series lengths/byes; opponent-pair series remain
+    factual.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1983
+  season_label: 1983-84
+  teams_in_postseason: 16
+  playoff_games: 79
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1984
+  season_label: 1984-85
+  teams_in_postseason: 16
+  playoff_games: 68
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1985
+  season_label: 1985-86
+  teams_in_postseason: 16
+  playoff_games: 68
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1986
+  season_label: 1986-87
+  teams_in_postseason: 16
+  playoff_games: 71
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1987
+  season_label: 1987-88
+  teams_in_postseason: 16
+  playoff_games: 80
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1988
+  season_label: 1988-89
+  teams_in_postseason: 16
+  playoff_games: 62
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1989
+  season_label: 1989-90
+  teams_in_postseason: 16
+  playoff_games: 72
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1990
+  season_label: 1990-91
+  teams_in_postseason: 16
+  playoff_games: 68
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1991
+  season_label: 1991-92
+  teams_in_postseason: 16
+  playoff_games: 73
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1992
+  season_label: 1992-93
+  teams_in_postseason: 16
+  playoff_games: 76
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1993
+  season_label: 1993-94
+  teams_in_postseason: 16
+  playoff_games: 77
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1994
+  season_label: 1994-95
+  teams_in_postseason: 16
+  playoff_games: 73
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1995
+  season_label: 1995-96
+  teams_in_postseason: 16
+  playoff_games: 68
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1996
+  season_label: 1996-97
+  teams_in_postseason: 16
+  playoff_games: 72
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1997
+  season_label: 1997-98
+  teams_in_postseason: 16
+  playoff_games: 71
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1998
+  season_label: 1998-99
+  teams_in_postseason: 16
+  playoff_games: 66
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 1999
+  season_label: 1999-00
+  teams_in_postseason: 16
+  playoff_games: 75
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2000
+  season_label: 2000-01
+  teams_in_postseason: 16
+  playoff_games: 71
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2001
+  season_label: 2001-02
+  teams_in_postseason: 16
+  playoff_games: 71
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2002
+  season_label: 2002-03
+  teams_in_postseason: 16
+  playoff_games: 88
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2003
+  season_label: 2003-04
+  teams_in_postseason: 16
+  playoff_games: 82
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2004
+  season_label: 2004-05
+  teams_in_postseason: 16
+  playoff_games: 84
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2005
+  season_label: 2005-06
+  teams_in_postseason: 16
+  playoff_games: 89
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2006
+  season_label: 2006-07
+  teams_in_postseason: 16
+  playoff_games: 79
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2007
+  season_label: 2007-08
+  teams_in_postseason: 16
+  playoff_games: 86
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2008
+  season_label: 2008-09
+  teams_in_postseason: 16
+  playoff_games: 85
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2009
+  season_label: 2009-10
+  teams_in_postseason: 16
+  playoff_games: 82
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2010
+  season_label: 2010-11
+  teams_in_postseason: 16
+  playoff_games: 81
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2011
+  season_label: 2011-12
+  teams_in_postseason: 16
+  playoff_games: 84
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2012
+  season_label: 2012-13
+  teams_in_postseason: 16
+  playoff_games: 85
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2013
+  season_label: 2013-14
+  teams_in_postseason: 16
+  playoff_games: 89
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2014
+  season_label: 2014-15
+  teams_in_postseason: 16
+  playoff_games: 81
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2015
+  season_label: 2015-16
+  teams_in_postseason: 16
+  playoff_games: 86
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2016
+  season_label: 2016-17
+  teams_in_postseason: 16
+  playoff_games: 79
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2017
+  season_label: 2017-18
+  teams_in_postseason: 16
+  playoff_games: 82
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2018
+  season_label: 2018-19
+  teams_in_postseason: 16
+  playoff_games: 82
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2019
+  season_label: 2019-20
+  teams_in_postseason: 16
+  playoff_games: 83
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2020
+  season_label: 2020-21
+  teams_in_postseason: 16
+  playoff_games: 85
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2021
+  season_label: 2021-22
+  teams_in_postseason: 16
+  playoff_games: 87
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2022
+  season_label: 2022-23
+  teams_in_postseason: 16
+  playoff_games: 84
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2023
+  season_label: 2023-24
+  teams_in_postseason: 16
+  playoff_games: 82
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2024
+  season_label: 2024-25
+  teams_in_postseason: 16
+  playoff_games: 84
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
+- season_id: 2025
+  season_label: 2025-26
+  teams_in_postseason: 16
+  playoff_games: 85
+  format_class: STANDARD_SERIES_BRACKET
+  series_inference_allowed: true
+  modern_round_labels_allowed: true
+  known_notes: Four-series title path under the 16-team bracket family.
+  validation_status: OFFICIAL_HISTORY_VALIDATED
