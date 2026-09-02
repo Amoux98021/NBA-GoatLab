@@ -14,6 +14,7 @@ dependencies = [
   "duckdb>=1.5.4,<2",
   "nba-api==1.11.4",
   "nbadb @ git+https://github.com/wyattowalsh/nbadb.git@48abd9825ed6933b57dbac3f50f058523367b1f5",
+  "numpy>=2.3,<3",
   "pydantic>=2.11,<3",
   "pyarrow>=25,<26",
   "PyYAML>=6,<7",

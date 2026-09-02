@@ -1,0 +1,758 @@
+{
+  "gmm": [
+    {
+      "aic": 24828.87867783974,
+      "ambiguous_probability_below_0_60": 29,
+      "bic": 24980.77424540552,
+      "cluster_sizes": [
+        779,
+        612
+      ],
+      "components": 2,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -12385.43933891987,
+      "mean_max_probability": 0.958279324229
+    },
+    {
+      "aic": 24355.02317115543,
+      "ambiguous_probability_below_0_60": 45,
+      "bic": 24585.48541160006,
+      "cluster_sizes": [
+        753,
+        420,
+        218
+      ],
+      "components": 3,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -12133.511585577715,
+      "mean_max_probability": 0.943951275932
+    },
+    {
+      "aic": 23756.917412590574,
+      "ambiguous_probability_below_0_60": 56,
+      "bic": 24065.946325914058,
+      "cluster_sizes": [
+        436,
+        221,
+        452,
+        282
+      ],
+      "components": 4,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -11819.458706295287,
+      "mean_max_probability": 0.926871130554
+    },
+    {
+      "aic": 23442.437139682603,
+      "ambiguous_probability_below_0_60": 74,
+      "bic": 23830.032725884936,
+      "cluster_sizes": [
+        191,
+        266,
+        304,
+        279,
+        351
+      ],
+      "components": 5,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -11647.218569841301,
+      "mean_max_probability": 0.912964720459
+    },
+    {
+      "aic": 22978.95777811149,
+      "ambiguous_probability_below_0_60": 72,
+      "bic": 23445.120037192675,
+      "cluster_sizes": [
+        185,
+        243,
+        299,
+        245,
+        257,
+        162
+      ],
+      "components": 6,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -11400.478889055745,
+      "mean_max_probability": 0.915372001037
+    },
+    {
+      "aic": 22772.12824386885,
+      "ambiguous_probability_below_0_60": 75,
+      "bic": 23316.85717582889,
+      "cluster_sizes": [
+        171,
+        222,
+        307,
+        99,
+        224,
+        154,
+        214
+      ],
+      "components": 7,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -11282.064121934425,
+      "mean_max_probability": 0.912159903987
+    },
+    {
+      "aic": 22515.42352478105,
+      "ambiguous_probability_below_0_60": 73,
+      "bic": 23138.71912961994,
+      "cluster_sizes": [
+        117,
+        213,
+        151,
+        263,
+        155,
+        166,
+        114,
+        212
+      ],
+      "components": 8,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -11138.711762390525,
+      "mean_max_probability": 0.911986889091
+    },
+    {
+      "aic": 22189.693907971523,
+      "ambiguous_probability_below_0_60": 76,
+      "bic": 22891.556185689264,
+      "cluster_sizes": [
+        212,
+        115,
+        156,
+        166,
+        116,
+        98,
+        214,
+        209,
+        105
+      ],
+      "components": 9,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -10960.846953985762,
+      "mean_max_probability": 0.915134928685
+    },
+    {
+      "aic": 22093.284338601854,
+      "ambiguous_probability_below_0_60": 77,
+      "bic": 22873.713289198447,
+      "cluster_sizes": [
+        133,
+        101,
+        104,
+        135,
+        79,
+        210,
+        147,
+        200,
+        169,
+        113
+      ],
+      "components": 10,
+      "covariance_type": "DIAGONAL",
+      "log_likelihood": -10897.642169300927,
+      "mean_max_probability": 0.911166535552
+    },
+    {
+      "aic": 26214.074158485135,
+      "ambiguous_probability_below_0_60": 46,
+      "bic": 26303.116387747832,
+      "cluster_sizes": [
+        700,
+        691
+      ],
+      "components": 2,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -13090.037079242567,
+      "mean_max_probability": 0.938160778955
+    },
+    {
+      "aic": 25575.442129223986,
+      "ambiguous_probability_below_0_60": 78,
+      "bic": 25711.624362213995,
+      "cluster_sizes": [
+        525,
+        346,
+        520
+      ],
+      "components": 3,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -12761.721064611993,
+      "mean_max_probability": 0.913690431174
+    },
+    {
+      "aic": 24982.347905159215,
+      "ambiguous_probability_below_0_60": 81,
+      "bic": 25165.670141876537,
+      "cluster_sizes": [
+        289,
+        327,
+        351,
+        424
+      ],
+      "components": 4,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -12456.173952579607,
+      "mean_max_probability": 0.902490537054
+    },
+    {
+      "aic": 24622.77489196605,
+      "ambiguous_probability_below_0_60": 97,
+      "bic": 24853.237132410683,
+      "cluster_sizes": [
+        323,
+        374,
+        268,
+        176,
+        250
+      ],
+      "components": 5,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -12267.387445983026,
+      "mean_max_probability": 0.894364658578
+    },
+    {
+      "aic": 24268.25383311858,
+      "ambiguous_probability_below_0_60": 100,
+      "bic": 24545.856077290522,
+      "cluster_sizes": [
+        231,
+        327,
+        164,
+        287,
+        130,
+        252
+      ],
+      "components": 6,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -12081.12691655929,
+      "mean_max_probability": 0.890607962164
+    },
+    {
+      "aic": 23900.670467610573,
+      "ambiguous_probability_below_0_60": 112,
+      "bic": 24225.412715509825,
+      "cluster_sizes": [
+        179,
+        284,
+        142,
+        209,
+        210,
+        204,
+        163
+      ],
+      "components": 7,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -11888.335233805286,
+      "mean_max_probability": 0.886263871026
+    },
+    {
+      "aic": 23589.227183243245,
+      "ambiguous_probability_below_0_60": 93,
+      "bic": 23961.10943486981,
+      "cluster_sizes": [
+        155,
+        146,
+        102,
+        154,
+        189,
+        192,
+        213,
+        240
+      ],
+      "components": 8,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -11723.613591621623,
+      "mean_max_probability": 0.896313004402
+    },
+    {
+      "aic": 23419.995532215547,
+      "ambiguous_probability_below_0_60": 119,
+      "bic": 23839.017787569424,
+      "cluster_sizes": [
+        106,
+        110,
+        153,
+        189,
+        233,
+        121,
+        165,
+        155,
+        159
+      ],
+      "components": 9,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -11629.997766107774,
+      "mean_max_probability": 0.886416334848
+    },
+    {
+      "aic": 23216.912258778153,
+      "ambiguous_probability_below_0_60": 115,
+      "bic": 23683.07451785934,
+      "cluster_sizes": [
+        161,
+        116,
+        142,
+        184,
+        146,
+        79,
+        96,
+        175,
+        141,
+        151
+      ],
+      "components": 10,
+      "covariance_type": "SPHERICAL",
+      "log_likelihood": -11519.456129389077,
+      "mean_max_probability": 0.883378665993
+    }
+  ],
+  "hierarchical": {
+    "audit_sample_size": 300,
+    "clusters": 2,
+    "full_assignment": "nearest audit-sample cluster centroid",
+    "merge_count": 298,
+    "method": "AVERAGE_LINKAGE_EUCLIDEAN"
+  },
+  "kmeans": {
+    "MAGNITUDE_PRESERVING": [
+      {
+        "calinski_harabasz": 1032.47368953208,
+        "cluster_sizes": [
+          645,
+          746
+        ],
+        "clusters": 2,
+        "davies_bouldin": 3.1080587075088544,
+        "inertia": 5585.314867746279,
+        "silhouette": 0.34111508318760136,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 858.110094071627,
+        "cluster_sizes": [
+          184,
+          605,
+          602
+        ],
+        "clusters": 3,
+        "davies_bouldin": 2.5749930781213166,
+        "inertia": 4353.736262530958,
+        "silhouette": 0.3085452505524146,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 743.9671828359706,
+        "cluster_sizes": [
+          542,
+          415,
+          78,
+          356
+        ],
+        "clusters": 4,
+        "davies_bouldin": 2.4216179661484922,
+        "inertia": 3731.855873660951,
+        "silhouette": 0.24577758552508303,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 670.3164692165263,
+        "cluster_sizes": [
+          386,
+          77,
+          320,
+          362,
+          246
+        ],
+        "clusters": 5,
+        "davies_bouldin": 2.627390528628641,
+        "inertia": 3318.072240312565,
+        "silhouette": 0.24067433576415645,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 623.5835410022892,
+        "cluster_sizes": [
+          220,
+          304,
+          77,
+          243,
+          246,
+          301
+        ],
+        "clusters": 6,
+        "davies_bouldin": 2.74895275720541,
+        "inertia": 2994.89039850567,
+        "silhouette": 0.2127261841204275,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 571.3830772648156,
+        "cluster_sizes": [
+          315,
+          155,
+          201,
+          207,
+          277,
+          74,
+          162
+        ],
+        "clusters": 7,
+        "davies_bouldin": 2.817304893107867,
+        "inertia": 2800.32672577625,
+        "silhouette": 0.2071057966433002,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 532.3538840657421,
+        "cluster_sizes": [
+          184,
+          262,
+          153,
+          196,
+          76,
+          191,
+          185,
+          144
+        ],
+        "clusters": 8,
+        "davies_bouldin": 2.874092392815461,
+        "inertia": 2635.547728917093,
+        "silhouette": 0.2040819504858015,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 502.22008190480705,
+        "cluster_sizes": [
+          121,
+          157,
+          262,
+          146,
+          169,
+          76,
+          116,
+          166,
+          178
+        ],
+        "clusters": 9,
+        "davies_bouldin": 2.742630840026789,
+        "inertia": 2492.0611966283,
+        "silhouette": 0.2092896844598804,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 478.6066361495286,
+        "cluster_sizes": [
+          130,
+          193,
+          175,
+          76,
+          143,
+          128,
+          149,
+          107,
+          163,
+          127
+        ],
+        "clusters": 10,
+        "davies_bouldin": 2.732821247702643,
+        "inertia": 2363.87311315325,
+        "silhouette": 0.2076049249103494,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 459.1440659430537,
+        "cluster_sizes": [
+          24,
+          127,
+          166,
+          145,
+          151,
+          130,
+          58,
+          194,
+          165,
+          103,
+          128
+        ],
+        "clusters": 11,
+        "davies_bouldin": 2.690871359922211,
+        "inertia": 2250.220803714958,
+        "silhouette": 0.2063484318929923,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 441.8540299005633,
+        "cluster_sizes": [
+          24,
+          150,
+          101,
+          165,
+          162,
+          128,
+          138,
+          95,
+          134,
+          52,
+          125,
+          117
+        ],
+        "clusters": 12,
+        "davies_bouldin": 2.6935187237081752,
+        "inertia": 2152.023464488075,
+        "silhouette": 0.19989245431315011,
+        "silhouette_sample_size": 500
+      }
+    ],
+    "PROFILE_SHAPE": [
+      {
+        "calinski_harabasz": 533.7927690111103,
+        "cluster_sizes": [
+          680,
+          711
+        ],
+        "clusters": 2,
+        "davies_bouldin": 2.1614599888895922,
+        "inertia": 7021.998832258818,
+        "silhouette": 0.27007120752278413,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 444.64842665635376,
+        "cluster_sizes": [
+          476,
+          374,
+          541
+        ],
+        "clusters": 3,
+        "davies_bouldin": 2.2828101909822016,
+        "inertia": 5924.62419017213,
+        "silhouette": 0.23480784367779484,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 410.95104250159386,
+        "cluster_sizes": [
+          299,
+          316,
+          417,
+          359
+        ],
+        "clusters": 4,
+        "davies_bouldin": 2.3856102270874384,
+        "inertia": 5146.245539668083,
+        "silhouette": 0.22023025835141424,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 371.86608117438954,
+        "cluster_sizes": [
+          321,
+          194,
+          380,
+          260,
+          236
+        ],
+        "clusters": 5,
+        "davies_bouldin": 2.3963306112291005,
+        "inertia": 4688.656407833644,
+        "silhouette": 0.21239960555379742,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 347.9345903592833,
+        "cluster_sizes": [
+          212,
+          305,
+          183,
+          239,
+          253,
+          199
+        ],
+        "clusters": 6,
+        "davies_bouldin": 2.489815742186637,
+        "inertia": 4308.600155290545,
+        "silhouette": 0.19355016937022806,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 334.7536853449364,
+        "cluster_sizes": [
+          220,
+          176,
+          153,
+          172,
+          276,
+          181,
+          213
+        ],
+        "clusters": 7,
+        "davies_bouldin": 2.3646521250345525,
+        "inertia": 3965.558769432054,
+        "silhouette": 0.20389797391752687,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 320.6720746109045,
+        "cluster_sizes": [
+          136,
+          216,
+          166,
+          194,
+          159,
+          261,
+          105,
+          154
+        ],
+        "clusters": 8,
+        "davies_bouldin": 2.3285340285760556,
+        "inertia": 3705.793891461104,
+        "silhouette": 0.2111927521649088,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 304.652986805127,
+        "cluster_sizes": [
+          133,
+          149,
+          163,
+          93,
+          83,
+          252,
+          150,
+          206,
+          162
+        ],
+        "clusters": 9,
+        "davies_bouldin": 2.068870002472781,
+        "inertia": 3517.417432609369,
+        "silhouette": 0.21366852437178693,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 289.3802648765704,
+        "cluster_sizes": [
+          185,
+          160,
+          189,
+          142,
+          121,
+          79,
+          126,
+          92,
+          142,
+          155
+        ],
+        "clusters": 10,
+        "davies_bouldin": 2.2819113004984937,
+        "inertia": 3368.296471229467,
+        "silhouette": 0.18205179865972299,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 278.1984998125048,
+        "cluster_sizes": [
+          162,
+          137,
+          123,
+          133,
+          95,
+          122,
+          84,
+          128,
+          100,
+          201,
+          106
+        ],
+        "clusters": 11,
+        "davies_bouldin": 2.375587375275937,
+        "inertia": 3223.068705130706,
+        "silhouette": 0.19646306119137905,
+        "silhouette_sample_size": 500
+      },
+      {
+        "calinski_harabasz": 267.5816653493463,
+        "cluster_sizes": [
+          109,
+          89,
+          153,
+          120,
+          89,
+          83,
+          141,
+          111,
+          125,
+          87,
+          139,
+          145
+        ],
+        "clusters": 12,
+        "davies_bouldin": 2.3899910901620953,
+        "inertia": 3101.204946085724,
+        "silhouette": 0.18174202791737623,
+        "silhouette_sample_size": 500
+      }
+    ]
+  },
+  "methodology_version": "unsupervised-structural-validation-v1",
+  "profile_features": [
+    "PEAK-B",
+    "LONGEVITY-B",
+    "OFFENSE-A",
+    "DEFENSE-A",
+    "PLAYOFFS-A",
+    "ACCOLADES-A",
+    "WINNING-A"
+  ],
+  "profile_matrix_players": 1391,
+  "selected_gmm": {
+    "aic": 22093.284338601854,
+    "ambiguous_probability_below_0_60": 77,
+    "bic": 22873.713289198447,
+    "cluster_sizes": [
+      133,
+      101,
+      104,
+      135,
+      79,
+      210,
+      147,
+      200,
+      169,
+      113
+    ],
+    "components": 10,
+    "covariance_type": "DIAGONAL",
+    "log_likelihood": -10897.642169300927,
+    "mean_max_probability": 0.911166535552
+  },
+  "selected_kmeans": {
+    "calinski_harabasz": 533.7927690111103,
+    "cluster_sizes": [
+      680,
+      711
+    ],
+    "clusters": 2,
+    "davies_bouldin": 2.1614599888895922,
+    "inertia": 7021.998832258818,
+    "silhouette": 0.27007120752278413,
+    "silhouette_sample_size": 500,
+    "transformation": "PROFILE_SHAPE"
+  },
+  "selected_magnitude_kmeans": {
+    "calinski_harabasz": 1032.47368953208,
+    "cluster_sizes": [
+      645,
+      746
+    ],
+    "clusters": 2,
+    "davies_bouldin": 3.1080587075088544,
+    "inertia": 5585.314867746279,
+    "silhouette": 0.34111508318760136,
+    "silhouette_sample_size": 500
+  },
+  "transformations": {
+    "MAGNITUDE_PRESERVING": "column-standardized candidate profiles",
+    "PROFILE_SHAPE": "column-standardized then row-centered and row-RMS-scaled"
+  }
+}

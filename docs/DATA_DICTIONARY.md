@@ -174,3 +174,19 @@ Generated STEP-0012 Gold remains ignored and is partitioned by dimension/candida
 Closed candidate dimensions are `PEAK`, `LONGEVITY`, `OFFENSE`, `DEFENSE`, `PLAYOFFS`, `ACCOLADES`, `WINNING`, and `ERA_DOMINANCE`. Scaling is `CAREER_UNIVERSE_PERCENTILE`, `ROBUST_STANDARDIZATION`, `STANDARD_Z`, or `EMPIRICAL_CDF`. Missingness is `CORE_FEATURE_ONLY`, `AVAILABLE_FEATURE_RENORMALIZATION`, `COVERAGE_THRESHOLD`, or `ERA_SPECIFIC_ENRICHMENT`. Coverage confidence is `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and is never a quality penalty.
 
 Candidate status may be `PROPOSED`, `VALIDATED_FOR_EXPERIMENT`, `REJECTED`, or `DEFERRED`; `FINAL` is prohibited in this methodology version. All rows carry corpus and methodology provenance. No table combines candidates across dimensions.
+
+## Gold unsupervised structural diagnostics V1
+
+Generated STEP-0013 outputs remain ignored under `data/gold/ml_structure/`.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `pca` | player × matrix × population × scaling | Internal latent component scores plus fingerprinted model context; never a greatness score. |
+| `factor_analysis` | candidate feature × rotated factor | Principal-axis/Varimax loadings, communalities, and uniqueness. |
+| `clustering/player_archetypes` | player in the profile complete intersection | Canonicalized K-means, GMM, and hierarchical diagnostic labels/probabilities. |
+| `clustering/hierarchical_merges` | one audit-sample merge | Deterministic average-linkage merge evidence. |
+| `candidate_pruning` | one STEP-0012 candidate | Non-final structural status and evidence. |
+
+Matrix kind is `DIMENSION_CANDIDATE`, `CROSS_ERA_PRIMITIVE`, `MODERN_ENRICHED`, `PROFILE_MAGNITUDE`, or `PROFILE_SHAPE`. Scaling is `STANDARD` or `ROBUST`. Structural pruning status is `RETAIN_FOR_FINALIZATION`, `REDUNDANT`, `REJECTED`, `DEFER_MODERN_ONLY`, or `INSUFFICIENT_ALL_ERA_EVIDENCE`; there is no `FINAL` status.
+
+Every matrix audit records starting/retained/excluded players, feature list, missing-feature exclusion counts, debut-era distribution, and active-career counts. Complete intersection means all selected columns are finite for a retained row; it never means a missing value was filled.

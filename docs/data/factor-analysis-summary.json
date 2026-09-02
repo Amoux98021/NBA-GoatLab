@@ -1,0 +1,1193 @@
+{
+  "candidate_models": [
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.091703593348,
+      "factor_count": 2,
+      "five_fold_heldout_correlation_rmse": 0.10312078276,
+      "iterations": 14,
+      "mean_communality": 0.686283850561,
+      "minimum_communality": 0.053312017601
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.058941176259,
+      "factor_count": 3,
+      "five_fold_heldout_correlation_rmse": 0.075573935751,
+      "iterations": 14,
+      "mean_communality": 0.764404817224,
+      "minimum_communality": 0.055833196845
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.042323474607,
+      "factor_count": 4,
+      "five_fold_heldout_correlation_rmse": 0.0634018385,
+      "iterations": 14,
+      "mean_communality": 0.809897760259,
+      "minimum_communality": 0.151269022414
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.034162108505,
+      "factor_count": 5,
+      "five_fold_heldout_correlation_rmse": 0.058521690887,
+      "iterations": 46,
+      "mean_communality": 0.841214728893,
+      "minimum_communality": 0.177561024357
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.02565475622,
+      "factor_count": 6,
+      "five_fold_heldout_correlation_rmse": 0.053838772468,
+      "iterations": 195,
+      "mean_communality": 0.877715101624,
+      "minimum_communality": 0.40210321382
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.016718741755,
+      "factor_count": 7,
+      "five_fold_heldout_correlation_rmse": 0.050140770115,
+      "iterations": 151,
+      "mean_communality": 0.900433245261,
+      "minimum_communality": 0.403650297276
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.010430106069,
+      "factor_count": 8,
+      "five_fold_heldout_correlation_rmse": 0.048297610442,
+      "iterations": 153,
+      "mean_communality": 0.920774635226,
+      "minimum_communality": 0.540169514588
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.007568079809,
+      "factor_count": 9,
+      "five_fold_heldout_correlation_rmse": 0.047732933143,
+      "iterations": 121,
+      "mean_communality": 0.9293277416,
+      "minimum_communality": 0.568071844088
+    },
+    {
+      "converged": true,
+      "correlation_reconstruction_rmse": 0.005448901426,
+      "factor_count": 10,
+      "five_fold_heldout_correlation_rmse": 0.047430761323,
+      "iterations": 121,
+      "mean_communality": 0.941675546763,
+      "minimum_communality": 0.586438484316
+    }
+  ],
+  "communalities": [
+    {
+      "communality": 0.967051389844,
+      "feature": "ACCOLADES-A",
+      "uniqueness": 0.032948610156
+    },
+    {
+      "communality": 0.884736798714,
+      "feature": "ACCOLADES-B",
+      "uniqueness": 0.115263201286
+    },
+    {
+      "communality": 0.881350694448,
+      "feature": "ACCOLADES-C",
+      "uniqueness": 0.118649305552
+    },
+    {
+      "communality": 0.896432117338,
+      "feature": "ACCOLADES-D",
+      "uniqueness": 0.103567882662
+    },
+    {
+      "communality": 0.403650297276,
+      "feature": "ACCOLADES-E",
+      "uniqueness": 0.596349702724
+    },
+    {
+      "communality": 0.782479510954,
+      "feature": "DEFENSE-A",
+      "uniqueness": 0.217520489046
+    },
+    {
+      "communality": 0.946391773705,
+      "feature": "DEFENSE-D",
+      "uniqueness": 0.053608226295
+    },
+    {
+      "communality": 0.970114026772,
+      "feature": "ERA-A",
+      "uniqueness": 0.029885973228
+    },
+    {
+      "communality": 0.993292481717,
+      "feature": "ERA-B",
+      "uniqueness": 0.006707518283
+    },
+    {
+      "communality": 0.969768202911,
+      "feature": "ERA-C",
+      "uniqueness": 0.030231797089
+    },
+    {
+      "communality": 0.977627191136,
+      "feature": "ERA-D",
+      "uniqueness": 0.022372808864
+    },
+    {
+      "communality": 0.943173184142,
+      "feature": "ERA-E",
+      "uniqueness": 0.056826815858
+    },
+    {
+      "communality": 0.957792074313,
+      "feature": "LONGEVITY-A",
+      "uniqueness": 0.042207925687
+    },
+    {
+      "communality": 0.944863168604,
+      "feature": "LONGEVITY-B",
+      "uniqueness": 0.055136831396
+    },
+    {
+      "communality": 0.957336641669,
+      "feature": "LONGEVITY-C",
+      "uniqueness": 0.042663358331
+    },
+    {
+      "communality": 0.925013575696,
+      "feature": "LONGEVITY-D",
+      "uniqueness": 0.074986424304
+    },
+    {
+      "communality": 0.9524252768,
+      "feature": "LONGEVITY-E",
+      "uniqueness": 0.0475747232
+    },
+    {
+      "communality": 0.981483060484,
+      "feature": "OFFENSE-A",
+      "uniqueness": 0.018516939516
+    },
+    {
+      "communality": 0.940405006109,
+      "feature": "OFFENSE-B",
+      "uniqueness": 0.059594993891
+    },
+    {
+      "communality": 0.883576813479,
+      "feature": "OFFENSE-C",
+      "uniqueness": 0.116423186521
+    },
+    {
+      "communality": 0.94909859251,
+      "feature": "PEAK-A",
+      "uniqueness": 0.05090140749
+    },
+    {
+      "communality": 0.96585685357,
+      "feature": "PEAK-B",
+      "uniqueness": 0.03414314643
+    },
+    {
+      "communality": 0.991963079788,
+      "feature": "PEAK-D",
+      "uniqueness": 0.008036920212
+    },
+    {
+      "communality": 0.953067164477,
+      "feature": "PEAK-E",
+      "uniqueness": 0.046932835523
+    },
+    {
+      "communality": 0.940334607628,
+      "feature": "PLAYOFFS-A",
+      "uniqueness": 0.059665392372
+    },
+    {
+      "communality": 0.84019715519,
+      "feature": "PLAYOFFS-C",
+      "uniqueness": 0.15980284481
+    },
+    {
+      "communality": 0.868776594305,
+      "feature": "PLAYOFFS-D",
+      "uniqueness": 0.131223405695
+    },
+    {
+      "communality": 0.949449576479,
+      "feature": "WINNING-A",
+      "uniqueness": 0.050550423521
+    },
+    {
+      "communality": 0.922102794337,
+      "feature": "WINNING-B",
+      "uniqueness": 0.077897205663
+    },
+    {
+      "communality": 0.767498628523,
+      "feature": "WINNING-C",
+      "uniqueness": 0.232501371477
+    },
+    {
+      "communality": 0.537668399696,
+      "feature": "WINNING-D",
+      "uniqueness": 0.462331600304
+    },
+    {
+      "communality": 0.968887115733,
+      "feature": "WINNING-E",
+      "uniqueness": 0.031112884267
+    }
+  ],
+  "method": "ITERATED_PRINCIPAL_AXIS_FACTORING",
+  "methodology_version": "unsupervised-structural-validation-v1",
+  "probabilistic_likelihood": "NOT_APPLICABLE_TO_PRINCIPAL_AXIS_METHOD",
+  "rotated_factor_loadings": [
+    {
+      "component": "F1",
+      "loadings": [
+        {
+          "feature": "ERA-B",
+          "loading": 0.943505782362
+        },
+        {
+          "feature": "PEAK-D",
+          "loading": 0.937121538833
+        },
+        {
+          "feature": "ERA-A",
+          "loading": 0.928726157293
+        },
+        {
+          "feature": "OFFENSE-B",
+          "loading": 0.9049479253
+        },
+        {
+          "feature": "LONGEVITY-D",
+          "loading": 0.884678021248
+        },
+        {
+          "feature": "PEAK-B",
+          "loading": 0.851287113196
+        },
+        {
+          "feature": "PEAK-E",
+          "loading": 0.844418025383
+        },
+        {
+          "feature": "ERA-E",
+          "loading": 0.843108979916
+        },
+        {
+          "feature": "OFFENSE-A",
+          "loading": 0.839654722128
+        },
+        {
+          "feature": "PEAK-A",
+          "loading": 0.814521010621
+        },
+        {
+          "feature": "LONGEVITY-B",
+          "loading": 0.793210648625
+        },
+        {
+          "feature": "PLAYOFFS-A",
+          "loading": 0.74174882817
+        },
+        {
+          "feature": "LONGEVITY-A",
+          "loading": 0.733439144834
+        },
+        {
+          "feature": "LONGEVITY-C",
+          "loading": 0.731634143796
+        },
+        {
+          "feature": "PLAYOFFS-C",
+          "loading": 0.652545127092
+        },
+        {
+          "feature": "DEFENSE-A",
+          "loading": 0.570771158569
+        },
+        {
+          "feature": "WINNING-D",
+          "loading": 0.54825374459
+        },
+        {
+          "feature": "OFFENSE-C",
+          "loading": 0.502919230843
+        },
+        {
+          "feature": "ERA-C",
+          "loading": 0.463301427788
+        },
+        {
+          "feature": "ERA-D",
+          "loading": 0.454855848907
+        },
+        {
+          "feature": "LONGEVITY-E",
+          "loading": 0.434681103705
+        },
+        {
+          "feature": "DEFENSE-D",
+          "loading": 0.373282846965
+        },
+        {
+          "feature": "ACCOLADES-D",
+          "loading": 0.352412051051
+        },
+        {
+          "feature": "ACCOLADES-C",
+          "loading": 0.298644463504
+        },
+        {
+          "feature": "ACCOLADES-B",
+          "loading": 0.296409401155
+        },
+        {
+          "feature": "WINNING-B",
+          "loading": 0.27105398418
+        },
+        {
+          "feature": "ACCOLADES-A",
+          "loading": 0.215981222137
+        },
+        {
+          "feature": "PLAYOFFS-D",
+          "loading": -0.148463783982
+        },
+        {
+          "feature": "WINNING-E",
+          "loading": 0.137314707262
+        },
+        {
+          "feature": "ACCOLADES-E",
+          "loading": 0.107021922496
+        },
+        {
+          "feature": "WINNING-A",
+          "loading": 0.104803779349
+        },
+        {
+          "feature": "WINNING-C",
+          "loading": 0.055738743571
+        }
+      ],
+      "sign_note": "sign is arbitrary; interpretation is invariant to full-column reversal"
+    },
+    {
+      "component": "F2",
+      "loadings": [
+        {
+          "feature": "WINNING-E",
+          "loading": 0.959106434109
+        },
+        {
+          "feature": "WINNING-A",
+          "loading": 0.947901553716
+        },
+        {
+          "feature": "WINNING-B",
+          "loading": 0.900651826472
+        },
+        {
+          "feature": "WINNING-C",
+          "loading": 0.861469660967
+        },
+        {
+          "feature": "PLAYOFFS-C",
+          "loading": 0.494593290767
+        },
+        {
+          "feature": "WINNING-D",
+          "loading": 0.393193037591
+        },
+        {
+          "feature": "LONGEVITY-D",
+          "loading": 0.247354188588
+        },
+        {
+          "feature": "ACCOLADES-A",
+          "loading": 0.206166084094
+        },
+        {
+          "feature": "ACCOLADES-E",
+          "loading": 0.195182833295
+        },
+        {
+          "feature": "ERA-E",
+          "loading": 0.18067406231
+        },
+        {
+          "feature": "LONGEVITY-B",
+          "loading": 0.175088381596
+        },
+        {
+          "feature": "PEAK-B",
+          "loading": 0.169227751174
+        },
+        {
+          "feature": "ACCOLADES-D",
+          "loading": 0.168075854191
+        },
+        {
+          "feature": "PEAK-E",
+          "loading": 0.16464226931
+        },
+        {
+          "feature": "ACCOLADES-B",
+          "loading": 0.161915852754
+        },
+        {
+          "feature": "ACCOLADES-C",
+          "loading": 0.152715746851
+        },
+        {
+          "feature": "ERA-C",
+          "loading": 0.152551601
+        },
+        {
+          "feature": "PEAK-A",
+          "loading": 0.152372256963
+        },
+        {
+          "feature": "ERA-D",
+          "loading": 0.143196991828
+        },
+        {
+          "feature": "OFFENSE-C",
+          "loading": 0.139842479079
+        },
+        {
+          "feature": "LONGEVITY-E",
+          "loading": 0.138549623044
+        },
+        {
+          "feature": "PLAYOFFS-A",
+          "loading": 0.134332592166
+        },
+        {
+          "feature": "ERA-B",
+          "loading": 0.108479353751
+        },
+        {
+          "feature": "OFFENSE-A",
+          "loading": 0.10382692792
+        },
+        {
+          "feature": "DEFENSE-D",
+          "loading": 0.092823011876
+        },
+        {
+          "feature": "PEAK-D",
+          "loading": 0.089119734752
+        },
+        {
+          "feature": "LONGEVITY-A",
+          "loading": 0.086436266634
+        },
+        {
+          "feature": "LONGEVITY-C",
+          "loading": 0.083569572974
+        },
+        {
+          "feature": "ERA-A",
+          "loading": 0.080944259479
+        },
+        {
+          "feature": "OFFENSE-B",
+          "loading": 0.052881148083
+        },
+        {
+          "feature": "PLAYOFFS-D",
+          "loading": 0.047766425555
+        },
+        {
+          "feature": "DEFENSE-A",
+          "loading": 0.032974025592
+        }
+      ],
+      "sign_note": "sign is arbitrary; interpretation is invariant to full-column reversal"
+    },
+    {
+      "component": "F3",
+      "loadings": [
+        {
+          "feature": "ACCOLADES-A",
+          "loading": 0.903690855449
+        },
+        {
+          "feature": "ACCOLADES-B",
+          "loading": 0.851666885832
+        },
+        {
+          "feature": "ACCOLADES-C",
+          "loading": 0.850784107619
+        },
+        {
+          "feature": "ACCOLADES-D",
+          "loading": 0.809909621633
+        },
+        {
+          "feature": "ACCOLADES-E",
+          "loading": 0.556085279075
+        },
+        {
+          "feature": "DEFENSE-D",
+          "loading": 0.47764862078
+        },
+        {
+          "feature": "LONGEVITY-C",
+          "loading": 0.341242294052
+        },
+        {
+          "feature": "LONGEVITY-A",
+          "loading": 0.340863059215
+        },
+        {
+          "feature": "LONGEVITY-E",
+          "loading": 0.309938929005
+        },
+        {
+          "feature": "ERA-D",
+          "loading": 0.258091979988
+        },
+        {
+          "feature": "ERA-C",
+          "loading": 0.257558644658
+        },
+        {
+          "feature": "PLAYOFFS-C",
+          "loading": 0.242391447439
+        },
+        {
+          "feature": "PLAYOFFS-A",
+          "loading": 0.233662441584
+        },
+        {
+          "feature": "OFFENSE-B",
+          "loading": 0.224640322053
+        },
+        {
+          "feature": "DEFENSE-A",
+          "loading": 0.217664566963
+        },
+        {
+          "feature": "OFFENSE-A",
+          "loading": 0.213138417548
+        },
+        {
+          "feature": "PEAK-D",
+          "loading": 0.205302514812
+        },
+        {
+          "feature": "LONGEVITY-B",
+          "loading": 0.200758616686
+        },
+        {
+          "feature": "ERA-A",
+          "loading": 0.188894921538
+        },
+        {
+          "feature": "ERA-B",
+          "loading": 0.187586493928
+        },
+        {
+          "feature": "LONGEVITY-D",
+          "loading": 0.182274964943
+        },
+        {
+          "feature": "ERA-E",
+          "loading": 0.17552560561
+        },
+        {
+          "feature": "WINNING-D",
+          "loading": 0.171167214155
+        },
+        {
+          "feature": "PEAK-E",
+          "loading": 0.163432901375
+        },
+        {
+          "feature": "PEAK-A",
+          "loading": 0.158724801956
+        },
+        {
+          "feature": "WINNING-A",
+          "loading": 0.158309922406
+        },
+        {
+          "feature": "PEAK-B",
+          "loading": 0.15756288884
+        },
+        {
+          "feature": "WINNING-B",
+          "loading": 0.140965911938
+        },
+        {
+          "feature": "WINNING-E",
+          "loading": 0.134028637953
+        },
+        {
+          "feature": "WINNING-C",
+          "loading": 0.121832239521
+        },
+        {
+          "feature": "OFFENSE-C",
+          "loading": 0.11482929576
+        },
+        {
+          "feature": "PLAYOFFS-D",
+          "loading": 0.049524259529
+        }
+      ],
+      "sign_note": "sign is arbitrary; interpretation is invariant to full-column reversal"
+    },
+    {
+      "component": "F4",
+      "loadings": [
+        {
+          "feature": "ERA-D",
+          "loading": 0.815058949662
+        },
+        {
+          "feature": "ERA-C",
+          "loading": 0.803977497332
+        },
+        {
+          "feature": "LONGEVITY-E",
+          "loading": 0.792542880406
+        },
+        {
+          "feature": "LONGEVITY-C",
+          "loading": 0.517439614364
+        },
+        {
+          "feature": "LONGEVITY-A",
+          "loading": 0.51568415477
+        },
+        {
+          "feature": "LONGEVITY-B",
+          "loading": 0.416110750279
+        },
+        {
+          "feature": "PEAK-A",
+          "loading": 0.364943040361
+        },
+        {
+          "feature": "OFFENSE-C",
+          "loading": 0.329971597931
+        },
+        {
+          "feature": "PEAK-E",
+          "loading": 0.30359399336
+        },
+        {
+          "feature": "ERA-E",
+          "loading": 0.303478742911
+        },
+        {
+          "feature": "PEAK-B",
+          "loading": 0.29532685276
+        },
+        {
+          "feature": "ACCOLADES-D",
+          "loading": 0.278764398826
+        },
+        {
+          "feature": "OFFENSE-A",
+          "loading": 0.207468360963
+        },
+        {
+          "feature": "ACCOLADES-A",
+          "loading": 0.20566509586
+        },
+        {
+          "feature": "PLAYOFFS-C",
+          "loading": 0.196280221543
+        },
+        {
+          "feature": "ACCOLADES-E",
+          "loading": 0.188850587099
+        },
+        {
+          "feature": "PEAK-D",
+          "loading": 0.186516117958
+        },
+        {
+          "feature": "PLAYOFFS-A",
+          "loading": 0.184769832224
+        },
+        {
+          "feature": "ERA-A",
+          "loading": 0.182311246821
+        },
+        {
+          "feature": "ACCOLADES-C",
+          "loading": 0.178984154432
+        },
+        {
+          "feature": "ACCOLADES-B",
+          "loading": 0.177992935534
+        },
+        {
+          "feature": "LONGEVITY-D",
+          "loading": 0.167518751981
+        },
+        {
+          "feature": "ERA-B",
+          "loading": 0.164035766167
+        },
+        {
+          "feature": "DEFENSE-D",
+          "loading": 0.132352734267
+        },
+        {
+          "feature": "DEFENSE-A",
+          "loading": 0.122302155679
+        },
+        {
+          "feature": "PLAYOFFS-D",
+          "loading": -0.120404937852
+        },
+        {
+          "feature": "WINNING-E",
+          "loading": 0.103911922484
+        },
+        {
+          "feature": "WINNING-A",
+          "loading": 0.101844111642
+        },
+        {
+          "feature": "WINNING-B",
+          "loading": 0.088849252499
+        },
+        {
+          "feature": "WINNING-C",
+          "loading": 0.062284830789
+        },
+        {
+          "feature": "WINNING-D",
+          "loading": 0.057934065413
+        },
+        {
+          "feature": "OFFENSE-B",
+          "loading": 0.051171124588
+        }
+      ],
+      "sign_note": "sign is arbitrary; interpretation is invariant to full-column reversal"
+    },
+    {
+      "component": "F5",
+      "loadings": [
+        {
+          "feature": "PLAYOFFS-D",
+          "loading": -0.905929369246
+        },
+        {
+          "feature": "PLAYOFFS-A",
+          "loading": -0.486889677207
+        },
+        {
+          "feature": "PLAYOFFS-C",
+          "loading": -0.255331073386
+        },
+        {
+          "feature": "WINNING-D",
+          "loading": -0.181761321559
+        },
+        {
+          "feature": "OFFENSE-C",
+          "loading": 0.108054927541
+        },
+        {
+          "feature": "WINNING-B",
+          "loading": -0.081242723419
+        },
+        {
+          "feature": "PEAK-A",
+          "loading": 0.066819848348
+        },
+        {
+          "feature": "OFFENSE-A",
+          "loading": 0.061961046342
+        },
+        {
+          "feature": "WINNING-C",
+          "loading": 0.049809335592
+        },
+        {
+          "feature": "ERA-C",
+          "loading": 0.045170626643
+        },
+        {
+          "feature": "ERA-D",
+          "loading": 0.045058101889
+        },
+        {
+          "feature": "ERA-A",
+          "loading": 0.044568618761
+        },
+        {
+          "feature": "ACCOLADES-C",
+          "loading": -0.044344219691
+        },
+        {
+          "feature": "WINNING-A",
+          "loading": -0.043531040304
+        },
+        {
+          "feature": "ACCOLADES-B",
+          "loading": -0.043449797459
+        },
+        {
+          "feature": "PEAK-B",
+          "loading": 0.039700225473
+        },
+        {
+          "feature": "LONGEVITY-E",
+          "loading": 0.039672391629
+        },
+        {
+          "feature": "LONGEVITY-B",
+          "loading": 0.038649075552
+        },
+        {
+          "feature": "PEAK-E",
+          "loading": 0.038641171049
+        },
+        {
+          "feature": "ERA-E",
+          "loading": 0.037533635131
+        },
+        {
+          "feature": "PEAK-D",
+          "loading": 0.031562698562
+        },
+        {
+          "feature": "ACCOLADES-A",
+          "loading": -0.028084769328
+        },
+        {
+          "feature": "ACCOLADES-D",
+          "loading": -0.02631953473
+        },
+        {
+          "feature": "ERA-B",
+          "loading": 0.023919187049
+        },
+        {
+          "feature": "ACCOLADES-E",
+          "loading": -0.021257060689
+        },
+        {
+          "feature": "WINNING-E",
+          "loading": 0.017972471398
+        },
+        {
+          "feature": "OFFENSE-B",
+          "loading": 0.014182943994
+        },
+        {
+          "feature": "LONGEVITY-D",
+          "loading": -0.012636551439
+        },
+        {
+          "feature": "DEFENSE-A",
+          "loading": -0.010148889897
+        },
+        {
+          "feature": "LONGEVITY-A",
+          "loading": 0.006779541045
+        },
+        {
+          "feature": "LONGEVITY-C",
+          "loading": 0.00652719722
+        },
+        {
+          "feature": "DEFENSE-D",
+          "loading": 0.002536145887
+        }
+      ],
+      "sign_note": "sign is arbitrary; interpretation is invariant to full-column reversal"
+    },
+    {
+      "component": "F6",
+      "loadings": [
+        {
+          "feature": "DEFENSE-D",
+          "loading": 0.741045004777
+        },
+        {
+          "feature": "DEFENSE-A",
+          "loading": 0.626832314798
+        },
+        {
+          "feature": "OFFENSE-B",
+          "loading": -0.255573711634
+        },
+        {
+          "feature": "PEAK-A",
+          "loading": 0.205669706902
+        },
+        {
+          "feature": "PEAK-B",
+          "loading": 0.200261525936
+        },
+        {
+          "feature": "PEAK-E",
+          "loading": 0.191319613252
+        },
+        {
+          "feature": "ERA-E",
+          "loading": 0.187233897151
+        },
+        {
+          "feature": "OFFENSE-A",
+          "loading": -0.181576905449
+        },
+        {
+          "feature": "LONGEVITY-B",
+          "loading": 0.175663966285
+        },
+        {
+          "feature": "ERA-A",
+          "loading": 0.166781320261
+        },
+        {
+          "feature": "ERA-B",
+          "loading": 0.165680753329
+        },
+        {
+          "feature": "PEAK-D",
+          "loading": 0.163762378739
+        },
+        {
+          "feature": "LONGEVITY-D",
+          "loading": 0.14045533042
+        },
+        {
+          "feature": "ACCOLADES-A",
+          "loading": 0.122820140401
+        },
+        {
+          "feature": "PLAYOFFS-A",
+          "loading": 0.120068380555
+        },
+        {
+          "feature": "ACCOLADES-B",
+          "loading": 0.100827456256
+        },
+        {
+          "feature": "ACCOLADES-C",
+          "loading": 0.096956548566
+        },
+        {
+          "feature": "ACCOLADES-D",
+          "loading": 0.095797115878
+        },
+        {
+          "feature": "WINNING-D",
+          "loading": 0.095782027417
+        },
+        {
+          "feature": "OFFENSE-C",
+          "loading": 0.08862676368
+        },
+        {
+          "feature": "ACCOLADES-E",
+          "loading": 0.08583984136
+        },
+        {
+          "feature": "PLAYOFFS-C",
+          "loading": 0.078882166859
+        },
+        {
+          "feature": "ERA-D",
+          "loading": 0.067323474701
+        },
+        {
+          "feature": "ERA-C",
+          "loading": 0.065032866349
+        },
+        {
+          "feature": "LONGEVITY-E",
+          "loading": 0.060599787994
+        },
+        {
+          "feature": "LONGEVITY-C",
+          "loading": 0.049823007625
+        },
+        {
+          "feature": "LONGEVITY-A",
+          "loading": 0.049458171016
+        },
+        {
+          "feature": "WINNING-B",
+          "loading": 0.040834902134
+        },
+        {
+          "feature": "WINNING-E",
+          "loading": 0.026300429667
+        },
+        {
+          "feature": "WINNING-C",
+          "loading": 0.02425759639
+        },
+        {
+          "feature": "PLAYOFFS-D",
+          "loading": -0.019701002777
+        },
+        {
+          "feature": "WINNING-A",
+          "loading": 0.017760762976
+        }
+      ],
+      "sign_note": "sign is arbitrary; interpretation is invariant to full-column reversal"
+    },
+    {
+      "component": "F7",
+      "loadings": [
+        {
+          "feature": "OFFENSE-C",
+          "loading": 0.685197452243
+        },
+        {
+          "feature": "OFFENSE-A",
+          "loading": 0.374703252507
+        },
+        {
+          "feature": "PEAK-B",
+          "loading": 0.242495921894
+        },
+        {
+          "feature": "PEAK-A",
+          "loading": 0.239363541796
+        },
+        {
+          "feature": "PEAK-E",
+          "loading": 0.236521300246
+        },
+        {
+          "feature": "ERA-E",
+          "loading": 0.200806931413
+        },
+        {
+          "feature": "LONGEVITY-B",
+          "loading": 0.198041246659
+        },
+        {
+          "feature": "PLAYOFFS-A",
+          "loading": 0.178555416979
+        },
+        {
+          "feature": "LONGEVITY-C",
+          "loading": -0.168372365956
+        },
+        {
+          "feature": "LONGEVITY-A",
+          "loading": -0.166667397751
+        },
+        {
+          "feature": "LONGEVITY-E",
+          "loading": 0.121856583241
+        },
+        {
+          "feature": "ERA-C",
+          "loading": 0.11341105802
+        },
+        {
+          "feature": "ERA-D",
+          "loading": 0.112839377133
+        },
+        {
+          "feature": "WINNING-D",
+          "loading": 0.087289864828
+        },
+        {
+          "feature": "PLAYOFFS-D",
+          "loading": -0.080045704606
+        },
+        {
+          "feature": "DEFENSE-D",
+          "loading": 0.060133152185
+        },
+        {
+          "feature": "ACCOLADES-A",
+          "loading": 0.055409496155
+        },
+        {
+          "feature": "ERA-A",
+          "loading": -0.048049201059
+        },
+        {
+          "feature": "WINNING-A",
+          "loading": 0.047997270719
+        },
+        {
+          "feature": "ACCOLADES-C",
+          "loading": 0.040052117125
+        },
+        {
+          "feature": "ACCOLADES-B",
+          "loading": 0.039868432274
+        },
+        {
+          "feature": "WINNING-B",
+          "loading": 0.03775410084
+        },
+        {
+          "feature": "ACCOLADES-E",
+          "loading": 0.037209462811
+        },
+        {
+          "feature": "ERA-B",
+          "loading": -0.034682637703
+        },
+        {
+          "feature": "PEAK-D",
+          "loading": -0.032745513361
+        },
+        {
+          "feature": "PLAYOFFS-C",
+          "loading": 0.032612828488
+        },
+        {
+          "feature": "WINNING-C",
+          "loading": 0.021678297759
+        },
+        {
+          "feature": "ACCOLADES-D",
+          "loading": 0.021339640701
+        },
+        {
+          "feature": "WINNING-E",
+          "loading": 0.019249654486
+        },
+        {
+          "feature": "DEFENSE-A",
+          "loading": 0.015971139593
+        },
+        {
+          "feature": "OFFENSE-B",
+          "loading": 0.008775335845
+        },
+        {
+          "feature": "LONGEVITY-D",
+          "loading": -0.000449909358
+        }
+      ],
+      "sign_note": "sign is arbitrary; interpretation is invariant to full-column reversal"
+    }
+  ],
+  "rotation": "VARIMAX",
+  "selected_factors": 7,
+  "selection_rule": "minimum five-fold held-out correlation reconstruction RMSE plus 0.0025 per factor; parallel/PCA interpretability audited separately"
+}

@@ -83,3 +83,19 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** none. No external ranking, player order, overall score, or Top 100 exists.
 - **Artifacts:** GOAT_DIMENSION_CANDIDATES_V1, registry, coverage/redundancy/era/sensitivity/case-study reports, ADR-0019 through ADR-0021, and STEP-0012.
 - **Limitations:** award evidence remains candidate-scoped, early Defense remains structurally limited, and scaling/ownership choices remain experimental.
+
+## STEP-0013 unsupervised structural validation
+
+- **Objective:** test latent candidate structure, incremental uniqueness, candidate redundancy, and player-profile archetypes without a target ranking.
+- **Inputs:** frozen corpus, normalization, career, awards, team-success, accolade completion, and STEP-0012 fingerprints.
+- **Methodology version:** `unsupervised-structural-validation-v1`.
+- **Matrices:** 32-candidate, 16-feature cross-era primitive, seven-feature post-1996 enrichment, and seven-feature magnitude/profile-shape views across all, participation-qualified, career-signal, and broad-high-recall populations.
+- **Missingness:** complete intersections only, with explicit exclusion/era audits and no imputation.
+- **PCA result:** four parallel-analysis components; 83.17% cumulative variance; bootstrap loading correlations 0.989–0.994.
+- **Factor result:** seven-factor principal-axis/Varimax solution selected from 2–10 using held-out correlation reconstruction plus parsimony; bootstrap loading correlations exceed 0.997 on average.
+- **Clustering result:** profile-shape K-means selects two coarse groups, seed ARI 0.996 and bootstrap ARI 0.938. Era Cramér's V is 0.088; limited GMM/hierarchical agreement blocks a stronger taxonomy claim.
+- **Pruning result:** 18 non-final candidates retained. Era Dominance is `USE_AS_DIAGNOSTIC_ONLY`; modern offense/defense stay deferred.
+- **Random seed:** 130013 for parallel analysis, bootstrap sampling, K-means, and GMM initialization.
+- **Optimization target:** none. Model-selected player examples were added only after fitting.
+- **Artifacts:** structural reports/registry, ADR-0022 through ADR-0024, ignored Gold/figures, and STEP-0013.
+- **Limitations:** later-era complete-case selection, candidate-scoped awards, early Defense, non-likelihood factor method, bounded hierarchical sample, and cross-model cluster disagreement.

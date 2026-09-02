@@ -1,0 +1,112 @@
+{
+  "active_exclusion_pca_loading_correlations": [
+    0.992280875309,
+    0.998645925397,
+    0.998541513477,
+    0.996626360657
+  ],
+  "factor_bootstrap": {
+    "mean_loading_correlation": [
+      0.998897603112,
+      0.998427183471,
+      0.998211668719,
+      0.99767776532,
+      0.997071672293,
+      0.997141793808,
+      0.997596125271
+    ],
+    "minimum_loading_correlation": [
+      0.998081443299,
+      0.996573648718,
+      0.995178001506,
+      0.995712462898,
+      0.995054158509,
+      0.991988234021,
+      0.995362972288
+    ],
+    "repetitions": 12
+  },
+  "methodology_version": "unsupervised-structural-validation-v1",
+  "pca_bootstrap": {
+    "mean_component_loading_correlation": [
+      0.9944997228297675,
+      0.9929065632410811,
+      0.9897202704418512,
+      0.9889860871460384
+    ],
+    "mean_subspace_similarity": 0.9940132800909952,
+    "minimum_component_loading_correlation": [
+      0.981811840505225,
+      0.9729343238061797,
+      0.9695613322876462,
+      0.9753832812042932
+    ],
+    "minimum_subspace_similarity": 0.9879321787937541,
+    "repetitions": 24,
+    "sample_fraction": 0.8
+  },
+  "pca_factor_absolute_loading_correlations": [
+    0.878025784143,
+    0.843513725992,
+    0.898844365432,
+    0.782326157374
+  ],
+  "population_and_scaling_sensitivity": [
+    {
+      "components_for_80_pct": 4,
+      "first_component_variance": 0.591485125449,
+      "matrix": "dimension_candidates",
+      "population": "ALL_PLAYERS",
+      "scaling": "STANDARD"
+    },
+    {
+      "components_for_80_pct": 3,
+      "first_component_variance": 0.643127828347,
+      "matrix": "dimension_candidates",
+      "population": "ALL_PLAYERS",
+      "scaling": "ROBUST"
+    },
+    {
+      "components_for_80_pct": 4,
+      "first_component_variance": 0.593934205105,
+      "matrix": "dimension_candidates",
+      "population": "PARTICIPATION_QUALIFIED",
+      "scaling": "STANDARD"
+    },
+    {
+      "components_for_80_pct": 3,
+      "first_component_variance": 0.642139530364,
+      "matrix": "dimension_candidates",
+      "population": "PARTICIPATION_QUALIFIED",
+      "scaling": "ROBUST"
+    },
+    {
+      "components_for_80_pct": 4,
+      "first_component_variance": 0.591485125449,
+      "matrix": "dimension_candidates",
+      "population": "CAREER_SIGNAL",
+      "scaling": "STANDARD"
+    },
+    {
+      "components_for_80_pct": 3,
+      "first_component_variance": 0.643127828347,
+      "matrix": "dimension_candidates",
+      "population": "CAREER_SIGNAL",
+      "scaling": "ROBUST"
+    },
+    {
+      "components_for_80_pct": 4,
+      "first_component_variance": 0.591485125449,
+      "matrix": "dimension_candidates",
+      "population": "BROAD_HIGH_RECALL",
+      "scaling": "STANDARD"
+    },
+    {
+      "components_for_80_pct": 3,
+      "first_component_variance": 0.643127828347,
+      "matrix": "dimension_candidates",
+      "population": "BROAD_HIGH_RECALL",
+      "scaling": "ROBUST"
+    }
+  ]
+}

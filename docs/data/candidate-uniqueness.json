@@ -1,0 +1,502 @@
+{
+  "accolades_a_b_c": [
+    {
+      "left": "ACCOLADES-A",
+      "n": 2120,
+      "pearson": 0.870849719533,
+      "right": "ACCOLADES-B"
+    },
+    {
+      "left": "ACCOLADES-A",
+      "n": 2120,
+      "pearson": 0.858687411935,
+      "right": "ACCOLADES-C"
+    },
+    {
+      "left": "ACCOLADES-B",
+      "n": 2120,
+      "pearson": 0.996164163748,
+      "right": "ACCOLADES-C"
+    }
+  ],
+  "candidate_family_mapping": [
+    {
+      "candidate_count": 5,
+      "dimension": "ACCOLADES",
+      "mean_residual_variance_fraction": 0.349811978051,
+      "nearest_factor": 3,
+      "nearest_pca_component": 1
+    },
+    {
+      "candidate_count": 2,
+      "dimension": "DEFENSE",
+      "mean_residual_variance_fraction": 0.183521518091,
+      "nearest_factor": 6,
+      "nearest_pca_component": 1
+    },
+    {
+      "candidate_count": 5,
+      "dimension": "ERA_DOMINANCE",
+      "mean_residual_variance_fraction": 0.032688134283,
+      "nearest_factor": 1,
+      "nearest_pca_component": 1
+    },
+    {
+      "candidate_count": 5,
+      "dimension": "LONGEVITY",
+      "mean_residual_variance_fraction": 0.051987651562,
+      "nearest_factor": 1,
+      "nearest_pca_component": 1
+    },
+    {
+      "candidate_count": 3,
+      "dimension": "OFFENSE",
+      "mean_residual_variance_fraction": 0.103111672771,
+      "nearest_factor": 1,
+      "nearest_pca_component": 1
+    },
+    {
+      "candidate_count": 4,
+      "dimension": "PEAK",
+      "mean_residual_variance_fraction": 0.023201525545,
+      "nearest_factor": 1,
+      "nearest_pca_component": 1
+    },
+    {
+      "candidate_count": 3,
+      "dimension": "PLAYOFFS",
+      "mean_residual_variance_fraction": 0.385301105348,
+      "nearest_factor": 5,
+      "nearest_pca_component": 1
+    },
+    {
+      "candidate_count": 5,
+      "dimension": "WINNING",
+      "mean_residual_variance_fraction": 0.462516382023,
+      "nearest_factor": 2,
+      "nearest_pca_component": 2
+    }
+  ],
+  "candidate_records": [
+    {
+      "candidate_id": "ACCOLADES-A",
+      "dimension": "ACCOLADES",
+      "incremental_variance_proxy": 0.007664217518,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6516077366109118,
+      "maximum_absolute_factor_loading": 0.903690855449,
+      "maximum_absolute_pca_loading": 0.664915114268,
+      "multiple_r_squared_other_families": 0.7547450394157399,
+      "residual_variance_fraction": 0.2452549605842601,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ACCOLADES-B",
+      "dimension": "ACCOLADES",
+      "incremental_variance_proxy": 0.010071675841,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6265733352464268,
+      "maximum_absolute_factor_loading": 0.851666885832,
+      "maximum_absolute_pca_loading": 0.684057368893,
+      "multiple_r_squared_other_families": 0.6777063730995521,
+      "residual_variance_fraction": 0.32229362690044794,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ACCOLADES-C",
+      "dimension": "ACCOLADES",
+      "incremental_variance_proxy": 0.010222170721,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6223337101385619,
+      "maximum_absolute_factor_loading": 0.850784107619,
+      "maximum_absolute_pca_loading": 0.682896319222,
+      "multiple_r_squared_other_families": 0.6728905369243489,
+      "residual_variance_fraction": 0.32710946307565114,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ACCOLADES-D",
+      "dimension": "ACCOLADES",
+      "incremental_variance_proxy": 0.007997354747,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6979911578398496,
+      "maximum_absolute_factor_loading": 0.809909621633,
+      "maximum_absolute_pca_loading": 0.747714813042,
+      "multiple_r_squared_other_families": 0.7440846481086716,
+      "residual_variance_fraction": 0.2559153518913284,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ACCOLADES-E",
+      "dimension": "ACCOLADES",
+      "incremental_variance_proxy": 0.018702702744,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.42803810172671936,
+      "maximum_absolute_factor_loading": 0.556085279075,
+      "maximum_absolute_pca_loading": 0.455442135403,
+      "multiple_r_squared_other_families": 0.4015135121971307,
+      "residual_variance_fraction": 0.5984864878028693,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "DEFENSE-A",
+      "dimension": "DEFENSE",
+      "incremental_variance_proxy": 0.007410150224,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.7122387539075422,
+      "maximum_absolute_factor_loading": 0.626832314798,
+      "maximum_absolute_pca_loading": 0.689821426454,
+      "multiple_r_squared_other_families": 0.7628751928289828,
+      "residual_variance_fraction": 0.23712480717101725,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "DEFENSE-D",
+      "dimension": "DEFENSE",
+      "incremental_variance_proxy": 0.004059944657,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6516077366109118,
+      "maximum_absolute_factor_loading": 0.741045004777,
+      "maximum_absolute_pca_loading": 0.669250115768,
+      "multiple_r_squared_other_families": 0.8700817709884409,
+      "residual_variance_fraction": 0.12991822901155914,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ERA-A",
+      "dimension": "ERA_DOMINANCE",
+      "incremental_variance_proxy": 0.000310419936,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9887334983870774,
+      "maximum_absolute_factor_loading": 0.928726157293,
+      "maximum_absolute_pca_loading": 0.907101832699,
+      "multiple_r_squared_other_families": 0.9900665620358132,
+      "residual_variance_fraction": 0.009933437964186775,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ERA-B",
+      "dimension": "ERA_DOMINANCE",
+      "incremental_variance_proxy": 0.000256367764,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9920950091156899,
+      "maximum_absolute_factor_loading": 0.943505782362,
+      "maximum_absolute_pca_loading": 0.91941050408,
+      "multiple_r_squared_other_families": 0.9917962315595238,
+      "residual_variance_fraction": 0.008203768440476211,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ERA-C",
+      "dimension": "ERA_DOMINANCE",
+      "incremental_variance_proxy": 0.002071451617,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9602785864037441,
+      "maximum_absolute_factor_loading": 0.803977497332,
+      "maximum_absolute_pca_loading": 0.818872830432,
+      "multiple_r_squared_other_families": 0.933713548269177,
+      "residual_variance_fraction": 0.06628645173082304,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ERA-D",
+      "dimension": "ERA_DOMINANCE",
+      "incremental_variance_proxy": 0.001747850605,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9667799062156083,
+      "maximum_absolute_factor_loading": 0.815058949662,
+      "maximum_absolute_pca_loading": 0.813960889191,
+      "multiple_r_squared_other_families": 0.944068780649858,
+      "residual_variance_fraction": 0.055931219350142,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "ERA-E",
+      "dimension": "ERA_DOMINANCE",
+      "incremental_variance_proxy": 0.00072143106,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9753057885534907,
+      "maximum_absolute_factor_loading": 0.843108979916,
+      "maximum_absolute_pca_loading": 0.940096167514,
+      "multiple_r_squared_other_families": 0.9769142060704218,
+      "residual_variance_fraction": 0.023085793929578213,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "LONGEVITY-A",
+      "dimension": "LONGEVITY",
+      "incremental_variance_proxy": 0.002193357686,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.8700587220149322,
+      "maximum_absolute_factor_loading": 0.733439144834,
+      "maximum_absolute_pca_loading": 0.903798006276,
+      "multiple_r_squared_other_families": 0.929812554056776,
+      "residual_variance_fraction": 0.07018744594322401,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "LONGEVITY-B",
+      "dimension": "LONGEVITY",
+      "incremental_variance_proxy": 0.000858015702,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9753057885534908,
+      "maximum_absolute_factor_loading": 0.793210648625,
+      "maximum_absolute_pca_loading": 0.948119095116,
+      "multiple_r_squared_other_families": 0.9725434975450729,
+      "residual_variance_fraction": 0.027456502454927145,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "LONGEVITY-C",
+      "dimension": "LONGEVITY",
+      "incremental_variance_proxy": 0.002200664108,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.8694397082130924,
+      "maximum_absolute_factor_loading": 0.731634143796,
+      "maximum_absolute_pca_loading": 0.902279011035,
+      "multiple_r_squared_other_families": 0.9295787485595851,
+      "residual_variance_fraction": 0.07042125144041489,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "LONGEVITY-D",
+      "dimension": "LONGEVITY",
+      "incremental_variance_proxy": 0.001248808611,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9504886143167327,
+      "maximum_absolute_factor_loading": 0.884678021248,
+      "maximum_absolute_pca_loading": 0.913883089449,
+      "multiple_r_squared_other_families": 0.9600381244531995,
+      "residual_variance_fraction": 0.03996187554680053,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "LONGEVITY-E",
+      "dimension": "LONGEVITY",
+      "incremental_variance_proxy": 0.001622224451,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9667799062156083,
+      "maximum_absolute_factor_loading": 0.792542880406,
+      "maximum_absolute_pca_loading": 0.809177393134,
+      "multiple_r_squared_other_families": 0.9480888175773123,
+      "residual_variance_fraction": 0.05191118242268766,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "OFFENSE-A",
+      "dimension": "OFFENSE",
+      "incremental_variance_proxy": 0.002597060945,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.8714940070038111,
+      "maximum_absolute_factor_loading": 0.839654722128,
+      "maximum_absolute_pca_loading": 0.855584461147,
+      "multiple_r_squared_other_families": 0.9168940497623077,
+      "residual_variance_fraction": 0.0831059502376923,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "OFFENSE-B",
+      "dimension": "OFFENSE",
+      "incremental_variance_proxy": 0.001919531462,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.87409979117074,
+      "maximum_absolute_factor_loading": 0.9049479253,
+      "maximum_absolute_pca_loading": 0.787884649946,
+      "multiple_r_squared_other_families": 0.9385749932132021,
+      "residual_variance_fraction": 0.06142500678679785,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "OFFENSE-C",
+      "dimension": "OFFENSE",
+      "incremental_variance_proxy": 0.005150126915,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.7485553042231298,
+      "maximum_absolute_factor_loading": 0.685197452243,
+      "maximum_absolute_pca_loading": 0.691591402535,
+      "multiple_r_squared_other_families": 0.8351959387111885,
+      "residual_variance_fraction": 0.16480406128881153,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "PEAK-A",
+      "dimension": "PEAK",
+      "incremental_variance_proxy": 0.000485770971,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9632337287126482,
+      "maximum_absolute_factor_loading": 0.814521010621,
+      "maximum_absolute_pca_loading": 0.933117861178,
+      "multiple_r_squared_other_families": 0.9844553289141219,
+      "residual_variance_fraction": 0.015544671085878092,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "PEAK-B",
+      "dimension": "PEAK",
+      "incremental_variance_proxy": 0.000893575977,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9584430739833903,
+      "maximum_absolute_factor_loading": 0.851287113196,
+      "maximum_absolute_pca_loading": 0.939458660858,
+      "multiple_r_squared_other_families": 0.9714055687351629,
+      "residual_variance_fraction": 0.028594431264837072,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "PEAK-D",
+      "dimension": "PEAK",
+      "incremental_variance_proxy": 0.000260973789,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9920950091156899,
+      "maximum_absolute_factor_loading": 0.937121538833,
+      "maximum_absolute_pca_loading": 0.923969007757,
+      "multiple_r_squared_other_families": 0.9916488387618686,
+      "residual_variance_fraction": 0.0083511612381314,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "PEAK-E",
+      "dimension": "PEAK",
+      "incremental_variance_proxy": 0.001259869956,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.9619409936238458,
+      "maximum_absolute_factor_loading": 0.844418025383,
+      "maximum_absolute_pca_loading": 0.936611408016,
+      "multiple_r_squared_other_families": 0.9596841614090384,
+      "residual_variance_fraction": 0.04031583859096155,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "PLAYOFFS-A",
+      "dimension": "PLAYOFFS",
+      "incremental_variance_proxy": 0.008650596004,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.7911624428603625,
+      "maximum_absolute_factor_loading": 0.74174882817,
+      "maximum_absolute_pca_loading": 0.819249969956,
+      "multiple_r_squared_other_families": 0.7231809278783923,
+      "residual_variance_fraction": 0.2768190721216077,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "PLAYOFFS-C",
+      "dimension": "PLAYOFFS",
+      "incremental_variance_proxy": 0.003420701082,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.8270598162539882,
+      "maximum_absolute_factor_loading": 0.652545127092,
+      "maximum_absolute_pca_loading": 0.832305783168,
+      "multiple_r_squared_other_families": 0.8905375653644227,
+      "residual_variance_fraction": 0.10946243463557725,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "PLAYOFFS-D",
+      "dimension": "PLAYOFFS",
+      "incremental_variance_proxy": 0.02405068154,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.2683989781217675,
+      "maximum_absolute_factor_loading": 0.905929369246,
+      "maximum_absolute_pca_loading": 0.647917997213,
+      "multiple_r_squared_other_families": 0.2303781907120781,
+      "residual_variance_fraction": 0.7696218092879219,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "WINNING-A",
+      "dimension": "WINNING",
+      "incremental_variance_proxy": 0.011835975343,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6441531566555136,
+      "maximum_absolute_factor_loading": 0.947901553716,
+      "maximum_absolute_pca_loading": 0.798252829707,
+      "multiple_r_squared_other_families": 0.6212487890384502,
+      "residual_variance_fraction": 0.37875121096154984,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "WINNING-B",
+      "dimension": "WINNING",
+      "incremental_variance_proxy": 0.00978621312,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.7452653727489839,
+      "maximum_absolute_factor_loading": 0.900651826472,
+      "maximum_absolute_pca_loading": 0.697063599247,
+      "multiple_r_squared_other_families": 0.6868411801516823,
+      "residual_variance_fraction": 0.3131588198483177,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "WINNING-C",
+      "dimension": "WINNING",
+      "incremental_variance_proxy": 0.02241948395,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.41386350038999453,
+      "maximum_absolute_factor_loading": 0.861469660967,
+      "maximum_absolute_pca_loading": 0.765305967034,
+      "multiple_r_squared_other_families": 0.28257651358559277,
+      "residual_variance_fraction": 0.7174234864144072,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "WINNING-D",
+      "dimension": "WINNING",
+      "incremental_variance_proxy": 0.013922833262,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6742307573223093,
+      "maximum_absolute_factor_loading": 0.54825374459,
+      "maximum_absolute_pca_loading": 0.663454458644,
+      "multiple_r_squared_other_families": 0.5544693356271739,
+      "residual_variance_fraction": 0.44553066437282607,
+      "sample_size": 1391
+    },
+    {
+      "candidate_id": "WINNING-E",
+      "dimension": "WINNING",
+      "incremental_variance_proxy": 0.014303679016,
+      "interpretation": "Uniqueness measures residual structure, not importance or value.",
+      "max_absolute_cross_family_correlation": 0.6125978114944278,
+      "maximum_absolute_factor_loading": 0.959106434109,
+      "maximum_absolute_pca_loading": 0.774924317331,
+      "multiple_r_squared_other_families": 0.5422822714802762,
+      "residual_variance_fraction": 0.4577177285197238,
+      "sample_size": 1391
+    }
+  ],
+  "defense_policy": {
+    "all_era": "Box Defense remains a coverage-limited rebounding-led profile; no universal scalar is established.",
+    "modern": "Modern advanced/steal/block evidence is analyzed only in the labeled post-1996 enriched matrix."
+  },
+  "era_dominance_hypothesis": {
+    "conclusion": "USE_AS_DIAGNOSTIC_ONLY",
+    "reason": "Era candidates are direct summaries of already era-normalized peak and cumulative evidence and show low incremental residual structure.",
+    "tested_against": [
+      "PEAK",
+      "LONGEVITY",
+      "OFFENSE",
+      "DEFENSE"
+    ]
+  },
+  "matrix_sample_size": 1391,
+  "methodology_version": "unsupervised-structural-validation-v1",
+  "peak_b_d_e": [
+    {
+      "left": "PEAK-B",
+      "n": 1761,
+      "pearson": 0.941749585625,
+      "right": "PEAK-D"
+    },
+    {
+      "left": "PEAK-B",
+      "n": 1761,
+      "pearson": 0.984509969564,
+      "right": "PEAK-E"
+    },
+    {
+      "left": "PEAK-D",
+      "n": 1761,
+      "pearson": 0.933243984619,
+      "right": "PEAK-E"
+    }
+  ]
+}

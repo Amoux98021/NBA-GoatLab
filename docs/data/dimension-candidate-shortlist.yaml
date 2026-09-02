@@ -1,0 +1,94 @@
+methodology_version: unsupervised-structural-validation-v1
+status: EXPERIMENTAL_SHORTLIST_NOT_FINAL
+candidate_count: 18
+candidates:
+- candidate_id: PEAK-A
+  dimension: PEAK
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: PEAK-B
+  dimension: PEAK
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: PEAK-E
+  dimension: PEAK
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: LONGEVITY-A
+  dimension: LONGEVITY
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: LONGEVITY-B
+  dimension: LONGEVITY
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: LONGEVITY-D
+  dimension: LONGEVITY
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: OFFENSE-A
+  dimension: OFFENSE
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: OFFENSE-C
+  dimension: OFFENSE
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: DEFENSE-A
+  dimension: DEFENSE
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: PLAYOFFS-A
+  dimension: PLAYOFFS
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: PLAYOFFS-C
+  dimension: PLAYOFFS
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: PLAYOFFS-D
+  dimension: PLAYOFFS
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: ACCOLADES-A
+  dimension: ACCOLADES
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: ACCOLADES-D
+  dimension: ACCOLADES
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: ACCOLADES-E
+  dimension: ACCOLADES
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: WINNING-A
+  dimension: WINNING
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: WINNING-B
+  dimension: WINNING
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit
+- candidate_id: WINNING-C
+  dimension: WINNING
+  step_0013_status: RETAIN_FOR_FINALIZATION
+  reason: retains a materially interpretable definition after coverage, lineage, and
+    structural audit

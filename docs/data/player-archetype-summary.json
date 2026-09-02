@@ -1,0 +1,190 @@
+{
+  "archetypes": [
+    {
+      "active_players": 101,
+      "centroid": {
+        "ACCOLADES-A": 0.415924938988,
+        "DEFENSE-A": -0.223588080406,
+        "LONGEVITY-B": -0.315148941786,
+        "OFFENSE-A": -0.317209596654,
+        "PEAK-B": -0.354480306029,
+        "PLAYOFFS-A": -0.281708072251,
+        "WINNING-A": 1.076210058139
+      },
+      "centroid_nearest_examples": [
+        {
+          "display_name": "Rodney Buford",
+          "distance": 1.349458390957,
+          "player_id": "player_2abe57b29efc5c38aa6bc0599164e804"
+        },
+        {
+          "display_name": "Jonathan Bender",
+          "distance": 1.356139624927,
+          "player_id": "player_6f68f88f31bf53b197fd4e2a57401ad0"
+        },
+        {
+          "display_name": "Sasha Pavlovic",
+          "distance": 1.360661094625,
+          "player_id": "player_1ed698c039b45e35b8826e940d9a2a94"
+        },
+        {
+          "display_name": "Josh Powell",
+          "distance": 1.362484602526,
+          "player_id": "player_a5df4ecb45cc53deb396cc0e16e94837"
+        },
+        {
+          "display_name": "Brian Scalabrine",
+          "distance": 1.363057837231,
+          "player_id": "player_0c428850da185e15a7b35385a71e24c6"
+        }
+      ],
+      "cluster_id": 0,
+      "era_distribution": {
+        "1960S": 1,
+        "1970S": 29,
+        "1980S": 139,
+        "1990S": 145,
+        "2000S": 170,
+        "2010S": 158,
+        "2020S": 38
+      },
+      "median_profile": {
+        "ACCOLADES-A": 0.432876277591,
+        "DEFENSE-A": -0.236644371946,
+        "LONGEVITY-B": -0.303852336679,
+        "OFFENSE-A": -0.387444531112,
+        "PEAK-B": -0.343426399851,
+        "PLAYOFFS-A": -0.281959415141,
+        "WINNING-A": 1.249095699564
+      },
+      "neutral_profile_label": "relative WINNING-A/ACCOLADES-A emphasis; lower PEAK-B/OFFENSE-A",
+      "size": 680
+    },
+    {
+      "active_players": 168,
+      "centroid": {
+        "ACCOLADES-A": -0.546896408082,
+        "DEFENSE-A": 0.26332761239,
+        "LONGEVITY-B": 0.309933190295,
+        "OFFENSE-A": 0.384745330248,
+        "PEAK-B": 0.419496830039,
+        "PLAYOFFS-A": 0.283559866757,
+        "WINNING-A": -1.114166421646
+      },
+      "centroid_nearest_examples": [
+        {
+          "display_name": "Brandon Ingram",
+          "distance": 1.213058217099,
+          "player_id": "player_f54ede3ab95451a68634ae87ae443fdf"
+        },
+        {
+          "display_name": "Trey Murphy III",
+          "distance": 1.230980951002,
+          "player_id": "player_a35d5987d6955e04b7cb57cf1bf06acf"
+        },
+        {
+          "display_name": "Tyreke Evans",
+          "distance": 1.232275328039,
+          "player_id": "player_0bfd1cd54e765ab59ab1f63db32ee9b1"
+        },
+        {
+          "display_name": "Ricky Rubio",
+          "distance": 1.240516458658,
+          "player_id": "player_b138b7776e195161bc1a78c4da795825"
+        },
+        {
+          "display_name": "John Collins",
+          "distance": 1.242114218502,
+          "player_id": "player_f4cc86779fd5582facb878108466216a"
+        }
+      ],
+      "cluster_id": 1,
+      "era_distribution": {
+        "1970S": 19,
+        "1980S": 132,
+        "1990S": 152,
+        "2000S": 157,
+        "2010S": 194,
+        "2020S": 57
+      },
+      "median_profile": {
+        "ACCOLADES-A": -0.603149343053,
+        "DEFENSE-A": 0.434784772518,
+        "LONGEVITY-B": 0.431219769488,
+        "OFFENSE-A": 0.426107375752,
+        "PEAK-B": 0.487309827318,
+        "PLAYOFFS-A": 0.351892818984,
+        "WINNING-A": -1.192824341013
+      },
+      "neutral_profile_label": "relative PEAK-B/OFFENSE-A emphasis; lower WINNING-A/ACCOLADES-A",
+      "size": 711
+    }
+  ],
+  "gmm_ambiguous_examples": [
+    {
+      "display_name": "Jay Humphries",
+      "maximum_probability": 0.387508590167,
+      "player_id": "player_3f4af52b80505e0fa12fc959d2647494"
+    },
+    {
+      "display_name": "Mookie Blaylock",
+      "maximum_probability": 0.405385679566,
+      "player_id": "player_73d5d0db30ce53229e931e45c3c5bda4"
+    },
+    {
+      "display_name": "Greg Anthony",
+      "maximum_probability": 0.411627312989,
+      "player_id": "player_8a9dca820c76515394e551c737f90638"
+    },
+    {
+      "display_name": "Danny Ainge",
+      "maximum_probability": 0.41569454884,
+      "player_id": "player_da78693651e05314a8a142b815ed1826"
+    },
+    {
+      "display_name": "Svi Mykhailiuk",
+      "maximum_probability": 0.433180028948,
+      "player_id": "player_18876537ebac5b7e95f863a06f9b3577"
+    },
+    {
+      "display_name": "Shammond Williams",
+      "maximum_probability": 0.453999588207,
+      "player_id": "player_f53e8b4c0b4b57769f6ab9c7f70c14d6"
+    },
+    {
+      "display_name": "Jeff Turner",
+      "maximum_probability": 0.466197590768,
+      "player_id": "player_79b1c2e700fc5dcfb37d42a4451bc92f"
+    },
+    {
+      "display_name": "Luguentz Dort",
+      "maximum_probability": 0.466487297129,
+      "player_id": "player_7f7a461e0d2450fd9d126da541edec36"
+    },
+    {
+      "display_name": "Joey Graham",
+      "maximum_probability": 0.48326219113,
+      "player_id": "player_461d9c9e19f955348e2840127c3599b4"
+    },
+    {
+      "display_name": "Mike Wilks",
+      "maximum_probability": 0.483665373261,
+      "player_id": "player_4471d13b3df95f05b27f870d5b0ad8b6"
+    }
+  ],
+  "interpretation": "Labels describe relative profile shape only; clusters are not ordered and do not measure greatness.",
+  "methodology_version": "unsupervised-structural-validation-v1",
+  "not_quality_tiers": true,
+  "position_distribution_status": "NOT_MODELED: full-corpus canonical position coverage was not established as reliable",
+  "profile_features": [
+    "PEAK-B",
+    "LONGEVITY-B",
+    "OFFENSE-A",
+    "DEFENSE-A",
+    "PLAYOFFS-A",
+    "ACCOLADES-A",
+    "WINNING-A"
+  ],
+  "selected_k": 2,
+  "selected_model": "KMEANS_PROFILE_SHAPE"
+}

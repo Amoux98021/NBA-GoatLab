@@ -128,3 +128,13 @@ This living summary may be extended, but methodology changes must also receive a
 - Modern-only offense and defense are deferred from universal comparison. Five-year Peak and contiguous playoff Peak fail broad coverage; two augmented candidates fail near-duplicate checks.
 - Cross-dimension correlations are findings, not optimization targets. Peak/Era and Longevity/Era overlap is substantial enough that Era Dominance cannot be assumed independent.
 - Active careers are to-date with no projection or completion penalty. No candidate is final and no overall player ordering exists.
+
+## Unsupervised structural validation V1
+
+- `unsupervised-structural-validation-v1` consumes only frozen, fingerprinted Gold/Silver evidence and uses no network, external ranking, supervised target, GOAT score, or Top 100.
+- Candidate, cross-era primitive, modern-enriched, magnitude, and profile-shape matrices remain separate. Every model uses an explicit complete intersection; missing historical evidence is never imputed.
+- Standard and robust scaling are compared. PCA uses SVD and fixed-seed parallel analysis; factor analysis uses iterated principal axes with Varimax. Component signs and cluster IDs carry no quality order.
+- Stability includes bootstrap loading alignment, subspace similarity, factor-loading stability, population/scaling sensitivity, active-career exclusion, seed/bootstrap ARI/AMI, and method agreement.
+- Archetypes use row-centered/RMS-scaled profiles so magnitude alone cannot define groups. The selected two-cluster result is a coarse diagnostic because GMM and hierarchical agreement is limited.
+- Era Dominance is recommended as a diagnostic over already normalized evidence, not an independent additive vote. The non-final shortlist retains 18 candidates across seven conceptual families.
+- All pruning outcomes remain experimental and use coverage, lineage, residual uniqueness, component structure, and interpretability together; correlation alone is not a rejection rule.
