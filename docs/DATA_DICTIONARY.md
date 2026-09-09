@@ -190,3 +190,17 @@ Generated STEP-0013 outputs remain ignored under `data/gold/ml_structure/`.
 Matrix kind is `DIMENSION_CANDIDATE`, `CROSS_ERA_PRIMITIVE`, `MODERN_ENRICHED`, `PROFILE_MAGNITUDE`, or `PROFILE_SHAPE`. Scaling is `STANDARD` or `ROBUST`. Structural pruning status is `RETAIN_FOR_FINALIZATION`, `REDUNDANT`, `REJECTED`, `DEFER_MODERN_ONLY`, or `INSUFFICIENT_ALL_ERA_EVIDENCE`; there is no `FINAL` status.
 
 Every matrix audit records starting/retained/excluded players, feature list, missing-feature exclusion counts, debut-era distribution, and active-career counts. Complete intersection means all selected columns are finite for a retained row; it never means a missing value was filled.
+
+## Gold constitutional dimension scores V1
+
+Generated STEP-0014 outputs remain ignored under `data/gold/`.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `player_dimension_scores` | player × one of seven dimensions | Final V1 0–100 dimension score plus raw value, coverage, confidence, evidence counts, reason codes, career status, and frozen input provenance. |
+| `player_dimension_components` | player × dimension × component | Interpretable score-input breakdown, including numeric and explicitly textual evidence. |
+| `player_dimension_sensitivity` | dimension × candidate formula | Selected/alternative formula flag, shared player count, Spearman stability, mean score change, and top-25/50/100 overlap. |
+
+Dimension vocabulary is `PEAK`, `LONGEVITY`, `OFFENSE`, `DEFENSE`, `PLAYOFFS`, `ACCOLADES`, and `WINNING`. Coverage is `AVAILABLE`, `PARTIAL_EVIDENCE`, `INSUFFICIENT_SAMPLE`, `SOURCE_UNAVAILABLE`, or `NOT_QUERIED`. Evidence confidence is `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and cannot alter score quality.
+
+Every one of 5,103 canonical players has exactly seven score rows; legitimate unavailability is a NULL `score` with a non-available coverage state. All rows record `goatlab-v1-dimension-scores-v1`, GOATLAB-HIST-V1, the corpus fingerprint, the normalization fingerprint, and active/completed career context. There is no Overall column or additive Era Dominance row.

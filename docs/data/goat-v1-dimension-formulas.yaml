@@ -1,0 +1,114 @@
+registry_version: 1
+methodology_version: goatlab-v1-dimension-scores-v1
+constitution: docs/constitution/GOATLAB_V1_CONSTITUTION.md
+common:
+  score_scale: 0-100 midrank ECDF against BROAD_HIGH_RECALL observed reference
+  scale_interpretation:
+    '0': bottom observed reference value (ties share their midrank)
+    '50': approximately the observed reference median
+    '90': approximately the 90th percentile
+    '95': approximately the 95th percentile
+    '99': approximately the 99th percentile
+    '100': top observed reference value (ties share their midrank)
+  missingness: NULL is retained; explicit available-evidence renormalization never
+    inserts zero
+  confidence_is_not_quality: true
+  modern_only_features_in_universal_scores: false
+dimensions:
+- dimension: PEAK
+  question: How high was the player's best sustained level?
+  formula: 0.70 * best contiguous 3-season overall-quality percentile + 0.30 * best
+    single-season apex
+  primary_evidence:
+  - REGULAR season overall quality
+  - complete contiguous three-season window
+  excluded:
+  - awards
+  - team outcomes
+  - postseason
+  - five-year mandatory anchor
+- dimension: LONGEVITY
+  question: How long did the player remain genuinely great?
+  formula: 0.35 * elite breadth + 0.40 * capped area + 0.25 * longest run at season-quality
+    percentile >= 0.80; season credit capped at 0.90
+  primary_evidence:
+  - REGULAR season quality
+  - thresholded breadth
+  - capped area
+  - contiguous persistence
+  excluded:
+  - career length alone
+  - career average
+  - All-NBA as score input
+  - uncapped apex magnitude
+- dimension: OFFENSE
+  question: How much offensive value did the player create?
+  formula: 'career mean of Global Value Creation: joint Scoring Value (0.65 PPG +
+    0.35 TS when available, PPG required), then 0.65 stronger offensive axis + 0.35
+    secondary axis versus creation/APG'
+  primary_evidence:
+  - REGULAR PPG percentile
+  - REGULAR TS percentile
+  - REGULAR APG percentile
+  excluded:
+  - postseason
+  - statistical titles
+  - modern per-75 universal bonus
+- dimension: DEFENSE
+  question: How much opponent offensive value did the player help prevent?
+  formula: career mean of 0.65 era-relative team scoring suppression + 0.35 individual
+    action context
+  primary_evidence:
+  - REGULAR opponent scoring suppression while affiliated
+  - rebound context
+  - steal context
+  - block context
+  excluded:
+  - DPOY
+  - All-Defense
+  - postseason
+  - championships
+  - modern advanced universal bonus
+- dimension: PLAYOFFS
+  question: How strong was the player's individual postseason performance?
+  formula: 0.65 absolute postseason quality + 0.20 bounded regular-to-playoff resilience
+    + 0.15 repeated elite postseason evidence
+  primary_evidence:
+  - PLAYOFF individual normalized performance
+  excluded:
+  - series wins
+  - Finals outcome
+  - championship outcome
+  - sample-size quality penalty
+- dimension: ACCOLADES
+  question: How much meaningful individual recognition did the player earn?
+  formula: 0.60 Major Honors axis + 0.35 Sustained Recognition axis + 0.05 statistical-leader
+    support; same-season bundles cap correlated events
+  primary_evidence:
+  - MVP
+  - Finals MVP
+  - DPOY
+  - All-NBA
+  - All-Defense
+  - All-Star roster evidence
+  excluded:
+  - NBA Champion
+  - award-derived defensive performance
+  - unanimous MVP bonus
+  - specialized modern awards
+- dimension: WINNING
+  question: What team success occurred while the player was a meaningful participant?
+  formula: 0.65 mutually-exclusive hierarchical postseason outcome + 0.25 sustained
+    elite regular-season team context + 0.10 playoff breadth, participation-conditioned
+  primary_evidence:
+  - team outcomes
+  - actual postseason/Finals participation
+  - game-share role proxy
+  - team win percentile
+  excluded:
+  - individual playoff performance
+  - Finals MVP
+  - raw champion award count
+  - generic WOWY additive credit
+era_dominance: DIAGNOSTIC_ONLY_NOT_ADDITIVE
+official_overall_score: NOT_CREATED

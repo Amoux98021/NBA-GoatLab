@@ -1,0 +1,574 @@
+{
+  "active_players_projected": false,
+  "methodology_version": "goatlab-v1-dimension-scores-v1",
+  "modern_enrichment_in_universal_score": false,
+  "records": [
+    {
+      "availability_pct": 0.32661870503597124,
+      "debut_era": "PRE_1960",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 54.175152749490834,
+      "players": 695,
+      "scores_available": 227
+    },
+    {
+      "availability_pct": 0.5365079365079365,
+      "debut_era": "1960S",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 52.016293279022406,
+      "players": 315,
+      "scores_available": 169
+    },
+    {
+      "availability_pct": 0.5244755244755245,
+      "debut_era": "1970S",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 53.86965376782077,
+      "players": 572,
+      "scores_available": 300
+    },
+    {
+      "availability_pct": 0.5287009063444109,
+      "debut_era": "1980S",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 52.40325865580448,
+      "players": 662,
+      "scores_available": 350
+    },
+    {
+      "availability_pct": 0.5538922155688623,
+      "debut_era": "1990S",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 49.144602851323825,
+      "players": 668,
+      "scores_available": 370
+    },
+    {
+      "availability_pct": 0.5793304221251819,
+      "debut_era": "2000S",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 49.61303462321793,
+      "players": 687,
+      "scores_available": 398
+    },
+    {
+      "availability_pct": 0.5213483146067416,
+      "debut_era": "2010S",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 46.76171079429735,
+      "players": 890,
+      "scores_available": 464
+    },
+    {
+      "availability_pct": 0.2903752039151713,
+      "debut_era": "2020S",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 35.132382892057024,
+      "players": 613,
+      "scores_available": 178
+    },
+    {
+      "availability_pct": 0.0,
+      "debut_era": "UNKNOWN",
+      "dimension": "PEAK",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": null,
+      "players": 1,
+      "scores_available": 0
+    },
+    {
+      "availability_pct": 0.8057553956834532,
+      "debut_era": "PRE_1960",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 695,
+      "scores_available": 560
+    },
+    {
+      "availability_pct": 0.8412698412698413,
+      "debut_era": "1960S",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 315,
+      "scores_available": 265
+    },
+    {
+      "availability_pct": 0.9055944055944056,
+      "debut_era": "1970S",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 572,
+      "scores_available": 518
+    },
+    {
+      "availability_pct": 0.8474320241691843,
+      "debut_era": "1980S",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 662,
+      "scores_available": 561
+    },
+    {
+      "availability_pct": 0.8398203592814372,
+      "debut_era": "1990S",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 668,
+      "scores_available": 561
+    },
+    {
+      "availability_pct": 0.8529839883551674,
+      "debut_era": "2000S",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 687,
+      "scores_available": 586
+    },
+    {
+      "availability_pct": 0.7955056179775281,
+      "debut_era": "2010S",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 890,
+      "scores_available": 708
+    },
+    {
+      "availability_pct": 0.6982055464926591,
+      "debut_era": "2020S",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.22975517890772,
+      "players": 613,
+      "scores_available": 428
+    },
+    {
+      "availability_pct": 0.0,
+      "debut_era": "UNKNOWN",
+      "dimension": "LONGEVITY",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": null,
+      "players": 1,
+      "scores_available": 0
+    },
+    {
+      "availability_pct": 0.8057553956834532,
+      "debut_era": "PRE_1960",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 34.41619585687383,
+      "players": 695,
+      "scores_available": 560
+    },
+    {
+      "availability_pct": 0.8412698412698413,
+      "debut_era": "1960S",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 28.00376647834275,
+      "players": 315,
+      "scores_available": 265
+    },
+    {
+      "availability_pct": 0.9055944055944056,
+      "debut_era": "1970S",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 24.303201506591336,
+      "players": 572,
+      "scores_available": 518
+    },
+    {
+      "availability_pct": 0.8474320241691843,
+      "debut_era": "1980S",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 33.69114877589454,
+      "players": 662,
+      "scores_available": 561
+    },
+    {
+      "availability_pct": 0.8398203592814372,
+      "debut_era": "1990S",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 34.76459510357815,
+      "players": 668,
+      "scores_available": 561
+    },
+    {
+      "availability_pct": 0.8529839883551674,
+      "debut_era": "2000S",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 37.81544256120527,
+      "players": 687,
+      "scores_available": 586
+    },
+    {
+      "availability_pct": 0.7955056179775281,
+      "debut_era": "2010S",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 35.517890772128055,
+      "players": 890,
+      "scores_available": 708
+    },
+    {
+      "availability_pct": 0.6982055464926591,
+      "debut_era": "2020S",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.30885122410546,
+      "players": 613,
+      "scores_available": 428
+    },
+    {
+      "availability_pct": 0.0,
+      "debut_era": "UNKNOWN",
+      "dimension": "OFFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": null,
+      "players": 1,
+      "scores_available": 0
+    },
+    {
+      "availability_pct": 0.8057553956834532,
+      "debut_era": "PRE_1960",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 52.15712132629993,
+      "players": 695,
+      "scores_available": 560
+    },
+    {
+      "availability_pct": 0.8380952380952381,
+      "debut_era": "1960S",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 46.40165787490581,
+      "players": 315,
+      "scores_available": 264
+    },
+    {
+      "availability_pct": 0.8076923076923077,
+      "debut_era": "1970S",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 47.54144687264506,
+      "players": 572,
+      "scores_available": 462
+    },
+    {
+      "availability_pct": 0.8474320241691843,
+      "debut_era": "1980S",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 43.293142426525996,
+      "players": 662,
+      "scores_available": 561
+    },
+    {
+      "availability_pct": 0.8398203592814372,
+      "debut_era": "1990S",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 40.24114544084401,
+      "players": 668,
+      "scores_available": 561
+    },
+    {
+      "availability_pct": 0.8529839883551674,
+      "debut_era": "2000S",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 41.63526752072344,
+      "players": 687,
+      "scores_available": 586
+    },
+    {
+      "availability_pct": 0.7955056179775281,
+      "debut_era": "2010S",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 45.02637528259231,
+      "players": 890,
+      "scores_available": 708
+    },
+    {
+      "availability_pct": 0.6982055464926591,
+      "debut_era": "2020S",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 37.80143180105501,
+      "players": 613,
+      "scores_available": 428
+    },
+    {
+      "availability_pct": 0.0,
+      "debut_era": "UNKNOWN",
+      "dimension": "DEFENSE",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": null,
+      "players": 1,
+      "scores_available": 0
+    },
+    {
+      "availability_pct": 0.5309352517985612,
+      "debut_era": "PRE_1960",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 49.49539271610355,
+      "players": 695,
+      "scores_available": 369
+    },
+    {
+      "availability_pct": 0.6444444444444445,
+      "debut_era": "1960S",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 40.28082492321194,
+      "players": 315,
+      "scores_available": 203
+    },
+    {
+      "availability_pct": 0.5909090909090909,
+      "debut_era": "1970S",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 44.48222904782799,
+      "players": 572,
+      "scores_available": 338
+    },
+    {
+      "availability_pct": 0.5845921450151057,
+      "debut_era": "1980S",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 45.41465555068012,
+      "players": 662,
+      "scores_available": 387
+    },
+    {
+      "availability_pct": 0.5568862275449101,
+      "debut_era": "1990S",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 43.06713470820535,
+      "players": 668,
+      "scores_available": 372
+    },
+    {
+      "availability_pct": 0.5895196506550219,
+      "debut_era": "2000S",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 42.6941641070645,
+      "players": 687,
+      "scores_available": 405
+    },
+    {
+      "availability_pct": 0.5325842696629214,
+      "debut_era": "2010S",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 41.926283457656865,
+      "players": 890,
+      "scores_available": 474
+    },
+    {
+      "availability_pct": 0.3572593800978793,
+      "debut_era": "2020S",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 33.72093023255814,
+      "players": 613,
+      "scores_available": 219
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "UNKNOWN",
+      "dimension": "PLAYOFFS",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 4.146555506801229,
+      "players": 1,
+      "scores_available": 1
+    },
+    {
+      "availability_pct": 0.22302158273381295,
+      "debut_era": "PRE_1960",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 695,
+      "scores_available": 155
+    },
+    {
+      "availability_pct": 0.4380952380952381,
+      "debut_era": "1960S",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 315,
+      "scores_available": 138
+    },
+    {
+      "availability_pct": 0.43006993006993005,
+      "debut_era": "1970S",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 572,
+      "scores_available": 246
+    },
+    {
+      "availability_pct": 0.4818731117824773,
+      "debut_era": "1980S",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 662,
+      "scores_available": 319
+    },
+    {
+      "availability_pct": 0.5164670658682635,
+      "debut_era": "1990S",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 668,
+      "scores_available": 345
+    },
+    {
+      "availability_pct": 0.5342066957787481,
+      "debut_era": "2000S",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 687,
+      "scores_available": 367
+    },
+    {
+      "availability_pct": 0.4550561797752809,
+      "debut_era": "2010S",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 890,
+      "scores_available": 405
+    },
+    {
+      "availability_pct": 0.26916802610114193,
+      "debut_era": "2020S",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 36.927796130250115,
+      "players": 613,
+      "scores_available": 165
+    },
+    {
+      "availability_pct": 0.0,
+      "debut_era": "UNKNOWN",
+      "dimension": "ACCOLADES",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": null,
+      "players": 1,
+      "scores_available": 0
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "PRE_1960",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 13.822975517890772,
+      "players": 695,
+      "scores_available": 695
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "1960S",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 27.306967984934087,
+      "players": 315,
+      "scores_available": 315
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "1970S",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 24.764595103578152,
+      "players": 572,
+      "scores_available": 572
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "1980S",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 23.84180790960452,
+      "players": 662,
+      "scores_available": 662
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "1990S",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 21.32768361581921,
+      "players": 668,
+      "scores_available": 668
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "2000S",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 25.649717514124294,
+      "players": 687,
+      "scores_available": 687
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "2010S",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 18.549905838041433,
+      "players": 890,
+      "scores_available": 890
+    },
+    {
+      "availability_pct": 1.0,
+      "debut_era": "2020S",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": 9.020715630885123,
+      "players": 613,
+      "scores_available": 613
+    },
+    {
+      "availability_pct": 0.0,
+      "debut_era": "UNKNOWN",
+      "dimension": "WINNING",
+      "fairness_interpretation": "coverage/distribution diagnostic; no era quota or adjustment",
+      "median_score": null,
+      "players": 1,
+      "scores_available": 0
+    }
+  ]
+}

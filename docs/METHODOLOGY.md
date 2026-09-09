@@ -138,3 +138,17 @@ This living summary may be extended, but methodology changes must also receive a
 - Archetypes use row-centered/RMS-scaled profiles so magnitude alone cannot define groups. The selected two-cluster result is a coarse diagnostic because GMM and hierarchical agreement is limited.
 - Era Dominance is recommended as a diagnostic over already normalized evidence, not an independent additive vote. The non-final shortlist retains 18 candidates across seven conceptual families.
 - All pruning outcomes remain experimental and use coverage, lineage, residual uniqueness, component structure, and interpretability together; correlation alone is not a rejection rule.
+
+## Constitutional dimension scores V1
+
+- `docs/constitution/GOATLAB_V1_CONSTITUTION.md` is the machine-facing binding V1 Constitution. `goatlab-v1-dimension-scores-v1` is its versioned scoring implementation.
+- Seven dimensions are operational: Peak, Longevity, Offense, Defense, Playoffs, Accolades, and Winning. Era Dominance remains diagnostic and is not an eighth additive score.
+- Each dimension's final value uses a midrank ECDF on a 0–100 scale against the frozen 2,656-player `BROAD_HIGH_RECALL` reference population. This is outlier-resistant and ordinal; it is not raw min-max scaling.
+- Peak is 70% best complete contiguous three-season quality and 30% apex. Longevity is 35% P80 breadth, 40% capped P80–P90 area, and 25% longest P80 run. All-NBA calibrates the P80 threshold but never enters the Longevity score.
+- Offense combines scoring volume and efficiency before joining creation, then uses qualified Regular Season career evidence. Defense triangulates Regular Season team suppression and coverage-qualified recorded actions; DPOY and All-Defense are excluded.
+- Playoffs is individual postseason evidence led by absolute quality. Winning is participation-conditioned team evidence with one mutually exclusive highest outcome tier per season. The two dimensions share no outcome/performance signal.
+- Accolades separates Major Honors and Sustained Recognition, bundles related within-season evidence, caps related cross-axis stacking, and assigns only 5% support to statistical leaders. NBA Champion events are excluded.
+- Required anchors block a score. Permitted optional-evidence renormalization is explicit and produces partial coverage; NULL and `NOT_QUERIED` never become zero.
+- Confidence describes coverage, relevant seasons, and sample only. It does not multiply or otherwise penalize the dimension score. Active careers are to-date through 2025-26 without projection.
+- Recorded defensive actions pass a portable/action bridge. Modern per-75 Offense and advanced Defense remain diagnostics and never change the universal score.
+- No official Overall score or weights exist in STEP-0014. Cross-dimension correlations and random-simplex combinations exist solely to inform a later effective-weight audit.

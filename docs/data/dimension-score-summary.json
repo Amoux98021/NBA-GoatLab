@@ -1,0 +1,156 @@
+{
+  "accolade_stacking_audit": {
+    "champion_events_used": 0,
+    "cross_axis_same_season_caps": 142,
+    "major_season_bundles": 154,
+    "not_queried_players": 2963,
+    "queried_players": 2140,
+    "statistical_title_weight": 0.05,
+    "sustained_season_bundles": 2196,
+    "unanimous_mvp_bonus_used": false
+  },
+  "committed_report_fingerprint": "9add89cae234fbd36a6d286bb3e0afff3f261a79d477dfa1fc218b280c294210",
+  "complete_seven_dimension_players": 1882,
+  "component_rows": 133995,
+  "confidence_by_dimension": {
+    "ACCOLADES": {
+      "LIMITED": 63,
+      "MODERATE": 131,
+      "STRONG": 1946,
+      "UNAVAILABLE": 2963
+    },
+    "DEFENSE": {
+      "LIMITED": 2008,
+      "MODERATE": 899,
+      "STRONG": 1223,
+      "UNAVAILABLE": 973
+    },
+    "LONGEVITY": {
+      "LIMITED": 1613,
+      "MODERATE": 683,
+      "STRONG": 1891,
+      "UNAVAILABLE": 916
+    },
+    "OFFENSE": {
+      "LIMITED": 2132,
+      "MODERATE": 829,
+      "STRONG": 1226,
+      "UNAVAILABLE": 916
+    },
+    "PEAK": {
+      "LIMITED": 530,
+      "MODERATE": 1926,
+      "UNAVAILABLE": 2647
+    },
+    "PLAYOFFS": {
+      "LIMITED": 1800,
+      "MODERATE": 727,
+      "STRONG": 241,
+      "UNAVAILABLE": 2335
+    },
+    "WINNING": {
+      "LIMITED": 2150,
+      "MODERATE": 895,
+      "STRONG": 2057,
+      "UNAVAILABLE": 1
+    }
+  },
+  "coverage_by_dimension": {
+    "ACCOLADES": {
+      "AVAILABLE": 2140,
+      "NOT_QUERIED": 2963
+    },
+    "DEFENSE": {
+      "AVAILABLE": 2628,
+      "PARTIAL_EVIDENCE": 1502,
+      "SOURCE_UNAVAILABLE": 973
+    },
+    "LONGEVITY": {
+      "AVAILABLE": 4187,
+      "SOURCE_UNAVAILABLE": 916
+    },
+    "OFFENSE": {
+      "AVAILABLE": 2601,
+      "PARTIAL_EVIDENCE": 1586,
+      "SOURCE_UNAVAILABLE": 916
+    },
+    "PEAK": {
+      "AVAILABLE": 1588,
+      "INSUFFICIENT_SAMPLE": 2647,
+      "PARTIAL_EVIDENCE": 868
+    },
+    "PLAYOFFS": {
+      "AVAILABLE": 2684,
+      "INSUFFICIENT_SAMPLE": 2335,
+      "PARTIAL_EVIDENCE": 84
+    },
+    "WINNING": {
+      "AVAILABLE": 5102,
+      "SOURCE_UNAVAILABLE": 1
+    }
+  },
+  "defense_action_bridge_passed": true,
+  "deterministic_rebuild_verified": true,
+  "dimension_score_rows": 35721,
+  "input_fingerprints": {
+    "accolade-fact-completion-summary.json": "e0a3bab4ef5957ab4e0acc1a669f82f508217d139b30599df970248f8c1d1880",
+    "award-canonicalization-summary.json": "666dbbdffd457847342754e116a857db7821e514e304ee23fe118f6d4a5bb258",
+    "career-gold-manifest.json": "5ca40fca8163d0ca89b4ccdd6ca2cca0483e4e94a23e20c7b2140f4d7b08e37b",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "dimension-candidate-summary.json": "e5cd648afbc36306251ec1229b4c9f2beba830ca0ce93056c8e783e596bfc11f",
+    "era-normalization-gold-manifest.json": "a488aaa0c48a464c95afe276a3d2a142eabcc4a69edda7dcc77ebc53644f5852",
+    "historical-corpus-v1-manifest.json": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "structural-validation-summary.json": "0f06e17c382de61a260dbd9eabb872a0613bf2c2146468c2a81bd454c4951093",
+    "team-success-summary.json": "707be9dccdbccd70ba88d0f57d66af990f0cc5fd07127221a7aa0b7d2f17c333"
+  },
+  "master_players": 5103,
+  "methodology_version": "goatlab-v1-dimension-scores-v1",
+  "network_requests": 0,
+  "official_overall_score_created": false,
+  "official_overall_weights_selected": false,
+  "output_fingerprint": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+  "output_partitions": 3,
+  "output_size_bytes": 824060,
+  "partitions": [
+    {
+      "columns": 18,
+      "path": "data/gold/player_dimension_scores/part-00000.parquet",
+      "rows": 35721,
+      "sha256": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4",
+      "size_bytes": 504430
+    },
+    {
+      "columns": 7,
+      "path": "data/gold/player_dimension_components/part-00000.parquet",
+      "rows": 133995,
+      "sha256": "3aa81f18cd77b956fb55ada765c7f2a08c00a4d918749048d0235f652976581d",
+      "size_bytes": 290637
+    },
+    {
+      "columns": 13,
+      "path": "data/gold/player_dimension_sensitivity/part-00000.parquet",
+      "rows": 21,
+      "sha256": "16e69f1dad37f40cf29cccb4f6c119ace3701329431f1dcbccf3f1c2a69d94a4",
+      "size_bytes": 28993
+    }
+  ],
+  "reference_players": 2656,
+  "result": "PASS",
+  "run_at": "2026-09-08T20:00:00Z",
+  "runtime_definition": "baseline successful offline build; preserved across exact certification rebuilds",
+  "runtime_seconds": 49.53696725005284,
+  "selected_longevity_threshold": 0.8,
+  "step": "STEP-0014",
+  "winning_stacking_audit": {
+    "generic_wowy_used": false,
+    "official_champion_awards_used": false,
+    "season_outcome_tier_counts": {
+      "CHAMPION_FINALS_PARTICIPANT": 911,
+      "FINALIST_PARTICIPANT": 905,
+      "MULTI_SERIES_ADVANCEMENT": 1247,
+      "PLAYOFF_PARTICIPANT": 5542,
+      "SERIES_ADVANCEMENT": 3131
+    },
+    "within_season_tiers_are_mutually_exclusive": true
+  }
+}

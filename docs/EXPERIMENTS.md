@@ -99,3 +99,19 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** none. Model-selected player examples were added only after fitting.
 - **Artifacts:** structural reports/registry, ADR-0022 through ADR-0024, ignored Gold/figures, and STEP-0013.
 - **Limitations:** later-era complete-case selection, candidate-scoped awards, early Defense, non-likelihood factor method, bounded hierarchical sample, and cross-model cluster disagreement.
+
+## STEP-0014 constitutional formula finalization and effective-influence audit
+
+- **Objective:** choose stable, interpretable formulas for seven constitutionally owned dimensions and quantify overlap without optimizing against a player ranking.
+- **Inputs:** GOATLAB-HIST-V1, normalization, career, awards, team-success, accolade-completion, STEP-0012 candidate, STEP-0013 structural, and machine-Constitution fingerprints.
+- **Methodology version:** `goatlab-v1-dimension-scores-v1`.
+- **Scale/population:** 0–100 midrank ECDF against the frozen 2,656-player broad-high-recall population; all 5,103 players retain output rows.
+- **Peak experiment:** 60/40, 70/30, and 80/20 three-year/apex blends. All have Spearman at least 0.9996; 70/30 is selected as the balanced constitutionally valid center.
+- **Longevity experiment:** P80/P85/P90/P95 season-quality thresholds with P90 capped season influence. External All-NBA calibration selects P80 by maximum Youden J 0.6781; awards are not formula inputs. P85/P90/P95 Spearman to selected are 0.9275/0.8040/0.6332.
+- **Other perturbations:** Offense volume 60/65/70%; Playoffs 60/25/15, 65/20/15, 70/20/10; Accolades 55/40/5, 60/35/5, 65/30/5; Winning 60/30/10, 65/25/10, 70/20/10. Selected-alternative Spearman is at least 0.9977 outside Longevity.
+- **Bridge experiment:** portable-to-action Defense passes n=3,368, Spearman 0.9883, median raw delta 0.0153. Modern per-75 Offense is correlated (n=2,308, Spearman 0.9322, R² 0.8778) but not used. Advanced Defense fails (n=2,337, Spearman 0.2813, R² 0.0840).
+- **Structural result:** 1,882 complete-score players; Peak–Longevity Spearman 0.9304, Peak–Offense 0.8027, Winning–Accolades 0.4128. Incremental residual variance ranges from 8.3% Peak to 65.8% Winning.
+- **Overall-weight diagnostic:** 500 deterministic random-simplex samples, seed 140014. Mean/minimum Spearman versus an equal-weight diagnostic is 0.9599/0.7404; mean/minimum top-50 overlap is 0.821/0.56. No official Overall or weight vector was selected.
+- **Optimization target:** none. Famous-player case studies were inspected only after formula selection and never altered a formula.
+- **Artifacts:** GOAT_DIMENSION_SCORES_V1, formula registry, sensitivity/cross-audit/era/bridge/case-study reports, ADR-0025/0026, and STEP-0014.
+- **Limitations:** candidate-scoped Accolades, early Defense confidence, sparse playoff evidence, incomplete historical position coverage, and genuine Peak/Longevity overlap.

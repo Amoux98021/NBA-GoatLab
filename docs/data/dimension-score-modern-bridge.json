@@ -1,0 +1,54 @@
+{
+  "defense_restricted_action_bridge": {
+    "bridge_name": "DEFENSE_RESTRICTED_TO_ACTION_ENRICHED",
+    "median_absolute_raw_delta": 0.015304119086165413,
+    "overlap_players": 3368,
+    "passes": true,
+    "predeclared_thresholds": {
+      "maximum_median_delta": 0.15,
+      "minimum_spearman": 0.8
+    },
+    "spearman": 0.9882916652584872,
+    "universal_action_evidence_selected": true
+  },
+  "methodology_version": "goatlab-v1-dimension-scores-v1",
+  "modern_defense_bridge": {
+    "archetype_bias_status": "DESCRIPTIVE_ONLY_STEP_0013_COARSE_CLUSTERS",
+    "bridge": "UNIVERSAL_DEFENSE_VS_ADVANCED_DEF_RATING",
+    "linear_r_squared": 0.08400159422140607,
+    "mean_residual_by_debut_era": {
+      "1970S": 37.92451600621689,
+      "1980S": -1.1172747025544356,
+      "1990S": -1.432033673639088,
+      "2000S": 0.9118256295638614,
+      "2010S": -0.4467323676053091,
+      "2020S": 1.252572298279252
+    },
+    "median_absolute_residual": 25.774082873461055,
+    "overlap_players": 2337,
+    "pearson": 0.2898302852039552,
+    "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+    "spearman": 0.28125667663848014,
+    "universal_score_changed": false
+  },
+  "modern_offense_bridge": {
+    "archetype_bias_status": "DESCRIPTIVE_ONLY_STEP_0013_COARSE_CLUSTERS",
+    "bridge": "UNIVERSAL_OFFENSE_VS_PER75_ENRICHMENT",
+    "linear_r_squared": 0.8777946685258515,
+    "mean_residual_by_debut_era": {
+      "1970S": -41.61480651929936,
+      "1980S": -14.543845766526976,
+      "1990S": 0.5909443572937663,
+      "2000S": 1.4989674324569502,
+      "2010S": 0.8771504615640153,
+      "2020S": 0.7647236057457165
+    },
+    "median_absolute_residual": 5.018167320379643,
+    "overlap_players": 2308,
+    "pearson": 0.9369069689813667,
+    "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+    "spearman": 0.9322364583221896,
+    "universal_score_changed": false
+  },
+  "policy": "Modern enrichment remains diagnostic in V1 even when correlated; no modern-only bonus is applied."
+}

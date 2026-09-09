@@ -1,0 +1,710 @@
+{
+  "methodology_version": "goatlab-v1-dimension-scores-v1",
+  "optimization_target": "NONE",
+  "players": [
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "diagnostic_only": true,
+      "display_name": "Kevin Durant",
+      "nba_player_id": "201142",
+      "player_id": "player_1b91b9433ba05bf8898bb53db51b4826",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.57527135441246
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 81.83873398643557
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.54802259887006
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.28436911487759
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 97.10794297352342
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.59587538394032
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.75706214689265
+        }
+      }
+    },
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "diagnostic_only": true,
+      "display_name": "Stephen Curry",
+      "nba_player_id": "201939",
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.52807928268051
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 61.64280331574981
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.64406779661017
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.81167608286252
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 95.56008146639512
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.33260201842914
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.3804143126177
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Shaquille O'Neal",
+      "nba_player_id": "406",
+      "player_id": "player_4c8e42fcb36d59baaaebcc5bc75ca6a8",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.7168475696083
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 84.55162019593067
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.13370998116761
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 95.66854990583803
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 92.74949083503056
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 97.80605528740676
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.73634651600753
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Ben Wallace",
+      "nba_player_id": "1112",
+      "player_id": "player_4f49f92700925d318a60491a09a749ff",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.44266163284568
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 95.2147701582517
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 93.18267419962335
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 35.06591337099812
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 91.44602851323829
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 91.57525230364195
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 93.18267419962335
+        }
+      }
+    },
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "diagnostic_only": true,
+      "display_name": "Rudy Gobert",
+      "nba_player_id": "203497",
+      "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.10335063709297
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.98266767143933
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 97.6647834274953
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 75.29190207156309
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 97.39307535641548
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 94.29574374725757
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 87.984934086629
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Wilt Chamberlain",
+      "nba_player_id": "76375",
+      "player_id": "player_860bacb725f05f02b5871e085270f726",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.85842378480416
+        },
+        "DEFENSE": {
+          "confidence": "LIMITED",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 71.70308967596081
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 94.57627118644068
+        },
+        "OFFENSE": {
+          "confidence": "LIMITED",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 99.24670433145009
+        },
+        "PEAK": {
+          "confidence": "LIMITED",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 96.21181262729124
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.91224221149628
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.71939736346516
+        }
+      }
+    },
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "diagnostic_only": true,
+      "display_name": "Nikola Jokic",
+      "nba_player_id": "203999",
+      "player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.33931099575271
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 87.7166541070083
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 97.89077212806026
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.51035781544256
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 99.06313645621181
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.03466432645898
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 89.75517890772129
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Magic Johnson",
+      "nba_player_id": "77142",
+      "player_id": "player_8f4568aa56f35088b26a2d5f0a00b995",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.8112317130722
+        },
+        "DEFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 81.6126601356443
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 97.21280602636534
+        },
+        "OFFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 99.62335216572505
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 99.59266802443992
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.51733216322948
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.66101694915254
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Larry Bird",
+      "nba_player_id": "1449",
+      "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.25389334591789
+        },
+        "DEFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 97.81461944235117
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.75706214689265
+        },
+        "OFFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 99.2090395480226
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 99.5112016293279
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.15708644142168
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.02071563088512
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Michael Jordan",
+      "nba_player_id": "893",
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.9056158565361
+        },
+        "DEFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 98.30444611906556
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.71939736346516
+        },
+        "OFFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 98.90772128060263
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 99.87780040733197
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.07854322071084
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.43502824858757
+        }
+      }
+    },
+    {
+      "career_status": "ACTIVE_TO_CUTOFF",
+      "diagnostic_only": true,
+      "display_name": "LeBron James",
+      "nba_player_id": "2544",
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.95280792826806
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 95.13941220798795
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 100.0
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.92467043314501
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 99.95926680244399
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.16630100921456
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.83050847457628
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Tim Duncan",
+      "nba_player_id": "1495",
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.34827748938179
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.81160512434062
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.9623352165725
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 94.87758945386064
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 99.95926680244399
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 96.48968845985081
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.9623352165725
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Bill Russell",
+      "nba_player_id": "78049",
+      "player_id": "player_c0f05230945752728b22330b9dc82c5b",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.76403964134026
+        },
+        "DEFENSE": {
+          "confidence": "LIMITED",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 98.04069329314243
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 96.42184557438794
+        },
+        "OFFENSE": {
+          "confidence": "LIMITED",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 86.74199623352166
+        },
+        "PEAK": {
+          "confidence": "LIMITED",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 93.48268839103869
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.55199648968846
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.83050847457628
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Kobe Bryant",
+      "nba_player_id": "977",
+      "player_id": "player_dd5f0bde53db5cef8a1d3b738e9d67b9",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.66965549787636
+        },
+        "DEFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 61.52976639035418
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.39736346516007
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 97.85310734463278
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "AVAILABLE",
+          "score": 94.78615071283096
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 96.18253620008775
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.54802259887006
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Kareem Abdul-Jabbar",
+      "nba_player_id": "76003",
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 100.0
+        },
+        "DEFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 90.46721929163527
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.81167608286252
+        },
+        "OFFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 98.98305084745763
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 99.79633401221996
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 98.68363317244406
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 100.0
+        }
+      }
+    },
+    {
+      "career_status": "SOURCE_CONFIRMED_COMPLETE",
+      "diagnostic_only": true,
+      "display_name": "Hakeem Olajuwon",
+      "nba_player_id": "165",
+      "player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a",
+      "scores": {
+        "ACCOLADES": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.6224634261444
+        },
+        "DEFENSE": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 94.95101733232856
+        },
+        "LONGEVITY": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.2090395480226
+        },
+        "OFFENSE": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 90.77212806026365
+        },
+        "PEAK": {
+          "confidence": "MODERATE",
+          "coverage": "PARTIAL_EVIDENCE",
+          "score": 96.82281059063136
+        },
+        "PLAYOFFS": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 99.42957437472576
+        },
+        "WINNING": {
+          "confidence": "STRONG",
+          "coverage": "AVAILABLE",
+          "score": 94.0677966101695
+        }
+      }
+    }
+  ]
+}

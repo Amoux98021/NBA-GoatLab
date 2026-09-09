@@ -1,0 +1,4193 @@
+{
+  "longevity_all_nba_calibration": [
+    {
+      "all_nba_at_or_above": 837,
+      "all_nba_capture_rate": 0.849746192893401,
+      "all_nba_seasons_observed": 985,
+      "award_role": "CALIBRATION_ONLY_NOT_FORMULA_INPUT",
+      "calibration_youden_j": 0.6781273404343846,
+      "non_all_nba_below_rate": 0.8283811475409836,
+      "threshold": 0.8
+    },
+    {
+      "all_nba_at_or_above": 761,
+      "all_nba_capture_rate": 0.7725888324873097,
+      "all_nba_seasons_observed": 985,
+      "award_role": "CALIBRATION_ONLY_NOT_FORMULA_INPUT",
+      "calibration_youden_j": 0.6496380128151786,
+      "non_all_nba_below_rate": 0.8770491803278688,
+      "threshold": 0.85
+    },
+    {
+      "all_nba_at_or_above": 654,
+      "all_nba_capture_rate": 0.6639593908629442,
+      "all_nba_seasons_observed": 985,
+      "award_role": "CALIBRATION_ONLY_NOT_FORMULA_INPUT",
+      "calibration_youden_j": 0.5882794355723333,
+      "non_all_nba_below_rate": 0.924320044709389,
+      "threshold": 0.9
+    },
+    {
+      "all_nba_at_or_above": 462,
+      "all_nba_capture_rate": 0.46903553299492384,
+      "all_nba_seasons_observed": 985,
+      "award_role": "CALIBRATION_ONLY_NOT_FORMULA_INPUT",
+      "calibration_youden_j": 0.43643493686973756,
+      "non_all_nba_below_rate": 0.9673994038748137,
+      "threshold": 0.95
+    }
+  ],
+  "methodology_version": "goatlab-v1-dimension-scores-v1",
+  "records": [
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.5557002794486806,
+          "players": 344
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.5602951020466297,
+          "players": 143
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.6236378738056991,
+          "players": 1969
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.6104340672827507,
+          "players": 2456
+        }
+      },
+      "dimension": "PEAK",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.6898130852384334,
+          "players": 169
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.6272912423625256,
+          "players": 300
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.5844631946464942,
+          "players": 350
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.5159905322838112,
+          "players": 370
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.5735397967433912,
+          "players": 398
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.5629784394971555,
+          "players": 464
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.5823931897755098,
+          "players": 178
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.906717388768763,
+          "players": 227
+        }
+      },
+      "formula_id": "THREE_YEAR_60",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 116.0,
+          "alternative_rank": 1659.0,
+          "alternative_score": 32.46435845213849,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul 'The Bear' Hoffman",
+          "player_id": "player_e10155d33b275787965241e8c087f1a1",
+          "selected_rank": 1775.0,
+          "selected_score": 27.739307535641547
+        },
+        {
+          "absolute_rank_change": 103.0,
+          "alternative_rank": 1572.0,
+          "alternative_score": 36.0081466395112,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Francis Crossin",
+          "player_id": "player_4d6c535201f4566eab97b2e2d6cb7f69",
+          "selected_rank": 1675.0,
+          "selected_score": 31.81262729124236
+        },
+        {
+          "absolute_rank_change": 102.0,
+          "alternative_rank": 1307.0,
+          "alternative_score": 46.80244399185336,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Wayne Hightower",
+          "player_id": "player_f70020402691560d9c2116d2b436a349",
+          "selected_rank": 1409.0,
+          "selected_score": 42.64765784114053
+        },
+        {
+          "absolute_rank_change": 89.0,
+          "alternative_rank": 1279.0,
+          "alternative_score": 47.942973523421585,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Jack Nichols",
+          "player_id": "player_02c0b92a26f95744b7c06a6ed72a7fac",
+          "selected_rank": 1368.0,
+          "selected_score": 44.317718940936864
+        },
+        {
+          "absolute_rank_change": 89.0,
+          "alternative_rank": 1368.0,
+          "alternative_score": 44.317718940936864,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Buddy Jeannette",
+          "player_id": "player_3cc8b3399d845f9a8bb0ff36832a864d",
+          "selected_rank": 1457.0,
+          "selected_score": 40.69246435845214
+        },
+        {
+          "absolute_rank_change": 86.0,
+          "alternative_rank": 1455.0,
+          "alternative_score": 40.77393075356415,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Jim Les",
+          "player_id": "player_372fa6d411835641bb5647b378a55158",
+          "selected_rank": 1541.0,
+          "selected_score": 37.270875763747455
+        },
+        {
+          "absolute_rank_change": 84.0,
+          "alternative_rank": 1570.0,
+          "alternative_score": 36.08961303462322,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Kevin O'Shea",
+          "player_id": "player_2e7415aca862524eb41c6a6345e9228a",
+          "selected_rank": 1654.0,
+          "selected_score": 32.66802443991853
+        },
+        {
+          "absolute_rank_change": 84.0,
+          "alternative_rank": 1060.0,
+          "alternative_score": 56.86354378818737,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Irv Torgoff",
+          "player_id": "player_9a554a81fb6457efa7a82d1f1b7d26a8",
+          "selected_rank": 1144.0,
+          "selected_score": 53.44195519348269
+        },
+        {
+          "absolute_rank_change": 83.0,
+          "alternative_rank": 1391.0,
+          "alternative_score": 43.38085539714868,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Walter Devlin",
+          "player_id": "player_c5bd01090a355e4da507bb307f92c2ca",
+          "selected_rank": 1474.0,
+          "selected_score": 40.0
+        },
+        {
+          "absolute_rank_change": 82.0,
+          "alternative_rank": 1224.0,
+          "alternative_score": 50.18329938900204,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Alvin Attles",
+          "player_id": "player_b8159eba3bee54d291f87dcaad432873",
+          "selected_rank": 1306.0,
+          "selected_score": 46.84317718940937
+        }
+      ],
+      "mean_absolute_score_change": 0.6104340672827507,
+      "missingness_sensitivity": {
+        "alternative_available": 2456,
+        "alternative_only": 0,
+        "both_available": 2456,
+        "selected_available": 2456,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 2456,
+      "spearman": 0.9995838914471923,
+      "top_n_overlap": {
+        "100": 0.97,
+        "25": 1.0,
+        "50": 0.96
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.0,
+          "players": 344
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 143
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 1969
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 2456
+        }
+      },
+      "dimension": "PEAK",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 169
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 300
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 350
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 370
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 398
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 464
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 178
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.0,
+          "players": 227
+        }
+      },
+      "formula_id": "THREE_YEAR_70",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1826.0,
+          "alternative_score": 25.661914460285132,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kenny Gattison",
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+          "selected_rank": 1826.0,
+          "selected_score": 25.661914460285132
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 353.0,
+          "alternative_score": 85.66191446028513,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Brandon Jennings",
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155",
+          "selected_rank": 353.0,
+          "selected_score": 85.66191446028513
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 460.0,
+          "alternative_score": 81.30346232179227,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Robert Horry",
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+          "selected_rank": 460.0,
+          "selected_score": 81.30346232179227
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1091.0,
+          "alternative_score": 55.60081466395112,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dillon Brooks",
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+          "selected_rank": 1091.0,
+          "selected_score": 55.60081466395112
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 325.0,
+          "alternative_score": 86.80244399185337,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul Seymour",
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+          "selected_rank": 325.0,
+          "selected_score": 86.80244399185337
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1179.0,
+          "alternative_score": 52.016293279022406,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Gene Tormohlen",
+          "player_id": "player_0059251a50ce5add9b5408396510dce6",
+          "selected_rank": 1179.0,
+          "selected_score": 52.016293279022406
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 952.0,
+          "alternative_score": 61.26272912423625,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Ramon Sessions",
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8",
+          "selected_rank": 952.0,
+          "selected_score": 61.26272912423625
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1712.0,
+          "alternative_score": 30.305498981670063,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Chucky Brown",
+          "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+          "selected_rank": 1712.0,
+          "selected_score": 30.305498981670063
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 122.0,
+          "alternative_score": 95.07128309572302,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Joe Dumars",
+          "player_id": "player_00eab900a9085ab28822b085b517b0cf",
+          "selected_rank": 122.0,
+          "selected_score": 95.07128309572302
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1581.0,
+          "alternative_score": 35.64154786150713,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Duane Causwell",
+          "player_id": "player_01077d88af5951c3b782a4f1cd2072f3",
+          "selected_rank": 1581.0,
+          "selected_score": 35.64154786150713
+        }
+      ],
+      "mean_absolute_score_change": 0.0,
+      "missingness_sensitivity": {
+        "alternative_available": 2456,
+        "alternative_only": 0,
+        "both_available": 2456,
+        "selected_available": 2456,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": true,
+      "shared_players": 2456,
+      "spearman": 1.0,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.5399516885331312,
+          "players": 344
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.5466224203495078,
+          "players": 143
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.6041297959512981,
+          "players": 1969
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.591792327033177,
+          "players": 2456
+        }
+      },
+      "dimension": "PEAK",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.6808951662468817,
+          "players": 169
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.5941615750169724,
+          "players": 300
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.5781786441664244,
+          "players": 350
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.5145593658831948,
+          "players": 370
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.5517403719207034,
+          "players": 398
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.540417164126694,
+          "players": 464
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.5805624842673747,
+          "players": 178
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.8532438518890691,
+          "players": 227
+        }
+      },
+      "formula_id": "THREE_YEAR_80",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 113.0,
+          "alternative_rank": 1522.0,
+          "alternative_score": 38.044806517311606,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Wayne Hightower",
+          "player_id": "player_f70020402691560d9c2116d2b436a349",
+          "selected_rank": 1409.0,
+          "selected_score": 42.64765784114053
+        },
+        {
+          "absolute_rank_change": 103.0,
+          "alternative_rank": 1471.0,
+          "alternative_score": 40.122199592668025,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Jack Nichols",
+          "player_id": "player_02c0b92a26f95744b7c06a6ed72a7fac",
+          "selected_rank": 1368.0,
+          "selected_score": 44.317718940936864
+        },
+        {
+          "absolute_rank_change": 99.0,
+          "alternative_rank": 1874.0,
+          "alternative_score": 23.706720977596742,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul 'The Bear' Hoffman",
+          "player_id": "player_e10155d33b275787965241e8c087f1a1",
+          "selected_rank": 1775.0,
+          "selected_score": 27.739307535641547
+        },
+        {
+          "absolute_rank_change": 95.0,
+          "alternative_rank": 1569.0,
+          "alternative_score": 36.13034623217923,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Walter Devlin",
+          "player_id": "player_c5bd01090a355e4da507bb307f92c2ca",
+          "selected_rank": 1474.0,
+          "selected_score": 40.0
+        },
+        {
+          "absolute_rank_change": 84.0,
+          "alternative_rank": 1625.0,
+          "alternative_score": 33.84928716904277,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Jim Les",
+          "player_id": "player_372fa6d411835641bb5647b378a55158",
+          "selected_rank": 1541.0,
+          "selected_score": 37.270875763747455
+        },
+        {
+          "absolute_rank_change": 84.0,
+          "alternative_rank": 1541.0,
+          "alternative_score": 37.270875763747455,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Buddy Jeannette",
+          "player_id": "player_3cc8b3399d845f9a8bb0ff36832a864d",
+          "selected_rank": 1457.0,
+          "selected_score": 40.69246435845214
+        },
+        {
+          "absolute_rank_change": 83.0,
+          "alternative_rank": 1758.0,
+          "alternative_score": 28.431771894093686,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Francis Crossin",
+          "player_id": "player_4d6c535201f4566eab97b2e2d6cb7f69",
+          "selected_rank": 1675.0,
+          "selected_score": 31.81262729124236
+        },
+        {
+          "absolute_rank_change": 83.0,
+          "alternative_rank": 1669.0,
+          "alternative_score": 32.057026476578415,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Willie McCarter",
+          "player_id": "player_7d46b0f7cb715a6180a69b57562868b6",
+          "selected_rank": 1586.0,
+          "selected_score": 35.437881873727086
+        },
+        {
+          "absolute_rank_change": 83.0,
+          "alternative_rank": 2237.0,
+          "alternative_score": 8.920570264765784,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Ekpe Udoh",
+          "player_id": "player_d67bcf344c405c4986d5d14ae2da1641",
+          "selected_rank": 2154.0,
+          "selected_score": 12.301425661914461
+        },
+        {
+          "absolute_rank_change": 78.0,
+          "alternative_rank": 1732.0,
+          "alternative_score": 29.4908350305499,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Kevin O'Shea",
+          "player_id": "player_2e7415aca862524eb41c6a6345e9228a",
+          "selected_rank": 1654.0,
+          "selected_score": 32.66802443991853
+        }
+      ],
+      "mean_absolute_score_change": 0.591792327033177,
+      "missingness_sensitivity": {
+        "alternative_available": 2456,
+        "alternative_only": 0,
+        "both_available": 2456,
+        "selected_available": 2456,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 2456,
+      "spearman": 0.9996100454024174,
+      "top_n_overlap": {
+        "100": 0.98,
+        "25": 1.0,
+        "50": 0.98
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.0,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 3465
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 4187
+        }
+      },
+      "dimension": "LONGEVITY",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 265
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 518
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.0,
+          "players": 560
+        }
+      },
+      "formula_id": "THRESHOLD_0.80",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2689.0,
+          "alternative_score": 28.22975517890772,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Gary Garland",
+          "player_id": "player_000e9913ded45790aea108ddc1808a56",
+          "selected_rank": 2689.0,
+          "selected_score": 28.22975517890772
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2689.0,
+          "alternative_score": 28.22975517890772,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kenny Gattison",
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+          "selected_rank": 2689.0,
+          "selected_score": 28.22975517890772
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 319.0,
+          "alternative_score": 88.0225988700565,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Brandon Jennings",
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155",
+          "selected_rank": 319.0,
+          "selected_score": 88.0225988700565
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 275.0,
+          "alternative_score": 89.67984934086628,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Robert Horry",
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+          "selected_rank": 275.0,
+          "selected_score": 89.67984934086628
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2689.0,
+          "alternative_score": 28.22975517890772,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Travis Williams",
+          "player_id": "player_0030b57931cc5049a0e1d17f3cbd8994",
+          "selected_rank": 2689.0,
+          "selected_score": 28.22975517890772
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2689.0,
+          "alternative_score": 28.22975517890772,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Jaylen Wells",
+          "player_id": "player_00364ef7d8545b528e05b56ddc6c4343",
+          "selected_rank": 2689.0,
+          "selected_score": 28.22975517890772
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2689.0,
+          "alternative_score": 28.22975517890772,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dillon Brooks",
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+          "selected_rank": 2689.0,
+          "selected_score": 28.22975517890772
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 403.0,
+          "alternative_score": 84.85875706214689,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul Seymour",
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+          "selected_rank": 403.0,
+          "selected_score": 84.85875706214689
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2689.0,
+          "alternative_score": 28.22975517890772,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Gene Tormohlen",
+          "player_id": "player_0059251a50ce5add9b5408396510dce6",
+          "selected_rank": 2689.0,
+          "selected_score": 28.22975517890772
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 801.0,
+          "alternative_score": 69.90583804143127,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Ramon Sessions",
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8",
+          "selected_rank": 801.0,
+          "selected_score": 69.90583804143127
+        }
+      ],
+      "mean_absolute_score_change": 0.0,
+      "missingness_sensitivity": {
+        "alternative_available": 4187,
+        "alternative_only": 0,
+        "both_available": 4187,
+        "selected_available": 4187,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": true,
+      "shared_players": 4187,
+      "spearman": 1.0,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 5.008652720517128,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 4.9494110261807185,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 4.715614580021361,
+          "players": 3465
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 4.763259249663902,
+          "players": 4187
+        }
+      },
+      "dimension": "LONGEVITY",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 4.795508652240345,
+          "players": 265
+        },
+        "1970S": {
+          "mean_absolute_score_change": 4.721695060678113,
+          "players": 518
+        },
+        "1980S": {
+          "mean_absolute_score_change": 4.828175406440612,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 4.500740203631532,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 4.757107138954772,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 4.792870290572102,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 4.683809423236005,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 5.014124293785312,
+          "players": 560
+        }
+      },
+      "formula_id": "THRESHOLD_0.85",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 2030.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Josh Giddey",
+          "player_id": "player_1968cbe054075ae4a05302ee0b6a28da",
+          "selected_rank": 555.0,
+          "selected_score": 79.13370998116761
+        },
+        {
+          "absolute_rank_change": 1957.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2010S",
+          "display_name": "Jae Crowder",
+          "player_id": "player_22ac1734fb315ebc97fa6f9437cf1508",
+          "selected_rank": 628.0,
+          "selected_score": 76.38418079096046
+        },
+        {
+          "absolute_rank_change": 1940.5,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Kentavious Caldwell-Pope",
+          "player_id": "player_d6f34b51004952299c8b61821fe3d8eb",
+          "selected_rank": 644.5,
+          "selected_score": 75.76271186440678
+        },
+        {
+          "absolute_rank_change": 1937.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kevin Gamble",
+          "player_id": "player_43d0da9eeaa95ffd99952e25b6730d91",
+          "selected_rank": 648.0,
+          "selected_score": 75.63088512241055
+        },
+        {
+          "absolute_rank_change": 1929.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Blue Edwards",
+          "player_id": "player_19bc4507c873583bb4bf70f4f4df0d67",
+          "selected_rank": 656.0,
+          "selected_score": 75.32956685499059
+        },
+        {
+          "absolute_rank_change": 1923.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Michael Redd",
+          "player_id": "player_a004f8eab23951d1b1955c464c310849",
+          "selected_rank": 662.0,
+          "selected_score": 75.1035781544256
+        },
+        {
+          "absolute_rank_change": 1894.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Trey Murphy III",
+          "player_id": "player_a35d5987d6955e04b7cb57cf1bf06acf",
+          "selected_rank": 691.0,
+          "selected_score": 74.04896421845574
+        },
+        {
+          "absolute_rank_change": 1852.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Jakob Poeltl",
+          "player_id": "player_b4c5521f625a5f07ac8d46359ef17bfd",
+          "selected_rank": 733.0,
+          "selected_score": 72.46704331450094
+        },
+        {
+          "absolute_rank_change": 1851.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "George Lynch",
+          "player_id": "player_be1cd7b0bf4b5ca0b9ee2929c256e9a4",
+          "selected_rank": 734.0,
+          "selected_score": 72.42937853107344
+        },
+        {
+          "absolute_rank_change": 1846.0,
+          "alternative_rank": 2585.0,
+          "alternative_score": 31.84557438794727,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2010S",
+          "display_name": "Ish Smith",
+          "player_id": "player_eae256c56e205987bc33d149dc4c5bbb",
+          "selected_rank": 739.0,
+          "selected_score": 72.24105461393597
+        }
+      ],
+      "mean_absolute_score_change": 4.763259249663902,
+      "missingness_sensitivity": {
+        "alternative_available": 4187,
+        "alternative_only": 0,
+        "both_available": 4187,
+        "selected_available": 4187,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 4187,
+      "spearman": 0.9275021105819647,
+      "top_n_overlap": {
+        "100": 0.86,
+        "25": 0.84,
+        "50": 0.86
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 10.65175344836362,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 10.577157416638974,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 10.161230274224625,
+          "players": 3465
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 10.242180869222603,
+          "players": 4187
+        }
+      },
+      "dimension": "LONGEVITY",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 10.52105319262339,
+          "players": 265
+        },
+        "1970S": {
+          "mean_absolute_score_change": 9.981240320223373,
+          "players": 518
+        },
+        "1980S": {
+          "mean_absolute_score_change": 10.240188525333092,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 10.335223286369848,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 10.520333198357148,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 10.317118324874718,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 9.91375820617069,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 10.125571697605597,
+          "players": 560
+        }
+      },
+      "formula_id": "THRESHOLD_0.90",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 2223.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Bradley Beal",
+          "player_id": "player_fd1fb1592e235bd0a757f21c03e216f6",
+          "selected_rank": 227.0,
+          "selected_score": 91.48775894538606
+        },
+        {
+          "absolute_rank_change": 2209.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Rodney Stuckey",
+          "player_id": "player_78f04de0fff15476aa7c418405100b44",
+          "selected_rank": 241.0,
+          "selected_score": 90.96045197740114
+        },
+        {
+          "absolute_rank_change": 2187.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Nick Anderson",
+          "player_id": "player_578eaee46b6852279f16ccf04a1ae744",
+          "selected_rank": 263.0,
+          "selected_score": 90.13182674199624
+        },
+        {
+          "absolute_rank_change": 2185.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Steve Nash",
+          "player_id": "player_4dca31a528245bb9b732789db75ecb69",
+          "selected_rank": 265.0,
+          "selected_score": 90.05649717514125
+        },
+        {
+          "absolute_rank_change": 2176.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Jamaal Wilkes",
+          "player_id": "player_b8877bc0e7485a6b80e927dbc26d7da9",
+          "selected_rank": 274.0,
+          "selected_score": 89.71751412429379
+        },
+        {
+          "absolute_rank_change": 2162.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Tony Allen",
+          "player_id": "player_53076504c1f1513ca72581f28c438c5e",
+          "selected_rank": 288.0,
+          "selected_score": 89.19020715630886
+        },
+        {
+          "absolute_rank_change": 2151.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Bruce Bowen",
+          "player_id": "player_4373698c22b956448da037c4c3317ab4",
+          "selected_rank": 299.0,
+          "selected_score": 88.77589453860641
+        },
+        {
+          "absolute_rank_change": 2147.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Vinnie Johnson",
+          "player_id": "player_4bda46e4ee3b505a9c9a53f5a7868858",
+          "selected_rank": 303.0,
+          "selected_score": 88.62523540489642
+        },
+        {
+          "absolute_rank_change": 2130.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Doug Christie",
+          "player_id": "player_42d59f91ad2857748dc7c220e71e11c3",
+          "selected_rank": 320.0,
+          "selected_score": 87.984934086629
+        },
+        {
+          "absolute_rank_change": 2098.0,
+          "alternative_rank": 2450.0,
+          "alternative_score": 36.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Richie Guerin",
+          "player_id": "player_87070f18b1c853b4858ce8238495071c",
+          "selected_rank": 352.0,
+          "selected_score": 86.77966101694915
+        }
+      ],
+      "mean_absolute_score_change": 10.242180869222603,
+      "missingness_sensitivity": {
+        "alternative_available": 4187,
+        "alternative_only": 0,
+        "both_available": 4187,
+        "selected_available": 4187,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 4187,
+      "spearman": 0.8039799862873918,
+      "top_n_overlap": {
+        "100": 0.79,
+        "25": 0.76,
+        "50": 0.7
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 16.020911953115345,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 15.650179092352573,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 15.747010052094799,
+          "players": 3465
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 15.776178351340377,
+          "players": 4187
+        }
+      },
+      "dimension": "LONGEVITY",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 15.847137831787657,
+          "players": 265
+        },
+        "1970S": {
+          "mean_absolute_score_change": 15.480262344669127,
+          "players": 518
+        },
+        "1980S": {
+          "mean_absolute_score_change": 16.071314675502116,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 16.33755299757294,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 15.776273757415657,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 15.936991286028922,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 15.04303289508422,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 15.515200430454671,
+          "players": 560
+        }
+      },
+      "formula_id": "THRESHOLD_0.95",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 2212.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kevin Johnson",
+          "player_id": "player_628268dadcf35fdabbcc63e9e981a3b7",
+          "selected_rank": 94.0,
+          "selected_score": 96.49717514124293
+        },
+        {
+          "absolute_rank_change": 2183.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Stephon Marbury",
+          "player_id": "player_993f8838c16c5eb9bcccc89f4540621b",
+          "selected_rank": 123.0,
+          "selected_score": 95.40489642184558
+        },
+        {
+          "absolute_rank_change": 2180.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Terry Porter",
+          "player_id": "player_665fc1d4ffeb5c9eb2d950d8f4575fba",
+          "selected_rank": 126.0,
+          "selected_score": 95.29190207156309
+        },
+        {
+          "absolute_rank_change": 2177.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Thomas Sanders",
+          "player_id": "player_ea85beb361a8533194ad652e97f570a5",
+          "selected_rank": 129.0,
+          "selected_score": 95.17890772128061
+        },
+        {
+          "absolute_rank_change": 2174.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "David Wesley",
+          "player_id": "player_17572da6a0b755c694952c9bedc72eec",
+          "selected_rank": 132.0,
+          "selected_score": 95.06591337099812
+        },
+        {
+          "absolute_rank_change": 2151.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Mark Aguirre",
+          "player_id": "player_f507b5f7f5d0527385e86e5542aa277f",
+          "selected_rank": 155.0,
+          "selected_score": 94.19962335216573
+        },
+        {
+          "absolute_rank_change": 2143.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Jojo White",
+          "player_id": "player_1b8109bf48e05f28b67f0e58a50b69a0",
+          "selected_rank": 163.0,
+          "selected_score": 93.89830508474576
+        },
+        {
+          "absolute_rank_change": 2139.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Damon Stoudamire",
+          "player_id": "player_d3d5d6e65d165c40b1ca259978904734",
+          "selected_rank": 167.0,
+          "selected_score": 93.74764595103578
+        },
+        {
+          "absolute_rank_change": 2131.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Hersey Hawkins",
+          "player_id": "player_d39626d98c6d5b708c824d184bbeeb3c",
+          "selected_rank": 175.0,
+          "selected_score": 93.44632768361582
+        },
+        {
+          "absolute_rank_change": 2123.0,
+          "alternative_rank": 2306.0,
+          "alternative_score": 42.07156308851224,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Mario Chalmers",
+          "player_id": "player_129d8214886b569893f4179b99aff927",
+          "selected_rank": 183.0,
+          "selected_score": 93.14500941619586
+        }
+      ],
+      "mean_absolute_score_change": 15.776178351340377,
+      "missingness_sensitivity": {
+        "alternative_available": 4187,
+        "alternative_only": 0,
+        "both_available": 4187,
+        "selected_available": 4187,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 4187,
+      "spearman": 0.6331523245546764,
+      "top_n_overlap": {
+        "100": 0.68,
+        "25": 0.72,
+        "50": 0.54
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.7806353569065436,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.6685499058380416,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.5042732952337472,
+          "players": 3465
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.5464677008964615,
+          "players": 4187
+        }
+      },
+      "dimension": "OFFENSE",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.3330135380023451,
+          "players": 265
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.35723374706425554,
+          "players": 518
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.5946806046506944,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.5693357637525135,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.6104458713355575,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.6803600497941206,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.8049527430170548,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.31752757600215226,
+          "players": 560
+        }
+      },
+      "formula_id": "SCORING_VOLUME_60",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 191.0,
+          "alternative_rank": 2028.0,
+          "alternative_score": 35.44256120527307,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Joe Kopicki",
+          "player_id": "player_599fb8e5208052bb94e844664eadd983",
+          "selected_rank": 2219.0,
+          "selected_score": 30.847457627118644
+        },
+        {
+          "absolute_rank_change": 178.0,
+          "alternative_rank": 2774.0,
+          "alternative_score": 16.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Jason Lawson",
+          "player_id": "player_4a9d902e44cf59ec8b79e51c2361340f",
+          "selected_rank": 2952.0,
+          "selected_score": 12.693032015065913
+        },
+        {
+          "absolute_rank_change": 169.0,
+          "alternative_rank": 2701.0,
+          "alternative_score": 18.07909604519774,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2010S",
+          "display_name": "Chris Silva",
+          "player_id": "player_4fef3c177e305f14a01a091c55926431",
+          "selected_rank": 2870.0,
+          "selected_score": 14.274952919020716
+        },
+        {
+          "absolute_rank_change": 162.0,
+          "alternative_rank": 2452.0,
+          "alternative_score": 24.595103578154426,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Lucas Nogueira",
+          "player_id": "player_149f8f131698542c8ed1c82edbc29a27",
+          "selected_rank": 2614.0,
+          "selected_score": 20.263653483992467
+        },
+        {
+          "absolute_rank_change": 159.0,
+          "alternative_rank": 2413.0,
+          "alternative_score": 25.649717514124294,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Jericho Sims",
+          "player_id": "player_d04a1e8a5f9351c5b443f0e06d4f608e",
+          "selected_rank": 2572.0,
+          "selected_score": 21.35593220338983
+        },
+        {
+          "absolute_rank_change": 158.0,
+          "alternative_rank": 2648.0,
+          "alternative_score": 19.322033898305083,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Isaac Jones",
+          "player_id": "player_9239abe7aef85d158f774f56048d3491",
+          "selected_rank": 2806.0,
+          "selected_score": 15.856873822975517
+        },
+        {
+          "absolute_rank_change": 156.0,
+          "alternative_rank": 2434.0,
+          "alternative_score": 25.12241054613936,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "DaRon Holmes II",
+          "player_id": "player_33b82ec100f1502f900308065405060c",
+          "selected_rank": 2590.0,
+          "selected_score": 20.903954802259886
+        },
+        {
+          "absolute_rank_change": 154.0,
+          "alternative_rank": 2824.0,
+          "alternative_score": 15.555555555555555,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Tacko Fall",
+          "player_id": "player_e6a63d6150aa51d99ee51a8c7d35ae9f",
+          "selected_rank": 2978.0,
+          "selected_score": 12.128060263653484
+        },
+        {
+          "absolute_rank_change": 152.0,
+          "alternative_rank": 2522.0,
+          "alternative_score": 22.768361581920903,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Derrick Walton Jr.",
+          "player_id": "player_5a51e77862ee563e9d066a7e5a772e26",
+          "selected_rank": 2674.0,
+          "selected_score": 18.851224105461394
+        },
+        {
+          "absolute_rank_change": 152.0,
+          "alternative_rank": 2398.0,
+          "alternative_score": 26.06403013182674,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Drew Timme",
+          "player_id": "player_5b08d3a1c60c598c8169ae66a1071b4a",
+          "selected_rank": 2550.0,
+          "selected_score": 22.033898305084747
+        }
+      ],
+      "mean_absolute_score_change": 0.5464677008964615,
+      "missingness_sensitivity": {
+        "alternative_available": 4187,
+        "alternative_only": 0,
+        "both_available": 4187,
+        "selected_available": 4187,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 4187,
+      "spearman": 0.999637232499075,
+      "top_n_overlap": {
+        "100": 0.99,
+        "25": 0.96,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.0,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 3465
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 4187
+        }
+      },
+      "dimension": "OFFENSE",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 265
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 518
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.0,
+          "players": 560
+        }
+      },
+      "formula_id": "SCORING_VOLUME_65",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 3634.0,
+          "alternative_score": 2.391713747645951,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Gary Garland",
+          "player_id": "player_000e9913ded45790aea108ddc1808a56",
+          "selected_rank": 3634.0,
+          "selected_score": 2.391713747645951
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1784.0,
+          "alternative_score": 42.10922787193974,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kenny Gattison",
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+          "selected_rank": 1784.0,
+          "selected_score": 42.10922787193974
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 169.0,
+          "alternative_score": 93.89830508474576,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Brandon Jennings",
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155",
+          "selected_rank": 169.0,
+          "selected_score": 93.89830508474576
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1110.0,
+          "alternative_score": 61.88323917137476,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Robert Horry",
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+          "selected_rank": 1110.0,
+          "selected_score": 61.88323917137476
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 3316.5,
+          "alternative_score": 6.610169491525424,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Travis Williams",
+          "player_id": "player_0030b57931cc5049a0e1d17f3cbd8994",
+          "selected_rank": 3316.5,
+          "selected_score": 6.610169491525424
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1213.5,
+          "alternative_score": 58.7758945386064,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Jaylen Wells",
+          "player_id": "player_00364ef7d8545b528e05b56ddc6c4343",
+          "selected_rank": 1213.5,
+          "selected_score": 58.7758945386064
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 975.0,
+          "alternative_score": 66.29001883239171,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dillon Brooks",
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+          "selected_rank": 975.0,
+          "selected_score": 66.29001883239171
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1362.0,
+          "alternative_score": 54.50094161958569,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul Seymour",
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+          "selected_rank": 1362.0,
+          "selected_score": 54.50094161958569
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 3490.0,
+          "alternative_score": 4.1807909604519775,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Gene Tormohlen",
+          "player_id": "player_0059251a50ce5add9b5408396510dce6",
+          "selected_rank": 3490.0,
+          "selected_score": 4.1807909604519775
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 351.0,
+          "alternative_score": 87.49529190207156,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Ramon Sessions",
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8",
+          "selected_rank": 351.0,
+          "selected_score": 87.49529190207156
+        }
+      ],
+      "mean_absolute_score_change": 0.0,
+      "missingness_sensitivity": {
+        "alternative_available": 4187,
+        "alternative_only": 0,
+        "both_available": 4187,
+        "selected_available": 4187,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": true,
+      "shared_players": 4187,
+      "spearman": 1.0,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.7442793883471845,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.6436246815110226,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.4976642942744637,
+          "players": 3465
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.5352861088734433,
+          "players": 4187
+        }
+      },
+      "dimension": "OFFENSE",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.3475109263404754,
+          "players": 265
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.3595605290520543,
+          "players": 518
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.5778623724785237,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.5587949954849257,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.6064929973069035,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.6612084650004787,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.7649119101677313,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.3112725316115146,
+          "players": 560
+        }
+      },
+      "formula_id": "SCORING_VOLUME_70",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 172.0,
+          "alternative_rank": 3124.0,
+          "alternative_score": 9.642184557438794,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Jason Lawson",
+          "player_id": "player_4a9d902e44cf59ec8b79e51c2361340f",
+          "selected_rank": 2952.0,
+          "selected_score": 12.693032015065913
+        },
+        {
+          "absolute_rank_change": 172.0,
+          "alternative_rank": 2391.0,
+          "alternative_score": 26.591337099811675,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Joe Kopicki",
+          "player_id": "player_599fb8e5208052bb94e844664eadd983",
+          "selected_rank": 2219.0,
+          "selected_score": 30.847457627118644
+        },
+        {
+          "absolute_rank_change": 165.0,
+          "alternative_rank": 2737.0,
+          "alternative_score": 17.740112994350284,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Jericho Sims",
+          "player_id": "player_d04a1e8a5f9351c5b443f0e06d4f608e",
+          "selected_rank": 2572.0,
+          "selected_score": 21.35593220338983
+        },
+        {
+          "absolute_rank_change": 163.0,
+          "alternative_rank": 3033.0,
+          "alternative_score": 11.186440677966102,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2010S",
+          "display_name": "Chris Silva",
+          "player_id": "player_4fef3c177e305f14a01a091c55926431",
+          "selected_rank": 2870.0,
+          "selected_score": 14.274952919020716
+        },
+        {
+          "absolute_rank_change": 160.0,
+          "alternative_rank": 2603.0,
+          "alternative_score": 20.715630885122412,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Larry Micheaux",
+          "player_id": "player_b5b48dbd810d56d88e59843c5879dbcf",
+          "selected_rank": 2443.0,
+          "selected_score": 25.04708097928437
+        },
+        {
+          "absolute_rank_change": 157.0,
+          "alternative_rank": 2771.0,
+          "alternative_score": 16.72316384180791,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Lucas Nogueira",
+          "player_id": "player_149f8f131698542c8ed1c82edbc29a27",
+          "selected_rank": 2614.0,
+          "selected_score": 20.263653483992467
+        },
+        {
+          "absolute_rank_change": 156.0,
+          "alternative_rank": 2962.0,
+          "alternative_score": 12.580037664783427,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Isaac Jones",
+          "player_id": "player_9239abe7aef85d158f774f56048d3491",
+          "selected_rank": 2806.0,
+          "selected_score": 15.856873822975517
+        },
+        {
+          "absolute_rank_change": 154.0,
+          "alternative_rank": 2704.0,
+          "alternative_score": 18.493408662900187,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Drew Timme",
+          "player_id": "player_5b08d3a1c60c598c8169ae66a1071b4a",
+          "selected_rank": 2550.0,
+          "selected_score": 22.033898305084747
+        },
+        {
+          "absolute_rank_change": 152.0,
+          "alternative_rank": 2742.0,
+          "alternative_score": 17.627118644067796,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "DaRon Holmes II",
+          "player_id": "player_33b82ec100f1502f900308065405060c",
+          "selected_rank": 2590.0,
+          "selected_score": 20.903954802259886
+        },
+        {
+          "absolute_rank_change": 149.0,
+          "alternative_rank": 2913.0,
+          "alternative_score": 13.709981167608285,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Joan Beringer",
+          "player_id": "player_625a729409a3513fb11fb2f475c3d5e1",
+          "selected_rank": 2764.0,
+          "selected_score": 16.836158192090394
+        }
+      ],
+      "mean_absolute_score_change": 0.5352861088734433,
+      "missingness_sensitivity": {
+        "alternative_available": 4187,
+        "alternative_only": 0,
+        "both_available": 4187,
+        "selected_available": 4187,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 4187,
+      "spearman": 0.9996467392689405,
+      "top_n_overlap": {
+        "100": 0.99,
+        "25": 1.0,
+        "50": 0.94
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 4.202733253223079,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 4.119198546034842,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 2.531666702045986,
+          "players": 3408
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 2.8196737164971872,
+          "players": 4130
+        }
+      },
+      "dimension": "DEFENSE",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.5724635199013495,
+          "players": 264
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.8935299816987831,
+          "players": 462
+        },
+        "1980S": {
+          "mean_absolute_score_change": 3.2953319712484572,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 3.7361289655274317,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 4.050811319638591,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 4.105837473763086,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 3.7094422807400576,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.4791285391323069,
+          "players": 560
+        }
+      },
+      "formula_id": "RESTRICTED_PORTABLE",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 949.0,
+          "alternative_rank": 1643.0,
+          "alternative_score": 54.860587792012055,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Matisse Thybulle",
+          "player_id": "player_1c81c8732c045d858d158afbc0b557ad",
+          "selected_rank": 694.0,
+          "selected_score": 83.60964581763376
+        },
+        {
+          "absolute_rank_change": 834.5,
+          "alternative_rank": 2136.5,
+          "alternative_score": 40.93820648078372,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Myke Henry",
+          "player_id": "player_1bc1e3f211a25ae683a52ecd3adf945b",
+          "selected_rank": 1302.0,
+          "selected_score": 65.5802562170309
+        },
+        {
+          "absolute_rank_change": 729.0,
+          "alternative_rank": 3089.0,
+          "alternative_score": 15.561416729464959,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Keon Ellis",
+          "player_id": "player_5cb231c391af57fba13cec442268dcd4",
+          "selected_rank": 2360.0,
+          "selected_score": 35.07912584777694
+        },
+        {
+          "absolute_rank_change": 709.5,
+          "alternative_rank": 1750.0,
+          "alternative_score": 52.20422004521477,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2020S",
+          "display_name": "Facundo Campazzo",
+          "player_id": "player_2552cb3438bc58cb9fee56e52d087685",
+          "selected_rank": 1040.5,
+          "selected_score": 73.00301431801056
+        },
+        {
+          "absolute_rank_change": 686.0,
+          "alternative_rank": 1385.0,
+          "alternative_score": 62.50941974378297,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Terry Catledge",
+          "player_id": "player_f1375e1b93fb5a25a9bb2ef46230b1b9",
+          "selected_rank": 2071.0,
+          "selected_score": 43.293142426525996
+        },
+        {
+          "absolute_rank_change": 682.0,
+          "alternative_rank": 1069.0,
+          "alternative_score": 71.81612660135644,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Reggie Evans",
+          "player_id": "player_aa12367238045f379d96f8bfb30039c1",
+          "selected_rank": 1751.0,
+          "selected_score": 52.637528259231345
+        },
+        {
+          "absolute_rank_change": 655.0,
+          "alternative_rank": 1139.0,
+          "alternative_score": 69.91333835719668,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Omer Yurtseven",
+          "player_id": "player_e58279fde3475a78aa8897bed33d67eb",
+          "selected_rank": 1794.0,
+          "selected_score": 51.412961567445365
+        },
+        {
+          "absolute_rank_change": 628.0,
+          "alternative_rank": 848.0,
+          "alternative_score": 78.59834212509419,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2000S",
+          "display_name": "Kevin Love",
+          "player_id": "player_5bcd84a9af485497a6aa5a87838dac49",
+          "selected_rank": 1476.0,
+          "selected_score": 60.43707611152977
+        },
+        {
+          "absolute_rank_change": 616.5,
+          "alternative_rank": 2968.0,
+          "alternative_score": 18.36850037678975,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Nolan Traore",
+          "player_id": "player_0f4e1e3e03ce59828e5bf609e3c601f4",
+          "selected_rank": 2351.5,
+          "selected_score": 35.248681235870386
+        },
+        {
+          "absolute_rank_change": 602.0,
+          "alternative_rank": 2046.0,
+          "alternative_score": 43.59457422758101,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Jon Brockman",
+          "player_id": "player_37e97452fef1584695efe7587718e87f",
+          "selected_rank": 2648.0,
+          "selected_score": 27.091183119819142
+        }
+      ],
+      "mean_absolute_score_change": 2.8196737164971872,
+      "missingness_sensitivity": {
+        "alternative_available": 4130,
+        "alternative_only": 0,
+        "both_available": 4130,
+        "selected_available": 4130,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 4130,
+      "spearman": 0.9914278706208194,
+      "top_n_overlap": {
+        "100": 0.97,
+        "25": 1.0,
+        "50": 0.98
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.0,
+          "players": 518
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 204
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 3408
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 4130
+        }
+      },
+      "dimension": "DEFENSE",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 264
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 462
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 561
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 561
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 586
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 708
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 428
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.0,
+          "players": 560
+        }
+      },
+      "formula_id": "ACTION_ENRICHED",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 3786.5,
+          "alternative_score": 2.0535041446872646,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Gary Garland",
+          "player_id": "player_000e9913ded45790aea108ddc1808a56",
+          "selected_rank": 3786.5,
+          "selected_score": 2.0535041446872646
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2622.0,
+          "alternative_score": 27.84476262245667,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kenny Gattison",
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+          "selected_rank": 2622.0,
+          "selected_score": 27.84476262245667
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1838.0,
+          "alternative_score": 50.07535795026375,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Brandon Jennings",
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155",
+          "selected_rank": 1838.0,
+          "selected_score": 50.07535795026375
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 429.0,
+          "alternative_score": 90.76865109269028,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Robert Horry",
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+          "selected_rank": 429.0,
+          "selected_score": 90.76865109269028
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2103.0,
+          "alternative_score": 42.4076865109269,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Travis Williams",
+          "player_id": "player_0030b57931cc5049a0e1d17f3cbd8994",
+          "selected_rank": 2103.0,
+          "selected_score": 42.4076865109269
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 3517.0,
+          "alternative_score": 6.3489073097211755,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Jaylen Wells",
+          "player_id": "player_00364ef7d8545b528e05b56ddc6c4343",
+          "selected_rank": 3517.0,
+          "selected_score": 6.3489073097211755
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 893.0,
+          "alternative_score": 77.6186887716654,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dillon Brooks",
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+          "selected_rank": 893.0,
+          "selected_score": 77.6186887716654
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 849.0,
+          "alternative_score": 79.16352675207234,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul Seymour",
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+          "selected_rank": 849.0,
+          "selected_score": 79.16352675207234
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 60.0,
+          "alternative_score": 99.73624717407687,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Gene Tormohlen",
+          "player_id": "player_0059251a50ce5add9b5408396510dce6",
+          "selected_rank": 60.0,
+          "selected_score": 99.73624717407687
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 3058.0,
+          "alternative_score": 16.164280331574982,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Ramon Sessions",
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8",
+          "selected_rank": 3058.0,
+          "selected_score": 16.164280331574982
+        }
+      ],
+      "mean_absolute_score_change": 0.0,
+      "missingness_sensitivity": {
+        "alternative_available": 4130,
+        "alternative_only": 0,
+        "both_available": 4130,
+        "selected_available": 4130,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": true,
+      "shared_players": 4130,
+      "spearman": 1.0,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 1.4880415464458674,
+          "players": 377
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 1.4898879093701385,
+          "players": 132
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 1.5825732222977817,
+          "players": 2259
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 1.565278098344523,
+          "players": 2768
+        }
+      },
+      "dimension": "PLAYOFFS",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 1.6250321526380296,
+          "players": 203
+        },
+        "1970S": {
+          "mean_absolute_score_change": 1.672460930907618,
+          "players": 338
+        },
+        "1980S": {
+          "mean_absolute_score_change": 1.6025433885164284,
+          "players": 387
+        },
+        "1990S": {
+          "mean_absolute_score_change": 1.4791433707483472,
+          "players": 372
+        },
+        "2000S": {
+          "mean_absolute_score_change": 1.531860952659549,
+          "players": 405
+        },
+        "2010S": {
+          "mean_absolute_score_change": 1.472812674150147,
+          "players": 474
+        },
+        "2020S": {
+          "mean_absolute_score_change": 1.6341381804484463,
+          "players": 219
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 1.6006877927489238,
+          "players": 369
+        },
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.043878894251864864,
+          "players": 1
+        }
+      },
+      "formula_id": "60_25_15",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 137.0,
+          "alternative_rank": 1525.0,
+          "alternative_score": 38.24045634050022,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Leo Gottlieb",
+          "player_id": "player_2dc48aa2c12253b395c576b8a7a6c7c5",
+          "selected_rank": 1388.0,
+          "selected_score": 42.67222465993857
+        },
+        {
+          "absolute_rank_change": 133.5,
+          "alternative_rank": 1698.5,
+          "alternative_score": 31.57086441421676,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Henry Dickerson",
+          "player_id": "player_e456eaaefe29592d9e30ae6e1ad9a76a",
+          "selected_rank": 1832.0,
+          "selected_score": 26.437033786748575
+        },
+        {
+          "absolute_rank_change": 132.0,
+          "alternative_rank": 1548.0,
+          "alternative_score": 37.38481790258886,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Arnie Ferrin",
+          "player_id": "player_ce5517c8e6035b5285f5db0af4876e15",
+          "selected_rank": 1416.0,
+          "selected_score": 41.597191750767884
+        },
+        {
+          "absolute_rank_change": 130.0,
+          "alternative_rank": 1450.0,
+          "alternative_score": 40.96094778411584,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Ben Schadler",
+          "player_id": "player_4a30069830b25e03abc3b197b2345fc2",
+          "selected_rank": 1580.0,
+          "selected_score": 35.69548047389206
+        },
+        {
+          "absolute_rank_change": 129.0,
+          "alternative_rank": 1710.0,
+          "alternative_score": 31.154014918824046,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Pat Burke",
+          "player_id": "player_032eff1d7bee5b069df98a93ae751299",
+          "selected_rank": 1839.0,
+          "selected_score": 26.195699868363317
+        },
+        {
+          "absolute_rank_change": 129.0,
+          "alternative_rank": 1426.0,
+          "alternative_score": 41.728828433523475,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Phil Ford",
+          "player_id": "player_62e3353cce5e5b88824ca479b0094ec1",
+          "selected_rank": 1297.0,
+          "selected_score": 46.29223343571742
+        },
+        {
+          "absolute_rank_change": 129.0,
+          "alternative_rank": 1833.0,
+          "alternative_score": 26.985519964896884,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Sly Williams",
+          "player_id": "player_7e521b1a60a25db890007dde4f13d483",
+          "selected_rank": 1704.0,
+          "selected_score": 31.11013602457218
+        },
+        {
+          "absolute_rank_change": 129.0,
+          "alternative_rank": 1594.0,
+          "alternative_score": 35.54190434401053,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Bobby Brown",
+          "player_id": "player_94e19b2164675e349780db05bc15dc26",
+          "selected_rank": 1723.0,
+          "selected_score": 30.36419482229048
+        },
+        {
+          "absolute_rank_change": 128.5,
+          "alternative_rank": 1484.5,
+          "alternative_score": 39.73233874506362,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Willie White",
+          "player_id": "player_4b0afd72e74a516e8564abe5341ff031",
+          "selected_rank": 1613.0,
+          "selected_score": 34.42299254058798
+        },
+        {
+          "absolute_rank_change": 128.0,
+          "alternative_rank": 1526.0,
+          "alternative_score": 38.218516893374286,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Fred Jones",
+          "player_id": "player_26448dc853cf5a4588afddb282f56e66",
+          "selected_rank": 1398.0,
+          "selected_score": 42.25537516454585
+        }
+      ],
+      "mean_absolute_score_change": 1.565278098344523,
+      "missingness_sensitivity": {
+        "alternative_available": 2768,
+        "alternative_only": 0,
+        "both_available": 2768,
+        "selected_available": 2768,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 2768,
+      "spearman": 0.9977108870212474,
+      "top_n_overlap": {
+        "100": 0.95,
+        "25": 0.92,
+        "50": 0.86
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.0,
+          "players": 377
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 132
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 2259
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 2768
+        }
+      },
+      "dimension": "PLAYOFFS",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 203
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 338
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 387
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 372
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 405
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 474
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 219
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.0,
+          "players": 369
+        },
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 1
+        }
+      },
+      "formula_id": "65_20_15",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1345.0,
+          "alternative_score": 44.36156208863537,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kenny Gattison",
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+          "selected_rank": 1345.0,
+          "selected_score": 44.36156208863537
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 789.0,
+          "alternative_score": 66.7836770513383,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Brandon Jennings",
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155",
+          "selected_rank": 789.0,
+          "selected_score": 66.7836770513383
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 161.0,
+          "alternative_score": 93.24265028521282,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Robert Horry",
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+          "selected_rank": 161.0,
+          "selected_score": 93.24265028521282
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1984.5,
+          "alternative_score": 21.43483984203598,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Travis Williams",
+          "player_id": "player_0030b57931cc5049a0e1d17f3cbd8994",
+          "selected_rank": 1984.5,
+          "selected_score": 21.43483984203598
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 548.0,
+          "alternative_score": 76.83194383501535,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dillon Brooks",
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+          "selected_rank": 548.0,
+          "selected_score": 76.83194383501535
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 660.0,
+          "alternative_score": 72.18078104431768,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul Seymour",
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+          "selected_rank": 660.0,
+          "selected_score": 72.18078104431768
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2407.0,
+          "alternative_score": 8.029837648091268,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Gene Tormohlen",
+          "player_id": "player_0059251a50ce5add9b5408396510dce6",
+          "selected_rank": 2407.0,
+          "selected_score": 8.029837648091268
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 804.0,
+          "alternative_score": 66.1693725318122,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Ramon Sessions",
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8",
+          "selected_rank": 804.0,
+          "selected_score": 66.1693725318122
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2114.5,
+          "alternative_score": 17.00307152259763,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Duane Klueh",
+          "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+          "selected_rank": 2114.5,
+          "selected_score": 17.00307152259763
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1680.0,
+          "alternative_score": 32.031592803861344,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Chucky Brown",
+          "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+          "selected_rank": 1680.0,
+          "selected_score": 32.031592803861344
+        }
+      ],
+      "mean_absolute_score_change": 0.0,
+      "missingness_sensitivity": {
+        "alternative_available": 2768,
+        "alternative_only": 0,
+        "both_available": 2768,
+        "selected_available": 2768,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": true,
+      "shared_players": 2768,
+      "spearman": 1.0,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.6035966726529739,
+          "players": 377
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.5754118632574097,
+          "players": 132
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.572465148911448,
+          "players": 2259
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.5768457669548808,
+          "players": 2768
+        }
+      },
+      "dimension": "PLAYOFFS",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.4878554892929014,
+          "players": 203
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.6117081352508497,
+          "players": 338
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.6116967299452478,
+          "players": 387
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.5662972346860299,
+          "players": 372
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.5589412727046191,
+          "players": 405
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.533119308009472,
+          "players": 474
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.5878569668263537,
+          "players": 219
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.6380871180366038,
+          "players": 369
+        },
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.2632733655111892,
+          "players": 1
+        }
+      },
+      "formula_id": "70_20_10",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 97.0,
+          "alternative_rank": 1554.0,
+          "alternative_score": 36.41948222904783,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Wes Matthews",
+          "player_id": "player_90858b07c3dc5c8bb2663877de94e040",
+          "selected_rank": 1457.0,
+          "selected_score": 40.10530934620448
+        },
+        {
+          "absolute_rank_change": 86.0,
+          "alternative_rank": 895.0,
+          "alternative_score": 62.52742430890741,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Tom Boswell",
+          "player_id": "player_0fa05755c1045474b67c39286f8c3494",
+          "selected_rank": 809.0,
+          "selected_score": 65.94997806055288
+        },
+        {
+          "absolute_rank_change": 78.0,
+          "alternative_rank": 1286.0,
+          "alternative_score": 46.73102237823607,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Harvey Grant",
+          "player_id": "player_b85f5fe24dc95233978943cd9019e201",
+          "selected_rank": 1208.0,
+          "selected_score": 49.9341816586222
+        },
+        {
+          "absolute_rank_change": 74.0,
+          "alternative_rank": 1744.0,
+          "alternative_score": 29.48661693725318,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2000S",
+          "display_name": "James Johnson",
+          "player_id": "player_c80b33101a135858b7e97f8c9f4e8b09",
+          "selected_rank": 1670.0,
+          "selected_score": 32.426502852128124
+        },
+        {
+          "absolute_rank_change": 73.0,
+          "alternative_rank": 1168.0,
+          "alternative_score": 51.469942957437475,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Quinn Buckner",
+          "player_id": "player_7647f9c3fe6e5dd4aa30b84f8d4b8a18",
+          "selected_rank": 1095.0,
+          "selected_score": 54.49758666081615
+        },
+        {
+          "absolute_rank_change": 72.0,
+          "alternative_rank": 992.0,
+          "alternative_score": 58.578323826239576,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "T.R. Dunn",
+          "player_id": "player_c2454e45a5b45eadb677846445d37a47",
+          "selected_rank": 920.0,
+          "selected_score": 61.47433084686266
+        },
+        {
+          "absolute_rank_change": 70.0,
+          "alternative_rank": 1131.0,
+          "alternative_score": 53.00570425625274,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Rafer Alston",
+          "player_id": "player_81108c7f218958978823289e57b1e710",
+          "selected_rank": 1061.0,
+          "selected_score": 55.94559017112769
+        },
+        {
+          "absolute_rank_change": 70.0,
+          "alternative_rank": 1139.0,
+          "alternative_score": 52.69855199648969,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Kenny Anderson",
+          "player_id": "player_9ca7f12cf5a85d2aafa344a088683d77",
+          "selected_rank": 1069.0,
+          "selected_score": 55.59455901711277
+        },
+        {
+          "absolute_rank_change": 68.0,
+          "alternative_rank": 1392.0,
+          "alternative_score": 42.56252742430891,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2010S",
+          "display_name": "Montrezl Harrell",
+          "player_id": "player_2a31640cb8a6503eb29ffd76816afcc2",
+          "selected_rank": 1324.0,
+          "selected_score": 45.151382185168934
+        },
+        {
+          "absolute_rank_change": 67.0,
+          "alternative_rank": 1126.0,
+          "alternative_score": 53.1812198332602,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Josh McRoberts",
+          "player_id": "player_7f823d193d9b55ff8c9ebb7bcc01827c",
+          "selected_rank": 1059.0,
+          "selected_score": 56.03334795963142
+        }
+      ],
+      "mean_absolute_score_change": 0.5768457669548808,
+      "missingness_sensitivity": {
+        "alternative_available": 2768,
+        "alternative_only": 0,
+        "both_available": 2768,
+        "selected_available": 2768,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 2768,
+      "spearman": 0.999683496729447,
+      "top_n_overlap": {
+        "100": 0.99,
+        "25": 1.0,
+        "50": 0.94
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.025990857416550908,
+          "players": 335
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0202251735994069,
+          "players": 126
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.019970200694192922,
+          "players": 1679
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.020927699099822308,
+          "players": 2140
+        }
+      },
+      "dimension": "ACCOLADES",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.019150405920211257,
+          "players": 138
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.03299608267437102,
+          "players": 246
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.020563316522698834,
+          "players": 319
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.013952438599011142,
+          "players": 345
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.013308935760917575,
+          "players": 367
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.02219775225910192,
+          "players": 405
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.014872652909462682,
+          "players": 165
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.040798307174717253,
+          "players": 155
+        }
+      },
+      "formula_id": "55_40_05",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 18.0,
+          "alternative_rank": 318.0,
+          "alternative_score": 85.04011326097216,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Manute Bol",
+          "player_id": "player_6818fe98e91450b19aeaa438ede2d62d",
+          "selected_rank": 300.0,
+          "selected_score": 85.88957055214723
+        },
+        {
+          "absolute_rank_change": 17.5,
+          "alternative_rank": 256.0,
+          "alternative_score": 87.966021708353,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Slick Watts",
+          "player_id": "player_1ccdf64131ec52428c0b9831ed9fcbcf",
+          "selected_rank": 238.5,
+          "selected_score": 88.7918829636621
+        },
+        {
+          "absolute_rank_change": 17.0,
+          "alternative_rank": 214.0,
+          "alternative_score": 89.94808872109486,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Baron Davis",
+          "player_id": "player_435e6af64bab5bd9820fd5c7460f2938",
+          "selected_rank": 197.0,
+          "selected_score": 90.75035394053799
+        },
+        {
+          "absolute_rank_change": 17.0,
+          "alternative_rank": 257.0,
+          "alternative_score": 87.91882963662104,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Gerald Wallace",
+          "player_id": "player_8b04b19a839c57d2b4cd5526ad2a5a8e",
+          "selected_rank": 240.0,
+          "selected_score": 88.72109485606418
+        },
+        {
+          "absolute_rank_change": 17.0,
+          "alternative_rank": 216.0,
+          "alternative_score": 89.85370457763096,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "De'Aaron Fox",
+          "player_id": "player_ecadd1ee12205e73828ac0fa6096ee0b",
+          "selected_rank": 199.0,
+          "selected_score": 90.65596979707409
+        },
+        {
+          "absolute_rank_change": 16.0,
+          "alternative_rank": 321.0,
+          "alternative_score": 84.89853704577631,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "M.L. Carr",
+          "player_id": "player_9fe6ef9d89435f6482e05c193e4ccfb2",
+          "selected_rank": 305.0,
+          "selected_score": 85.6536101934875
+        },
+        {
+          "absolute_rank_change": 15.0,
+          "alternative_rank": 260.5,
+          "alternative_score": 87.75365738555922,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Larry Hughes",
+          "player_id": "player_03d0bb60227c5d21a1c366447b3bc666",
+          "selected_rank": 245.5,
+          "selected_score": 88.46153846153847
+        },
+        {
+          "absolute_rank_change": 15.0,
+          "alternative_rank": 157.0,
+          "alternative_score": 92.63803680981596,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Trae Young",
+          "player_id": "player_1ab84562a83957fa941e17a3e8d7754d",
+          "selected_rank": 142.0,
+          "selected_score": 93.34591788579519
+        },
+        {
+          "absolute_rank_change": 15.0,
+          "alternative_rank": 162.0,
+          "alternative_score": 92.4020764511562,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2020S",
+          "display_name": "Tyrese Haliburton",
+          "player_id": "player_6e96b6782aa35e5c867069d7e022c4f6",
+          "selected_rank": 147.0,
+          "selected_score": 93.10995752713544
+        },
+        {
+          "absolute_rank_change": 15.0,
+          "alternative_rank": 369.5,
+          "alternative_score": 82.60972156677678,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Rickey Green",
+          "player_id": "player_724dd308f5975b8fbe79704cf0bdad6a",
+          "selected_rank": 354.5,
+          "selected_score": 83.31760264275601
+        }
+      ],
+      "mean_absolute_score_change": 0.020927699099822308,
+      "missingness_sensitivity": {
+        "alternative_available": 2140,
+        "alternative_only": 0,
+        "both_available": 2140,
+        "selected_available": 2140,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 2140,
+      "spearman": 0.9999921654330368,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 0.96,
+        "50": 0.98
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.0,
+          "players": 335
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 126
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 1679
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 2140
+        }
+      },
+      "dimension": "ACCOLADES",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 138
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 246
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 319
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 345
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 367
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 405
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 165
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.0,
+          "players": 155
+        }
+      },
+      "formula_id": "60_35_05",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1347.5,
+          "alternative_score": 36.927796130250115,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kenny Gattison",
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+          "selected_rank": 1347.5,
+          "selected_score": 36.927796130250115
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1347.5,
+          "alternative_score": 36.927796130250115,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Brandon Jennings",
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155",
+          "selected_rank": 1347.5,
+          "selected_score": 36.927796130250115
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1347.5,
+          "alternative_score": 36.927796130250115,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Robert Horry",
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+          "selected_rank": 1347.5,
+          "selected_score": 36.927796130250115
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 436.5,
+          "alternative_score": 79.4478527607362,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dillon Brooks",
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+          "selected_rank": 436.5,
+          "selected_score": 79.4478527607362
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 238.5,
+          "alternative_score": 88.7918829636621,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul Seymour",
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+          "selected_rank": 238.5,
+          "selected_score": 88.7918829636621
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1347.5,
+          "alternative_score": 36.927796130250115,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Ramon Sessions",
+          "player_id": "player_005b6e36dcd9570e8e7b8b6344e13bd8",
+          "selected_rank": 1347.5,
+          "selected_score": 36.927796130250115
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1347.5,
+          "alternative_score": 36.927796130250115,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Chucky Brown",
+          "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+          "selected_rank": 1347.5,
+          "selected_score": 36.927796130250115
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 55.0,
+          "alternative_score": 97.45162812647476,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Joe Dumars",
+          "player_id": "player_00eab900a9085ab28822b085b517b0cf",
+          "selected_rank": 55.0,
+          "selected_score": 97.45162812647476
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1347.5,
+          "alternative_score": 36.927796130250115,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Duane Causwell",
+          "player_id": "player_01077d88af5951c3b782a4f1cd2072f3",
+          "selected_rank": 1347.5,
+          "selected_score": 36.927796130250115
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1347.5,
+          "alternative_score": 36.927796130250115,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Tony Massenburg",
+          "player_id": "player_013675cd561c5fa7994917bf8f87e0ad",
+          "selected_rank": 1347.5,
+          "selected_score": 36.927796130250115
+        }
+      ],
+      "mean_absolute_score_change": 0.0,
+      "missingness_sensitivity": {
+        "alternative_available": 2140,
+        "alternative_only": 0,
+        "both_available": 2140,
+        "selected_available": 2140,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": true,
+      "shared_players": 2140,
+      "spearman": 1.0,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.027329140047755555,
+          "players": 335
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.023034225488213256,
+          "players": 126
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.024692218592327043,
+          "players": 1679
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.025007387543939295,
+          "players": 2140
+        }
+      },
+      "dimension": "ACCOLADES",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.03009349501747473,
+          "players": 138
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.04124510334296333,
+          "players": 246
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.025445254977727944,
+          "players": 319
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.01901361730649532,
+          "players": 345
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.015237767030615672,
+          "players": 367
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.022314275893008054,
+          "players": 405
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.016302715689218674,
+          "players": 165
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.04658314177411743,
+          "players": 155
+        }
+      },
+      "formula_id": "65_30_05",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 23.0,
+          "alternative_rank": 275.5,
+          "alternative_score": 87.04577630957999,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "George Johnson",
+          "player_id": "player_98f2bfdfe73e5823a9d95b6d51b9dfa5",
+          "selected_rank": 298.5,
+          "selected_score": 85.96035865974517
+        },
+        {
+          "absolute_rank_change": 23.0,
+          "alternative_rank": 275.5,
+          "alternative_score": 87.04577630957999,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Hassan Whiteside",
+          "player_id": "player_ec4f0bb4aced53cca31b6f2f22c6860f",
+          "selected_rank": 298.5,
+          "selected_score": 85.96035865974517
+        },
+        {
+          "absolute_rank_change": 21.0,
+          "alternative_rank": 142.0,
+          "alternative_score": 93.34591788579519,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Theo Ratliff",
+          "player_id": "player_577c708cc0fa58b18a1900c75e573efd",
+          "selected_rank": 163.0,
+          "selected_score": 92.35488437942426
+        },
+        {
+          "absolute_rank_change": 21.0,
+          "alternative_rank": 333.5,
+          "alternative_score": 84.30863614912694,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Rickey Green",
+          "player_id": "player_724dd308f5975b8fbe79704cf0bdad6a",
+          "selected_rank": 354.5,
+          "selected_score": 83.31760264275601
+        },
+        {
+          "absolute_rank_change": 21.0,
+          "alternative_rank": 333.5,
+          "alternative_score": 84.30863614912694,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Mark Jackson",
+          "player_id": "player_dd4464299b7550d1a2cf08d3a187f1b1",
+          "selected_rank": 354.5,
+          "selected_score": 83.31760264275601
+        },
+        {
+          "absolute_rank_change": 20.5,
+          "alternative_rank": 145.0,
+          "alternative_score": 93.20434167059933,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Guy Rodgers",
+          "player_id": "player_14a39d079bb7558a8eb00e0c6d2cf894",
+          "selected_rank": 165.5,
+          "selected_score": 92.23690420009439
+        },
+        {
+          "absolute_rank_change": 20.0,
+          "alternative_rank": 212.5,
+          "alternative_score": 90.01887682869278,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dejounte Murray",
+          "player_id": "player_1319d0dd9ec45909945e47ed21f8c53d",
+          "selected_rank": 232.5,
+          "selected_score": 89.0750353940538
+        },
+        {
+          "absolute_rank_change": 20.0,
+          "alternative_rank": 212.5,
+          "alternative_score": 90.01887682869278,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Rod Strickland",
+          "player_id": "player_1d82889fa09456f595a5a9051259135b",
+          "selected_rank": 232.5,
+          "selected_score": 89.0750353940538
+        },
+        {
+          "absolute_rank_change": 20.0,
+          "alternative_rank": 137.0,
+          "alternative_score": 93.58187824445493,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Truck Robinson",
+          "player_id": "player_27a9ffd0deed5799a1f2b416624ee284",
+          "selected_rank": 157.0,
+          "selected_score": 92.63803680981596
+        },
+        {
+          "absolute_rank_change": 20.0,
+          "alternative_rank": 280.0,
+          "alternative_score": 86.83341198678622,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Manute Bol",
+          "player_id": "player_6818fe98e91450b19aeaa438ede2d62d",
+          "selected_rank": 300.0,
+          "selected_score": 85.88957055214723
+        }
+      ],
+      "mean_absolute_score_change": 0.025007387543939295,
+      "missingness_sensitivity": {
+        "alternative_available": 2140,
+        "alternative_only": 0,
+        "both_available": 2140,
+        "selected_available": 2140,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 2140,
+      "spearman": 0.9999879127807138,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 0.96,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.7798939949909719,
+          "players": 582
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.745790508752545,
+          "players": 271
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.6970378318771361,
+          "players": 4249
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.7090790436304658,
+          "players": 5102
+        }
+      },
+      "dimension": "WINNING",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.7324305742384838,
+          "players": 315
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.6832668273346237,
+          "players": 572
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.6611534982163279,
+          "players": 662
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.6911882449789687,
+          "players": 668
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.7667277965553444,
+          "players": 687
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.770646860915381,
+          "players": 890
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.6923745710485004,
+          "players": 613
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.6614911460661979,
+          "players": 695
+        }
+      },
+      "formula_id": "60_30_10",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 240.0,
+          "alternative_rank": 2733.5,
+          "alternative_score": 15.932203389830509,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Mac McClung",
+          "player_id": "player_668eed23de205a35bdae3f65161f25d5",
+          "selected_rank": 2973.5,
+          "selected_score": 12.467043314500941
+        },
+        {
+          "absolute_rank_change": 240.0,
+          "alternative_rank": 2733.5,
+          "alternative_score": 15.932203389830509,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2020S",
+          "display_name": "Saben Lee",
+          "player_id": "player_f56ac4d2c95d520090c4ca6533674615",
+          "selected_rank": 2973.5,
+          "selected_score": 12.467043314500941
+        },
+        {
+          "absolute_rank_change": 239.5,
+          "alternative_rank": 2747.5,
+          "alternative_score": 15.83804143126177,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Matt Fish",
+          "player_id": "player_7d469331f6f55cd88b12266c0033e4ff",
+          "selected_rank": 2987.0,
+          "selected_score": 12.372881355932204
+        },
+        {
+          "absolute_rank_change": 239.5,
+          "alternative_rank": 2747.5,
+          "alternative_score": 15.83804143126177,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Milt Williams",
+          "player_id": "player_8abee55337565b92bf93eb6a64f44eee",
+          "selected_rank": 2987.0,
+          "selected_score": 12.372881355932204
+        },
+        {
+          "absolute_rank_change": 239.5,
+          "alternative_rank": 2747.5,
+          "alternative_score": 15.83804143126177,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Aaron Swinson",
+          "player_id": "player_a6dfff22c852501ca3fcddbe80cd22b2",
+          "selected_rank": 2987.0,
+          "selected_score": 12.372881355932204
+        },
+        {
+          "absolute_rank_change": 239.5,
+          "alternative_rank": 2747.5,
+          "alternative_score": 15.83804143126177,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Norman Glick",
+          "player_id": "player_afd9967c788757d997bc05db34bc11ac",
+          "selected_rank": 2987.0,
+          "selected_score": 12.372881355932204
+        },
+        {
+          "absolute_rank_change": 239.5,
+          "alternative_rank": 2747.5,
+          "alternative_score": 15.83804143126177,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Alex Garcia",
+          "player_id": "player_e4cbc26672c850ab82612ef320e64125",
+          "selected_rank": 2987.0,
+          "selected_score": 12.372881355932204
+        },
+        {
+          "absolute_rank_change": 239.0,
+          "alternative_rank": 2738.5,
+          "alternative_score": 15.913370998116761,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2020S",
+          "display_name": "Michael Foster Jr.",
+          "player_id": "player_00073e3eef455e09bf506949f46b4139",
+          "selected_rank": 2977.5,
+          "selected_score": 12.448210922787194
+        },
+        {
+          "absolute_rank_change": 239.0,
+          "alternative_rank": 2738.5,
+          "alternative_score": 15.913370998116761,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2010S",
+          "display_name": "Louis King",
+          "player_id": "player_0381aaec41095919ac150c70d83e27ca",
+          "selected_rank": 2977.5,
+          "selected_score": 12.448210922787194
+        },
+        {
+          "absolute_rank_change": 239.0,
+          "alternative_rank": 2738.5,
+          "alternative_score": 15.913370998116761,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Ignas Brazdeikis",
+          "player_id": "player_137b17d206f457fcbcae9677e544a59c",
+          "selected_rank": 2977.5,
+          "selected_score": 12.448210922787194
+        }
+      ],
+      "mean_absolute_score_change": 0.7090790436304658,
+      "missingness_sensitivity": {
+        "alternative_available": 5102,
+        "alternative_only": 0,
+        "both_available": 5102,
+        "selected_available": 5102,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 5102,
+      "spearman": 0.9992913925813872,
+      "top_n_overlap": {
+        "100": 0.99,
+        "25": 0.96,
+        "50": 0.98
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.0,
+          "players": 582
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 271
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.0,
+          "players": 4249
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.0,
+          "players": 5102
+        }
+      },
+      "dimension": "WINNING",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 315
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 572
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 662
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 668
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 687
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 890
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.0,
+          "players": 613
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.0,
+          "players": 695
+        }
+      },
+      "formula_id": "65_25_10",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2977.5,
+          "alternative_score": 12.448210922787194,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2020S",
+          "display_name": "Michael Foster Jr.",
+          "player_id": "player_00073e3eef455e09bf506949f46b4139",
+          "selected_rank": 2977.5,
+          "selected_score": 12.448210922787194
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 4241.0,
+          "alternative_score": 4.086629001883239,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1970S",
+          "display_name": "Gary Garland",
+          "player_id": "player_000e9913ded45790aea108ddc1808a56",
+          "selected_rank": 4241.0,
+          "selected_score": 4.086629001883239
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1875.0,
+          "alternative_score": 33.973634651600754,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Kenny Gattison",
+          "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+          "selected_rank": 1875.0,
+          "selected_score": 33.973634651600754
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1648.0,
+          "alternative_score": 40.67796610169491,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Brandon Jennings",
+          "player_id": "player_00273923a7ef58f9bc11bf77c6ef7155",
+          "selected_rank": 1648.0,
+          "selected_score": 40.67796610169491
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 4.0,
+          "alternative_score": 99.88700564971751,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Robert Horry",
+          "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+          "selected_rank": 4.0,
+          "selected_score": 99.88700564971751
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 2683.5,
+          "alternative_score": 16.23352165725047,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1990S",
+          "display_name": "Travis Williams",
+          "player_id": "player_0030b57931cc5049a0e1d17f3cbd8994",
+          "selected_rank": 2683.5,
+          "selected_score": 16.23352165725047
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 4241.0,
+          "alternative_score": 4.086629001883239,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Jaylen Wells",
+          "player_id": "player_00364ef7d8545b528e05b56ddc6c4343",
+          "selected_rank": 4241.0,
+          "selected_score": 4.086629001883239
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 996.0,
+          "alternative_score": 62.900188323917135,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2010S",
+          "display_name": "Dillon Brooks",
+          "player_id": "player_0046aa8fb8545b5984a4b07687512bfd",
+          "selected_rank": 996.0,
+          "selected_score": 62.900188323917135
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 239.0,
+          "alternative_score": 91.03578154425612,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "PRE_1960",
+          "display_name": "Paul Seymour",
+          "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+          "selected_rank": 239.0,
+          "selected_score": 91.03578154425612
+        },
+        {
+          "absolute_rank_change": 0.0,
+          "alternative_rank": 1070.0,
+          "alternative_score": 60.188323917137474,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1960S",
+          "display_name": "Gene Tormohlen",
+          "player_id": "player_0059251a50ce5add9b5408396510dce6",
+          "selected_rank": 1070.0,
+          "selected_score": 60.188323917137474
+        }
+      ],
+      "mean_absolute_score_change": 0.0,
+      "missingness_sensitivity": {
+        "alternative_available": 5102,
+        "alternative_only": 0,
+        "both_available": 5102,
+        "selected_available": 5102,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": true,
+      "shared_players": 5102,
+      "spearman": 1.0,
+      "top_n_overlap": {
+        "100": 1.0,
+        "25": 1.0,
+        "50": 1.0
+      }
+    },
+    {
+      "active_career_sensitivity": {
+        "ACTIVE_TO_CUTOFF": {
+          "mean_absolute_score_change": 0.8095339792002383,
+          "players": 582
+        },
+        "INDETERMINATE": {
+          "mean_absolute_score_change": 0.7035392387822181,
+          "players": 271
+        },
+        "SOURCE_CONFIRMED_COMPLETE": {
+          "mean_absolute_score_change": 0.7050601027648469,
+          "players": 4249
+        }
+      },
+      "archetype_sensitivity": {
+        "UNKNOWN": {
+          "mean_absolute_score_change": 0.7168969592811357,
+          "players": 5102
+        }
+      },
+      "dimension": "WINNING",
+      "era_sensitivity": {
+        "1960S": {
+          "mean_absolute_score_change": 0.7486324096493587,
+          "players": 315
+        },
+        "1970S": {
+          "mean_absolute_score_change": 0.6729287661491052,
+          "players": 572
+        },
+        "1980S": {
+          "mean_absolute_score_change": 0.6420935247296045,
+          "players": 662
+        },
+        "1990S": {
+          "mean_absolute_score_change": 0.721720401005898,
+          "players": 668
+        },
+        "2000S": {
+          "mean_absolute_score_change": 0.7748693108770083,
+          "players": 687
+        },
+        "2010S": {
+          "mean_absolute_score_change": 0.7682981019488352,
+          "players": 890
+        },
+        "2020S": {
+          "mean_absolute_score_change": 0.7222974903457111,
+          "players": 613
+        },
+        "PRE_1960": {
+          "mean_absolute_score_change": 0.6774241623650233,
+          "players": 695
+        }
+      },
+      "formula_id": "70_20_10",
+      "largest_rank_movers": [
+        {
+          "absolute_rank_change": 270.0,
+          "alternative_rank": 2830.5,
+          "alternative_score": 13.465160075329567,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Paul Shirley",
+          "player_id": "player_78817bb08d65569ab69fb899c7966320",
+          "selected_rank": 2560.5,
+          "selected_score": 17.45762711864407
+        },
+        {
+          "absolute_rank_change": 264.5,
+          "alternative_rank": 2841.0,
+          "alternative_score": 13.314500941619587,
+          "archetype": "UNKNOWN",
+          "career_status": "ACTIVE_TO_CUTOFF",
+          "debut_era": "2020S",
+          "display_name": "Malevy Leons",
+          "player_id": "player_20526b5bfa66534493ee70ff07e5cf24",
+          "selected_rank": 2576.5,
+          "selected_score": 17.26930320150659
+        },
+        {
+          "absolute_rank_change": 264.5,
+          "alternative_rank": 2841.0,
+          "alternative_score": 13.314500941619587,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Cedric Jackson",
+          "player_id": "player_2126037c2c215c21879582dac48646a2",
+          "selected_rank": 2576.5,
+          "selected_score": 17.26930320150659
+        },
+        {
+          "absolute_rank_change": 264.5,
+          "alternative_rank": 2841.0,
+          "alternative_score": 13.314500941619587,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Damion James",
+          "player_id": "player_29a30de77ec45cb281a7e2d71d6bf046",
+          "selected_rank": 2576.5,
+          "selected_score": 17.26930320150659
+        },
+        {
+          "absolute_rank_change": 264.5,
+          "alternative_rank": 2841.0,
+          "alternative_score": 13.314500941619587,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2000S",
+          "display_name": "Alex Acker",
+          "player_id": "player_f3df8eff3abf51778b8e4b9959d4701f",
+          "selected_rank": 2576.5,
+          "selected_score": 17.26930320150659
+        },
+        {
+          "absolute_rank_change": 264.0,
+          "alternative_rank": 2832.5,
+          "alternative_score": 13.44632768361582,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Jarvis Varnado",
+          "player_id": "player_4d1fe2b9abf65f0081692453f134259c",
+          "selected_rank": 2568.5,
+          "selected_score": 17.401129943502823
+        },
+        {
+          "absolute_rank_change": 264.0,
+          "alternative_rank": 2834.0,
+          "alternative_score": 13.408662900188324,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Dragan Bender",
+          "player_id": "player_c09049fedc5a58698b0262adf1650d37",
+          "selected_rank": 2570.0,
+          "selected_score": 17.36346516007533
+        },
+        {
+          "absolute_rank_change": 264.0,
+          "alternative_rank": 2832.5,
+          "alternative_score": 13.44632768361582,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "2010S",
+          "display_name": "Bonzie Colson",
+          "player_id": "player_f808be0c76945282b93e5f0e71e794e2",
+          "selected_rank": 2568.5,
+          "selected_score": 17.401129943502823
+        },
+        {
+          "absolute_rank_change": 263.0,
+          "alternative_rank": 2835.5,
+          "alternative_score": 13.389830508474576,
+          "archetype": "UNKNOWN",
+          "career_status": "SOURCE_CONFIRMED_COMPLETE",
+          "debut_era": "1980S",
+          "display_name": "Alex Stivrins",
+          "player_id": "player_391d0a226f6256cf8abd83574feeec97",
+          "selected_rank": 2572.5,
+          "selected_score": 17.306967984934087
+        },
+        {
+          "absolute_rank_change": 263.0,
+          "alternative_rank": 2835.5,
+          "alternative_score": 13.389830508474576,
+          "archetype": "UNKNOWN",
+          "career_status": "INDETERMINATE",
+          "debut_era": "2020S",
+          "display_name": "Lindell Wigginton",
+          "player_id": "player_80f73aee6ec35d73b0a8f1d525f4cab2",
+          "selected_rank": 2572.5,
+          "selected_score": 17.306967984934087
+        }
+      ],
+      "mean_absolute_score_change": 0.7168969592811357,
+      "missingness_sensitivity": {
+        "alternative_available": 5102,
+        "alternative_only": 0,
+        "both_available": 5102,
+        "selected_available": 5102,
+        "selected_only": 0
+      },
+      "position_bias_status": "UNAVAILABLE_POSITION_COVERAGE_NOT_QUALIFIED",
+      "selected": false,
+      "shared_players": 5102,
+      "spearman": 0.999143181779153,
+      "top_n_overlap": {
+        "100": 0.98,
+        "25": 1.0,
+        "50": 0.96
+      }
+    }
+  ],
+  "selection_rule": "constitutional fidelity, coverage, interpretability, stability, redundancy, and era fairness; never famous-player order"
+}

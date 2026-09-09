@@ -7,6 +7,7 @@ Before making substantial changes:
 1. Read `docs/PROJECT_LOG.md`.
 2. Read the ADRs relevant to the proposed change.
 3. Identify the next permanent `STEP-XXXX` identifier.
+4. Before any scoring, ranking, or methodology work, read and obey `docs/constitution/GOATLAB_V1_CONSTITUTION.md`.
 
 Required working rules:
 
