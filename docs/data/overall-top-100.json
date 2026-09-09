@@ -1,0 +1,606 @@
+{
+  "eligibility": "COMPLETE_SEVEN_DIMENSIONS_ONLY",
+  "methodology_version": "goatlab-v1-overall-v1",
+  "players": [
+    {
+      "overall_score": 99.15035203442335,
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "player_name": "Michael Jordan",
+      "rank": 1
+    },
+    {
+      "overall_score": 99.12711124152581,
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "player_name": "LeBron James",
+      "rank": 2
+    },
+    {
+      "overall_score": 98.69632964060855,
+      "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+      "player_name": "Larry Bird",
+      "rank": 3
+    },
+    {
+      "overall_score": 98.34724303115527,
+      "player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+      "player_name": "Karl Malone",
+      "rank": 4
+    },
+    {
+      "overall_score": 98.34066986229531,
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "player_name": "Tim Duncan",
+      "rank": 5
+    },
+    {
+      "overall_score": 98.23979873466442,
+      "player_id": "player_e68d0769835b59e6a9688c8a268a5195",
+      "player_name": "Dwyane Wade",
+      "rank": 6
+    },
+    {
+      "overall_score": 98.20476424114025,
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "player_name": "Kareem Abdul-Jabbar",
+      "rank": 7
+    },
+    {
+      "overall_score": 98.04559174380063,
+      "player_id": "player_e2d1ed7c54525122abb63cfcfefdda78",
+      "player_name": "Kawhi Leonard",
+      "rank": 8
+    },
+    {
+      "overall_score": 97.91214748853633,
+      "player_id": "player_d52bf517d5af592abcd5188e98336295",
+      "player_name": "Julius Erving",
+      "rank": 9
+    },
+    {
+      "overall_score": 97.75208249438336,
+      "player_id": "player_566614d341da53ab975d71ad410a3385",
+      "player_name": "Scottie Pippen",
+      "rank": 10
+    },
+    {
+      "overall_score": 97.66807487242369,
+      "player_id": "player_4d08922285b55514a689685cb9615544",
+      "player_name": "David Robinson",
+      "rank": 11
+    },
+    {
+      "overall_score": 97.49622922206215,
+      "player_id": "player_05b0acdecb0c5036a6a1bfc68d02bb64",
+      "player_name": "George Mikan",
+      "rank": 12
+    },
+    {
+      "overall_score": 97.15712218337887,
+      "player_id": "player_4111da38d64656e2a41ef79f6e3ab295",
+      "player_name": "John Havlicek",
+      "rank": 13
+    },
+    {
+      "overall_score": 97.09726485060906,
+      "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+      "player_name": "Kevin Garnett",
+      "rank": 14
+    },
+    {
+      "overall_score": 96.7683531136824,
+      "player_id": "player_ccaefae61ede5c06a02e3c6dd4333aea",
+      "player_name": "Chris Paul",
+      "rank": 15
+    },
+    {
+      "overall_score": 96.76300999844744,
+      "player_id": "player_8f4568aa56f35088b26a2d5f0a00b995",
+      "player_name": "Magic Johnson",
+      "rank": 16
+    },
+    {
+      "overall_score": 96.75956564636587,
+      "player_id": "player_5ac5acef1fcf5e119705f6037eab6fd9",
+      "player_name": "Walt Frazier",
+      "rank": 17
+    },
+    {
+      "overall_score": 96.7220662840493,
+      "player_id": "player_2b44bdc1faa55e7291f7cf4a2b10ad53",
+      "player_name": "Elgin Baylor",
+      "rank": 18
+    },
+    {
+      "overall_score": 96.6461855108748,
+      "player_id": "player_382ec9a1efb7581b927337e54a3b6e5b",
+      "player_name": "Jayson Tatum",
+      "rank": 19
+    },
+    {
+      "overall_score": 96.4311323061317,
+      "player_id": "player_130b579a71d85575a8a9438f441b6bdf",
+      "player_name": "John Stockton",
+      "rank": 20
+    },
+    {
+      "overall_score": 96.38067047912365,
+      "player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "player_name": "Nikola Jokic",
+      "rank": 21
+    },
+    {
+      "overall_score": 96.3728536104824,
+      "player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a",
+      "player_name": "Hakeem Olajuwon",
+      "rank": 22
+    },
+    {
+      "overall_score": 96.35605682653089,
+      "player_id": "player_1b91b9433ba05bf8898bb53db51b4826",
+      "player_name": "Kevin Durant",
+      "rank": 23
+    },
+    {
+      "overall_score": 96.25845836399967,
+      "player_id": "player_4bbe7c73f11b5ab3a7cffc5bf83acca4",
+      "player_name": "Jerry West",
+      "rank": 24
+    },
+    {
+      "overall_score": 96.18589907488112,
+      "player_id": "player_3b8f115c018b5c5ea241eb2938810341",
+      "player_name": "Jason Kidd",
+      "rank": 25
+    },
+    {
+      "overall_score": 96.13819920428287,
+      "player_id": "player_3a6d2e4aeafb5b0c9dba522e3c245db0",
+      "player_name": "Charles Barkley",
+      "rank": 26
+    },
+    {
+      "overall_score": 96.09699749329634,
+      "player_id": "player_0964eab26b0352848633666efec47577",
+      "player_name": "Bob Pettit",
+      "rank": 27
+    },
+    {
+      "overall_score": 96.07251263568088,
+      "player_id": "player_7e70d6f810685c8e97c7020ff60ef37b",
+      "player_name": "James Harden",
+      "rank": 28
+    },
+    {
+      "overall_score": 95.7378100291265,
+      "player_id": "player_d01be951b9595ebc825aa6d30818a449",
+      "player_name": "Giannis Antetokounmpo",
+      "rank": 29
+    },
+    {
+      "overall_score": 95.69265112977564,
+      "player_id": "player_c0f05230945752728b22330b9dc82c5b",
+      "player_name": "Bill Russell",
+      "rank": 30
+    },
+    {
+      "overall_score": 95.65816546300293,
+      "player_id": "player_a4656d3ea52d5468ba8c4fd6d39a9de9",
+      "player_name": "Joel Embiid",
+      "rank": 31
+    },
+    {
+      "overall_score": 95.3467401506029,
+      "player_id": "player_b945466fcc2355ad9c8936838c95bc8e",
+      "player_name": "Jimmy Butler",
+      "rank": 32
+    },
+    {
+      "overall_score": 95.33810047713791,
+      "player_id": "player_4c8e42fcb36d59baaaebcc5bc75ca6a8",
+      "player_name": "Shaquille O'Neal",
+      "rank": 33
+    },
+    {
+      "overall_score": 95.29846873204774,
+      "player_id": "player_c6f2ba93d26b57328fc4cb243a030d9d",
+      "player_name": "Marc Gasol",
+      "rank": 34
+    },
+    {
+      "overall_score": 95.16150735559604,
+      "player_id": "player_5080ed9cd6485d3a8bad201fbdd28cd6",
+      "player_name": "Paul George",
+      "rank": 35
+    },
+    {
+      "overall_score": 94.93858777455422,
+      "player_id": "player_33f721bc85b0534792c92a9253bcd460",
+      "player_name": "Jim Pollard",
+      "rank": 36
+    },
+    {
+      "overall_score": 94.89597482020045,
+      "player_id": "player_97747e8ccbe254e9ab3136a88bdb00aa",
+      "player_name": "Manu Ginobili",
+      "rank": 37
+    },
+    {
+      "overall_score": 94.89393913743302,
+      "player_id": "player_aed2dba0442c5ae2a0579c2e3fbb621d",
+      "player_name": "Patrick Ewing",
+      "rank": 38
+    },
+    {
+      "overall_score": 94.77097986305503,
+      "player_id": "player_72fefa697bf351d191adc81da04fe423",
+      "player_name": "Paul Pierce",
+      "rank": 39
+    },
+    {
+      "overall_score": 94.65001568384889,
+      "player_id": "player_d5063fb19096536092bc1e6a5ac4bb93",
+      "player_name": "Bob Dandridge",
+      "rank": 40
+    },
+    {
+      "overall_score": 94.55977696600624,
+      "player_id": "player_0565c011a46659b599f64ddb86d348a0",
+      "player_name": "Donovan Mitchell",
+      "rank": 41
+    },
+    {
+      "overall_score": 94.44018586400523,
+      "player_id": "player_360b9d7e34a0576c9b261dd3c135805d",
+      "player_name": "Tom Heinsohn",
+      "rank": 42
+    },
+    {
+      "overall_score": 94.36314248422221,
+      "player_id": "player_37a23bb311f351eb9288069aa72bde6c",
+      "player_name": "Tony Parker",
+      "rank": 43
+    },
+    {
+      "overall_score": 94.36026144152149,
+      "player_id": "player_1eb16b1f241b5784b19976d1d661cc2a",
+      "player_name": "Dirk Nowitzki",
+      "rank": 44
+    },
+    {
+      "overall_score": 94.34377104693864,
+      "player_id": "player_860bacb725f05f02b5871e085270f726",
+      "player_name": "Wilt Chamberlain",
+      "rank": 45
+    },
+    {
+      "overall_score": 94.33698879813969,
+      "player_id": "player_e9dd2dbd485f5cd585a1cee7b590b7a6",
+      "player_name": "Shai Gilgeous-Alexander",
+      "rank": 46
+    },
+    {
+      "overall_score": 94.31593637783277,
+      "player_id": "player_936b001a9d115366b0aae4d7d5c48e7e",
+      "player_name": "Al Horford",
+      "rank": 47
+    },
+    {
+      "overall_score": 94.09858283635765,
+      "player_id": "player_1deb88b08f605f1ba77b0805de878c0d",
+      "player_name": "Dennis Johnson",
+      "rank": 48
+    },
+    {
+      "overall_score": 93.87877339624603,
+      "player_id": "player_850b0046892e5ac4b512a001328f409b",
+      "player_name": "Dwight Howard",
+      "rank": 49
+    },
+    {
+      "overall_score": 93.8480974783345,
+      "player_id": "player_2429530bfb785fed8e05ae3c43fbd868",
+      "player_name": "Isiah Thomas",
+      "rank": 50
+    },
+    {
+      "overall_score": 93.81124081196194,
+      "player_id": "player_d731225f292158c0adef95fb7c842012",
+      "player_name": "Jaylen Brown",
+      "rank": 51
+    },
+    {
+      "overall_score": 93.79442174595714,
+      "player_id": "player_e0601874897b5f039dd2bb60193e7336",
+      "player_name": "Pau Gasol",
+      "rank": 52
+    },
+    {
+      "overall_score": 93.62796097324139,
+      "player_id": "player_a0b2fbad31d15febb3331cd7ed8c5885",
+      "player_name": "Luka Doncic",
+      "rank": 53
+    },
+    {
+      "overall_score": 93.39820120262448,
+      "player_id": "player_0846d51b0b8952eb9b4c352d73136dbe",
+      "player_name": "Kevin McHale",
+      "rank": 54
+    },
+    {
+      "overall_score": 93.3953741965069,
+      "player_id": "player_a864e4dfdff0567cbdff8af74e351643",
+      "player_name": "Kyle Lowry",
+      "rank": 55
+    },
+    {
+      "overall_score": 93.34204604024835,
+      "player_id": "player_02bf6dcaa7685773bbb76b9b7fcc3402",
+      "player_name": "Jack Sikma",
+      "rank": 56
+    },
+    {
+      "overall_score": 93.2722562108207,
+      "player_id": "player_319bc954993a53a2b3886ace6604074b",
+      "player_name": "Rajon Rondo",
+      "rank": 57
+    },
+    {
+      "overall_score": 93.12976584424882,
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e",
+      "player_name": "Stephen Curry",
+      "rank": 58
+    },
+    {
+      "overall_score": 93.0665352546369,
+      "player_id": "player_89da3dc71ba153879fc1d08570794248",
+      "player_name": "Sidney Moncrief",
+      "rank": 59
+    },
+    {
+      "overall_score": 93.05246341339577,
+      "player_id": "player_54bcb31d5b925a30ac6feb0702c50c7c",
+      "player_name": "Draymond Green",
+      "rank": 60
+    },
+    {
+      "overall_score": 92.99694297664115,
+      "player_id": "player_dda074231d6d52058e8e217317c8279c",
+      "player_name": "Andre Iguodala",
+      "rank": 61
+    },
+    {
+      "overall_score": 92.95184944828473,
+      "player_id": "player_ff266455047d55389b4cad4a99e687b0",
+      "player_name": "James Worthy",
+      "rank": 62
+    },
+    {
+      "overall_score": 92.79617511047792,
+      "player_id": "player_237eccf6b06a5df79c1818628c127e53",
+      "player_name": "Chris Bosh",
+      "rank": 63
+    },
+    {
+      "overall_score": 92.74234499364,
+      "player_id": "player_3b0291c4fa3651c791f236df3c9f3be5",
+      "player_name": "Elvin Hayes",
+      "rank": 64
+    },
+    {
+      "overall_score": 92.72746551282958,
+      "player_id": "player_5bcac8dfef8c5c99b2734598e83058c5",
+      "player_name": "Willis Reed",
+      "rank": 65
+    },
+    {
+      "overall_score": 92.69608198363642,
+      "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+      "player_name": "Rudy Gobert",
+      "rank": 66
+    },
+    {
+      "overall_score": 92.5792939477827,
+      "player_id": "player_c8ffa4ca0b395f24bcc561aab3f43a76",
+      "player_name": "Blake Griffin",
+      "rank": 67
+    },
+    {
+      "overall_score": 92.5546529320685,
+      "player_id": "player_b659316482bb5c14aecf276a8b2a4832",
+      "player_name": "Moses Malone",
+      "rank": 68
+    },
+    {
+      "overall_score": 92.53004552777364,
+      "player_id": "player_dd5f0bde53db5cef8a1d3b738e9d67b9",
+      "player_name": "Kobe Bryant",
+      "rank": 69
+    },
+    {
+      "overall_score": 92.42699209928804,
+      "player_id": "player_0867bdf698bc593bb44611c0b98de4f2",
+      "player_name": "Brad Daugherty",
+      "rank": 70
+    },
+    {
+      "overall_score": 92.40188094490924,
+      "player_id": "player_c2b28fdc500253ce8c08208939ea7615",
+      "player_name": "Russell Westbrook",
+      "rank": 71
+    },
+    {
+      "overall_score": 92.39099004098321,
+      "player_id": "player_918fcfbf87cc5919a5fbdddbfa619755",
+      "player_name": "Dave Cowens",
+      "rank": 72
+    },
+    {
+      "overall_score": 92.38950285901055,
+      "player_id": "player_4aa6e8b4cf88505b97eee0aaab498cb2",
+      "player_name": "Gary Payton",
+      "rank": 73
+    },
+    {
+      "overall_score": 92.25803962951764,
+      "player_id": "player_e21337072baa5f7c894022647137b2cc",
+      "player_name": "Joakim Noah",
+      "rank": 74
+    },
+    {
+      "overall_score": 92.1948997004842,
+      "player_id": "player_c7632a36d99c5cc6b9c20ebb810c3397",
+      "player_name": "Sam Jones",
+      "rank": 75
+    },
+    {
+      "overall_score": 92.15013149906213,
+      "player_id": "player_416a4bbd403f50a9a3d81b8c2d2c7fdf",
+      "player_name": "Horace Grant",
+      "rank": 76
+    },
+    {
+      "overall_score": 92.14852789140625,
+      "player_id": "player_f4fe8e8ccb8857c2b089b4b12da99b84",
+      "player_name": "LaMarcus Aldridge",
+      "rank": 77
+    },
+    {
+      "overall_score": 92.14832502792159,
+      "player_id": "player_d04a5fd919555775a2d402c95fb10735",
+      "player_name": "Robert Parish",
+      "rank": 78
+    },
+    {
+      "overall_score": 92.13119921717545,
+      "player_id": "player_cdd08af0a47f527389b20001bf12b9d7",
+      "player_name": "Kyrie Irving",
+      "rank": 79
+    },
+    {
+      "overall_score": 92.08637415210555,
+      "player_id": "player_497e3c9ee1ea5bc5907898622eb93099",
+      "player_name": "Bob Lanier",
+      "rank": 80
+    },
+    {
+      "overall_score": 92.04405027053325,
+      "player_id": "player_e02d2831e6c05a62bc86bdddef04bda0",
+      "player_name": "Anfernee Hardaway",
+      "rank": 81
+    },
+    {
+      "overall_score": 92.00225765516146,
+      "player_id": "player_6f68712837ed56b98189b4a0763377ab",
+      "player_name": "Eddie Jones",
+      "rank": 82
+    },
+    {
+      "overall_score": 91.9233657940328,
+      "player_id": "player_9c41748cff3c578a96053c3dd7674cc5",
+      "player_name": "Maurice Cheeks",
+      "rank": 83
+    },
+    {
+      "overall_score": 91.91961046381088,
+      "player_id": "player_752eda0dd9da5b9bab73e2b61c7e0dbb",
+      "player_name": "Chet Walker",
+      "rank": 84
+    },
+    {
+      "overall_score": 91.88948079298103,
+      "player_id": "player_517a0fda000f508eb9e3468d890a2d89",
+      "player_name": "Gus Williams",
+      "rank": 85
+    },
+    {
+      "overall_score": 91.68750380923169,
+      "player_id": "player_4d9288e585595e01b86de4ba665db42e",
+      "player_name": "Mike Conley",
+      "rank": 86
+    },
+    {
+      "overall_score": 91.46779571908803,
+      "player_id": "player_5829d95d4df65d0990adbc317b9cb77b",
+      "player_name": "Cliff Hagan",
+      "rank": 87
+    },
+    {
+      "overall_score": 91.44299433728565,
+      "player_id": "player_76fd1791a9cb519fb36952e9cad8a79e",
+      "player_name": "Bam Adebayo",
+      "rank": 88
+    },
+    {
+      "overall_score": 91.42951582045531,
+      "player_id": "player_6c69a86b97d65edfb8e8baad2680f89b",
+      "player_name": "George Yardley",
+      "rank": 89
+    },
+    {
+      "overall_score": 91.41119654737278,
+      "player_id": "player_9f335b6eca265a148547b9fb511814f2",
+      "player_name": "Dave DeBusschere",
+      "rank": 90
+    },
+    {
+      "overall_score": 91.40948494245166,
+      "player_id": "player_1f8847fd7f315d7a8014795b9e197ffb",
+      "player_name": "Ray Allen",
+      "rank": 91
+    },
+    {
+      "overall_score": 91.35249153827493,
+      "player_id": "player_72712917e2895368a7b6c566b346373f",
+      "player_name": "Dominique Wilkins",
+      "rank": 92
+    },
+    {
+      "overall_score": 91.2801757873394,
+      "player_id": "player_4fce73a0e1a4556e9e53b5955f1eb19e",
+      "player_name": "Larry Nance",
+      "rank": 93
+    },
+    {
+      "overall_score": 91.24683629602262,
+      "player_id": "player_aae2bb0e360057d48e7ab2d48990cb4a",
+      "player_name": "Alonzo Mourning",
+      "rank": 94
+    },
+    {
+      "overall_score": 90.99769807239542,
+      "player_id": "player_ef160013cac650ce8871e395d5921619",
+      "player_name": "Tracy McGrady",
+      "rank": 95
+    },
+    {
+      "overall_score": 90.9470554766867,
+      "player_id": "player_f024e3bd6f315295a5e626105facacc2",
+      "player_name": "Rasheed Wallace",
+      "rank": 96
+    },
+    {
+      "overall_score": 90.85938964203018,
+      "player_id": "player_c157ac33aa445169886c2bff6591950c",
+      "player_name": "Marcus Smart",
+      "rank": 97
+    },
+    {
+      "overall_score": 90.8114807220998,
+      "player_id": "player_cffd7d34ceb05c8395b4ad6213dc6e15",
+      "player_name": "Chauncey Billups",
+      "rank": 98
+    },
+    {
+      "overall_score": 90.70714462324487,
+      "player_id": "player_28a7a81b8bf555eb98fdb6acd1783ff0",
+      "player_name": "Jrue Holiday",
+      "rank": 99
+    },
+    {
+      "overall_score": 90.68149796896164,
+      "player_id": "player_a7f4187b2881554297f01af08d9a1136",
+      "player_name": "Evan Mobley",
+      "rank": 100
+    }
+  ]
+}

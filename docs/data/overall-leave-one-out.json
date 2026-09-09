@@ -1,0 +1,489 @@
+{
+  "default_candidate": "C_REDUNDANCY_ADJUSTED",
+  "diagnostic_only": true,
+  "dimensions": {
+    "ACCOLADES": {
+      "kendall_tau": 0.9719099377916985,
+      "largest_rank_movers": [
+        {
+          "absolute_move": 176,
+          "default_rank": 1053,
+          "player_id": "player_3af078fcd19a55eb9d4146268f52b624",
+          "without_dimension_rank": 1229
+        },
+        {
+          "absolute_move": 160,
+          "default_rank": 984,
+          "player_id": "player_b2183321e540567e9199e06bea61ea2a",
+          "without_dimension_rank": 1144
+        },
+        {
+          "absolute_move": 160,
+          "default_rank": 1296,
+          "player_id": "player_e77340777e045104bda41877405e5e2b",
+          "without_dimension_rank": 1456
+        },
+        {
+          "absolute_move": 156,
+          "default_rank": 1192,
+          "player_id": "player_98f2bfdfe73e5823a9d95b6d51b9dfa5",
+          "without_dimension_rank": 1348
+        },
+        {
+          "absolute_move": 149,
+          "default_rank": 1117,
+          "player_id": "player_1ccdf64131ec52428c0b9831ed9fcbcf",
+          "without_dimension_rank": 1266
+        },
+        {
+          "absolute_move": 149,
+          "default_rank": 884,
+          "player_id": "player_bb67f9a4a8615a74a3477e7b65ec9886",
+          "without_dimension_rank": 1033
+        },
+        {
+          "absolute_move": 144,
+          "default_rank": 939,
+          "player_id": "player_46e15560e5bd5c75a2e837e26c94f155",
+          "without_dimension_rank": 1083
+        },
+        {
+          "absolute_move": 143,
+          "default_rank": 1122,
+          "player_id": "player_c2454e45a5b45eadb677846445d37a47",
+          "without_dimension_rank": 1265
+        },
+        {
+          "absolute_move": 143,
+          "default_rank": 651,
+          "player_id": "player_0a1b8404c569502db264ff3cf1535434",
+          "without_dimension_rank": 794
+        },
+        {
+          "absolute_move": 141,
+          "default_rank": 971,
+          "player_id": "player_9fe6ef9d89435f6482e05c193e4ccfb2",
+          "without_dimension_rank": 1112
+        }
+      ],
+      "spearman": 0.9973491389875505,
+      "top_100_overlap": 0.96,
+      "top_25_overlap": 1.0,
+      "top_50_overlap": 0.96
+    },
+    "DEFENSE": {
+      "kendall_tau": 0.8965876676039437,
+      "largest_rank_movers": [
+        {
+          "absolute_move": 253,
+          "default_rank": 1324,
+          "player_id": "player_081ba0f05aae51fbbec35052d34f44a4",
+          "without_dimension_rank": 1577
+        },
+        {
+          "absolute_move": 241,
+          "default_rank": 1224,
+          "player_id": "player_dcbcddf9a500573fac0a0a9f90e6f419",
+          "without_dimension_rank": 1465
+        },
+        {
+          "absolute_move": 240,
+          "default_rank": 1271,
+          "player_id": "player_420d89dcf5965299b06fb95fcfbb802b",
+          "without_dimension_rank": 1511
+        },
+        {
+          "absolute_move": 231,
+          "default_rank": 1352,
+          "player_id": "player_a2ae638af9675a93b466ac8ce99bb445",
+          "without_dimension_rank": 1121
+        },
+        {
+          "absolute_move": 228,
+          "default_rank": 1049,
+          "player_id": "player_242490f05b105f398e19305427241ea9",
+          "without_dimension_rank": 821
+        },
+        {
+          "absolute_move": 221,
+          "default_rank": 1309,
+          "player_id": "player_73015af93d5350c98b0a31f7ad7b5435",
+          "without_dimension_rank": 1088
+        },
+        {
+          "absolute_move": 221,
+          "default_rank": 475,
+          "player_id": "player_ea264bc3532c5771a48d82fa44a33c03",
+          "without_dimension_rank": 254
+        },
+        {
+          "absolute_move": 220,
+          "default_rank": 1318,
+          "player_id": "player_08ae3d6b4a18531bba6f69e0bd071466",
+          "without_dimension_rank": 1098
+        },
+        {
+          "absolute_move": 214,
+          "default_rank": 1093,
+          "player_id": "player_388319ac34dc5e888791ed54d4720747",
+          "without_dimension_rank": 1307
+        },
+        {
+          "absolute_move": 214,
+          "default_rank": 1033,
+          "player_id": "player_9a1533d5ebf05bdd84cab4973edfda06",
+          "without_dimension_rank": 819
+        }
+      ],
+      "spearman": 0.9863229342623144,
+      "top_100_overlap": 0.82,
+      "top_25_overlap": 0.76,
+      "top_50_overlap": 0.78
+    },
+    "LONGEVITY": {
+      "kendall_tau": 0.9575575657011979,
+      "largest_rank_movers": [
+        {
+          "absolute_move": 181,
+          "default_rank": 760,
+          "player_id": "player_6e91038b7d0c51ba86755aaaf1ae6c66",
+          "without_dimension_rank": 579
+        },
+        {
+          "absolute_move": 181,
+          "default_rank": 1039,
+          "player_id": "player_4a629d07b0b85931ac87ff220c1fd6b9",
+          "without_dimension_rank": 1220
+        },
+        {
+          "absolute_move": 181,
+          "default_rank": 1154,
+          "player_id": "player_0e2ce31e66cb5c08842eea13e2ae1738",
+          "without_dimension_rank": 1335
+        },
+        {
+          "absolute_move": 179,
+          "default_rank": 809,
+          "player_id": "player_b9c3a0fa8f4a51d2b41b56171e952ce4",
+          "without_dimension_rank": 630
+        },
+        {
+          "absolute_move": 179,
+          "default_rank": 815,
+          "player_id": "player_9ea9291e76375ebdb47832c0b0b23fff",
+          "without_dimension_rank": 636
+        },
+        {
+          "absolute_move": 179,
+          "default_rank": 1198,
+          "player_id": "player_01cb4a5be30b5ef2b8f62cc3a164f77a",
+          "without_dimension_rank": 1377
+        },
+        {
+          "absolute_move": 178,
+          "default_rank": 819,
+          "player_id": "player_4ed346bec0785ab999e99ef2901f1d57",
+          "without_dimension_rank": 641
+        },
+        {
+          "absolute_move": 177,
+          "default_rank": 826,
+          "player_id": "player_fc8f48b20b5d5d8a999044737eed2747",
+          "without_dimension_rank": 649
+        },
+        {
+          "absolute_move": 175,
+          "default_rank": 1056,
+          "player_id": "player_77fabee6033f51b08431d3b3585ba13d",
+          "without_dimension_rank": 1231
+        },
+        {
+          "absolute_move": 175,
+          "default_rank": 921,
+          "player_id": "player_fb24ebe0871c5e38bf2fcf9f6b3df55b",
+          "without_dimension_rank": 1096
+        }
+      ],
+      "spearman": 0.9952443258454694,
+      "top_100_overlap": 0.97,
+      "top_25_overlap": 0.96,
+      "top_50_overlap": 0.98
+    },
+    "OFFENSE": {
+      "kendall_tau": 0.9047841805266718,
+      "largest_rank_movers": [
+        {
+          "absolute_move": 269,
+          "default_rank": 1379,
+          "player_id": "player_af1be27602a85b44bd8a85c25d635ea3",
+          "without_dimension_rank": 1648
+        },
+        {
+          "absolute_move": 264,
+          "default_rank": 1049,
+          "player_id": "player_242490f05b105f398e19305427241ea9",
+          "without_dimension_rank": 1313
+        },
+        {
+          "absolute_move": 264,
+          "default_rank": 951,
+          "player_id": "player_654921257b825d17990b4e3ab8809223",
+          "without_dimension_rank": 1215
+        },
+        {
+          "absolute_move": 261,
+          "default_rank": 1357,
+          "player_id": "player_6eff936517545f16871f2c2c73b8da18",
+          "without_dimension_rank": 1618
+        },
+        {
+          "absolute_move": 255,
+          "default_rank": 1349,
+          "player_id": "player_64bfa8621c1d54309dc1ddb419240de8",
+          "without_dimension_rank": 1094
+        },
+        {
+          "absolute_move": 252,
+          "default_rank": 1042,
+          "player_id": "player_e6a16b824c225a70920e7791b64d1904",
+          "without_dimension_rank": 790
+        },
+        {
+          "absolute_move": 252,
+          "default_rank": 1151,
+          "player_id": "player_25b5c283b3d75aad8584bf91b61bffb8",
+          "without_dimension_rank": 899
+        },
+        {
+          "absolute_move": 248,
+          "default_rank": 1158,
+          "player_id": "player_36ed427a0b4b54bd9436d7db164f9ed8",
+          "without_dimension_rank": 910
+        },
+        {
+          "absolute_move": 247,
+          "default_rank": 1361,
+          "player_id": "player_583dda346d7d5dc2901a0199660f50a0",
+          "without_dimension_rank": 1114
+        },
+        {
+          "absolute_move": 243,
+          "default_rank": 1093,
+          "player_id": "player_388319ac34dc5e888791ed54d4720747",
+          "without_dimension_rank": 850
+        }
+      ],
+      "spearman": 0.9877125610599139,
+      "top_100_overlap": 0.91,
+      "top_25_overlap": 0.84,
+      "top_50_overlap": 0.88
+    },
+    "PEAK": {
+      "kendall_tau": 0.9492955168328512,
+      "largest_rank_movers": [
+        {
+          "absolute_move": 245,
+          "default_rank": 1192,
+          "player_id": "player_98f2bfdfe73e5823a9d95b6d51b9dfa5",
+          "without_dimension_rank": 947
+        },
+        {
+          "absolute_move": 189,
+          "default_rank": 938,
+          "player_id": "player_e10155d33b275787965241e8c087f1a1",
+          "without_dimension_rank": 749
+        },
+        {
+          "absolute_move": 181,
+          "default_rank": 1143,
+          "player_id": "player_406875d83f145531bcbf1d9ed3a7109d",
+          "without_dimension_rank": 962
+        },
+        {
+          "absolute_move": 175,
+          "default_rank": 1457,
+          "player_id": "player_5eac58add8bb57d298243ab591157a1b",
+          "without_dimension_rank": 1282
+        },
+        {
+          "absolute_move": 170,
+          "default_rank": 1154,
+          "player_id": "player_0e2ce31e66cb5c08842eea13e2ae1738",
+          "without_dimension_rank": 1324
+        },
+        {
+          "absolute_move": 164,
+          "default_rank": 943,
+          "player_id": "player_b22b429273295ca7a1dc853f24511ecb",
+          "without_dimension_rank": 779
+        },
+        {
+          "absolute_move": 161,
+          "default_rank": 1296,
+          "player_id": "player_e77340777e045104bda41877405e5e2b",
+          "without_dimension_rank": 1457
+        },
+        {
+          "absolute_move": 152,
+          "default_rank": 1471,
+          "player_id": "player_8887ad17ed5256d69d66dfc0dbe5d55b",
+          "without_dimension_rank": 1623
+        },
+        {
+          "absolute_move": 150,
+          "default_rank": 1145,
+          "player_id": "player_394610166a39512d86ab5248f8e87fa2",
+          "without_dimension_rank": 995
+        },
+        {
+          "absolute_move": 150,
+          "default_rank": 1360,
+          "player_id": "player_f5a9f0560efe54aea57c10127f04f7e6",
+          "without_dimension_rank": 1510
+        }
+      ],
+      "spearman": 0.9963268966895368,
+      "top_100_overlap": 0.97,
+      "top_25_overlap": 0.88,
+      "top_50_overlap": 0.96
+    },
+    "PLAYOFFS": {
+      "kendall_tau": 0.8820578964882337,
+      "largest_rank_movers": [
+        {
+          "absolute_move": 348,
+          "default_rank": 1306,
+          "player_id": "player_0948bcbb64d85fc48b9e5b2ac2873bef",
+          "without_dimension_rank": 1654
+        },
+        {
+          "absolute_move": 344,
+          "default_rank": 1088,
+          "player_id": "player_61b7efd548575a7687d695b70e9397e8",
+          "without_dimension_rank": 1432
+        },
+        {
+          "absolute_move": 344,
+          "default_rank": 1197,
+          "player_id": "player_9bc3f8a04a215fa1850d8447cff62d07",
+          "without_dimension_rank": 1541
+        },
+        {
+          "absolute_move": 308,
+          "default_rank": 1267,
+          "player_id": "player_50e568cc2aa05adc85c02cf78d474cb9",
+          "without_dimension_rank": 1575
+        },
+        {
+          "absolute_move": 306,
+          "default_rank": 1143,
+          "player_id": "player_406875d83f145531bcbf1d9ed3a7109d",
+          "without_dimension_rank": 1449
+        },
+        {
+          "absolute_move": 300,
+          "default_rank": 1312,
+          "player_id": "player_de5276ad78be515b99120a0917f8afc1",
+          "without_dimension_rank": 1612
+        },
+        {
+          "absolute_move": 298,
+          "default_rank": 930,
+          "player_id": "player_4615eca1f6535e82968fa02efa0e1641",
+          "without_dimension_rank": 1228
+        },
+        {
+          "absolute_move": 295,
+          "default_rank": 1023,
+          "player_id": "player_699c99422c7851cd90ebb2351f247e44",
+          "without_dimension_rank": 1318
+        },
+        {
+          "absolute_move": 290,
+          "default_rank": 1543,
+          "player_id": "player_2c06dec80d4b5d47a99f60a504ba6d93",
+          "without_dimension_rank": 1833
+        },
+        {
+          "absolute_move": 286,
+          "default_rank": 943,
+          "player_id": "player_b22b429273295ca7a1dc853f24511ecb",
+          "without_dimension_rank": 1229
+        }
+      ],
+      "spearman": 0.9812573490255204,
+      "top_100_overlap": 0.9,
+      "top_25_overlap": 0.84,
+      "top_50_overlap": 0.88
+    },
+    "WINNING": {
+      "kendall_tau": 0.9302268165179961,
+      "largest_rank_movers": [
+        {
+          "absolute_move": 176,
+          "default_rank": 441,
+          "player_id": "player_0d4f8c81886f5b2e8f51fde9c673ccf9",
+          "without_dimension_rank": 265
+        },
+        {
+          "absolute_move": 167,
+          "default_rank": 1218,
+          "player_id": "player_c687785f88e35d06b0587a564fbc790b",
+          "without_dimension_rank": 1051
+        },
+        {
+          "absolute_move": 164,
+          "default_rank": 1197,
+          "player_id": "player_9bc3f8a04a215fa1850d8447cff62d07",
+          "without_dimension_rank": 1033
+        },
+        {
+          "absolute_move": 159,
+          "default_rank": 1266,
+          "player_id": "player_e6509389bba25241a584881181125191",
+          "without_dimension_rank": 1107
+        },
+        {
+          "absolute_move": 158,
+          "default_rank": 1162,
+          "player_id": "player_59e48308362a5dd3a866ef5f62ed8fb2",
+          "without_dimension_rank": 1004
+        },
+        {
+          "absolute_move": 157,
+          "default_rank": 1154,
+          "player_id": "player_0e2ce31e66cb5c08842eea13e2ae1738",
+          "without_dimension_rank": 997
+        },
+        {
+          "absolute_move": 157,
+          "default_rank": 1387,
+          "player_id": "player_834116c428c95f97bd1ee629668f9e0c",
+          "without_dimension_rank": 1230
+        },
+        {
+          "absolute_move": 156,
+          "default_rank": 1355,
+          "player_id": "player_4eb9555b91025bfab605652fa49ab0a3",
+          "without_dimension_rank": 1199
+        },
+        {
+          "absolute_move": 154,
+          "default_rank": 1067,
+          "player_id": "player_7a3acb0b25f05b3c9185ce9c57eac22c",
+          "without_dimension_rank": 913
+        },
+        {
+          "absolute_move": 154,
+          "default_rank": 1346,
+          "player_id": "player_7f616eaf39ef5e69a05169d769f59439",
+          "without_dimension_rank": 1500
+        }
+      ],
+      "spearman": 0.9937043367355892,
+      "top_100_overlap": 0.9,
+      "top_25_overlap": 0.88,
+      "top_50_overlap": 0.9
+    }
+  }
+}

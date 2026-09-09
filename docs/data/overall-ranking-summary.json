@@ -1,0 +1,75 @@
+{
+  "additional_award_queries": 0,
+  "award_fingerprint": "666dbbdffd457847342754e116a857db7821e514e304ee23fe118f6d4a5bb258",
+  "committed_report_fingerprint": "b6c7003bd53d6fd4d280f5244eda6beac50dda8583f2153404b905ce402b38e2",
+  "constitutional_assertions": {
+    "confidence_does_not_change_score": true,
+    "dimension_formulas_unchanged": true,
+    "era_dominance_excluded": true,
+    "missing_weights_not_redistributed": true,
+    "modern_diagnostics_excluded": true,
+    "no_player_specific_weights": true
+  },
+  "corpus_fingerprint": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+  "corpus_id": "GOATLAB-HIST-V1",
+  "default_candidate": "C_REDUNDANCY_ADJUSTED",
+  "default_weights": {
+    "ACCOLADES": 0.1,
+    "DEFENSE": 0.14,
+    "LONGEVITY": 0.14,
+    "OFFENSE": 0.16,
+    "PEAK": 0.17,
+    "PLAYOFFS": 0.18,
+    "WINNING": 0.11
+  },
+  "deterministic_rebuild_verified": true,
+  "master_players": 5103,
+  "methodology_version": "goatlab-v1-overall-v1",
+  "network_requests": 0,
+  "official_top100_rows": 100,
+  "officially_ranked_players": 1882,
+  "output_fingerprint": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+  "output_partitions": 5,
+  "output_size_bytes": 638689,
+  "partitions": [
+    {
+      "path": "data/gold/player_overall_scores/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "ab9ae910754d82cb260eb3fe0c747c6b58351ce20510be9707f9b484525e9547",
+      "size_bytes": 278235
+    },
+    {
+      "path": "data/gold/overall_top100/part-00000.parquet",
+      "rows": 100,
+      "sha256": "1a08c1f61f428b84a8599cfdfc0dcf62eec4e5976d6f6f22949bc3b02dc66d8f",
+      "size_bytes": 18503
+    },
+    {
+      "path": "data/gold/overall_rank_stability/part-00000.parquet",
+      "rows": 1882,
+      "sha256": "f16c5f059f6bc387d60973b3d3942ee497dd8389a1ba932546c5878a3d81305b",
+      "size_bytes": 64390
+    },
+    {
+      "path": "data/gold/overall_candidate_scores/part-00000.parquet",
+      "rows": 7528,
+      "sha256": "079a3e8869d4634badca2a5832f2500d6267e8f72d476ee9d949e274cc5b0d45",
+      "size_bytes": 108035
+    },
+    {
+      "path": "data/gold/ranking_eligibility/part-00000.parquet",
+      "rows": 5103,
+      "sha256": "1c00f43aeb2a34c019555af8b4419c7cc52b95a6ac113611b36b43597b676458",
+      "size_bytes": 169526
+    }
+  ],
+  "random_seed": 150015,
+  "random_simplex_draws": 10000,
+  "result": "PASS",
+  "run_at": "2026-09-08T22:00:00Z",
+  "runtime_definition": "offline Overall build; exact certification rebuild runtime may differ",
+  "runtime_seconds": 6.643282874953002,
+  "step": "STEP-0015",
+  "upstream_fingerprint": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+  "upstream_methodology": "goatlab-v1-dimension-scores-v1"
+}

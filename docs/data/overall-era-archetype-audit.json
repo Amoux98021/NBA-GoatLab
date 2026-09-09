@@ -1,0 +1,125 @@
+{
+  "active_policy": "TO_DATE_NO_PROJECTION",
+  "career_status": {
+    "ACTIVE_TO_DATE": {
+      "mean": 62.10123311069551,
+      "median": 61.68374321481508,
+      "p90": 90.5078105355221,
+      "players": 269
+    },
+    "COMPLETE_OR_INDETERMINATE": {
+      "mean": 55.58100033926246,
+      "median": 53.83149104484008,
+      "p90": 84.96096593144469,
+      "players": 1613
+    }
+  },
+  "debut_era": {
+    "1960S": {
+      "mean": 57.959622270205635,
+      "median": 56.18166937785815,
+      "p90": 87.8009506869374,
+      "players": 134
+    },
+    "1970S": {
+      "mean": 58.403851236804705,
+      "median": 55.782543224819996,
+      "p90": 82.72316870811002,
+      "players": 231
+    },
+    "1980S": {
+      "mean": 56.19753761862834,
+      "median": 55.06088898671834,
+      "p90": 86.80873779513115,
+      "players": 300
+    },
+    "1990S": {
+      "mean": 56.2735142235333,
+      "median": 56.06588806095625,
+      "p90": 83.87473708951156,
+      "players": 297
+    },
+    "2000S": {
+      "mean": 55.17105375614681,
+      "median": 52.83294965410113,
+      "p90": 86.50342179557035,
+      "players": 327
+    },
+    "2010S": {
+      "mean": 54.6373218866552,
+      "median": 52.56465264324667,
+      "p90": 83.98049237291154,
+      "players": 352
+    },
+    "2020S": {
+      "mean": 52.0216220880054,
+      "median": 49.5702500361412,
+      "p90": 82.548218301749,
+      "players": 95
+    },
+    "PRE_1960": {
+      "mean": 63.77866605066417,
+      "median": 62.99455690967032,
+      "p90": 89.00039232445542,
+      "players": 146
+    }
+  },
+  "default_candidate": "C_REDUNDANCY_ADJUSTED",
+  "dimension_profile_archetype": {
+    "ACCOLADES_HEAVY": {
+      "mean": 53.33259196394695,
+      "median": 55.18600534359349,
+      "p90": 87.15131185755695,
+      "players": 149
+    },
+    "BALANCED": {
+      "mean": 91.04844355023725,
+      "median": 94.31593637783277,
+      "p90": 98.04559174380063,
+      "players": 71
+    },
+    "DEFENSE_HEAVY": {
+      "mean": 51.49286032384702,
+      "median": 50.29674636568152,
+      "p90": 74.75826300092932,
+      "players": 352
+    },
+    "LONGEVITY_HEAVY": {
+      "mean": 69.69847507681519,
+      "median": 71.69256395693212,
+      "p90": 89.3827634690453,
+      "players": 156
+    },
+    "OFFENSE_HEAVY": {
+      "mean": 56.85187780241755,
+      "median": 56.85302644541652,
+      "p90": 81.61259312193263,
+      "players": 319
+    },
+    "PEAK_HEAVY": {
+      "mean": 74.34258658931698,
+      "median": 77.23820451598469,
+      "p90": 89.20946502088962,
+      "players": 84
+    },
+    "PLAYOFFS_HEAVY": {
+      "mean": 53.87035491808935,
+      "median": 50.62671859932641,
+      "p90": 80.96742396079561,
+      "players": 282
+    },
+    "WINNING_HEAVY": {
+      "mean": 49.84216254575731,
+      "median": 45.92588487483444,
+      "p90": 77.37519675090833,
+      "players": 469
+    }
+  },
+  "no_era_or_archetype_quotas": true,
+  "position_audit": "UNAVAILABLE_UNQUALIFIED_CANONICAL_POSITION_COVERAGE",
+  "step13_archetype_coverage": {
+    "STEP13_CLUSTER_0": 680,
+    "STEP13_CLUSTER_1": 711,
+    "UNAVAILABLE": 491
+  }
+}

@@ -152,3 +152,14 @@ This living summary may be extended, but methodology changes must also receive a
 - Confidence describes coverage, relevant seasons, and sample only. It does not multiply or otherwise penalize the dimension score. Active careers are to-date through 2025-26 without projection.
 - Recorded defensive actions pass a portable/action bridge. Modern per-75 Offense and advanced Defense remain diagnostics and never change the universal score.
 - No official Overall score or weights exist in STEP-0014. Cross-dimension correlations and random-simplex combinations exist solely to inform a later effective-weight audit.
+
+## Overall rating and effective influence V1
+
+- `goatlab-v1-overall-v1` is a weighted arithmetic sum of the seven frozen STEP-0014 scores: Peak 17%, Longevity 14%, Offense 16%, Defense 14%, Playoffs 18%, Accolades 10%, and Winning 11%.
+- All seven inputs are mandatory. An unavailable dimension yields NULL Overall and `UNRANKED_INCOMPLETE_REQUIRED_DIMENSION`; no weight is redistributed.
+- Candidate selection uses constitutional fidelity, coverage, interpretability, covariance/redundancy, stability, and descriptive cohort fairness. Player names and external rankings are never optimization inputs.
+- Exact effective influence uses the Shapley allocation for a linear score: `w_i × Cov(X_i, Overall) / Var(Overall)`. This assigns pairwise covariance symmetrically and sums exactly to total variance.
+- Accolades query eligibility uses a maximum-score upper bound across 10,000 fixed-seed admissible vectors and all named candidate methods. `NOT_QUERIED` remains unknown even when the player is safely below every Top-100 cutoff.
+- Official ranks use descending score with canonical player ID as the deterministic ordinal tie breaker. Rank sensitivity metadata never changes score or rank.
+- Era Dominance, confidence, modern diagnostics, active-career projections, manual bonuses, and player-specific weights are excluded. Active careers are accomplishments through 2025-26 only.
+- The internal Top 100 is a reproducible consequence of the declared definition, not an assertion that the GOAT debate has an objective answer.

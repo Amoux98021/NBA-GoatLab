@@ -115,3 +115,16 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** none. Famous-player case studies were inspected only after formula selection and never altered a formula.
 - **Artifacts:** GOAT_DIMENSION_SCORES_V1, formula registry, sensitivity/cross-audit/era/bridge/case-study reports, ADR-0025/0026, and STEP-0014.
 - **Limitations:** candidate-scoped Accolades, early Defense confidence, sparse playoff evidence, incomplete historical position coverage, and genuine Peak/Longevity overlap.
+
+## STEP-0015 Overall weighting and eligibility audit
+
+- **Objective:** select a transparent Overall weighting method only after proving that unknown Accolades cannot exclude a plausible Top-100 candidate and quantifying covariance-driven effective influence.
+- **Inputs:** 5,103 frozen player profiles, 1,882 complete seven-dimension profiles, STEP-0014 fingerprint `0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a`.
+- **Eligibility experiment:** assign Accolades=100 to every six-complete `NOT_QUERIED` player and compare with the matching Top-100 cutoff under A–D plus 10,000 admissible vectors. Zero crossers and zero five-point-buffer reviews; no award request was needed.
+- **Candidates:** equal nominal; constitution-informed 21/16/17/11/17/9/9; redundancy-adjusted 17/14/16/14/18/10/11; and a deterministic stability-oriented bounded-search vector.
+- **Selection:** redundancy-adjusted C. It preserves round-number transparency and 79% direct-performance nominal weight while avoiding the greater Peak concentration of B and the opaque objective precision of D.
+- **Effective influence:** default Peak/Longevity/Offense/Defense/Playoffs/Accolades/Winning shares are 20.72/16.56/17.07/11.07/18.77/8.13/7.68%. Career shape is 37.28%; direct performance 84.20%; recognition/outcome 15.80%.
+- **Sensitivity:** 10,000 draws, seed 150015. Spearman versus default is 0.9946–0.9999; median/minimum Top-100 overlap 0.95/0.92. Local perturbations have minimum Spearman 0.9979 and Top-100 overlap 0.93.
+- **Cohorts:** no equality target or quota. Complete-profile debut-era means range 52.02–63.78 and remain a monitored selection/cohort limitation. Active careers are to-date with no projection.
+- **Optimization target:** none. External lists and case-study identities were excluded from formula selection.
+- **Artifacts:** ignored Gold Overall/candidate/stability/eligibility partitions; committed eligibility, weight, effective-influence, leave-one-out, sensitivity, cohort, diagnostic, Top-100, and summary reports; ADR-0027/0028.

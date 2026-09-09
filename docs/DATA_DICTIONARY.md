@@ -161,6 +161,20 @@ Stat category is `PTS`, `REB`, `AST`, `STL`, or `BLK`. Reconciliation status is 
 
 Canonical schema V4 adds `PlayerAllStarEvidence` and `PlayerStatLeader`; existing schema exports and frozen Silver facts remain unchanged.
 
+## Gold Overall rating V1
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `player_overall_scores` | master player | Seven frozen scores/confidences, declared weights, nullable Overall score/rank, eligibility, active-career policy, and provenance. |
+| `overall_top100` | official rank 1–100 | Internal V1 Top 100 restricted to complete seven-dimension profiles. |
+| `overall_candidate_scores` | player × candidate method | Scores/ranks under equal, constitution-informed, redundancy-adjusted, and stability-oriented methods. |
+| `overall_rank_stability` | officially rankable player | Fixed-seed admissible-weight rank interval, Top-N probabilities, and sensitivity label. |
+| `ranking_eligibility` | master player | Accolades status, missing dimensions, optimistic bound, paired cutoff gap, and audit classification. |
+
+Overall eligibility is `ELIGIBLE_OFFICIAL` or `UNRANKED_INCOMPLETE_REQUIRED_DIMENSION`. Accolades audit classification is `COMPLETE_SEVEN_DIMENSIONS`, `SAFE_TO_EXCLUDE_FROM_V1_QUERY`, `MUST_QUERY_FOR_RANKING_ELIGIBILITY`, `REVIEW_REQUIRED`, or `UNRANKED_INCOMPLETE`. `SAFE_TO_EXCLUDE` is a query-efficiency result and does not convert `NOT_QUERIED` into zero awards.
+
+Rank stability `HIGH`/`MODERATE`/`LOW` describes sensitivity only. Effective influence is a population-level Shapley variance share and is distinct from nominal weight. All outputs reference `goatlab-v1-overall-v1`, `goatlab-v1-dimension-scores-v1`, and `GOATLAB-HIST-V1`.
+
 ## Gold dimension candidate audit V1
 
 Generated STEP-0012 Gold remains ignored and is partitioned by dimension/candidate.

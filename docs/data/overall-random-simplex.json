@@ -1,0 +1,81 @@
+{
+  "bounds": {
+    "ACCOLADES": [
+      0.07,
+      0.13
+    ],
+    "DEFENSE": [
+      0.08,
+      0.14
+    ],
+    "LONGEVITY": [
+      0.14,
+      0.2
+    ],
+    "OFFENSE": [
+      0.14,
+      0.2
+    ],
+    "PEAK": [
+      0.18,
+      0.24
+    ],
+    "PLAYOFFS": [
+      0.15,
+      0.21
+    ],
+    "WINNING": [
+      0.08,
+      0.14
+    ]
+  },
+  "constraints": {
+    "direct_performance_min": 0.72,
+    "recognition_outcome_max": 0.26
+  },
+  "draws": 10000,
+  "rank_stability_counts": {
+    "HIGH": 90,
+    "LOW": 387,
+    "MODERATE": 1405
+  },
+  "seed": 150015,
+  "spearman_vs_default": {
+    "max": 0.9999077213753066,
+    "median": 0.9984243568850211,
+    "min": 0.9945715397828331,
+    "p05": 0.9967305568958024,
+    "p95": 0.9994698038547533
+  },
+  "top_n_overlap": {
+    "10": {
+      "max": 1.0,
+      "median": 1.0,
+      "min": 0.9,
+      "p05": 0.9950000000000045,
+      "p95": 1.0
+    },
+    "100": {
+      "max": 1.0,
+      "median": 0.95,
+      "min": 0.92,
+      "p05": 0.93,
+      "p95": 0.98
+    },
+    "25": {
+      "max": 1.0,
+      "median": 0.92,
+      "min": 0.84,
+      "p05": 0.92,
+      "p95": 0.96
+    },
+    "50": {
+      "max": 1.0,
+      "median": 0.96,
+      "min": 0.9,
+      "p05": 0.92,
+      "p95": 0.98
+    }
+  },
+  "weight_draw_fingerprint": "82c81c6dcf79c3f154d59e5b4b53c4cff282f6a8f2ff2dfe298dc7bbc50df5ee"
+}

@@ -1,0 +1,60 @@
+methodology_version: goatlab-v1-overall-v1
+upstream_methodology: goatlab-v1-dimension-scores-v1
+default_candidate: C_REDUNDANCY_ADJUSTED
+score_formula: sum(nominal_weight * frozen_dimension_score)
+missing_dimension_policy: UNRANKED_NO_WEIGHT_REDISTRIBUTION
+candidates:
+  A_EQUAL_NOMINAL:
+    weights:
+      PEAK: 0.14285714285714285
+      LONGEVITY: 0.14285714285714285
+      OFFENSE: 0.14285714285714285
+      DEFENSE: 0.14285714285714285
+      PLAYOFFS: 0.14285714285714285
+      ACCOLADES: 0.14285714285714285
+      WINNING: 0.14285714285714285
+    status: DIAGNOSTIC
+  B_CONSTITUTION_BALANCED:
+    weights:
+      PEAK: 0.21
+      LONGEVITY: 0.16
+      OFFENSE: 0.17
+      DEFENSE: 0.11
+      PLAYOFFS: 0.17
+      ACCOLADES: 0.09
+      WINNING: 0.09
+    status: DIAGNOSTIC
+  C_REDUNDANCY_ADJUSTED:
+    weights:
+      PEAK: 0.17
+      LONGEVITY: 0.14
+      OFFENSE: 0.16
+      DEFENSE: 0.14
+      PLAYOFFS: 0.18
+      ACCOLADES: 0.1
+      WINNING: 0.11
+    status: SELECTED_DEFAULT
+  D_STABILITY_ORIENTED:
+    weights:
+      PEAK: 0.18503666469966298
+      LONGEVITY: 0.1450672487472009
+      OFFENSE: 0.14716695368850718
+      DEFENSE: 0.13241725384879552
+      PLAYOFFS: 0.1560036795462399
+      ACCOLADES: 0.11043006523677265
+      WINNING: 0.12387813423282085
+    status: DIAGNOSTIC
+selection_principles:
+- constitutional fidelity
+- coverage
+- interpretability
+- stability
+- redundancy
+- era fairness
+candidate_d_objective:
+  effective_concentration: 0.45
+  bootstrap_effective_influence_instability: 0.15
+  era_mean_range: 0.2
+  profile_mean_range: 0.2
+  bootstrap_repetitions: 250
+  best_objective: 0.17739872678211271

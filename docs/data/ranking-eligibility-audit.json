@@ -1,0 +1,28 @@
+{
+  "additional_award_queries_executed": 0,
+  "additional_award_queries_required": 0,
+  "admissible_weight_vectors_tested": 10004,
+  "candidate_top100_cutoffs": {
+    "A_EQUAL_NOMINAL": 90.51337917271867,
+    "B_CONSTITUTION_BALANCED": 91.42637620686367,
+    "C_REDUNDANCY_ADJUSTED": 90.68149796896164,
+    "D_STABILITY_ORIENTED": 90.69360783768087
+  },
+  "classification_counts": {
+    "COMPLETE_SEVEN_DIMENSIONS": 1882,
+    "REVIEW_REQUIRED": 2660,
+    "SAFE_TO_EXCLUDE_FROM_V1_QUERY": 303,
+    "UNRANKED_INCOMPLETE": 258
+  },
+  "complete_before_and_after": 1882,
+  "master_players": 5103,
+  "methodology_version": "goatlab-v1-overall-v1",
+  "network_requests": 0,
+  "not_queried_accolades": 2963,
+  "publication_rule": "Only complete seven-dimension profiles receive official scores/ranks; weights are never redistributed.",
+  "result": "PASS",
+  "safe_player_closest_cutoff_gap": -15.233112459092666,
+  "safe_player_max_optimistic_overall": 76.21911778567684,
+  "top100_buffer_points": 5.0,
+  "unresolved_upper_bound_crossers": 0
+}

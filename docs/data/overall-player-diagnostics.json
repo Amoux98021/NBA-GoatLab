@@ -1,0 +1,780 @@
+{
+  "players": [
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.9056158565361,
+        "DEFENSE": 98.30444611906556,
+        "LONGEVITY": 98.71939736346516,
+        "OFFENSE": 98.90772128060263,
+        "PEAK": 99.87780040733197,
+        "PLAYOFFS": 99.07854322071084,
+        "WINNING": 99.43502824858757
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 1,
+      "overall_score": 99.15035203442335,
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "player_name": "Michael Jordan",
+      "weighted_contributions": {
+        "ACCOLADES": 9.99056158565361,
+        "DEFENSE": 13.76262245666918,
+        "LONGEVITY": 13.820715630885124,
+        "OFFENSE": 15.825235404896421,
+        "PEAK": 16.979226069246437,
+        "PLAYOFFS": 17.83413777972795,
+        "WINNING": 10.937853107344633
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.95280792826806,
+        "DEFENSE": 95.13941220798795,
+        "LONGEVITY": 100.0,
+        "OFFENSE": 99.92467043314501,
+        "PEAK": 99.95926680244399,
+        "PLAYOFFS": 99.16630100921456,
+        "WINNING": 99.83050847457628
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 2,
+      "overall_score": 99.12711124152581,
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "player_name": "LeBron James",
+      "weighted_contributions": {
+        "ACCOLADES": 9.995280792826806,
+        "DEFENSE": 13.319517709118314,
+        "LONGEVITY": 14.000000000000002,
+        "OFFENSE": 15.987947269303202,
+        "PEAK": 16.99307535641548,
+        "PLAYOFFS": 17.84993418165862,
+        "WINNING": 10.98135593220339
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 98.25389334591789,
+        "DEFENSE": 97.81461944235117,
+        "LONGEVITY": 98.75706214689265,
+        "OFFENSE": 99.2090395480226,
+        "PEAK": 99.5112016293279,
+        "PLAYOFFS": 98.15708644142168,
+        "WINNING": 99.02071563088512
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 3,
+      "overall_score": 98.69632964060855,
+      "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+      "player_name": "Larry Bird",
+      "weighted_contributions": {
+        "ACCOLADES": 9.82538933459179,
+        "DEFENSE": 13.694046721929165,
+        "LONGEVITY": 13.825988700564972,
+        "OFFENSE": 15.873446327683617,
+        "PEAK": 16.916904276985743,
+        "PLAYOFFS": 17.668275559455903,
+        "WINNING": 10.892278719397364
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 98.34827748938179,
+        "DEFENSE": 99.81160512434062,
+        "LONGEVITY": 99.9623352165725,
+        "OFFENSE": 94.87758945386064,
+        "PEAK": 99.95926680244399,
+        "PLAYOFFS": 96.48968845985081,
+        "WINNING": 99.9623352165725
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 5,
+      "overall_score": 98.34066986229531,
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "player_name": "Tim Duncan",
+      "weighted_contributions": {
+        "ACCOLADES": 9.83482774893818,
+        "DEFENSE": 13.973624717407688,
+        "LONGEVITY": 13.994726930320152,
+        "OFFENSE": 15.180414312617701,
+        "PEAK": 16.99307535641548,
+        "PLAYOFFS": 17.368143922773147,
+        "WINNING": 10.995856873822975
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 100.0,
+        "DEFENSE": 90.46721929163527,
+        "LONGEVITY": 99.81167608286252,
+        "OFFENSE": 98.98305084745763,
+        "PEAK": 99.79633401221996,
+        "PLAYOFFS": 98.68363317244406,
+        "WINNING": 100.0
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 7,
+      "overall_score": 98.20476424114025,
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "player_name": "Kareem Abdul-Jabbar",
+      "weighted_contributions": {
+        "ACCOLADES": 10.0,
+        "DEFENSE": 12.66541070082894,
+        "LONGEVITY": 13.973634651600754,
+        "OFFENSE": 15.837288135593221,
+        "PEAK": 16.965376782077396,
+        "PLAYOFFS": 17.76305397103993,
+        "WINNING": 11.0
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.8112317130722,
+        "DEFENSE": 81.6126601356443,
+        "LONGEVITY": 97.21280602636534,
+        "OFFENSE": 99.62335216572505,
+        "PEAK": 99.59266802443992,
+        "PLAYOFFS": 99.51733216322948,
+        "WINNING": 99.66101694915254
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 16,
+      "overall_score": 96.76300999844744,
+      "player_id": "player_8f4568aa56f35088b26a2d5f0a00b995",
+      "player_name": "Magic Johnson",
+      "weighted_contributions": {
+        "ACCOLADES": 9.981123171307221,
+        "DEFENSE": 11.425772418990205,
+        "LONGEVITY": 13.60979284369115,
+        "OFFENSE": 15.939736346516009,
+        "PEAK": 16.930753564154788,
+        "PLAYOFFS": 17.913119789381305,
+        "WINNING": 10.96271186440678
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.33931099575271,
+        "DEFENSE": 87.7166541070083,
+        "LONGEVITY": 97.89077212806026,
+        "OFFENSE": 99.51035781544256,
+        "PEAK": 99.06313645621181,
+        "PLAYOFFS": 99.03466432645898,
+        "WINNING": 89.75517890772129
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 21,
+      "overall_score": 96.38067047912365,
+      "player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "player_name": "Nikola Jokic",
+      "weighted_contributions": {
+        "ACCOLADES": 9.933931099575272,
+        "DEFENSE": 12.280331574981162,
+        "LONGEVITY": 13.704708097928439,
+        "OFFENSE": 15.92165725047081,
+        "PEAK": 16.84073319755601,
+        "PLAYOFFS": 17.826239578762614,
+        "WINNING": 9.873069679849342
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.6224634261444,
+        "DEFENSE": 94.95101733232856,
+        "LONGEVITY": 99.2090395480226,
+        "OFFENSE": 90.77212806026365,
+        "PEAK": 96.82281059063136,
+        "PLAYOFFS": 99.42957437472576,
+        "WINNING": 94.0677966101695
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 22,
+      "overall_score": 96.3728536104824,
+      "player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a",
+      "player_name": "Hakeem Olajuwon",
+      "weighted_contributions": {
+        "ACCOLADES": 9.962246342614442,
+        "DEFENSE": 13.293142426526,
+        "LONGEVITY": 13.889265536723165,
+        "OFFENSE": 14.523540489642185,
+        "PEAK": 16.459877800407334,
+        "PLAYOFFS": 17.897323387450637,
+        "WINNING": 10.347457627118645
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.57527135441246,
+        "DEFENSE": 81.83873398643557,
+        "LONGEVITY": 99.54802259887006,
+        "OFFENSE": 99.28436911487759,
+        "PEAK": 97.10794297352342,
+        "PLAYOFFS": 98.59587538394032,
+        "WINNING": 98.75706214689265
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 23,
+      "overall_score": 96.35605682653089,
+      "player_id": "player_1b91b9433ba05bf8898bb53db51b4826",
+      "player_name": "Kevin Durant",
+      "weighted_contributions": {
+        "ACCOLADES": 9.957527135441246,
+        "DEFENSE": 11.45742275810098,
+        "LONGEVITY": 13.93672316384181,
+        "OFFENSE": 15.885499058380415,
+        "PEAK": 16.508350305498983,
+        "PLAYOFFS": 17.74725756910926,
+        "WINNING": 10.863276836158192
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 98.96177442189712,
+        "DEFENSE": 83.83571966842501,
+        "LONGEVITY": 99.24670433145009,
+        "OFFENSE": 98.68173258003766,
+        "PEAK": 97.4745417515275,
+        "PLAYOFFS": 98.9907854322071,
+        "WINNING": 94.83992467043315
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 26,
+      "overall_score": 96.13819920428287,
+      "player_id": "player_3a6d2e4aeafb5b0c9dba522e3c245db0",
+      "player_name": "Charles Barkley",
+      "weighted_contributions": {
+        "ACCOLADES": 9.896177442189712,
+        "DEFENSE": 11.737000753579503,
+        "LONGEVITY": 13.894538606403014,
+        "OFFENSE": 15.789077212806026,
+        "PEAK": 16.570672097759676,
+        "PLAYOFFS": 17.818341377797278,
+        "WINNING": 10.432391713747647
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.00896649362907,
+        "DEFENSE": 78.71137905048982,
+        "LONGEVITY": 99.43502824858757,
+        "OFFENSE": 99.1713747645951,
+        "PEAK": 98.69653767820773,
+        "PLAYOFFS": 98.63975427819219,
+        "WINNING": 98.45574387947269
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 28,
+      "overall_score": 96.07251263568088,
+      "player_id": "player_7e70d6f810685c8e97c7020ff60ef37b",
+      "player_name": "James Harden",
+      "weighted_contributions": {
+        "ACCOLADES": 9.900896649362908,
+        "DEFENSE": 11.019593067068577,
+        "LONGEVITY": 13.920903954802261,
+        "OFFENSE": 15.867419962335216,
+        "PEAK": 16.778411405295316,
+        "PLAYOFFS": 17.75515577007459,
+        "WINNING": 10.830131826741995
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.76403964134026,
+        "DEFENSE": 98.04069329314243,
+        "LONGEVITY": 96.42184557438794,
+        "OFFENSE": 86.74199623352166,
+        "PEAK": 93.48268839103869,
+        "PLAYOFFS": 98.55199648968846,
+        "WINNING": 99.83050847457628
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 30,
+      "overall_score": 95.69265112977564,
+      "player_id": "player_c0f05230945752728b22330b9dc82c5b",
+      "player_name": "Bill Russell",
+      "weighted_contributions": {
+        "ACCOLADES": 9.976403964134027,
+        "DEFENSE": 13.725697061039941,
+        "LONGEVITY": 13.499058380414313,
+        "OFFENSE": 13.878719397363467,
+        "PEAK": 15.892057026476579,
+        "PLAYOFFS": 17.739359368143923,
+        "WINNING": 10.98135593220339
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 98.48985370457763,
+        "DEFENSE": 93.4438583270535,
+        "LONGEVITY": 97.09981167608287,
+        "OFFENSE": 97.6647834274953,
+        "PEAK": 99.22606924643584,
+        "PLAYOFFS": 97.67441860465117,
+        "WINNING": 82.3352165725047
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 31,
+      "overall_score": 95.65816546300293,
+      "player_id": "player_a4656d3ea52d5468ba8c4fd6d39a9de9",
+      "player_name": "Joel Embiid",
+      "weighted_contributions": {
+        "ACCOLADES": 9.848985370457763,
+        "DEFENSE": 13.082140165787491,
+        "LONGEVITY": 13.593973634651602,
+        "OFFENSE": 15.626365348399247,
+        "PEAK": 16.868431771894095,
+        "PLAYOFFS": 17.58139534883721,
+        "WINNING": 9.056873822975518
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.7168475696083,
+        "DEFENSE": 84.55162019593067,
+        "LONGEVITY": 99.13370998116761,
+        "OFFENSE": 95.66854990583803,
+        "PEAK": 92.74949083503056,
+        "PLAYOFFS": 97.80605528740676,
+        "WINNING": 99.73634651600753
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 33,
+      "overall_score": 95.33810047713791,
+      "player_id": "player_4c8e42fcb36d59baaaebcc5bc75ca6a8",
+      "player_name": "Shaquille O'Neal",
+      "weighted_contributions": {
+        "ACCOLADES": 9.971684756960832,
+        "DEFENSE": 11.837226827430294,
+        "LONGEVITY": 13.878719397363467,
+        "OFFENSE": 15.306967984934087,
+        "PEAK": 15.767413441955195,
+        "PLAYOFFS": 17.605089951733216,
+        "WINNING": 10.970998116760828
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.85842378480416,
+        "DEFENSE": 71.70308967596081,
+        "LONGEVITY": 94.57627118644068,
+        "OFFENSE": 99.24670433145009,
+        "PEAK": 96.21181262729124,
+        "PLAYOFFS": 99.91224221149628,
+        "WINNING": 98.71939736346516
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 45,
+      "overall_score": 94.34377104693864,
+      "player_id": "player_860bacb725f05f02b5871e085270f726",
+      "player_name": "Wilt Chamberlain",
+      "weighted_contributions": {
+        "ACCOLADES": 9.985842378480417,
+        "DEFENSE": 10.038432554634515,
+        "LONGEVITY": 13.240677966101696,
+        "OFFENSE": 15.879472693032016,
+        "PEAK": 16.35600814663951,
+        "PLAYOFFS": 17.984203598069328,
+        "WINNING": 10.859133709981167
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 98.30108541764983,
+        "DEFENSE": 87.45290128108516,
+        "LONGEVITY": 94.65160075329567,
+        "OFFENSE": 98.45574387947269,
+        "PEAK": 99.26680244399185,
+        "PLAYOFFS": 96.44580956559895,
+        "WINNING": 82.03389830508475
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 46,
+      "overall_score": 94.33698879813969,
+      "player_id": "player_e9dd2dbd485f5cd585a1cee7b590b7a6",
+      "player_name": "Shai Gilgeous-Alexander",
+      "weighted_contributions": {
+        "ACCOLADES": 9.830108541764984,
+        "DEFENSE": 12.243406179351924,
+        "LONGEVITY": 13.251224105461395,
+        "OFFENSE": 15.75291902071563,
+        "PEAK": 16.875356415478617,
+        "PLAYOFFS": 17.36024572180781,
+        "WINNING": 9.023728813559321
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.52807928268051,
+        "DEFENSE": 61.64280331574981,
+        "LONGEVITY": 98.64406779661017,
+        "OFFENSE": 99.81167608286252,
+        "PEAK": 95.56008146639512,
+        "PLAYOFFS": 98.33260201842914,
+        "WINNING": 98.3804143126177
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 58,
+      "overall_score": 93.12976584424882,
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e",
+      "player_name": "Stephen Curry",
+      "weighted_contributions": {
+        "ACCOLADES": 9.95280792826805,
+        "DEFENSE": 8.629992464204975,
+        "LONGEVITY": 13.810169491525425,
+        "OFFENSE": 15.969868173258003,
+        "PEAK": 16.245213849287172,
+        "PLAYOFFS": 17.699868363317243,
+        "WINNING": 10.821845574387947
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.10335063709297,
+        "DEFENSE": 98.98266767143933,
+        "LONGEVITY": 97.6647834274953,
+        "OFFENSE": 75.29190207156309,
+        "PEAK": 97.39307535641548,
+        "PLAYOFFS": 94.29574374725757,
+        "WINNING": 87.984934086629
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 66,
+      "overall_score": 92.69608198363642,
+      "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+      "player_name": "Rudy Gobert",
+      "weighted_contributions": {
+        "ACCOLADES": 9.910335063709297,
+        "DEFENSE": 13.857573474001507,
+        "LONGEVITY": 13.673069679849343,
+        "OFFENSE": 12.046704331450094,
+        "PEAK": 16.55682281059063,
+        "PLAYOFFS": 16.973233874506363,
+        "WINNING": 9.67834274952919
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.66965549787636,
+        "DEFENSE": 61.52976639035418,
+        "LONGEVITY": 99.39736346516007,
+        "OFFENSE": 97.85310734463278,
+        "PEAK": 94.78615071283096,
+        "PLAYOFFS": 96.18253620008775,
+        "WINNING": 99.54802259887006
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 69,
+      "overall_score": 92.53004552777364,
+      "player_id": "player_dd5f0bde53db5cef8a1d3b738e9d67b9",
+      "player_name": "Kobe Bryant",
+      "weighted_contributions": {
+        "ACCOLADES": 9.966965549787638,
+        "DEFENSE": 8.614167294649587,
+        "LONGEVITY": 13.915630885122411,
+        "OFFENSE": 15.656497175141244,
+        "PEAK": 16.113645621181263,
+        "PLAYOFFS": 17.312856516015795,
+        "WINNING": 10.950282485875707
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 96.03586597451628,
+        "DEFENSE": 77.80708364732479,
+        "LONGEVITY": 96.19585687382298,
+        "OFFENSE": 92.39171374764595,
+        "PEAK": 98.53360488798371,
+        "PLAYOFFS": 95.17332163229487,
+        "WINNING": 76.08286252354048
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 95,
+      "overall_score": 90.99769807239542,
+      "player_id": "player_ef160013cac650ce8871e395d5921619",
+      "player_name": "Tracy McGrady",
+      "weighted_contributions": {
+        "ACCOLADES": 9.60358659745163,
+        "DEFENSE": 10.892991710625472,
+        "LONGEVITY": 13.467419962335217,
+        "OFFENSE": 14.782674199623353,
+        "PEAK": 16.750712830957234,
+        "PLAYOFFS": 17.131197893813077,
+        "WINNING": 8.369114877589453
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 86.21991505427088,
+        "DEFENSE": 98.37980406932931,
+        "LONGEVITY": 98.87005649717514,
+        "OFFENSE": 76.23352165725048,
+        "PEAK": 94.21588594704684,
+        "PLAYOFFS": 87.05572619569986,
+        "WINNING": 98.4180790960452
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 96,
+      "overall_score": 90.9470554766867,
+      "player_id": "player_f024e3bd6f315295a5e626105facacc2",
+      "player_name": "Rasheed Wallace",
+      "weighted_contributions": {
+        "ACCOLADES": 8.621991505427088,
+        "DEFENSE": 13.773172569706105,
+        "LONGEVITY": 13.84180790960452,
+        "OFFENSE": 12.197363465160077,
+        "PEAK": 16.016700610997965,
+        "PLAYOFFS": 15.670030715225975,
+        "WINNING": 10.825988700564972
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 96.79093912222747,
+        "DEFENSE": 87.2268274302939,
+        "LONGEVITY": 92.65536723163842,
+        "OFFENSE": 86.66666666666667,
+        "PEAK": 90.30549898167006,
+        "PLAYOFFS": 92.6283457656867,
+        "WINNING": 91.86440677966101
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 97,
+      "overall_score": 90.85938964203018,
+      "player_id": "player_c157ac33aa445169886c2bff6591950c",
+      "player_name": "Marcus Smart",
+      "weighted_contributions": {
+        "ACCOLADES": 9.679093912222747,
+        "DEFENSE": 12.211755840241146,
+        "LONGEVITY": 12.97175141242938,
+        "OFFENSE": 13.866666666666667,
+        "PEAK": 15.35193482688391,
+        "PLAYOFFS": 16.673102237823606,
+        "WINNING": 10.105084745762712
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 97.12128362435111,
+        "DEFENSE": 66.95553880934439,
+        "LONGEVITY": 98.11676082862523,
+        "OFFENSE": 96.7608286252354,
+        "PEAK": 99.34826883910387,
+        "PLAYOFFS": 83.23826239578763,
+        "WINNING": 96.68549905838042
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 98,
+      "overall_score": 90.8114807220998,
+      "player_id": "player_cffd7d34ceb05c8395b4ad6213dc6e15",
+      "player_name": "Chauncey Billups",
+      "weighted_contributions": {
+        "ACCOLADES": 9.712128362435111,
+        "DEFENSE": 9.373775433308216,
+        "LONGEVITY": 13.736346516007533,
+        "OFFENSE": 15.481732580037665,
+        "PEAK": 16.889205702647658,
+        "PLAYOFFS": 14.982887231241772,
+        "WINNING": 10.635404896421846
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 92.4964605946201,
+        "DEFENSE": 69.36699321778448,
+        "LONGEVITY": 97.85310734463278,
+        "OFFENSE": 96.7984934086629,
+        "PEAK": 90.63136456211812,
+        "PLAYOFFS": 93.505923650724,
+        "WINNING": 93.82297551789077
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 99,
+      "overall_score": 90.70714462324487,
+      "player_id": "player_28a7a81b8bf555eb98fdb6acd1783ff0",
+      "player_name": "Jrue Holiday",
+      "weighted_contributions": {
+        "ACCOLADES": 9.24964605946201,
+        "DEFENSE": 9.711379050489828,
+        "LONGEVITY": 13.69943502824859,
+        "OFFENSE": 15.487758945386066,
+        "PEAK": 15.407331975560082,
+        "PLAYOFFS": 16.83106625713032,
+        "WINNING": 10.320527306967984
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 96.55497876356772,
+        "DEFENSE": 98.49284099472494,
+        "LONGEVITY": 90.54613935969869,
+        "OFFENSE": 89.79284369114878,
+        "PEAK": 92.87169042769857,
+        "PLAYOFFS": 96.22641509433963,
+        "WINNING": 64.40677966101696
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 100,
+      "overall_score": 90.68149796896164,
+      "player_id": "player_a7f4187b2881554297f01af08d9a1136",
+      "player_name": "Evan Mobley",
+      "weighted_contributions": {
+        "ACCOLADES": 9.655497876356772,
+        "DEFENSE": 13.788997739261493,
+        "LONGEVITY": 12.676459510357818,
+        "OFFENSE": 14.366854990583803,
+        "PEAK": 15.788187372708757,
+        "PLAYOFFS": 17.32075471698113,
+        "WINNING": 7.084745762711865
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 96.17744218971212,
+        "DEFENSE": 79.61567445365486,
+        "LONGEVITY": 92.84369114877589,
+        "OFFENSE": 93.55932203389831,
+        "PEAK": 91.60896130346232,
+        "PLAYOFFS": 99.64896884598508,
+        "WINNING": 75.9322033898305
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 101,
+      "overall_score": 90.59442711548252,
+      "player_id": "player_c883a0b0ce015efcba91e24e4c6fe49c",
+      "player_name": "Anthony Davis",
+      "weighted_contributions": {
+        "ACCOLADES": 9.617744218971213,
+        "DEFENSE": 11.146194423511682,
+        "LONGEVITY": 12.998116760828626,
+        "OFFENSE": 14.96949152542373,
+        "PEAK": 15.573523421588597,
+        "PLAYOFFS": 17.936814392277313,
+        "WINNING": 8.352542372881356
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 94.43133553563001,
+        "DEFENSE": 56.782215523737754,
+        "LONGEVITY": 98.15442561205273,
+        "OFFENSE": 96.7231638418079,
+        "PEAK": 90.34623217922606,
+        "PLAYOFFS": 99.56121105748136,
+        "WINNING": 97.06214689265536
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 102,
+      "overall_score": 90.5666831462701,
+      "player_id": "player_91c222b6d443566dbc76d35326f9e9fa",
+      "player_name": "Clyde Drexler",
+      "weighted_contributions": {
+        "ACCOLADES": 9.443133553563001,
+        "DEFENSE": 7.9495101733232865,
+        "LONGEVITY": 13.741619585687385,
+        "OFFENSE": 15.475706214689264,
+        "PEAK": 15.358859470468431,
+        "PLAYOFFS": 17.921017990346645,
+        "WINNING": 10.67683615819209
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 91.22227465785748,
+        "DEFENSE": 75.16955538809344,
+        "LONGEVITY": 95.36723163841808,
+        "OFFENSE": 97.40112994350282,
+        "PEAK": 96.37474541751527,
+        "PLAYOFFS": 94.2518648530057,
+        "WINNING": 77.77777777777777
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 103,
+      "overall_score": 90.48615639053199,
+      "player_id": "player_6990a2ee78225d0e9600291c619032da",
+      "player_name": "Karl-Anthony Towns",
+      "weighted_contributions": {
+        "ACCOLADES": 9.122227465785748,
+        "DEFENSE": 10.523737754333084,
+        "LONGEVITY": 13.351412429378533,
+        "OFFENSE": 15.584180790960453,
+        "PEAK": 16.383706720977596,
+        "PLAYOFFS": 16.965335673541027,
+        "WINNING": 8.555555555555555
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 84.66257668711657,
+        "DEFENSE": 89.56292388847024,
+        "LONGEVITY": 96.61016949152543,
+        "OFFENSE": 88.8512241054614,
+        "PEAK": 95.4378818737271,
+        "PLAYOFFS": 88.98639754278192,
+        "WINNING": 86.21468926553672
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 104,
+      "overall_score": 90.47229389422827,
+      "player_id": "player_15f02fa761f25e0095aeaf4eab1b8799",
+      "player_name": "Carlos Boozer",
+      "weighted_contributions": {
+        "ACCOLADES": 8.466257668711657,
+        "DEFENSE": 12.538809344385834,
+        "LONGEVITY": 13.52542372881356,
+        "OFFENSE": 14.216195856873824,
+        "PEAK": 16.22443991853361,
+        "PLAYOFFS": 16.017551557700745,
+        "WINNING": 9.483615819209039
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 99.19773478055687,
+        "DEFENSE": 55.31273549359457,
+        "LONGEVITY": 95.969868173258,
+        "OFFENSE": 99.02071563088512,
+        "PEAK": 91.20162932790224,
+        "PLAYOFFS": 97.93769197016235,
+        "WINNING": 93.5969868173258
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 105,
+      "overall_score": 90.3713825826351,
+      "player_id": "player_83c5532cc98055aea6d4e09814c0437c",
+      "player_name": "Oscar Robertson",
+      "weighted_contributions": {
+        "ACCOLADES": 9.919773478055689,
+        "DEFENSE": 7.743782969103241,
+        "LONGEVITY": 13.435781544256121,
+        "OFFENSE": 15.84331450094162,
+        "PEAK": 15.504276985743381,
+        "PLAYOFFS": 17.62878455462922,
+        "WINNING": 10.295668549905837
+      }
+    },
+    {
+      "dimension_scores": {
+        "ACCOLADES": 98.44266163284568,
+        "DEFENSE": 95.2147701582517,
+        "LONGEVITY": 93.18267419962335,
+        "OFFENSE": 35.06591337099812,
+        "PEAK": 91.44602851323829,
+        "PLAYOFFS": 91.57525230364195,
+        "WINNING": 93.18267419962335
+      },
+      "mechanical_explanation": "Overall is the sum of the seven displayed weighted contributions; no player-specific adjustment.",
+      "overall_rank": 220,
+      "overall_score": 84.1099189366114,
+      "player_id": "player_4f49f92700925d318a60491a09a749ff",
+      "player_name": "Ben Wallace",
+      "weighted_contributions": {
+        "ACCOLADES": 9.84426616328457,
+        "DEFENSE": 13.33006782215524,
+        "LONGEVITY": 13.045574387947271,
+        "OFFENSE": 5.610546139359699,
+        "PEAK": 15.545824847250511,
+        "PLAYOFFS": 16.48354541465555,
+        "WINNING": 10.250094161958568
+      }
+    }
+  ],
+  "selection_policy": "predetermined historical cases plus data-derived archetypes and ranks 95-105; never used for weights"
+}
