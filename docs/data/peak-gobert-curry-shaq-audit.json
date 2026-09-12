@@ -1,0 +1,109 @@
+{
+  "baseline_direct_raw": {
+    "Rudy Gobert": 0.9838672901122982,
+    "Shaquille O'Neal": 0.9596389308781091,
+    "Stephen Curry": 0.9723514594621803
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+  "minimal_flips": {
+    "GOBERT_VS_SHAQUILLE_ONEAL": [
+      {
+        "raw_values": {
+          "Rudy Gobert": 0.8944377467328866,
+          "Shaquille O'Neal": 0.8996853098804453,
+          "Stephen Curry": 0.9596240018432032
+        },
+        "removed": [
+          "ppg"
+        ]
+      },
+      {
+        "raw_values": {
+          "Rudy Gobert": 0.8169020488416063,
+          "Shaquille O'Neal": 0.98421476340983,
+          "Stephen Curry": 0.9994444444444445
+        },
+        "removed": [
+          "team_suppression"
+        ]
+      }
+    ],
+    "GOBERT_VS_STEPHEN_CURRY": [
+      {
+        "raw_values": {
+          "Rudy Gobert": 0.8944377467328866,
+          "Shaquille O'Neal": 0.8996853098804453,
+          "Stephen Curry": 0.9596240018432032
+        },
+        "removed": [
+          "ppg"
+        ]
+      },
+      {
+        "raw_values": {
+          "Rudy Gobert": 0.8169020488416063,
+          "Shaquille O'Neal": 0.98421476340983,
+          "Stephen Curry": 0.9994444444444445
+        },
+        "removed": [
+          "team_suppression"
+        ]
+      },
+      {
+        "raw_values": {
+          "Rudy Gobert": 0.9758009351684473,
+          "Shaquille O'Neal": 0.9528941642618295,
+          "Stephen Curry": 0.977834754763801
+        },
+        "removed": [
+          "bpg"
+        ]
+      }
+    ]
+  },
+  "single_component_removals": {
+    "apg": {
+      "Rudy Gobert": 0.9989158121964382,
+      "Shaquille O'Neal": 0.9760797400469101,
+      "Stephen Curry": 0.9754519973867091
+    },
+    "bpg": {
+      "Rudy Gobert": 0.9758009351684473,
+      "Shaquille O'Neal": 0.9528941642618295,
+      "Stephen Curry": 0.977834754763801
+    },
+    "ppg": {
+      "Rudy Gobert": 0.8944377467328866,
+      "Shaquille O'Neal": 0.8996853098804453,
+      "Stephen Curry": 0.9596240018432032
+    },
+    "rpg": {
+      "Rudy Gobert": 0.9782873376548499,
+      "Shaquille O'Neal": 0.9456717511795152,
+      "Stephen Curry": 0.9735466047530315
+    },
+    "spg": {
+      "Rudy Gobert": 0.994428823080739,
+      "Shaquille O'Neal": 0.9696050722978029,
+      "Stephen Curry": 0.9679612102081869
+    },
+    "team_suppression": {
+      "Rudy Gobert": 0.8169020488416063,
+      "Shaquille O'Neal": 0.98421476340983,
+      "Stephen Curry": 0.9994444444444445
+    },
+    "ts_pct": {
+      "Rudy Gobert": 0.9631213563674439,
+      "Shaquille O'Neal": 0.9527622035942772,
+      "Stephen Curry": 0.9630255715679669
+    }
+  },
+  "step": "STEP-0015C"
+}

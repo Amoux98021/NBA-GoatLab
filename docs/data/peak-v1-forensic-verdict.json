@@ -1,0 +1,42 @@
+{
+  "audit_gates": {
+    "exact_v1_reconstruction": true,
+    "frozen_non_peak_dimensions_unchanged": true,
+    "frozen_overall_unchanged": true,
+    "missingness_not_zero": true,
+    "no_award_playoff_winning_leakage": true,
+    "regular_season_only": true,
+    "scores_bounded": true
+  },
+  "audit_result": "PASS",
+  "constitutional_verdict": "REQUIRES_REVISION",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+  "overall_v1_overwritten": false,
+  "primary_findings": [
+    "Season quality directly embeds V1 Defense, including a 65% team-season constant.",
+    "Observed-feature renormalization changes realized primitive weights across evidence regimes.",
+    "Peak's 70/30 window blend is correctly implemented and is not the primary defect.",
+    "The research candidate removes team context but remains limited by defensive-action coverage and proxy validity."
+  ],
+  "reconstruction": {
+    "dimension_fingerprint_verified": true,
+    "exact": true,
+    "maximum_raw_difference": 0.0,
+    "maximum_score_difference": 0.0,
+    "maximum_season_quality_percentile_difference": 0.0,
+    "maximum_season_quality_raw_difference": 0.0,
+    "maximum_window_component_difference": 0.0,
+    "mismatches": 0,
+    "overall_fingerprint_verified": true,
+    "players": 5103
+  },
+  "step": "STEP-0015C",
+  "v1_overwritten": false
+}

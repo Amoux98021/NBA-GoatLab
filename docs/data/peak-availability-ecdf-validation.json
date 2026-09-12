@@ -1,0 +1,109 @@
+{
+  "availability": {
+    "confidence_separate_from_quality": true,
+    "equal_quality_after_qualification": {
+      "30_games": 0.9,
+      "50_games": 0.9,
+      "65_games": 0.9,
+      "82_games": 0.9
+    },
+    "games_used_for_qualification": true,
+    "games_used_in_quality_formula": false,
+    "interpretation": "Availability affects qualification and confidence, not the season-quality value after qualification.",
+    "minutes_used_in_quality_formula": false,
+    "regular_qualification": "games >= max(5, ceil(20% of team opportunity))"
+  },
+  "ecdf": {
+    "elite_tail": [
+      {
+        "ecdf_score": 90.0,
+        "quantile": 0.9,
+        "raw_peak": 0.9436014136566958
+      },
+      {
+        "ecdf_score": 95.010183299389,
+        "quantile": 0.95,
+        "raw_peak": 0.9702474376690646
+      },
+      {
+        "ecdf_score": 97.00610997963341,
+        "quantile": 0.97,
+        "raw_peak": 0.9800196639566494
+      },
+      {
+        "ecdf_score": 99.0020366598778,
+        "quantile": 0.99,
+        "raw_peak": 0.9944802023037365
+      },
+      {
+        "ecdf_score": 99.4908350305499,
+        "quantile": 0.995,
+        "raw_peak": 0.996753938746963
+      }
+    ],
+    "interpretation": "ECDF is monotone and cannot create pairwise reversals; it can compress raw elite-tail gaps.",
+    "median_adjacent_unique_raw_gap": 0.0002363562594621671,
+    "overall_top_100_peak_score_sd": 2.7016736611637975,
+    "overall_top_25_peak_score_sd": 0.8057780149634883,
+    "raw_peak_distribution": {
+      "count": 2456,
+      "mean": 0.6302749579024847,
+      "median": 0.6590869011052315,
+      "p10": 0.2671340171836244,
+      "p25": 0.4335860039366702,
+      "p75": 0.8459412826056144,
+      "p90": 0.9436014136566958,
+      "p95": 0.9702474376690646,
+      "p99": 0.9944802023037365,
+      "std": 0.2479888623783059
+    },
+    "raw_range_per_one_ecdf_point_around_p95": 0.0046519347245911336,
+    "reference_players": 2456
+  },
+  "independent_validation": {
+    "ALL_NBA_FIRST": {
+      "distribution": {
+        "count": 400,
+        "mean": 92.39531627611888,
+        "median": 96.09652039007092,
+        "p10": 77.84041020521606,
+        "p25": 89.6128144654088,
+        "p75": 99.10111003861003,
+        "p90": 100.0,
+        "p95": 100.0,
+        "p99": 100.0,
+        "std": 9.363009393079494
+      },
+      "seasons": 400,
+      "share_at_or_above_90": 0.74,
+      "share_at_or_above_95": 0.56
+    },
+    "MVP": {
+      "distribution": {
+        "count": 71,
+        "mean": 95.5920865295031,
+        "median": 99.13544668587896,
+        "p10": 82.56658595641646,
+        "p25": 94.92086860507914,
+        "p75": 99.89154013015184,
+        "p90": 100.0,
+        "p95": 100.0,
+        "p99": 100.0,
+        "std": 7.463424053367171
+      },
+      "seasons": 71,
+      "share_at_or_above_90": 0.8732394366197183,
+      "share_at_or_above_95": 0.7464788732394366
+    },
+    "awards_used_as_inputs": false
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+  "step": "STEP-0015C"
+}

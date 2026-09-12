@@ -184,3 +184,14 @@ This living summary may be extended, but methodology changes must also receive a
 - Continuous reliability is `min(1, games_with/10) × min(1, games_without/5)`. It smoothly blends observed Presence into the expected fallback and removes the hard eligibility cliff, but does not make weak fallback evidence informative.
 - Confidence is reported separately as `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE`; it never changes score quality. Expected and reliability-blended seasons carry explicit reason codes.
 - STEP-0015B is `PASS + DO_NOT_PROMOTE`. No new official Defense or Overall version is created. Frozen V1 remains unchanged but retains its `REQUIRES_REVISION` constitutional verdict.
+
+## Peak V1 forensic audit and research counterfactual
+
+- `goatlab-v1-peak-forensic-audit-v1` reconstructs frozen Peak V1 without modifying `goatlab-v1-dimension-scores-v1` or `goatlab-v1-overall-v1`.
+- V1 season quality is a nested Regular Season construct: Scoring is PPG/TS at 65/35; Offense is the stronger of Scoring/APG at 65/35; Actions is RPG/STL/BLK at 50/25/25; Defense is TeamSuppression/Actions at 65/35; season quality is the stronger of Offense/Defense at 65/35.
+- Observed-feature weights renormalize and missing evidence remains NULL. This preserves `NULL != 0` but does not guarantee construct equivalence across evidence regimes.
+- Peak remains 70% best complete contiguous three-season season quality plus 30% apex. Gaps and nonqualified seasons invalidate the three-year window; the earliest equal window wins deterministically.
+- Games determine qualification and evidence confidence, not season-quality magnitude. Minutes, career duration outside the selected window, postseason, awards, winning, and modern-only evidence do not enter Peak.
+- Team suppression is a shared team-season constant with 34.34% mean realized season-quality weight, 30.17% covariance-allocated variance share, and the largest component leave-one-out error. Frozen Peak V1 is therefore classified `REQUIRES_REVISION`.
+- `goatlab-v1-peak-v2-research` is a non-promoted counterfactual: require both season Offense and role-aware individual action evidence, combine stronger/secondary at 65/35, and retain the 70/30 Peak window. It cannot replace V1 because historical defensive-action/role coverage is insufficient and actions do not represent total defensive impact.
+- ADR-0031 preserves V1 as the reproducible baseline and requires a later evidence-regime-calibrated season-value promotion audit.

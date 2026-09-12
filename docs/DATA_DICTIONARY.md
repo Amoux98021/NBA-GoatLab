@@ -204,6 +204,20 @@ Generated STEP-0015B data remains ignored under `data/gold/defense_v2_promotion_
 
 Fallback type is `OBSERVED`, `RELIABILITY_BLEND`, `EXPECTED_PRESENCE`, `MIXED`, or `UNAVAILABLE`. Expected Presence is a model estimate and must never be represented as observed impact. `DO_NOT_PROMOTE` means these outputs remain audit evidence only.
 
+## Gold Peak forensic-audit outputs
+
+Generated STEP-0015C data remains ignored under `data/gold/peak_forensic_audit/`; it does not replace published Peak or Overall V1.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `v1-season-quality-decomposition` | player × qualified Regular Season | Exact PPG/TS/APG/team-suppression/RPG/STL/BPG inputs, nested values, missingness, realized weights, contributions, and frozen season-quality percentile. |
+| `v1-player-peak-decomposition` | master player | Exact complete three-year window, apex, raw Peak, final V1 score, coverage, and evidence confidence. |
+| `peak-v2-research-scores` | master player | Non-promoted player-specific candidate score using role-aware actions and no team-season context. |
+| `peak-stress-tests` | predetermined diagnostic player | V1/research window, apex, score, confidence, and movement reason; never formula-training evidence. |
+| `overall-peak-v2-counterfactual` | master player | Frozen-weight Overall diagnostic with research Peak substituted and explicit `published_v1_overwritten=false`. |
+
+`missing_inputs_json` records unavailable primitives; it is not an observed-zero list. `effective_weight_*` is the realized nested coefficient after missingness and stronger-axis decisions. `contribution_*` equals observed percentile times realized coefficient. The research method identifier does not denote a promoted V2.
+
 ## Gold dimension candidate audit V1
 
 Generated STEP-0012 Gold remains ignored and is partitioned by dimension/candidate.

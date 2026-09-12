@@ -1,0 +1,2253 @@
+{
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+  "players": [
+    {
+      "confidence": "LIMITED",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_c0f05230945752728b22330b9dc82c5b",
+      "player_name": "Bill Russell",
+      "research_apex": null,
+      "research_peak": null,
+      "research_raw_peak": null,
+      "research_three_year": null,
+      "research_three_year_end": null,
+      "research_three_year_start": null,
+      "v1_apex": 0.9801980198019803,
+      "v1_peak": 93.48268839103869,
+      "v1_raw_peak": 0.963127232257412,
+      "v1_three_year": 0.9558111804525969,
+      "v1_three_year_end": 1966,
+      "v1_three_year_start": 1964,
+      "v1_window_seasons": [
+        {
+          "action_value": null,
+          "defense_value": 1.0,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.35,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.65,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.738095238095,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.738095238095,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 1.0,
+            "ts_pct": null
+          },
+          "scoring_value": 0.738095238095,
+          "season_id": 1964,
+          "season_quality_percentile": 0.9711538461538461,
+          "season_quality_raw": 0.90833333333325,
+          "team_suppression": 1.0
+        },
+        {
+          "action_value": null,
+          "defense_value": 1.0,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.35,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.65,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.637755102041,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.637755102041,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 1.0,
+            "ts_pct": null
+          },
+          "scoring_value": 0.637755102041,
+          "season_id": 1965,
+          "season_quality_percentile": 0.9484536082474228,
+          "season_quality_raw": 0.87321428571435,
+          "team_suppression": 1.0
+        },
+        {
+          "action_value": null,
+          "defense_value": 1.0,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.35,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.65,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.659482758621,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.659482758621,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 1.0,
+            "ts_pct": null
+          },
+          "scoring_value": 0.659482758621,
+          "season_id": 1966,
+          "season_quality_percentile": 0.9478260869565217,
+          "season_quality_raw": 0.88081896551735,
+          "team_suppression": 1.0
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_4d08922285b55514a689685cb9615544",
+      "player_name": "David Robinson",
+      "research_apex": 1.0,
+      "research_peak": 99.91477272727273,
+      "research_raw_peak": 1.0,
+      "research_three_year": 1.0,
+      "research_three_year_end": 1995,
+      "research_three_year_start": 1993,
+      "v1_apex": 1.0,
+      "v1_peak": 99.63340122199592,
+      "v1_raw_peak": 0.9981545184939581,
+      "v1_three_year": 0.9973635978485116,
+      "v1_three_year_end": 1999,
+      "v1_three_year_start": 1997,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.90133333333325,
+          "defense_value": 0.9654666666666375,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.8774533333332575,
+          "primitive_values": {
+            "apg": 0.74,
+            "bpg": 0.988,
+            "ppg": 0.972,
+            "rpg": 0.98,
+            "spg": 0.657333333333,
+            "team_suppression": 1.0,
+            "ts_pct": 0.913333333333
+          },
+          "scoring_value": 0.95146666666655,
+          "season_id": 1997,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9346619999999546,
+          "team_suppression": 1.0
+        },
+        {
+          "action_value": 0.95238095238075,
+          "defense_value": 0.9369047619046911,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.8232208994710376,
+          "primitive_values": {
+            "apg": 0.69708994709,
+            "bpg": 0.977513227513,
+            "ppg": 0.890211640212,
+            "rpg": 0.966931216931,
+            "spg": 0.898148148148,
+            "team_suppression": 0.9285714285714286,
+            "ts_pct": 0.892857142857
+          },
+          "scoring_value": 0.8911375661377501,
+          "season_id": 1998,
+          "season_quality_percentile": 0.9946949602122015,
+          "season_quality_raw": 0.8971154100529124,
+          "team_suppression": 0.9285714285714286
+        },
+        {
+          "action_value": 0.9415584415585,
+          "defense_value": 0.9795454545454749,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.7950259740260626,
+          "primitive_values": {
+            "apg": 0.590909090909,
+            "bpg": 0.985714285714,
+            "ppg": 0.91038961039,
+            "rpg": 0.97012987013,
+            "spg": 0.84025974026,
+            "team_suppression": 1.0,
+            "ts_pct": 0.894805194805
+          },
+          "scoring_value": 0.90493506493525,
+          "season_id": 1999,
+          "season_quality_percentile": 0.9973958333333333,
+          "season_quality_raw": 0.9149636363636806,
+          "team_suppression": 1.0
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_e68d0769835b59e6a9688c8a268a5195",
+      "player_name": "Dwyane Wade",
+      "research_apex": 1.0,
+      "research_peak": 99.43181818181819,
+      "research_raw_peak": 0.9982565770701365,
+      "research_three_year": 0.9975093958144806,
+      "research_three_year_end": 2006,
+      "research_three_year_start": 2004,
+      "v1_apex": 1.0,
+      "v1_peak": 99.30753564154786,
+      "v1_raw_peak": 0.9960519513711003,
+      "v1_three_year": 0.9943599305301433,
+      "v1_three_year_end": 2011,
+      "v1_three_year_start": 2009,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.830176767677,
+          "defense_value": 0.9181480755835016,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.94816287878785,
+          "primitive_values": {
+            "apg": 0.973484848485,
+            "bpg": 0.890151515152,
+            "ppg": 0.988636363636,
+            "rpg": 0.72095959596,
+            "spg": 0.988636363636,
+            "team_suppression": 0.9655172413793103,
+            "ts_pct": 0.738636363636
+          },
+          "scoring_value": 0.9011363636360001,
+          "season_id": 2009,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9376576976663281,
+          "team_suppression": 0.9655172413793103
+        },
+        {
+          "action_value": 0.89215686274525,
+          "defense_value": 0.8501859364435961,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9282414215684225,
+          "primitive_values": {
+            "apg": 0.908088235294,
+            "bpg": 0.917892156863,
+            "ppg": 0.991421568627,
+            "rpg": 0.854166666667,
+            "spg": 0.942401960784,
+            "team_suppression": 0.8275862068965517,
+            "ts_pct": 0.841911764706
+          },
+          "scoring_value": 0.93909313725465,
+          "season_id": 2010,
+          "season_quality_percentile": 0.9901719901719902,
+          "season_quality_raw": 0.9009220017747332,
+          "team_suppression": 0.8275862068965517
+        },
+        {
+          "action_value": 0.85554245283025,
+          "defense_value": 0.8821984791802426,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9247818396228125,
+          "primitive_values": {
+            "apg": 0.916273584906,
+            "bpg": 0.930424528302,
+            "ppg": 0.984669811321,
+            "rpg": 0.760613207547,
+            "spg": 0.970518867925,
+            "team_suppression": 0.896551724137931,
+            "ts_pct": 0.826650943396
+          },
+          "scoring_value": 0.92936320754725,
+          "season_id": 2011,
+          "season_quality_percentile": 0.9929078014184397,
+          "season_quality_raw": 0.909877663467913,
+          "team_suppression": 0.896551724137931
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_d01be951b9595ebc825aa6d30818a449",
+      "player_name": "Giannis Antetokounmpo",
+      "research_apex": 1.0,
+      "research_peak": 99.6875,
+      "research_raw_peak": 0.9994509803921569,
+      "research_three_year": 0.9992156862745097,
+      "research_three_year_end": 2020,
+      "research_three_year_start": 2018,
+      "v1_apex": 0.9954128440366972,
+      "v1_peak": 97.43380855397149,
+      "v1_raw_peak": 0.9839252888384027,
+      "v1_three_year": 0.9790020508962765,
+      "v1_three_year_end": 2018,
+      "v1_three_year_start": 2016,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.969483568075,
+          "defense_value": 0.8100089039986638,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.932083333333185,
+          "primitive_values": {
+            "apg": 0.93779342723,
+            "bpg": 0.984741784038,
+            "ppg": 0.951877934272,
+            "rpg": 0.958920187793,
+            "spg": 0.975352112676,
+            "team_suppression": 0.7241379310344827,
+            "ts_pct": 0.865023474178
+          },
+          "scoring_value": 0.9214788732390999,
+          "season_id": 2016,
+          "season_quality_percentile": 0.9858823529411765,
+          "season_quality_raw": 0.8893572830661026,
+          "team_suppression": 0.7241379310344827
+        },
+        {
+          "action_value": 0.961046511628,
+          "defense_value": 0.6501593825180758,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9261686046510775,
+          "primitive_values": {
+            "apg": 0.912790697674,
+            "bpg": 0.970930232558,
+            "ppg": 0.989534883721,
+            "rpg": 0.968604651163,
+            "spg": 0.936046511628,
+            "team_suppression": 0.48275862068965514,
+            "ts_pct": 0.829069767442
+          },
+          "scoring_value": 0.93337209302335,
+          "season_id": 2017,
+          "season_quality_percentile": 0.9557109557109557,
+          "season_quality_raw": 0.829565376904527,
+          "team_suppression": 0.48275862068965514
+        },
+        {
+          "action_value": 0.96395881006875,
+          "defense_value": 0.7632476524895797,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9672482837529475,
+          "primitive_values": {
+            "apg": 0.939359267735,
+            "bpg": 0.975972540046,
+            "ppg": 0.994279176201,
+            "rpg": 0.987414187643,
+            "spg": 0.905034324943,
+            "team_suppression": 0.6551724137931035,
+            "ts_pct": 0.95995423341
+          },
+          "scoring_value": 0.98226544622415,
+          "season_id": 2018,
+          "season_quality_percentile": 0.9954128440366972,
+          "season_quality_raw": 0.8958480628107688,
+          "team_suppression": 0.6551724137931035
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a",
+      "player_name": "Hakeem Olajuwon",
+      "research_apex": 1.0,
+      "research_peak": 99.54545454545455,
+      "research_raw_peak": 0.9986702926492673,
+      "research_three_year": 0.9981004180703819,
+      "research_three_year_end": 1994,
+      "research_three_year_start": 1992,
+      "v1_apex": 0.9970760233918129,
+      "v1_peak": 96.82281059063136,
+      "v1_raw_peak": 0.978676775869445,
+      "v1_three_year": 0.9707913840741446,
+      "v1_three_year_end": 1994,
+      "v1_three_year_start": 1992,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.98469387755075,
+          "defense_value": 0.9446428571427625,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.899234693877285,
+          "primitive_values": {
+            "apg": 0.797376093294,
+            "bpg": 0.998542274052,
+            "ppg": 0.989795918367,
+            "rpg": 0.989795918367,
+            "spg": 0.960641399417,
+            "team_suppression": 0.9230769230769231,
+            "ts_pct": 0.887755102041
+          },
+          "scoring_value": 0.9540816326529,
+          "season_id": 1992,
+          "season_quality_percentile": 0.9970760233918129,
+          "season_quality_raw": 0.9287499999998454,
+          "team_suppression": 0.9230769230769231
+        },
+        {
+          "action_value": 0.97341954023,
+          "defense_value": 0.8906968390805,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.89903017241368,
+          "primitive_values": {
+            "apg": 0.808908045977,
+            "bpg": 0.995689655172,
+            "ppg": 0.992816091954,
+            "rpg": 0.989942528736,
+            "spg": 0.918103448276,
+            "team_suppression": 0.8461538461538461,
+            "ts_pct": 0.863505747126
+          },
+          "scoring_value": 0.9475574712642001,
+          "season_id": 1993,
+          "season_quality_percentile": 0.9913544668587896,
+          "season_quality_raw": 0.896113505747067,
+          "team_suppression": 0.8461538461538461
+        },
+        {
+          "action_value": 0.97893258427,
+          "defense_value": 0.6676264044945,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.87500702247195,
+          "primitive_values": {
+            "apg": 0.813202247191,
+            "bpg": 0.995786516854,
+            "ppg": 0.995786516854,
+            "rpg": 0.973314606742,
+            "spg": 0.973314606742,
+            "team_suppression": 0.5,
+            "ts_pct": 0.745786516854
+          },
+          "scoring_value": 0.908286516854,
+          "season_id": 1994,
+          "season_quality_percentile": 0.9239436619718311,
+          "season_quality_raw": 0.8024238061798424,
+          "team_suppression": 0.5
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "player_name": "Kareem Abdul-Jabbar",
+      "research_apex": 0.9956709956709956,
+      "research_peak": 82.32954545454545,
+      "research_raw_peak": 0.881014849247203,
+      "research_three_year": 0.8318765007798632,
+      "research_three_year_end": 1987,
+      "research_three_year_start": 1985,
+      "v1_apex": 1.0,
+      "v1_peak": 99.79633401221996,
+      "v1_raw_peak": 0.9988562091503268,
+      "v1_three_year": 0.9983660130718954,
+      "v1_three_year_end": 1972,
+      "v1_three_year_start": 1970,
+      "v1_window_seasons": [
+        {
+          "action_value": null,
+          "defense_value": null,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 1.0,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.0,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg",
+            "team_suppression"
+          ],
+          "offense_value": 0.9975,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.9975,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": null,
+            "ts_pct": null
+          },
+          "scoring_value": 0.9975,
+          "season_id": 1970,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9975,
+          "team_suppression": null
+        },
+        {
+          "action_value": null,
+          "defense_value": 0.9375,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.65,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.35,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.99756097561,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.99756097561,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 0.9375,
+            "ts_pct": null
+          },
+          "scoring_value": 0.99756097561,
+          "season_id": 1971,
+          "season_quality_percentile": 0.9950980392156863,
+          "season_quality_raw": 0.9765396341465,
+          "team_suppression": 0.9375
+        },
+        {
+          "action_value": null,
+          "defense_value": 0.9375,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.65,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.35,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.992385786802,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.992385786802,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 0.9375,
+            "ts_pct": null
+          },
+          "scoring_value": 0.992385786802,
+          "season_id": 1972,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9731757614213,
+          "team_suppression": 0.9375
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+      "player_name": "Karl Malone",
+      "research_apex": 1.0,
+      "research_peak": 99.375,
+      "research_raw_peak": 0.9981626278646176,
+      "research_three_year": 0.9973751826637395,
+      "research_three_year_end": 1998,
+      "research_three_year_start": 1996,
+      "v1_apex": 1.0,
+      "v1_peak": 99.67413441955193,
+      "v1_raw_peak": 0.9981706871345031,
+      "v1_three_year": 0.9973866959064329,
+      "v1_three_year_end": 2000,
+      "v1_three_year_start": 1998,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.88128306878325,
+          "defense_value": 0.8655919312169946,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9474140211639375,
+          "primitive_values": {
+            "apg": 0.898148148148,
+            "bpg": 0.748677248677,
+            "ppg": 0.993386243386,
+            "rpg": 0.953703703704,
+            "spg": 0.869047619048,
+            "team_suppression": 0.8571428571428571,
+            "ts_pct": 0.937830687831
+          },
+          "scoring_value": 0.97394179894175,
+          "season_id": 1998,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9187762896825076,
+          "team_suppression": 0.8571428571428571
+        },
+        {
+          "action_value": 0.88181818181825,
+          "defense_value": 0.8657792207792446,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9279935064936475,
+          "primitive_values": {
+            "apg": 0.848051948052,
+            "bpg": 0.863636363636,
+            "ppg": 0.988311688312,
+            "rpg": 0.962337662338,
+            "spg": 0.738961038961,
+            "team_suppression": 0.8571428571428571,
+            "ts_pct": 0.938961038961
+          },
+          "scoring_value": 0.9710389610391501,
+          "season_id": 1999,
+          "season_quality_percentile": 0.9947916666666667,
+          "season_quality_raw": 0.9062185064936065,
+          "team_suppression": 0.8571428571428571
+        },
+        {
+          "action_value": 0.876968503937,
+          "defense_value": 0.79443897637795,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9356889763782099,
+          "primitive_values": {
+            "apg": 0.891076115486,
+            "bpg": 0.812335958005,
+            "ppg": 0.969816272966,
+            "rpg": 0.933070866142,
+            "spg": 0.829396325459,
+            "team_suppression": 0.75,
+            "ts_pct": 0.94094488189
+          },
+          "scoring_value": 0.9597112860893999,
+          "season_id": 2000,
+          "season_quality_percentile": 0.9973684210526317,
+          "season_quality_raw": 0.8862514763781189,
+          "team_suppression": 0.75
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_e2d1ed7c54525122abb63cfcfefdda78",
+      "player_name": "Kawhi Leonard",
+      "research_apex": 0.9811764705882353,
+      "research_peak": 96.81818181818181,
+      "research_raw_peak": 0.9785029995147085,
+      "research_three_year": 0.9773572261974827,
+      "research_three_year_end": 2016,
+      "research_three_year_start": 2014,
+      "v1_apex": 1.0,
+      "v1_peak": 99.75560081466395,
+      "v1_raw_peak": 0.9983668304955825,
+      "v1_three_year": 0.9976669007079749,
+      "v1_three_year_end": 2016,
+      "v1_three_year_start": 2014,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.914260969977,
+          "defense_value": 0.9251637532850534,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.8246997690532973,
+          "primitive_values": {
+            "apg": 0.740184757506,
+            "bpg": 0.849884526559,
+            "ppg": 0.90415704388,
+            "rpg": 0.90415704388,
+            "spg": 0.998845265589,
+            "team_suppression": 0.9310344827586207,
+            "ts_pct": 0.807159353349
+          },
+          "scoring_value": 0.8702078521941499,
+          "season_id": 2014,
+          "season_quality_percentile": 0.9953703703703703,
+          "season_quality_raw": 0.8900013588039388,
+          "team_suppression": 0.9310344827586207
+        },
+        {
+          "action_value": 0.90130023640675,
+          "defense_value": 0.9654550827423625,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.8884338061464325,
+          "primitive_values": {
+            "apg": 0.760047281324,
+            "bpg": 0.887706855792,
+            "ppg": 0.963356973995,
+            "rpg": 0.873522458629,
+            "spg": 0.970449172577,
+            "team_suppression": 1.0,
+            "ts_pct": 0.946808510638
+          },
+          "scoring_value": 0.95756501182005,
+          "season_id": 2015,
+          "season_quality_percentile": 0.9976303317535544,
+          "season_quality_raw": 0.9384976359337871,
+          "team_suppression": 1.0
+        },
+        {
+          "action_value": 0.8673708920184999,
+          "defense_value": 0.9311660191030267,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.91941314554007,
+          "primitive_values": {
+            "apg": 0.855633802817,
+            "bpg": 0.846244131455,
+            "ppg": 0.980046948357,
+            "rpg": 0.820422535211,
+            "spg": 0.982394366197,
+            "team_suppression": 0.9655172413793102,
+            "ts_pct": 0.904929577465
+          },
+          "scoring_value": 0.9537558685448,
+          "season_id": 2016,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9270525133559919,
+          "team_suppression": 0.9655172413793102
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_1b91b9433ba05bf8898bb53db51b4826",
+      "player_name": "Kevin Durant",
+      "research_apex": 1.0,
+      "research_peak": 99.60227272727273,
+      "research_raw_peak": 0.9988861355587836,
+      "research_three_year": 0.9984087650839766,
+      "research_three_year_end": 2013,
+      "research_three_year_start": 2011,
+      "v1_apex": 0.9912854030501088,
+      "v1_peak": 97.10794297352342,
+      "v1_raw_peak": 0.9813304783589929,
+      "v1_three_year": 0.9770640820628004,
+      "v1_three_year_end": 2013,
+      "v1_three_year_start": 2011,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.92836084905675,
+          "defense_value": 0.6163056075146901,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9431426886792276,
+          "primitive_values": {
+            "apg": 0.859669811321,
+            "bpg": 0.920990566038,
+            "ppg": 0.998820754717,
+            "rpg": 0.9375,
+            "spg": 0.917452830189,
+            "team_suppression": 0.4482758620689655,
+            "ts_pct": 0.968160377358
+          },
+          "scoring_value": 0.98808962264135,
+          "season_id": 2011,
+          "season_quality_percentile": 0.950354609929078,
+          "season_quality_raw": 0.8287497102716395,
+          "team_suppression": 0.4482758620689655
+        },
+        {
+          "action_value": 0.92908653846175,
+          "defense_value": 0.7846630470823022,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9636237980769224,
+          "primitive_values": {
+            "apg": 0.907451923077,
+            "bpg": 0.941105769231,
+            "ppg": 0.996394230769,
+            "rpg": 0.926682692308,
+            "spg": 0.921875,
+            "team_suppression": 0.7068965517241379,
+            "ts_pct": 0.989182692308
+          },
+          "scoring_value": 0.9938701923076501,
+          "season_id": 2012,
+          "season_quality_percentile": 0.9903614457831326,
+          "season_quality_raw": 0.9009875352288053,
+          "team_suppression": 0.7068965517241379
+        },
+        {
+          "action_value": 0.883016627078,
+          "defense_value": 0.712504095339369,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9712114014252824,
+          "primitive_values": {
+            "apg": 0.932304038005,
+            "bpg": 0.818289786223,
+            "ppg": 0.998812351544,
+            "rpg": 0.906175771971,
+            "spg": 0.901425178147,
+            "team_suppression": 0.6206896551724138,
+            "ts_pct": 0.979809976247
+          },
+          "scoring_value": 0.99216152019005,
+          "season_id": 2013,
+          "season_quality_percentile": 0.9904761904761905,
+          "season_quality_raw": 0.8806638442952127,
+          "team_suppression": 0.6206896551724138
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_dd5f0bde53db5cef8a1d3b738e9d67b9",
+      "player_name": "Kobe Bryant",
+      "research_apex": 0.9972972972972972,
+      "research_peak": 98.80681818181819,
+      "research_raw_peak": 0.9937519624133797,
+      "research_three_year": 0.992232533177415,
+      "research_three_year_end": 2004,
+      "research_three_year_start": 2002,
+      "v1_apex": 0.9895833333333333,
+      "v1_peak": 94.78615071283096,
+      "v1_raw_peak": 0.9687329188559269,
+      "v1_three_year": 0.9597970269370385,
+      "v1_three_year_end": 2010,
+      "v1_three_year_start": 2008,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.7841772151895,
+          "defense_value": 0.6554965080749456,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9078291139240475,
+          "primitive_values": {
+            "apg": 0.912658227848,
+            "bpg": 0.644303797468,
+            "ppg": 0.993670886076,
+            "rpg": 0.770886075949,
+            "spg": 0.950632911392,
+            "team_suppression": 0.5862068965517241,
+            "ts_pct": 0.722784810127
+          },
+          "scoring_value": 0.89886075949385,
+          "season_id": 2008,
+          "season_quality_percentile": 0.9467005076142132,
+          "season_quality_raw": 0.819512701876862,
+          "team_suppression": 0.5862068965517241
+        },
+        {
+          "action_value": 0.7506313131315,
+          "defense_value": 0.7334106147684387,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9010606060607951,
+          "primitive_values": {
+            "apg": 0.92297979798,
+            "bpg": 0.478535353535,
+            "ppg": 0.991161616162,
+            "rpg": 0.781565656566,
+            "spg": 0.960858585859,
+            "team_suppression": 0.7241379310344827,
+            "ts_pct": 0.617424242424
+          },
+          "scoring_value": 0.8603535353537001,
+          "season_id": 2009,
+          "season_quality_percentile": 0.9670886075949368,
+          "season_quality_raw": 0.8423831091084704,
+          "team_suppression": 0.7241379310344827
+        },
+        {
+          "action_value": 0.67861519607875,
+          "defense_value": 0.7306187669034245,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.899142156862905,
+          "primitive_values": {
+            "apg": 0.915441176471,
+            "bpg": 0.261029411765,
+            "ppg": 0.988970588235,
+            "rpg": 0.775735294118,
+            "spg": 0.901960784314,
+            "team_suppression": 0.7586206896551724,
+            "ts_pct": 0.645833333333
+          },
+          "scoring_value": 0.8688725490193,
+          "season_id": 2010,
+          "season_quality_percentile": 0.9656019656019655,
+          "season_quality_raw": 0.8401589703770869,
+          "team_suppression": 0.7586206896551724
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+      "player_name": "Larry Bird",
+      "research_apex": 0.9965986394557824,
+      "research_peak": 99.31818181818181,
+      "research_raw_peak": 0.9965484335019308,
+      "research_three_year": 0.9965269166645658,
+      "research_three_year_end": 1987,
+      "research_three_year_start": 1985,
+      "v1_apex": 1.0,
+      "v1_peak": 99.5112016293279,
+      "v1_raw_peak": 0.9967704728950403,
+      "v1_three_year": 0.9953863898500576,
+      "v1_three_year_end": 1986,
+      "v1_three_year_start": 1984,
+      "v1_window_seasons": [
+        {
+          "action_value": null,
+          "defense_value": 0.818181818181818,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.42250000000000004,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.35,
+            "ts_pct": 0.22749999999999998
+          },
+          "missing_inputs": [
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.9512227061211,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.994827586207,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 0.8181818181818181,
+            "ts_pct": 0.870242214533
+          },
+          "scoring_value": 0.9512227061211,
+          "season_id": 1984,
+          "season_quality_percentile": 0.986159169550173,
+          "season_quality_raw": 0.9046583953423513,
+          "team_suppression": 0.8181818181818181
+        },
+        {
+          "action_value": 0.91536458333325,
+          "defense_value": 0.9112866950757283,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9438966714562825,
+          "primitive_values": {
+            "apg": 0.946180555556,
+            "bpg": 0.760416666667,
+            "ppg": 0.987931034483,
+            "rpg": 0.970486111111,
+            "spg": 0.960069444444,
+            "team_suppression": 0.9090909090909091,
+            "ts_pct": 0.85
+          },
+          "scoring_value": 0.93965517241395,
+          "season_id": 1985,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9324831797230886,
+          "team_suppression": 0.9090909090909091
+        },
+        {
+          "action_value": 0.9163732394367501,
+          "defense_value": 0.8820942701664989,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9702984638540525,
+          "primitive_values": {
+            "apg": 0.955985915493,
+            "bpg": 0.839788732394,
+            "ppg": 0.987889273356,
+            "rpg": 0.93485915493,
+            "spg": 0.955985915493,
+            "team_suppression": 0.8636363636363636,
+            "ts_pct": 0.959649122807
+          },
+          "scoring_value": 0.97800522066385,
+          "season_id": 1986,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9394269960634087,
+          "team_suppression": 0.8636363636363636
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "player_name": "LeBron James",
+      "research_apex": 1.0,
+      "research_peak": 99.91477272727273,
+      "research_raw_peak": 1.0,
+      "research_three_year": 1.0,
+      "research_three_year_end": 2009,
+      "research_three_year_start": 2007,
+      "v1_apex": 1.0,
+      "v1_peak": 99.95926680244399,
+      "v1_raw_peak": 1.0,
+      "v1_three_year": 1.0,
+      "v1_three_year_end": 2012,
+      "v1_three_year_start": 2010,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.8854166666665,
+          "defense_value": 0.8478268678160336,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9707843137254475,
+          "primitive_values": {
+            "apg": 0.97181372549,
+            "bpg": 0.77818627451,
+            "ppg": 0.996323529412,
+            "rpg": 0.895833333333,
+            "spg": 0.97181372549,
+            "team_suppression": 0.8275862068965517,
+            "ts_pct": 0.917892156863
+          },
+          "scoring_value": 0.96887254901985,
+          "season_id": 2010,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9277492076571527,
+          "team_suppression": 0.8275862068965517
+        },
+        {
+          "action_value": 0.9245283018867501,
+          "defense_value": 0.9063435263500177,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9744988207545475,
+          "primitive_values": {
+            "apg": 0.96108490566,
+            "bpg": 0.83608490566,
+            "ppg": 0.994103773585,
+            "rpg": 0.935141509434,
+            "spg": 0.991745283019,
+            "team_suppression": 0.896551724137931,
+            "ts_pct": 0.958726415094
+          },
+          "scoring_value": 0.98172169811315,
+          "season_id": 2011,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9506444677129622,
+          "team_suppression": 0.896551724137931
+        },
+        {
+          "action_value": 0.9212740384617499,
+          "defense_value": 0.8827907410478194,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9832151442310451,
+          "primitive_values": {
+            "apg": 0.972355769231,
+            "bpg": 0.856971153846,
+            "ppg": 0.991586538462,
+            "rpg": 0.929086538462,
+            "spg": 0.969951923077,
+            "team_suppression": 0.8620689655172414,
+            "ts_pct": 0.984375
+          },
+          "scoring_value": 0.9890625000002999,
+          "season_id": 2012,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.948066603116916,
+          "team_suppression": 0.8620689655172414
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_8f4568aa56f35088b26a2d5f0a00b995",
+      "player_name": "Magic Johnson",
+      "research_apex": 1.0,
+      "research_peak": 98.63636363636364,
+      "research_raw_peak": 0.9929152419685121,
+      "research_three_year": 0.9898789170978745,
+      "research_three_year_end": 1988,
+      "research_three_year_start": 1986,
+      "v1_apex": 1.0,
+      "v1_peak": 99.59266802443992,
+      "v1_raw_peak": 0.9977987421383648,
+      "v1_three_year": 0.9968553459119497,
+      "v1_three_year_end": 1990,
+      "v1_three_year_start": 1988,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.80877742946675,
+          "defense_value": 0.7434887669800292,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9856426332289274,
+          "primitive_values": {
+            "apg": 0.995297805643,
+            "bpg": 0.531347962382,
+            "ppg": 0.954545454545,
+            "rpg": 0.888714733542,
+            "spg": 0.926332288401,
+            "team_suppression": 0.7083333333333333,
+            "ts_pct": 0.992163009404
+          },
+          "scoring_value": 0.9677115987456499,
+          "season_id": 1988,
+          "season_quality_percentile": 0.9905660377358491,
+          "season_quality_raw": 0.900888780041813,
+          "team_suppression": 0.7083333333333333
+        },
+        {
+          "action_value": 0.80223880597025,
+          "defense_value": 0.7807835820895874,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9808736657958275,
+          "primitive_values": {
+            "apg": 0.99552238806,
+            "bpg": 0.65223880597,
+            "ppg": 0.939169139466,
+            "rpg": 0.816417910448,
+            "spg": 0.923880597015,
+            "team_suppression": 0.7692307692307692,
+            "ts_pct": 0.980597014925
+          },
+          "scoring_value": 0.9536688958766499,
+          "season_id": 1989,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9108421364986434,
+          "team_suppression": 0.7692307692307692
+        },
+        {
+          "action_value": 0.74038461538475,
+          "defense_value": 0.8841346153846625,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9732040481928275,
+          "primitive_values": {
+            "apg": 0.995562130178,
+            "bpg": 0.436390532544,
+            "ppg": 0.910029498525,
+            "rpg": 0.847633136095,
+            "spg": 0.829881656805,
+            "team_suppression": 0.9615384615384616,
+            "ts_pct": 0.971893491124
+          },
+          "scoring_value": 0.93168189593465,
+          "season_id": 1990,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9420297467099698,
+          "team_suppression": 0.9615384615384616
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "player_name": "Michael Jordan",
+      "research_apex": 1.0,
+      "research_peak": 99.91477272727273,
+      "research_raw_peak": 1.0,
+      "research_three_year": 1.0,
+      "research_three_year_end": 1989,
+      "research_three_year_start": 1987,
+      "v1_apex": 1.0,
+      "v1_peak": 99.87780040733197,
+      "v1_raw_peak": 0.9993096646942801,
+      "v1_three_year": 0.9990138067061144,
+      "v1_three_year_end": 1992,
+      "v1_three_year_start": 1990,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.86316568047375,
+          "defense_value": 0.8771079881658126,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9577755122966549,
+          "primitive_values": {
+            "apg": 0.918639053254,
+            "bpg": 0.883136094675,
+            "ppg": 0.998525073746,
+            "rpg": 0.788461538462,
+            "spg": 0.992603550296,
+            "team_suppression": 0.8846153846153847,
+            "ts_pct": 0.942307692308
+          },
+          "scoring_value": 0.9788489902427,
+          "season_id": 1990,
+          "season_quality_percentile": 0.9970414201183432,
+          "season_quality_raw": 0.92954187885086,
+          "team_suppression": 0.8846153846153847
+        },
+        {
+          "action_value": 0.875,
+          "defense_value": 0.90625,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9549491279069726,
+          "primitive_values": {
+            "apg": 0.928779069767,
+            "bpg": 0.856104651163,
+            "ppg": 0.998546511628,
+            "rpg": 0.829941860465,
+            "spg": 0.984011627907,
+            "team_suppression": 0.923076923076923,
+            "ts_pct": 0.914244186047
+          },
+          "scoring_value": 0.9690406976746501,
+          "season_id": 1991,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9379044331395322,
+          "team_suppression": 0.923076923076923
+        },
+        {
+          "action_value": 0.89285714285725,
+          "defense_value": 0.9375000000000375,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9255830903785925,
+          "primitive_values": {
+            "apg": 0.922740524781,
+            "bpg": 0.826530612245,
+            "ppg": 0.998542274052,
+            "rpg": 0.873177842566,
+            "spg": 0.998542274052,
+            "team_suppression": 0.9615384615384616,
+            "ts_pct": 0.794460641399
+          },
+          "scoring_value": 0.92711370262345,
+          "season_id": 1992,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9333290816325318,
+          "team_suppression": 0.9615384615384616
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "player_name": "Nikola Jokic",
+      "research_apex": 1.0,
+      "research_peak": 99.77272727272727,
+      "research_raw_peak": 0.9994916485112564,
+      "research_three_year": 0.9992737835875092,
+      "research_three_year_end": 2023,
+      "research_three_year_start": 2021,
+      "v1_apex": 1.0,
+      "v1_peak": 99.06313645621181,
+      "v1_raw_peak": 0.994870884961277,
+      "v1_three_year": 0.9926726928018242,
+      "v1_three_year_end": 2023,
+      "v1_three_year_start": 2021,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.96241830065375,
+          "defense_value": 0.695467094883985,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.978932461873625,
+          "primitive_values": {
+            "apg": 0.983660130719,
+            "bpg": 0.892156862745,
+            "ppg": 0.979302832244,
+            "rpg": 0.996732026144,
+            "spg": 0.964052287582,
+            "team_suppression": 0.5517241379310345,
+            "ts_pct": 0.953159041394
+          },
+          "scoring_value": 0.9701525054465,
+          "season_id": 2021,
+          "season_quality_percentile": 0.982532751091703,
+          "season_quality_raw": 0.879719583427251,
+          "team_suppression": 0.5517241379310345
+        },
+        {
+          "action_value": 0.939189189189,
+          "defense_value": 0.821819664492012,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.97970157657659,
+          "primitive_values": {
+            "apg": 0.992117117117,
+            "bpg": 0.838963963964,
+            "ppg": 0.94481981982,
+            "rpg": 0.994369369369,
+            "spg": 0.929054054054,
+            "team_suppression": 0.7586206896551724,
+            "ts_pct": 0.978603603604
+          },
+          "scoring_value": 0.9566441441443999,
+          "season_id": 2022,
+          "season_quality_percentile": 0.9954853273137698,
+          "season_quality_raw": 0.9244429073469878,
+          "team_suppression": 0.7586206896551724
+        },
+        {
+          "action_value": 0.95760869565225,
+          "defense_value": 0.8730940779610461,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9796467391305426,
+          "primitive_values": {
+            "apg": 0.992391304348,
+            "bpg": 0.885869565217,
+            "ppg": 0.975,
+            "rpg": 0.992391304348,
+            "spg": 0.959782608696,
+            "team_suppression": 0.8275862068965517,
+            "ts_pct": 0.920652173913
+          },
+          "scoring_value": 0.95597826086955,
+          "season_id": 2023,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9423533077212187,
+          "team_suppression": 0.8275862068965517
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+      "player_name": "Rudy Gobert",
+      "research_apex": 0.9472477064220183,
+      "research_peak": 90.68181818181819,
+      "research_raw_peak": 0.9379746805931373,
+      "research_three_year": 0.9340005266664738,
+      "research_three_year_end": 2019,
+      "research_three_year_start": 2017,
+      "v1_apex": 0.986013986013986,
+      "v1_peak": 97.39307535641548,
+      "v1_raw_peak": 0.9838672901122982,
+      "v1_three_year": 0.9829472775830035,
+      "v1_three_year_end": 2018,
+      "v1_three_year_start": 2016,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.86971830985925,
+          "defense_value": 0.9544014084507375,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.72766431924877,
+          "primitive_values": {
+            "apg": 0.442488262911,
+            "bpg": 0.99882629108,
+            "ppg": 0.820422535211,
+            "rpg": 0.991784037559,
+            "spg": 0.496478873239,
+            "team_suppression": 1.0,
+            "ts_pct": 0.994131455399
+          },
+          "scoring_value": 0.8812206572768,
+          "season_id": 2016,
+          "season_quality_percentile": 0.9811764705882353,
+          "season_quality_raw": 0.8750434272300489,
+          "team_suppression": 1.0
+        },
+        {
+          "action_value": 0.90116279069775,
+          "defense_value": 0.9542000801924885,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.7255697674422176,
+          "primitive_values": {
+            "apg": 0.48023255814,
+            "bpg": 0.994186046512,
+            "ppg": 0.794186046512,
+            "rpg": 0.975581395349,
+            "spg": 0.659302325581,
+            "team_suppression": 0.9827586206896554,
+            "ts_pct": 0.975581395349
+          },
+          "scoring_value": 0.8576744186049501,
+          "season_id": 2017,
+          "season_quality_percentile": 0.986013986013986,
+          "season_quality_raw": 0.8741794707298937,
+          "team_suppression": 0.9827586206896554
+        },
+        {
+          "action_value": 0.91762013729975,
+          "defense_value": 0.9039256687445677,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.7938386727687377,
+          "primitive_values": {
+            "apg": 0.604118993135,
+            "bpg": 0.991990846682,
+            "ppg": 0.845537757437,
+            "rpg": 0.991990846682,
+            "spg": 0.694508009153,
+            "team_suppression": 0.896551724137931,
+            "ts_pct": 0.989702517162
+          },
+          "scoring_value": 0.8959954233407501,
+          "season_id": 2018,
+          "season_quality_percentile": 0.981651376146789,
+          "season_quality_raw": 0.8653952201530272,
+          "team_suppression": 0.896551724137931
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_4c8e42fcb36d59baaaebcc5bc75ca6a8",
+      "player_name": "Shaquille O'Neal",
+      "research_apex": 0.986842105263158,
+      "research_peak": 97.04545454545455,
+      "research_raw_peak": 0.9808090535438903,
+      "research_three_year": 0.9782234599499183,
+      "research_three_year_end": 2001,
+      "research_three_year_start": 1999,
+      "v1_apex": 0.9921875,
+      "v1_peak": 92.74949083503056,
+      "v1_raw_peak": 0.9596389308781091,
+      "v1_three_year": 0.9456895441115845,
+      "v1_three_year_end": 2001,
+      "v1_three_year_start": 1999,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.8295454545455,
+          "defense_value": 0.8242694805194963,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9366558441555375,
+          "primitive_values": {
+            "apg": 0.863636363636,
+            "bpg": 0.993506493506,
+            "ppg": 0.998701298701,
+            "rpg": 0.996103896104,
+            "spg": 0.332467532468,
+            "team_suppression": 0.8214285714285714,
+            "ts_pct": 0.933766233766
+          },
+          "scoring_value": 0.9759740259737499,
+          "season_id": 1999,
+          "season_quality_percentile": 0.9921875,
+          "season_quality_raw": 0.8973206168829231,
+          "team_suppression": 0.8214285714285714
+        },
+        {
+          "action_value": 0.8720472440945,
+          "defense_value": 0.44450224971878927,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.93400262467183,
+          "primitive_values": {
+            "apg": 0.854330708661,
+            "bpg": 0.990813648294,
+            "ppg": 0.99343832021,
+            "rpg": 0.99343832021,
+            "spg": 0.510498687664,
+            "team_suppression": 0.21428571428571427,
+            "ts_pct": 0.946194225722
+          },
+          "scoring_value": 0.9769028871392,
+          "season_id": 2000,
+          "season_quality_percentile": 0.863157894736842,
+          "season_quality_raw": 0.7626774934382659,
+          "team_suppression": 0.21428571428571427
+        },
+        {
+          "action_value": 0.84830729166675,
+          "defense_value": 0.7495861235119339,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9148828125001924,
+          "primitive_values": {
+            "apg": 0.787760416667,
+            "bpg": 0.975260416667,
+            "ppg": 0.99609375,
+            "rpg": 0.98046875,
+            "spg": 0.45703125,
+            "team_suppression": 0.6964285714285714,
+            "ts_pct": 0.959635416667
+          },
+          "scoring_value": 0.98333333333345,
+          "season_id": 2001,
+          "season_quality_percentile": 0.9817232375979112,
+          "season_quality_raw": 0.857028971354302,
+          "team_suppression": 0.6964285714285714
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e",
+      "player_name": "Stephen Curry",
+      "research_apex": 0.9833333333333333,
+      "research_peak": 97.44318181818181,
+      "research_raw_peak": 0.9818266192733017,
+      "research_three_year": 0.9811808846761454,
+      "research_three_year_end": 2015,
+      "research_three_year_start": 2013,
+      "v1_apex": 0.9956331877729258,
+      "v1_peak": 95.56008146639512,
+      "v1_raw_peak": 0.9723514594621803,
+      "v1_three_year": 0.9623735759004322,
+      "v1_three_year_end": 2015,
+      "v1_three_year_start": 2013,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.6612232779095,
+          "defense_value": 0.6797040093372906,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9813598574819574,
+          "primitive_values": {
+            "apg": 0.984560570071,
+            "bpg": 0.330166270784,
+            "ppg": 0.984560570071,
+            "rpg": 0.673396674584,
+            "spg": 0.967933491686,
+            "team_suppression": 0.6896551724137931,
+            "ts_pct": 0.958432304038
+          },
+          "scoring_value": 0.97541567695945,
+          "season_id": 2013,
+          "season_quality_percentile": 0.9857142857142857,
+          "season_quality_raw": 0.8757803106313241,
+          "team_suppression": 0.6896551724137931
+        },
+        {
+          "action_value": 0.661662817552,
+          "defense_value": 0.5677888826949242,
+          "effective_weights": {
+            "apg": 0.42250000000000004,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9841801385683,
+          "primitive_values": {
+            "apg": 0.984988452656,
+            "bpg": 0.359122401848,
+            "ppg": 0.982678983834,
+            "rpg": 0.647806004619,
+            "spg": 0.991916859122,
+            "team_suppression": 0.5172413793103449,
+            "ts_pct": 0.982678983834
+          },
+          "scoring_value": 0.982678983834,
+          "season_id": 2014,
+          "season_quality_percentile": 0.9606481481481481,
+          "season_quality_raw": 0.8384431990126184,
+          "team_suppression": 0.5172413793103449
+        },
+        {
+          "action_value": 0.72458628841625,
+          "defense_value": 0.5001569250836184,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9905437352247,
+          "primitive_values": {
+            "apg": 0.975177304965,
+            "bpg": 0.313238770686,
+            "ppg": 0.998817966903,
+            "rpg": 0.793144208038,
+            "spg": 0.998817966903,
+            "team_suppression": 0.3793103448275862,
+            "ts_pct": 0.998817966903
+          },
+          "scoring_value": 0.998817966903,
+          "season_id": 2015,
+          "season_quality_percentile": 0.9407582938388626,
+          "season_quality_raw": 0.8189083516753215,
+          "team_suppression": 0.3793103448275862
+        }
+      ]
+    },
+    {
+      "confidence": "MODERATE",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "player_name": "Tim Duncan",
+      "research_apex": 0.9921671018276763,
+      "research_peak": 98.125,
+      "research_raw_peak": 0.9877152920277034,
+      "research_three_year": 0.9858073735420008,
+      "research_three_year_end": 2003,
+      "research_three_year_start": 2001,
+      "v1_apex": 1.0,
+      "v1_peak": 99.95926680244399,
+      "v1_raw_peak": 1.0,
+      "v1_three_year": 1.0,
+      "v1_three_year_end": 2001,
+      "v1_three_year_start": 1999,
+      "v1_window_seasons": [
+        {
+          "action_value": 0.91590909090875,
+          "defense_value": 0.9705681818180625,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.8854675324674526,
+          "primitive_values": {
+            "apg": 0.811688311688,
+            "bpg": 0.983116883117,
+            "ppg": 0.977922077922,
+            "rpg": 0.993506493506,
+            "spg": 0.693506493506,
+            "team_suppression": 1.0,
+            "ts_pct": 0.827272727273
+          },
+          "scoring_value": 0.92519480519485,
+          "season_id": 1999,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.940782954545349,
+          "team_suppression": 1.0
+        },
+        {
+          "action_value": 0.90715223097125,
+          "defense_value": 0.921074709411366,
+          "effective_weights": {
+            "apg": 0.12249999999999998,
+            "bpg": 0.056874999999999995,
+            "ppg": 0.14787499999999998,
+            "rpg": 0.11374999999999999,
+            "spg": 0.056874999999999995,
+            "team_suppression": 0.42250000000000004,
+            "ts_pct": 0.07962499999999999
+          },
+          "missing_inputs": [],
+          "offense_value": 0.8461548556430825,
+          "primitive_values": {
+            "apg": 0.772965879265,
+            "bpg": 0.977690288714,
+            "ppg": 0.964566929134,
+            "rpg": 0.990813648294,
+            "spg": 0.669291338583,
+            "team_suppression": 0.9285714285714285,
+            "ts_pct": 0.738845144357
+          },
+          "scoring_value": 0.88556430446205,
+          "season_id": 2000,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.8948527605924668,
+          "team_suppression": 0.9285714285714285
+        },
+        {
+          "action_value": 0.8889973958335,
+          "defense_value": 0.9147205171131535,
+          "effective_weights": {
+            "apg": 0.22749999999999998,
+            "bpg": 0.030624999999999996,
+            "ppg": 0.27462500000000006,
+            "rpg": 0.06124999999999999,
+            "spg": 0.030624999999999996,
+            "team_suppression": 0.22749999999999998,
+            "ts_pct": 0.147875
+          },
+          "missing_inputs": [],
+          "offense_value": 0.9302213541665499,
+          "primitive_values": {
+            "apg": 0.852864583333,
+            "bpg": 0.990885416667,
+            "ppg": 0.98828125,
+            "rpg": 0.99609375,
+            "spg": 0.572916666667,
+            "team_suppression": 0.9285714285714285,
+            "ts_pct": 0.94140625
+          },
+          "scoring_value": 0.971875,
+          "season_id": 2001,
+          "season_quality_percentile": 1.0,
+          "season_quality_raw": 0.9247960611978612,
+          "team_suppression": 0.9285714285714285
+        }
+      ]
+    },
+    {
+      "confidence": "LIMITED",
+      "corpus_id": "GOATLAB-HIST-V1",
+      "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+      "movement_reason": "team-season suppression removed; player-specific role-aware actions replace V1 Defense axis",
+      "player_id": "player_860bacb725f05f02b5871e085270f726",
+      "player_name": "Wilt Chamberlain",
+      "research_apex": null,
+      "research_peak": null,
+      "research_raw_peak": null,
+      "research_three_year": null,
+      "research_three_year_end": null,
+      "research_three_year_start": null,
+      "v1_apex": 1.0,
+      "v1_peak": 96.21181262729124,
+      "v1_raw_peak": 0.975476742778434,
+      "v1_three_year": 0.9649667753977628,
+      "v1_three_year_end": 1967,
+      "v1_three_year_start": 1965,
+      "v1_window_seasons": [
+        {
+          "action_value": null,
+          "defense_value": 0.75,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.65,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.35,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.9948979591840001,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.994897959184,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 0.75,
+            "ts_pct": null
+          },
+          "scoring_value": 0.9948979591840001,
+          "season_id": 1965,
+          "season_quality_percentile": 0.979381443298969,
+          "season_quality_raw": 0.9091836734696,
+          "team_suppression": 0.75
+        },
+        {
+          "action_value": null,
+          "defense_value": 0.7777777777777777,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.65,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.35,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.9612068965520001,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.961206896552,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 0.7777777777777777,
+            "ts_pct": null
+          },
+          "scoring_value": 0.9612068965520001,
+          "season_id": 1966,
+          "season_quality_percentile": 0.9739130434782609,
+          "season_quality_raw": 0.8970067049810222,
+          "team_suppression": 0.7777777777777777
+        },
+        {
+          "action_value": null,
+          "defense_value": 0.7272727272727273,
+          "effective_weights": {
+            "apg": 0.0,
+            "bpg": 0.0,
+            "ppg": 0.65,
+            "rpg": 0.0,
+            "spg": 0.0,
+            "team_suppression": 0.35,
+            "ts_pct": 0.0
+          },
+          "missing_inputs": [
+            "ts_pct",
+            "apg",
+            "rpg",
+            "spg",
+            "bpg"
+          ],
+          "offense_value": 0.9673913043479999,
+          "primitive_values": {
+            "apg": null,
+            "bpg": null,
+            "ppg": 0.967391304348,
+            "rpg": null,
+            "spg": null,
+            "team_suppression": 0.7272727272727273,
+            "ts_pct": null
+          },
+          "scoring_value": 0.9673913043479999,
+          "season_id": 1967,
+          "season_quality_percentile": 0.9416058394160584,
+          "season_quality_raw": 0.8833498023716545,
+          "team_suppression": 0.7272727272727273
+        }
+      ]
+    }
+  ],
+  "step": "STEP-0015C"
+}

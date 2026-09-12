@@ -1,0 +1,327 @@
+{
+  "archetypes": {
+    "BALANCED_TWO_WAY": {
+      "mean_team_effective_weight": 0.30703947368421053,
+      "rows": 152,
+      "season_quality": {
+        "count": 152,
+        "mean": 99.24696275607067,
+        "median": 99.4784867275892,
+        "p10": 98.07587105177467,
+        "p25": 98.80593803786576,
+        "p75": 99.7817783105479,
+        "p90": 100.0,
+        "p95": 100.0,
+        "p99": 100.0,
+        "std": 0.7377931738005743
+      }
+    },
+    "DEFENSIVE_ANCHOR_PROXY": {
+      "mean_team_effective_weight": 0.407671102661597,
+      "rows": 263,
+      "season_quality": {
+        "count": 263,
+        "mean": 96.21210250783727,
+        "median": 98.03439803439804,
+        "p10": 90.59717051377514,
+        "p25": 94.76722961175835,
+        "p75": 99.42027037245528,
+        "p90": 100.0,
+        "p95": 100.0,
+        "p99": 100.0,
+        "std": 4.7905845362510675
+      }
+    },
+    "HIGH_EFFICIENCY_SCORER": {
+      "mean_team_effective_weight": 0.3013256880733945,
+      "rows": 1635,
+      "season_quality": {
+        "count": 1635,
+        "mean": 62.01210596359023,
+        "median": 66.43598615916954,
+        "p10": 20.564978523624013,
+        "p25": 39.53850210970464,
+        "p75": 86.68289434133519,
+        "p90": 96.29236663719422,
+        "p95": 98.31944167497508,
+        "p99": 100.0,
+        "std": 27.796376030378394
+      }
+    },
+    "HIGH_VOLUME_SCORER": {
+      "mean_team_effective_weight": 0.2506517747858017,
+      "rows": 1634,
+      "season_quality": {
+        "count": 1634,
+        "mean": 86.01473895478628,
+        "median": 89.04877174107943,
+        "p10": 69.18070956842267,
+        "p25": 78.10450532277238,
+        "p75": 95.9913544668588,
+        "p90": 98.95833333333333,
+        "p95": 99.56365175861708,
+        "p99": 100.0,
+        "std": 11.901142790880677
+      }
+    },
+    "LOW_SCORING_DEFENSIVE_SPECIALIST": {
+      "mean_team_effective_weight": 0.4225000000000001,
+      "rows": 25,
+      "season_quality": {
+        "count": 25,
+        "mean": 86.15205131730713,
+        "median": 86.50519031141869,
+        "p10": 78.48962507792324,
+        "p25": 81.31313131313131,
+        "p75": 89.64577656675749,
+        "p90": 95.61717011128776,
+        "p95": 96.71089271089271,
+        "p99": 98.44303294958316,
+        "std": 7.1587238571118075
+      }
+    },
+    "PRIMARY_CREATOR": {
+      "mean_team_effective_weight": 0.23501835985312117,
+      "rows": 1634,
+      "season_quality": {
+        "count": 1634,
+        "mean": 84.97383349651966,
+        "median": 87.84253003003003,
+        "p10": 67.40763052208835,
+        "p25": 77.06899847094802,
+        "p75": 94.927021441488,
+        "p90": 98.36146818400385,
+        "p95": 99.30324001258258,
+        "p99": 100.0,
+        "std": 12.147126519785129
+      }
+    },
+    "REBOUND_HEAVY": {
+      "mean_team_effective_weight": 0.3012966932026944,
+      "rows": 1633,
+      "season_quality": {
+        "count": 1633,
+        "mean": 75.82191082304739,
+        "median": 80.61465721040189,
+        "p10": 45.751633986928105,
+        "p25": 63.30275229357798,
+        "p75": 92.95039164490862,
+        "p90": 97.91666666666667,
+        "p95": 99.08730158730158,
+        "p99": 100.0,
+        "std": 20.18238966811216
+      }
+    }
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+  "role_masking": {
+    "BIG": {
+      "EARLY_NO_STEALS_BLOCKS": {
+        "mean_absolute_error": 2.413965638909131,
+        "mean_signed_error": 1.6600992931665146,
+        "more_than_10_points": 0.006028131279303416,
+        "more_than_15_points": 0.0003348961821835231,
+        "more_than_5_points": 0.11486939048894843,
+        "observations": 2986,
+        "p10_error": -1.3368983957219296,
+        "p25_error": 0.0,
+        "p50_error": 1.3544018058690739,
+        "p75_error": 3.234649122807019,
+        "p90_error": 5.102040816326536,
+        "pearson": 0.9956776568421263,
+        "rmse": 3.2254981279406167,
+        "spearman": 0.9959432320812655
+      },
+      "EFFICIENCY_UNAVAILABLE": {
+        "mean_absolute_error": 3.6320976905816806,
+        "mean_signed_error": -1.3973842453657035,
+        "more_than_10_points": 0.056932350971198926,
+        "more_than_15_points": 0.004353650368385801,
+        "more_than_5_points": 0.27427997320830544,
+        "observations": 2986,
+        "p10_error": -7.328605200945629,
+        "p25_error": -4.284949525848881,
+        "p50_error": -1.0448412951119437,
+        "p75_error": 1.0671567052776787,
+        "p90_error": 3.7005817131481002,
+        "pearson": 0.986999202759871,
+        "rmse": 4.878400177603197,
+        "spearman": 0.9871815329609258
+      },
+      "TEAM_CONTEXT_UNAVAILABLE": {
+        "mean_absolute_error": 14.875166610084289,
+        "mean_signed_error": -6.29435829365363,
+        "more_than_10_points": 0.5910917615539183,
+        "more_than_15_points": 0.40354989953114534,
+        "more_than_5_points": 0.7846617548559947,
+        "observations": 2986,
+        "p10_error": -32.48375848960101,
+        "p25_error": -19.04761904761905,
+        "p50_error": -3.054466230936817,
+        "p75_error": 8.099758890898132,
+        "p90_error": 15.189873417721522,
+        "pearson": 0.798335170051934,
+        "rmse": 18.93152623312004,
+        "spearman": 0.7898713453688658
+      }
+    },
+    "FORWARD": {
+      "EARLY_NO_STEALS_BLOCKS": {
+        "mean_absolute_error": 2.011826488173969,
+        "mean_signed_error": 0.8926540647552764,
+        "more_than_10_points": 0.003418803418803419,
+        "more_than_15_points": 0.0,
+        "more_than_5_points": 0.08319088319088319,
+        "observations": 3510,
+        "p10_error": -1.960784313725491,
+        "p25_error": -0.5294569314532964,
+        "p50_error": 0.5256250863378931,
+        "p75_error": 2.3391812865497092,
+        "p90_error": 4.240282685512369,
+        "pearson": 0.9959065912668498,
+        "rmse": 2.796619705153713,
+        "spearman": 0.9959810994180867
+      },
+      "EFFICIENCY_UNAVAILABLE": {
+        "mean_absolute_error": 3.3062134236089493,
+        "mean_signed_error": 0.10414724527908281,
+        "more_than_10_points": 0.038746438746438745,
+        "more_than_15_points": 0.005413105413105413,
+        "more_than_5_points": 0.23162393162393163,
+        "observations": 3510,
+        "p10_error": -5.570753888668105,
+        "p25_error": -2.521132652472443,
+        "p50_error": 0.0,
+        "p75_error": 2.2770425776754903,
+        "p90_error": 5.491591720407432,
+        "pearson": 0.9879130555706853,
+        "rmse": 4.533413827964221,
+        "spearman": 0.9878451664744253
+      },
+      "TEAM_CONTEXT_UNAVAILABLE": {
+        "mean_absolute_error": 13.629823477697707,
+        "mean_signed_error": -2.18995525097346,
+        "more_than_10_points": 0.5615384615384615,
+        "more_than_15_points": 0.3871794871794872,
+        "more_than_5_points": 0.7586894586894587,
+        "observations": 3510,
+        "p10_error": -27.848101265822784,
+        "p25_error": -12.715239217006001,
+        "p50_error": 0.0,
+        "p75_error": 10.98424374138003,
+        "p90_error": 17.931874858308774,
+        "pearson": 0.8235983852497774,
+        "rmse": 17.164153410970222,
+        "spearman": 0.819506660233123
+      }
+    },
+    "GUARD": {
+      "EARLY_NO_STEALS_BLOCKS": {
+        "mean_absolute_error": 2.0112524212590372,
+        "mean_signed_error": -1.6385254836777574,
+        "more_than_10_points": 0.0027958993476234857,
+        "more_than_15_points": 0.0,
+        "more_than_5_points": 0.06174277726001864,
+        "observations": 4292,
+        "p10_error": -4.303797468354431,
+        "p25_error": -2.7918781725888353,
+        "p50_error": -1.408450704225352,
+        "p75_error": -0.2604166666666643,
+        "p90_error": 0.5763688760806929,
+        "pearson": 0.9971039309320637,
+        "rmse": 2.675225775450958,
+        "spearman": 0.9970799785254754
+      },
+      "EFFICIENCY_UNAVAILABLE": {
+        "mean_absolute_error": 2.893105718523865,
+        "mean_signed_error": 0.5387813997364642,
+        "more_than_10_points": 0.018173345759552657,
+        "more_than_15_points": 0.0013979496738117428,
+        "more_than_5_points": 0.1798695246971109,
+        "observations": 4292,
+        "p10_error": -4.254190417066423,
+        "p25_error": -1.6203703703703667,
+        "p50_error": 0.5763688760806929,
+        "p75_error": 2.620087336244544,
+        "p90_error": 5.020739979640566,
+        "pearson": 0.9905257036666091,
+        "rmse": 3.857307604218502,
+        "spearman": 0.9899631744000625
+      },
+      "TEAM_CONTEXT_UNAVAILABLE": {
+        "mean_absolute_error": 12.825711420888254,
+        "mean_signed_error": 6.1072812288865705,
+        "more_than_10_points": 0.5552190121155638,
+        "more_than_15_points": 0.3853681267474371,
+        "more_than_5_points": 0.7560577819198508,
+        "observations": 4292,
+        "p10_error": -13.157625075346592,
+        "p25_error": -3.057282301566916,
+        "p50_error": 7.095938665561544,
+        "p75_error": 16.912013723238214,
+        "p90_error": 24.027188421003906,
+        "pearson": 0.8628974538910944,
+        "rmse": 15.588081329211757,
+        "spearman": 0.8655738963480429
+      }
+    },
+    "WING": {
+      "EARLY_NO_STEALS_BLOCKS": {
+        "mean_absolute_error": 1.921003692194345,
+        "mean_signed_error": -0.9887709853063342,
+        "more_than_10_points": 0.006672226855713094,
+        "more_than_15_points": 0.003336113427856547,
+        "more_than_5_points": 0.07422852376980818,
+        "observations": 1199,
+        "p10_error": -3.935549722951302,
+        "p25_error": -2.1301804981345143,
+        "p50_error": -0.7575757575757569,
+        "p75_error": 0.25679061181434726,
+        "p90_error": 1.6323367822005423,
+        "pearson": 0.9957332027466406,
+        "rmse": 2.791145040410071,
+        "spearman": 0.9957850357860337
+      },
+      "EFFICIENCY_UNAVAILABLE": {
+        "mean_absolute_error": 3.485477533938669,
+        "mean_signed_error": 0.8233495913613474,
+        "more_than_10_points": 0.05587989991659716,
+        "more_than_15_points": 0.006672226855713094,
+        "more_than_5_points": 0.25688073394495414,
+        "observations": 1199,
+        "p10_error": -5.182843137254902,
+        "p25_error": -1.7890104866131367,
+        "p50_error": 0.7371007371007323,
+        "p75_error": 3.014080851339955,
+        "p90_error": 6.692495969004838,
+        "pearson": 0.9862176673980928,
+        "rmse": 4.721760844489725,
+        "spearman": 0.9858695515793744
+      },
+      "TEAM_CONTEXT_UNAVAILABLE": {
+        "mean_absolute_error": 13.181765356305315,
+        "mean_signed_error": 0.8741558785244151,
+        "more_than_10_points": 0.5688073394495413,
+        "more_than_15_points": 0.3919933277731443,
+        "more_than_5_points": 0.7639699749791493,
+        "observations": 1199,
+        "p10_error": -21.76633941383546,
+        "p25_error": -9.361906876896882,
+        "p50_error": 2.600472813238767,
+        "p75_error": 13.273186721739041,
+        "p90_error": 21.040394250344864,
+        "pearson": 0.8315807195282291,
+        "rmse": 16.187069777928986,
+        "spearman": 0.8319502120944594
+      }
+    }
+  },
+  "step": "STEP-0015C"
+}

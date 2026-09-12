@@ -157,3 +157,17 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Ranking diagnostic:** frozen-weight counterfactual Spearman 0.9946; Top-10/25/50/100 overlap 0.80/0.84/0.90/0.92. Published Overall is unchanged.
 - **Outcome:** audit `PASS`; promotion `DO_NOT_PROMOTE` because the fallback fails absolute calibration and predictive-signal gates.
 - **Optimization target:** none. Promotion criteria exclude player names, awards, and external rankings.
+
+## STEP-0015C Peak forensic audit
+
+- **Objective:** determine whether frozen Peak V1 measures sustained individual overall basketball apex for the reasons required by the Constitution.
+- **Inputs:** frozen dimension, Overall, Constitution, STEP-0015A, and STEP-0015B fingerprints; 22,457 qualified Regular Season player-seasons and all 5,103 player outputs.
+- **Reconstruction:** all 5,103 Peak rows and every intermediate reproduce exactly; maximum numerical difference is zero.
+- **Effective influence:** mean realized primitive weights are TeamSuppression 34.34%, PPG 26.63%, APG 19.10%, TS 7.02%, RPG 6.73%, BPG 3.10%, and SPG 3.09%. Corresponding covariance/Shapley shares are 30.17%, 32.26%, 24.67%, 4.26%, 4.83%, 1.11%, and 2.69%.
+- **Attribution:** the team component has zero within-team-season variance, 97.65% between-team eta-squared, and 104,097 identical-credit teammate pairs. Its season-quality leave-one-out MAE is 14.28 points.
+- **Masking:** among 16,308 rich-evidence seasons, no-STL/BLK MAE is 2.10, no-TS is 3.29, and no-team-context is 13.53; observed-feature renormalization is therefore not construct invariant.
+- **Window test:** three-year/apex Spearman is 0.9512; 70/30 versus 60/40 and 80/20 is at least 0.99958. Complete-contiguous logic and deterministic ties pass.
+- **Candidate test:** no-team current actions, explicit 60/40 role actions, multi-path 65/35 role actions, and unpromoted Defense-V2 channels were compared. Multi-path role actions is retained as research only; it has 1,761 reference scores and V1 Spearman 0.8787.
+- **Counterfactual:** on 1,391 common eligible players, research-peak Overall Spearman is 0.9918 and Top-10/25/50/100 overlap is 0.90/0.96/0.86/0.94. Published Overall remains unchanged.
+- **Result:** audit `PASS`; constitutional verdict `REQUIRES_REVISION`. No V2 is promoted.
+- **Optimization target:** none. Diagnostic identities and external rankings were excluded from formula construction and selection.

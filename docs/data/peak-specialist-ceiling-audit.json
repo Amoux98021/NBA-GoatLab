@@ -1,0 +1,116 @@
+{
+  "BALANCED_TWO_WAY": {
+    "effective_weights": {
+      "apg": 0.22749999999999998,
+      "bpg": 0.030624999999999996,
+      "ppg": 0.27462500000000006,
+      "rpg": 0.06124999999999999,
+      "spg": 0.030624999999999996,
+      "team_suppression": 0.22749999999999998,
+      "ts_pct": 0.147875
+    },
+    "inputs": {
+      "apg": 0.9,
+      "bpg": 0.9,
+      "ppg": 0.9,
+      "rpg": 0.9,
+      "spg": 0.9,
+      "team_suppression": 0.9,
+      "ts_pct": 0.9
+    },
+    "v1_raw_season_quality": 0.9000000000000001
+  },
+  "EXTREME_DEFENSIVE_SPECIALIST": {
+    "effective_weights": {
+      "apg": 0.12249999999999998,
+      "bpg": 0.056874999999999995,
+      "ppg": 0.14787499999999998,
+      "rpg": 0.11374999999999999,
+      "spg": 0.056874999999999995,
+      "team_suppression": 0.42250000000000004,
+      "ts_pct": 0.07962499999999999
+    },
+    "inputs": {
+      "apg": 0.3,
+      "bpg": 0.99,
+      "ppg": 0.3,
+      "rpg": 0.99,
+      "spg": 0.99,
+      "team_suppression": 0.99,
+      "ts_pct": 0.5
+    },
+    "v1_raw_season_quality": 0.7644249999999999
+  },
+  "EXTREME_OFFENSIVE_SPECIALIST": {
+    "effective_weights": {
+      "apg": 0.22749999999999998,
+      "bpg": 0.030624999999999996,
+      "ppg": 0.27462500000000006,
+      "rpg": 0.06124999999999999,
+      "spg": 0.030624999999999996,
+      "team_suppression": 0.22749999999999998,
+      "ts_pct": 0.147875
+    },
+    "inputs": {
+      "apg": 0.99,
+      "bpg": 0.3,
+      "ppg": 0.99,
+      "rpg": 0.3,
+      "spg": 0.3,
+      "team_suppression": 0.3,
+      "ts_pct": 0.99
+    },
+    "v1_raw_season_quality": 0.7484999999999999
+  },
+  "INTERIOR_ANCHOR": {
+    "effective_weights": {
+      "apg": 0.12249999999999998,
+      "bpg": 0.056874999999999995,
+      "ppg": 0.14787499999999998,
+      "rpg": 0.11374999999999999,
+      "spg": 0.056874999999999995,
+      "team_suppression": 0.42250000000000004,
+      "ts_pct": 0.07962499999999999
+    },
+    "inputs": {
+      "apg": 0.3,
+      "bpg": 0.95,
+      "ppg": 0.6,
+      "rpg": 0.95,
+      "spg": 0.5,
+      "team_suppression": 0.95,
+      "ts_pct": 0.6
+    },
+    "v1_raw_season_quality": 0.76515625
+  },
+  "PRIMARY_CREATOR": {
+    "effective_weights": {
+      "apg": 0.42250000000000004,
+      "bpg": 0.030624999999999996,
+      "ppg": 0.14787499999999998,
+      "rpg": 0.06124999999999999,
+      "spg": 0.030624999999999996,
+      "team_suppression": 0.22749999999999998,
+      "ts_pct": 0.07962499999999999
+    },
+    "inputs": {
+      "apg": 0.99,
+      "bpg": 0.6,
+      "ppg": 0.6,
+      "rpg": 0.6,
+      "spg": 0.6,
+      "team_suppression": 0.6,
+      "ts_pct": 0.6
+    },
+    "v1_raw_season_quality": 0.764775
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+  "step": "STEP-0015C"
+}

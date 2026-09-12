@@ -1,0 +1,70 @@
+{
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "mean_apex_minus_three_year": 0.1174548877464914,
+  "mean_apex_raw_contribution": 0.21374801379750855,
+  "methodology_version": "goatlab-v1-peak-forensic-audit-v1",
+  "players_with_complete_peak": 2456,
+  "same_construct_for_window_and_apex": true,
+  "selected_vs_60_40_spearman": 0.9995838914471923,
+  "selected_vs_80_20_spearman": 0.9996100454024174,
+  "selected_vs_three_only_spearman": 0.9967824746221177,
+  "step": "STEP-0015C",
+  "synthetic": {
+    "100_100_80": {
+      "apex": 1.0,
+      "end_season": 2002,
+      "raw_peak": 0.9533333333333333,
+      "start_season": 2000,
+      "three_year": 0.9333333333333332
+    },
+    "100_100_missing": {
+      "apex": 1.0,
+      "end_season": null,
+      "raw_peak": null,
+      "start_season": null,
+      "three_year": null
+    },
+    "100_100_nonqualified": {
+      "apex": 1.0,
+      "end_season": null,
+      "raw_peak": null,
+      "start_season": null,
+      "three_year": null
+    },
+    "100_90_90": {
+      "apex": 1.0,
+      "end_season": 2002,
+      "raw_peak": 0.9533333333333333,
+      "start_season": 2000,
+      "three_year": 0.9333333333333332
+    },
+    "95_95_95": {
+      "apex": 0.95,
+      "end_season": 2002,
+      "raw_peak": 0.9499999999999998,
+      "start_season": 2000,
+      "three_year": 0.9499999999999998
+    },
+    "99_99_99": {
+      "apex": 0.99,
+      "end_season": 2002,
+      "raw_peak": 0.9899999999999999,
+      "start_season": 2000,
+      "three_year": 0.9899999999999999
+    },
+    "missed_season_gap": {
+      "apex": 1.0,
+      "end_season": null,
+      "raw_peak": null,
+      "start_season": null,
+      "three_year": null
+    }
+  },
+  "three_year_apex_spearman": 0.9512261785930916
+}
