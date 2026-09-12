@@ -1,0 +1,25 @@
+{
+  "awards_in_score": false,
+  "confidence_separate_from_quality": true,
+  "fallback_model": "grouped five-fold validated ridge using team/actions/role only",
+  "formula": {
+    "defensive_presence_channel": 0.4,
+    "role_aware_actions": 0.3,
+    "team_context": 0.3
+  },
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "modern_metrics_in_score": false,
+  "overall_counterfactual_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+  "postseason_in_score": false,
+  "presence_channel": "expected portable Presence + continuous reliability * (observed Presence - expected portable Presence)",
+  "score_scale": "frozen BROAD_HIGH_RECALL midrank ECDF 0-100",
+  "status": "DO_NOT_PROMOTE",
+  "step": "STEP-0015B",
+  "upstream_dimension_methodology": "goatlab-v1-dimension-scores-v1",
+  "version": "goatlab-v1-defense-v2"
+}

@@ -190,6 +190,20 @@ Generated STEP-0015A outputs remain ignored under `data/gold/defense_forensic_au
 
 Presence confidence is `STRONG`, `MODERATE`, `LIMITED`, or `INSUFFICIENT_SAMPLE`. Role is `GUARD`, `WING`, `FORWARD`, `BIG`, or NULL. Rebound semantics are `DEFENSIVE_REBOUNDS` or `TOTAL_REBOUND_PROXY`; V1 reconstruction is labeled `TOTAL_REBOUNDS_NOT_DEFENSIVE_REBOUNDS`. NULL is never an observed zero.
 
+## Gold Defense V2 promotion-audit outputs
+
+Generated STEP-0015B data remains ignored under `data/gold/defense_v2_promotion_audit/` and is counterfactual, not published methodology.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `continuous-presence-estimates` | player × team × Regular Season | Mathematical Presence contrast, effective sample, magnitude shrinkage, and continuous threshold reliability. |
+| `defense-v2-season-components` | player × Regular Season | Team, action, observed/expected/final Presence, fallback type, confidence, reason codes, and V1/Candidate/V2-candidate raw values. |
+| `player-defense-v2-promotion-candidate` | master player | V1, Candidate B, and continuous-fallback counterfactual score plus channel coverage and confidence. |
+| `overall-defense-v2-counterfactual` | master player | Frozen-weight diagnostic Overall with explicit non-overwrite status; not an official Overall version. |
+| `defense-v2-stress-tests` | predetermined diagnostic player | Player-level components, reliability, fallback, confidence, and score comparison. |
+
+Fallback type is `OBSERVED`, `RELIABILITY_BLEND`, `EXPECTED_PRESENCE`, `MIXED`, or `UNAVAILABLE`. Expected Presence is a model estimate and must never be represented as observed impact. `DO_NOT_PROMOTE` means these outputs remain audit evidence only.
+
 ## Gold dimension candidate audit V1
 
 Generated STEP-0012 Gold remains ignored and is partitioned by dimension/candidate.

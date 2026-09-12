@@ -174,3 +174,13 @@ This living summary may be extended, but methodology changes must also receive a
 - Experimental `goatlab-v1-defense-v2` uses 30% team context, 30% role-aware actions, and 40% stabilized presence. DREB replaces total rebounds when observed; the fallback is explicitly labeled. Role evidence blends 65% global and 35% broad-role rank and does not impose equal final ceilings.
 - Modern defensive rating and DPOY/All-Defense remain validation only. The modern relationship is weak for all candidates; award enrichment improves for V2 but is not an optimization target.
 - Defense V2 and its frozen-weight Overall result are counterfactual. Promotion requires a later explicit versioned decision.
+
+## Defense V2 promotion audit
+
+- `goatlab-v1-defense-v2-promotion-audit-v1` exactly reconstructs STEP-0015A Candidate B, then masks known Presence evidence to evaluate universal comparability.
+- Direct 30/30/40 Candidate B remains a counterfactual. Without Presence, team/action renormalization has 10.72 Defense-point season MAE and changes the construct.
+- The expected-Presence experiment is a grouped five-fold ridge using only era-relative team context, role-aware actions, their interaction, and broad role. Awards, postseason, player names, and modern-only metrics are excluded.
+- Expected Presence is not promotable: out-of-fold R-squared is 0.0174, direct Presence-percentile MAE is 0.2475, and 49.40% of masked full-score estimates miss by more than 10 points.
+- Continuous reliability is `min(1, games_with/10) × min(1, games_without/5)`. It smoothly blends observed Presence into the expected fallback and removes the hard eligibility cliff, but does not make weak fallback evidence informative.
+- Confidence is reported separately as `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE`; it never changes score quality. Expected and reliability-blended seasons carry explicit reason codes.
+- STEP-0015B is `PASS + DO_NOT_PROMOTE`. No new official Defense or Overall version is created. Frozen V1 remains unchanged but retains its `REQUIRES_REVISION` constitutional verdict.

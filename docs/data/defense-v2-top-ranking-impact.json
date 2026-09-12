@@ -1,0 +1,312 @@
+{
+  "defense_v2_provisional_top_15": [
+    {
+      "defense": 97.06103993971364,
+      "overall": 99.3961391239674,
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "player_name": "LeBron James",
+      "rank": 1
+    },
+    {
+      "defense": 99.02034664657121,
+      "overall": 99.25057810827414,
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "player_name": "Michael Jordan",
+      "rank": 2
+    },
+    {
+      "defense": 95.66691785983421,
+      "overall": 98.39565141905618,
+      "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+      "player_name": "Larry Bird",
+      "rank": 3
+    },
+    {
+      "defense": 99.88696307460437,
+      "overall": 98.35121997533224,
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "player_name": "Tim Duncan",
+      "rank": 4
+    },
+    {
+      "defense": 98.30444611906556,
+      "overall": 98.32614280508142,
+      "player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+      "player_name": "Karl Malone",
+      "rank": 5
+    },
+    {
+      "defense": 99.77392614920875,
+      "overall": 98.24604389150221,
+      "player_id": "player_e2d1ed7c54525122abb63cfcfefdda78",
+      "player_name": "Kawhi Leonard",
+      "rank": 6
+    },
+    {
+      "defense": 99.13338357196685,
+      "overall": 97.88852332837847,
+      "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+      "player_name": "Kevin Garnett",
+      "rank": 7
+    },
+    {
+      "defense": 97.47550866616427,
+      "overall": 97.84973969996724,
+      "player_id": "player_ccaefae61ede5c06a02e3c6dd4333aea",
+      "player_name": "Chris Paul",
+      "rank": 8
+    },
+    {
+      "defense": 96.948003014318,
+      "overall": 97.83829669727785,
+      "player_id": "player_d52bf517d5af592abcd5188e98336295",
+      "player_name": "Julius Erving",
+      "rank": 9
+    },
+    {
+      "defense": 93.63225320271289,
+      "overall": 97.67536768718891,
+      "player_id": "player_e68d0769835b59e6a9688c8a268a5195",
+      "player_name": "Dwyane Wade",
+      "rank": 10
+    },
+    {
+      "defense": 99.81160512434062,
+      "overall": 97.66279981590523,
+      "player_id": "player_4d08922285b55514a689685cb9615544",
+      "player_name": "David Robinson",
+      "rank": 11
+    },
+    {
+      "defense": 97.4378296910324,
+      "overall": 97.56745551623716,
+      "player_id": "player_566614d341da53ab975d71ad410a3385",
+      "player_name": "Scottie Pippen",
+      "rank": 12
+    },
+    {
+      "defense": 92.91635267520724,
+      "overall": 97.40948782523238,
+      "player_id": "player_3a6d2e4aeafb5b0c9dba522e3c245db0",
+      "player_name": "Charles Barkley",
+      "rank": 13
+    },
+    {
+      "defense": 84.6646571213263,
+      "overall": 97.392405537297,
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "player_name": "Kareem Abdul-Jabbar",
+      "rank": 14
+    },
+    {
+      "defense": 84.8153730218538,
+      "overall": 97.21138980251678,
+      "player_id": "player_8f4568aa56f35088b26a2d5f0a00b995",
+      "player_name": "Magic Johnson",
+      "rank": 15
+    }
+  ],
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "old_v1_top_15": [
+    {
+      "defense": 98.30444611906556,
+      "overall": 99.15035203442335,
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "player_name": "Michael Jordan",
+      "rank": 1
+    },
+    {
+      "defense": 95.13941220798795,
+      "overall": 99.12711124152581,
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "player_name": "LeBron James",
+      "rank": 2
+    },
+    {
+      "defense": 97.81461944235117,
+      "overall": 98.69632964060855,
+      "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+      "player_name": "Larry Bird",
+      "rank": 3
+    },
+    {
+      "defense": 98.45516201959306,
+      "overall": 98.34724303115527,
+      "player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+      "player_name": "Karl Malone",
+      "rank": 4
+    },
+    {
+      "defense": 99.81160512434062,
+      "overall": 98.34066986229531,
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "player_name": "Tim Duncan",
+      "rank": 5
+    },
+    {
+      "defense": 97.66390354182366,
+      "overall": 98.23979873466442,
+      "player_id": "player_e68d0769835b59e6a9688c8a268a5195",
+      "player_name": "Dwyane Wade",
+      "rank": 6
+    },
+    {
+      "defense": 90.46721929163527,
+      "overall": 98.20476424114025,
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "player_name": "Kareem Abdul-Jabbar",
+      "rank": 7
+    },
+    {
+      "defense": 98.34212509419744,
+      "overall": 98.04559174380063,
+      "player_id": "player_e2d1ed7c54525122abb63cfcfefdda78",
+      "player_name": "Kawhi Leonard",
+      "rank": 8
+    },
+    {
+      "defense": 97.47550866616427,
+      "overall": 97.91214748853633,
+      "player_id": "player_d52bf517d5af592abcd5188e98336295",
+      "player_name": "Julius Erving",
+      "rank": 9
+    },
+    {
+      "defense": 98.75659382064808,
+      "overall": 97.75208249438336,
+      "player_id": "player_566614d341da53ab975d71ad410a3385",
+      "player_name": "Scottie Pippen",
+      "rank": 10
+    },
+    {
+      "defense": 99.8492840994725,
+      "overall": 97.66807487242369,
+      "player_id": "player_4d08922285b55514a689685cb9615544",
+      "player_name": "David Robinson",
+      "rank": 11
+    },
+    {
+      "defense": 97.40015071590052,
+      "overall": 97.49622922206215,
+      "player_id": "player_05b0acdecb0c5036a6a1bfc68d02bb64",
+      "player_name": "George Mikan",
+      "rank": 12
+    },
+    {
+      "defense": 98.11605124340618,
+      "overall": 97.15712218337887,
+      "player_id": "player_4111da38d64656e2a41ef79f6e3ab295",
+      "player_name": "John Havlicek",
+      "rank": 13
+    },
+    {
+      "defense": 93.48153730218539,
+      "overall": 97.09726485060906,
+      "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+      "player_name": "Kevin Garnett",
+      "rank": 14
+    },
+    {
+      "defense": 89.75131876412962,
+      "overall": 96.7683531136824,
+      "player_id": "player_ccaefae61ede5c06a02e3c6dd4333aea",
+      "player_name": "Chris Paul",
+      "rank": 15
+    }
+  ],
+  "players_ranked": 1882,
+  "published_overall_overwritten": false,
+  "spearman": 0.994567102271911,
+  "step": "STEP-0015B",
+  "top_100_overlap": 0.92,
+  "top_10_membership_changes": [
+    {
+      "corpus_id": "GOATLAB-HIST-V1",
+      "eligibility_status": "ELIGIBLE_OFFICIAL",
+      "largest_mechanical_driver": "presence_or_fallback",
+      "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+      "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+      "player_name": "Kevin Garnett",
+      "provisional_overall": 97.88852332837847,
+      "provisional_rank": 7,
+      "published_v1_overwritten": false,
+      "raw_component_changes": {
+        "presence_or_fallback": 0.27924353398642987,
+        "reduced_team_inheritance": -0.2090774901303148,
+        "role_action_change": -0.04128088988538349
+      },
+      "v1_defense": 93.48153730218539,
+      "v1_overall": 97.09726485060906,
+      "v1_rank": 14,
+      "v2_defense": 99.13338357196685
+    },
+    {
+      "corpus_id": "GOATLAB-HIST-V1",
+      "eligibility_status": "ELIGIBLE_OFFICIAL",
+      "largest_mechanical_driver": "reduced_team_inheritance",
+      "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+      "player_id": "player_566614d341da53ab975d71ad410a3385",
+      "player_name": "Scottie Pippen",
+      "provisional_overall": 97.56745551623716,
+      "provisional_rank": 12,
+      "published_v1_overwritten": false,
+      "raw_component_changes": {
+        "presence_or_fallback": 0.18260338786572167,
+        "reduced_team_inheritance": -0.28129713423831076,
+        "role_action_change": -0.030811273688709336
+      },
+      "v1_defense": 98.75659382064808,
+      "v1_overall": 97.75208249438336,
+      "v1_rank": 10,
+      "v2_defense": 97.4378296910324
+    },
+    {
+      "corpus_id": "GOATLAB-HIST-V1",
+      "eligibility_status": "ELIGIBLE_OFFICIAL",
+      "largest_mechanical_driver": "presence_or_fallback",
+      "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+      "player_id": "player_ccaefae61ede5c06a02e3c6dd4333aea",
+      "player_name": "Chris Paul",
+      "provisional_overall": 97.84973969996724,
+      "provisional_rank": 8,
+      "published_v1_overwritten": false,
+      "raw_component_changes": {
+        "presence_or_fallback": 0.26701392802646023,
+        "reduced_team_inheritance": -0.23534482758620695,
+        "role_action_change": -0.009780735701702011
+      },
+      "v1_defense": 89.75131876412962,
+      "v1_overall": 96.7683531136824,
+      "v1_rank": 15,
+      "v2_defense": 97.47550866616427
+    },
+    {
+      "corpus_id": "GOATLAB-HIST-V1",
+      "eligibility_status": "ELIGIBLE_OFFICIAL",
+      "largest_mechanical_driver": "reduced_team_inheritance",
+      "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "player_name": "Kareem Abdul-Jabbar",
+      "provisional_overall": 97.392405537297,
+      "provisional_rank": 14,
+      "published_v1_overwritten": false,
+      "raw_component_changes": {
+        "presence_or_fallback": 0.2059734714138494,
+        "reduced_team_inheritance": -0.21938356482041607,
+        "role_action_change": -0.05080786917611203
+      },
+      "v1_defense": 90.46721929163527,
+      "v1_overall": 98.20476424114025,
+      "v1_rank": 7,
+      "v2_defense": 84.6646571213263
+    }
+  ],
+  "top_10_overlap": 0.8,
+  "top_25_overlap": 0.84,
+  "top_50_overlap": 0.9
+}

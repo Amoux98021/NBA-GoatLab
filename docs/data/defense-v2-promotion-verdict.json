@@ -1,0 +1,204 @@
+{
+  "audit_completion_gates": {
+    "all_scores_bounded": true,
+    "awards_not_inputs": true,
+    "candidate_b_reconstructed": true,
+    "frozen_outputs_unchanged": true,
+    "modern_metrics_not_inputs": true,
+    "no_missing_as_zero": true,
+    "regular_season_only": true
+  },
+  "audit_result": "PASS",
+  "candidate_b_reconstruction": {
+    "exact": true,
+    "identical_presence_eligible_player_seasons": true,
+    "maximum_career_raw_difference": 0.0,
+    "maximum_score_difference": 0.0,
+    "maximum_shrunk_presence_difference": 0.0,
+    "maximum_stress_test_score_difference": 0.0,
+    "players": 5103,
+    "presence_rows": 28817,
+    "score_mismatches": 0,
+    "step0015a_fingerprint_verified": true,
+    "stress_test_players": 17
+  },
+  "coverage": {
+    "confidence_counts": {
+      "LIMITED": 154,
+      "MODERATE": 1090,
+      "STRONG": 2886,
+      "UNAVAILABLE": 973
+    },
+    "continuous_presence_player_seasons": 21786,
+    "fallback_counts": {
+      "EXPECTED_PRESENCE": 3499,
+      "OBSERVED": 15616,
+      "RELIABILITY_BLEND": 2559
+    },
+    "former_hard_presence_player_seasons": 17089,
+    "player_seasons": 21674,
+    "players": 5103
+  },
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "promotion_gates": {
+    "expected_presence_cross_validated_r_squared_at_least_0_10": false,
+    "fallback_improves_masked_mae": true,
+    "fallback_mae_at_most_8_points": false,
+    "fallback_over_10_point_error_at_most_25_pct": false,
+    "team_attribution_reduced_at_least_20_pct": true,
+    "threshold_jump_reduced": true
+  },
+  "promotion_verdict": "DO_NOT_PROMOTE",
+  "step": "STEP-0015B",
+  "temporal_large_jumps": {
+    "count": 1551,
+    "coverage_regime_change_count": 428,
+    "examples": [
+      {
+        "coverage_regime_change": false,
+        "from_season": 1966,
+        "player_id": "player_54dfe9f31b6659f590610698074fcf4f",
+        "raw_jump": -0.8316465144051352,
+        "to_season": 1967
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1953,
+        "player_id": "player_12b8ecbb690158a69469589c79ab95db",
+        "raw_jump": -0.7305555555555556,
+        "to_season": 1954
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1978,
+        "player_id": "player_e9e8b75c984258aba91f09c7acc0e248",
+        "raw_jump": 0.695611521236772,
+        "to_season": 1979
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1982,
+        "player_id": "player_65f329cbb5225f5e9634f61ca9af5bd2",
+        "raw_jump": 0.6938118148158889,
+        "to_season": 1983
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_2e7415aca862524eb41c6a6345e9228a",
+        "raw_jump": -0.6805190452249277,
+        "to_season": 1952
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1980,
+        "player_id": "player_4d238fb60c0e5a24a5beeca7b5311912",
+        "raw_jump": 0.6626465544313609,
+        "to_season": 1981
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1983,
+        "player_id": "player_bbafb01f8d6456dcb055f11931ccad1c",
+        "raw_jump": 0.6623222605013392,
+        "to_season": 1984
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1979,
+        "player_id": "player_5ed7d20863fd577c84b7de13b9691ca8",
+        "raw_jump": 0.6605077750498458,
+        "to_season": 1980
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1980,
+        "player_id": "player_fb022acd6e5155a596bccee720be6330",
+        "raw_jump": -0.656729133456549,
+        "to_season": 1981
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1984,
+        "player_id": "player_187600120c615d689992740b10470bd9",
+        "raw_jump": -0.654025326749642,
+        "to_season": 1985
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_9e28cae5119f552494be24b9acb58059",
+        "raw_jump": 0.6509824330460783,
+        "to_season": 1952
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1977,
+        "player_id": "player_fd2321fb2e6f5d39a47676263833a9f9",
+        "raw_jump": 0.6468370433060577,
+        "to_season": 1978
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1965,
+        "player_id": "player_fcdbce6fa8565bc6b6e398b3613e5174",
+        "raw_jump": -0.6444755321483432,
+        "to_season": 1966
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1950,
+        "player_id": "player_26f9499cdd1959b8b19c88b21d4ee988",
+        "raw_jump": 0.6409249452957391,
+        "to_season": 1951
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1979,
+        "player_id": "player_4f2e0d239cc4546c992f2ad73ab130fa",
+        "raw_jump": -0.6404845872519425,
+        "to_season": 1980
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_b6ae02dbf1625b89b3457edf3bfc5fe0",
+        "raw_jump": 0.6399004046062869,
+        "to_season": 1952
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1958,
+        "player_id": "player_8781168cd25f5a8093e786e84d5c8a97",
+        "raw_jump": 0.6370170971232998,
+        "to_season": 1959
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1971,
+        "player_id": "player_d8ec539c97d05eb9b57c30e5d843f185",
+        "raw_jump": -0.6357731758302303,
+        "to_season": 1972
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1972,
+        "player_id": "player_cdf971049b9f5ec1a5a5ad335f55e8f2",
+        "raw_jump": -0.6341083723441233,
+        "to_season": 1973
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_29db84c7fc1f54709dfa1e601d04d4df",
+        "raw_jump": -0.633675692499222,
+        "to_season": 1952
+      }
+    ]
+  }
+}

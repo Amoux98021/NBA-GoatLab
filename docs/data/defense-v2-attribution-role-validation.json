@@ -1,0 +1,268 @@
+{
+  "award_validation": {
+    "awards_used_as_score_inputs": false,
+    "validation": {
+      "CANDIDATE_B": {
+        "ALL_DEFENSE": {
+          "median_score": 90.42954031650339,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5133689839572193,
+          "share_at_or_above_95": 0.2994652406417112
+        },
+        "DPOY": {
+          "median_score": 95.62923888470233,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.7407407407407407,
+          "share_at_or_above_95": 0.5555555555555556
+        }
+      },
+      "PROMOTION_CANDIDATE": {
+        "ALL_DEFENSE": {
+          "median_score": 90.61793519216278,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5133689839572193,
+          "share_at_or_above_95": 0.31016042780748665
+        },
+        "DPOY": {
+          "median_score": 96.7972871137905,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.7777777777777778,
+          "share_at_or_above_95": 0.5555555555555556
+        }
+      },
+      "V1": {
+        "ALL_DEFENSE": {
+          "median_score": 86.24717407686511,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.41711229946524064,
+          "share_at_or_above_95": 0.24598930481283424
+        },
+        "DPOY": {
+          "median_score": 93.48153730218539,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.5925925925925926,
+          "share_at_or_above_95": 0.4444444444444444
+        }
+      }
+    }
+  },
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "modern_validation": {
+    "CANDIDATE_B": {
+      "calibration_intercept": 39.478973677152126,
+      "calibration_slope": 0.2720982375279094,
+      "pearson": 0.2573332730275395,
+      "players": 2337,
+      "residual_mean_by_role": {
+        "BIG": 0.11219117974131106,
+        "FORWARD": -1.6796270900919568,
+        "GUARD": -0.11996031270254098,
+        "WING": -0.5024571032077553
+      },
+      "spearman": 0.2501211789874766
+    },
+    "PROMOTION_CANDIDATE": {
+      "calibration_intercept": 40.00984555418169,
+      "calibration_slope": 0.26329824688773645,
+      "pearson": 0.25885281747880795,
+      "players": 2337,
+      "residual_mean_by_role": {
+        "BIG": 0.062966481725486,
+        "FORWARD": -1.6205266789105075,
+        "GUARD": -0.08592141753858887,
+        "WING": -0.5084322206287806
+      },
+      "spearman": 0.2502661296815158
+    },
+    "V1": {
+      "calibration_intercept": 37.68902782341434,
+      "calibration_slope": 0.30917829851700457,
+      "pearson": 0.2898302852039552,
+      "players": 2337,
+      "residual_mean_by_role": {
+        "BIG": -0.5711665835874152,
+        "FORWARD": -2.3408980596105997,
+        "GUARD": 0.723804899905865,
+        "WING": -0.3136007225255454
+      },
+      "spearman": 0.28125667663848014
+    }
+  },
+  "role_distributions": {
+    "CANDIDATE_B": {
+      "BIG": {
+        "above_90_pct": 0.12837837837837837,
+        "above_95_pct": 0.0777027027027027,
+        "mean": 48.42451602883969,
+        "median": 49.15222305953278,
+        "p10": 3.2629992464204975,
+        "p90": 93.55501130369252,
+        "players": 592,
+        "std": 32.21767772772264
+      },
+      "FORWARD": {
+        "above_90_pct": 0.11100292112950341,
+        "above_95_pct": 0.06815968841285297,
+        "mean": 44.265696576753214,
+        "median": 42.74679728711379,
+        "p10": 2.2004521477015833,
+        "p90": 91.25094197437829,
+        "players": 1027,
+        "std": 32.1175310017196
+      },
+      "GUARD": {
+        "above_90_pct": 0.08869565217391304,
+        "above_95_pct": 0.05478260869565217,
+        "mean": 41.77602306608564,
+        "median": 38.43255463451394,
+        "p10": 1.9555388093443862,
+        "p90": 88.01055011303697,
+        "players": 1150,
+        "std": 31.042582604786887
+      },
+      "WING": {
+        "above_90_pct": 0.08024691358024691,
+        "above_95_pct": 0.030864197530864196,
+        "mean": 47.304906639872726,
+        "median": 44.23511680482291,
+        "p10": 9.229464958553129,
+        "p90": 87.5621703089676,
+        "players": 162,
+        "std": 28.255474075023386
+      }
+    },
+    "PROMOTION_CANDIDATE": {
+      "BIG": {
+        "above_90_pct": 0.14189189189189189,
+        "above_95_pct": 0.0929054054054054,
+        "mean": 48.79023121652172,
+        "median": 49.123963828183875,
+        "p10": 3.261115297663904,
+        "p90": 94.03541823662395,
+        "players": 592,
+        "std": 32.747906802260246
+      },
+      "FORWARD": {
+        "above_90_pct": 0.11392405063291139,
+        "above_95_pct": 0.06329113924050633,
+        "mean": 44.223871813705166,
+        "median": 41.823662396382815,
+        "p10": 1.8726450640542582,
+        "p90": 91.22833458929917,
+        "players": 1027,
+        "std": 32.28517557812668
+      },
+      "GUARD": {
+        "above_90_pct": 0.08782608695652173,
+        "above_95_pct": 0.058260869565217394,
+        "mean": 41.56087611808263,
+        "median": 37.58477769404672,
+        "p10": 1.7426525998492846,
+        "p90": 87.99924642049736,
+        "players": 1150,
+        "std": 31.306758060333742
+      },
+      "WING": {
+        "above_90_pct": 0.08024691358024691,
+        "above_95_pct": 0.037037037037037035,
+        "mean": 46.859736526277594,
+        "median": 44.43293142426526,
+        "p10": 6.949886963074605,
+        "p90": 87.11190655614168,
+        "players": 162,
+        "std": 29.331785668811907
+      }
+    },
+    "V1": {
+      "BIG": {
+        "above_90_pct": 0.13851351351351351,
+        "above_95_pct": 0.06756756756756757,
+        "mean": 50.511593922483144,
+        "median": 50.489826676714394,
+        "p10": 6.431801055011304,
+        "p90": 92.79577995478523,
+        "players": 592,
+        "std": 31.559108369977857
+      },
+      "FORWARD": {
+        "above_90_pct": 0.12852969814995133,
+        "above_95_pct": 0.08081791626095423,
+        "mean": 46.643562765394634,
+        "median": 45.214770158251696,
+        "p10": 2.7844762622456676,
+        "p90": 93.22155237377544,
+        "players": 1027,
+        "std": 32.733122299296376
+      },
+      "GUARD": {
+        "above_90_pct": 0.09391304347826086,
+        "above_95_pct": 0.05652173913043478,
+        "mean": 41.07014842239769,
+        "median": 36.96307460437076,
+        "p10": 1.9404672192916352,
+        "p90": 89.05802562170312,
+        "players": 1150,
+        "std": 31.358094368280117
+      },
+      "WING": {
+        "above_90_pct": 0.06790123456790123,
+        "above_95_pct": 0.037037037037037035,
+        "mean": 46.77065598630532,
+        "median": 47.83345892991711,
+        "p10": 7.995478522984176,
+        "p90": 86.8952524491334,
+        "players": 162,
+        "std": 28.193496617379196
+      }
+    }
+  },
+  "step": "STEP-0015B",
+  "team_attribution": {
+    "CANDIDATE_B": {
+      "career_spearman_with_team_context": 0.6571587792020266,
+      "season_between_team_eta_squared": 0.5421091194815113,
+      "season_within_team_variance_positive": true
+    },
+    "PROMOTION_CANDIDATE": {
+      "career_spearman_with_team_context": 0.6316994096444878,
+      "season_between_team_eta_squared": 0.4485421847312496,
+      "season_within_team_variance_positive": true
+    },
+    "TEAM_CONTEXT_CHANNEL": {
+      "career_spearman_with_team_context": 1.0,
+      "season_between_team_eta_squared": 1.0,
+      "season_within_team_variance_positive": false
+    },
+    "V1_TEAM_DOMINANT": {
+      "career_spearman_with_team_context": 0.9164795183592735,
+      "season_between_team_eta_squared": 0.9037169872325961,
+      "season_within_team_variance_positive": true
+    }
+  },
+  "teammate_collision": {
+    "CANDIDATE_B": {
+      "mean_shared_season_absolute_gap": 0.15157695778290656,
+      "median_shared_season_absolute_gap": 0.14159471661009315,
+      "near_collision_below_0_02": 142,
+      "pairs": 11780
+    },
+    "PROMOTION_CANDIDATE": {
+      "mean_shared_season_absolute_gap": 0.13907095245308806,
+      "median_shared_season_absolute_gap": 0.12957227398349172,
+      "near_collision_below_0_02": 78,
+      "pairs": 11780
+    },
+    "V1_TEAM_DOMINANT": {
+      "mean_shared_season_absolute_gap": 0.09125979297734788,
+      "median_shared_season_absolute_gap": 0.080674036473527,
+      "near_collision_below_0_02": 1332,
+      "pairs": 11780
+    },
+    "qualified_pairs": 11780
+  }
+}

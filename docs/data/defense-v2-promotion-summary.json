@@ -1,0 +1,1450 @@
+{
+  "audit_completion_gates": {
+    "all_scores_bounded": true,
+    "awards_not_inputs": true,
+    "candidate_b_reconstructed": true,
+    "frozen_outputs_unchanged": true,
+    "modern_metrics_not_inputs": true,
+    "no_missing_as_zero": true,
+    "regular_season_only": true
+  },
+  "audit_methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "award_validation": {
+    "awards_used_as_score_inputs": false,
+    "validation": {
+      "CANDIDATE_B": {
+        "ALL_DEFENSE": {
+          "median_score": 90.42954031650339,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5133689839572193,
+          "share_at_or_above_95": 0.2994652406417112
+        },
+        "DPOY": {
+          "median_score": 95.62923888470233,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.7407407407407407,
+          "share_at_or_above_95": 0.5555555555555556
+        }
+      },
+      "PROMOTION_CANDIDATE": {
+        "ALL_DEFENSE": {
+          "median_score": 90.61793519216278,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5133689839572193,
+          "share_at_or_above_95": 0.31016042780748665
+        },
+        "DPOY": {
+          "median_score": 96.7972871137905,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.7777777777777778,
+          "share_at_or_above_95": 0.5555555555555556
+        }
+      },
+      "V1": {
+        "ALL_DEFENSE": {
+          "median_score": 86.24717407686511,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.41711229946524064,
+          "share_at_or_above_95": 0.24598930481283424
+        },
+        "DPOY": {
+          "median_score": 93.48153730218539,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.5925925925925926,
+          "share_at_or_above_95": 0.4444444444444444
+        }
+      }
+    }
+  },
+  "candidate_b_reconstruction": {
+    "exact": true,
+    "identical_presence_eligible_player_seasons": true,
+    "maximum_career_raw_difference": 0.0,
+    "maximum_score_difference": 0.0,
+    "maximum_shrunk_presence_difference": 0.0,
+    "maximum_stress_test_score_difference": 0.0,
+    "players": 5103,
+    "presence_rows": 28817,
+    "score_mismatches": 0,
+    "step0015a_fingerprint_verified": true,
+    "stress_test_players": 17
+  },
+  "coverage": {
+    "confidence_counts": {
+      "LIMITED": 154,
+      "MODERATE": 1090,
+      "STRONG": 2886,
+      "UNAVAILABLE": 973
+    },
+    "continuous_presence_player_seasons": 21786,
+    "fallback_counts": {
+      "EXPECTED_PRESENCE": 3499,
+      "OBSERVED": 15616,
+      "RELIABILITY_BLEND": 2559
+    },
+    "former_hard_presence_player_seasons": 17089,
+    "player_seasons": 21674,
+    "players": 5103
+  },
+  "defense_methodology_version": null,
+  "deterministic_rebuild_verified": true,
+  "fallback_model": {
+    "alpha_candidates": {
+      "0.1": {
+        "mae_presence_percentile": 0.24753515938416,
+        "pearson": 0.13212957080728288,
+        "rmse_presence_percentile": 0.2866407661816237,
+        "spearman": 0.1365592153463646
+      },
+      "1.0": {
+        "mae_presence_percentile": 0.24753576840552063,
+        "pearson": 0.13212753583276585,
+        "rmse_presence_percentile": 0.2866406741404106,
+        "spearman": 0.13655065091596302
+      },
+      "10.0": {
+        "mae_presence_percentile": 0.24754192340947148,
+        "pearson": 0.13210474781544704,
+        "rmse_presence_percentile": 0.2866399610342518,
+        "spearman": 0.13647140072658767
+      },
+      "100.0": {
+        "mae_presence_percentile": 0.24760375687774755,
+        "pearson": 0.131674719477471,
+        "rmse_presence_percentile": 0.28664878368045704,
+        "spearman": 0.1352509154677114
+      }
+    },
+    "awards_used": false,
+    "coefficients": {
+      "intercept": 0.501707951039551,
+      "role_aware_actions": 0.05861696481622925,
+      "role_big": 0.007465068261784281,
+      "role_forward": -0.003856798550109597,
+      "role_guard": -0.0025702843909547464,
+      "role_known": -0.00029382841725328427,
+      "role_wing": -0.0011742131095380645,
+      "team_context": 0.05961550243032766,
+      "team_x_actions": -0.0513710173061843
+    },
+    "feature_names": [
+      "team_context",
+      "role_aware_actions",
+      "team_x_actions",
+      "role_known",
+      "role_guard",
+      "role_wing",
+      "role_forward",
+      "role_big"
+    ],
+    "grouping": "PLAYER_ID",
+    "model": "GROUPED_FIVE_FOLD_RIDGE",
+    "modern_metrics_used": false,
+    "out_of_fold_mae_presence_percentile": 0.24753515938416,
+    "out_of_fold_r_squared": 0.017389799550567075,
+    "out_of_fold_rmse_presence_percentile": 0.2866407661816237,
+    "player_names_used": false,
+    "players": 3061,
+    "rows": 12875,
+    "selected_alpha": 0.1
+  },
+  "frozen_overall_mutated": false,
+  "frozen_v1_mutated": false,
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "masking": {
+    "career_level": {
+      "cross_validated_expected_presence": {
+        "mean_absolute_error": 6.3787017447808845,
+        "mean_signed_error": 0.3204120692621996,
+        "more_than_10_points": 0.21790264619405422,
+        "more_than_15_points": 0.0757922247631493,
+        "more_than_5_points": 0.5102907546553413,
+        "observations": 3061.0,
+        "p10_error": -9.955768709760992,
+        "p25_error": -4.880362953410344,
+        "p50_error": 0.20198437768961242,
+        "p75_error": 5.56754320554721,
+        "p90_error": 11.226282597098175,
+        "pearson": 0.8022319934065177,
+        "percentile_calibration": [
+          {
+            "actual_band": [
+              0.0,
+              0.1
+            ],
+            "mean_actual": 0.06726371237954354,
+            "mean_predicted": 0.20501753822159896,
+            "observations": 19
+          },
+          {
+            "actual_band": [
+              0.1,
+              0.2
+            ],
+            "mean_actual": 0.16006259396366643,
+            "mean_predicted": 0.2801686602034025,
+            "observations": 125
+          },
+          {
+            "actual_band": [
+              0.2,
+              0.30000000000000004
+            ],
+            "mean_actual": 0.2571624030106183,
+            "mean_predicted": 0.3490682941294418,
+            "observations": 268
+          },
+          {
+            "actual_band": [
+              0.30000000000000004,
+              0.4
+            ],
+            "mean_actual": 0.35614824424273994,
+            "mean_predicted": 0.39530264144427407,
+            "observations": 612
+          },
+          {
+            "actual_band": [
+              0.4,
+              0.5
+            ],
+            "mean_actual": 0.4507054099031948,
+            "mean_predicted": 0.44638808757690074,
+            "observations": 926
+          },
+          {
+            "actual_band": [
+              0.5,
+              0.6000000000000001
+            ],
+            "mean_actual": 0.5453138388332196,
+            "mean_predicted": 0.5096068460147779,
+            "observations": 731
+          },
+          {
+            "actual_band": [
+              0.6000000000000001,
+              0.7000000000000001
+            ],
+            "mean_actual": 0.6382771286684724,
+            "mean_predicted": 0.5753850863327252,
+            "observations": 300
+          },
+          {
+            "actual_band": [
+              0.7000000000000001,
+              0.8
+            ],
+            "mean_actual": 0.7341166118212806,
+            "mean_predicted": 0.6415113146981247,
+            "observations": 74
+          },
+          {
+            "actual_band": [
+              0.8,
+              0.9
+            ],
+            "mean_actual": 0.8370714462046305,
+            "mean_predicted": 0.7377413585768181,
+            "observations": 6
+          }
+        ],
+        "rmse": 8.045843475557401,
+        "spearman": 0.7824378336269056
+      },
+      "current_renormalization": {
+        "mean_absolute_error": 7.086658953221409,
+        "mean_signed_error": -2.2767474943288466,
+        "more_than_10_points": 0.24763149297615158,
+        "more_than_15_points": 0.10584776216922574,
+        "more_than_5_points": 0.5468801045409997,
+        "observations": 3061.0,
+        "p10_error": -14.25375728196282,
+        "p25_error": -7.633796992001873,
+        "p50_error": -1.61361068838905,
+        "p75_error": 3.6625966622396366,
+        "p90_error": 8.29520360871051,
+        "pearson": 0.8018700464379811,
+        "percentile_calibration": [
+          {
+            "actual_band": [
+              0.0,
+              0.1
+            ],
+            "mean_actual": 0.06726371237954354,
+            "mean_predicted": 0.08363523803447341,
+            "observations": 19
+          },
+          {
+            "actual_band": [
+              0.1,
+              0.2
+            ],
+            "mean_actual": 0.16006259396366643,
+            "mean_predicted": 0.18508149183381448,
+            "observations": 125
+          },
+          {
+            "actual_band": [
+              0.2,
+              0.30000000000000004
+            ],
+            "mean_actual": 0.2571624030106183,
+            "mean_predicted": 0.278580086244419,
+            "observations": 268
+          },
+          {
+            "actual_band": [
+              0.30000000000000004,
+              0.4
+            ],
+            "mean_actual": 0.35614824424273994,
+            "mean_predicted": 0.3430387342071727,
+            "observations": 612
+          },
+          {
+            "actual_band": [
+              0.4,
+              0.5
+            ],
+            "mean_actual": 0.4507054099031948,
+            "mean_predicted": 0.4160336076642947,
+            "observations": 926
+          },
+          {
+            "actual_band": [
+              0.5,
+              0.6000000000000001
+            ],
+            "mean_actual": 0.5453138388332196,
+            "mean_predicted": 0.5076084845523366,
+            "observations": 731
+          },
+          {
+            "actual_band": [
+              0.6000000000000001,
+              0.7000000000000001
+            ],
+            "mean_actual": 0.6382771286684724,
+            "mean_predicted": 0.6063039327948839,
+            "observations": 300
+          },
+          {
+            "actual_band": [
+              0.7000000000000001,
+              0.8
+            ],
+            "mean_actual": 0.7341166118212806,
+            "mean_predicted": 0.7106422730366189,
+            "observations": 74
+          },
+          {
+            "actual_band": [
+              0.8,
+              0.9
+            ],
+            "mean_actual": 0.8370714462046305,
+            "mean_predicted": 0.862268395734444,
+            "observations": 6
+          }
+        ],
+        "rmse": 9.217364637668693,
+        "spearman": 0.7817708376546171
+      }
+    },
+    "cross_validated_expected_presence": {
+      "mean_absolute_error": 9.9014063753664,
+      "mean_signed_error": 0.0035330210165136554,
+      "more_than_10_points": 0.49398058252427185,
+      "more_than_15_points": 0.2396893203883495,
+      "more_than_5_points": 0.7460194174757282,
+      "observations": 12875.0,
+      "p10_error": -15.84663957242797,
+      "p25_error": -9.753394448029976,
+      "p50_error": -0.06055261413925317,
+      "p75_error": 9.974370070284,
+      "p90_error": 15.73406200780205,
+      "pearson": 0.7314360119141174,
+      "percentile_calibration": [
+        {
+          "actual_band": [
+            0.0,
+            0.1
+          ],
+          "mean_actual": 0.0775519233146573,
+          "mean_predicted": 0.21845561044009004,
+          "observations": 65
+        },
+        {
+          "actual_band": [
+            0.1,
+            0.2
+          ],
+          "mean_actual": 0.1614031675578245,
+          "mean_predicted": 0.29390963721371066,
+          "observations": 565
+        },
+        {
+          "actual_band": [
+            0.2,
+            0.30000000000000004
+          ],
+          "mean_actual": 0.2564174160515156,
+          "mean_predicted": 0.3682453764595403,
+          "observations": 1316
+        },
+        {
+          "actual_band": [
+            0.30000000000000004,
+            0.4
+          ],
+          "mean_actual": 0.35251785819429526,
+          "mean_predicted": 0.4263188268769191,
+          "observations": 2162
+        },
+        {
+          "actual_band": [
+            0.4,
+            0.5
+          ],
+          "mean_actual": 0.45143579036415077,
+          "mean_predicted": 0.46668224820949095,
+          "observations": 2787
+        },
+        {
+          "actual_band": [
+            0.5,
+            0.6000000000000001
+          ],
+          "mean_actual": 0.5489847108730195,
+          "mean_predicted": 0.5095372611931174,
+          "observations": 2611
+        },
+        {
+          "actual_band": [
+            0.6000000000000001,
+            0.7000000000000001
+          ],
+          "mean_actual": 0.6459517233298917,
+          "mean_predicted": 0.5633384306839844,
+          "observations": 2032
+        },
+        {
+          "actual_band": [
+            0.7000000000000001,
+            0.8
+          ],
+          "mean_actual": 0.7415356304907661,
+          "mean_predicted": 0.6265958681526937,
+          "observations": 1001
+        },
+        {
+          "actual_band": [
+            0.8,
+            0.9
+          ],
+          "mean_actual": 0.8375324408389346,
+          "mean_predicted": 0.7012489623485778,
+          "observations": 296
+        },
+        {
+          "actual_band": [
+            0.9,
+            1.0
+          ],
+          "mean_actual": 0.9283131628790322,
+          "mean_predicted": 0.7652363313204138,
+          "observations": 40
+        }
+      ],
+      "rmse": 11.46563064726495,
+      "spearman": 0.7091643776458086
+    },
+    "current_renormalization": {
+      "mean_absolute_error": 10.720524873906827,
+      "mean_signed_error": -1.2024515274734064,
+      "more_than_10_points": 0.482873786407767,
+      "more_than_15_points": 0.2694368932038835,
+      "more_than_5_points": 0.7357669902912621,
+      "observations": 12875.0,
+      "p10_error": -18.466601083790383,
+      "p25_error": -10.792718080917496,
+      "p50_error": -1.0783187272669525,
+      "p75_error": 8.368212536241295,
+      "p90_error": 15.743795925972552,
+      "pearson": 0.7301891649645513,
+      "percentile_calibration": [
+        {
+          "actual_band": [
+            0.0,
+            0.1
+          ],
+          "mean_actual": 0.0775519233146573,
+          "mean_predicted": 0.10234899101789192,
+          "observations": 65
+        },
+        {
+          "actual_band": [
+            0.1,
+            0.2
+          ],
+          "mean_actual": 0.1614031675578245,
+          "mean_predicted": 0.2012271380375792,
+          "observations": 565
+        },
+        {
+          "actual_band": [
+            0.2,
+            0.30000000000000004
+          ],
+          "mean_actual": 0.2564174160515156,
+          "mean_predicted": 0.3027290808214603,
+          "observations": 1316
+        },
+        {
+          "actual_band": [
+            0.30000000000000004,
+            0.4
+          ],
+          "mean_actual": 0.35251785819429526,
+          "mean_predicted": 0.3853705935113249,
+          "observations": 2162
+        },
+        {
+          "actual_band": [
+            0.4,
+            0.5
+          ],
+          "mean_actual": 0.45143579036415077,
+          "mean_predicted": 0.4444923633479781,
+          "observations": 2787
+        },
+        {
+          "actual_band": [
+            0.5,
+            0.6000000000000001
+          ],
+          "mean_actual": 0.5489847108730195,
+          "mean_predicted": 0.5072210917365216,
+          "observations": 2611
+        },
+        {
+          "actual_band": [
+            0.6000000000000001,
+            0.7000000000000001
+          ],
+          "mean_actual": 0.6459517233298917,
+          "mean_predicted": 0.5876303954354205,
+          "observations": 2032
+        },
+        {
+          "actual_band": [
+            0.7000000000000001,
+            0.8
+          ],
+          "mean_actual": 0.7415356304907661,
+          "mean_predicted": 0.6863643141094105,
+          "observations": 1001
+        },
+        {
+          "actual_band": [
+            0.8,
+            0.9
+          ],
+          "mean_actual": 0.8375324408389346,
+          "mean_predicted": 0.8099014796466671,
+          "observations": 296
+        },
+        {
+          "actual_band": [
+            0.9,
+            1.0
+          ],
+          "mean_actual": 0.9283131628790322,
+          "mean_predicted": 0.9135276547551479,
+          "observations": 40
+        }
+      ],
+      "rmse": 12.989406333707487,
+      "spearman": 0.7073088035858798
+    }
+  },
+  "modern_validation": {
+    "CANDIDATE_B": {
+      "calibration_intercept": 39.478973677152126,
+      "calibration_slope": 0.2720982375279094,
+      "pearson": 0.2573332730275395,
+      "players": 2337,
+      "residual_mean_by_role": {
+        "BIG": 0.11219117974131106,
+        "FORWARD": -1.6796270900919568,
+        "GUARD": -0.11996031270254098,
+        "WING": -0.5024571032077553
+      },
+      "spearman": 0.2501211789874766
+    },
+    "PROMOTION_CANDIDATE": {
+      "calibration_intercept": 40.00984555418169,
+      "calibration_slope": 0.26329824688773645,
+      "pearson": 0.25885281747880795,
+      "players": 2337,
+      "residual_mean_by_role": {
+        "BIG": 0.062966481725486,
+        "FORWARD": -1.6205266789105075,
+        "GUARD": -0.08592141753858887,
+        "WING": -0.5084322206287806
+      },
+      "spearman": 0.2502661296815158
+    },
+    "V1": {
+      "calibration_intercept": 37.68902782341434,
+      "calibration_slope": 0.30917829851700457,
+      "pearson": 0.2898302852039552,
+      "players": 2337,
+      "residual_mean_by_role": {
+        "BIG": -0.5711665835874152,
+        "FORWARD": -2.3408980596105997,
+        "GUARD": 0.723804899905865,
+        "WING": -0.3136007225255454
+      },
+      "spearman": 0.28125667663848014
+    }
+  },
+  "network_requests": 0,
+  "output_fingerprint": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+  "output_partitions": [
+    {
+      "path": "data/gold/defense_v2_promotion_audit/continuous-presence-estimates.parquet",
+      "rows": 28817,
+      "sha256": "5cbf2f5c3473a9b5f6f94db8a669210ce35a6dcc022108db3c75bfab7bf69763",
+      "size_bytes": 711780
+    },
+    {
+      "path": "data/gold/defense_v2_promotion_audit/defense-v2-season-components.parquet",
+      "rows": 21674,
+      "sha256": "a6d5822e631537b57bfa8ff9ca0a402db7131f27c725c7e9e7433fc3ff301fef",
+      "size_bytes": 1286514
+    },
+    {
+      "path": "data/gold/defense_v2_promotion_audit/player-defense-v2-promotion-candidate.parquet",
+      "rows": 5103,
+      "sha256": "c43c57d87bed9c210908a59f26c618d0341c7ed37604bf4665d36342ba392d35",
+      "size_bytes": 258699
+    },
+    {
+      "path": "data/gold/defense_v2_promotion_audit/overall-defense-v2-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "4a38af163d507410cb0e8a352dda59ab6867023d3e6b611cb7e23f9b2d752abb",
+      "size_bytes": 206900
+    },
+    {
+      "path": "data/gold/defense_v2_promotion_audit/defense-v2-stress-tests.parquet",
+      "rows": 17,
+      "sha256": "89988265e2a775a632f31551be5a55324d4329700fa3667187d9efef72520603",
+      "size_bytes": 10021
+    }
+  ],
+  "promotion_gates": {
+    "expected_presence_cross_validated_r_squared_at_least_0_10": false,
+    "fallback_improves_masked_mae": true,
+    "fallback_mae_at_most_8_points": false,
+    "fallback_over_10_point_error_at_most_25_pct": false,
+    "team_attribution_reduced_at_least_20_pct": true,
+    "threshold_jump_reduced": true
+  },
+  "promotion_verdict": "DO_NOT_PROMOTE",
+  "provisional_overall_version": null,
+  "result": "PASS",
+  "role_distributions": {
+    "CANDIDATE_B": {
+      "BIG": {
+        "above_90_pct": 0.12837837837837837,
+        "above_95_pct": 0.0777027027027027,
+        "mean": 48.42451602883969,
+        "median": 49.15222305953278,
+        "p10": 3.2629992464204975,
+        "p90": 93.55501130369252,
+        "players": 592,
+        "std": 32.21767772772264
+      },
+      "FORWARD": {
+        "above_90_pct": 0.11100292112950341,
+        "above_95_pct": 0.06815968841285297,
+        "mean": 44.265696576753214,
+        "median": 42.74679728711379,
+        "p10": 2.2004521477015833,
+        "p90": 91.25094197437829,
+        "players": 1027,
+        "std": 32.1175310017196
+      },
+      "GUARD": {
+        "above_90_pct": 0.08869565217391304,
+        "above_95_pct": 0.05478260869565217,
+        "mean": 41.77602306608564,
+        "median": 38.43255463451394,
+        "p10": 1.9555388093443862,
+        "p90": 88.01055011303697,
+        "players": 1150,
+        "std": 31.042582604786887
+      },
+      "WING": {
+        "above_90_pct": 0.08024691358024691,
+        "above_95_pct": 0.030864197530864196,
+        "mean": 47.304906639872726,
+        "median": 44.23511680482291,
+        "p10": 9.229464958553129,
+        "p90": 87.5621703089676,
+        "players": 162,
+        "std": 28.255474075023386
+      }
+    },
+    "PROMOTION_CANDIDATE": {
+      "BIG": {
+        "above_90_pct": 0.14189189189189189,
+        "above_95_pct": 0.0929054054054054,
+        "mean": 48.79023121652172,
+        "median": 49.123963828183875,
+        "p10": 3.261115297663904,
+        "p90": 94.03541823662395,
+        "players": 592,
+        "std": 32.747906802260246
+      },
+      "FORWARD": {
+        "above_90_pct": 0.11392405063291139,
+        "above_95_pct": 0.06329113924050633,
+        "mean": 44.223871813705166,
+        "median": 41.823662396382815,
+        "p10": 1.8726450640542582,
+        "p90": 91.22833458929917,
+        "players": 1027,
+        "std": 32.28517557812668
+      },
+      "GUARD": {
+        "above_90_pct": 0.08782608695652173,
+        "above_95_pct": 0.058260869565217394,
+        "mean": 41.56087611808263,
+        "median": 37.58477769404672,
+        "p10": 1.7426525998492846,
+        "p90": 87.99924642049736,
+        "players": 1150,
+        "std": 31.306758060333742
+      },
+      "WING": {
+        "above_90_pct": 0.08024691358024691,
+        "above_95_pct": 0.037037037037037035,
+        "mean": 46.859736526277594,
+        "median": 44.43293142426526,
+        "p10": 6.949886963074605,
+        "p90": 87.11190655614168,
+        "players": 162,
+        "std": 29.331785668811907
+      }
+    },
+    "V1": {
+      "BIG": {
+        "above_90_pct": 0.13851351351351351,
+        "above_95_pct": 0.06756756756756757,
+        "mean": 50.511593922483144,
+        "median": 50.489826676714394,
+        "p10": 6.431801055011304,
+        "p90": 92.79577995478523,
+        "players": 592,
+        "std": 31.559108369977857
+      },
+      "FORWARD": {
+        "above_90_pct": 0.12852969814995133,
+        "above_95_pct": 0.08081791626095423,
+        "mean": 46.643562765394634,
+        "median": 45.214770158251696,
+        "p10": 2.7844762622456676,
+        "p90": 93.22155237377544,
+        "players": 1027,
+        "std": 32.733122299296376
+      },
+      "GUARD": {
+        "above_90_pct": 0.09391304347826086,
+        "above_95_pct": 0.05652173913043478,
+        "mean": 41.07014842239769,
+        "median": 36.96307460437076,
+        "p10": 1.9404672192916352,
+        "p90": 89.05802562170312,
+        "players": 1150,
+        "std": 31.358094368280117
+      },
+      "WING": {
+        "above_90_pct": 0.06790123456790123,
+        "above_95_pct": 0.037037037037037035,
+        "mean": 46.77065598630532,
+        "median": 47.83345892991711,
+        "p10": 7.995478522984176,
+        "p90": 86.8952524491334,
+        "players": 162,
+        "std": 28.193496617379196
+      }
+    }
+  },
+  "run_at": "2026-09-12T00:00:00Z",
+  "runtime_seconds": 18.214569333009422,
+  "step": "STEP-0015B",
+  "team_attribution": {
+    "CANDIDATE_B": {
+      "career_spearman_with_team_context": 0.6571587792020266,
+      "season_between_team_eta_squared": 0.5421091194815113,
+      "season_within_team_variance_positive": true
+    },
+    "PROMOTION_CANDIDATE": {
+      "career_spearman_with_team_context": 0.6316994096444878,
+      "season_between_team_eta_squared": 0.4485421847312496,
+      "season_within_team_variance_positive": true
+    },
+    "TEAM_CONTEXT_CHANNEL": {
+      "career_spearman_with_team_context": 1.0,
+      "season_between_team_eta_squared": 1.0,
+      "season_within_team_variance_positive": false
+    },
+    "V1_TEAM_DOMINANT": {
+      "career_spearman_with_team_context": 0.9164795183592735,
+      "season_between_team_eta_squared": 0.9037169872325961,
+      "season_within_team_variance_positive": true
+    }
+  },
+  "teammate_collision": {
+    "CANDIDATE_B": {
+      "mean_shared_season_absolute_gap": 0.15157695778290656,
+      "median_shared_season_absolute_gap": 0.14159471661009315,
+      "near_collision_below_0_02": 142,
+      "pairs": 11780
+    },
+    "PROMOTION_CANDIDATE": {
+      "mean_shared_season_absolute_gap": 0.13907095245308806,
+      "median_shared_season_absolute_gap": 0.12957227398349172,
+      "near_collision_below_0_02": 78,
+      "pairs": 11780
+    },
+    "V1_TEAM_DOMINANT": {
+      "mean_shared_season_absolute_gap": 0.09125979297734788,
+      "median_shared_season_absolute_gap": 0.080674036473527,
+      "near_collision_below_0_02": 1332,
+      "pairs": 11780
+    },
+    "qualified_pairs": 11780
+  },
+  "temporal_large_jumps": {
+    "count": 1551,
+    "coverage_regime_change_count": 428,
+    "examples": [
+      {
+        "coverage_regime_change": false,
+        "from_season": 1966,
+        "player_id": "player_54dfe9f31b6659f590610698074fcf4f",
+        "raw_jump": -0.8316465144051352,
+        "to_season": 1967
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1953,
+        "player_id": "player_12b8ecbb690158a69469589c79ab95db",
+        "raw_jump": -0.7305555555555556,
+        "to_season": 1954
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1978,
+        "player_id": "player_e9e8b75c984258aba91f09c7acc0e248",
+        "raw_jump": 0.695611521236772,
+        "to_season": 1979
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1982,
+        "player_id": "player_65f329cbb5225f5e9634f61ca9af5bd2",
+        "raw_jump": 0.6938118148158889,
+        "to_season": 1983
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_2e7415aca862524eb41c6a6345e9228a",
+        "raw_jump": -0.6805190452249277,
+        "to_season": 1952
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1980,
+        "player_id": "player_4d238fb60c0e5a24a5beeca7b5311912",
+        "raw_jump": 0.6626465544313609,
+        "to_season": 1981
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1983,
+        "player_id": "player_bbafb01f8d6456dcb055f11931ccad1c",
+        "raw_jump": 0.6623222605013392,
+        "to_season": 1984
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1979,
+        "player_id": "player_5ed7d20863fd577c84b7de13b9691ca8",
+        "raw_jump": 0.6605077750498458,
+        "to_season": 1980
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1980,
+        "player_id": "player_fb022acd6e5155a596bccee720be6330",
+        "raw_jump": -0.656729133456549,
+        "to_season": 1981
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1984,
+        "player_id": "player_187600120c615d689992740b10470bd9",
+        "raw_jump": -0.654025326749642,
+        "to_season": 1985
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_9e28cae5119f552494be24b9acb58059",
+        "raw_jump": 0.6509824330460783,
+        "to_season": 1952
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1977,
+        "player_id": "player_fd2321fb2e6f5d39a47676263833a9f9",
+        "raw_jump": 0.6468370433060577,
+        "to_season": 1978
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1965,
+        "player_id": "player_fcdbce6fa8565bc6b6e398b3613e5174",
+        "raw_jump": -0.6444755321483432,
+        "to_season": 1966
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1950,
+        "player_id": "player_26f9499cdd1959b8b19c88b21d4ee988",
+        "raw_jump": 0.6409249452957391,
+        "to_season": 1951
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1979,
+        "player_id": "player_4f2e0d239cc4546c992f2ad73ab130fa",
+        "raw_jump": -0.6404845872519425,
+        "to_season": 1980
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_b6ae02dbf1625b89b3457edf3bfc5fe0",
+        "raw_jump": 0.6399004046062869,
+        "to_season": 1952
+      },
+      {
+        "coverage_regime_change": true,
+        "from_season": 1958,
+        "player_id": "player_8781168cd25f5a8093e786e84d5c8a97",
+        "raw_jump": 0.6370170971232998,
+        "to_season": 1959
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1971,
+        "player_id": "player_d8ec539c97d05eb9b57c30e5d843f185",
+        "raw_jump": -0.6357731758302303,
+        "to_season": 1972
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1972,
+        "player_id": "player_cdf971049b9f5ec1a5a5ad335f55e8f2",
+        "raw_jump": -0.6341083723441233,
+        "to_season": 1973
+      },
+      {
+        "coverage_regime_change": false,
+        "from_season": 1951,
+        "player_id": "player_29db84c7fc1f54709dfa1e601d04d4df",
+        "raw_jump": -0.633675692499222,
+        "to_season": 1952
+      }
+    ]
+  },
+  "threshold_continuity": {
+    "former_thresholds": {
+      "games_with": 10,
+      "games_without": 5
+    },
+    "maximum_continuous_jump_points": 3.600000000000003,
+    "maximum_hard_gate_jump_points": 14.000000000000002,
+    "observed_boundary_groups": {
+      "games_with_10": {
+        "mean_absolute_shrunk_points": 1.1112540691044945,
+        "mean_effective_sample_size": 8.726726148518113,
+        "mean_threshold_continuity": 1.0,
+        "rows": 294
+      },
+      "games_with_9": {
+        "mean_absolute_shrunk_points": 1.0787275201532733,
+        "mean_effective_sample_size": 7.967424462611702,
+        "mean_threshold_continuity": 0.8999999999999999,
+        "rows": 308
+      },
+      "games_without_4": {
+        "mean_absolute_shrunk_points": 0.761166446038071,
+        "mean_effective_sample_size": 3.7955743049843242,
+        "mean_threshold_continuity": 0.8,
+        "rows": 720
+      },
+      "games_without_5": {
+        "mean_absolute_shrunk_points": 0.8550581431975127,
+        "mean_effective_sample_size": 4.68252157662547,
+        "mean_threshold_continuity": 1.0,
+        "rows": 640
+      }
+    },
+    "selected_policy": "smoothly blend observed Presence into expected Presence using min(1, games_with/10) * min(1, games_without/5)",
+    "simulation": [
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 0.6000000000000005,
+        "expected_presence": 0.35,
+        "hard_gate_jump_points": 14.000000000000002,
+        "observed_presence": 0.2
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 1.200000000000001,
+        "expected_presence": 0.35,
+        "hard_gate_jump_points": 14.000000000000002,
+        "observed_presence": 0.2
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 1.200000000000001,
+        "expected_presence": 0.5,
+        "hard_gate_jump_points": 14.000000000000002,
+        "observed_presence": 0.2
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 2.400000000000002,
+        "expected_presence": 0.5,
+        "hard_gate_jump_points": 14.000000000000002,
+        "observed_presence": 0.2
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 1.8000000000000016,
+        "expected_presence": 0.65,
+        "hard_gate_jump_points": 14.000000000000002,
+        "observed_presence": 0.2
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 3.599999999999998,
+        "expected_presence": 0.65,
+        "hard_gate_jump_points": 14.000000000000002,
+        "observed_presence": 0.2
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 0.6000000000000005,
+        "expected_presence": 0.35,
+        "hard_gate_jump_points": 2.0000000000000018,
+        "observed_presence": 0.5
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 1.200000000000001,
+        "expected_presence": 0.35,
+        "hard_gate_jump_points": 2.0000000000000018,
+        "observed_presence": 0.5
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 0.0,
+        "expected_presence": 0.5,
+        "hard_gate_jump_points": 2.0000000000000018,
+        "observed_presence": 0.5
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 0.0,
+        "expected_presence": 0.5,
+        "hard_gate_jump_points": 2.0000000000000018,
+        "observed_presence": 0.5
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 0.6000000000000005,
+        "expected_presence": 0.65,
+        "hard_gate_jump_points": 2.0000000000000018,
+        "observed_presence": 0.5
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 1.200000000000001,
+        "expected_presence": 0.65,
+        "hard_gate_jump_points": 2.0000000000000018,
+        "observed_presence": 0.5
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 1.8000000000000016,
+        "expected_presence": 0.35,
+        "hard_gate_jump_points": 10.000000000000009,
+        "observed_presence": 0.8
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 3.600000000000003,
+        "expected_presence": 0.35,
+        "hard_gate_jump_points": 10.000000000000009,
+        "observed_presence": 0.8
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 1.200000000000001,
+        "expected_presence": 0.5,
+        "hard_gate_jump_points": 10.000000000000009,
+        "observed_presence": 0.8
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 2.4000000000000132,
+        "expected_presence": 0.5,
+        "hard_gate_jump_points": 10.000000000000009,
+        "observed_presence": 0.8
+      },
+      {
+        "axis": "WITH",
+        "continuous_jump_points": 0.6000000000000005,
+        "expected_presence": 0.65,
+        "hard_gate_jump_points": 10.000000000000009,
+        "observed_presence": 0.8
+      },
+      {
+        "axis": "WITHOUT",
+        "continuous_jump_points": 1.200000000000001,
+        "expected_presence": 0.65,
+        "hard_gate_jump_points": 10.000000000000009,
+        "observed_presence": 0.8
+      }
+    ]
+  },
+  "top_ranking_impact": {
+    "defense_v2_provisional_top_15": [
+      {
+        "defense": 97.06103993971364,
+        "overall": 99.3961391239674,
+        "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+        "player_name": "LeBron James",
+        "rank": 1
+      },
+      {
+        "defense": 99.02034664657121,
+        "overall": 99.25057810827414,
+        "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+        "player_name": "Michael Jordan",
+        "rank": 2
+      },
+      {
+        "defense": 95.66691785983421,
+        "overall": 98.39565141905618,
+        "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+        "player_name": "Larry Bird",
+        "rank": 3
+      },
+      {
+        "defense": 99.88696307460437,
+        "overall": 98.35121997533224,
+        "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+        "player_name": "Tim Duncan",
+        "rank": 4
+      },
+      {
+        "defense": 98.30444611906556,
+        "overall": 98.32614280508142,
+        "player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+        "player_name": "Karl Malone",
+        "rank": 5
+      },
+      {
+        "defense": 99.77392614920875,
+        "overall": 98.24604389150221,
+        "player_id": "player_e2d1ed7c54525122abb63cfcfefdda78",
+        "player_name": "Kawhi Leonard",
+        "rank": 6
+      },
+      {
+        "defense": 99.13338357196685,
+        "overall": 97.88852332837847,
+        "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+        "player_name": "Kevin Garnett",
+        "rank": 7
+      },
+      {
+        "defense": 97.47550866616427,
+        "overall": 97.84973969996724,
+        "player_id": "player_ccaefae61ede5c06a02e3c6dd4333aea",
+        "player_name": "Chris Paul",
+        "rank": 8
+      },
+      {
+        "defense": 96.948003014318,
+        "overall": 97.83829669727785,
+        "player_id": "player_d52bf517d5af592abcd5188e98336295",
+        "player_name": "Julius Erving",
+        "rank": 9
+      },
+      {
+        "defense": 93.63225320271289,
+        "overall": 97.67536768718891,
+        "player_id": "player_e68d0769835b59e6a9688c8a268a5195",
+        "player_name": "Dwyane Wade",
+        "rank": 10
+      },
+      {
+        "defense": 99.81160512434062,
+        "overall": 97.66279981590523,
+        "player_id": "player_4d08922285b55514a689685cb9615544",
+        "player_name": "David Robinson",
+        "rank": 11
+      },
+      {
+        "defense": 97.4378296910324,
+        "overall": 97.56745551623716,
+        "player_id": "player_566614d341da53ab975d71ad410a3385",
+        "player_name": "Scottie Pippen",
+        "rank": 12
+      },
+      {
+        "defense": 92.91635267520724,
+        "overall": 97.40948782523238,
+        "player_id": "player_3a6d2e4aeafb5b0c9dba522e3c245db0",
+        "player_name": "Charles Barkley",
+        "rank": 13
+      },
+      {
+        "defense": 84.6646571213263,
+        "overall": 97.392405537297,
+        "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+        "player_name": "Kareem Abdul-Jabbar",
+        "rank": 14
+      },
+      {
+        "defense": 84.8153730218538,
+        "overall": 97.21138980251678,
+        "player_id": "player_8f4568aa56f35088b26a2d5f0a00b995",
+        "player_name": "Magic Johnson",
+        "rank": 15
+      }
+    ],
+    "old_v1_top_15": [
+      {
+        "defense": 98.30444611906556,
+        "overall": 99.15035203442335,
+        "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+        "player_name": "Michael Jordan",
+        "rank": 1
+      },
+      {
+        "defense": 95.13941220798795,
+        "overall": 99.12711124152581,
+        "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+        "player_name": "LeBron James",
+        "rank": 2
+      },
+      {
+        "defense": 97.81461944235117,
+        "overall": 98.69632964060855,
+        "player_id": "player_9376530eceb15d8e9234830b09e885f8",
+        "player_name": "Larry Bird",
+        "rank": 3
+      },
+      {
+        "defense": 98.45516201959306,
+        "overall": 98.34724303115527,
+        "player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+        "player_name": "Karl Malone",
+        "rank": 4
+      },
+      {
+        "defense": 99.81160512434062,
+        "overall": 98.34066986229531,
+        "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+        "player_name": "Tim Duncan",
+        "rank": 5
+      },
+      {
+        "defense": 97.66390354182366,
+        "overall": 98.23979873466442,
+        "player_id": "player_e68d0769835b59e6a9688c8a268a5195",
+        "player_name": "Dwyane Wade",
+        "rank": 6
+      },
+      {
+        "defense": 90.46721929163527,
+        "overall": 98.20476424114025,
+        "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+        "player_name": "Kareem Abdul-Jabbar",
+        "rank": 7
+      },
+      {
+        "defense": 98.34212509419744,
+        "overall": 98.04559174380063,
+        "player_id": "player_e2d1ed7c54525122abb63cfcfefdda78",
+        "player_name": "Kawhi Leonard",
+        "rank": 8
+      },
+      {
+        "defense": 97.47550866616427,
+        "overall": 97.91214748853633,
+        "player_id": "player_d52bf517d5af592abcd5188e98336295",
+        "player_name": "Julius Erving",
+        "rank": 9
+      },
+      {
+        "defense": 98.75659382064808,
+        "overall": 97.75208249438336,
+        "player_id": "player_566614d341da53ab975d71ad410a3385",
+        "player_name": "Scottie Pippen",
+        "rank": 10
+      },
+      {
+        "defense": 99.8492840994725,
+        "overall": 97.66807487242369,
+        "player_id": "player_4d08922285b55514a689685cb9615544",
+        "player_name": "David Robinson",
+        "rank": 11
+      },
+      {
+        "defense": 97.40015071590052,
+        "overall": 97.49622922206215,
+        "player_id": "player_05b0acdecb0c5036a6a1bfc68d02bb64",
+        "player_name": "George Mikan",
+        "rank": 12
+      },
+      {
+        "defense": 98.11605124340618,
+        "overall": 97.15712218337887,
+        "player_id": "player_4111da38d64656e2a41ef79f6e3ab295",
+        "player_name": "John Havlicek",
+        "rank": 13
+      },
+      {
+        "defense": 93.48153730218539,
+        "overall": 97.09726485060906,
+        "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+        "player_name": "Kevin Garnett",
+        "rank": 14
+      },
+      {
+        "defense": 89.75131876412962,
+        "overall": 96.7683531136824,
+        "player_id": "player_ccaefae61ede5c06a02e3c6dd4333aea",
+        "player_name": "Chris Paul",
+        "rank": 15
+      }
+    ],
+    "players_ranked": 1882,
+    "published_overall_overwritten": false,
+    "spearman": 0.994567102271911,
+    "top_100_overlap": 0.92,
+    "top_10_membership_changes": [
+      {
+        "corpus_id": "GOATLAB-HIST-V1",
+        "eligibility_status": "ELIGIBLE_OFFICIAL",
+        "largest_mechanical_driver": "presence_or_fallback",
+        "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+        "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+        "player_name": "Kevin Garnett",
+        "provisional_overall": 97.88852332837847,
+        "provisional_rank": 7,
+        "published_v1_overwritten": false,
+        "raw_component_changes": {
+          "presence_or_fallback": 0.27924353398642987,
+          "reduced_team_inheritance": -0.2090774901303148,
+          "role_action_change": -0.04128088988538349
+        },
+        "v1_defense": 93.48153730218539,
+        "v1_overall": 97.09726485060906,
+        "v1_rank": 14,
+        "v2_defense": 99.13338357196685
+      },
+      {
+        "corpus_id": "GOATLAB-HIST-V1",
+        "eligibility_status": "ELIGIBLE_OFFICIAL",
+        "largest_mechanical_driver": "reduced_team_inheritance",
+        "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+        "player_id": "player_566614d341da53ab975d71ad410a3385",
+        "player_name": "Scottie Pippen",
+        "provisional_overall": 97.56745551623716,
+        "provisional_rank": 12,
+        "published_v1_overwritten": false,
+        "raw_component_changes": {
+          "presence_or_fallback": 0.18260338786572167,
+          "reduced_team_inheritance": -0.28129713423831076,
+          "role_action_change": -0.030811273688709336
+        },
+        "v1_defense": 98.75659382064808,
+        "v1_overall": 97.75208249438336,
+        "v1_rank": 10,
+        "v2_defense": 97.4378296910324
+      },
+      {
+        "corpus_id": "GOATLAB-HIST-V1",
+        "eligibility_status": "ELIGIBLE_OFFICIAL",
+        "largest_mechanical_driver": "presence_or_fallback",
+        "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+        "player_id": "player_ccaefae61ede5c06a02e3c6dd4333aea",
+        "player_name": "Chris Paul",
+        "provisional_overall": 97.84973969996724,
+        "provisional_rank": 8,
+        "published_v1_overwritten": false,
+        "raw_component_changes": {
+          "presence_or_fallback": 0.26701392802646023,
+          "reduced_team_inheritance": -0.23534482758620695,
+          "role_action_change": -0.009780735701702011
+        },
+        "v1_defense": 89.75131876412962,
+        "v1_overall": 96.7683531136824,
+        "v1_rank": 15,
+        "v2_defense": 97.47550866616427
+      },
+      {
+        "corpus_id": "GOATLAB-HIST-V1",
+        "eligibility_status": "ELIGIBLE_OFFICIAL",
+        "largest_mechanical_driver": "reduced_team_inheritance",
+        "methodology_version": "goatlab-v1-overall-defense-v2-counterfactual-v1",
+        "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+        "player_name": "Kareem Abdul-Jabbar",
+        "provisional_overall": 97.392405537297,
+        "provisional_rank": 14,
+        "published_v1_overwritten": false,
+        "raw_component_changes": {
+          "presence_or_fallback": 0.2059734714138494,
+          "reduced_team_inheritance": -0.21938356482041607,
+          "role_action_change": -0.05080786917611203
+        },
+        "v1_defense": 90.46721929163527,
+        "v1_overall": 98.20476424114025,
+        "v1_rank": 7,
+        "v2_defense": 84.6646571213263
+      }
+    ],
+    "top_10_overlap": 0.8,
+    "top_25_overlap": 0.84,
+    "top_50_overlap": 0.9
+  }
+}

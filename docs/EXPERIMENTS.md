@@ -143,3 +143,17 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Counterfactual:** Defense-score Spearman to V1 is 0.7876 with Top-25/50/100 overlap 0.40/0.52/0.52. Frozen-weight Overall Spearman is 0.9958; Top-10/25/50/100 overlap 0.70/0.88/0.94/0.95. Published V1 remains unchanged.
 - **Verdict:** audit PASS; V1 constitutional verdict `REQUIRES_REVISION`; experimental V2 selected for later promotion review.
 - **Optimization target:** none. Player identities, awards, external rankings, and conventional expectations were excluded from candidate construction and selection.
+
+## STEP-0015B Defense V2 promotion audit
+
+- **Objective:** test whether Candidate B's observed and missing-Presence regimes can share one universal Defense scale.
+- **Reconstruction:** all 5,103 scores, raw values, 28,817 Presence rows, 17 stress cases, and 17,089 eligible player-seasons reproduce with zero numerical difference.
+- **Masking:** 12,875 full-evidence seasons. Direct renormalization MAE/RMSE is 10.72/12.99 points; grouped-ridge expected Presence improves this to 9.90/11.47 but leaves 49.40% above 10-point absolute error.
+- **Fallback model:** player-grouped five-fold ridge, alpha 0.1 selected from 0.1/1/10/100; Presence R-squared 0.0174 and Spearman 0.1366. No award, modern, name, or postseason input.
+- **Career masking:** expected fallback MAE 6.38, Pearson 0.8022, and 21.79% above 10 points after aggregation.
+- **Evidence regimes:** no-STL/BLK MAE 2.50; reduced position/DREB MAE 1.00; no-Presence MAE 10.72. Presence is the blocking portability channel.
+- **Continuity:** continuous reliability reduces the simulated boundary jump from 14.0 to 3.6 points and yields 21,786 mathematical Presence estimates.
+- **Attribution:** V1/Candidate-B/continuous career team correlations 0.9165/0.6572/0.6317; between-team eta-squared 0.9037/0.5421/0.4485.
+- **Ranking diagnostic:** frozen-weight counterfactual Spearman 0.9946; Top-10/25/50/100 overlap 0.80/0.84/0.90/0.92. Published Overall is unchanged.
+- **Outcome:** audit `PASS`; promotion `DO_NOT_PROMOTE` because the fallback fails absolute calibration and predictive-signal gates.
+- **Optimization target:** none. Promotion criteria exclude player names, awards, and external rankings.

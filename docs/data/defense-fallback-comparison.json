@@ -1,0 +1,291 @@
+{
+  "conservative_hybrid": {
+    "mean_absolute_error": 9.9014063753664,
+    "mean_signed_error": 0.0035330210165136554,
+    "more_than_10_points": 0.49398058252427185,
+    "more_than_15_points": 0.2396893203883495,
+    "more_than_5_points": 0.7460194174757282,
+    "observations": 12875.0,
+    "p10_error": -15.84663957242797,
+    "p25_error": -9.753394448029976,
+    "p50_error": -0.06055261413925317,
+    "p75_error": 9.974370070284,
+    "p90_error": 15.73406200780205,
+    "pearson": 0.7314360119141174,
+    "percentile_calibration": [
+      {
+        "actual_band": [
+          0.0,
+          0.1
+        ],
+        "mean_actual": 0.0775519233146573,
+        "mean_predicted": 0.21845561044009004,
+        "observations": 65
+      },
+      {
+        "actual_band": [
+          0.1,
+          0.2
+        ],
+        "mean_actual": 0.1614031675578245,
+        "mean_predicted": 0.29390963721371066,
+        "observations": 565
+      },
+      {
+        "actual_band": [
+          0.2,
+          0.30000000000000004
+        ],
+        "mean_actual": 0.2564174160515156,
+        "mean_predicted": 0.3682453764595403,
+        "observations": 1316
+      },
+      {
+        "actual_band": [
+          0.30000000000000004,
+          0.4
+        ],
+        "mean_actual": 0.35251785819429526,
+        "mean_predicted": 0.4263188268769191,
+        "observations": 2162
+      },
+      {
+        "actual_band": [
+          0.4,
+          0.5
+        ],
+        "mean_actual": 0.45143579036415077,
+        "mean_predicted": 0.46668224820949095,
+        "observations": 2787
+      },
+      {
+        "actual_band": [
+          0.5,
+          0.6000000000000001
+        ],
+        "mean_actual": 0.5489847108730195,
+        "mean_predicted": 0.5095372611931174,
+        "observations": 2611
+      },
+      {
+        "actual_band": [
+          0.6000000000000001,
+          0.7000000000000001
+        ],
+        "mean_actual": 0.6459517233298917,
+        "mean_predicted": 0.5633384306839844,
+        "observations": 2032
+      },
+      {
+        "actual_band": [
+          0.7000000000000001,
+          0.8
+        ],
+        "mean_actual": 0.7415356304907661,
+        "mean_predicted": 0.6265958681526937,
+        "observations": 1001
+      },
+      {
+        "actual_band": [
+          0.8,
+          0.9
+        ],
+        "mean_actual": 0.8375324408389346,
+        "mean_predicted": 0.7012489623485778,
+        "observations": 296
+      },
+      {
+        "actual_band": [
+          0.9,
+          1.0
+        ],
+        "mean_actual": 0.9283131628790322,
+        "mean_predicted": 0.7652363313204138,
+        "observations": 40
+      }
+    ],
+    "rmse": 11.46563064726495,
+    "spearman": 0.7091643776458086
+  },
+  "continuous_reliability": {
+    "former_hard_eligible_player_seasons": 17089,
+    "hard_gate_removed": true,
+    "mathematically_eligible_player_team_seasons": 24684
+  },
+  "current_renormalization": {
+    "mean_absolute_error": 10.720524873906827,
+    "mean_signed_error": -1.2024515274734064,
+    "more_than_10_points": 0.482873786407767,
+    "more_than_15_points": 0.2694368932038835,
+    "more_than_5_points": 0.7357669902912621,
+    "observations": 12875.0,
+    "p10_error": -18.466601083790383,
+    "p25_error": -10.792718080917496,
+    "p50_error": -1.0783187272669525,
+    "p75_error": 8.368212536241295,
+    "p90_error": 15.743795925972552,
+    "pearson": 0.7301891649645513,
+    "percentile_calibration": [
+      {
+        "actual_band": [
+          0.0,
+          0.1
+        ],
+        "mean_actual": 0.0775519233146573,
+        "mean_predicted": 0.10234899101789192,
+        "observations": 65
+      },
+      {
+        "actual_band": [
+          0.1,
+          0.2
+        ],
+        "mean_actual": 0.1614031675578245,
+        "mean_predicted": 0.2012271380375792,
+        "observations": 565
+      },
+      {
+        "actual_band": [
+          0.2,
+          0.30000000000000004
+        ],
+        "mean_actual": 0.2564174160515156,
+        "mean_predicted": 0.3027290808214603,
+        "observations": 1316
+      },
+      {
+        "actual_band": [
+          0.30000000000000004,
+          0.4
+        ],
+        "mean_actual": 0.35251785819429526,
+        "mean_predicted": 0.3853705935113249,
+        "observations": 2162
+      },
+      {
+        "actual_band": [
+          0.4,
+          0.5
+        ],
+        "mean_actual": 0.45143579036415077,
+        "mean_predicted": 0.4444923633479781,
+        "observations": 2787
+      },
+      {
+        "actual_band": [
+          0.5,
+          0.6000000000000001
+        ],
+        "mean_actual": 0.5489847108730195,
+        "mean_predicted": 0.5072210917365216,
+        "observations": 2611
+      },
+      {
+        "actual_band": [
+          0.6000000000000001,
+          0.7000000000000001
+        ],
+        "mean_actual": 0.6459517233298917,
+        "mean_predicted": 0.5876303954354205,
+        "observations": 2032
+      },
+      {
+        "actual_band": [
+          0.7000000000000001,
+          0.8
+        ],
+        "mean_actual": 0.7415356304907661,
+        "mean_predicted": 0.6863643141094105,
+        "observations": 1001
+      },
+      {
+        "actual_band": [
+          0.8,
+          0.9
+        ],
+        "mean_actual": 0.8375324408389346,
+        "mean_predicted": 0.8099014796466671,
+        "observations": 296
+      },
+      {
+        "actual_band": [
+          0.9,
+          1.0
+        ],
+        "mean_actual": 0.9283131628790322,
+        "mean_predicted": 0.9135276547551479,
+        "observations": 40
+      }
+    ],
+    "rmse": 12.989406333707487,
+    "spearman": 0.7073088035858798
+  },
+  "expected_presence": {
+    "alpha_candidates": {
+      "0.1": {
+        "mae_presence_percentile": 0.24753515938416,
+        "pearson": 0.13212957080728288,
+        "rmse_presence_percentile": 0.2866407661816237,
+        "spearman": 0.1365592153463646
+      },
+      "1.0": {
+        "mae_presence_percentile": 0.24753576840552063,
+        "pearson": 0.13212753583276585,
+        "rmse_presence_percentile": 0.2866406741404106,
+        "spearman": 0.13655065091596302
+      },
+      "10.0": {
+        "mae_presence_percentile": 0.24754192340947148,
+        "pearson": 0.13210474781544704,
+        "rmse_presence_percentile": 0.2866399610342518,
+        "spearman": 0.13647140072658767
+      },
+      "100.0": {
+        "mae_presence_percentile": 0.24760375687774755,
+        "pearson": 0.131674719477471,
+        "rmse_presence_percentile": 0.28664878368045704,
+        "spearman": 0.1352509154677114
+      }
+    },
+    "awards_used": false,
+    "coefficients": {
+      "intercept": 0.501707951039551,
+      "role_aware_actions": 0.05861696481622925,
+      "role_big": 0.007465068261784281,
+      "role_forward": -0.003856798550109597,
+      "role_guard": -0.0025702843909547464,
+      "role_known": -0.00029382841725328427,
+      "role_wing": -0.0011742131095380645,
+      "team_context": 0.05961550243032766,
+      "team_x_actions": -0.0513710173061843
+    },
+    "feature_names": [
+      "team_context",
+      "role_aware_actions",
+      "team_x_actions",
+      "role_known",
+      "role_guard",
+      "role_wing",
+      "role_forward",
+      "role_big"
+    ],
+    "grouping": "PLAYER_ID",
+    "model": "GROUPED_FIVE_FOLD_RIDGE",
+    "modern_metrics_used": false,
+    "out_of_fold_mae_presence_percentile": 0.24753515938416,
+    "out_of_fold_r_squared": 0.017389799550567075,
+    "out_of_fold_rmse_presence_percentile": 0.2866407661816237,
+    "player_names_used": false,
+    "players": 3061,
+    "rows": 12875,
+    "selected_alpha": 0.1
+  },
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "selected": "CONSERVATIVE_CONTINUOUS_EXPECTED_PRESENCE_HYBRID",
+  "step": "STEP-0015B"
+}

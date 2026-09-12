@@ -1,0 +1,441 @@
+{
+  "FULL_PORTABLE": {
+    "mean_absolute_error": 0.0,
+    "mean_signed_error": 0.0,
+    "more_than_10_points": 0.0,
+    "more_than_15_points": 0.0,
+    "more_than_5_points": 0.0,
+    "observations": 12875.0,
+    "p10_error": 0.0,
+    "p25_error": 0.0,
+    "p50_error": 0.0,
+    "p75_error": 0.0,
+    "p90_error": 0.0,
+    "pearson": 1.0,
+    "percentile_calibration": [
+      {
+        "actual_band": [
+          0.0,
+          0.1
+        ],
+        "mean_actual": 0.0775519233146573,
+        "mean_predicted": 0.0775519233146573,
+        "observations": 65
+      },
+      {
+        "actual_band": [
+          0.1,
+          0.2
+        ],
+        "mean_actual": 0.1614031675578245,
+        "mean_predicted": 0.1614031675578245,
+        "observations": 565
+      },
+      {
+        "actual_band": [
+          0.2,
+          0.30000000000000004
+        ],
+        "mean_actual": 0.2564174160515156,
+        "mean_predicted": 0.2564174160515156,
+        "observations": 1316
+      },
+      {
+        "actual_band": [
+          0.30000000000000004,
+          0.4
+        ],
+        "mean_actual": 0.35251785819429526,
+        "mean_predicted": 0.35251785819429526,
+        "observations": 2162
+      },
+      {
+        "actual_band": [
+          0.4,
+          0.5
+        ],
+        "mean_actual": 0.45143579036415077,
+        "mean_predicted": 0.45143579036415077,
+        "observations": 2787
+      },
+      {
+        "actual_band": [
+          0.5,
+          0.6000000000000001
+        ],
+        "mean_actual": 0.5489847108730195,
+        "mean_predicted": 0.5489847108730195,
+        "observations": 2611
+      },
+      {
+        "actual_band": [
+          0.6000000000000001,
+          0.7000000000000001
+        ],
+        "mean_actual": 0.6459517233298917,
+        "mean_predicted": 0.6459517233298917,
+        "observations": 2032
+      },
+      {
+        "actual_band": [
+          0.7000000000000001,
+          0.8
+        ],
+        "mean_actual": 0.7415356304907661,
+        "mean_predicted": 0.7415356304907661,
+        "observations": 1001
+      },
+      {
+        "actual_band": [
+          0.8,
+          0.9
+        ],
+        "mean_actual": 0.8375324408389346,
+        "mean_predicted": 0.8375324408389346,
+        "observations": 296
+      },
+      {
+        "actual_band": [
+          0.9,
+          1.0
+        ],
+        "mean_actual": 0.9283131628790322,
+        "mean_predicted": 0.9283131628790322,
+        "observations": 40
+      }
+    ],
+    "rmse": 0.0,
+    "spearman": 1.0
+  },
+  "PRE_STEAL_BLOCK_REBOUND_ONLY": {
+    "mean_absolute_error": 2.5037727315219724,
+    "mean_signed_error": -0.19870450381730795,
+    "more_than_10_points": 0.002097087378640777,
+    "more_than_15_points": 7.766990291262136e-05,
+    "more_than_5_points": 0.11883495145631068,
+    "observations": 12875.0,
+    "p10_error": -4.191424767569358,
+    "p25_error": -2.3084841764472497,
+    "p50_error": -0.20655322396019304,
+    "p75_error": 1.8445742687289046,
+    "p90_error": 3.975801243184054,
+    "pearson": 0.9832513722064613,
+    "percentile_calibration": [
+      {
+        "actual_band": [
+          0.0,
+          0.1
+        ],
+        "mean_actual": 0.0775519233146573,
+        "mean_predicted": 0.06845693428443886,
+        "observations": 65
+      },
+      {
+        "actual_band": [
+          0.1,
+          0.2
+        ],
+        "mean_actual": 0.1614031675578245,
+        "mean_predicted": 0.15239761052117312,
+        "observations": 565
+      },
+      {
+        "actual_band": [
+          0.2,
+          0.30000000000000004
+        ],
+        "mean_actual": 0.2564174160515156,
+        "mean_predicted": 0.25084156767965976,
+        "observations": 1316
+      },
+      {
+        "actual_band": [
+          0.30000000000000004,
+          0.4
+        ],
+        "mean_actual": 0.35251785819429526,
+        "mean_predicted": 0.3485575111048558,
+        "observations": 2162
+      },
+      {
+        "actual_band": [
+          0.4,
+          0.5
+        ],
+        "mean_actual": 0.45143579036415077,
+        "mean_predicted": 0.44852770025325545,
+        "observations": 2787
+      },
+      {
+        "actual_band": [
+          0.5,
+          0.6000000000000001
+        ],
+        "mean_actual": 0.5489847108730195,
+        "mean_predicted": 0.5479848562175254,
+        "observations": 2611
+      },
+      {
+        "actual_band": [
+          0.6000000000000001,
+          0.7000000000000001
+        ],
+        "mean_actual": 0.6459517233298917,
+        "mean_predicted": 0.6468037435537,
+        "observations": 2032
+      },
+      {
+        "actual_band": [
+          0.7000000000000001,
+          0.8
+        ],
+        "mean_actual": 0.7415356304907661,
+        "mean_predicted": 0.7440727712551783,
+        "observations": 1001
+      },
+      {
+        "actual_band": [
+          0.8,
+          0.9
+        ],
+        "mean_actual": 0.8375324408389346,
+        "mean_predicted": 0.8448908040072465,
+        "observations": 296
+      },
+      {
+        "actual_band": [
+          0.9,
+          1.0
+        ],
+        "mean_actual": 0.9283131628790322,
+        "mean_predicted": 0.9348782918217655,
+        "observations": 40
+      }
+    ],
+    "rmse": 3.1968472977258995,
+    "spearman": 0.9825639686891289
+  },
+  "REDUCED_POSITION_DREB_METADATA": {
+    "mean_absolute_error": 0.9951445465101598,
+    "mean_signed_error": 0.08737133571442465,
+    "more_than_10_points": 0.0,
+    "more_than_15_points": 0.0,
+    "more_than_5_points": 0.0006213592233009709,
+    "observations": 12875.0,
+    "p10_error": -1.558595495592412,
+    "p25_error": -0.6754696730519177,
+    "p50_error": 0.01366677545291961,
+    "p75_error": 0.8843958727804496,
+    "p90_error": 1.7824974388513983,
+    "pearson": 0.9969978730770406,
+    "percentile_calibration": [
+      {
+        "actual_band": [
+          0.0,
+          0.1
+        ],
+        "mean_actual": 0.0775519233146573,
+        "mean_predicted": 0.08030964379946799,
+        "observations": 65
+      },
+      {
+        "actual_band": [
+          0.1,
+          0.2
+        ],
+        "mean_actual": 0.1614031675578245,
+        "mean_predicted": 0.16472595399297438,
+        "observations": 565
+      },
+      {
+        "actual_band": [
+          0.2,
+          0.30000000000000004
+        ],
+        "mean_actual": 0.2564174160515156,
+        "mean_predicted": 0.25884374962636764,
+        "observations": 1316
+      },
+      {
+        "actual_band": [
+          0.30000000000000004,
+          0.4
+        ],
+        "mean_actual": 0.35251785819429526,
+        "mean_predicted": 0.35384093025198887,
+        "observations": 2162
+      },
+      {
+        "actual_band": [
+          0.4,
+          0.5
+        ],
+        "mean_actual": 0.45143579036415077,
+        "mean_predicted": 0.45256345729484937,
+        "observations": 2787
+      },
+      {
+        "actual_band": [
+          0.5,
+          0.6000000000000001
+        ],
+        "mean_actual": 0.5489847108730195,
+        "mean_predicted": 0.5497888871637631,
+        "observations": 2611
+      },
+      {
+        "actual_band": [
+          0.6000000000000001,
+          0.7000000000000001
+        ],
+        "mean_actual": 0.6459517233298917,
+        "mean_predicted": 0.6457537216907672,
+        "observations": 2032
+      },
+      {
+        "actual_band": [
+          0.7000000000000001,
+          0.8
+        ],
+        "mean_actual": 0.7415356304907661,
+        "mean_predicted": 0.740641405413704,
+        "observations": 1001
+      },
+      {
+        "actual_band": [
+          0.8,
+          0.9
+        ],
+        "mean_actual": 0.8375324408389346,
+        "mean_predicted": 0.8349959151830436,
+        "observations": 296
+      },
+      {
+        "actual_band": [
+          0.9,
+          1.0
+        ],
+        "mean_actual": 0.9283131628790322,
+        "mean_predicted": 0.9269295310944454,
+        "observations": 40
+      }
+    ],
+    "rmse": 1.3048674658224833,
+    "spearman": 0.9969214809182481
+  },
+  "STL_BLOCK_NO_PRESENCE": {
+    "mean_absolute_error": 10.720524873906827,
+    "mean_signed_error": -1.2024515274734064,
+    "more_than_10_points": 0.482873786407767,
+    "more_than_15_points": 0.2694368932038835,
+    "more_than_5_points": 0.7357669902912621,
+    "observations": 12875.0,
+    "p10_error": -18.466601083790383,
+    "p25_error": -10.792718080917496,
+    "p50_error": -1.0783187272669525,
+    "p75_error": 8.368212536241295,
+    "p90_error": 15.743795925972552,
+    "pearson": 0.7301891649645513,
+    "percentile_calibration": [
+      {
+        "actual_band": [
+          0.0,
+          0.1
+        ],
+        "mean_actual": 0.0775519233146573,
+        "mean_predicted": 0.10234899101789192,
+        "observations": 65
+      },
+      {
+        "actual_band": [
+          0.1,
+          0.2
+        ],
+        "mean_actual": 0.1614031675578245,
+        "mean_predicted": 0.2012271380375792,
+        "observations": 565
+      },
+      {
+        "actual_band": [
+          0.2,
+          0.30000000000000004
+        ],
+        "mean_actual": 0.2564174160515156,
+        "mean_predicted": 0.3027290808214603,
+        "observations": 1316
+      },
+      {
+        "actual_band": [
+          0.30000000000000004,
+          0.4
+        ],
+        "mean_actual": 0.35251785819429526,
+        "mean_predicted": 0.3853705935113249,
+        "observations": 2162
+      },
+      {
+        "actual_band": [
+          0.4,
+          0.5
+        ],
+        "mean_actual": 0.45143579036415077,
+        "mean_predicted": 0.4444923633479781,
+        "observations": 2787
+      },
+      {
+        "actual_band": [
+          0.5,
+          0.6000000000000001
+        ],
+        "mean_actual": 0.5489847108730195,
+        "mean_predicted": 0.5072210917365216,
+        "observations": 2611
+      },
+      {
+        "actual_band": [
+          0.6000000000000001,
+          0.7000000000000001
+        ],
+        "mean_actual": 0.6459517233298917,
+        "mean_predicted": 0.5876303954354205,
+        "observations": 2032
+      },
+      {
+        "actual_band": [
+          0.7000000000000001,
+          0.8
+        ],
+        "mean_actual": 0.7415356304907661,
+        "mean_predicted": 0.6863643141094105,
+        "observations": 1001
+      },
+      {
+        "actual_band": [
+          0.8,
+          0.9
+        ],
+        "mean_actual": 0.8375324408389346,
+        "mean_predicted": 0.8099014796466671,
+        "observations": 296
+      },
+      {
+        "actual_band": [
+          0.9,
+          1.0
+        ],
+        "mean_actual": 0.9283131628790322,
+        "mean_predicted": 0.9135276547551479,
+        "observations": 40
+      }
+    ],
+    "rmse": 12.989406333707487,
+    "spearman": 0.7073088035858798
+  },
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "step": "STEP-0015B"
+}

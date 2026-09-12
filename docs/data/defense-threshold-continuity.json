@@ -1,0 +1,170 @@
+{
+  "former_thresholds": {
+    "games_with": 10,
+    "games_without": 5
+  },
+  "input_fingerprints": {
+    "defense_forensic": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "maximum_continuous_jump_points": 3.600000000000003,
+  "maximum_hard_gate_jump_points": 14.000000000000002,
+  "methodology_version": "goatlab-v1-defense-v2-promotion-audit-v1",
+  "observed_boundary_groups": {
+    "games_with_10": {
+      "mean_absolute_shrunk_points": 1.1112540691044945,
+      "mean_effective_sample_size": 8.726726148518113,
+      "mean_threshold_continuity": 1.0,
+      "rows": 294
+    },
+    "games_with_9": {
+      "mean_absolute_shrunk_points": 1.0787275201532733,
+      "mean_effective_sample_size": 7.967424462611702,
+      "mean_threshold_continuity": 0.8999999999999999,
+      "rows": 308
+    },
+    "games_without_4": {
+      "mean_absolute_shrunk_points": 0.761166446038071,
+      "mean_effective_sample_size": 3.7955743049843242,
+      "mean_threshold_continuity": 0.8,
+      "rows": 720
+    },
+    "games_without_5": {
+      "mean_absolute_shrunk_points": 0.8550581431975127,
+      "mean_effective_sample_size": 4.68252157662547,
+      "mean_threshold_continuity": 1.0,
+      "rows": 640
+    }
+  },
+  "selected_policy": "smoothly blend observed Presence into expected Presence using min(1, games_with/10) * min(1, games_without/5)",
+  "simulation": [
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 0.6000000000000005,
+      "expected_presence": 0.35,
+      "hard_gate_jump_points": 14.000000000000002,
+      "observed_presence": 0.2
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 1.200000000000001,
+      "expected_presence": 0.35,
+      "hard_gate_jump_points": 14.000000000000002,
+      "observed_presence": 0.2
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 1.200000000000001,
+      "expected_presence": 0.5,
+      "hard_gate_jump_points": 14.000000000000002,
+      "observed_presence": 0.2
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 2.400000000000002,
+      "expected_presence": 0.5,
+      "hard_gate_jump_points": 14.000000000000002,
+      "observed_presence": 0.2
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 1.8000000000000016,
+      "expected_presence": 0.65,
+      "hard_gate_jump_points": 14.000000000000002,
+      "observed_presence": 0.2
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 3.599999999999998,
+      "expected_presence": 0.65,
+      "hard_gate_jump_points": 14.000000000000002,
+      "observed_presence": 0.2
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 0.6000000000000005,
+      "expected_presence": 0.35,
+      "hard_gate_jump_points": 2.0000000000000018,
+      "observed_presence": 0.5
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 1.200000000000001,
+      "expected_presence": 0.35,
+      "hard_gate_jump_points": 2.0000000000000018,
+      "observed_presence": 0.5
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 0.0,
+      "expected_presence": 0.5,
+      "hard_gate_jump_points": 2.0000000000000018,
+      "observed_presence": 0.5
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 0.0,
+      "expected_presence": 0.5,
+      "hard_gate_jump_points": 2.0000000000000018,
+      "observed_presence": 0.5
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 0.6000000000000005,
+      "expected_presence": 0.65,
+      "hard_gate_jump_points": 2.0000000000000018,
+      "observed_presence": 0.5
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 1.200000000000001,
+      "expected_presence": 0.65,
+      "hard_gate_jump_points": 2.0000000000000018,
+      "observed_presence": 0.5
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 1.8000000000000016,
+      "expected_presence": 0.35,
+      "hard_gate_jump_points": 10.000000000000009,
+      "observed_presence": 0.8
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 3.600000000000003,
+      "expected_presence": 0.35,
+      "hard_gate_jump_points": 10.000000000000009,
+      "observed_presence": 0.8
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 1.200000000000001,
+      "expected_presence": 0.5,
+      "hard_gate_jump_points": 10.000000000000009,
+      "observed_presence": 0.8
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 2.4000000000000132,
+      "expected_presence": 0.5,
+      "hard_gate_jump_points": 10.000000000000009,
+      "observed_presence": 0.8
+    },
+    {
+      "axis": "WITH",
+      "continuous_jump_points": 0.6000000000000005,
+      "expected_presence": 0.65,
+      "hard_gate_jump_points": 10.000000000000009,
+      "observed_presence": 0.8
+    },
+    {
+      "axis": "WITHOUT",
+      "continuous_jump_points": 1.200000000000001,
+      "expected_presence": 0.65,
+      "hard_gate_jump_points": 10.000000000000009,
+      "observed_presence": 0.8
+    }
+  ],
+  "step": "STEP-0015B"
+}
