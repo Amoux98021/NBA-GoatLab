@@ -128,3 +128,18 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Cohorts:** no equality target or quota. Complete-profile debut-era means range 52.02–63.78 and remain a monitored selection/cohort limitation. Active careers are to-date with no projection.
 - **Optimization target:** none. External lists and case-study identities were excluded from formula selection.
 - **Artifacts:** ignored Gold Overall/candidate/stability/eligibility partitions; committed eligibility, weight, effective-influence, leave-one-out, sensitivity, cohort, diagnostic, Top-100, and summary reports; ADR-0027/0028.
+
+## STEP-0015A Defense forensic audit
+
+- **Objective:** determine whether V1 Defense attributes opponent-value prevention to players rather than team identity, without using diagnostic player order as a target.
+- **Inputs:** frozen STEP-0014 fingerprint `0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a` and STEP-0015 fingerprint `02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa`.
+- **Reconstruction:** 5,103/5,103 V1 Defense outputs match exactly; maximum absolute difference 0.
+- **Attribution experiment:** suppression ICC 1.0; final player-season between-team eta-squared 0.8992; career raw correlation 0.8661 with team suppression versus 0.4450 with action context.
+- **Role experiment:** position coverage 69.9%; V1 means are 50.51 big, 46.64 forward, 46.77 wing, 41.07 guard. Modern residual role effects are small and do not prove a conditional guard penalty.
+- **Presence experiment:** 17,089 eligible player-seasons under 10-with/five-without gates and `n_eff/(n_eff+20)` shrinkage; 9,867 player-team-seasons remain insufficient/NULL.
+- **Candidates:** V1 65/35; reduced-team 45/55; triangulated presence 30/30/40; coverage-adaptive 35/35/30; universal-core 40/35/25. Order is team/actions/presence.
+- **Validation:** official advanced defensive-rating Spearman is weak (V1 0.2813; triangulated 0.2501). Post-construction DPOY/All-Defense enrichment is higher for triangulated presence; awards never enter formulas.
+- **Scale finding:** Defense SD is 31.87 overall and 9.50 in the Top 100, the largest Top-100 dimension dispersion.
+- **Counterfactual:** Defense-score Spearman to V1 is 0.7876 with Top-25/50/100 overlap 0.40/0.52/0.52. Frozen-weight Overall Spearman is 0.9958; Top-10/25/50/100 overlap 0.70/0.88/0.94/0.95. Published V1 remains unchanged.
+- **Verdict:** audit PASS; V1 constitutional verdict `REQUIRES_REVISION`; experimental V2 selected for later promotion review.
+- **Optimization target:** none. Player identities, awards, external rankings, and conventional expectations were excluded from candidate construction and selection.

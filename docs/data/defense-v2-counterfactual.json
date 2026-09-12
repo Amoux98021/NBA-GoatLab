@@ -1,0 +1,347 @@
+{
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "largest_movers": [
+    {
+      "defense_v2_counterfactual_rank": 1400,
+      "defense_v2_counterfactual_score": 39.93566344342846,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_0dee24c35ebd53a1be52b69df546907c",
+      "published_overall_replaced": false,
+      "rank_change": 283,
+      "v1_overall_rank": 1683,
+      "v1_overall_score": 30.26120978856787
+    },
+    {
+      "defense_v2_counterfactual_rank": 1411,
+      "defense_v2_counterfactual_score": 39.694612809006756,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_08802034ba0b5c40bbc91791413fab60",
+      "published_overall_replaced": false,
+      "rank_change": 224,
+      "v1_overall_rank": 1635,
+      "v1_overall_score": 32.26733323101128
+    },
+    {
+      "defense_v2_counterfactual_rank": 738,
+      "defense_v2_counterfactual_score": 62.66272447632223,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_654921257b825d17990b4e3ab8809223",
+      "published_overall_replaced": false,
+      "rank_change": 213,
+      "v1_overall_rank": 951,
+      "v1_overall_score": 54.57606283351892
+    },
+    {
+      "defense_v2_counterfactual_rank": 1224,
+      "defense_v2_counterfactual_score": 45.907810494869096,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_6d4a89a97b4e5bca83d4b31de15e32e1",
+      "published_overall_replaced": false,
+      "rank_change": 213,
+      "v1_overall_rank": 1437,
+      "v1_overall_score": 39.224313885976855
+    },
+    {
+      "defense_v2_counterfactual_rank": 1533,
+      "defense_v2_counterfactual_score": 36.20541689619918,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_f84390d38689533ca679f602234057f1",
+      "published_overall_replaced": false,
+      "rank_change": -201,
+      "v1_overall_rank": 1332,
+      "v1_overall_score": 42.48800920968826
+    },
+    {
+      "defense_v2_counterfactual_rank": 1534,
+      "defense_v2_counterfactual_score": 36.169265623699545,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_35f4309997b0534b84168fb361ef5ac8",
+      "published_overall_replaced": false,
+      "rank_change": -197,
+      "v1_overall_rank": 1337,
+      "v1_overall_score": 42.39910737200399
+    },
+    {
+      "defense_v2_counterfactual_rank": 920,
+      "defense_v2_counterfactual_score": 55.85152119619538,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_b8159eba3bee54d291f87dcaad432873",
+      "published_overall_replaced": false,
+      "rank_change": 196,
+      "v1_overall_rank": 1116,
+      "v1_overall_score": 49.38957696107857
+    },
+    {
+      "defense_v2_counterfactual_rank": 1238,
+      "defense_v2_counterfactual_score": 45.28373663499126,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_84f85aebc4465640ba284555dd2475fc",
+      "published_overall_replaced": false,
+      "rank_change": -186,
+      "v1_overall_rank": 1052,
+      "v1_overall_score": 51.4291774790003
+    },
+    {
+      "defense_v2_counterfactual_rank": 1210,
+      "defense_v2_counterfactual_score": 46.36151774574108,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_f70020402691560d9c2116d2b436a349",
+      "published_overall_replaced": false,
+      "rank_change": 179,
+      "v1_overall_rank": 1389,
+      "v1_overall_score": 40.69083198839368
+    },
+    {
+      "defense_v2_counterfactual_rank": 1090,
+      "defense_v2_counterfactual_score": 50.297985198979966,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_72bc2723b5e45b7ab99e1cd8c3ac6584",
+      "published_overall_replaced": false,
+      "rank_change": -177,
+      "v1_overall_rank": 913,
+      "v1_overall_score": 55.847344656402726
+    },
+    {
+      "defense_v2_counterfactual_rank": 1475,
+      "defense_v2_counterfactual_score": 37.96344648660715,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_5cb231c391af57fba13cec442268dcd4",
+      "published_overall_replaced": false,
+      "rank_change": 169,
+      "v1_overall_rank": 1644,
+      "v1_overall_score": 32.05010812941046
+    },
+    {
+      "defense_v2_counterfactual_rank": 1261,
+      "defense_v2_counterfactual_score": 44.49897907189704,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_3cf5c89c5f48547abeb77253e1a957fc",
+      "published_overall_replaced": false,
+      "rank_change": -166,
+      "v1_overall_rank": 1095,
+      "v1_overall_score": 49.832061212062825
+    },
+    {
+      "defense_v2_counterfactual_rank": 1078,
+      "defense_v2_counterfactual_score": 50.888223364921245,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_e7d5b85f68265ef7bb08b1d804e13e96",
+      "published_overall_replaced": false,
+      "rank_change": -155,
+      "v1_overall_rank": 923,
+      "v1_overall_score": 55.59357377938997
+    },
+    {
+      "defense_v2_counterfactual_rank": 1305,
+      "defense_v2_counterfactual_score": 43.222148441219005,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_409066c1c488561592d796eff7f1ff97",
+      "published_overall_replaced": false,
+      "rank_change": 154,
+      "v1_overall_rank": 1459,
+      "v1_overall_score": 38.474597574602576
+    },
+    {
+      "defense_v2_counterfactual_rank": 796,
+      "defense_v2_counterfactual_score": 60.969366234803644,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_4e0bbe2007985974aa236c1425a6be97",
+      "published_overall_replaced": false,
+      "rank_change": -153,
+      "v1_overall_rank": 643,
+      "v1_overall_score": 65.83824340134471
+    },
+    {
+      "defense_v2_counterfactual_rank": 1086,
+      "defense_v2_counterfactual_score": 50.42074268122198,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_14c07a30fde2501594fddb3c3ade7284",
+      "published_overall_replaced": false,
+      "rank_change": 152,
+      "v1_overall_rank": 1238,
+      "v1_overall_score": 45.578240797273224
+    },
+    {
+      "defense_v2_counterfactual_rank": 1392,
+      "defense_v2_counterfactual_score": 40.326798384480334,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_8ba1c2e35c4f5dfab164e7572ee1f250",
+      "published_overall_replaced": false,
+      "rank_change": 152,
+      "v1_overall_rank": 1544,
+      "v1_overall_score": 35.716398987343936
+    },
+    {
+      "defense_v2_counterfactual_rank": 690,
+      "defense_v2_counterfactual_score": 64.18792541204652,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_d4ce4e43062f568c814c73b9e9626040",
+      "published_overall_replaced": false,
+      "rank_change": 151,
+      "v1_overall_rank": 841,
+      "v1_overall_score": 58.691316519808396
+    },
+    {
+      "defense_v2_counterfactual_rank": 1515,
+      "defense_v2_counterfactual_score": 36.74750069466082,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_01939f38d83255fd98346af72ed78799",
+      "published_overall_replaced": false,
+      "rank_change": -150,
+      "v1_overall_rank": 1365,
+      "v1_overall_score": 41.59527763512804
+    },
+    {
+      "defense_v2_counterfactual_rank": 921,
+      "defense_v2_counterfactual_score": 55.84304592907407,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_4af5e56784f150f8be09e0d74defc5f5",
+      "published_overall_replaced": false,
+      "rank_change": 150,
+      "v1_overall_rank": 1071,
+      "v1_overall_score": 50.97944381905147
+    },
+    {
+      "defense_v2_counterfactual_rank": 938,
+      "defense_v2_counterfactual_score": 55.3212550458122,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_61b7efd548575a7687d695b70e9397e8",
+      "published_overall_replaced": false,
+      "rank_change": 150,
+      "v1_overall_rank": 1088,
+      "v1_overall_score": 50.109499205571055
+    },
+    {
+      "defense_v2_counterfactual_rank": 1499,
+      "defense_v2_counterfactual_score": 37.232561154740466,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_353c758b38715c1488f51a26bdeade40",
+      "published_overall_replaced": false,
+      "rank_change": -148,
+      "v1_overall_rank": 1351,
+      "v1_overall_score": 42.07506303868922
+    },
+    {
+      "defense_v2_counterfactual_rank": 628,
+      "defense_v2_counterfactual_score": 66.79269446554007,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_f13d2704f8a75a30b011701b8bb8041a",
+      "published_overall_replaced": false,
+      "rank_change": 148,
+      "v1_overall_rank": 776,
+      "v1_overall_score": 60.918919032231855
+    },
+    {
+      "defense_v2_counterfactual_rank": 1575,
+      "defense_v2_counterfactual_score": 34.356569069963854,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_49b27060192d5421ad0b4383df4e4112",
+      "published_overall_replaced": false,
+      "rank_change": -146,
+      "v1_overall_rank": 1429,
+      "v1_overall_score": 39.47337389287267
+    },
+    {
+      "defense_v2_counterfactual_rank": 1116,
+      "defense_v2_counterfactual_score": 49.56031925201782,
+      "methodology_version": "goatlab-v1-defense-v2",
+      "player_id": "player_9fe6ef9d89435f6482e05c193e4ccfb2",
+      "published_overall_replaced": false,
+      "rank_change": -145,
+      "v1_overall_rank": 971,
+      "v1_overall_score": 54.00191684056341
+    }
+  ],
+  "methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "players": 1882,
+  "rank_shift_by_debut_decade": {
+    "1940S": {
+      "mean_rank_change": -2.246153846153846,
+      "median_rank_change": -1,
+      "players": 65
+    },
+    "1950S": {
+      "mean_rank_change": -4.333333333333333,
+      "median_rank_change": -7,
+      "players": 81
+    },
+    "1960S": {
+      "mean_rank_change": 8.134328358208956,
+      "median_rank_change": -1.0,
+      "players": 134
+    },
+    "1970S": {
+      "mean_rank_change": -4.294372294372295,
+      "median_rank_change": -3,
+      "players": 231
+    },
+    "1980S": {
+      "mean_rank_change": 4.656666666666666,
+      "median_rank_change": 4.0,
+      "players": 300
+    },
+    "1990S": {
+      "mean_rank_change": 3.5353535353535355,
+      "median_rank_change": 0,
+      "players": 297
+    },
+    "2000S": {
+      "mean_rank_change": -2.853211009174312,
+      "median_rank_change": -2,
+      "players": 327
+    },
+    "2010S": {
+      "mean_rank_change": -2.2045454545454546,
+      "median_rank_change": -3.0,
+      "players": 352
+    },
+    "2020S": {
+      "mean_rank_change": -3.568421052631579,
+      "median_rank_change": -1,
+      "players": 95
+    }
+  },
+  "rank_shift_by_role": {
+    "BIG": {
+      "mean_rank_change": -3.8273809523809526,
+      "median_rank_change": -3.5,
+      "players": 336
+    },
+    "FORWARD": {
+      "mean_rank_change": -3.3854389721627407,
+      "median_rank_change": -2,
+      "players": 467
+    },
+    "GUARD": {
+      "mean_rank_change": 3.705653021442495,
+      "median_rank_change": 2,
+      "players": 513
+    },
+    "WING": {
+      "mean_rank_change": 2.1454545454545455,
+      "median_rank_change": 4.5,
+      "players": 110
+    }
+  },
+  "rank_shift_by_step0013_archetype": {
+    "0": {
+      "mean_rank_change": -8.380882352941176,
+      "median_rank_change": -4.0,
+      "players": 680
+    },
+    "1": {
+      "mean_rank_change": 7.8452883263009845,
+      "median_rank_change": 4,
+      "players": 711
+    }
+  },
+  "spearman": 0.9957560419629791,
+  "step": "STEP-0015A",
+  "top_100_overlap": 0.95,
+  "top_10_overlap": 0.7,
+  "top_25_overlap": 0.88,
+  "top_50_overlap": 0.94
+}

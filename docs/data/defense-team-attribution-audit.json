@@ -1,0 +1,158 @@
+{
+  "career_raw_correlation_with_action_context": 0.44499551698646583,
+  "career_raw_correlation_with_team_suppression": 0.8660786610601292,
+  "final_v1_season_composite_between_team_eta_squared": 0.899200798093514,
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "interpretation": "The 65% suppression input is exactly a team-season constant before trade weighting.",
+  "largest_action_gap_collisions": [
+    {
+      "left_player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+      "mean_action_gap": 0.9017081693799166,
+      "right_player_id": "player_c4096747a60f5bc198941d6b37a081fb",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_3dff01514e5857cbb4f7671397aceb78",
+      "mean_action_gap": 0.8770446240556667,
+      "right_player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_5767b9abe3785ed3be90266e2e3c6189",
+      "mean_action_gap": 0.8707771181844375,
+      "right_player_id": "player_f3e10f449b235fc1a5781d71350bc10f",
+      "shared_team_seasons": 4,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_8919f5ad989d58eb9f2033b4f14a8848",
+      "mean_action_gap": 0.8651459212378333,
+      "right_player_id": "player_e8787b8e9b1d5f8aa13915697842ce2d",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_8f44d26a7dae5b78a5c34fee1c19786f",
+      "mean_action_gap": 0.8555795201536668,
+      "right_player_id": "player_9dcc8e17dc86572f9ff00134340274f5",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_5860e2ac829f5533a2aee53b358d93f0",
+      "mean_action_gap": 0.8360427446155,
+      "right_player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "mean_action_gap": 0.8332342375820833,
+      "right_player_id": "player_9b6088ba75045c0782adf7a35dc908c2",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_4d08922285b55514a689685cb9615544",
+      "mean_action_gap": 0.8327496459310625,
+      "right_player_id": "player_b1a719d617f25df3a9ca5035ddd82138",
+      "shared_team_seasons": 4,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+      "mean_action_gap": 0.8230950077088334,
+      "right_player_id": "player_d0df03474d3759b5bc656aff597446b3",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_b1a719d617f25df3a9ca5035ddd82138",
+      "mean_action_gap": 0.8214470365928125,
+      "right_player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "shared_team_seasons": 4,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_50a8b99f82535dee99ac478bc68d6b54",
+      "mean_action_gap": 0.8204914579590833,
+      "right_player_id": "player_6d7b71bed1de50dcbdfbe4f01562b2e7",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_e6a16b824c225a70920e7791b64d1904",
+      "mean_action_gap": 0.8202692037841667,
+      "right_player_id": "player_e8787b8e9b1d5f8aa13915697842ce2d",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+      "mean_action_gap": 0.81719251146695,
+      "right_player_id": "player_91423965e76858b8b4402c32d2a609ed",
+      "shared_team_seasons": 5,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_850b0046892e5ac4b512a001328f409b",
+      "mean_action_gap": 0.8090497144670833,
+      "right_player_id": "player_eedfbf7cd8fe5458863aadbc48b05ff6",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_237eccf6b06a5df79c1818628c127e53",
+      "mean_action_gap": 0.8078502278898334,
+      "right_player_id": "player_e1d51145d8b65f309f2a4391bbb2f38e",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_4a1dd5d451425c969f379e3df2c901b7",
+      "mean_action_gap": 0.8068202777710832,
+      "right_player_id": "player_d01be951b9595ebc825aa6d30818a449",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_4382092c5131500381404fbfd7dc71d4",
+      "mean_action_gap": 0.8011396011398334,
+      "right_player_id": "player_da5ae18f0e56523593caefb069a8f6bc",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_67ba99d33ec15f17a3ec05ae74cfda68",
+      "mean_action_gap": 0.7947693073458334,
+      "right_player_id": "player_9376530eceb15d8e9234830b09e885f8",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_57798cb045df54509f9325d111b8e36a",
+      "mean_action_gap": 0.7943876982240834,
+      "right_player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    },
+    {
+      "left_player_id": "player_7d3a56cb428d52fca60a9562645f2ffa",
+      "mean_action_gap": 0.7938306199176667,
+      "right_player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+      "shared_team_seasons": 3,
+      "team_suppression_gap_during_shared_seasons": 0.0
+    }
+  ],
+  "methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "overlap_pairs_at_least_three_team_seasons": 9171,
+  "pairs_with_action_gap_at_least_0_25": 4257,
+  "step": "STEP-0015A",
+  "team_season_suppression_intraclass_correlation": 1.0,
+  "team_season_suppression_within_team_variance": 0.0
+}

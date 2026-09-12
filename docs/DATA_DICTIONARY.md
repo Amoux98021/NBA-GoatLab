@@ -175,6 +175,21 @@ Overall eligibility is `ELIGIBLE_OFFICIAL` or `UNRANKED_INCOMPLETE_REQUIRED_DIME
 
 Rank stability `HIGH`/`MODERATE`/`LOW` describes sensitivity only. Effective influence is a population-level Shapley variance share and is distinct from nominal weight. All outputs reference `goatlab-v1-overall-v1`, `goatlab-v1-dimension-scores-v1`, and `GOATLAB-HIST-V1`.
 
+## Gold Defense forensic audit
+
+Generated STEP-0015A outputs remain ignored under `data/gold/defense_forensic_audit/`.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `v1-season-decomposition` | player × qualified Regular Season | Exact V1 team suppression, RPG/STL/BLK evidence, DREB availability diagnostic, action coverage, and raw composite. |
+| `v1-player-decomposition` | master player | Career team/action inputs, exact frozen raw/ECDF result, position metadata, and confidence. |
+| `defensive-presence-estimates` | player × team × Regular Season | With/without sample sizes, opponent-adjusted contrast, uncertainty, shrinkage, reliability, and explicit insufficient status. |
+| `candidate-defense-scores` | player × audit candidate | Raw/ECDF candidate value, component weights, role policy, coverage, and V1 change. |
+| `defense-v2-candidate-scores` | master player | Selected experimental score/confidence with `published_v1_replaced=false`. |
+| `defense-v2-overall-counterfactual` | complete V1 Overall player | Frozen-weight V1-versus-V2 diagnostic score/rank; never the published Overall. |
+
+Presence confidence is `STRONG`, `MODERATE`, `LIMITED`, or `INSUFFICIENT_SAMPLE`. Role is `GUARD`, `WING`, `FORWARD`, `BIG`, or NULL. Rebound semantics are `DEFENSIVE_REBOUNDS` or `TOTAL_REBOUND_PROXY`; V1 reconstruction is labeled `TOTAL_REBOUNDS_NOT_DEFENSIVE_REBOUNDS`. NULL is never an observed zero.
+
 ## Gold dimension candidate audit V1
 
 Generated STEP-0012 Gold remains ignored and is partitioned by dimension/candidate.

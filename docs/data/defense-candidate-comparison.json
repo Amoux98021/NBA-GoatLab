@@ -1,0 +1,167 @@
+{
+  "award_validation": {
+    "awards_used_as_score_inputs": false,
+    "validation": {
+      "A_REDUCED_TEAM": {
+        "ALL_DEFENSE": {
+          "median_score": 89.78899773926149,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.48663101604278075,
+          "share_at_or_above_95": 0.25668449197860965
+        },
+        "DPOY": {
+          "median_score": 94.80030143180106,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.8148148148148148,
+          "share_at_or_above_95": 0.48148148148148145
+        }
+      },
+      "B_TRIANGULATED_PRESENCE": {
+        "ALL_DEFENSE": {
+          "median_score": 90.42954031650339,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5133689839572193,
+          "share_at_or_above_95": 0.2994652406417112
+        },
+        "DPOY": {
+          "median_score": 95.62923888470233,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.7407407407407407,
+          "share_at_or_above_95": 0.5555555555555556
+        }
+      },
+      "C_COVERAGE_ADAPTIVE": {
+        "ALL_DEFENSE": {
+          "median_score": 90.69329314242653,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5294117647058824,
+          "share_at_or_above_95": 0.2887700534759358
+        },
+        "DPOY": {
+          "median_score": 96.4958553127355,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.7407407407407407,
+          "share_at_or_above_95": 0.5555555555555556
+        }
+      },
+      "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+        "ALL_DEFENSE": {
+          "median_score": 90.42954031650339,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5187165775401069,
+          "share_at_or_above_95": 0.29411764705882354
+        },
+        "DPOY": {
+          "median_score": 96.34513941220798,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.7407407407407407,
+          "share_at_or_above_95": 0.5185185185185185
+        }
+      },
+      "V1_BASELINE": {
+        "ALL_DEFENSE": {
+          "median_score": 86.24717407686511,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.41711229946524064,
+          "share_at_or_above_95": 0.24598930481283424
+        },
+        "DPOY": {
+          "median_score": 93.48153730218539,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.5925925925925926,
+          "share_at_or_above_95": 0.4444444444444444
+        }
+      }
+    }
+  },
+  "candidates": {
+    "A_REDUCED_TEAM": {
+      "mean_score_gap_by_role": {
+        "BIG": 4.359444833124405,
+        "FORWARD": 5.717363446048674,
+        "GUARD": 13.012024776350174,
+        "WING": 6.441211415216363
+      },
+      "median_absolute_score_gap": 27.013577020681172,
+      "modern_overlap": 2337,
+      "pearson": 0.15070730293608417,
+      "spearman": 0.13993580032480257,
+      "spearman_to_v1": 0.9468081152433172,
+      "top_100_overlap_with_v1": 0.94,
+      "top_25_overlap_with_v1": 1.0,
+      "top_50_overlap_with_v1": 0.9
+    },
+    "B_TRIANGULATED_PRESENCE": {
+      "mean_score_gap_by_role": {
+        "BIG": 3.097048450306018,
+        "FORWARD": 4.59513219968026,
+        "GUARD": 9.988094782348051,
+        "WING": 4.743785287070402
+      },
+      "median_absolute_score_gap": 23.661991716021028,
+      "modern_overlap": 2337,
+      "pearson": 0.2573332730275395,
+      "spearman": 0.2501211789874766,
+      "spearman_to_v1": 0.7875988910370676,
+      "top_100_overlap_with_v1": 0.52,
+      "top_25_overlap_with_v1": 0.4,
+      "top_50_overlap_with_v1": 0.52
+    },
+    "C_COVERAGE_ADAPTIVE": {
+      "mean_score_gap_by_role": {
+        "BIG": 3.5614543784647723,
+        "FORWARD": 4.992104209816963,
+        "GUARD": 10.84625266494344,
+        "WING": 5.131106428953976
+      },
+      "median_absolute_score_gap": 24.234550271306606,
+      "modern_overlap": 2337,
+      "pearson": 0.2440996720573273,
+      "spearman": 0.23612201654587858,
+      "spearman_to_v1": 0.8656005127478802,
+      "top_100_overlap_with_v1": 0.57,
+      "top_25_overlap_with_v1": 0.44,
+      "top_50_overlap_with_v1": 0.56
+    },
+    "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+      "mean_score_gap_by_role": {
+        "BIG": 3.8516327256137295,
+        "FORWARD": 4.877358302827879,
+        "GUARD": 10.551292932746115,
+        "WING": 5.045685149928294
+      },
+      "median_absolute_score_gap": 24.26858724526225,
+      "modern_overlap": 2337,
+      "pearson": 0.25702076250449263,
+      "spearman": 0.24859967344400902,
+      "spearman_to_v1": 0.9118508787836546,
+      "top_100_overlap_with_v1": 0.64,
+      "top_25_overlap_with_v1": 0.48,
+      "top_50_overlap_with_v1": 0.58
+    },
+    "V1_BASELINE": {
+      "mean_score_gap_by_role": {
+        "BIG": 1.1103114495524384,
+        "FORWARD": 2.1377794284445364,
+        "GUARD": 11.76701659975625,
+        "WING": 5.205528255611968
+      },
+      "median_absolute_score_gap": 22.494977635415005,
+      "modern_overlap": 2337,
+      "pearson": 0.2898302852039552,
+      "spearman": 0.28125667663848014,
+      "spearman_to_v1": 1.0,
+      "top_100_overlap_with_v1": 1.0,
+      "top_25_overlap_with_v1": 1.0,
+      "top_50_overlap_with_v1": 1.0
+    }
+  },
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "selected": "B_TRIANGULATED_PRESENCE",
+  "selection_not_player_targeted": true,
+  "step": "STEP-0015A"
+}

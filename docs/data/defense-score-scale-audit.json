@@ -1,0 +1,60 @@
+{
+  "defense_ecdf_all": {
+    "mean": 45.24618603013223,
+    "median": 43.425018839487564,
+    "p75": 73.2008289374529,
+    "p90": 91.22456669178598,
+    "p95": 96.25282592313488,
+    "std": 31.873707451401508
+  },
+  "defense_ecdf_top100": {
+    "mean": 89.51846269781461,
+    "median": 92.40768651092691,
+    "p75": 97.67332328560663,
+    "p90": 98.61718161266013,
+    "p95": 98.98643556895252,
+    "std": 9.496858995774607
+  },
+  "defense_ecdf_top25": {
+    "mean": 94.2607385079126,
+    "median": 97.40015071590052,
+    "p75": 98.34212509419744,
+    "p90": 99.55538809344387,
+    "p95": 99.76639035418236,
+    "std": 5.39563681677382
+  },
+  "defense_overall_contribution_std_all": 4.462319043196212,
+  "defense_overall_contribution_std_top100": 1.3295602594084452,
+  "defense_raw_composite": {
+    "mean": 0.45310159426169416,
+    "median": 0.4600849292496859,
+    "p75": 0.5736877165148745,
+    "p90": 0.6791711412471955,
+    "p95": 0.7465825112421702,
+    "std": 0.18387689830423692
+  },
+  "dimension_score_standard_deviation": {
+    "ACCOLADES": 22.243456409391325,
+    "DEFENSE": 31.873707451401508,
+    "LONGEVITY": 23.363865563778166,
+    "OFFENSE": 30.713499765664597,
+    "PEAK": 28.879269703511067,
+    "PLAYOFFS": 29.80587897120476,
+    "WINNING": 29.733039617253187
+  },
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "step": "STEP-0015A",
+  "top100_dimension_standard_deviation": {
+    "ACCOLADES": 3.6861030912114745,
+    "DEFENSE": 9.496858995774607,
+    "LONGEVITY": 2.407198674729674,
+    "OFFENSE": 6.048091005540813,
+    "PEAK": 2.7016736611637975,
+    "PLAYOFFS": 5.121854503214019,
+    "WINNING": 7.639962996166728
+  }
+}

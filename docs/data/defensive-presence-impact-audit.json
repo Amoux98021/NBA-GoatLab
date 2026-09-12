@@ -1,0 +1,18 @@
+{
+  "eligible_player_seasons": 17089,
+  "eligible_share_of_v1_qualified_player_seasons": 0.7163467960992118,
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "status_counts": {
+    "INSUFFICIENT_SAMPLE": 9867,
+    "LIMITED": 4344,
+    "MODERATE": 12249,
+    "STRONG": 2357
+  },
+  "step": "STEP-0015A",
+  "teammate_adjustment": "NOT_IDENTIFIABLE_AS_LINEUP_RAPM_FROM_GAME_PRESENCE",
+  "venue_adjustment": "UNAVAILABLE_IN_CANONICAL_PLAYER_GAME_CONTRACT"
+}

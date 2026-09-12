@@ -1,0 +1,826 @@
+{
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "players": [
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 20.308967596081395,
+          "coverage": 1.0,
+          "score": 81.9517709118312
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 14.091936699321785,
+          "coverage": 0.85,
+          "score": 75.7347400150716
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 15.52373775433309,
+          "coverage": 0.8875,
+          "score": 77.1665410700829
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 14.091936699321785,
+          "coverage": 0.90625,
+          "score": 75.7347400150716
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 61.64280331574981
+        }
+      },
+      "career_action_context": 0.6857195686597812,
+      "career_team_suppression": 0.4418103448275862,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e",
+      "player_name": "Stephen Curry",
+      "role": "GUARD",
+      "strongest_seasons": [
+        2021,
+        2024,
+        2013
+      ],
+      "v1_raw": 0.5271785731688545,
+      "v1_score": 61.64280331574981,
+      "weakest_seasons": [
+        2010,
+        2011,
+        2009
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 10.663149962321029,
+          "coverage": 1.0,
+          "score": 85.9457422758101
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 7.874905802562168,
+          "coverage": 0.6705882352941177,
+          "score": 83.15749811605124
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 8.59080633006782,
+          "coverage": 0.7529411764705882,
+          "score": 83.8733986435569
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 8.251695553880936,
+          "coverage": 0.7941176470588235,
+          "score": 83.53428786737001
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 75.28259231348908
+        }
+      },
+      "career_action_context": 0.6271457424235588,
+      "career_team_suppression": 0.5580848917816463,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_4aa6e8b4cf88505b97eee0aaab498cb2",
+      "player_name": "Gary Payton",
+      "role": "GUARD",
+      "strongest_seasons": [
+        1992,
+        1996,
+        1993
+      ],
+      "v1_raw": 0.5822561895063157,
+      "v1_score": 75.28259231348908,
+      "weakest_seasons": [
+        1998,
+        2004,
+        2000
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 0.03767897513186824,
+          "coverage": 1.0,
+          "score": 99.88696307460437
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 0.11303692539561894,
+          "coverage": 0.6923076923076923,
+          "score": 99.96232102486812
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 0.11303692539561894,
+          "coverage": 0.7692307692307693,
+          "score": 99.96232102486812
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 0.11303692539561894,
+          "coverage": 0.8076923076923077,
+          "score": 99.96232102486812
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 99.8492840994725
+        }
+      },
+      "career_action_context": 0.9435346976864232,
+      "career_team_suppression": 0.8588334742180895,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_4d08922285b55514a689685cb9615544",
+      "player_name": "David Robinson",
+      "role": "BIG",
+      "strongest_seasons": [
+        1999,
+        1997,
+        1993
+      ],
+      "v1_raw": 0.8884789024320063,
+      "v1_score": 99.8492840994725,
+      "weakest_seasons": [
+        1992,
+        1995,
+        1994
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 3.843255463451385,
+          "coverage": 1.0,
+          "score": 97.32479276563677
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 5.124340617935189,
+          "coverage": 0.8285714285714285,
+          "score": 98.60587792012058
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 4.9359457422758055,
+          "coverage": 0.8714285714285714,
+          "score": 98.41748304446119
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 4.446119065561405,
+          "coverage": 0.8928571428571429,
+          "score": 97.92765636774679
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 93.48153730218539
+        }
+      },
+      "career_action_context": 0.9027862586536072,
+      "career_team_suppression": 0.5973642575151852,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+      "player_name": "Kevin Garnett",
+      "role": "FORWARD",
+      "strongest_seasons": [
+        2010,
+        2007,
+        2011
+      ],
+      "v1_raw": 0.7042619579136328,
+      "v1_score": 93.48153730218539,
+      "weakest_seasons": [
+        1995,
+        1997,
+        2015
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 1.5071590052750565,
+          "coverage": 1.0,
+          "score": 96.72192916352675
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 3.2780708364732476,
+          "coverage": 0.825,
+          "score": 98.49284099472494
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 3.014318010550113,
+          "coverage": 0.86875,
+          "score": 98.22908816880181
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 2.675207234363228,
+          "coverage": 0.890625,
+          "score": 97.88997739261492
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 95.2147701582517
+        }
+      },
+      "career_action_context": 0.8696961134033437,
+      "career_team_suppression": 0.652392925561029,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_4f49f92700925d318a60491a09a749ff",
+      "player_name": "Ben Wallace",
+      "role": "BIG",
+      "strongest_seasons": [
+        2002,
+        2003,
+        2004
+      ],
+      "v1_raw": 0.7284490413058391,
+      "v1_score": 95.2147701582517,
+      "weakest_seasons": [
+        1998,
+        2000,
+        1996
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 8.816880180859087,
+          "coverage": 1.0,
+          "score": 94.0844009042954
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 5.162019593067072,
+          "coverage": 0.8857142857142858,
+          "score": 90.42954031650339
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 6.367746797287111,
+          "coverage": 0.9142857142857144,
+          "score": 91.63526752072343
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 5.61416729464959,
+          "coverage": 0.9285714285714286,
+          "score": 90.88168801808591
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 85.26752072343632
+        }
+      },
+      "career_action_context": 0.8672494339186965,
+      "career_team_suppression": 0.5073891625615764,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_54bcb31d5b925a30ac6feb0702c50c7c",
+      "player_name": "Draymond Green",
+      "role": "FORWARD",
+      "strongest_seasons": [
+        2021,
+        2024,
+        2016
+      ],
+      "v1_raw": 0.6333402575365684,
+      "v1_score": 85.26752072343632,
+      "weakest_seasons": [
+        2022,
+        2019,
+        2012
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 0.4144687264506359,
+          "coverage": 1.0,
+          "score": 99.17106254709871
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": -0.5275056518462691,
+          "coverage": 0.788235294117647,
+          "score": 98.22908816880181
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 0.03767897513188245,
+          "coverage": 0.8411764705882352,
+          "score": 98.79427279577996
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 0.26375282592313454,
+          "coverage": 0.8676470588235294,
+          "score": 99.02034664657121
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 98.75659382064808
+        }
+      },
+      "career_action_context": 0.8273985928638089,
+      "career_team_suppression": 0.8037060978237448,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_566614d341da53ab975d71ad410a3385",
+      "player_name": "Scottie Pippen",
+      "role": "WING",
+      "strongest_seasons": [
+        1992,
+        1993,
+        1991
+      ],
+      "v1_raw": 0.8119984710877673,
+      "v1_score": 98.75659382064808,
+      "weakest_seasons": [
+        2002,
+        1998,
+        2003
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": -0.0753579502637507,
+          "coverage": 1.0,
+          "score": 98.90730972117558
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 0.3767897513187677,
+          "coverage": 0.8461538461538461,
+          "score": 99.3594574227581
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 0.33911077618689944,
+          "coverage": 0.8846153846153846,
+          "score": 99.32177844762623
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 0.301431801055017,
+          "coverage": 0.9038461538461539,
+          "score": 99.28409947249435
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 98.98266767143933
+        }
+      },
+      "career_action_context": 0.8599285086431153,
+      "career_team_suppression": 0.8076923076923077,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+      "player_name": "Rudy Gobert",
+      "role": "BIG",
+      "strongest_seasons": [
+        2014,
+        2023,
+        2016
+      ],
+      "v1_raw": 0.8259749780250905,
+      "v1_score": 98.98266767143933,
+      "weakest_seasons": [
+        2025,
+        2022,
+        2013
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": -1.657874905802558,
+          "coverage": 0.85,
+          "score": 93.63225320271289
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": -7.272042200452148,
+          "coverage": 0.8090909090909091,
+          "score": 88.0180859080633
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": -4.672192916352671,
+          "coverage": 0.8227272727272726,
+          "score": 90.61793519216278
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": -3.2780708364732476,
+          "coverage": 0.8363636363636363,
+          "score": 92.0120572720422
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 0.9045454545454544,
+          "score": 95.29012810851545
+        }
+      },
+      "career_action_context": 0.57643754189175,
+      "career_team_suppression": 0.7707254866345775,
+      "confidence": "MODERATE",
+      "driver": "TEAM_SUPPRESSION",
+      "player_id": "player_89da3dc71ba153879fc1d08570794248",
+      "player_name": "Sidney Moncrief",
+      "role": null,
+      "strongest_seasons": [
+        1984,
+        1983,
+        1981
+      ],
+      "v1_raw": 0.7297259158188052,
+      "v1_score": 95.29012810851545,
+      "weakest_seasons": [
+        1988,
+        1987,
+        1990
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 0.8289374529012861,
+          "coverage": 0.9633333333333333,
+          "score": 99.13338357196685
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 1.243406179351922,
+          "coverage": 0.66,
+          "score": 99.54785229841748
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 1.2057272042200537,
+          "coverage": 0.7366666666666666,
+          "score": 99.51017332328561
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 1.1680482290881713,
+          "coverage": 0.7766666666666667,
+          "score": 99.47249434815373
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 0.9766666666666667,
+          "score": 98.30444611906556
+        }
+      },
+      "career_action_context": 0.8433232116691787,
+      "career_team_suppression": 0.7835275835275834,
+      "confidence": "MODERATE",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "player_name": "Michael Jordan",
+      "role": "GUARD",
+      "strongest_seasons": [
+        1987,
+        1992,
+        1986
+      ],
+      "v1_raw": 0.7975057844988004,
+      "v1_score": 98.30444611906556,
+      "weakest_seasons": [
+        1989,
+        1984,
+        1985
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 2.712886209495096,
+          "coverage": 1.0,
+          "score": 97.85229841748304
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 1.5825169555388072,
+          "coverage": 0.8434782608695651,
+          "score": 96.72192916352675
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 2.0346646571213256,
+          "coverage": 0.8826086956521739,
+          "score": 97.17407686510927
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 1.8085908063300593,
+          "coverage": 0.9021739130434783,
+          "score": 96.948003014318
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 95.13941220798795
+        }
+      },
+      "career_action_context": 0.8845783494083695,
+      "career_team_suppression": 0.6423216962947098,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "player_name": "LeBron James",
+      "role": null,
+      "strongest_seasons": [
+        2008,
+        2020,
+        2011
+      ],
+      "v1_raw": 0.7271115248844907,
+      "v1_score": 95.13941220798795,
+      "weakest_seasons": [
+        2023,
+        2017,
+        2021
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 99.81160512434062
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": -0.03767897513186824,
+          "coverage": 0.8105263157894737,
+          "score": 99.77392614920875
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 0.0,
+          "coverage": 0.8578947368421053,
+          "score": 99.81160512434062
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 0.0,
+          "coverage": 0.881578947368421,
+          "score": 99.81160512434062
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 99.81160512434062
+        }
+      },
+      "career_action_context": 0.8836387732731317,
+      "career_team_suppression": 0.8823891625615763,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "player_name": "Tim Duncan",
+      "role": "BIG",
+      "strongest_seasons": [
+        1999,
+        2006,
+        2004
+      ],
+      "v1_raw": 0.8828265263106205,
+      "v1_score": 99.81160512434062,
+      "weakest_seasons": [
+        2012,
+        2010,
+        2011
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 0.0753579502637507,
+          "coverage": 0.45,
+          "score": 98.11605124340618
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 1.2810851544838044,
+          "coverage": 0.36666666666666664,
+          "score": 99.32177844762623
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 1.2057272042200537,
+          "coverage": 0.39999999999999997,
+          "score": 99.24642049736248
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 1.1303692539562888,
+          "coverage": 0.4416666666666667,
+          "score": 99.17106254709871
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 0.65,
+          "score": 98.04069329314243
+        }
+      },
+      "career_action_context": null,
+      "career_team_suppression": 0.7866092241092241,
+      "confidence": "LIMITED",
+      "driver": "TEAM_SUPPRESSION",
+      "player_id": "player_c0f05230945752728b22330b9dc82c5b",
+      "player_name": "Bill Russell",
+      "role": "BIG",
+      "strongest_seasons": [
+        1961,
+        1964,
+        1965
+      ],
+      "v1_raw": 0.7866092241092241,
+      "v1_score": 98.04069329314243,
+      "weakest_seasons": [
+        1956,
+        1959,
+        1958
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": -1.01733232856067,
+          "coverage": 1.0,
+          "score": 97.40015071590052
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 0.22607385079125208,
+          "coverage": 0.7846153846153846,
+          "score": 98.64355689525244
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 0.22607385079125208,
+          "coverage": 0.8384615384615385,
+          "score": 98.64355689525244
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 0.22607385079125208,
+          "coverage": 0.8653846153846154,
+          "score": 98.64355689525244
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 98.41748304446119
+        }
+      },
+      "career_action_context": 0.7766261874087692,
+      "career_team_suppression": 0.8144195548041702,
+      "confidence": "STRONG",
+      "driver": "TEAM_SUPPRESSION",
+      "player_id": "player_ca7fe50b2a365222a60ea5124d7fd093",
+      "player_name": "Dennis Rodman",
+      "role": "FORWARD",
+      "strongest_seasons": [
+        1991,
+        1990,
+        1989
+      ],
+      "v1_raw": 0.8011918762157799,
+      "v1_score": 98.41748304446119,
+      "weakest_seasons": [
+        1994,
+        1986,
+        1998
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 20.49736247174077,
+          "coverage": 1.0,
+          "score": 82.02712886209495
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 3.428786737000749,
+          "coverage": 0.8105263157894737,
+          "score": 64.95855312735493
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 8.402411454408437,
+          "coverage": 0.8578947368421053,
+          "score": 69.93217784476262
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 7.460437076111532,
+          "coverage": 0.881578947368421,
+          "score": 68.99020346646572
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 61.52976639035418
+        }
+      },
+      "career_action_context": 0.7556869249916973,
+      "career_team_suppression": 0.40287140264454235,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_dd5f0bde53db5cef8a1d3b738e9d67b9",
+      "player_name": "Kobe Bryant",
+      "role": "WING",
+      "strongest_seasons": [
+        1999,
+        2009,
+        2010
+      ],
+      "v1_raw": 0.5263568354660466,
+      "v1_score": 61.52976639035418,
+      "weakest_seasons": [
+        2004,
+        2014,
+        2015
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 0.4898266767143866,
+          "coverage": 1.0,
+          "score": 98.83195177091183
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 0.6028636021100198,
+          "coverage": 0.9692307692307692,
+          "score": 98.94498869630746
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 0.7912584777694036,
+          "coverage": 0.9769230769230769,
+          "score": 99.13338357196685
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 0.7912584777694036,
+          "coverage": 0.9807692307692307,
+          "score": 99.13338357196685
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 1.0,
+          "score": 98.34212509419744
+        }
+      },
+      "career_action_context": 0.8567008121466346,
+      "career_team_suppression": 0.76657824933687,
+      "confidence": "STRONG",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_e2d1ed7c54525122abb63cfcfefdda78",
+      "player_name": "Kawhi Leonard",
+      "role": null,
+      "strongest_seasons": [
+        2015,
+        2016,
+        2014
+      ],
+      "v1_raw": 0.7981211463202876,
+      "v1_score": 98.34212509419744,
+      "weakest_seasons": [
+        2022,
+        2019,
+        2011
+      ]
+    },
+    {
+      "candidates": {
+        "A_REDUCED_TEAM": {
+          "change": 3.2780708364732476,
+          "coverage": 0.9694444444444444,
+          "score": 98.22908816880181
+        },
+        "B_TRIANGULATED_PRESENCE": {
+          "change": 4.107008289374534,
+          "coverage": 0.8055555555555556,
+          "score": 99.0580256217031
+        },
+        "C_COVERAGE_ADAPTIVE": {
+          "change": 4.107008289374534,
+          "coverage": 0.8472222222222222,
+          "score": 99.0580256217031
+        },
+        "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+          "change": 3.767897513187634,
+          "coverage": 0.8694444444444445,
+          "score": 98.7189148455162
+        },
+        "V1_BASELINE": {
+          "change": 0.0,
+          "coverage": 0.9805555555555555,
+          "score": 94.95101733232856
+        }
+      },
+      "career_action_context": 0.9556682336673823,
+      "career_team_suppression": 0.6108937358937359,
+      "confidence": "MODERATE",
+      "driver": "ACTION_CONTEXT",
+      "player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a",
+      "player_name": "Hakeem Olajuwon",
+      "role": null,
+      "strongest_seasons": [
+        1992,
+        1986,
+        1993
+      ],
+      "v1_raw": 0.7244722712275453,
+      "v1_score": 94.95101733232856,
+      "weakest_seasons": [
+        1984,
+        1999,
+        1997
+      ]
+    }
+  ],
+  "step": "STEP-0015A"
+}

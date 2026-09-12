@@ -1,0 +1,656 @@
+{
+  "audit_methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "constitutional_verdict": "REQUIRES_REVISION",
+  "counterfactual": {
+    "largest_movers": [
+      {
+        "defense_v2_counterfactual_rank": 1400,
+        "defense_v2_counterfactual_score": 39.93566344342846,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_0dee24c35ebd53a1be52b69df546907c",
+        "published_overall_replaced": false,
+        "rank_change": 283,
+        "v1_overall_rank": 1683,
+        "v1_overall_score": 30.26120978856787
+      },
+      {
+        "defense_v2_counterfactual_rank": 1411,
+        "defense_v2_counterfactual_score": 39.694612809006756,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_08802034ba0b5c40bbc91791413fab60",
+        "published_overall_replaced": false,
+        "rank_change": 224,
+        "v1_overall_rank": 1635,
+        "v1_overall_score": 32.26733323101128
+      },
+      {
+        "defense_v2_counterfactual_rank": 738,
+        "defense_v2_counterfactual_score": 62.66272447632223,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_654921257b825d17990b4e3ab8809223",
+        "published_overall_replaced": false,
+        "rank_change": 213,
+        "v1_overall_rank": 951,
+        "v1_overall_score": 54.57606283351892
+      },
+      {
+        "defense_v2_counterfactual_rank": 1224,
+        "defense_v2_counterfactual_score": 45.907810494869096,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_6d4a89a97b4e5bca83d4b31de15e32e1",
+        "published_overall_replaced": false,
+        "rank_change": 213,
+        "v1_overall_rank": 1437,
+        "v1_overall_score": 39.224313885976855
+      },
+      {
+        "defense_v2_counterfactual_rank": 1533,
+        "defense_v2_counterfactual_score": 36.20541689619918,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_f84390d38689533ca679f602234057f1",
+        "published_overall_replaced": false,
+        "rank_change": -201,
+        "v1_overall_rank": 1332,
+        "v1_overall_score": 42.48800920968826
+      },
+      {
+        "defense_v2_counterfactual_rank": 1534,
+        "defense_v2_counterfactual_score": 36.169265623699545,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_35f4309997b0534b84168fb361ef5ac8",
+        "published_overall_replaced": false,
+        "rank_change": -197,
+        "v1_overall_rank": 1337,
+        "v1_overall_score": 42.39910737200399
+      },
+      {
+        "defense_v2_counterfactual_rank": 920,
+        "defense_v2_counterfactual_score": 55.85152119619538,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_b8159eba3bee54d291f87dcaad432873",
+        "published_overall_replaced": false,
+        "rank_change": 196,
+        "v1_overall_rank": 1116,
+        "v1_overall_score": 49.38957696107857
+      },
+      {
+        "defense_v2_counterfactual_rank": 1238,
+        "defense_v2_counterfactual_score": 45.28373663499126,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_84f85aebc4465640ba284555dd2475fc",
+        "published_overall_replaced": false,
+        "rank_change": -186,
+        "v1_overall_rank": 1052,
+        "v1_overall_score": 51.4291774790003
+      },
+      {
+        "defense_v2_counterfactual_rank": 1210,
+        "defense_v2_counterfactual_score": 46.36151774574108,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_f70020402691560d9c2116d2b436a349",
+        "published_overall_replaced": false,
+        "rank_change": 179,
+        "v1_overall_rank": 1389,
+        "v1_overall_score": 40.69083198839368
+      },
+      {
+        "defense_v2_counterfactual_rank": 1090,
+        "defense_v2_counterfactual_score": 50.297985198979966,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_72bc2723b5e45b7ab99e1cd8c3ac6584",
+        "published_overall_replaced": false,
+        "rank_change": -177,
+        "v1_overall_rank": 913,
+        "v1_overall_score": 55.847344656402726
+      },
+      {
+        "defense_v2_counterfactual_rank": 1475,
+        "defense_v2_counterfactual_score": 37.96344648660715,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_5cb231c391af57fba13cec442268dcd4",
+        "published_overall_replaced": false,
+        "rank_change": 169,
+        "v1_overall_rank": 1644,
+        "v1_overall_score": 32.05010812941046
+      },
+      {
+        "defense_v2_counterfactual_rank": 1261,
+        "defense_v2_counterfactual_score": 44.49897907189704,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_3cf5c89c5f48547abeb77253e1a957fc",
+        "published_overall_replaced": false,
+        "rank_change": -166,
+        "v1_overall_rank": 1095,
+        "v1_overall_score": 49.832061212062825
+      },
+      {
+        "defense_v2_counterfactual_rank": 1078,
+        "defense_v2_counterfactual_score": 50.888223364921245,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_e7d5b85f68265ef7bb08b1d804e13e96",
+        "published_overall_replaced": false,
+        "rank_change": -155,
+        "v1_overall_rank": 923,
+        "v1_overall_score": 55.59357377938997
+      },
+      {
+        "defense_v2_counterfactual_rank": 1305,
+        "defense_v2_counterfactual_score": 43.222148441219005,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_409066c1c488561592d796eff7f1ff97",
+        "published_overall_replaced": false,
+        "rank_change": 154,
+        "v1_overall_rank": 1459,
+        "v1_overall_score": 38.474597574602576
+      },
+      {
+        "defense_v2_counterfactual_rank": 796,
+        "defense_v2_counterfactual_score": 60.969366234803644,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_4e0bbe2007985974aa236c1425a6be97",
+        "published_overall_replaced": false,
+        "rank_change": -153,
+        "v1_overall_rank": 643,
+        "v1_overall_score": 65.83824340134471
+      },
+      {
+        "defense_v2_counterfactual_rank": 1086,
+        "defense_v2_counterfactual_score": 50.42074268122198,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_14c07a30fde2501594fddb3c3ade7284",
+        "published_overall_replaced": false,
+        "rank_change": 152,
+        "v1_overall_rank": 1238,
+        "v1_overall_score": 45.578240797273224
+      },
+      {
+        "defense_v2_counterfactual_rank": 1392,
+        "defense_v2_counterfactual_score": 40.326798384480334,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_8ba1c2e35c4f5dfab164e7572ee1f250",
+        "published_overall_replaced": false,
+        "rank_change": 152,
+        "v1_overall_rank": 1544,
+        "v1_overall_score": 35.716398987343936
+      },
+      {
+        "defense_v2_counterfactual_rank": 690,
+        "defense_v2_counterfactual_score": 64.18792541204652,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_d4ce4e43062f568c814c73b9e9626040",
+        "published_overall_replaced": false,
+        "rank_change": 151,
+        "v1_overall_rank": 841,
+        "v1_overall_score": 58.691316519808396
+      },
+      {
+        "defense_v2_counterfactual_rank": 1515,
+        "defense_v2_counterfactual_score": 36.74750069466082,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_01939f38d83255fd98346af72ed78799",
+        "published_overall_replaced": false,
+        "rank_change": -150,
+        "v1_overall_rank": 1365,
+        "v1_overall_score": 41.59527763512804
+      },
+      {
+        "defense_v2_counterfactual_rank": 921,
+        "defense_v2_counterfactual_score": 55.84304592907407,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_4af5e56784f150f8be09e0d74defc5f5",
+        "published_overall_replaced": false,
+        "rank_change": 150,
+        "v1_overall_rank": 1071,
+        "v1_overall_score": 50.97944381905147
+      },
+      {
+        "defense_v2_counterfactual_rank": 938,
+        "defense_v2_counterfactual_score": 55.3212550458122,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_61b7efd548575a7687d695b70e9397e8",
+        "published_overall_replaced": false,
+        "rank_change": 150,
+        "v1_overall_rank": 1088,
+        "v1_overall_score": 50.109499205571055
+      },
+      {
+        "defense_v2_counterfactual_rank": 1499,
+        "defense_v2_counterfactual_score": 37.232561154740466,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_353c758b38715c1488f51a26bdeade40",
+        "published_overall_replaced": false,
+        "rank_change": -148,
+        "v1_overall_rank": 1351,
+        "v1_overall_score": 42.07506303868922
+      },
+      {
+        "defense_v2_counterfactual_rank": 628,
+        "defense_v2_counterfactual_score": 66.79269446554007,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_f13d2704f8a75a30b011701b8bb8041a",
+        "published_overall_replaced": false,
+        "rank_change": 148,
+        "v1_overall_rank": 776,
+        "v1_overall_score": 60.918919032231855
+      },
+      {
+        "defense_v2_counterfactual_rank": 1575,
+        "defense_v2_counterfactual_score": 34.356569069963854,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_49b27060192d5421ad0b4383df4e4112",
+        "published_overall_replaced": false,
+        "rank_change": -146,
+        "v1_overall_rank": 1429,
+        "v1_overall_score": 39.47337389287267
+      },
+      {
+        "defense_v2_counterfactual_rank": 1116,
+        "defense_v2_counterfactual_score": 49.56031925201782,
+        "methodology_version": "goatlab-v1-defense-v2",
+        "player_id": "player_9fe6ef9d89435f6482e05c193e4ccfb2",
+        "published_overall_replaced": false,
+        "rank_change": -145,
+        "v1_overall_rank": 971,
+        "v1_overall_score": 54.00191684056341
+      }
+    ],
+    "players": 1882,
+    "rank_shift_by_debut_decade": {
+      "1940S": {
+        "mean_rank_change": -2.246153846153846,
+        "median_rank_change": -1,
+        "players": 65
+      },
+      "1950S": {
+        "mean_rank_change": -4.333333333333333,
+        "median_rank_change": -7,
+        "players": 81
+      },
+      "1960S": {
+        "mean_rank_change": 8.134328358208956,
+        "median_rank_change": -1.0,
+        "players": 134
+      },
+      "1970S": {
+        "mean_rank_change": -4.294372294372295,
+        "median_rank_change": -3,
+        "players": 231
+      },
+      "1980S": {
+        "mean_rank_change": 4.656666666666666,
+        "median_rank_change": 4.0,
+        "players": 300
+      },
+      "1990S": {
+        "mean_rank_change": 3.5353535353535355,
+        "median_rank_change": 0,
+        "players": 297
+      },
+      "2000S": {
+        "mean_rank_change": -2.853211009174312,
+        "median_rank_change": -2,
+        "players": 327
+      },
+      "2010S": {
+        "mean_rank_change": -2.2045454545454546,
+        "median_rank_change": -3.0,
+        "players": 352
+      },
+      "2020S": {
+        "mean_rank_change": -3.568421052631579,
+        "median_rank_change": -1,
+        "players": 95
+      }
+    },
+    "rank_shift_by_role": {
+      "BIG": {
+        "mean_rank_change": -3.8273809523809526,
+        "median_rank_change": -3.5,
+        "players": 336
+      },
+      "FORWARD": {
+        "mean_rank_change": -3.3854389721627407,
+        "median_rank_change": -2,
+        "players": 467
+      },
+      "GUARD": {
+        "mean_rank_change": 3.705653021442495,
+        "median_rank_change": 2,
+        "players": 513
+      },
+      "WING": {
+        "mean_rank_change": 2.1454545454545455,
+        "median_rank_change": 4.5,
+        "players": 110
+      }
+    },
+    "rank_shift_by_step0013_archetype": {
+      "0": {
+        "mean_rank_change": -8.380882352941176,
+        "median_rank_change": -4.0,
+        "players": 680
+      },
+      "1": {
+        "mean_rank_change": 7.8452883263009845,
+        "median_rank_change": 4,
+        "players": 711
+      }
+    },
+    "spearman": 0.9957560419629791,
+    "top_100_overlap": 0.95,
+    "top_10_overlap": 0.7,
+    "top_25_overlap": 0.88,
+    "top_50_overlap": 0.94
+  },
+  "defense_v2_methodology_version": "goatlab-v1-defense-v2",
+  "defensive_rebound_player_seasons": 16301,
+  "deterministic_rebuild_verified": true,
+  "frozen_overall_mutated": false,
+  "frozen_v1_mutated": false,
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "modern_validation": {
+    "A_REDUCED_TEAM": {
+      "mean_score_gap_by_role": {
+        "BIG": 4.359444833124405,
+        "FORWARD": 5.717363446048674,
+        "GUARD": 13.012024776350174,
+        "WING": 6.441211415216363
+      },
+      "median_absolute_score_gap": 27.013577020681172,
+      "modern_overlap": 2337,
+      "pearson": 0.15070730293608417,
+      "spearman": 0.13993580032480257,
+      "spearman_to_v1": 0.9468081152433172,
+      "top_100_overlap_with_v1": 0.94,
+      "top_25_overlap_with_v1": 1.0,
+      "top_50_overlap_with_v1": 0.9
+    },
+    "B_TRIANGULATED_PRESENCE": {
+      "mean_score_gap_by_role": {
+        "BIG": 3.097048450306018,
+        "FORWARD": 4.59513219968026,
+        "GUARD": 9.988094782348051,
+        "WING": 4.743785287070402
+      },
+      "median_absolute_score_gap": 23.661991716021028,
+      "modern_overlap": 2337,
+      "pearson": 0.2573332730275395,
+      "spearman": 0.2501211789874766,
+      "spearman_to_v1": 0.7875988910370676,
+      "top_100_overlap_with_v1": 0.52,
+      "top_25_overlap_with_v1": 0.4,
+      "top_50_overlap_with_v1": 0.52
+    },
+    "C_COVERAGE_ADAPTIVE": {
+      "mean_score_gap_by_role": {
+        "BIG": 3.5614543784647723,
+        "FORWARD": 4.992104209816963,
+        "GUARD": 10.84625266494344,
+        "WING": 5.131106428953976
+      },
+      "median_absolute_score_gap": 24.234550271306606,
+      "modern_overlap": 2337,
+      "pearson": 0.2440996720573273,
+      "spearman": 0.23612201654587858,
+      "spearman_to_v1": 0.8656005127478802,
+      "top_100_overlap_with_v1": 0.57,
+      "top_25_overlap_with_v1": 0.44,
+      "top_50_overlap_with_v1": 0.56
+    },
+    "D_UNIVERSAL_CORE_NO_MODERN_CORRECTION": {
+      "mean_score_gap_by_role": {
+        "BIG": 3.8516327256137295,
+        "FORWARD": 4.877358302827879,
+        "GUARD": 10.551292932746115,
+        "WING": 5.045685149928294
+      },
+      "median_absolute_score_gap": 24.26858724526225,
+      "modern_overlap": 2337,
+      "pearson": 0.25702076250449263,
+      "spearman": 0.24859967344400902,
+      "spearman_to_v1": 0.9118508787836546,
+      "top_100_overlap_with_v1": 0.64,
+      "top_25_overlap_with_v1": 0.48,
+      "top_50_overlap_with_v1": 0.58
+    },
+    "V1_BASELINE": {
+      "mean_score_gap_by_role": {
+        "BIG": 1.1103114495524384,
+        "FORWARD": 2.1377794284445364,
+        "GUARD": 11.76701659975625,
+        "WING": 5.205528255611968
+      },
+      "median_absolute_score_gap": 22.494977635415005,
+      "modern_overlap": 2337,
+      "pearson": 0.2898302852039552,
+      "spearman": 0.28125667663848014,
+      "spearman_to_v1": 1.0,
+      "top_100_overlap_with_v1": 1.0,
+      "top_25_overlap_with_v1": 1.0,
+      "top_50_overlap_with_v1": 1.0
+    }
+  },
+  "network_requests": 0,
+  "output_fingerprint": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+  "output_partitions": [
+    {
+      "path": "data/gold/defense_forensic_audit/v1-season-decomposition.parquet",
+      "rows": 22457,
+      "sha256": "67b18ac2318dcc3e6ff52daff42157084a0e037e81d9b95eb78489c61087bca3",
+      "size_bytes": 780292
+    },
+    {
+      "path": "data/gold/defense_forensic_audit/v1-player-decomposition.parquet",
+      "rows": 5103,
+      "sha256": "e9dedf1dba77c7012c29708690ece4f085091fb93f93debca33b07a80350dd80",
+      "size_bytes": 283538
+    },
+    {
+      "path": "data/gold/defense_forensic_audit/defensive-presence-estimates.parquet",
+      "rows": 28817,
+      "sha256": "0a514d775989dbbd378618e8cffcc59b2264f5ea74a25c09ae8e8f379c94b79d",
+      "size_bytes": 1071649
+    },
+    {
+      "path": "data/gold/defense_forensic_audit/candidate-defense-scores.parquet",
+      "rows": 25515,
+      "sha256": "e775dc148cd7c77584823212d4cb82ad6e07376409e6478615d924ace41ff4a3",
+      "size_bytes": 562045
+    },
+    {
+      "path": "data/gold/defense_forensic_audit/defense-v2-candidate-scores.parquet",
+      "rows": 5103,
+      "sha256": "35015e2f918aa0898cc05721245575ebf28cba491f28093e95302bb940b63249",
+      "size_bytes": 195569
+    },
+    {
+      "path": "data/gold/defense_forensic_audit/defense-v2-overall-counterfactual.parquet",
+      "rows": 1882,
+      "sha256": "f52ef0087b6fa6b168859cb4520aac6481117f975fe3286832aad79cd2b70193",
+      "size_bytes": 75992
+    }
+  ],
+  "player_decomposition_rows": 5103,
+  "position_metadata_players": 3612,
+  "presence": {
+    "eligible_player_seasons": 17089,
+    "eligible_share_of_v1_qualified_player_seasons": 0.7163467960992118,
+    "status_counts": {
+      "INSUFFICIENT_SAMPLE": 9867,
+      "LIMITED": 4344,
+      "MODERATE": 12249,
+      "STRONG": 2357
+    },
+    "teammate_adjustment": "NOT_IDENTIFIABLE_AS_LINEUP_RAPM_FROM_GAME_PRESENCE",
+    "venue_adjustment": "UNAVAILABLE_IN_CANONICAL_PLAYER_GAME_CONTRACT"
+  },
+  "presence_rows": 28817,
+  "reference_players": 2656,
+  "result": "PASS",
+  "run_at": "2026-09-12T12:00:00Z",
+  "runtime_seconds": 12.919259874848649,
+  "season_decomposition_rows": 22457,
+  "selected_candidate": "B_TRIANGULATED_PRESENCE",
+  "step": "STEP-0015A",
+  "team_attribution": {
+    "career_raw_correlation_with_action_context": 0.44499551698646583,
+    "career_raw_correlation_with_team_suppression": 0.8660786610601292,
+    "final_v1_season_composite_between_team_eta_squared": 0.899200798093514,
+    "interpretation": "The 65% suppression input is exactly a team-season constant before trade weighting.",
+    "largest_action_gap_collisions": [
+      {
+        "left_player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+        "mean_action_gap": 0.9017081693799166,
+        "right_player_id": "player_c4096747a60f5bc198941d6b37a081fb",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_3dff01514e5857cbb4f7671397aceb78",
+        "mean_action_gap": 0.8770446240556667,
+        "right_player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_5767b9abe3785ed3be90266e2e3c6189",
+        "mean_action_gap": 0.8707771181844375,
+        "right_player_id": "player_f3e10f449b235fc1a5781d71350bc10f",
+        "shared_team_seasons": 4,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_8919f5ad989d58eb9f2033b4f14a8848",
+        "mean_action_gap": 0.8651459212378333,
+        "right_player_id": "player_e8787b8e9b1d5f8aa13915697842ce2d",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_8f44d26a7dae5b78a5c34fee1c19786f",
+        "mean_action_gap": 0.8555795201536668,
+        "right_player_id": "player_9dcc8e17dc86572f9ff00134340274f5",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_5860e2ac829f5533a2aee53b358d93f0",
+        "mean_action_gap": 0.8360427446155,
+        "right_player_id": "player_f88af2c6bb0a5f4ca64b99c49d6f1f4a",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+        "mean_action_gap": 0.8332342375820833,
+        "right_player_id": "player_9b6088ba75045c0782adf7a35dc908c2",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_4d08922285b55514a689685cb9615544",
+        "mean_action_gap": 0.8327496459310625,
+        "right_player_id": "player_b1a719d617f25df3a9ca5035ddd82138",
+        "shared_team_seasons": 4,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+        "mean_action_gap": 0.8230950077088334,
+        "right_player_id": "player_d0df03474d3759b5bc656aff597446b3",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_b1a719d617f25df3a9ca5035ddd82138",
+        "mean_action_gap": 0.8214470365928125,
+        "right_player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+        "shared_team_seasons": 4,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_50a8b99f82535dee99ac478bc68d6b54",
+        "mean_action_gap": 0.8204914579590833,
+        "right_player_id": "player_6d7b71bed1de50dcbdfbe4f01562b2e7",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_e6a16b824c225a70920e7791b64d1904",
+        "mean_action_gap": 0.8202692037841667,
+        "right_player_id": "player_e8787b8e9b1d5f8aa13915697842ce2d",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_6b377524e85d59a7a39217c5ae2bfc75",
+        "mean_action_gap": 0.81719251146695,
+        "right_player_id": "player_91423965e76858b8b4402c32d2a609ed",
+        "shared_team_seasons": 5,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_850b0046892e5ac4b512a001328f409b",
+        "mean_action_gap": 0.8090497144670833,
+        "right_player_id": "player_eedfbf7cd8fe5458863aadbc48b05ff6",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_237eccf6b06a5df79c1818628c127e53",
+        "mean_action_gap": 0.8078502278898334,
+        "right_player_id": "player_e1d51145d8b65f309f2a4391bbb2f38e",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_4a1dd5d451425c969f379e3df2c901b7",
+        "mean_action_gap": 0.8068202777710832,
+        "right_player_id": "player_d01be951b9595ebc825aa6d30818a449",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_4382092c5131500381404fbfd7dc71d4",
+        "mean_action_gap": 0.8011396011398334,
+        "right_player_id": "player_da5ae18f0e56523593caefb069a8f6bc",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_67ba99d33ec15f17a3ec05ae74cfda68",
+        "mean_action_gap": 0.7947693073458334,
+        "right_player_id": "player_9376530eceb15d8e9234830b09e885f8",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_57798cb045df54509f9325d111b8e36a",
+        "mean_action_gap": 0.7943876982240834,
+        "right_player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      },
+      {
+        "left_player_id": "player_7d3a56cb428d52fca60a9562645f2ffa",
+        "mean_action_gap": 0.7938306199176667,
+        "right_player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+        "shared_team_seasons": 3,
+        "team_suppression_gap_during_shared_seasons": 0.0
+      }
+    ],
+    "overlap_pairs_at_least_three_team_seasons": 9171,
+    "pairs_with_action_gap_at_least_0_25": 4257,
+    "team_season_suppression_intraclass_correlation": 1.0,
+    "team_season_suppression_within_team_variance": 0.0
+  },
+  "v1_reconstruction": {
+    "exact_within_1e_12": true,
+    "maximum_absolute_difference": 0.0,
+    "mismatches": 0,
+    "players_compared": 5103
+  }
+}

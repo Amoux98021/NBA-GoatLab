@@ -1,0 +1,37 @@
+{
+  "action_weights": {
+    "blocks": 0.3,
+    "defensive_rebounds_or_labeled_total_rebound_proxy": 0.4,
+    "steals": 0.3
+  },
+  "awards_in_score": false,
+  "career_aggregation": "unweighted mean of qualified Regular Season values",
+  "defensive_rebound_player_seasons": 16301,
+  "input_fingerprints": {
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa"
+  },
+  "methodology_version": "goatlab-v1-defense-forensic-audit-v1",
+  "missingness": "available weights explicitly renormalized; team context required",
+  "modern_features_in_universal_score": false,
+  "postseason_in_score": false,
+  "presence_eligible_player_seasons": 17089,
+  "presence_minimums": {
+    "games_with": 10,
+    "games_without": 5
+  },
+  "presence_shrinkage": "raw_difference * n_eff/(n_eff+20)",
+  "role_blend": {
+    "broad_role_percentile": 0.35,
+    "global_era_percentile": 0.65
+  },
+  "score_scale": "frozen BROAD_HIGH_RECALL midrank ECDF 0-100",
+  "season_component_weights": {
+    "defensive_presence_impact": 0.4,
+    "role_aware_actions": 0.3,
+    "team_suppression_context": 0.3
+  },
+  "status": "COUNTERFACTUAL_NOT_PROMOTED",
+  "step": "STEP-0015A",
+  "version": "goatlab-v1-defense-v2"
+}

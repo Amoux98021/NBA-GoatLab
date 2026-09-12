@@ -163,3 +163,14 @@ This living summary may be extended, but methodology changes must also receive a
 - Official ranks use descending score with canonical player ID as the deterministic ordinal tie breaker. Rank sensitivity metadata never changes score or rank.
 - Era Dominance, confidence, modern diagnostics, active-career projections, manual bonuses, and player-specific weights are excluded. Active careers are accomplishments through 2025-26 only.
 - The internal Top 100 is a reproducible consequence of the declared definition, not an assertion that the GOAT debate has an objective answer.
+
+## Defense V1 forensic audit and V2 counterfactual
+
+- `goatlab-v1-defense-forensic-audit-v1` reproduces all frozen V1 Defense scores exactly and never mutates `goatlab-v1-dimension-scores-v1` or `goatlab-v1-overall-v1`.
+- V1 season evidence is 65% team scoring-suppression percentile and 35% coverage-qualified total-rebound/steal/block context. The implemented rebound input is total rebounds, not defensive rebounds.
+- Team suppression is a team-season constant (within-team variance 0, ICC 1.0). The final V1 season composite has 89.9% between-team-season variance. This is a material individual-attribution problem under the Constitution.
+- Defensive Presence Impact compares opponent-strength-adjusted scoring residuals in games with versus without the player by team-season. It requires 10 games with and five without, uses effective sample `n_with*n_without/(n_with+n_without)`, and shrinks by `n_eff/(n_eff+20)`.
+- Insufficient presence evidence is NULL. It does not become zero, and games missed do not enter quality as an additive reward. The estimate is WOWY-style game presence, not lineup RAPM.
+- Experimental `goatlab-v1-defense-v2` uses 30% team context, 30% role-aware actions, and 40% stabilized presence. DREB replaces total rebounds when observed; the fallback is explicitly labeled. Role evidence blends 65% global and 35% broad-role rank and does not impose equal final ceilings.
+- Modern defensive rating and DPOY/All-Defense remain validation only. The modern relationship is weak for all candidates; award enrichment improves for V2 but is not an optimization target.
+- Defense V2 and its frozen-weight Overall result are counterfactual. Promotion requires a later explicit versioned decision.
