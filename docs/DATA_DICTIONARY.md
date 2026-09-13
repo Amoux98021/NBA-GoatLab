@@ -261,3 +261,21 @@ Generated STEP-0014 outputs remain ignored under `data/gold/`.
 Dimension vocabulary is `PEAK`, `LONGEVITY`, `OFFENSE`, `DEFENSE`, `PLAYOFFS`, `ACCOLADES`, and `WINNING`. Coverage is `AVAILABLE`, `PARTIAL_EVIDENCE`, `INSUFFICIENT_SAMPLE`, `SOURCE_UNAVAILABLE`, or `NOT_QUERIED`. Evidence confidence is `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and cannot alter score quality.
 
 Every one of 5,103 canonical players has exactly seven score rows; legitimate unavailability is a NULL `score` with a non-available coverage state. All rows record `goatlab-v1-dimension-scores-v1`, GOATLAB-HIST-V1, the corpus fingerprint, the normalization fingerprint, and active/completed career context. There is no Overall column or additive Era Dominance row.
+
+## Gold player-season value measurement-audit outputs
+
+Generated STEP-0015D data remains ignored under `data/gold/player_season_value_audit/`. It is
+research evidence and does not replace V1.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `player-season-value-research` | player × qualified Regular Season | Research-only offense, defensive evidence, empirical regime, raw/within-season percentile value, realized weights, confidence, and reason codes. |
+| `peak-counterfactual` | master player | V1 Peak plus fixed-70/30 PlayerSeasonValue research counterfactual. |
+| `longevity-counterfactual` | master player | V1 Longevity plus fixed-35/40/25 candidate-input diagnostic. |
+| `overall-counterfactual` | master player | Frozen-weight Peak-only Overall sensitivity; not published Overall. |
+| `diagnostic-players` | predetermined player | Best candidate seasons, component evidence, regime/confidence, and V1/research Peak/Longevity. |
+
+Evidence regime is `EARLY_LIMITED`, `TRADITIONAL_BOX`, `EXPANDED_BOX_NO_PRESENCE`, or
+`FULL_PORTABLE`, based on row-level observed channels rather than season date. Confidence is
+`STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and never changes value. `promoted=false` is
+mandatory for every research row. NULL means the proposed construct is unavailable, never zero.

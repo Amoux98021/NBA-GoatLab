@@ -1,0 +1,45 @@
+{
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "peak_forensic": "a9db1e7f75b3f3b8af9474bf556917b98f8aceeeb890fdc9ba36bdf7c3de7287"
+  },
+  "methodology_version": "goatlab-v1-player-season-value-audit-v1",
+  "regimes": {
+    "EARLY_LIMITED": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1946,
+      "last_observed_season": 1990,
+      "player_seasons": 5881,
+      "players": 1589,
+      "share": 0.261878256223004
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1983,
+      "last_observed_season": 2025,
+      "player_seasons": 2153,
+      "players": 887,
+      "share": 0.0958721111457452
+    },
+    "FULL_PORTABLE": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1982,
+      "last_observed_season": 2025,
+      "player_seasons": 14368,
+      "players": 2940,
+      "share": 0.6398005076368171
+    },
+    "TRADITIONAL_BOX": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1982,
+      "last_observed_season": 1983,
+      "player_seasons": 55,
+      "players": 53,
+      "share": 0.002449124994433807
+    }
+  },
+  "step": "STEP-0015D"
+}

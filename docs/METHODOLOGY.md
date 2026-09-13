@@ -195,3 +195,25 @@ This living summary may be extended, but methodology changes must also receive a
 - Team suppression is a shared team-season constant with 34.34% mean realized season-quality weight, 30.17% covariance-allocated variance share, and the largest component leave-one-out error. Frozen Peak V1 is therefore classified `REQUIRES_REVISION`.
 - `goatlab-v1-peak-v2-research` is a non-promoted counterfactual: require both season Offense and role-aware individual action evidence, combine stronger/secondary at 65/35, and retain the 70/30 Peak window. It cannot replace V1 because historical defensive-action/role coverage is insufficient and actions do not represent total defensive impact.
 - ADR-0031 preserves V1 as the reproducible baseline and requires a later evidence-regime-calibrated season-value promotion audit.
+
+## Player-season value measurement audit
+
+- `goatlab-v1-player-season-value-audit-v1` defines the target as overall Regular Season
+  individual basketball value for one player-season. It is infrastructure for Peak/Longevity, not
+  an eighth dimension.
+- Empirical evidence regimes are determined row by row from observed TS, creation, rebound,
+  steal/block, role-aware action, and Presence channels. No date-based availability is invented.
+- The retained research candidate builds scoring from PPG/TS, uses a 60/40 stronger/secondary
+  scoring-creation offense, and a defensive measurement with 10% team context, up to 35%
+  continuously reliability-weighted observed Presence, and remaining weight on individual action
+  evidence. Offense and defense combine at bounded 55/45 stronger/secondary weights.
+- Total team-context weight is at most 5.5%. Confidence is derived separately from regime,
+  Presence reliability, role metadata, and games; it never multiplies quality.
+- Missing Presence is not zero or an inferred observation. Unused Presence weight remains on
+  weaker individual action evidence for research masking, and the resulting construct error is
+  measured explicitly.
+- The selected candidate is `goatlab-v1-player-season-value-v2-research`, not production. It covers
+  73.81% of rows, cannot score the early mask, and has 5.73/8.48-point MAE under no-Presence and
+  traditional-box masks. The expected-Presence bridge remains invalid at OOF R-squared 0.0174.
+- Peak 70/30 and Longevity 35/40/25 architectures are held fixed in diagnostic counterfactuals.
+  Published V1 dimensions, Defense, and Overall are unchanged.

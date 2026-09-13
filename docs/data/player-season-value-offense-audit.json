@@ -1,0 +1,67 @@
+{
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "peak_forensic": "a9db1e7f75b3f3b8af9474bf556917b98f8aceeeb890fdc9ba36bdf7c3de7287"
+  },
+  "methodology_version": "goatlab-v1-player-season-value-audit-v1",
+  "offense_candidates": {
+    "O1_STRONGER_65_35": {
+      "coverage_pct": 1.0,
+      "distribution": {
+        "count": 22457,
+        "mean": 52.13338842326903,
+        "median": 53.3163265306,
+        "p10": 16.02256699028455,
+        "p25": 31.75000000001375,
+        "p75": 73.25874635565901,
+        "p90": 85.8750399365745,
+        "p95": 90.6317067471269,
+        "p99": 96.85111430577419,
+        "std": 25.45649012864808
+      },
+      "observations": 22457
+    },
+    "O2_DIRECT_70_30": {
+      "coverage_pct": 0.7389232755933562,
+      "distribution": {
+        "count": 16594,
+        "mean": 50.010572389641425,
+        "median": 50.73743800119674,
+        "p10": 16.960504542504104,
+        "p25": 31.30561414771687,
+        "p75": 69.21265822785686,
+        "p90": 81.4723024726012,
+        "p95": 86.92865489128485,
+        "p99": 93.35221561666704,
+        "std": 23.649749016664536
+      },
+      "observations": 16594
+    },
+    "O3_MULTIPATH_60_40": {
+      "coverage_pct": 0.7389232755933562,
+      "distribution": {
+        "count": 16594,
+        "mean": 51.94216295577018,
+        "median": 53.03117734293801,
+        "p10": 18.1135461956468,
+        "p25": 32.735288169884,
+        "p75": 71.830958481632,
+        "p90": 83.9535079051591,
+        "p95": 88.57768498561448,
+        "p99": 94.48874559246018,
+        "std": 24.14071004947877
+      },
+      "observations": 16594
+    },
+    "effective_influence_full_evidence": {
+      "O1_creation_mean_realized_weight": 0.49501024466674703,
+      "O1_scoring_mean_realized_weight": 0.504989755333253,
+      "O3_creation_mean_realized_weight": 0.496673496444498,
+      "O3_scoring_mean_realized_weight": 0.503326503555502
+    }
+  },
+  "step": "STEP-0015D"
+}

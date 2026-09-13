@@ -1,0 +1,22 @@
+{
+  "defensive_models": {
+    "D1": "role/current action evidence only",
+    "D2": "75% action + 25% team context",
+    "D3": "50% role action + 10% team + 40% observed Presence; complete evidence only",
+    "D4": "10% team + up to 35% continuously reliability-weighted observed Presence; unused Presence share remains on individual actions",
+    "expected_presence_bridge_from_step_0015b": {
+      "out_of_fold_r_squared": 0.0174,
+      "status": "FAILED_AS_LATENT_FALLBACK"
+    },
+    "latent_estimate_presented_as_observed": false
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "peak_forensic": "a9db1e7f75b3f3b8af9474bf556917b98f8aceeeb890fdc9ba36bdf7c3de7287"
+  },
+  "methodology_version": "goatlab-v1-player-season-value-audit-v1",
+  "step": "STEP-0015D"
+}

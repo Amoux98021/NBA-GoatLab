@@ -1,0 +1,313 @@
+{
+  "common_ranked_players": 1391,
+  "eligible_players": 1391,
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "peak_forensic": "a9db1e7f75b3f3b8af9474bf556917b98f8aceeeb890fdc9ba36bdf7c3de7287"
+  },
+  "largest_movers": [
+    {
+      "counterfactual_rank": 911,
+      "player_name": "Andris Biedrins",
+      "rank_change": 205,
+      "research_peak": 78.97727272727273,
+      "v1_comparable_rank": 1116,
+      "v1_peak": 29.20570264765784
+    },
+    {
+      "counterfactual_rank": 1012,
+      "player_name": "Paul Mokeski",
+      "rank_change": -186,
+      "research_peak": 7.1022727272727275,
+      "v1_comparable_rank": 826,
+      "v1_peak": 56.211812627291245
+    },
+    {
+      "counterfactual_rank": 879,
+      "player_name": "Darren Daye",
+      "rank_change": -181,
+      "research_peak": 17.5,
+      "v1_comparable_rank": 698,
+      "v1_peak": 64.35845213849286
+    },
+    {
+      "counterfactual_rank": 1116,
+      "player_name": "Charlie Davis",
+      "rank_change": -180,
+      "research_peak": 7.7272727272727275,
+      "v1_comparable_rank": 936,
+      "v1_peak": 49.24643584521385
+    },
+    {
+      "counterfactual_rank": 614,
+      "player_name": "Frank Johnson",
+      "rank_change": -171,
+      "research_peak": 36.81818181818182,
+      "v1_comparable_rank": 443,
+      "v1_peak": 86.15071283095723
+    },
+    {
+      "counterfactual_rank": 803,
+      "player_name": "Wilson Chandler",
+      "rank_change": 164,
+      "research_peak": 74.94318181818181,
+      "v1_comparable_rank": 967,
+      "v1_peak": 34.378818737270876
+    },
+    {
+      "counterfactual_rank": 854,
+      "player_name": "Louis Orr",
+      "rank_change": -159,
+      "research_peak": 24.772727272727273,
+      "v1_comparable_rank": 695,
+      "v1_peak": 64.76578411405295
+    },
+    {
+      "counterfactual_rank": 1079,
+      "player_name": "Clemon Johnson",
+      "rank_change": -155,
+      "research_peak": 7.386363636363637,
+      "v1_comparable_rank": 924,
+      "v1_peak": 40.610997963340125
+    },
+    {
+      "counterfactual_rank": 898,
+      "player_name": "Gorgui Dieng",
+      "rank_change": 155,
+      "research_peak": 80.9090909090909,
+      "v1_comparable_rank": 1053,
+      "v1_peak": 42.15885947046843
+    },
+    {
+      "counterfactual_rank": 255,
+      "player_name": "Maurice Lucas",
+      "rank_change": -151,
+      "research_peak": 33.57954545454545,
+      "v1_comparable_rank": 104,
+      "v1_peak": 94.37881873727088
+    },
+    {
+      "counterfactual_rank": 554,
+      "player_name": "Tree Rollins",
+      "rank_change": -148,
+      "research_peak": 29.545454545454547,
+      "v1_comparable_rank": 406,
+      "v1_peak": 78.4928716904277
+    },
+    {
+      "counterfactual_rank": 966,
+      "player_name": "Danny Vranes",
+      "rank_change": -142,
+      "research_peak": 13.181818181818182,
+      "v1_comparable_rank": 824,
+      "v1_peak": 51.64969450101833
+    },
+    {
+      "counterfactual_rank": 778,
+      "player_name": "Rod Higgins",
+      "rank_change": 137,
+      "research_peak": 65.0,
+      "v1_comparable_rank": 915,
+      "v1_peak": 33.116089613034625
+    },
+    {
+      "counterfactual_rank": 1123,
+      "player_name": "Luka Garza",
+      "rank_change": -132,
+      "research_peak": 11.931818181818182,
+      "v1_comparable_rank": 991,
+      "v1_peak": 43.82892057026476
+    },
+    {
+      "counterfactual_rank": 1044,
+      "player_name": "Blair Rasmussen",
+      "rank_change": 129,
+      "research_peak": 41.76136363636363,
+      "v1_comparable_rank": 1173,
+      "v1_peak": 9.0020366598778
+    },
+    {
+      "counterfactual_rank": 518,
+      "player_name": "Caldwell Jones",
+      "rank_change": -127,
+      "research_peak": 26.306818181818183,
+      "v1_comparable_rank": 391,
+      "v1_peak": 69.979633401222
+    },
+    {
+      "counterfactual_rank": 808,
+      "player_name": "Jayson Williams",
+      "rank_change": 127,
+      "research_peak": 61.53409090909091,
+      "v1_comparable_rank": 935,
+      "v1_peak": 27.4949083503055
+    },
+    {
+      "counterfactual_rank": 951,
+      "player_name": "Gheorghe Muresan",
+      "rank_change": 126,
+      "research_peak": 60.85227272727273,
+      "v1_comparable_rank": 1077,
+      "v1_peak": 33.075356415478616
+    },
+    {
+      "counterfactual_rank": 1111,
+      "player_name": "Jaren Jackson",
+      "rank_change": -126,
+      "research_peak": 29.602272727272727,
+      "v1_comparable_rank": 985,
+      "v1_peak": 59.71486761710794
+    },
+    {
+      "counterfactual_rank": 1200,
+      "player_name": "Scott Hastings",
+      "rank_change": -126,
+      "research_peak": 9.034090909090908,
+      "v1_comparable_rank": 1074,
+      "v1_peak": 43.258655804480654
+    },
+    {
+      "counterfactual_rank": 609,
+      "player_name": "Alton Lister",
+      "rank_change": -125,
+      "research_peak": 48.23863636363637,
+      "v1_comparable_rank": 484,
+      "v1_peak": 84.5213849287169
+    },
+    {
+      "counterfactual_rank": 720,
+      "player_name": "Kenneth Faried",
+      "rank_change": 124,
+      "research_peak": 66.875,
+      "v1_comparable_rank": 844,
+      "v1_peak": 36.25254582484725
+    },
+    {
+      "counterfactual_rank": 993,
+      "player_name": "Brad Sellers",
+      "rank_change": -123,
+      "research_peak": 29.71590909090909,
+      "v1_comparable_rank": 870,
+      "v1_peak": 62.973523421588595
+    },
+    {
+      "counterfactual_rank": 804,
+      "player_name": "Sam Hauser",
+      "rank_change": -123,
+      "research_peak": 28.636363636363637,
+      "v1_comparable_rank": 681,
+      "v1_peak": 63.70672097759674
+    },
+    {
+      "counterfactual_rank": 849,
+      "player_name": "Jason Maxiell",
+      "rank_change": -122,
+      "research_peak": 28.579545454545453,
+      "v1_comparable_rank": 727,
+      "v1_peak": 59.95926680244399
+    }
+  ],
+  "methodology_version": "goatlab-v1-player-season-value-audit-v1",
+  "published_overall_overwritten": false,
+  "spearman": 0.9936798893763841,
+  "step": "STEP-0015D",
+  "top_100_overlap": 0.95,
+  "top_10_overlap": 0.9,
+  "top_15": [
+    {
+      "overall": 99.15180778335873,
+      "peak": 99.88636363636364,
+      "player_name": "Michael Jordan",
+      "rank": 1
+    },
+    {
+      "overall": 99.11471770329216,
+      "peak": 99.88636363636364,
+      "player_name": "LeBron James",
+      "rank": 2
+    },
+    {
+      "overall": 98.66351627271372,
+      "peak": 99.31818181818181,
+      "player_name": "Larry Bird",
+      "rank": 3
+    },
+    {
+      "overall": 98.38332199801327,
+      "peak": 99.88636363636364,
+      "player_name": "Karl Malone",
+      "rank": 4
+    },
+    {
+      "overall": 98.26066268769803,
+      "peak": 99.48863636363636,
+      "player_name": "Tim Duncan",
+      "rank": 5
+    },
+    {
+      "overall": 97.86490403923764,
+      "peak": 97.10227272727273,
+      "player_name": "Dwyane Wade",
+      "rank": 6
+    },
+    {
+      "overall": 97.79736687803502,
+      "peak": 98.29545454545455,
+      "player_name": "Kawhi Leonard",
+      "rank": 7
+    },
+    {
+      "overall": 97.70140669360572,
+      "peak": 99.0909090909091,
+      "player_name": "Scottie Pippen",
+      "rank": 8
+    },
+    {
+      "overall": 97.67244211922983,
+      "peak": 99.6590909090909,
+      "player_name": "David Robinson",
+      "rank": 9
+    },
+    {
+      "overall": 97.2441381148194,
+      "peak": 99.88636363636364,
+      "player_name": "Kevin Garnett",
+      "rank": 10
+    },
+    {
+      "overall": 96.83570308280235,
+      "peak": 99.54545454545455,
+      "player_name": "Hakeem Olajuwon",
+      "rank": 11
+    },
+    {
+      "overall": 96.82838833921372,
+      "peak": 99.88636363636364,
+      "player_name": "Kevin Durant",
+      "rank": 12
+    },
+    {
+      "overall": 96.81078622792049,
+      "peak": 98.57954545454545,
+      "player_name": "Chris Paul",
+      "rank": 13
+    },
+    {
+      "overall": 96.51350643429267,
+      "peak": 98.125,
+      "player_name": "Magic Johnson",
+      "rank": 14
+    },
+    {
+      "overall": 96.47093619743228,
+      "peak": 99.43181818181819,
+      "player_name": "Charles Barkley",
+      "rank": 15
+    }
+  ],
+  "top_25_overlap": 0.96,
+  "top_50_overlap": 0.9
+}

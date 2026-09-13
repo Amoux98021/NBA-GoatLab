@@ -1,0 +1,109 @@
+{
+  "candidates": {
+    "A_TRANSPARENT_PORTABLE": {
+      "confidence": {
+        "LIMITED": 942,
+        "MODERATE": 16085
+      },
+      "coverage_pct": 0.7582045687313532,
+      "formula": "65% season scoring/35% creation on stronger axis; defense is 75% current actions/25% team; total is 65% offense/35% defense",
+      "maximum_team_effective_weight": 0.0875,
+      "mean_team_effective_weight": 0.0875,
+      "player_seasons": 17027,
+      "players": 3122
+    },
+    "B_MULTIPATH_BOUNDED_TEAM": {
+      "confidence": {
+        "LIMITED": 491,
+        "MODERATE": 16085
+      },
+      "coverage_pct": 0.738121743776996,
+      "formula": "60/40 stronger/secondary scoring-creation; defense is 75% role-aware actions/25% team; total is 60/40 stronger/secondary offense-defense",
+      "maximum_team_effective_weight": 0.15,
+      "mean_team_effective_weight": 0.12365166505791507,
+      "player_seasons": 16576,
+      "players": 2950
+    },
+    "C_FULL_EVIDENCE_MEASUREMENT": {
+      "confidence": {
+        "LIMITED": 436,
+        "MODERATE": 6648,
+        "STRONG": 7284
+      },
+      "coverage_pct": 0.6398005076368171,
+      "formula": "60/40 scoring-creation; defense is 50% role-aware actions/10% team/40% observed Presence; total is 55/45 stronger/secondary offense-defense",
+      "maximum_team_effective_weight": 0.05500000000000001,
+      "mean_team_effective_weight": 0.04993875278396437,
+      "player_seasons": 14368,
+      "players": 2940
+    },
+    "D_REGIME_RELIABILITY": {
+      "confidence": {
+        "LIMITED": 491,
+        "MODERATE": 8801,
+        "STRONG": 7284
+      },
+      "coverage_pct": 0.738121743776996,
+      "formula": "60/40 scoring-creation; defense is 10% team, up to 35% continuously reliable observed Presence, remainder individual actions; total is 55/45 stronger/secondary",
+      "maximum_team_effective_weight": 0.05500000000000001,
+      "mean_team_effective_weight": 0.049891409266409274,
+      "player_seasons": 16576,
+      "players": 2950
+    }
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "peak_forensic": "a9db1e7f75b3f3b8af9474bf556917b98f8aceeeb890fdc9ba36bdf7c3de7287"
+  },
+  "measurement_verdict": "PROMISING_BUT_NOT_READY",
+  "methodology_version": "goatlab-v1-player-season-value-audit-v1",
+  "pairwise_candidate_relationships": {
+    "A_TRANSPARENT_PORTABLE__B_MULTIPATH_BOUNDED_TEAM": {
+      "observations": 16576,
+      "pearson": 0.990257616889276,
+      "spearman": 0.9902578164831947
+    },
+    "A_TRANSPARENT_PORTABLE__C_FULL_EVIDENCE_MEASUREMENT": {
+      "observations": 14368,
+      "pearson": 0.9468496203674877,
+      "spearman": 0.9476402070474466
+    },
+    "A_TRANSPARENT_PORTABLE__D_REGIME_RELIABILITY": {
+      "observations": 16576,
+      "pearson": 0.9657026949348142,
+      "spearman": 0.9657022745386056
+    },
+    "B_MULTIPATH_BOUNDED_TEAM__C_FULL_EVIDENCE_MEASUREMENT": {
+      "observations": 14368,
+      "pearson": 0.9454884225991631,
+      "spearman": 0.9464283356586659
+    },
+    "B_MULTIPATH_BOUNDED_TEAM__D_REGIME_RELIABILITY": {
+      "observations": 16576,
+      "pearson": 0.9667309084235762,
+      "spearman": 0.9667313113440682
+    },
+    "C_FULL_EVIDENCE_MEASUREMENT__D_REGIME_RELIABILITY": {
+      "observations": 14368,
+      "pearson": 0.9936747273349936,
+      "spearman": 0.9949676071453905
+    }
+  },
+  "promotion_gates": {
+    "confidence_separate": true,
+    "early_regime_masking_passes": false,
+    "frozen_v1_unchanged": true,
+    "historical_coverage_sufficient": false,
+    "individual_performance_dominates_team_context": true,
+    "longevity_35_40_25_unchanged": true,
+    "missing_not_zero": true,
+    "no_award_postseason_championship_inputs": true,
+    "peak_70_30_unchanged": true,
+    "team_context_cap_at_most_10_percent": true
+  },
+  "selected_research_candidate": "D_REGIME_RELIABILITY",
+  "step": "STEP-0015D"
+}

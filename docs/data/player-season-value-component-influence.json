@@ -1,0 +1,80 @@
+{
+  "defense_axis": {
+    "mean_effective_weight": 0.49891409266409265,
+    "shapley_covariance_variance_share": 0.3652678271905489
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "peak_forensic": "a9db1e7f75b3f3b8af9474bf556917b98f8aceeeb890fdc9ba36bdf7c3de7287"
+  },
+  "methodology_version": "goatlab-v1-player-season-value-audit-v1",
+  "offense_axis": {
+    "mean_effective_weight": 0.5010859073359073,
+    "shapley_covariance_variance_share": 0.6347321728094515
+  },
+  "primitive_effective_weights": {
+    "apg": {
+      "covariance_variance_share": 0.34664108394815235,
+      "interpretation": "FORMULA_REALIZED_WEIGHT",
+      "maximum_effective_weight": 0.33,
+      "mean_effective_weight": 0.25009954150579156
+    },
+    "bpg": {
+      "covariance_variance_share": 0.1101822716352992,
+      "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+      "maximum_effective_weight": 0.14850000000000002,
+      "mean_effective_weight": 0.09153855416792515
+    },
+    "ppg": {
+      "covariance_variance_share": 0.22632971347306247,
+      "interpretation": "FORMULA_REALIZED_WEIGHT",
+      "maximum_effective_weight": 0.21450000000000002,
+      "mean_effective_weight": 0.1631411377895753
+    },
+    "presence": {
+      "covariance_variance_share": -0.0033191332976513378,
+      "interpretation": "FORMULA_REALIZED_WEIGHT",
+      "maximum_effective_weight": 0.1925,
+      "mean_effective_weight": 0.14389416950459957
+    },
+    "rpg": {
+      "covariance_variance_share": 0.14690969551373215,
+      "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+      "maximum_effective_weight": 0.19800000000000004,
+      "mean_effective_weight": 0.12205140555723355
+    },
+    "spg": {
+      "covariance_variance_share": 0.1101822716352992,
+      "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+      "maximum_effective_weight": 0.14850000000000002,
+      "mean_effective_weight": 0.09153855416792515
+    },
+    "team_context": {
+      "covariance_variance_share": 0.0013127217038700835,
+      "interpretation": "FORMULA_REALIZED_WEIGHT",
+      "maximum_effective_weight": 0.05500000000000001,
+      "mean_effective_weight": 0.049891409266409274
+    },
+    "ts_pct": {
+      "covariance_variance_share": 0.06176137538823603,
+      "interpretation": "FORMULA_REALIZED_WEIGHT",
+      "maximum_effective_weight": 0.11549999999999999,
+      "mean_effective_weight": 0.08784522804054054
+    }
+  },
+  "role_adjustment": {
+    "additive_weight": 0.0,
+    "interpretation": "ROLE_CONDITIONS_ACTION_EVIDENCE_AND_IS_NOT_AN_ADDITIVE_VALUE_CHANNEL",
+    "role_aware_rows": 12201
+  },
+  "selected_candidate": "D_REGIME_RELIABILITY",
+  "step": "STEP-0015D",
+  "team_context": {
+    "correlation_with_value": 0.07067917458012228,
+    "maximum_effective_weight": 0.05500000000000001,
+    "mean_effective_weight": 0.049891409266409274
+  }
+}

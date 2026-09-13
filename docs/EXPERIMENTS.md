@@ -171,3 +171,28 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Counterfactual:** on 1,391 common eligible players, research-peak Overall Spearman is 0.9918 and Top-10/25/50/100 overlap is 0.90/0.96/0.86/0.94. Published Overall remains unchanged.
 - **Result:** audit `PASS`; constitutional verdict `REQUIRES_REVISION`. No V2 is promoted.
 - **Optimization target:** none. Diagnostic identities and external rankings were excluded from formula construction and selection.
+
+## STEP-0015D Player-season value measurement audit
+
+- **Objective:** test universal, era-relative individual Regular Season value candidates after the
+  SeasonQuality attribution failure, without promoting Peak, Longevity, Defense, or Overall.
+- **Population:** 22,457 qualified player-seasons and 5,103 master players; no network access.
+- **Regimes:** 5,881 early-limited, 55 traditional-box, 2,153 expanded-box/no-Presence, and 14,368
+  full-portable rows, assigned from actual evidence.
+- **Candidates:** transparent portable, multi-path bounded team, complete-evidence measurement, and
+  continuous-reliability Presence. Candidate D is retained for research with 16,576 scored rows.
+- **Attribution:** Candidate D caps team context at 5.5% total realized weight; its correlation with
+  value is 0.0707 and covariance share is 0.0013. Offense/defense covariance shares are
+  0.6347/0.3653.
+- **Masking:** on 14,155 full rows, no-Presence MAE/RMSE is 5.73/7.11; traditional-box is
+  8.48/10.36; early-limited is unscorable. Error varies by role and archetype.
+- **Continuity:** 12,754 adjacent pairs have Spearman 0.7700. Mean absolute movement is 14.30 at
+  regime transitions versus 14.58 within regimes and 16.64 after team changes versus 13.47 on the
+  same team.
+- **Validation:** 97.67% of 43 available MVP seasons and 93.95% of 215 available All-NBA First
+  seasons are at or above P90. Awards are validation-only.
+- **Counterfactuals:** Peak Spearman 0.9057 (1,761 scores), Longevity 0.7832 (2,950), candidate
+  Peak-Longevity 0.8691, and Peak-only Overall 0.9937 (1,391 common ranked players).
+- **Result:** `PASS + PROMISING_BUT_NOT_READY`. No production method or ADR is created.
+- **Optimization target:** none; names, awards, outcomes, and conventional ranking order are absent
+  from formula selection.

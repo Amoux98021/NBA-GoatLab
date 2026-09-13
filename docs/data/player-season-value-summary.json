@@ -1,0 +1,638 @@
+{
+  "audit_methodology_version": "goatlab-v1-player-season-value-audit-v1",
+  "candidate_summary": {
+    "A_TRANSPARENT_PORTABLE": {
+      "confidence": {
+        "LIMITED": 942,
+        "MODERATE": 16085
+      },
+      "coverage_pct": 0.7582045687313532,
+      "formula": "65% season scoring/35% creation on stronger axis; defense is 75% current actions/25% team; total is 65% offense/35% defense",
+      "maximum_team_effective_weight": 0.0875,
+      "mean_team_effective_weight": 0.0875,
+      "player_seasons": 17027,
+      "players": 3122
+    },
+    "B_MULTIPATH_BOUNDED_TEAM": {
+      "confidence": {
+        "LIMITED": 491,
+        "MODERATE": 16085
+      },
+      "coverage_pct": 0.738121743776996,
+      "formula": "60/40 stronger/secondary scoring-creation; defense is 75% role-aware actions/25% team; total is 60/40 stronger/secondary offense-defense",
+      "maximum_team_effective_weight": 0.15,
+      "mean_team_effective_weight": 0.12365166505791507,
+      "player_seasons": 16576,
+      "players": 2950
+    },
+    "C_FULL_EVIDENCE_MEASUREMENT": {
+      "confidence": {
+        "LIMITED": 436,
+        "MODERATE": 6648,
+        "STRONG": 7284
+      },
+      "coverage_pct": 0.6398005076368171,
+      "formula": "60/40 scoring-creation; defense is 50% role-aware actions/10% team/40% observed Presence; total is 55/45 stronger/secondary offense-defense",
+      "maximum_team_effective_weight": 0.05500000000000001,
+      "mean_team_effective_weight": 0.04993875278396437,
+      "player_seasons": 14368,
+      "players": 2940
+    },
+    "D_REGIME_RELIABILITY": {
+      "confidence": {
+        "LIMITED": 491,
+        "MODERATE": 8801,
+        "STRONG": 7284
+      },
+      "coverage_pct": 0.738121743776996,
+      "formula": "60/40 scoring-creation; defense is 10% team, up to 35% continuously reliable observed Presence, remainder individual actions; total is 55/45 stronger/secondary",
+      "maximum_team_effective_weight": 0.05500000000000001,
+      "mean_team_effective_weight": 0.049891409266409274,
+      "player_seasons": 16576,
+      "players": 2950
+    }
+  },
+  "deterministic_rebuild_verified": true,
+  "influence": {
+    "defense_axis": {
+      "mean_effective_weight": 0.49891409266409265,
+      "shapley_covariance_variance_share": 0.3652678271905489
+    },
+    "offense_axis": {
+      "mean_effective_weight": 0.5010859073359073,
+      "shapley_covariance_variance_share": 0.6347321728094515
+    },
+    "primitive_effective_weights": {
+      "apg": {
+        "covariance_variance_share": 0.34664108394815235,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.33,
+        "mean_effective_weight": 0.25009954150579156
+      },
+      "bpg": {
+        "covariance_variance_share": 0.1101822716352992,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.14850000000000002,
+        "mean_effective_weight": 0.09153855416792515
+      },
+      "ppg": {
+        "covariance_variance_share": 0.22632971347306247,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.21450000000000002,
+        "mean_effective_weight": 0.1631411377895753
+      },
+      "presence": {
+        "covariance_variance_share": -0.0033191332976513378,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.1925,
+        "mean_effective_weight": 0.14389416950459957
+      },
+      "rpg": {
+        "covariance_variance_share": 0.14690969551373215,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.19800000000000004,
+        "mean_effective_weight": 0.12205140555723355
+      },
+      "spg": {
+        "covariance_variance_share": 0.1101822716352992,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.14850000000000002,
+        "mean_effective_weight": 0.09153855416792515
+      },
+      "team_context": {
+        "covariance_variance_share": 0.0013127217038700835,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.05500000000000001,
+        "mean_effective_weight": 0.049891409266409274
+      },
+      "ts_pct": {
+        "covariance_variance_share": 0.06176137538823603,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.11549999999999999,
+        "mean_effective_weight": 0.08784522804054054
+      }
+    },
+    "role_adjustment": {
+      "additive_weight": 0.0,
+      "interpretation": "ROLE_CONDITIONS_ACTION_EVIDENCE_AND_IS_NOT_AN_ADDITIVE_VALUE_CHANNEL",
+      "role_aware_rows": 12201
+    },
+    "team_context": {
+      "correlation_with_value": 0.07067917458012228,
+      "maximum_effective_weight": 0.05500000000000001,
+      "mean_effective_weight": 0.049891409266409274
+    }
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "defense_promotion": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "dimension": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "peak_forensic": "a9db1e7f75b3f3b8af9474bf556917b98f8aceeeb890fdc9ba36bdf7c3de7287"
+  },
+  "longevity_counterfactual": {
+    "candidate_scores": 2950,
+    "overlap": 2950,
+    "pearson": 0.8071881767350214,
+    "spearman": 0.7832252818731877,
+    "top_100_overlap": 0.71,
+    "top_25_overlap": 0.68,
+    "top_50_overlap": 0.68
+  },
+  "masking": {
+    "full_evidence_rows": 14155,
+    "regimes": {
+      "EARLY_LIMITED": {
+        "coverage_pct": 0.0,
+        "observations": 0,
+        "unavailable": 14155
+      },
+      "EXPANDED_BOX_NO_PRESENCE": {
+        "calibration_intercept": -5.855823259561986,
+        "calibration_slope": 1.1031724969289163,
+        "coverage_pct": 1.0,
+        "mean_absolute_error": 5.727537626144816,
+        "mean_signed_error": -0.6732506089495494,
+        "more_than_10_points": 0.1691275167785235,
+        "more_than_15_points": 0.03270929000353232,
+        "more_than_5_points": 0.4914164606146238,
+        "observations": 14155,
+        "p10_error": -10.364234137326024,
+        "p25_error": -5.3670803283740245,
+        "p50_error": -0.3287053447059485,
+        "p75_error": 4.4786160336996765,
+        "p90_error": 8.371230919911053,
+        "pearson": 0.9453258543847805,
+        "rmse": 7.112109946152244,
+        "spearman": 0.9489260417332737,
+        "unavailable": 0
+      },
+      "FULL_PORTABLE": {
+        "calibration_intercept": 6.47100001880496e-16,
+        "calibration_slope": 1.0000000000000009,
+        "coverage_pct": 1.0,
+        "mean_absolute_error": 0.0,
+        "mean_signed_error": 0.0,
+        "more_than_10_points": 0.0,
+        "more_than_15_points": 0.0,
+        "more_than_5_points": 0.0,
+        "observations": 14155,
+        "p10_error": 0.0,
+        "p25_error": 0.0,
+        "p50_error": 0.0,
+        "p75_error": 0.0,
+        "p90_error": 0.0,
+        "pearson": 1.0,
+        "rmse": 0.0,
+        "spearman": 1.0,
+        "unavailable": 0
+      },
+      "TRADITIONAL_BOX": {
+        "calibration_intercept": -8.274057703218173,
+        "calibration_slope": 1.1535135789165891,
+        "coverage_pct": 1.0,
+        "mean_absolute_error": 8.478622338441358,
+        "mean_signed_error": -0.5627460719905238,
+        "more_than_10_points": 0.3593076651359943,
+        "more_than_15_points": 0.1541504768632992,
+        "more_than_5_points": 0.658000706464147,
+        "observations": 14155,
+        "p10_error": -14.223868316500814,
+        "p25_error": -8.019426250143326,
+        "p50_error": -0.5504874041495498,
+        "p75_error": 6.996355393857517,
+        "p90_error": 13.058936771913787,
+        "pearson": 0.9010597111015034,
+        "rmse": 10.358298629316756,
+        "spearman": 0.9042489804946859,
+        "unavailable": 0
+      }
+    }
+  },
+  "measurement_verdict": "PROMISING_BUT_NOT_READY",
+  "network_requests": 0,
+  "output_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282",
+  "output_partitions": [
+    {
+      "path": "data/gold/player_season_value_audit/player-season-value-research.parquet",
+      "rows": 22457,
+      "sha256": "20079bc6176e16f2e5de0249da8a02c4848c385009a6e48b543137f86e62b24e",
+      "size_bytes": 1709547
+    },
+    {
+      "path": "data/gold/player_season_value_audit/peak-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "318cc6ef52078519d5ac42d7145ef0835d4d8b441188c4fd56892e74cca82b4c",
+      "size_bytes": 203927
+    },
+    {
+      "path": "data/gold/player_season_value_audit/longevity-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "76a5c2c582363a62c1dc5acdb710de2067e36881203c3d2e1c34cbaa8d8527b6",
+      "size_bytes": 164265
+    },
+    {
+      "path": "data/gold/player_season_value_audit/overall-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "e6ec6faea0bdeee33ae44ebd192cda88eace50b47cb680d33a25553d0f7c435a",
+      "size_bytes": 188174
+    },
+    {
+      "path": "data/gold/player_season_value_audit/diagnostic-players.parquet",
+      "rows": 22,
+      "sha256": "4d04594604c0c1fa0a3f70c2b7dd50d2c20df2e6d5d948d62fff0933926603ea",
+      "size_bytes": 9216
+    }
+  ],
+  "overall_sensitivity": {
+    "common_ranked_players": 1391,
+    "eligible_players": 1391,
+    "largest_movers": [
+      {
+        "counterfactual_rank": 911,
+        "player_name": "Andris Biedrins",
+        "rank_change": 205,
+        "research_peak": 78.97727272727273,
+        "v1_comparable_rank": 1116,
+        "v1_peak": 29.20570264765784
+      },
+      {
+        "counterfactual_rank": 1012,
+        "player_name": "Paul Mokeski",
+        "rank_change": -186,
+        "research_peak": 7.1022727272727275,
+        "v1_comparable_rank": 826,
+        "v1_peak": 56.211812627291245
+      },
+      {
+        "counterfactual_rank": 879,
+        "player_name": "Darren Daye",
+        "rank_change": -181,
+        "research_peak": 17.5,
+        "v1_comparable_rank": 698,
+        "v1_peak": 64.35845213849286
+      },
+      {
+        "counterfactual_rank": 1116,
+        "player_name": "Charlie Davis",
+        "rank_change": -180,
+        "research_peak": 7.7272727272727275,
+        "v1_comparable_rank": 936,
+        "v1_peak": 49.24643584521385
+      },
+      {
+        "counterfactual_rank": 614,
+        "player_name": "Frank Johnson",
+        "rank_change": -171,
+        "research_peak": 36.81818181818182,
+        "v1_comparable_rank": 443,
+        "v1_peak": 86.15071283095723
+      },
+      {
+        "counterfactual_rank": 803,
+        "player_name": "Wilson Chandler",
+        "rank_change": 164,
+        "research_peak": 74.94318181818181,
+        "v1_comparable_rank": 967,
+        "v1_peak": 34.378818737270876
+      },
+      {
+        "counterfactual_rank": 854,
+        "player_name": "Louis Orr",
+        "rank_change": -159,
+        "research_peak": 24.772727272727273,
+        "v1_comparable_rank": 695,
+        "v1_peak": 64.76578411405295
+      },
+      {
+        "counterfactual_rank": 1079,
+        "player_name": "Clemon Johnson",
+        "rank_change": -155,
+        "research_peak": 7.386363636363637,
+        "v1_comparable_rank": 924,
+        "v1_peak": 40.610997963340125
+      },
+      {
+        "counterfactual_rank": 898,
+        "player_name": "Gorgui Dieng",
+        "rank_change": 155,
+        "research_peak": 80.9090909090909,
+        "v1_comparable_rank": 1053,
+        "v1_peak": 42.15885947046843
+      },
+      {
+        "counterfactual_rank": 255,
+        "player_name": "Maurice Lucas",
+        "rank_change": -151,
+        "research_peak": 33.57954545454545,
+        "v1_comparable_rank": 104,
+        "v1_peak": 94.37881873727088
+      },
+      {
+        "counterfactual_rank": 554,
+        "player_name": "Tree Rollins",
+        "rank_change": -148,
+        "research_peak": 29.545454545454547,
+        "v1_comparable_rank": 406,
+        "v1_peak": 78.4928716904277
+      },
+      {
+        "counterfactual_rank": 966,
+        "player_name": "Danny Vranes",
+        "rank_change": -142,
+        "research_peak": 13.181818181818182,
+        "v1_comparable_rank": 824,
+        "v1_peak": 51.64969450101833
+      },
+      {
+        "counterfactual_rank": 778,
+        "player_name": "Rod Higgins",
+        "rank_change": 137,
+        "research_peak": 65.0,
+        "v1_comparable_rank": 915,
+        "v1_peak": 33.116089613034625
+      },
+      {
+        "counterfactual_rank": 1123,
+        "player_name": "Luka Garza",
+        "rank_change": -132,
+        "research_peak": 11.931818181818182,
+        "v1_comparable_rank": 991,
+        "v1_peak": 43.82892057026476
+      },
+      {
+        "counterfactual_rank": 1044,
+        "player_name": "Blair Rasmussen",
+        "rank_change": 129,
+        "research_peak": 41.76136363636363,
+        "v1_comparable_rank": 1173,
+        "v1_peak": 9.0020366598778
+      },
+      {
+        "counterfactual_rank": 518,
+        "player_name": "Caldwell Jones",
+        "rank_change": -127,
+        "research_peak": 26.306818181818183,
+        "v1_comparable_rank": 391,
+        "v1_peak": 69.979633401222
+      },
+      {
+        "counterfactual_rank": 808,
+        "player_name": "Jayson Williams",
+        "rank_change": 127,
+        "research_peak": 61.53409090909091,
+        "v1_comparable_rank": 935,
+        "v1_peak": 27.4949083503055
+      },
+      {
+        "counterfactual_rank": 951,
+        "player_name": "Gheorghe Muresan",
+        "rank_change": 126,
+        "research_peak": 60.85227272727273,
+        "v1_comparable_rank": 1077,
+        "v1_peak": 33.075356415478616
+      },
+      {
+        "counterfactual_rank": 1111,
+        "player_name": "Jaren Jackson",
+        "rank_change": -126,
+        "research_peak": 29.602272727272727,
+        "v1_comparable_rank": 985,
+        "v1_peak": 59.71486761710794
+      },
+      {
+        "counterfactual_rank": 1200,
+        "player_name": "Scott Hastings",
+        "rank_change": -126,
+        "research_peak": 9.034090909090908,
+        "v1_comparable_rank": 1074,
+        "v1_peak": 43.258655804480654
+      },
+      {
+        "counterfactual_rank": 609,
+        "player_name": "Alton Lister",
+        "rank_change": -125,
+        "research_peak": 48.23863636363637,
+        "v1_comparable_rank": 484,
+        "v1_peak": 84.5213849287169
+      },
+      {
+        "counterfactual_rank": 720,
+        "player_name": "Kenneth Faried",
+        "rank_change": 124,
+        "research_peak": 66.875,
+        "v1_comparable_rank": 844,
+        "v1_peak": 36.25254582484725
+      },
+      {
+        "counterfactual_rank": 993,
+        "player_name": "Brad Sellers",
+        "rank_change": -123,
+        "research_peak": 29.71590909090909,
+        "v1_comparable_rank": 870,
+        "v1_peak": 62.973523421588595
+      },
+      {
+        "counterfactual_rank": 804,
+        "player_name": "Sam Hauser",
+        "rank_change": -123,
+        "research_peak": 28.636363636363637,
+        "v1_comparable_rank": 681,
+        "v1_peak": 63.70672097759674
+      },
+      {
+        "counterfactual_rank": 849,
+        "player_name": "Jason Maxiell",
+        "rank_change": -122,
+        "research_peak": 28.579545454545453,
+        "v1_comparable_rank": 727,
+        "v1_peak": 59.95926680244399
+      }
+    ],
+    "published_overall_overwritten": false,
+    "spearman": 0.9936798893763841,
+    "top_100_overlap": 0.95,
+    "top_10_overlap": 0.9,
+    "top_15": [
+      {
+        "overall": 99.15180778335873,
+        "peak": 99.88636363636364,
+        "player_name": "Michael Jordan",
+        "rank": 1
+      },
+      {
+        "overall": 99.11471770329216,
+        "peak": 99.88636363636364,
+        "player_name": "LeBron James",
+        "rank": 2
+      },
+      {
+        "overall": 98.66351627271372,
+        "peak": 99.31818181818181,
+        "player_name": "Larry Bird",
+        "rank": 3
+      },
+      {
+        "overall": 98.38332199801327,
+        "peak": 99.88636363636364,
+        "player_name": "Karl Malone",
+        "rank": 4
+      },
+      {
+        "overall": 98.26066268769803,
+        "peak": 99.48863636363636,
+        "player_name": "Tim Duncan",
+        "rank": 5
+      },
+      {
+        "overall": 97.86490403923764,
+        "peak": 97.10227272727273,
+        "player_name": "Dwyane Wade",
+        "rank": 6
+      },
+      {
+        "overall": 97.79736687803502,
+        "peak": 98.29545454545455,
+        "player_name": "Kawhi Leonard",
+        "rank": 7
+      },
+      {
+        "overall": 97.70140669360572,
+        "peak": 99.0909090909091,
+        "player_name": "Scottie Pippen",
+        "rank": 8
+      },
+      {
+        "overall": 97.67244211922983,
+        "peak": 99.6590909090909,
+        "player_name": "David Robinson",
+        "rank": 9
+      },
+      {
+        "overall": 97.2441381148194,
+        "peak": 99.88636363636364,
+        "player_name": "Kevin Garnett",
+        "rank": 10
+      },
+      {
+        "overall": 96.83570308280235,
+        "peak": 99.54545454545455,
+        "player_name": "Hakeem Olajuwon",
+        "rank": 11
+      },
+      {
+        "overall": 96.82838833921372,
+        "peak": 99.88636363636364,
+        "player_name": "Kevin Durant",
+        "rank": 12
+      },
+      {
+        "overall": 96.81078622792049,
+        "peak": 98.57954545454545,
+        "player_name": "Chris Paul",
+        "rank": 13
+      },
+      {
+        "overall": 96.51350643429267,
+        "peak": 98.125,
+        "player_name": "Magic Johnson",
+        "rank": 14
+      },
+      {
+        "overall": 96.47093619743228,
+        "peak": 99.43181818181819,
+        "player_name": "Charles Barkley",
+        "rank": 15
+      }
+    ],
+    "top_25_overlap": 0.96,
+    "top_50_overlap": 0.9
+  },
+  "peak_counterfactual": {
+    "candidate_scores": 1761,
+    "overlap": 1761,
+    "pearson": 0.9056020238210652,
+    "spearman": 0.905730584989035,
+    "top_100_overlap": 0.59,
+    "top_25_overlap": 0.52,
+    "top_50_overlap": 0.54
+  },
+  "peak_longevity_distinctness": {
+    "longevity_architecture": "35% P80 breadth + 40% capped P80-P90 area + 25% longest P80 run",
+    "peak_architecture": "70% complete contiguous three-year + 30% apex",
+    "pearson": 0.86904788120156,
+    "players": 1761,
+    "spearman": 0.8691220167996808
+  },
+  "players": 5103,
+  "production_methodology_created": false,
+  "promotion_gates": {
+    "confidence_separate": true,
+    "early_regime_masking_passes": false,
+    "frozen_v1_unchanged": true,
+    "historical_coverage_sufficient": false,
+    "individual_performance_dominates_team_context": true,
+    "longevity_35_40_25_unchanged": true,
+    "missing_not_zero": true,
+    "no_award_postseason_championship_inputs": true,
+    "peak_70_30_unchanged": true,
+    "team_context_cap_at_most_10_percent": true
+  },
+  "regimes": {
+    "EARLY_LIMITED": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1946,
+      "last_observed_season": 1990,
+      "player_seasons": 5881,
+      "players": 1589,
+      "share": 0.261878256223004
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1983,
+      "last_observed_season": 2025,
+      "player_seasons": 2153,
+      "players": 887,
+      "share": 0.0958721111457452
+    },
+    "FULL_PORTABLE": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1982,
+      "last_observed_season": 2025,
+      "player_seasons": 14368,
+      "players": 2940,
+      "share": 0.6398005076368171
+    },
+    "TRADITIONAL_BOX": {
+      "derivation": "OBSERVED_CHANNEL_COVERAGE_NOT_DATE_ASSIGNMENT",
+      "first_observed_season": 1982,
+      "last_observed_season": 1983,
+      "player_seasons": 55,
+      "players": 53,
+      "share": 0.002449124994433807
+    }
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-v2-research",
+  "result": "PASS",
+  "run_at": "2026-09-13T00:00:00Z",
+  "runtime_seconds": 7.147577832918614,
+  "season_rows": 22457,
+  "selected_research_candidate": "D_REGIME_RELIABILITY",
+  "step": "STEP-0015D",
+  "target": "overall regular-season individual basketball value for one player-season",
+  "validation": {
+    "ALL_NBA_FIRST": {
+      "mean_percentile": 97.22159417809277,
+      "seasons": 215,
+      "share_at_or_above_90": 0.9395348837209302
+    },
+    "MVP": {
+      "mean_percentile": 98.60299819578299,
+      "seasons": 43,
+      "share_at_or_above_90": 0.9767441860465116
+    },
+    "adjacent_season_pairs": 12754,
+    "adjacent_season_spearman": 0.7700335064728393,
+    "awards_used_as_inputs": false
+  }
+}
