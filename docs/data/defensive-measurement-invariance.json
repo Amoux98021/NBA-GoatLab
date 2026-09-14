@@ -1,0 +1,405 @@
+{
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "defense": {
+    "D1_ACTIONS_ONLY": {
+      "calibration_intercept": -1.9533344322254997,
+      "calibration_slope": 1.014784214496781,
+      "mean_absolute_error": 13.063711870639008,
+      "mean_signed_error": -1.2284902061622285,
+      "more_than_10_points": 0.5456570155902004,
+      "more_than_15_points": 0.3674136971046771,
+      "more_than_5_points": 0.7573079064587973,
+      "observations": 14368,
+      "p10_error": -23.264688045569386,
+      "p50_error": -0.4965622817976634,
+      "p90_error": 19.557074107962805,
+      "pearson": 0.7375799812763628,
+      "r_squared": 0.13167433872843803,
+      "rmse": 16.209435340944857,
+      "spearman": 0.7315199723297185
+    },
+    "D2_ACTIONS_BOUNDED_TEAM": {
+      "calibration_intercept": 1.647376755206098,
+      "calibration_slope": 0.9442119353159312,
+      "mean_absolute_error": 11.4516179418675,
+      "mean_signed_error": -1.0878146598191083,
+      "more_than_10_points": 0.4935968819599109,
+      "more_than_15_points": 0.3060968819599109,
+      "more_than_5_points": 0.7332266146993318,
+      "observations": 14368,
+      "p10_error": -20.430994114304756,
+      "p50_error": -0.6808291013832235,
+      "p90_error": 17.085755035569534,
+      "pearson": 0.7598913126326805,
+      "r_squared": 0.34055326506715156,
+      "rmse": 14.125909829004122,
+      "spearman": 0.7514734380182835
+    },
+    "D4_LATENT_MEASUREMENT": {
+      "ACTIONS_ONLY": {
+        "calibration_intercept": 21.385863896749818,
+        "calibration_slope": 0.5722827220650035,
+        "mean_absolute_error": 21.229840431773944,
+        "mean_signed_error": 0.0,
+        "more_than_10_points": 0.6899359688195991,
+        "more_than_15_points": 0.5623608017817372,
+        "more_than_5_points": 0.8319181514476615,
+        "observations": 14368,
+        "p10_error": -35.90311129672165,
+        "p50_error": 0.4037029303264439,
+        "p90_error": 35.10823414769959,
+        "pearson": 0.5722827220661617,
+        "r_squared": 0.1445654441340538,
+        "rmse": 26.70133640725453,
+        "spearman": 0.5722827220661617
+      },
+      "NO_PRESENCE": {
+        "calibration_intercept": 16.58839701012994,
+        "calibration_slope": 0.668232059797401,
+        "mean_absolute_error": 18.797791678932622,
+        "mean_signed_error": 6.330002100312696e-17,
+        "more_than_10_points": 0.6527004454342984,
+        "more_than_15_points": 0.5226893095768375,
+        "more_than_5_points": 0.8060272828507795,
+        "observations": 14368,
+        "p10_error": -32.562121528502814,
+        "p50_error": 0.2540544302916392,
+        "p90_error": 31.676759239924827,
+        "pearson": 0.6682320597974013,
+        "r_squared": 0.33646411959480294,
+        "rmse": 23.516452571308694,
+        "spearman": 0.6682320597974015
+      },
+      "TEAM_ONLY": {
+        "calibration_intercept": 33.789014834820925,
+        "calibration_slope": 0.3242197033035812,
+        "mean_absolute_error": 26.862812622901746,
+        "mean_signed_error": -7.912502625390871e-16,
+        "more_than_10_points": 0.7521575723830735,
+        "more_than_15_points": 0.6457405345211581,
+        "more_than_5_points": 0.8719376391982183,
+        "observations": 14368,
+        "p10_error": -45.42806431405304,
+        "p50_error": 0.8735296164822173,
+        "p90_error": 44.078443655599656,
+        "pearson": 0.3242472270844014,
+        "r_squared": -0.3513908302594009,
+        "rmse": 33.5606286510999,
+        "spearman": 0.32424722708440135
+      },
+      "explained_variance_ratio": 0.3650584754778698,
+      "loading_stability_by_decade": {
+        "1980": {
+          "cosine_with_pooled_loadings": 0.9617070503012465,
+          "explained_variance_ratio": 0.37779333573314683,
+          "loadings": [
+            0.6868880713790747,
+            0.08034176907880919,
+            0.7223087826812178
+          ],
+          "rows": 1600
+        },
+        "1990": {
+          "cosine_with_pooled_loadings": 0.9067808377422631,
+          "explained_variance_ratio": 0.38586135714634423,
+          "loadings": [
+            0.7205684685391157,
+            -0.07103905545681623,
+            0.6897351192646324
+          ],
+          "rows": 2912
+        },
+        "2000": {
+          "cosine_with_pooled_loadings": 0.593292355911006,
+          "explained_variance_ratio": 0.3595220133434414,
+          "loadings": [
+            -0.228526011084451,
+            0.7396261490455325,
+            0.6330316120905062
+          ],
+          "rows": 3371
+        },
+        "2010": {
+          "cosine_with_pooled_loadings": 0.9918136355649353,
+          "explained_variance_ratio": 0.36809428925650145,
+          "loadings": [
+            0.5228562179020799,
+            0.44153648673600987,
+            0.7291549261178681
+          ],
+          "rows": 3827
+        },
+        "2020": {
+          "cosine_with_pooled_loadings": 0.982738074061087,
+          "explained_variance_ratio": 0.3644686367320582,
+          "loadings": [
+            0.4468303501020759,
+            0.47012807141092816,
+            0.7611322057954832
+          ],
+          "rows": 2658
+        }
+      },
+      "loadings": [
+        0.5614700849509752,
+        0.3239040359681354,
+        0.7614706292357557
+      ]
+    },
+    "EARLY_MINIMAL": {
+      "era_block": {
+        "calibration_intercept": 47.34048939258142,
+        "calibration_slope": 0.03418884521045199,
+        "mean_absolute_error": 14.00775010644274,
+        "mean_signed_error": -0.011545385394911296,
+        "more_than_10_points": 0.5831013363028953,
+        "more_than_15_points": 0.4127923162583519,
+        "more_than_5_points": 0.7838947661469933,
+        "observations": 14368,
+        "p10_error": -23.078258071397876,
+        "p50_error": 0.23767254244329572,
+        "p90_error": 23.047332774107304,
+        "pearson": 0.1840047134340167,
+        "r_squared": 0.03385405596178259,
+        "rmse": 17.098103277168963,
+        "spearman": 0.17208421700842824
+      },
+      "fields": [
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.4902825417075908,
+          0.015486046435471901,
+          0.017215115623897888
+        ],
+        "feature_means": [
+          0.4920651942802822,
+          0.32694031038020854
+        ],
+        "feature_scales": [
+          0.2912252649721959,
+          0.30091952514758835
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 47.33865030633016,
+        "calibration_slope": 0.03429017498077748,
+        "mean_absolute_error": 14.008716936886362,
+        "mean_signed_error": -0.00841644991158579,
+        "more_than_10_points": 0.5826837416481069,
+        "more_than_15_points": 0.4132099109131403,
+        "more_than_5_points": 0.7836859688195991,
+        "observations": 14368,
+        "p10_error": -23.036295617256506,
+        "p50_error": 0.2553279307706574,
+        "p90_error": 22.95883814572351,
+        "pearson": 0.1837727218053015,
+        "r_squared": 0.033764241421843866,
+        "rmse": 17.098897992812837,
+        "spearman": 0.17096145292782783
+      }
+    },
+    "EARLY_WITH_PRESENCE": {
+      "era_block": {
+        "calibration_intercept": 22.843035432780283,
+        "calibration_slope": 0.5335389723044333,
+        "mean_absolute_error": 10.13104053397995,
+        "mean_signed_error": -0.026734393831431506,
+        "more_than_10_points": 0.4842706013363029,
+        "more_than_15_points": 0.24888641425389754,
+        "more_than_5_points": 0.7403257238307349,
+        "observations": 14368,
+        "p10_error": -16.127649300574674,
+        "p50_error": -0.0017483713776439425,
+        "p90_error": 16.16582235383957,
+        "pearson": 0.7294380762695397,
+        "r_squared": 0.5320735440334843,
+        "rmse": 11.899134366955874,
+        "spearman": 0.7200310421095495
+      },
+      "fields": [
+        "observed_presence",
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.49028254170759095,
+          0.14940542250640174,
+          0.020997735692392033,
+          -0.017746304320419234,
+          0.01292147609482969,
+          -0.01553979918646739
+        ],
+        "feature_means": [
+          0.5051930061414466,
+          0.4920651942802822,
+          0.3337106050863514,
+          0.32694031038020854,
+          0.2544046511894582
+        ],
+        "feature_scales": [
+          0.28016179545419806,
+          0.2912252649721959,
+          0.2905397986494871,
+          0.30091952514758835,
+          0.22133135284768318
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 22.896757909279145,
+        "calibration_slope": 0.5330032500939893,
+        "mean_absolute_error": 10.124143207548805,
+        "mean_signed_error": 0.0007225579688676406,
+        "more_than_10_points": 0.4839226057906459,
+        "more_than_15_points": 0.24756403118040088,
+        "more_than_5_points": 0.7394209354120267,
+        "observations": 14368,
+        "p10_error": -16.086283647447914,
+        "p50_error": 0.04123966843979088,
+        "p90_error": 16.232695649253206,
+        "pearson": 0.729919856578709,
+        "r_squared": 0.5327829042496179,
+        "rmse": 11.890111609399565,
+        "spearman": 0.7203955086365083
+      }
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "era_block": {
+        "calibration_intercept": 19.901015678691884,
+        "calibration_slope": 0.5943686022234227,
+        "mean_absolute_error": 9.49139209732391,
+        "mean_signed_error": 0.013616408861617283,
+        "more_than_10_points": 0.4622076837416481,
+        "more_than_15_points": 0.21478285077951,
+        "more_than_5_points": 0.7261971046770601,
+        "observations": 14368,
+        "p10_error": -15.361963031896103,
+        "p50_error": -0.02999794641506126,
+        "p90_error": 15.298935830303943,
+        "pearson": 0.7701926809769495,
+        "r_squared": 0.5931938381806481,
+        "rmse": 11.094821763245903,
+        "spearman": 0.7602683879296784
+      },
+      "fields": [
+        "role_aware_actions",
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.4902825417075907,
+          0.1103005113245887,
+          0.04748033504919675,
+          0.032585764419132024,
+          0.003292874055898924,
+          -0.01925272444168403
+        ],
+        "feature_means": [
+          0.4779976396459679,
+          0.4920651942802822,
+          0.2857590122974153,
+          0.32694031038020854,
+          0.23229388265292866
+        ],
+        "feature_scales": [
+          0.23932669886641894,
+          0.2912252649721959,
+          0.2361084673074554,
+          0.30091952514758835,
+          0.19643833073443112
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 19.909324605630722,
+        "calibration_slope": 0.5939215054653406,
+        "mean_absolute_error": 9.484361466189018,
+        "mean_signed_error": 4.962306283364636e-06,
+        "more_than_10_points": 0.4610244988864143,
+        "more_than_15_points": 0.21617483296213807,
+        "more_than_5_points": 0.7267538975501113,
+        "observations": 14368,
+        "p10_error": -15.369164575288492,
+        "p50_error": -0.047465241377323,
+        "p90_error": 15.28939980060501,
+        "pearson": 0.770605504106597,
+        "r_squared": 0.5938328297215023,
+        "rmse": 11.086104732791943,
+        "spearman": 0.7606092905028863
+      }
+    },
+    "TRADITIONAL_BOX": {
+      "era_block": {
+        "calibration_intercept": 25.67027140610534,
+        "calibration_slope": 0.4765091182841164,
+        "mean_absolute_error": 10.495958047270573,
+        "mean_signed_error": 0.00442740126421962,
+        "more_than_10_points": 0.4841314031180401,
+        "more_than_15_points": 0.2655902004454343,
+        "more_than_5_points": 0.7330178173719376,
+        "observations": 14368,
+        "p10_error": -16.609289712377954,
+        "p50_error": -0.138909450017341,
+        "p90_error": 16.951510822715765,
+        "pearson": 0.6898226658125013,
+        "r_squared": 0.4758543471795086,
+        "rmse": 12.593677353163038,
+        "spearman": 0.6807841026399304
+      },
+      "fields": [
+        "rpg",
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.4902825417075913,
+          0.11552241378831013,
+          0.03815534440337671,
+          0.00670036071452543,
+          0.005905001749740775,
+          -0.009248131909335086
+        ],
+        "feature_means": [
+          0.477112209503633,
+          0.4920651942802822,
+          0.31089966902981686,
+          0.32694031038020854,
+          0.2305379605851156
+        ],
+        "feature_scales": [
+          0.28855434249440337,
+          0.2912252649721959,
+          0.2924560727387848,
+          0.30091952514758835,
+          0.21548613078129342
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 25.679417386592483,
+        "calibration_slope": 0.4761730979020777,
+        "mean_absolute_error": 10.496577081245004,
+        "mean_signed_error": -0.0029011109457597033,
+        "more_than_10_points": 0.4837138084632517,
+        "more_than_15_points": 0.2648246102449889,
+        "more_than_5_points": 0.7332962138084632,
+        "observations": 14368,
+        "p10_error": -16.61716927716732,
+        "p50_error": -0.1253712718327804,
+        "p90_error": 16.964237712429735,
+        "pearson": 0.6898318699340782,
+        "r_squared": 0.47586778536282937,
+        "rmse": 12.593515912131535,
+        "spearman": 0.6807599112788628
+      }
+    },
+    "interpretation": "The one-factor model tests measurement coherence; it is not treated as observed defense or ground truth."
+  },
+  "random_seed": 15001505,
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

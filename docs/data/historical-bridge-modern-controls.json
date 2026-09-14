@@ -1,0 +1,117 @@
+{
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "players": [
+    {
+      "full_score": 1.0,
+      "masked_early_minimal": 0.9974937343358395,
+      "masked_early_with_presence": 0.9974937343358395,
+      "masked_expanded_box_no_presence": 1.0,
+      "masked_traditional_box": 1.0,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_d01be951b9595ebc825aa6d30818a449",
+      "player_name": "Giannis Antetokounmpo",
+      "promoted": false,
+      "season_id": 2018
+    },
+    {
+      "full_score": 1.0,
+      "masked_early_minimal": 0.9431818181818181,
+      "masked_early_with_presence": 1.0,
+      "masked_expanded_box_no_presence": 0.9801136363636364,
+      "masked_traditional_box": 0.9715909090909091,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_4f1a94d5e34b5f4db54fe8171c78b2bd",
+      "player_name": "Kevin Garnett",
+      "promoted": false,
+      "season_id": 2006
+    },
+    {
+      "full_score": 1.0,
+      "masked_early_minimal": 0.9970149253731343,
+      "masked_early_with_presence": 0.9970149253731343,
+      "masked_expanded_box_no_presence": 1.0,
+      "masked_traditional_box": 1.0,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_ae8bd817fd095b748cbeca969369a966",
+      "player_name": "LeBron James",
+      "promoted": false,
+      "season_id": 2009
+    },
+    {
+      "full_score": 1.0,
+      "masked_early_minimal": 1.0,
+      "masked_early_with_presence": 1.0,
+      "masked_expanded_box_no_presence": 1.0,
+      "masked_traditional_box": 0.9961089494163424,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_a274ec9223a25dabaa1972e8610b4b84",
+      "player_name": "Michael Jordan",
+      "promoted": false,
+      "season_id": 1991
+    },
+    {
+      "full_score": 0.9977777777777778,
+      "masked_early_minimal": 0.9733333333333333,
+      "masked_early_with_presence": 0.9755555555555556,
+      "masked_expanded_box_no_presence": 1.0,
+      "masked_traditional_box": 1.0,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_8b852194a9735db8bdaecde0153ecad9",
+      "player_name": "Nikola Jokic",
+      "promoted": false,
+      "season_id": 2021
+    },
+    {
+      "full_score": 0.9743589743589743,
+      "masked_early_minimal": 0.8641025641025641,
+      "masked_early_with_presence": 0.958974358974359,
+      "masked_expanded_box_no_presence": 0.9153846153846154,
+      "masked_traditional_box": 0.9307692307692308,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+      "player_name": "Rudy Gobert",
+      "promoted": false,
+      "season_id": 2017
+    },
+    {
+      "full_score": 1.0,
+      "masked_early_minimal": 0.9937694704049843,
+      "masked_early_with_presence": 1.0,
+      "masked_expanded_box_no_presence": 0.9813084112149533,
+      "masked_traditional_box": 0.9875389408099688,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_4c8e42fcb36d59baaaebcc5bc75ca6a8",
+      "player_name": "Shaquille O'Neal",
+      "promoted": false,
+      "season_id": 1996
+    },
+    {
+      "full_score": 0.9933333333333333,
+      "masked_early_minimal": 0.9955555555555555,
+      "masked_early_with_presence": 1.0,
+      "masked_expanded_box_no_presence": 0.9844444444444445,
+      "masked_traditional_box": 0.9866666666666667,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_2e91fa79b96359ae8b93f6c9dd8f7a4e",
+      "player_name": "Stephen Curry",
+      "promoted": false,
+      "season_id": 2021
+    },
+    {
+      "full_score": 1.0,
+      "masked_early_minimal": 1.0,
+      "masked_early_with_presence": 1.0,
+      "masked_expanded_box_no_presence": 0.9969325153374232,
+      "masked_traditional_box": 1.0,
+      "methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+      "player_id": "player_b99799c86e9f5cc1a5008c2c8c721213",
+      "player_name": "Tim Duncan",
+      "promoted": false,
+      "season_id": 2003
+    }
+  ],
+  "random_seed": 15001505,
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

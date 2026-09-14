@@ -1,0 +1,19 @@
+{
+  "architecture": "70% best contiguous 3-year + 30% apex",
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "bridge_filled_rows": 0,
+  "comparison": {
+    "candidate_scores": 1761,
+    "overlap": 1761,
+    "pearson": 0.9056020238210652,
+    "spearman": 0.905730584989035,
+    "top_100_overlap": 0.59,
+    "top_25_overlap": 0.52,
+    "top_50_overlap": 0.54
+  },
+  "coverage": 1761,
+  "random_seed": 15001505,
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

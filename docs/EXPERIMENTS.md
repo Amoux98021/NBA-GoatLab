@@ -196,3 +196,25 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Result:** `PASS + PROMISING_BUT_NOT_READY`. No production method or ADR is created.
 - **Optimization target:** none; names, awards, outcomes, and conventional ranking order are absent
   from formula selection.
+
+## STEP-0015E Historical evidence bridge audit
+
+- **Objective:** determine whether historically absent creation and defensive-impact channels can
+  recover the same full-evidence PlayerSeasonValue construct.
+- **Population:** 22,457 qualified Regular Season rows; 14,368 complete defensive-measurement rows
+  form the controlled masking population.
+- **Leakage controls:** deterministic player-grouped five-fold validation, decade-block transfer,
+  fixed seed 15001505, and no identity, award, postseason, championship, or ranking predictors.
+- **Creation:** PPG grouped R-squared 0.5043/Spearman 0.7097; PPG+TS grouped R-squared
+  0.5313/Spearman 0.7286. Era-block results are essentially the same.
+- **Defense:** grouped Spearman is 0.7606 without Presence, 0.6808 with traditional RPG/team,
+  0.7204 with Presence/team only, and 0.1710 with team only. A one-factor model explains 36.51%
+  and its loadings are not stable across decades.
+- **Mask gates:** expanded/traditional/early-with-Presence/early-minimal MAEs are
+  7.27/8.00/8.41/11.35; all fail the five-point MAE and 15%-over-ten-error gates.
+- **Intervals:** empirical 90% widths are 26.92/30.21/33.37/42.30 points. They are retained as
+  uncertainty evidence, not promoted point estimates.
+- **Outcome:** `PASS + NO_VALID_BRIDGE`; 16,576 observed research scores, 5,098 interval-only
+  diagnostics, and 783 unavailable rows. Candidate D and every V1 methodology remain unchanged.
+- **Optimization target:** none. Named early and modern cases are inspected only after models and
+  gates are frozen.

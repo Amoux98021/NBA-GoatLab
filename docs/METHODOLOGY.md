@@ -217,3 +217,24 @@ This living summary may be extended, but methodology changes must also receive a
   traditional-box masks. The expected-Presence bridge remains invalid at OOF R-squared 0.0174.
 - Peak 70/30 and Longevity 35/40/25 architectures are held fixed in diagnostic counterfactuals.
   Published V1 dimensions, Defense, and Overall are unchanged.
+
+## Historical evidence bridge audit
+
+- `goatlab-v1-historical-evidence-bridge-audit-v1` reconstructs all 22,457 STEP-0015D rows and
+  16,576 research scores with zero difference, then tests missing-channel recovery without
+  changing Candidate D or any published V1 output.
+- Creation bridges use player-grouped and decade-blocked ridge models. PPG-only creation reaches
+  R-squared 0.5043 and Spearman 0.7097; adding TS reaches R-squared 0.5313. Neither identifies
+  observed APG well enough to replace it.
+- Defensive tests compare actions, bounded team context, Presence, and an interpretable one-factor
+  measurement model. The factor explains 36.51% of channel variance and has materially unstable
+  decade loadings, so it is not measurement invariant.
+- Full-evidence seasons are masked into expanded, traditional, early-with-Presence, and
+  early-minimal regimes. Their PlayerSeasonValue MAEs are 7.27, 8.00, 8.41, and 11.35 points;
+  no regime passes every predeclared point-score gate.
+- Partial-identification intervals preserve unknown quality without converting it to zero. Mean
+  90% widths range from 26.92 to 42.30 points. An interval midpoint is diagnostic, not an official
+  score.
+- STEP-0015E is `PASS + NO_VALID_BRIDGE`. Full Candidate D research scores, interval-only sparse
+  estimates, and unavailable rows remain distinct. Peak, Longevity, Defense, and Overall are not
+  promoted or overwritten.

@@ -1,0 +1,399 @@
+{
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "random_seed": 15001505,
+  "regimes": {
+    "EARLY_LIMITED": {
+      "channels": {
+        "apg": {
+          "affected_players": 1589,
+          "first_affected_season": 1946,
+          "last_affected_season": 1990,
+          "missing_player_seasons": 5863,
+          "proxy": "PPG-only creation prediction is tested",
+          "semantics": "direct individual creation proxy",
+          "sporadically_missing_rows": 39,
+          "structurally_unavailable_rows": 5824
+        },
+        "bpg": {
+          "affected_players": 1589,
+          "first_affected_season": 1946,
+          "last_affected_season": 1990,
+          "missing_player_seasons": 5881,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 15,
+          "structurally_unavailable_rows": 5866
+        },
+        "observed_presence": {
+          "affected_players": 829,
+          "first_affected_season": 1946,
+          "last_affected_season": 1984,
+          "missing_player_seasons": 2074,
+          "proxy": "team/actions prediction previously weak",
+          "semantics": "individual WOWY-style proxy",
+          "sporadically_missing_rows": 1291,
+          "structurally_unavailable_rows": 783
+        },
+        "ppg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "direct individual scoring-volume anchor",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "role_aware_actions": {
+          "affected_players": 1568,
+          "first_affected_season": 1946,
+          "last_affected_season": 1990,
+          "missing_player_seasons": 5430,
+          "proxy": "RPG-only proxy tested",
+          "semantics": "individual role-conditioned action evidence",
+          "sporadically_missing_rows": 136,
+          "structurally_unavailable_rows": 5294
+        },
+        "rpg": {
+          "affected_players": 1546,
+          "first_affected_season": 1946,
+          "last_affected_season": 1990,
+          "missing_player_seasons": 5242,
+          "proxy": null,
+          "semantics": "individual total-rebound proxy",
+          "sporadically_missing_rows": 221,
+          "structurally_unavailable_rows": 5021
+        },
+        "spg": {
+          "affected_players": 1589,
+          "first_affected_season": 1946,
+          "last_affected_season": 1990,
+          "missing_player_seasons": 5881,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 15,
+          "structurally_unavailable_rows": 5866
+        },
+        "team_suppression": {
+          "affected_players": 529,
+          "first_affected_season": 1960,
+          "last_affected_season": 1976,
+          "missing_player_seasons": 783,
+          "proxy": "not an individual substitute",
+          "semantics": "team-shared context",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 783
+        },
+        "ts_pct": {
+          "affected_players": 1448,
+          "first_affected_season": 1946,
+          "last_affected_season": 1990,
+          "missing_player_seasons": 5321,
+          "proxy": "PPG is not an efficiency proxy",
+          "semantics": "derived individual efficiency",
+          "sporadically_missing_rows": 60,
+          "structurally_unavailable_rows": 5261
+        }
+      },
+      "player_seasons": 5881,
+      "players": 1589,
+      "unscorable_reasons": {
+        "candidate_d_unscored": 5881,
+        "creation_unavailable": 5863,
+        "individual_action_evidence_unavailable": 5242,
+        "only_ppg_and_team_context_observed": 4311
+      }
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "channels": {
+        "apg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "PPG-only creation prediction is tested",
+          "semantics": "direct individual creation proxy",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "bpg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "observed_presence": {
+          "affected_players": 887,
+          "first_affected_season": 1983,
+          "last_affected_season": 2025,
+          "missing_player_seasons": 2153,
+          "proxy": "team/actions prediction previously weak",
+          "semantics": "individual WOWY-style proxy",
+          "sporadically_missing_rows": 2153,
+          "structurally_unavailable_rows": 0
+        },
+        "ppg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "direct individual scoring-volume anchor",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "role_aware_actions": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "RPG-only proxy tested",
+          "semantics": "individual role-conditioned action evidence",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "rpg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "individual total-rebound proxy",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "spg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "team_suppression": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "not an individual substitute",
+          "semantics": "team-shared context",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "ts_pct": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "PPG is not an efficiency proxy",
+          "semantics": "derived individual efficiency",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        }
+      },
+      "player_seasons": 2153,
+      "players": 887
+    },
+    "FULL_PORTABLE": {
+      "channels": {
+        "apg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "PPG-only creation prediction is tested",
+          "semantics": "direct individual creation proxy",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "bpg": {
+          "affected_players": 195,
+          "first_affected_season": 1982,
+          "last_affected_season": 1982,
+          "missing_player_seasons": 195,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 195
+        },
+        "observed_presence": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "team/actions prediction previously weak",
+          "semantics": "individual WOWY-style proxy",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "ppg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "direct individual scoring-volume anchor",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "role_aware_actions": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "RPG-only proxy tested",
+          "semantics": "individual role-conditioned action evidence",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "rpg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "individual total-rebound proxy",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "spg": {
+          "affected_players": 199,
+          "first_affected_season": 1982,
+          "last_affected_season": 1983,
+          "missing_player_seasons": 213,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 18,
+          "structurally_unavailable_rows": 195
+        },
+        "team_suppression": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "not an individual substitute",
+          "semantics": "team-shared context",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "ts_pct": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "PPG is not an efficiency proxy",
+          "semantics": "derived individual efficiency",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        }
+      },
+      "player_seasons": 14368,
+      "players": 2940
+    },
+    "TRADITIONAL_BOX": {
+      "channels": {
+        "apg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "PPG-only creation prediction is tested",
+          "semantics": "direct individual creation proxy",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "bpg": {
+          "affected_players": 48,
+          "first_affected_season": 1982,
+          "last_affected_season": 1982,
+          "missing_player_seasons": 48,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 48
+        },
+        "observed_presence": {
+          "affected_players": 53,
+          "first_affected_season": 1982,
+          "last_affected_season": 1983,
+          "missing_player_seasons": 55,
+          "proxy": "team/actions prediction previously weak",
+          "semantics": "individual WOWY-style proxy",
+          "sporadically_missing_rows": 55,
+          "structurally_unavailable_rows": 0
+        },
+        "ppg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "direct individual scoring-volume anchor",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "role_aware_actions": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "RPG-only proxy tested",
+          "semantics": "individual role-conditioned action evidence",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "rpg": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": null,
+          "semantics": "individual total-rebound proxy",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "spg": {
+          "affected_players": 53,
+          "first_affected_season": 1982,
+          "last_affected_season": 1983,
+          "missing_player_seasons": 55,
+          "proxy": null,
+          "semantics": "individual recorded action",
+          "sporadically_missing_rows": 7,
+          "structurally_unavailable_rows": 48
+        },
+        "team_suppression": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "not an individual substitute",
+          "semantics": "team-shared context",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        },
+        "ts_pct": {
+          "affected_players": 0,
+          "first_affected_season": null,
+          "last_affected_season": null,
+          "missing_player_seasons": 0,
+          "proxy": "PPG is not an efficiency proxy",
+          "semantics": "derived individual efficiency",
+          "sporadically_missing_rows": 0,
+          "structurally_unavailable_rows": 0
+        }
+      },
+      "player_seasons": 55,
+      "players": 53
+    }
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

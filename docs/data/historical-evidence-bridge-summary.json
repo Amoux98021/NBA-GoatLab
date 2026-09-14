@@ -1,0 +1,116 @@
+{
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "bridge_counterfactual_status_counts": {
+    "INTERVAL_ONLY": 5098,
+    "OBSERVED_RESEARCH_SCORE": 16576,
+    "UNAVAILABLE": 783
+  },
+  "bridge_verdict": "NO_VALID_BRIDGE",
+  "candidate_d_unchanged": true,
+  "deterministic_rebuild_verified": true,
+  "frozen_v1_unchanged": true,
+  "longevity_counterfactual": {
+    "candidate_scores": 2950,
+    "overlap": 2950,
+    "pearson": 0.8071881767350214,
+    "spearman": 0.7832252818731877,
+    "top_100_overlap": 0.71,
+    "top_25_overlap": 0.68,
+    "top_50_overlap": 0.68
+  },
+  "network_requests": 0,
+  "output_fingerprint": "731130b7fffd53ff084321b78175c7651f7c04387d9d574f5add205428bcbf63",
+  "output_partitions": [
+    {
+      "path": "data/gold/historical_bridge_audit/candidate-d-reconstruction.parquet",
+      "rows": 22457,
+      "sha256": "20079bc6176e16f2e5de0249da8a02c4848c385009a6e48b543137f86e62b24e",
+      "size_bytes": 1709547
+    },
+    {
+      "path": "data/gold/historical_bridge_audit/bridge-player-season-counterfactual.parquet",
+      "rows": 22457,
+      "sha256": "ae2af2458a42492cd5b424b4338d14c7e22cf1df47fa0e8d51d8987644320b0a",
+      "size_bytes": 634121
+    },
+    {
+      "path": "data/gold/historical_bridge_audit/bridge-case-studies.parquet",
+      "rows": 234,
+      "sha256": "d54e0da5de99488ff91f7d3170d446640c3377efc70dfc416e99aa8b593bac5f",
+      "size_bytes": 20873
+    },
+    {
+      "path": "data/gold/historical_bridge_audit/modern-mask-controls.parquet",
+      "rows": 9,
+      "sha256": "5e1d394db58e9441aca4fbdf44746ae8621c72f03f7c5168df95c548249bf361",
+      "size_bytes": 3991
+    },
+    {
+      "path": "data/gold/historical_bridge_audit/peak-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "b6d0195029781127079922dcf13aba0774c248644199dd408639a429f50626f5",
+      "size_bytes": 194279
+    },
+    {
+      "path": "data/gold/historical_bridge_audit/longevity-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "25d82f9697381f7fa5a0f043d800d74ef4c1c73a1b76693ba23e3f736ce00699",
+      "size_bytes": 156497
+    }
+  ],
+  "peak_counterfactual": {
+    "candidate_scores": 1761,
+    "overlap": 1761,
+    "pearson": 0.9056020238210652,
+    "spearman": 0.905730584989035,
+    "top_100_overlap": 0.59,
+    "top_25_overlap": 0.52,
+    "top_50_overlap": 0.54
+  },
+  "players_scored": 2950,
+  "production_promoted": false,
+  "random_seed": 15001505,
+  "recommendation": "REQUIRES_MORE_MEASUREMENT_WORK",
+  "regime_policy": {
+    "EARLY_LIMITED": "INTERVAL_ONLY_OR_UNAVAILABLE",
+    "EXPANDED_BOX_NO_PRESENCE": "INTERVAL_ONLY",
+    "FULL_PORTABLE": "FULL_RESEARCH_SCORE",
+    "TRADITIONAL_BOX": "INTERVAL_ONLY"
+  },
+  "report_hashes": {
+    "bridge-uncertainty-calibration.json": "41a87b03869777c2a9ebcb51e151e31d1cae3285ac8d9598570b0c0a31e49f11",
+    "creation-bridge-validation.json": "59b85cf40ba3215284babbdb73f75e529778cec417a636fc47974d55d92b128a",
+    "defensive-measurement-invariance.json": "3d601fe5661bfd0d0430496446d98932018daea3c3ab4c849ff22985061d8b65",
+    "historical-bridge-case-studies.json": "0cdf749d47ce9b90402f2de79f4821a104f1faa6e71e20d6e93403ebbfe78889",
+    "historical-bridge-effective-influence.json": "d8cd740121dc5adc5537d2dd39a4eabe66c4f9d24a97f7f3f536fe2d41d418b8",
+    "historical-bridge-grouped-era-validation.json": "2f035ff81765620effdbc48ca74031973ab6bf95aec6e04b0c99313e4aa9f277",
+    "historical-bridge-longevity-counterfactual.json": "2b53e906379e6ef4030ae6341cf49f8b0265d5b5c789708c63c921d902f9f5a5",
+    "historical-bridge-missing-channels.json": "bb625175bbd222bffa5427b598f2dcd6bc6c0c17a0521b38e4dffe1d5b391289",
+    "historical-bridge-modern-controls.json": "d262da37f875f14df83466ab943bd301846e6c37724490f45571532f048497d3",
+    "historical-bridge-peak-counterfactual.json": "78f8956ffb95d0752ae057598921f9598898c826755b6b16c0512fadc30febc0",
+    "historical-bridge-peak-longevity.json": "78b6c272d36ba8f6e7ea381e2f613947d45569e648e903880943d85596d80574",
+    "historical-bridge-reconstruction.json": "5dce89dd56e47b9a3d664e75333c6eef9042f96a4046e639d1c00fd3a8119132",
+    "historical-bridge-transition-audit.json": "9148ed887487d1198f33477e043efbbfb1c90dbebb8f096bd9b7254469b52936",
+    "historical-mask-validation.json": "f633a14b6385c10a4b91fe090d5d5f6e66fabba7b56be9ce1954939c4407d2c7",
+    "player-season-value-bridge-comparison.json": "bb12351b1c936c10df7316597a4bb8f003cf903c8e25f401bcb0913857173ddb"
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "result": "PASS",
+  "runtime_seconds": 10.081656875088811,
+  "scored_player_seasons": 16576,
+  "step": "STEP-0015E",
+  "step_0015d_reconstruction": {
+    "candidate_summary_matches": true,
+    "expected_rows": 22457,
+    "expected_scored_rows": 16576,
+    "longevity_counterfactual_maximum_difference": 0.0,
+    "maximum_numerical_difference": 0.0,
+    "mismatches": 0,
+    "peak_counterfactual_maximum_difference": 0.0,
+    "rows": 22457,
+    "scored_rows": 16576
+  },
+  "supported_masked_regimes": [],
+  "total_player_seasons": 22457,
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

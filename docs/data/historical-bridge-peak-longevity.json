@@ -1,0 +1,10 @@
+{
+  "architecture_unchanged": true,
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "players": 1761,
+  "random_seed": 15001505,
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "spearman": 0.8691220167996808,
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

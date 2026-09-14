@@ -1,0 +1,123 @@
+{
+  "EARLY_MINIMAL": {
+    "0.8": {
+      "empirical_coverage": 0.8000417594654788,
+      "mean_width_points": 33.469585072206094,
+      "median_width_points": 36.92307692307693,
+      "nominal_coverage": 0.8,
+      "observations": 14368,
+      "p90_width_points": 36.92307692307693,
+      "radius_points": 18.461538461538463
+    },
+    "0.9": {
+      "empirical_coverage": 0.8999860801781737,
+      "mean_width_points": 42.29760963522437,
+      "median_width_points": 48.14807267787409,
+      "nominal_coverage": 0.9,
+      "observations": 14368,
+      "p90_width_points": 48.148072677874104,
+      "radius_points": 24.07403633893705
+    },
+    "0.95": {
+      "empirical_coverage": 0.9501670378619154,
+      "mean_width_points": 49.7837374447652,
+      "median_width_points": 54.09725672020754,
+      "nominal_coverage": 0.95,
+      "observations": 14368,
+      "p90_width_points": 58.360655737704924,
+      "radius_points": 29.18032786885246
+    }
+  },
+  "EARLY_WITH_PRESENCE": {
+    "0.8": {
+      "empirical_coverage": 0.8000417594654788,
+      "mean_width_points": 25.812828384835125,
+      "median_width_points": 27.777777777777768,
+      "nominal_coverage": 0.8,
+      "observations": 14368,
+      "p90_width_points": 27.77777777777778,
+      "radius_points": 13.888888888888888
+    },
+    "0.9": {
+      "empirical_coverage": 0.8999860801781737,
+      "mean_width_points": 33.37487958621452,
+      "median_width_points": 36.80683367416498,
+      "nominal_coverage": 0.9,
+      "observations": 14368,
+      "p90_width_points": 36.80683367416499,
+      "radius_points": 18.403416837082492
+    },
+    "0.95": {
+      "empirical_coverage": 0.9499582405345212,
+      "mean_width_points": 39.322416368186545,
+      "median_width_points": 44.27480916030535,
+      "nominal_coverage": 0.95,
+      "observations": 14368,
+      "p90_width_points": 44.27480916030535,
+      "radius_points": 22.137404580152676
+    }
+  },
+  "EXPANDED_BOX_NO_PRESENCE": {
+    "0.8": {
+      "empirical_coverage": 0.800250556792873,
+      "mean_width_points": 22.5076705126081,
+      "median_width_points": 23.976608187134506,
+      "nominal_coverage": 0.8,
+      "observations": 14368,
+      "p90_width_points": 23.976608187134516,
+      "radius_points": 11.988304093567253
+    },
+    "0.9": {
+      "empirical_coverage": 0.8999860801781737,
+      "mean_width_points": 26.922283379351022,
+      "median_width_points": 29.07268170426065,
+      "nominal_coverage": 0.9,
+      "observations": 14368,
+      "p90_width_points": 29.07268170426066,
+      "radius_points": 14.536340852130328
+    },
+    "0.95": {
+      "empirical_coverage": 0.9500278396436526,
+      "mean_width_points": 30.233306784246892,
+      "median_width_points": 32.996632996633,
+      "nominal_coverage": 0.95,
+      "observations": 14368,
+      "p90_width_points": 32.996632996633004,
+      "radius_points": 16.4983164983165
+    }
+  },
+  "TRADITIONAL_BOX": {
+    "0.8": {
+      "empirical_coverage": 0.8001113585746102,
+      "mean_width_points": 24.490225894611015,
+      "median_width_points": 26.24671916010499,
+      "nominal_coverage": 0.8,
+      "observations": 14368,
+      "p90_width_points": 26.24671916010499,
+      "radius_points": 13.123359580052496
+    },
+    "0.9": {
+      "empirical_coverage": 0.9001252783964365,
+      "mean_width_points": 30.208622721580365,
+      "median_width_points": 32.967032967032964,
+      "nominal_coverage": 0.9,
+      "observations": 14368,
+      "p90_width_points": 32.967032967032964,
+      "radius_points": 16.483516483516482
+    },
+    "0.95": {
+      "empirical_coverage": 0.9499582405345212,
+      "mean_width_points": 34.831322967879046,
+      "median_width_points": 38.60370863868532,
+      "nominal_coverage": 0.95,
+      "observations": 14368,
+      "p90_width_points": 38.60370863868532,
+      "radius_points": 19.30185431934266
+    }
+  },
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "random_seed": 15001505,
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

@@ -1,0 +1,270 @@
+{
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "random_seed": 15001505,
+  "regime_distributions": {
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "distribution": {
+        "count": 2153,
+        "mean": 71.13370712358211,
+        "median": 73.42657342657343,
+        "p10": 41.608492096602234,
+        "p25": 56.10972568578554,
+        "p75": 89.02077151335311,
+        "p90": 96.54160549544162,
+        "p95": 98.48254698887611,
+        "p99": 100.0,
+        "std": 20.748404965113505
+      },
+      "rows": 2153
+    },
+    "FULL_PORTABLE": {
+      "distribution": {
+        "count": 14368,
+        "mean": 46.77740206454843,
+        "median": 45.066856837225885,
+        "p10": 8.59778101965602,
+        "p25": 21.800302181127883,
+        "p75": 71.24464036228743,
+        "p90": 87.76717184690472,
+        "p95": 93.6754906502903,
+        "p99": 98.6283903707222,
+        "std": 28.663402393694792
+      },
+      "rows": 14368
+    },
+    "TRADITIONAL_BOX": {
+      "distribution": {
+        "count": 55,
+        "mean": 64.57119453628688,
+        "median": 72.92418772563177,
+        "p10": 30.66115702479339,
+        "p25": 44.21487603305785,
+        "p75": 83.47107438016529,
+        "p90": 93.47107438016529,
+        "p95": 96.81818181818181,
+        "p99": 98.31404958677686,
+        "std": 23.82685517098767
+      },
+      "rows": 55
+    }
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "same_player": {
+    "REGIME_TRANSITION": {
+      "mean_absolute_change": 14.297262494145615,
+      "mean_signed_change": 0.5676102521977155,
+      "pairs": 2543,
+      "share_over_10": 0.517105780574125
+    },
+    "SAME_REGIME": {
+      "mean_absolute_change": 14.58274498712375,
+      "mean_signed_change": -0.9850049723903055,
+      "pairs": 10211,
+      "share_over_10": 0.5421604152384684
+    },
+    "largest_transition_examples": [
+      {
+        "change": 84.92384974329299,
+        "from": 1985,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_187600120c615d689992740b10470bd9",
+        "to": 1986,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 84.84148376331665,
+        "from": 1987,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_beef6086717957b6b4f7ea32786b16f6",
+        "to": 1988,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 84.31216931216932,
+        "from": 2013,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+        "to": 2014,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 80.14793605344786,
+        "from": 2003,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_4e1fe9838bcb58f2aefbbd37fa0a0ffe",
+        "to": 2004,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 72.87798408488064,
+        "from": 1998,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_26886f5b60d95951be747b54323ff4bc",
+        "to": 1999,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 70.40816326530611,
+        "from": 1987,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_48561c211390570ba1b88d7298305fff",
+        "to": 1988,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": -70.31804755795567,
+        "from": 1982,
+        "from_regime": "TRADITIONAL_BOX",
+        "player_id": "player_3b0291c4fa3651c791f236df3c9f3be5",
+        "to": 1983,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 66.60091338220056,
+        "from": 1994,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_de5276ad78be515b99120a0917f8afc1",
+        "to": 1995,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 64.85750141122355,
+        "from": 2024,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_b6b10e380ec050c6851bf24943c940a0",
+        "to": 2025,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 64.34146029126144,
+        "from": 1995,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_04644aef5f85544db7395a468da847e0",
+        "to": 1996,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 62.659431084627926,
+        "from": 2002,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_0576a2f3298b5a2abfd7dd903999b6da",
+        "to": 2003,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 61.22277195913384,
+        "from": 2008,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_66ca3198bf8c50d3955cdfbd3956aa12",
+        "to": 2009,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 60.47905909351693,
+        "from": 2012,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_54bcb31d5b925a30ac6feb0702c50c7c",
+        "to": 2013,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 60.00374366746573,
+        "from": 2005,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_eb0ebeba52cb57fa963bf6787ef5708e",
+        "to": 2006,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 59.779514603044014,
+        "from": 2016,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_77766d5ac3de52b5b9a05de500ec388b",
+        "to": 2017,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 59.69350382317033,
+        "from": 2008,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_a257ffff36ed5e44b94cd921f744b89d",
+        "to": 2009,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 59.43530701754385,
+        "from": 1999,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_73ece1fe22cc5db2a2bdab104dca42d9",
+        "to": 2000,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": -59.325341511011985,
+        "from": 2015,
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "player_id": "player_27cf13938bae504ca555dba68f0979d3",
+        "to": 2016,
+        "to_regime": "FULL_PORTABLE"
+      },
+      {
+        "change": -59.18642337629194,
+        "from": 2019,
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "player_id": "player_da1872c7da105a1e9004a167590d1e46",
+        "to": 2020,
+        "to_regime": "FULL_PORTABLE"
+      },
+      {
+        "change": 59.06746031746033,
+        "from": 2013,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_90deaa3780855df18a22f0861d30c417",
+        "to": 2014,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 58.71950964102708,
+        "from": 1996,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_d3f7d189157253f78064afc6712e62a0",
+        "to": 1997,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 58.24269847799259,
+        "from": 2016,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_1319d0dd9ec45909945e47ed21f8c53d",
+        "to": 2017,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": 58.226331107687045,
+        "from": 2004,
+        "from_regime": "FULL_PORTABLE",
+        "player_id": "player_b7cb996890125e1d9027fe636da3d621",
+        "to": 2005,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE"
+      },
+      {
+        "change": -57.89018283947289,
+        "from": 1997,
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "player_id": "player_e6b5b265bb30506f9069c7afa6d797a1",
+        "to": 1998,
+        "to_regime": "FULL_PORTABLE"
+      },
+      {
+        "change": -57.23735088440971,
+        "from": 2016,
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "player_id": "player_5d90001f0acd50d08cf2c04c90b59360",
+        "to": 2017,
+        "to_regime": "FULL_PORTABLE"
+      }
+    ]
+  },
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

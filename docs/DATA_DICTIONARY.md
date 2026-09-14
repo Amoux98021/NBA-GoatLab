@@ -279,3 +279,23 @@ Evidence regime is `EARLY_LIMITED`, `TRADITIONAL_BOX`, `EXPANDED_BOX_NO_PRESENCE
 `FULL_PORTABLE`, based on row-level observed channels rather than season date. Confidence is
 `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and never changes value. `promoted=false` is
 mandatory for every research row. NULL means the proposed construct is unavailable, never zero.
+
+## Gold historical evidence bridge-audit outputs
+
+Generated STEP-0015E outputs remain ignored under `data/gold/historical_bridge_audit/`. They are
+measurement evidence and do not replace Candidate D or any published V1 artifact.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `candidate-d-reconstruction` | player × qualified Regular Season | Exact STEP-0015D replay with components, regime, confidence, and frozen values. |
+| `bridge-player-season-counterfactual` | player × qualified Regular Season | Observed research score, diagnostic interval-only estimate, or unavailable state; never a promoted score. |
+| `bridge-case-studies` | selected player × season | Observed inputs, sparse-evidence interval, confidence, and reason codes. |
+| `modern-mask-controls` | predetermined modern player | Best full-evidence season under artificial expanded/traditional/early masks. |
+| `peak-counterfactual` | master player | Unchanged fixed-70/30 Candidate D downstream audit; rejected bridge midpoints excluded. |
+| `longevity-counterfactual` | master player | Unchanged fixed-35/40/25 Candidate D input audit; rejected bridge midpoints excluded. |
+
+`score_status` is `OBSERVED_RESEARCH_SCORE`, `INTERVAL_ONLY`, or `UNAVAILABLE`.
+`bridge_central_percentile` is not an official point score when status is `INTERVAL_ONLY`.
+`bridge_lower_90` and `bridge_upper_90` contain an empirical masking interval. `fallback_type`
+records the evidence regime used; it never claims an inferred channel was observed. Confidence is
+`STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and cannot alter quality.

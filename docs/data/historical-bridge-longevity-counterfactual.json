@@ -1,0 +1,19 @@
+{
+  "architecture": "35% P80 breadth + 40% capped P80-P90 area + 25% longest P80 run",
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "bridge_filled_rows": 0,
+  "comparison": {
+    "candidate_scores": 2950,
+    "overlap": 2950,
+    "pearson": 0.8071881767350214,
+    "spearman": 0.7832252818731877,
+    "top_100_overlap": 0.71,
+    "top_25_overlap": 0.68,
+    "top_50_overlap": 0.68
+  },
+  "coverage": 2950,
+  "random_seed": 15001505,
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

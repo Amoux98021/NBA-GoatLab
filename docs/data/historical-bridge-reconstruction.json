@@ -1,0 +1,18 @@
+{
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "random_seed": 15001505,
+  "reconstruction": {
+    "candidate_summary_matches": true,
+    "expected_rows": 22457,
+    "expected_scored_rows": 16576,
+    "longevity_counterfactual_maximum_difference": 0.0,
+    "maximum_numerical_difference": 0.0,
+    "mismatches": 0,
+    "peak_counterfactual_maximum_difference": 0.0,
+    "rows": 22457,
+    "scored_rows": 16576
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}

@@ -1,0 +1,346 @@
+{
+  "audit_methodology_version": "goatlab-v1-historical-evidence-bridge-audit-v1",
+  "creation": {
+    "C2_PPG_ERA_BLOCK": {
+      "calibration_intercept": 24.759781227907133,
+      "calibration_slope": 0.5047722365904512,
+      "mean_absolute_error": 16.63105023365876,
+      "mean_signed_error": -0.0016069425702986075,
+      "more_than_10_points": 0.6601783777268893,
+      "more_than_15_points": 0.4875858744124382,
+      "more_than_5_points": 0.8312040496565023,
+      "observations": 16594,
+      "p10_error": -28.364598602330673,
+      "p50_error": 2.3482179671089343,
+      "p90_error": 24.441387788103906,
+      "pearson": 0.710270124922434,
+      "r_squared": 0.5044834821749073,
+      "rmse": 20.320583922162175,
+      "spearman": 0.7098163417947938
+    },
+    "C2_PPG_GROUPED_RIDGE": {
+      "calibration_intercept": 24.763187881351154,
+      "calibration_slope": 0.5045737786715633,
+      "mean_absolute_error": 16.63037177133414,
+      "mean_signed_error": -0.008123185070706617,
+      "more_than_10_points": 0.6607207424370254,
+      "more_than_15_points": 0.4876461371580089,
+      "more_than_5_points": 0.8307219476919369,
+      "observations": 16594,
+      "p10_error": -28.400257696331202,
+      "p50_error": 2.314336911864739,
+      "p90_error": 24.375998580685575,
+      "pearson": 0.7101414605750418,
+      "r_squared": 0.5043006671815649,
+      "rmse": 20.324332096744815,
+      "spearman": 0.7097162837867209
+    },
+    "C2_PPG_RANDOM_ROW": {
+      "calibration_intercept": 24.74496416145978,
+      "calibration_slope": 0.5050589554351561,
+      "mean_absolute_error": 16.6178892562792,
+      "mean_signed_error": -0.0020880667824031873,
+      "more_than_10_points": 0.66023864047246,
+      "more_than_15_points": 0.48607930577317104,
+      "more_than_5_points": 0.8307219476919369,
+      "observations": 16594,
+      "p10_error": -28.402403451669606,
+      "p50_error": 2.3475231656375093,
+      "p90_error": 24.347346357756386,
+      "pearson": 0.7106760649902139,
+      "r_squared": 0.5050604641133551,
+      "rmse": 20.30874978090027,
+      "spearman": 0.7102350981326961
+    },
+    "C3_PPG_TS_ERA_BLOCK": {
+      "calibration_intercept": 23.420820104629527,
+      "calibration_slope": 0.5313823964448806,
+      "mean_absolute_error": 16.144380750532267,
+      "mean_signed_error": -0.010060073126460047,
+      "more_than_10_points": 0.6477039893937567,
+      "more_than_15_points": 0.4735446546944679,
+      "more_than_5_points": 0.8239122574424491,
+      "observations": 16594,
+      "p10_error": -27.56370458560875,
+      "p50_error": 1.928848226979947,
+      "p90_error": 23.753014204237562,
+      "pearson": 0.728727860015241,
+      "r_squared": 0.5310439572537358,
+      "rmse": 19.76847571825902,
+      "spearman": 0.728536794805636
+    },
+    "C3_PPG_TS_GROUPED_RIDGE": {
+      "calibration_intercept": 23.390466616094514,
+      "calibration_slope": 0.531957023098459,
+      "mean_absolute_error": 16.13482631658184,
+      "mean_signed_error": -0.011682228982558926,
+      "more_than_10_points": 0.6480655658671809,
+      "more_than_15_points": 0.4740267566590334,
+      "more_than_5_points": 0.8241533084247318,
+      "observations": 16594,
+      "p10_error": -27.523078745201712,
+      "p50_error": 1.951482161520948,
+      "p90_error": 23.755640905426866,
+      "pearson": 0.7289081004467045,
+      "r_squared": 0.5313060599066999,
+      "rmse": 19.762950579827717,
+      "spearman": 0.7286086847464655
+    }
+  },
+  "defense": {
+    "EARLY_MINIMAL": {
+      "era_block": {
+        "calibration_intercept": 47.34048939258142,
+        "calibration_slope": 0.03418884521045199,
+        "mean_absolute_error": 14.00775010644274,
+        "mean_signed_error": -0.011545385394911296,
+        "more_than_10_points": 0.5831013363028953,
+        "more_than_15_points": 0.4127923162583519,
+        "more_than_5_points": 0.7838947661469933,
+        "observations": 14368,
+        "p10_error": -23.078258071397876,
+        "p50_error": 0.23767254244329572,
+        "p90_error": 23.047332774107304,
+        "pearson": 0.1840047134340167,
+        "r_squared": 0.03385405596178259,
+        "rmse": 17.098103277168963,
+        "spearman": 0.17208421700842824
+      },
+      "fields": [
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.4902825417075908,
+          0.015486046435471901,
+          0.017215115623897888
+        ],
+        "feature_means": [
+          0.4920651942802822,
+          0.32694031038020854
+        ],
+        "feature_scales": [
+          0.2912252649721959,
+          0.30091952514758835
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 47.33865030633016,
+        "calibration_slope": 0.03429017498077748,
+        "mean_absolute_error": 14.008716936886362,
+        "mean_signed_error": -0.00841644991158579,
+        "more_than_10_points": 0.5826837416481069,
+        "more_than_15_points": 0.4132099109131403,
+        "more_than_5_points": 0.7836859688195991,
+        "observations": 14368,
+        "p10_error": -23.036295617256506,
+        "p50_error": 0.2553279307706574,
+        "p90_error": 22.95883814572351,
+        "pearson": 0.1837727218053015,
+        "r_squared": 0.033764241421843866,
+        "rmse": 17.098897992812837,
+        "spearman": 0.17096145292782783
+      }
+    },
+    "EARLY_WITH_PRESENCE": {
+      "era_block": {
+        "calibration_intercept": 22.843035432780283,
+        "calibration_slope": 0.5335389723044333,
+        "mean_absolute_error": 10.13104053397995,
+        "mean_signed_error": -0.026734393831431506,
+        "more_than_10_points": 0.4842706013363029,
+        "more_than_15_points": 0.24888641425389754,
+        "more_than_5_points": 0.7403257238307349,
+        "observations": 14368,
+        "p10_error": -16.127649300574674,
+        "p50_error": -0.0017483713776439425,
+        "p90_error": 16.16582235383957,
+        "pearson": 0.7294380762695397,
+        "r_squared": 0.5320735440334843,
+        "rmse": 11.899134366955874,
+        "spearman": 0.7200310421095495
+      },
+      "fields": [
+        "observed_presence",
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.49028254170759095,
+          0.14940542250640174,
+          0.020997735692392033,
+          -0.017746304320419234,
+          0.01292147609482969,
+          -0.01553979918646739
+        ],
+        "feature_means": [
+          0.5051930061414466,
+          0.4920651942802822,
+          0.3337106050863514,
+          0.32694031038020854,
+          0.2544046511894582
+        ],
+        "feature_scales": [
+          0.28016179545419806,
+          0.2912252649721959,
+          0.2905397986494871,
+          0.30091952514758835,
+          0.22133135284768318
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 22.896757909279145,
+        "calibration_slope": 0.5330032500939893,
+        "mean_absolute_error": 10.124143207548805,
+        "mean_signed_error": 0.0007225579688676406,
+        "more_than_10_points": 0.4839226057906459,
+        "more_than_15_points": 0.24756403118040088,
+        "more_than_5_points": 0.7394209354120267,
+        "observations": 14368,
+        "p10_error": -16.086283647447914,
+        "p50_error": 0.04123966843979088,
+        "p90_error": 16.232695649253206,
+        "pearson": 0.729919856578709,
+        "r_squared": 0.5327829042496179,
+        "rmse": 11.890111609399565,
+        "spearman": 0.7203955086365083
+      }
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "era_block": {
+        "calibration_intercept": 19.901015678691884,
+        "calibration_slope": 0.5943686022234227,
+        "mean_absolute_error": 9.49139209732391,
+        "mean_signed_error": 0.013616408861617283,
+        "more_than_10_points": 0.4622076837416481,
+        "more_than_15_points": 0.21478285077951,
+        "more_than_5_points": 0.7261971046770601,
+        "observations": 14368,
+        "p10_error": -15.361963031896103,
+        "p50_error": -0.02999794641506126,
+        "p90_error": 15.298935830303943,
+        "pearson": 0.7701926809769495,
+        "r_squared": 0.5931938381806481,
+        "rmse": 11.094821763245903,
+        "spearman": 0.7602683879296784
+      },
+      "fields": [
+        "role_aware_actions",
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.4902825417075907,
+          0.1103005113245887,
+          0.04748033504919675,
+          0.032585764419132024,
+          0.003292874055898924,
+          -0.01925272444168403
+        ],
+        "feature_means": [
+          0.4779976396459679,
+          0.4920651942802822,
+          0.2857590122974153,
+          0.32694031038020854,
+          0.23229388265292866
+        ],
+        "feature_scales": [
+          0.23932669886641894,
+          0.2912252649721959,
+          0.2361084673074554,
+          0.30091952514758835,
+          0.19643833073443112
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 19.909324605630722,
+        "calibration_slope": 0.5939215054653406,
+        "mean_absolute_error": 9.484361466189018,
+        "mean_signed_error": 4.962306283364636e-06,
+        "more_than_10_points": 0.4610244988864143,
+        "more_than_15_points": 0.21617483296213807,
+        "more_than_5_points": 0.7267538975501113,
+        "observations": 14368,
+        "p10_error": -15.369164575288492,
+        "p50_error": -0.047465241377323,
+        "p90_error": 15.28939980060501,
+        "pearson": 0.770605504106597,
+        "r_squared": 0.5938328297215023,
+        "rmse": 11.086104732791943,
+        "spearman": 0.7606092905028863
+      }
+    },
+    "TRADITIONAL_BOX": {
+      "era_block": {
+        "calibration_intercept": 25.67027140610534,
+        "calibration_slope": 0.4765091182841164,
+        "mean_absolute_error": 10.495958047270573,
+        "mean_signed_error": 0.00442740126421962,
+        "more_than_10_points": 0.4841314031180401,
+        "more_than_15_points": 0.2655902004454343,
+        "more_than_5_points": 0.7330178173719376,
+        "observations": 14368,
+        "p10_error": -16.609289712377954,
+        "p50_error": -0.138909450017341,
+        "p90_error": 16.951510822715765,
+        "pearson": 0.6898226658125013,
+        "r_squared": 0.4758543471795086,
+        "rmse": 12.593677353163038,
+        "spearman": 0.6807841026399304
+      },
+      "fields": [
+        "rpg",
+        "team_suppression"
+      ],
+      "full_fit_model": {
+        "alpha": 3.0,
+        "coefficients": [
+          0.4902825417075913,
+          0.11552241378831013,
+          0.03815534440337671,
+          0.00670036071452543,
+          0.005905001749740775,
+          -0.009248131909335086
+        ],
+        "feature_means": [
+          0.477112209503633,
+          0.4920651942802822,
+          0.31089966902981686,
+          0.32694031038020854,
+          0.2305379605851156
+        ],
+        "feature_scales": [
+          0.28855434249440337,
+          0.2912252649721959,
+          0.2924560727387848,
+          0.30091952514758835,
+          0.21548613078129342
+        ]
+      },
+      "grouped_player": {
+        "calibration_intercept": 25.679417386592483,
+        "calibration_slope": 0.4761730979020777,
+        "mean_absolute_error": 10.496577081245004,
+        "mean_signed_error": -0.0029011109457597033,
+        "more_than_10_points": 0.4837138084632517,
+        "more_than_15_points": 0.2648246102449889,
+        "more_than_5_points": 0.7332962138084632,
+        "observations": 14368,
+        "p10_error": -16.61716927716732,
+        "p50_error": -0.1253712718327804,
+        "p90_error": 16.964237712429735,
+        "pearson": 0.6898318699340782,
+        "r_squared": 0.47586778536282937,
+        "rmse": 12.593515912131535,
+        "spearman": 0.6807599112788628
+      }
+    }
+  },
+  "random_seed": 15001505,
+  "research_methodology_version": "goatlab-v1-player-season-value-bridge-research-v1",
+  "step": "STEP-0015E",
+  "upstream_step_0015d_fingerprint": "f96ee13b7aa7ba6101e2ad80b757cc28179a52b378cbd961ceb3f739bdcae282"
+}
