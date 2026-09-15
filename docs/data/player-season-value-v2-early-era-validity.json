@@ -1,0 +1,118 @@
+{
+  "audit_methodology_version": "goatlab-v1-player-season-value-v2-promotion-audit-v1",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25"
+  },
+  "players": [
+    {
+      "career_seasons": 13,
+      "longevity_eligible": true,
+      "longevity_score": 97.6897689768977,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 98.15053763440861,
+      "player_id": "player_c0f05230945752728b22330b9dc82c5b",
+      "player_name": "Bill Russell",
+      "regimes_json": "{\"TRADITIONAL_BOX\": 13}",
+      "scoreable_seasons": 12,
+      "unavailable_seasons": 1
+    },
+    {
+      "career_seasons": 11,
+      "longevity_eligible": true,
+      "longevity_score": 96.03960396039604,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 98.53763440860214,
+      "player_id": "player_0964eab26b0352848633666efec47577",
+      "player_name": "Bob Pettit",
+      "regimes_json": "{\"TRADITIONAL_BOX\": 11}",
+      "scoreable_seasons": 10,
+      "unavailable_seasons": 1
+    },
+    {
+      "career_seasons": 12,
+      "longevity_eligible": true,
+      "longevity_score": 97.15346534653466,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 97.93548387096774,
+      "player_id": "player_2b44bdc1faa55e7291f7cf4a2b10ad53",
+      "player_name": "Elgin Baylor",
+      "regimes_json": "{\"TRADITIONAL_BOX\": 12}",
+      "scoreable_seasons": 11,
+      "unavailable_seasons": 1
+    },
+    {
+      "career_seasons": 7,
+      "longevity_eligible": true,
+      "longevity_score": 85.89108910891089,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 93.33333333333333,
+      "player_id": "player_05b0acdecb0c5036a6a1bfc68d02bb64",
+      "player_name": "George Mikan",
+      "regimes_json": "{\"EARLY_LIMITED\": 2, \"TRADITIONAL_BOX\": 5}",
+      "scoreable_seasons": 5,
+      "unavailable_seasons": 2
+    },
+    {
+      "career_seasons": 14,
+      "longevity_eligible": true,
+      "longevity_score": 98.06105610561056,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 95.82795698924731,
+      "player_id": "player_4bbe7c73f11b5ab3a7cffc5bf83acca4",
+      "player_name": "Jerry West",
+      "regimes_json": "{\"EXPANDED_BOX_NO_PRESENCE\": 1, \"TRADITIONAL_BOX\": 13}",
+      "scoreable_seasons": 12,
+      "unavailable_seasons": 2
+    },
+    {
+      "career_seasons": 20,
+      "longevity_eligible": true,
+      "longevity_score": 99.00990099009901,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 99.61290322580645,
+      "player_id": "player_ee62fde09b405fa18c2516d1f5cd4e81",
+      "player_name": "Kareem Abdul-Jabbar",
+      "regimes_json": "{\"EXPANDED_BOX_NO_PRESENCE\": 8, \"FULL_PORTABLE\": 8, \"TRADITIONAL_BOX\": 4}",
+      "scoreable_seasons": 17,
+      "unavailable_seasons": 3
+    },
+    {
+      "career_seasons": 14,
+      "longevity_eligible": true,
+      "longevity_score": 98.12293729372938,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 98.23655913978494,
+      "player_id": "player_83c5532cc98055aea6d4e09814c0437c",
+      "player_name": "Oscar Robertson",
+      "regimes_json": "{\"EXPANDED_BOX_NO_PRESENCE\": 1, \"TRADITIONAL_BOX\": 13}",
+      "scoreable_seasons": 12,
+      "unavailable_seasons": 2
+    },
+    {
+      "career_seasons": 13,
+      "longevity_eligible": true,
+      "longevity_score": 97.35973597359735,
+      "partial_career": true,
+      "peak_eligible": true,
+      "peak_score": 99.89247311827957,
+      "player_id": "player_860bacb725f05f02b5871e085270f726",
+      "player_name": "Wilt Chamberlain",
+      "regimes_json": "{\"TRADITIONAL_BOX\": 13}",
+      "scoreable_seasons": 11,
+      "unavailable_seasons": 2
+    }
+  ],
+  "step": "STEP-0015G"
+}

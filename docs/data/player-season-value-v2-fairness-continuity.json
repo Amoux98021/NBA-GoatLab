@@ -1,0 +1,598 @@
+{
+  "archetypes": {
+    "BALANCED_ALL_AROUND": {
+      "distribution": {
+        "count": 1547,
+        "mean": 92.5182796207709,
+        "median": 94.36619718309859,
+        "p10": 83.09905433563071,
+        "p25": 89.06342408483737,
+        "p75": 97.61646524119409,
+        "p90": 99.16598226963964,
+        "p95": 99.71080733652045,
+        "p99": 100.0,
+        "std": 6.599448624393741
+      },
+      "player_seasons": 1547
+    },
+    "DEFENSIVE_ACTION_ANCHOR": {
+      "distribution": {
+        "count": 468,
+        "mean": 94.09096122188195,
+        "median": 96.77287379122242,
+        "p10": 84.19197860962566,
+        "p25": 91.24485549835224,
+        "p75": 99.03264389276234,
+        "p90": 99.75279718379596,
+        "p95": 100.0,
+        "p99": 100.0,
+        "std": 6.784453663276918
+      },
+      "player_seasons": 468
+    },
+    "EFFICIENCY_DOMINANT_SCORER": {
+      "distribution": {
+        "count": 1388,
+        "mean": 50.75137237337181,
+        "median": 51.66882396449704,
+        "p10": 16.36809536621205,
+        "p25": 31.44258518323356,
+        "p75": 69.49927812048826,
+        "p90": 83.55556975661415,
+        "p95": 88.86028942685424,
+        "p99": 95.80798368298368,
+        "std": 24.32107480179901
+      },
+      "player_seasons": 1388
+    },
+    "HIGH_VOLUME_SCORER": {
+      "distribution": {
+        "count": 2141,
+        "mean": 89.10264755831147,
+        "median": 91.91176470588235,
+        "p10": 74.609375,
+        "p25": 83.94366197183099,
+        "p75": 96.71717171717172,
+        "p90": 98.94366197183099,
+        "p95": 99.56616052060737,
+        "p99": 100.0,
+        "std": 9.725467630023177
+      },
+      "player_seasons": 2141
+    },
+    "OFFENSIVE_ENGINE": {
+      "distribution": {
+        "count": 83,
+        "mean": 85.16510215454791,
+        "median": 86.29441624365482,
+        "p10": 73.8655779732223,
+        "p25": 80.82196927007026,
+        "p75": 91.16460462614309,
+        "p90": 93.63627869005641,
+        "p95": 95.17273705774105,
+        "p99": 97.39958140363376,
+        "std": 7.743314795827933
+      },
+      "player_seasons": 83
+    },
+    "PRIMARY_CREATOR": {
+      "distribution": {
+        "count": 2141,
+        "mean": 84.12337219359189,
+        "median": 86.7704280155642,
+        "p10": 65.70605187319885,
+        "p25": 76.27118644067797,
+        "p75": 94.82352941176471,
+        "p90": 98.21428571428571,
+        "p95": 99.19786096256685,
+        "p99": 100.0,
+        "std": 12.816914427362939
+      },
+      "player_seasons": 2141
+    },
+    "REBOUND_INTERIOR": {
+      "distribution": {
+        "count": 2141,
+        "mean": 83.4141224301884,
+        "median": 87.15277777777777,
+        "p10": 61.92893401015228,
+        "p25": 74.64788732394366,
+        "p75": 95.1923076923077,
+        "p90": 98.6013986013986,
+        "p95": 99.47368421052632,
+        "p99": 100.0,
+        "std": 14.282797940705628
+      },
+      "player_seasons": 2141
+    },
+    "TWO_WAY_EVIDENCE": {
+      "distribution": {
+        "count": 858,
+        "mean": 95.23195357657795,
+        "median": 96.79021733797774,
+        "p10": 88.35443037974683,
+        "p25": 93.2507520053476,
+        "p75": 98.78488437810472,
+        "p90": 99.6493544600939,
+        "p95": 100.0,
+        "p99": 100.0,
+        "std": 4.753893832708238
+      },
+      "player_seasons": 858
+    }
+  },
+  "audit_methodology_version": "goatlab-v1-player-season-value-v2-promotion-audit-v1",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25"
+  },
+  "role_and_regime": {
+    "DECADE:1950s": {
+      "distribution": {
+        "count": 942,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.642440730664594,
+        "p25": 24.694989106753813,
+        "p75": 75.30501089324619,
+        "p90": 90.3575592693354,
+        "p95": 95.34610123119015,
+        "p99": 99.66393442622953,
+        "std": 29.17565716103007
+      },
+      "rows": 942
+    },
+    "DECADE:1960s": {
+      "distribution": {
+        "count": 1086,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.615384615384615,
+        "p25": 24.76873599768736,
+        "p75": 75.23126400231264,
+        "p90": 90.38461538461539,
+        "p95": 95.26034107402032,
+        "p99": 99.28340819764179,
+        "std": 29.107812302291567
+      },
+      "rows": 1086
+    },
+    "DECADE:1970s": {
+      "distribution": {
+        "count": 1596,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.784773284313726,
+        "p25": 24.97568093385214,
+        "p75": 75.02431906614785,
+        "p90": 90.21522671568627,
+        "p95": 95.1516544117647,
+        "p99": 99.21890199416342,
+        "std": 28.99441164306563
+      },
+      "rows": 1596
+    },
+    "DECADE:1980s": {
+      "distribution": {
+        "count": 2948,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.862508383635145,
+        "p25": 24.913494809688583,
+        "p75": 75.08650519031141,
+        "p90": 90.13749161636485,
+        "p95": 95.14982218377547,
+        "p99": 99.19065126050424,
+        "std": 28.965603627209834
+      },
+      "rows": 2948
+    },
+    "DECADE:1990s": {
+      "distribution": {
+        "count": 3620,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.895554812834225,
+        "p25": 24.91684279209634,
+        "p75": 75.08315720790367,
+        "p90": 90.10444518716578,
+        "p95": 95.09564268270657,
+        "p99": 99.13353105754446,
+        "std": 28.947368915442286
+      },
+      "rows": 3620
+    },
+    "DECADE:2000s": {
+      "distribution": {
+        "count": 3918,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.914712860001856,
+        "p25": 24.938108723349014,
+        "p75": 75.06189127665098,
+        "p90": 90.08528713999814,
+        "p95": 95.13847261304888,
+        "p99": 99.1623781166154,
+        "std": 28.941287103434767
+      },
+      "rows": 3918
+    },
+    "DECADE:2010s": {
+      "distribution": {
+        "count": 4244,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.89637046307885,
+        "p25": 24.941587823940765,
+        "p75": 75.05841217605924,
+        "p90": 90.10362953692116,
+        "p95": 95.08191935250758,
+        "p99": 99.06382558617852,
+        "std": 28.935613429723514
+      },
+      "rows": 4244
+    },
+    "DECADE:2020s": {
+      "distribution": {
+        "count": 2753,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.94148553297131,
+        "p25": 24.945770065075923,
+        "p75": 75.05422993492408,
+        "p90": 90.0585144670287,
+        "p95": 95.0502946138118,
+        "p99": 99.1275508747895,
+        "std": 28.9304972352439
+      },
+      "rows": 2753
+    },
+    "REGIME:EXPANDED_BOX_NO_PRESENCE": {
+      "distribution": {
+        "count": 3990,
+        "mean": 61.95996215304801,
+        "median": 65.625,
+        "p10": 21.767762660619802,
+        "p25": 43.077202826267666,
+        "p75": 84.83181809799547,
+        "p90": 94.81100855152125,
+        "p95": 97.6666175085932,
+        "p99": 99.73706884705236,
+        "std": 26.67974169970222
+      },
+      "rows": 3990
+    },
+    "REGIME:FULL_PORTABLE": {
+      "distribution": {
+        "count": 14687,
+        "mean": 46.75085116152641,
+        "median": 45.02923976608187,
+        "p10": 8.565112221429139,
+        "p25": 21.691575220109733,
+        "p75": 71.27937336814621,
+        "p90": 87.76799383508862,
+        "p95": 93.65840635468629,
+        "p99": 98.63872162183772,
+        "std": 28.683359075834606
+      },
+      "rows": 14687
+    },
+    "REGIME:TRADITIONAL_BOX": {
+      "distribution": {
+        "count": 2430,
+        "mean": 50.0,
+        "median": 50.0,
+        "p10": 9.636237256719186,
+        "p25": 24.73395410708347,
+        "p75": 75.26604589291652,
+        "p90": 90.3637627432808,
+        "p95": 95.32421340629274,
+        "p99": 99.33319296275502,
+        "std": 29.118233377763385
+      },
+      "rows": 2430
+    },
+    "ROLE:BIG": {
+      "distribution": {
+        "count": 3685,
+        "mean": 48.29491386596197,
+        "median": 46.724890829694324,
+        "p10": 8.599287974683545,
+        "p25": 21.90889370932755,
+        "p75": 74.57627118644068,
+        "p90": 90.36579376461113,
+        "p95": 95.56293105477482,
+        "p99": 99.42301062114218,
+        "std": 29.716937789421884
+      },
+      "rows": 3685
+    },
+    "ROLE:FORWARD": {
+      "distribution": {
+        "count": 5034,
+        "mean": 48.01381839165409,
+        "median": 47.288104430961575,
+        "p10": 7.926000503397938,
+        "p25": 21.529148763209847,
+        "p75": 73.1583605664488,
+        "p90": 90.27615650670126,
+        "p95": 95.20391246684348,
+        "p99": 99.4006399646916,
+        "std": 29.64122409267595
+      },
+      "rows": 5034
+    },
+    "ROLE:GUARD": {
+      "distribution": {
+        "count": 5728,
+        "mean": 52.85650824693186,
+        "median": 53.886421427360574,
+        "p10": 14.026035604982974,
+        "p25": 30.09596368212873,
+        "p75": 76.39377934272301,
+        "p90": 89.57922535211267,
+        "p95": 94.93221101330077,
+        "p99": 98.67797963468607,
+        "std": 27.45886374671917
+      },
+      "rows": 5728
+    },
+    "ROLE:WING": {
+      "distribution": {
+        "count": 1199,
+        "mean": 51.14076415135087,
+        "median": 52.139037433155075,
+        "p10": 10.891773334789114,
+        "p25": 26.133993925907266,
+        "p75": 75.21739861032927,
+        "p90": 90.64468211527036,
+        "p95": 95.55701754385962,
+        "p99": 99.24262430710681,
+        "std": 28.706070725349026
+      },
+      "rows": 1199
+    }
+  },
+  "step": "STEP-0015G",
+  "temporal_continuity": {
+    "groups": {
+      "ALL_ADJACENT": {
+        "mean_absolute_change": 14.69262053513382,
+        "mean_signed_change": -0.7258949105652387,
+        "pairs": 16143,
+        "share_over_15_points": 0.38970451588923993
+      },
+      "REGIME_CHANGED": {
+        "mean_absolute_change": 14.712329845840092,
+        "mean_signed_change": 0.050225209969856605,
+        "pairs": 3561,
+        "share_over_15_points": 0.3909014321819714
+      },
+      "SAME_REGIME": {
+        "mean_absolute_change": 14.687042339662112,
+        "mean_signed_change": -0.9455550400538313,
+        "pairs": 12582,
+        "share_over_15_points": 0.3893657606103958
+      },
+      "SAME_TEAM": {
+        "mean_absolute_change": 13.635526283979203,
+        "mean_signed_change": 0.14821487491895502,
+        "pairs": 10989,
+        "share_over_15_points": 0.3546273546273546
+      },
+      "TEAM_CHANGED": {
+        "mean_absolute_change": 16.946483306949517,
+        "mean_signed_change": -2.589610943294343,
+        "pairs": 5154,
+        "share_over_15_points": 0.46449359720605354
+      }
+    },
+    "interpretation": "Adjacent-season changes are diagnostic only; transitions can mix real performance, team changes, and evidence-regime changes.",
+    "large_regime_transition_examples": [
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1987,
+        "player_id": "player_beef6086717957b6b4f7ea32786b16f6",
+        "score_change": 84.84148376331665,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1988
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1985,
+        "player_id": "player_187600120c615d689992740b10470bd9",
+        "score_change": 84.7522587466359,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1986
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2013,
+        "player_id": "player_7d611c69e597575d839b46dffcaf83b8",
+        "score_change": 84.31216931216932,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2014
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2003,
+        "player_id": "player_4e1fe9838bcb58f2aefbbd37fa0a0ffe",
+        "score_change": 79.89541080092262,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2004
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1977,
+        "player_id": "player_dac6ed0e8bf25593b040aceed0746967",
+        "score_change": -76.19315418287937,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1978
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1998,
+        "player_id": "player_26886f5b60d95951be747b54323ff4bc",
+        "score_change": 72.87798408488064,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1999
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1987,
+        "player_id": "player_48561c211390570ba1b88d7298305fff",
+        "score_change": 70.40816326530611,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1988
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1977,
+        "player_id": "player_fd2321fb2e6f5d39a47676263833a9f9",
+        "score_change": 66.89567120622569,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1978
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1994,
+        "player_id": "player_de5276ad78be515b99120a0917f8afc1",
+        "score_change": 66.60091338220056,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1995
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1980,
+        "player_id": "player_75f31fd18db150d2a107b2d43b37115f",
+        "score_change": 65.37176059234882,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1981
+      },
+      {
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "from_season": 1986,
+        "player_id": "player_70b2b5fad42d537d8c73dc9a5218c170",
+        "score_change": 65.29195011337869,
+        "to_regime": "FULL_PORTABLE",
+        "to_season": 1987
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2024,
+        "player_id": "player_b6b10e380ec050c6851bf24943c940a0",
+        "score_change": 64.85750141122355,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2025
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1995,
+        "player_id": "player_04644aef5f85544db7395a468da847e0",
+        "score_change": 64.34146029126144,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1996
+      },
+      {
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "from_season": 1979,
+        "player_id": "player_5ed7d20863fd577c84b7de13b9691ca8",
+        "score_change": 63.115129320210585,
+        "to_regime": "FULL_PORTABLE",
+        "to_season": 1980
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2002,
+        "player_id": "player_0576a2f3298b5a2abfd7dd903999b6da",
+        "score_change": 62.659431084627926,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2003
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1977,
+        "player_id": "player_a47392dd0bd253099d4b3d5844de8c77",
+        "score_change": -62.126094357976655,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 1978
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2008,
+        "player_id": "player_66ca3198bf8c50d3955cdfbd3956aa12",
+        "score_change": 61.22277195913384,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2009
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2012,
+        "player_id": "player_54bcb31d5b925a30ac6feb0702c50c7c",
+        "score_change": 60.47905909351693,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2013
+      },
+      {
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "from_season": 1984,
+        "player_id": "player_48561c211390570ba1b88d7298305fff",
+        "score_change": -59.86159169550174,
+        "to_regime": "FULL_PORTABLE",
+        "to_season": 1985
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2016,
+        "player_id": "player_77766d5ac3de52b5b9a05de500ec388b",
+        "score_change": 59.779514603044014,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2017
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2005,
+        "player_id": "player_eb0ebeba52cb57fa963bf6787ef5708e",
+        "score_change": 59.75436710886224,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2006
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 2008,
+        "player_id": "player_a257ffff36ed5e44b94cd921f744b89d",
+        "score_change": 59.69350382317033,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2009
+      },
+      {
+        "from_regime": "FULL_PORTABLE",
+        "from_season": 1999,
+        "player_id": "player_73ece1fe22cc5db2a2bdab104dca42d9",
+        "score_change": 59.43530701754385,
+        "to_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "to_season": 2000
+      },
+      {
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "from_season": 2015,
+        "player_id": "player_27cf13938bae504ca555dba68f0979d3",
+        "score_change": -59.325341511011985,
+        "to_regime": "FULL_PORTABLE",
+        "to_season": 2016
+      },
+      {
+        "from_regime": "EXPANDED_BOX_NO_PRESENCE",
+        "from_season": 1982,
+        "player_id": "player_d298b62951f7587db61291bb228456ca",
+        "score_change": 59.070022974727806,
+        "to_regime": "FULL_PORTABLE",
+        "to_season": 1983
+      }
+    ]
+  }
+}

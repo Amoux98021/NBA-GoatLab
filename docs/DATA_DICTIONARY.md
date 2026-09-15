@@ -334,3 +334,23 @@ Generated STEP-0015F diagnostics remain ignored under
 
 All research outputs retain the frozen corpus identifier and versioned recovery methodology.
 Confidence remains separate from quality, and no modeled historical statistic enters these tables.
+
+## Gold PlayerSeasonValue V2 promotion-audit outputs
+
+Generated STEP-0015G outputs remain ignored under
+`data/gold/player_season_value_v2_promotion_audit/`. They do not replace V1 or create a production
+PlayerSeasonValue method.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `candidate-d-reconstruction` | player × qualified Regular Season | Exact recovered-fact Candidate D replay with raw/percentile value, regime, confidence, components, and reason codes. |
+| `source-conflict-counterfactual` | conflict-affected scoreable player-season | Canonical versus non-canonical source score sensitivity after within-season reranking. |
+| `diagnostic-player-seasons` | predetermined player × top candidate season | Recovered offensive/defensive evidence, regime, confidence, and unresolved historical channels. |
+| `early-era-player-validity` | predetermined early player | Career scoreable/unavailable counts and diagnostic Peak/Longevity eligibility. |
+| `peak-counterfactual` | master player | Fixed 70/30 research Peak from Candidate D; never promoted. |
+| `longevity-counterfactual` | master player | Fixed 35/40/25 research Longevity from Candidate D; never promoted. |
+
+`canonical_source_rule` is source precedence, not a blended value. `difference_points` is the
+alternate-source minus canonical within-season percentile on a 0–100 scale. An unavailable value
+remains NULL. STEP-0015G's verdict is `DO_NOT_PROMOTE`, so there is no official
+`goatlab-v1-player-season-value-v2` artifact.

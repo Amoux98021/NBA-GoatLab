@@ -1,0 +1,1506 @@
+{
+  "actual_vs_masking": {
+    "actual_factual_coverage_pct": 0.9398851137729883,
+    "actual_non_full_regime_share": 0.3459945673954669,
+    "actual_non_full_scoreable_seasons": 6420,
+    "actual_non_full_share_of_scores": 0.3041644951911688,
+    "counterfactual_masking_is_not_actual_missingness": true,
+    "finding": "Factual recovery solves most offensive collection gaps, but non-full regimes are not rare: they remain a material share of actual seasons. Their 7-8 point masking MAE therefore remains a universal-scale comparability blocker."
+  },
+  "audit_methodology_version": "goatlab-v1-player-season-value-v2-promotion-audit-v1",
+  "conflict_sensitivity": {
+    "interpretation": "The alternate is the non-canonical overlapping source. Statistics are never averaged, and every candidate is reranked within season.",
+    "percentile_score": {
+      "maximum_absolute_difference": 15.916955017301044,
+      "mean_absolute_error": 0.3206117140699792,
+      "more_than_10_points": 0.0019434247462751025,
+      "more_than_2_points": 0.029583243359965452,
+      "more_than_5_points": 0.005398402072986396,
+      "observations": 4631
+    },
+    "raw_score": {
+      "maximum_absolute_difference": 11.992474048442908,
+      "mean_absolute_error": 0.1968534682474627,
+      "more_than_10_points": 0.0004318721658389117,
+      "more_than_2_points": 0.011228676311811703,
+      "more_than_5_points": 0.0036709134096307495,
+      "observations": 4631
+    },
+    "signed_mean_difference": 0.007543463079699208
+  },
+  "coverage": {
+    "confidence": {
+      "LIMITED": 2890,
+      "MODERATE": 10760,
+      "STRONG": 7457
+    },
+    "remaining_unavailable": 1350,
+    "scoreable_player_seasons": 21107,
+    "scoreable_players": 3893,
+    "total_player_seasons": 22457
+  },
+  "deterministic_rebuild_verified": true,
+  "gates": {
+    "confidence_separate": true,
+    "conflict_stable": true,
+    "coverage_broad": true,
+    "deterministic": true,
+    "frozen_v1_unchanged": true,
+    "missingness_explicit": true,
+    "no_award_playoff_championship_inputs": true,
+    "no_player_specific_tuning": true,
+    "reconstruction_exact": true,
+    "regime_comparability_acceptable": false,
+    "remaining_historical_limitations": true,
+    "team_context_nondominant": true
+  },
+  "influence": {
+    "defense_axis": {
+      "mean_effective_weight": 0.4998318093523476,
+      "shapley_covariance_variance_share": 0.37910187551265095
+    },
+    "offense_axis": {
+      "mean_effective_weight": 0.5001681906476525,
+      "shapley_covariance_variance_share": 0.6208981244873484
+    },
+    "primitive_effective_weights": {
+      "apg": {
+        "covariance_variance_share": 0.3295841433323561,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.33,
+        "mean_effective_weight": 0.24974131804614588
+      },
+      "bpg": {
+        "covariance_variance_share": 0.11130303499396119,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.14850000000000002,
+        "mean_effective_weight": 0.0901669791400539
+      },
+      "ppg": {
+        "covariance_variance_share": 0.22524062901666103,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.21450000000000002,
+        "mean_effective_weight": 0.16277746719097932
+      },
+      "presence": {
+        "covariance_variance_share": -0.010235499375491041,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.1925,
+        "mean_effective_weight": 0.13855118844089084
+      },
+      "rpg": {
+        "covariance_variance_share": 0.16491419069417654,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.24750000000000003,
+        "mean_effective_weight": 0.13096348169611424
+      },
+      "spg": {
+        "covariance_variance_share": 0.11130303499396119,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.14850000000000002,
+        "mean_effective_weight": 0.0901669791400539
+      },
+      "team_context": {
+        "covariance_variance_share": 0.0018171142060433149,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.05500000000000001,
+        "mean_effective_weight": 0.04998318093523476
+      },
+      "ts_pct": {
+        "covariance_variance_share": 0.0660733521383319,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.11549999999999999,
+        "mean_effective_weight": 0.08764940541052732
+      }
+    },
+    "role_adjustment": {
+      "additive_weight": 0.0,
+      "interpretation": "ROLE_CONDITIONS_ACTION_EVIDENCE_AND_IS_NOT_AN_ADDITIVE_VALUE_CHANNEL",
+      "role_aware_rows": 15646
+    },
+    "team_context": {
+      "correlation_with_value": 0.07131514861722793,
+      "maximum_effective_weight": 0.05500000000000001,
+      "mean_effective_weight": 0.04998318093523476
+    }
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25"
+  },
+  "longevity": {
+    "candidate_scores": 3893,
+    "overlap": 3893,
+    "pearson": 0.803119300854101,
+    "spearman": 0.7749966402889736,
+    "top_100_overlap": 0.74,
+    "top_25_overlap": 0.72,
+    "top_50_overlap": 0.72
+  },
+  "longevity_coverage": 3893,
+  "masking": {
+    "EARLY_MINIMAL": {
+      "interval_calibration": {
+        "0.8": {
+          "empirical_coverage": 0.8000272349697011,
+          "mean_width_points": 33.451380341680064,
+          "median_width_points": 36.90205011389523,
+          "nominal_coverage": 0.8,
+          "observations": 14687,
+          "p90_width_points": 36.90205011389524,
+          "radius_points": 18.451025056947618
+        },
+        "0.9": {
+          "empirical_coverage": 0.9001157486212297,
+          "mean_width_points": 42.34651028587684,
+          "median_width_points": 48.21428571428571,
+          "nominal_coverage": 0.9,
+          "observations": 14687,
+          "p90_width_points": 48.21428571428572,
+          "radius_points": 24.107142857142858
+        },
+        "0.95": {
+          "empirical_coverage": 0.9499557431742357,
+          "mean_width_points": 49.74947667987699,
+          "median_width_points": 54.07300031445816,
+          "nominal_coverage": 0.95,
+          "observations": 14687,
+          "p90_width_points": 58.3143507972665,
+          "radius_points": 29.15717539863325
+        }
+      },
+      "metrics": {
+        "calibration_intercept": 6.306569767226132,
+        "calibration_slope": 0.8738686046554769,
+        "maximum_absolute_major_role_bias": 2.834106382677672,
+        "mean_absolute_error": 11.338708815103415,
+        "mean_signed_error": -5.805482963928101e-18,
+        "more_than_10_points": 0.4702798393136788,
+        "more_than_15_points": 0.28909920337713624,
+        "more_than_5_points": 0.7027303057125349,
+        "observations": 14687,
+        "p10_error": -18.47564169722368,
+        "p50_error": 0.2762430939226568,
+        "p90_error": 18.360655737704924,
+        "pearson": 0.8738686046554774,
+        "r_squared": 0.7477372093109551,
+        "rmse": 14.543432197570267,
+        "spearman": 0.8738656106609215
+      },
+      "point_score_status": "REJECTED",
+      "practical_gates": {
+        "absolute_bias_at_most_2": true,
+        "mae_at_most_5": false,
+        "major_role_bias_at_most_3": true,
+        "over_10_at_most_15_pct": false,
+        "passes": false,
+        "spearman_at_least_0_95": false
+      },
+      "role_metrics": {
+        "BIG": {
+          "calibration_intercept": 3.531648855097115,
+          "calibration_slope": 0.8953757359883554,
+          "mean_absolute_error": 10.906249906948103,
+          "mean_signed_error": -1.3508103953338992,
+          "more_than_10_points": 0.46319702602230484,
+          "more_than_15_points": 0.2765799256505576,
+          "more_than_5_points": 0.6895910780669146,
+          "observations": 2690,
+          "p10_error": -19.163286407380898,
+          "p50_error": -0.7380475781962881,
+          "p90_error": 16.29927751806205,
+          "pearson": 0.8868669060162011,
+          "r_squared": 0.7693117945288542,
+          "rmse": 13.962704684652556,
+          "spearman": 0.883800420112963
+        },
+        "FORWARD": {
+          "calibration_intercept": 8.401270355303964,
+          "calibration_slope": 0.8811056858106966,
+          "mean_absolute_error": 11.3900520885654,
+          "mean_signed_error": 2.834106382677672,
+          "more_than_10_points": 0.4713435640463514,
+          "more_than_15_points": 0.2981522079549013,
+          "more_than_5_points": 0.7068587535233323,
+          "observations": 3193,
+          "p10_error": -14.648094132587245,
+          "p50_error": 2.622950819672132,
+          "p90_error": 21.395431728398737,
+          "pearson": 0.8802423133680579,
+          "r_squared": 0.7507454056863729,
+          "rmse": 14.514421758096672,
+          "spearman": 0.8798853790201657
+        },
+        "GUARD": {
+          "calibration_intercept": 5.252288356017316,
+          "calibration_slope": 0.87281850117408,
+          "mean_absolute_error": 11.837956565608025,
+          "mean_signed_error": -1.7275291610177272,
+          "more_than_10_points": 0.48332040341349886,
+          "more_than_15_points": 0.30592190328419966,
+          "more_than_5_points": 0.7124385828807861,
+          "observations": 3867,
+          "p10_error": -21.202239789196312,
+          "p50_error": -1.4204545454545525,
+          "p90_error": 17.042802109542695,
+          "pearson": 0.8529110507866648,
+          "r_squared": 0.694455551346976,
+          "rmse": 15.183188551860285,
+          "spearman": 0.8551324775836415
+        },
+        "UNKNOWN": {
+          "calibration_intercept": 6.063071882325548,
+          "calibration_slope": 0.8715024486356993,
+          "mean_absolute_error": 10.953590569512912,
+          "mean_signed_error": -0.34522322611119644,
+          "more_than_10_points": 0.46266358737490376,
+          "more_than_15_points": 0.2704644598409033,
+          "more_than_5_points": 0.6959199384141648,
+          "observations": 3897,
+          "p10_error": -18.019566367001588,
+          "p50_error": 0.0,
+          "p90_error": 17.025997830396886,
+          "pearson": 0.8857933292716056,
+          "r_squared": 0.7748757326745328,
+          "rmse": 14.05970897628087,
+          "spearman": 0.884519920242792
+        },
+        "WING": {
+          "calibration_intercept": 10.673792903734231,
+          "calibration_slope": 0.8389943774786671,
+          "mean_absolute_error": 11.886391644563545,
+          "mean_signed_error": 2.509681212855064,
+          "more_than_10_points": 0.4653846153846154,
+          "more_than_15_points": 0.30096153846153845,
+          "more_than_5_points": 0.7134615384615385,
+          "observations": 1040,
+          "p10_error": -15.582033906844346,
+          "p50_error": 3.149606299212598,
+          "p90_error": 21.82175275776449,
+          "pearson": 0.8553282698133122,
+          "r_squared": 0.7080938701458522,
+          "rmse": 15.428858815505773,
+          "spearman": 0.8536451823720325
+        }
+      }
+    },
+    "EARLY_WITH_PRESENCE": {
+      "interval_calibration": {
+        "0.8": {
+          "empirical_coverage": 0.8000953223939539,
+          "mean_width_points": 25.840236051752967,
+          "median_width_points": 27.810650887573974,
+          "nominal_coverage": 0.8,
+          "observations": 14687,
+          "p90_width_points": 27.810650887573974,
+          "radius_points": 13.905325443786987
+        },
+        "0.9": {
+          "empirical_coverage": 0.8999795737727242,
+          "mean_width_points": 33.386755652364116,
+          "median_width_points": 36.82273167581529,
+          "nominal_coverage": 0.9,
+          "observations": 14687,
+          "p90_width_points": 36.8227316758153,
+          "radius_points": 18.41136583790765
+        },
+        "0.95": {
+          "empirical_coverage": 0.9499557431742357,
+          "mean_width_points": 39.22728287031219,
+          "median_width_points": 44.154124021673674,
+          "nominal_coverage": 0.95,
+          "observations": 14687,
+          "p90_width_points": 44.15412402167369,
+          "radius_points": 22.07706201083684
+        }
+      },
+      "metrics": {
+        "calibration_intercept": 3.6100921992242476,
+        "calibration_slope": 0.9277981560155144,
+        "maximum_absolute_major_role_bias": 2.5694791735868416,
+        "mean_absolute_error": 8.407081820294662,
+        "mean_signed_error": 1.6448868397796287e-17,
+        "more_than_10_points": 0.33471777762647237,
+        "more_than_15_points": 0.17164839654115885,
+        "more_than_5_points": 0.5973990603935453,
+        "observations": 14687,
+        "p10_error": -14.126394052044608,
+        "p50_error": 0.3891050583657574,
+        "p90_error": 13.70204412580548,
+        "pearson": 0.9277981560155145,
+        "r_squared": 0.8555963120310299,
+        "rmse": 11.003464714176483,
+        "spearman": 0.9277959599077893
+      },
+      "point_score_status": "REJECTED",
+      "practical_gates": {
+        "absolute_bias_at_most_2": true,
+        "mae_at_most_5": false,
+        "major_role_bias_at_most_3": true,
+        "over_10_at_most_15_pct": false,
+        "passes": false,
+        "spearman_at_least_0_95": false
+      },
+      "role_metrics": {
+        "BIG": {
+          "calibration_intercept": 2.313855537284984,
+          "calibration_slope": 0.9598660769200684,
+          "mean_absolute_error": 7.478862579539575,
+          "mean_signed_error": 0.44094158325337546,
+          "more_than_10_points": 0.28736059479553905,
+          "more_than_15_points": 0.12639405204460966,
+          "more_than_5_points": 0.5628252788104089,
+          "observations": 2690,
+          "p10_error": -12.1311475409836,
+          "p50_error": 0.7026377713053922,
+          "p90_error": 12.396064329237836,
+          "pearson": 0.9446635095872686,
+          "r_squared": 0.8870568956458058,
+          "rmse": 9.769823493731044,
+          "spearman": 0.9434029599807183
+        },
+        "FORWARD": {
+          "calibration_intercept": 5.487967505640968,
+          "calibration_slope": 0.93727658762363,
+          "mean_absolute_error": 8.056072839816828,
+          "mean_signed_error": 2.5509765822068213,
+          "more_than_10_points": 0.3191356091450047,
+          "more_than_15_points": 0.15815847165674915,
+          "more_than_5_points": 0.5837770122142186,
+          "observations": 3193,
+          "p10_error": -9.820613176777558,
+          "p50_error": 2.3668639053254448,
+          "p90_error": 15.328867623604468,
+          "pearson": 0.9383656068615892,
+          "r_squared": 0.8691735306412643,
+          "rmse": 10.515404006832318,
+          "spearman": 0.9385944716441017
+        },
+        "GUARD": {
+          "calibration_intercept": 1.9195902107641736,
+          "calibration_slope": 0.918203223616964,
+          "mean_absolute_error": 9.511525620604267,
+          "mean_signed_error": -2.5694791735868416,
+          "more_than_10_points": 0.38996638220843033,
+          "more_than_15_points": 0.21903284199637962,
+          "more_than_5_points": 0.647788983708301,
+          "observations": 3867,
+          "p10_error": -18.460173267100295,
+          "p50_error": -1.9455252918287869,
+          "p90_error": 12.45442367799962,
+          "pearson": 0.906445935518864,
+          "r_squared": 0.8015460807745873,
+          "rmse": 12.236455259364437,
+          "spearman": 0.9091157576951729
+        },
+        "UNKNOWN": {
+          "calibration_intercept": 3.093956096531486,
+          "calibration_slope": 0.9310068113599917,
+          "mean_absolute_error": 8.07586674854858,
+          "mean_signed_error": -0.34679984459728147,
+          "more_than_10_points": 0.3176802668719528,
+          "more_than_15_points": 0.16037977931742367,
+          "more_than_5_points": 0.5778804208365409,
+          "observations": 3897,
+          "p10_error": -14.012738853503183,
+          "p50_error": 0.0,
+          "p90_error": 13.118852459016397,
+          "pearson": 0.9352604568763582,
+          "r_squared": 0.870952140128368,
+          "rmse": 10.64487530302348,
+          "spearman": 0.9347449254109973
+        },
+        "WING": {
+          "calibration_intercept": 6.491856380249425,
+          "calibration_slope": 0.9090689002932881,
+          "mean_absolute_error": 9.020103350192873,
+          "mean_signed_error": 1.8810133391518873,
+          "more_than_10_points": 0.36346153846153845,
+          "more_than_15_points": 0.19615384615384615,
+          "more_than_5_points": 0.614423076923077,
+          "observations": 1040,
+          "p10_error": -12.03013389149142,
+          "p50_error": 2.211347696090754,
+          "p90_error": 16.246242055254147,
+          "pearson": 0.9145232449763523,
+          "r_squared": 0.8256918123150279,
+          "rmse": 11.922603224750725,
+          "spearman": 0.9142856637652703
+        }
+      }
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "interval_calibration": {
+        "0.8": {
+          "empirical_coverage": 0.8000272349697011,
+          "mean_width_points": 22.387717843666508,
+          "median_width_points": 23.84105960264902,
+          "nominal_coverage": 0.8,
+          "observations": 14687,
+          "p90_width_points": 23.84105960264902,
+          "radius_points": 11.92052980132451
+        },
+        "0.9": {
+          "empirical_coverage": 0.9000476611969769,
+          "mean_width_points": 26.82197219755112,
+          "median_width_points": 28.95622895622896,
+          "nominal_coverage": 0.9,
+          "observations": 14687,
+          "p90_width_points": 28.95622895622896,
+          "radius_points": 14.47811447811448
+        },
+        "0.95": {
+          "empirical_coverage": 0.9500919180227412,
+          "mean_width_points": 30.17818165423935,
+          "median_width_points": 32.93172690763053,
+          "nominal_coverage": 0.95,
+          "observations": 14687,
+          "p90_width_points": 32.931726907630534,
+          "radius_points": 16.465863453815263
+        }
+      },
+      "metrics": {
+        "calibration_intercept": 2.3275274858858457,
+        "calibration_slope": 0.9534494502822825,
+        "maximum_absolute_major_role_bias": 0.8237621433101077,
+        "mean_absolute_error": 7.245769650057177,
+        "mean_signed_error": -8.708224445892151e-18,
+        "more_than_10_points": 0.29665690746919043,
+        "more_than_15_points": 0.08592632940695853,
+        "more_than_5_points": 0.6022332675154899,
+        "observations": 14687,
+        "p10_error": -12.238805970149249,
+        "p50_error": 0.22222222222222365,
+        "p90_error": 11.72161172161172,
+        "pearson": 0.9534494502822833,
+        "r_squared": 0.9068989005645663,
+        "rmse": 8.835227107545549,
+        "spearman": 0.9534502054685541
+      },
+      "point_score_status": "REJECTED",
+      "practical_gates": {
+        "absolute_bias_at_most_2": true,
+        "mae_at_most_5": false,
+        "major_role_bias_at_most_3": true,
+        "over_10_at_most_15_pct": false,
+        "passes": false,
+        "spearman_at_least_0_95": true
+      },
+      "role_metrics": {
+        "BIG": {
+          "calibration_intercept": 2.115602353299169,
+          "calibration_slope": 0.9370135353218654,
+          "mean_absolute_error": 7.695925644514597,
+          "mean_signed_error": -0.8237621433101077,
+          "more_than_10_points": 0.33011152416356876,
+          "more_than_15_points": 0.10743494423791822,
+          "more_than_5_points": 0.6353159851301116,
+          "observations": 2690,
+          "p10_error": -13.48608879067898,
+          "p50_error": -0.6240264797507833,
+          "p90_error": 11.688311688311684,
+          "pearson": 0.9485531142536935,
+          "r_squared": 0.8974070269850186,
+          "rmse": 9.311414610879067,
+          "spearman": 0.945814129860992
+        },
+        "FORWARD": {
+          "calibration_intercept": 2.083657937307811,
+          "calibration_slope": 0.9595542154034182,
+          "mean_absolute_error": 7.261803772987404,
+          "mean_signed_error": 0.18980526330874864,
+          "more_than_10_points": 0.300031318509239,
+          "more_than_15_points": 0.09145004697776386,
+          "more_than_5_points": 0.5900407140620106,
+          "observations": 3193,
+          "p10_error": -12.238805970149254,
+          "p50_error": 0.31152647975077885,
+          "p90_error": 12.061152965201316,
+          "pearson": 0.9534115620297793,
+          "r_squared": 0.9061386683366631,
+          "rmse": 8.906796059595672,
+          "spearman": 0.9520617657212719
+        },
+        "GUARD": {
+          "calibration_intercept": 2.5845102890430445,
+          "calibration_slope": 0.9598016631732809,
+          "mean_absolute_error": 6.989833882095579,
+          "mean_signed_error": 0.3783949489270363,
+          "more_than_10_points": 0.2774760796483062,
+          "more_than_15_points": 0.06516679596586501,
+          "more_than_5_points": 0.5906387380398241,
+          "observations": 3867,
+          "p10_error": -11.387731256085692,
+          "p50_error": 0.5154639175257769,
+          "p90_error": 11.548852168126865,
+          "pearson": 0.952872563828641,
+          "r_squared": 0.9048170708904628,
+          "rmse": 8.474328972624436,
+          "spearman": 0.953085400644988
+        },
+        "UNKNOWN": {
+          "calibration_intercept": 2.4920062914796812,
+          "calibration_slope": 0.9498813634043333,
+          "mean_absolute_error": 7.19663014518751,
+          "mean_signed_error": -0.007457786454166581,
+          "more_than_10_points": 0.294072363356428,
+          "more_than_15_points": 0.08904285347703361,
+          "more_than_5_points": 0.598665640236079,
+          "observations": 3897,
+          "p10_error": -12.272875497293416,
+          "p50_error": 0.0,
+          "p90_error": 11.594549127272495,
+          "pearson": 0.9554568754863086,
+          "r_squared": 0.911399492797806,
+          "rmse": 8.820298421617872,
+          "spearman": 0.9546813341403839
+        },
+        "WING": {
+          "calibration_intercept": 2.850515476756953,
+          "calibration_slope": 0.9471159620292438,
+          "mean_absolute_error": 7.1679655015744,
+          "mean_signed_error": 0.1689246981446086,
+          "more_than_10_points": 0.28076923076923077,
+          "more_than_15_points": 0.07884615384615384,
+          "more_than_5_points": 0.6105769230769231,
+          "observations": 1040,
+          "p10_error": -11.562255456047302,
+          "p50_error": 0.3120740019474205,
+          "p90_error": 11.534052770176075,
+          "pearson": 0.9531276976487849,
+          "r_squared": 0.9067719034006462,
+          "rmse": 8.71938002239614,
+          "spearman": 0.9529349426433028
+        }
+      }
+    },
+    "TRADITIONAL_BOX": {
+      "interval_calibration": {
+        "0.8": {
+          "empirical_coverage": 0.8000953223939539,
+          "mean_width_points": 24.408784112737077,
+          "median_width_points": 26.15384615384616,
+          "nominal_coverage": 0.8,
+          "observations": 14687,
+          "p90_width_points": 26.15384615384617,
+          "radius_points": 13.07692307692308
+        },
+        "0.9": {
+          "empirical_coverage": 0.8999795737727242,
+          "mean_width_points": 30.138439352400116,
+          "median_width_points": 32.884097035040426,
+          "nominal_coverage": 0.9,
+          "observations": 14687,
+          "p90_width_points": 32.88409703504044,
+          "radius_points": 16.442048517520217
+        },
+        "0.95": {
+          "empirical_coverage": 0.9499557431742357,
+          "mean_width_points": 34.76878559309177,
+          "median_width_points": 38.527544020931956,
+          "nominal_coverage": 0.95,
+          "observations": 14687,
+          "p90_width_points": 38.52754402093197,
+          "radius_points": 19.26377201046598
+        }
+      },
+      "metrics": {
+        "calibration_intercept": 2.9483189212744043,
+        "calibration_slope": 0.9410336215745115,
+        "maximum_absolute_major_role_bias": 2.3314694902156456,
+        "mean_absolute_error": 7.961077816070619,
+        "mean_signed_error": 1.5965078150802277e-17,
+        "more_than_10_points": 0.324845101109825,
+        "more_than_15_points": 0.13705998502076666,
+        "more_than_5_points": 0.6163273643358071,
+        "observations": 14687,
+        "p10_error": -13.12335958005249,
+        "p50_error": 0.22075055187638082,
+        "p90_error": 12.984054669703871,
+        "pearson": 0.941033621574513,
+        "r_squared": 0.8820672431490237,
+        "rmse": 9.943918085546178,
+        "spearman": 0.9410319577574919
+      },
+      "point_score_status": "REJECTED",
+      "practical_gates": {
+        "absolute_bias_at_most_2": true,
+        "mae_at_most_5": false,
+        "major_role_bias_at_most_3": true,
+        "over_10_at_most_15_pct": false,
+        "passes": false,
+        "spearman_at_least_0_95": false
+      },
+      "role_metrics": {
+        "BIG": {
+          "calibration_intercept": 5.4957184352325505,
+          "calibration_slope": 0.9320639399921328,
+          "mean_absolute_error": 8.606514696875665,
+          "mean_signed_error": 2.325373126171842,
+          "more_than_10_points": 0.3736059479553903,
+          "more_than_15_points": 0.16691449814126394,
+          "more_than_5_points": 0.6390334572490707,
+          "observations": 2690,
+          "p10_error": -11.248886596971548,
+          "p50_error": 1.9065009692605916,
+          "p90_error": 16.21626003080165,
+          "pearson": 0.9354650400722441,
+          "r_squared": 0.8649877223228946,
+          "rmse": 10.681776562071835,
+          "spearman": 0.9346250381823304
+        },
+        "FORWARD": {
+          "calibration_intercept": 3.663580932802076,
+          "calibration_slope": 0.954457849564092,
+          "mean_absolute_error": 8.119992220133396,
+          "mean_signed_error": 1.5310935983864862,
+          "more_than_10_points": 0.33980582524271846,
+          "more_than_15_points": 0.15032884434700908,
+          "more_than_5_points": 0.6251174444096461,
+          "observations": 3193,
+          "p10_error": -11.699004686108207,
+          "p50_error": 1.3921113689095155,
+          "p90_error": 14.919021911718014,
+          "pearson": 0.9416155516804813,
+          "r_squared": 0.8786789093545079,
+          "rmse": 10.126195446694918,
+          "spearman": 0.9405857707594623
+        },
+        "GUARD": {
+          "calibration_intercept": 0.30222774742270175,
+          "calibration_slope": 0.9520105559609505,
+          "mean_absolute_error": 7.624507075993478,
+          "mean_signed_error": -2.3314694902156456,
+          "more_than_10_points": 0.2960951642099819,
+          "more_than_15_points": 0.11636927851047324,
+          "more_than_5_points": 0.6058960434445306,
+          "observations": 3867,
+          "p10_error": -14.901082493467712,
+          "p50_error": -1.8817204301075363,
+          "p90_error": 9.37025316455696,
+          "pearson": 0.9439659342752886,
+          "r_squared": 0.879699612496161,
+          "rmse": 9.527068760183216,
+          "spearman": 0.9438299879437511
+        },
+        "UNKNOWN": {
+          "calibration_intercept": 2.538605549589646,
+          "calibration_slope": 0.9460788102704116,
+          "mean_absolute_error": 7.752190203404297,
+          "mean_signed_error": -0.1504954699742802,
+          "more_than_10_points": 0.3125481139337952,
+          "more_than_15_points": 0.1298434693353862,
+          "more_than_5_points": 0.6007185014113421,
+          "observations": 3897,
+          "p10_error": -13.124015748031493,
+          "p50_error": 0.0,
+          "p90_error": 12.3961884514635,
+          "pearson": 0.9463450734987305,
+          "r_squared": 0.8926944666168032,
+          "rmse": 9.706803406561928,
+          "spearman": 0.9454644204321029
+        },
+        "WING": {
+          "calibration_intercept": 1.0806945543305952,
+          "calibration_slope": 0.9494515877345904,
+          "mean_absolute_error": 7.837919332321517,
+          "mean_signed_error": -1.4824636575929162,
+          "more_than_10_points": 0.3057692307692308,
+          "more_than_15_points": 0.12307692307692308,
+          "more_than_5_points": 0.6278846153846154,
+          "observations": 1040,
+          "p10_error": -14.5480355343896,
+          "p50_error": -1.0183554358336775,
+          "p90_error": 10.737203552788209,
+          "pearson": 0.9429512887164472,
+          "r_squared": 0.8823736111986299,
+          "rmse": 9.794101027938892,
+          "spearman": 0.9420285030909451
+        }
+      }
+    }
+  },
+  "official_methodology_version": null,
+  "output_fingerprint": "120c319c8b3883b2066187947d3a6b813aa4d590231035fdd02943486268dd4f",
+  "outputs": [
+    {
+      "path": "data/gold/player_season_value_v2_promotion_audit/candidate-d-reconstruction.parquet",
+      "rows": 22457,
+      "sha256": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+      "size_bytes": 1722854
+    },
+    {
+      "path": "data/gold/player_season_value_v2_promotion_audit/source-conflict-counterfactual.parquet",
+      "rows": 4631,
+      "sha256": "073f5b0d544dffd98ccc32921db12bd5f90bd6fc9880c0a080b36fbe8336f528",
+      "size_bytes": 164827
+    },
+    {
+      "path": "data/gold/player_season_value_v2_promotion_audit/diagnostic-player-seasons.parquet",
+      "rows": 135,
+      "sha256": "fdb866a1165d8b97aca512daa7c8927e0514e48178a62bf8fd28325f5bcd8578",
+      "size_bytes": 17784
+    },
+    {
+      "path": "data/gold/player_season_value_v2_promotion_audit/early-era-player-validity.parquet",
+      "rows": 8,
+      "sha256": "3b1d641e85eb65d4db2fe99cd0f0ef0cc3dcafc2596fad06f93c2bbfb8005680",
+      "size_bytes": 3920
+    },
+    {
+      "path": "data/gold/player_season_value_v2_promotion_audit/peak-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "af0594f458c84f180c70ec924cf3ca79731fc48ce3259f4c8183995da54aad21",
+      "size_bytes": 217698
+    },
+    {
+      "path": "data/gold/player_season_value_v2_promotion_audit/longevity-counterfactual.parquet",
+      "rows": 5103,
+      "sha256": "7ef4118b9c2d769812d52d9f223609c8e508fb1296c43bfeef309d57d91739ab",
+      "size_bytes": 168845
+    }
+  ],
+  "overall_sensitivity": "NOT_PRODUCED_PROMOTION_GATE_FAILED",
+  "peak": {
+    "candidate_scores": 2326,
+    "overlap": 2326,
+    "pearson": 0.8802751232984527,
+    "spearman": 0.8805304829992717,
+    "top_100_overlap": 0.53,
+    "top_25_overlap": 0.56,
+    "top_50_overlap": 0.5
+  },
+  "peak_coverage": 2326,
+  "peak_longevity": {
+    "longevity_semantics": "duration from P80 breadth, capped area, and longest P80 run",
+    "peak_semantics": "height from one selected apex and one contiguous three-season window",
+    "pearson": 0.8712516451535293,
+    "players": 2326,
+    "spearman": 0.8713676146123649
+  },
+  "promotion_verdict": "DO_NOT_PROMOTE",
+  "reconstruction": {
+    "candidate_rows": 22457,
+    "maximum_percentile_difference": 0.0,
+    "maximum_raw_difference": 0.0,
+    "percentile_mismatches": 0,
+    "provenance_fields_present": true,
+    "raw_mismatches": 0,
+    "scoreable_player_seasons": 21107,
+    "scoreable_players": 3893,
+    "silver_rows": 22457,
+    "source_precedence_reproduced": true
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-v2-research",
+  "result": "PASS",
+  "run_at": "2026-09-14T22:00:00Z",
+  "runtime_seconds": 16.126347874989733,
+  "source_conflicts": {
+    "by_decade": {
+      "1940s": 832,
+      "1950s": 2437,
+      "1960s": 1888,
+      "1970s": 1893,
+      "1980s": 1304,
+      "1990s": 570,
+      "2000s": 375
+    },
+    "by_league": {
+      "BAA": 473,
+      "NBA": 8826
+    },
+    "by_statistic": {
+      "AST": 58,
+      "BLK": 33,
+      "DREB": 36,
+      "FGA": 98,
+      "FGM": 533,
+      "FTA": 1227,
+      "FTM": 601,
+      "GP": 280,
+      "MIN": 4591,
+      "OREB": 27,
+      "PF": 315,
+      "PTS": 1249,
+      "REB": 90,
+      "STL": 55,
+      "TOV": 106
+    },
+    "by_trade_scope": {
+      "SINGLE_TEAM": 8488,
+      "TRADED_TOTAL": 811
+    },
+    "canonical_precedence": "Official PlayerCareerStats totals before 1996; frozen GOATLAB-HIST-V1 from 1996 onward; no averaging.",
+    "cause_caution": "Likely-cause labels are deterministic diagnostics, not adjudicated source facts. Canonical precedence remains the accepted ADR-0033 rule.",
+    "diagnostic_likely_causes": {
+      "BAA_EARLY_RECORD_REVISION_OR_SCOPE": 565,
+      "GAME_SCOPE_OR_HISTORICAL_CORRECTION": 230,
+      "HISTORICAL_CORRECTION_OR_SOURCE_VERSION": 3339,
+      "LIKELY_INCOMPLETE_GAME_LOG_AGGREGATION": 150,
+      "MINUTE_PRECISION_OR_SOURCE_VERSION": 4204,
+      "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION": 811
+    },
+    "examples": [
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 81,
+        "official_career_total": 83,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 1992,
+        "statistic": "BLK",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 6.848333333333358,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 2198.8483333333334,
+        "official_career_total": 2192,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 1997,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.8400000000000318,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 745.84,
+        "official_career_total": 744,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 1998,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.6800000000000637,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1589.68,
+        "official_career_total": 1587,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2000,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.6950000000001637,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 2142.695,
+        "official_career_total": 2140,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2001,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.5516666666667334,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1288.4483333333333,
+        "official_career_total": 1290,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2003,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 14.171666666666624,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1410.1716666666666,
+        "official_career_total": 1396,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2004,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 7.0,
+        "diagnostic_likely_cause": "BAA_EARLY_RECORD_REVISION_OR_SCOPE",
+        "goatlab_hist_v1": 169,
+        "official_career_total": 176,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1949,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2058.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 151.0,
+        "official_career_total": 2209,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1951,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2531.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 153.0,
+        "official_career_total": 2684,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 4.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 956,
+        "official_career_total": 952,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 308,
+        "official_career_total": 306,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "FGM",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 413,
+        "official_career_total": 416,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 754.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1973.0,
+        "official_career_total": 2727,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1953,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 975.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1975.0,
+        "official_career_total": 2950,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 4.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1054,
+        "official_career_total": 1050,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 377,
+        "official_career_total": 375,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "FGM",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 135,
+        "official_career_total": 137,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "PF",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 152.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1674.0,
+        "official_career_total": 1826,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1955,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 230,
+        "official_career_total": 233,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1955,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 128,
+        "official_career_total": 130,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1955,
+        "statistic": "PF",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 991.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 244.0,
+        "official_career_total": 1235,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1956,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 447.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 316.0,
+        "official_career_total": 763,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1957,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 183.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 83.0,
+        "official_career_total": 266,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1958,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 100.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 540.0,
+        "official_career_total": 640,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1963,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 44,
+        "official_career_total": 46,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1963,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 19.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 756.0,
+        "official_career_total": 775,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1965,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 344,
+        "official_career_total": 342,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1965,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 146.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 890.0,
+        "official_career_total": 1036,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1966,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 41.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 673.0,
+        "official_career_total": 714,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1967,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 58,
+        "official_career_total": 56,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1967,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 205.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 476.0,
+        "official_career_total": 681,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "player_name": "Mike Ratliff",
+        "season_id": 1972,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 9.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 421.0,
+        "official_career_total": 430,
+        "player_id": "player_009ac4732af95fe19fbbe62e86e237a6",
+        "player_name": "John Vallely",
+        "season_id": 1970,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 57,
+        "official_career_total": 59,
+        "player_id": "player_009ac4732af95fe19fbbe62e86e237a6",
+        "player_name": "John Vallely",
+        "season_id": 1970,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 95.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 271.0,
+        "official_career_total": 366,
+        "player_id": "player_009ac4732af95fe19fbbe62e86e237a6",
+        "player_name": "John Vallely",
+        "season_id": 1971,
+        "statistic": "MIN",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "BAA_EARLY_RECORD_REVISION_OR_SCOPE",
+        "goatlab_hist_v1": 665,
+        "official_career_total": 667,
+        "player_id": "player_00bad06326d15ffab34b10eb70abf1fa",
+        "player_name": "Bob Kinney",
+        "season_id": 1949,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "BAA_EARLY_RECORD_REVISION_OR_SCOPE",
+        "goatlab_hist_v1": 318,
+        "official_career_total": 320,
+        "player_id": "player_00bad06326d15ffab34b10eb70abf1fa",
+        "player_name": "Bob Kinney",
+        "season_id": 1949,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 7.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 482,
+        "official_career_total": 475,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1949,
+        "statistic": "PTS",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 4.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 163,
+        "official_career_total": 159,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1949,
+        "statistic": "FGM",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 9.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 213,
+        "official_career_total": 222,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1949,
+        "statistic": "FTA",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "GAME_SCOPE_OR_HISTORICAL_CORRECTION",
+        "goatlab_hist_v1": 59,
+        "official_career_total": 61,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1950,
+        "statistic": "GP",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 187,
+        "official_career_total": 184,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1950,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.8350000000000364,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1205.835,
+        "official_career_total": 1202,
+        "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+        "player_name": "Chucky Brown",
+        "season_id": 1997,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.8383333333333667,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1193.8383333333334,
+        "official_career_total": 1192,
+        "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+        "player_name": "Chucky Brown",
+        "season_id": 1998,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.331666666666706,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 1094.6683333333333,
+        "official_career_total": 1096,
+        "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+        "player_name": "Chucky Brown",
+        "season_id": 1999,
+        "statistic": "MIN",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 3.7866666666666333,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1119.7866666666666,
+        "official_career_total": 1116,
+        "player_id": "player_00eab900a9085ab28822b085b517b0cf",
+        "player_name": "Joe Dumars",
+        "season_id": 1998,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.6166666666666742,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 186.61666666666667,
+        "official_career_total": 185,
+        "player_id": "player_01077d88af5951c3b782a4f1cd2072f3",
+        "player_name": "Duane Causwell",
+        "season_id": 1999,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.0433333333333508,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 382.95666666666665,
+        "official_career_total": 384,
+        "player_id": "player_01077d88af5951c3b782a4f1cd2072f3",
+        "player_name": "Duane Causwell",
+        "season_id": 2000,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 599.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 23.0,
+        "official_career_total": 622,
+        "player_id": "player_010ee38dd45f500283a622032629cbeb",
+        "player_name": "Robert Zawoluk",
+        "season_id": 1952,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 5.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 111,
+        "official_career_total": 116,
+        "player_id": "player_010ee38dd45f500283a622032629cbeb",
+        "player_name": "Robert Zawoluk",
+        "season_id": 1952,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      }
+    ],
+    "material_conflicts": 9299,
+    "player_seasons_affected": 5607,
+    "players_affected": 1665,
+    "top_players": [
+      {
+        "conflicts": 43,
+        "player_name": "Eddie Johnson"
+      },
+      {
+        "conflicts": 39,
+        "player_name": "Vern Mikkelsen"
+      },
+      {
+        "conflicts": 38,
+        "player_name": "Larry Foust"
+      },
+      {
+        "conflicts": 37,
+        "player_name": "Dick McGuire"
+      },
+      {
+        "conflicts": 36,
+        "player_name": "Joe Graboski"
+      },
+      {
+        "conflicts": 35,
+        "player_name": "George Johnson"
+      },
+      {
+        "conflicts": 35,
+        "player_name": "Johnny Green"
+      },
+      {
+        "conflicts": 34,
+        "player_name": "Johnny Kerr"
+      },
+      {
+        "conflicts": 33,
+        "player_name": "Slater Martin"
+      },
+      {
+        "conflicts": 33,
+        "player_name": "Ed Macauley"
+      },
+      {
+        "conflicts": 32,
+        "player_name": "Bob Pettit"
+      },
+      {
+        "conflicts": 32,
+        "player_name": "Gene Shue"
+      },
+      {
+        "conflicts": 32,
+        "player_name": "Dolph Schayes"
+      },
+      {
+        "conflicts": 31,
+        "player_name": "Harry Gallatin"
+      },
+      {
+        "conflicts": 31,
+        "player_name": "Jack Twyman"
+      },
+      {
+        "conflicts": 30,
+        "player_name": "Clyde Lovellette"
+      },
+      {
+        "conflicts": 30,
+        "player_name": "Bobby Wanzer"
+      },
+      {
+        "conflicts": 30,
+        "player_name": "Hal Greer"
+      },
+      {
+        "conflicts": 29,
+        "player_name": "Bill Sharman"
+      },
+      {
+        "conflicts": 29,
+        "player_name": "Neil Johnston"
+      },
+      {
+        "conflicts": 29,
+        "player_name": "Jack Coleman"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "George Mikan"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "Jack McMahon"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "K.C. Jones"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "Connie Simmons"
+      }
+    ]
+  },
+  "step": "STEP-0015G"
+}

@@ -1,0 +1,332 @@
+{
+  "actual_vs_masking": {
+    "actual_factual_coverage_pct": 0.9398851137729883,
+    "actual_non_full_regime_share": 0.3459945673954669,
+    "actual_non_full_scoreable_seasons": 6420,
+    "actual_non_full_share_of_scores": 0.3041644951911688,
+    "counterfactual_masking_is_not_actual_missingness": true,
+    "finding": "Factual recovery solves most offensive collection gaps, but non-full regimes are not rare: they remain a material share of actual seasons. Their 7-8 point masking MAE therefore remains a universal-scale comparability blocker."
+  },
+  "audit_methodology_version": "goatlab-v1-player-season-value-v2-promotion-audit-v1",
+  "groups": {
+    "DEBUT:1940s": {
+      "confidence": {
+        "LIMITED": 359
+      },
+      "coverage_pct": 0.3876889848812095,
+      "player_seasons": 926,
+      "players": 348,
+      "scoreable": 359
+    },
+    "DEBUT:1950s": {
+      "confidence": {
+        "LIMITED": 849
+      },
+      "coverage_pct": 0.9188311688311688,
+      "player_seasons": 924,
+      "players": 210,
+      "scoreable": 849
+    },
+    "DEBUT:1960s": {
+      "confidence": {
+        "LIMITED": 1056,
+        "MODERATE": 223,
+        "STRONG": 12
+      },
+      "coverage_pct": 0.8329032258064516,
+      "player_seasons": 1550,
+      "players": 266,
+      "scoreable": 1291
+    },
+    "DEBUT:1970s": {
+      "confidence": {
+        "LIMITED": 191,
+        "MODERATE": 1657,
+        "STRONG": 376
+      },
+      "coverage_pct": 0.8320239431350542,
+      "player_seasons": 2673,
+      "players": 515,
+      "scoreable": 2224
+    },
+    "DEBUT:1980s": {
+      "confidence": {
+        "LIMITED": 66,
+        "MODERATE": 2134,
+        "STRONG": 1375
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 3575,
+      "players": 558,
+      "scoreable": 3575
+    },
+    "DEBUT:1990s": {
+      "confidence": {
+        "LIMITED": 104,
+        "MODERATE": 2105,
+        "STRONG": 1596
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 3805,
+      "players": 560,
+      "scoreable": 3805
+    },
+    "DEBUT:2000s": {
+      "confidence": {
+        "LIMITED": 88,
+        "MODERATE": 2197,
+        "STRONG": 1824
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 4109,
+      "players": 587,
+      "scoreable": 4109
+    },
+    "DEBUT:2010s": {
+      "confidence": {
+        "LIMITED": 119,
+        "MODERATE": 1763,
+        "STRONG": 1829
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 3711,
+      "players": 684,
+      "scoreable": 3711
+    },
+    "DEBUT:2020s": {
+      "confidence": {
+        "LIMITED": 58,
+        "MODERATE": 681,
+        "STRONG": 445
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 1184,
+      "players": 459,
+      "scoreable": 1184
+    },
+    "DECADE:1940s": {
+      "confidence": {},
+      "coverage_pct": 0.0,
+      "player_seasons": 565,
+      "players": 348,
+      "scoreable": 0
+    },
+    "DECADE:1950s": {
+      "confidence": {
+        "LIMITED": 942
+      },
+      "coverage_pct": 0.9978813559322034,
+      "player_seasons": 944,
+      "players": 322,
+      "scoreable": 942
+    },
+    "DECADE:1960s": {
+      "confidence": {
+        "LIMITED": 1086
+      },
+      "coverage_pct": 0.9258312020460358,
+      "player_seasons": 1173,
+      "players": 337,
+      "scoreable": 1086
+    },
+    "DECADE:1970s": {
+      "confidence": {
+        "LIMITED": 414,
+        "MODERATE": 1097,
+        "STRONG": 85
+      },
+      "coverage_pct": 0.6963350785340314,
+      "player_seasons": 2292,
+      "players": 668,
+      "scoreable": 1596
+    },
+    "DECADE:1980s": {
+      "confidence": {
+        "LIMITED": 45,
+        "MODERATE": 1955,
+        "STRONG": 948
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 2948,
+      "players": 781,
+      "scoreable": 2948
+    },
+    "DECADE:1990s": {
+      "confidence": {
+        "LIMITED": 105,
+        "MODERATE": 2044,
+        "STRONG": 1471
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 3620,
+      "players": 860,
+      "scoreable": 3620
+    },
+    "DECADE:2000s": {
+      "confidence": {
+        "LIMITED": 83,
+        "MODERATE": 2131,
+        "STRONG": 1704
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 3918,
+      "players": 938,
+      "scoreable": 3918
+    },
+    "DECADE:2010s": {
+      "confidence": {
+        "LIMITED": 133,
+        "MODERATE": 2176,
+        "STRONG": 1935
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 4244,
+      "players": 1061,
+      "scoreable": 4244
+    },
+    "DECADE:2020s": {
+      "confidence": {
+        "LIMITED": 82,
+        "MODERATE": 1357,
+        "STRONG": 1314
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 2753,
+      "players": 843,
+      "scoreable": 2753
+    },
+    "REGIME:EARLY_LIMITED": {
+      "confidence": {},
+      "coverage_pct": 0.0,
+      "player_seasons": 567,
+      "players": 350,
+      "scoreable": 0
+    },
+    "REGIME:EXPANDED_BOX_NO_PRESENCE": {
+      "confidence": {
+        "LIMITED": 22,
+        "MODERATE": 3968
+      },
+      "coverage_pct": 0.8894337940258582,
+      "player_seasons": 4486,
+      "players": 1520,
+      "scoreable": 3990
+    },
+    "REGIME:FULL_PORTABLE": {
+      "confidence": {
+        "LIMITED": 438,
+        "MODERATE": 6792,
+        "STRONG": 7457
+      },
+      "coverage_pct": 1.0,
+      "player_seasons": 14687,
+      "players": 3092,
+      "scoreable": 14687
+    },
+    "REGIME:TRADITIONAL_BOX": {
+      "confidence": {
+        "LIMITED": 2430
+      },
+      "coverage_pct": 0.8943687891056312,
+      "player_seasons": 2717,
+      "players": 724,
+      "scoreable": 2430
+    },
+    "ROLE:BIG": {
+      "confidence": {
+        "LIMITED": 405,
+        "MODERATE": 1444,
+        "STRONG": 1836
+      },
+      "coverage_pct": 0.9824046920821115,
+      "player_seasons": 3751,
+      "players": 592,
+      "scoreable": 3685
+    },
+    "ROLE:FORWARD": {
+      "confidence": {
+        "LIMITED": 881,
+        "MODERATE": 1960,
+        "STRONG": 2193
+      },
+      "coverage_pct": 0.9703161141094834,
+      "player_seasons": 5188,
+      "players": 1027,
+      "scoreable": 5034
+    },
+    "ROLE:GUARD": {
+      "confidence": {
+        "LIMITED": 819,
+        "MODERATE": 2223,
+        "STRONG": 2686
+      },
+      "coverage_pct": 0.964797035539835,
+      "player_seasons": 5937,
+      "players": 1150,
+      "scoreable": 5728
+    },
+    "ROLE:UNKNOWN": {
+      "confidence": {
+        "LIMITED": 759,
+        "MODERATE": 4702
+      },
+      "coverage_pct": 0.8560902962846841,
+      "player_seasons": 6379,
+      "players": 1623,
+      "scoreable": 5461
+    },
+    "ROLE:WING": {
+      "confidence": {
+        "LIMITED": 26,
+        "MODERATE": 431,
+        "STRONG": 742
+      },
+      "coverage_pct": 0.997504159733777,
+      "player_seasons": 1202,
+      "players": 162,
+      "scoreable": 1199
+    }
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25"
+  },
+  "remaining_missingness": {
+    "by_regime": {
+      "EARLY_LIMITED": 567,
+      "EXPANDED_BOX_NO_PRESENCE": 496,
+      "TRADITIONAL_BOX": 287
+    },
+    "by_season": {
+      "1946": 135,
+      "1947": 89,
+      "1948": 145,
+      "1949": 196,
+      "1954": 1,
+      "1956": 1,
+      "1960": 87,
+      "1970": 200,
+      "1975": 223,
+      "1976": 273
+    },
+    "missing_channels": {
+      "CREATION": 2,
+      "DEFENSIVE_ACTION_OR_REBOUND": 567,
+      "SHOOTING_EFFICIENCY": 2,
+      "TEAM_CONTEXT": 783
+    },
+    "players": 877,
+    "reason_combinations": {
+      "DEFENSIVE_ACTION_OR_REBOUND": 565,
+      "SHOOTING_EFFICIENCY+CREATION+DEFENSIVE_ACTION_OR_REBOUND": 2,
+      "TEAM_CONTEXT": 783
+    },
+    "remaining_early_limited": 567,
+    "unavailable_player_seasons": 1350
+  },
+  "step": "STEP-0015G"
+}

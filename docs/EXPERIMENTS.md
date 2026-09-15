@@ -246,3 +246,29 @@ Future experiments must record the objective, input snapshot, feature version, c
   bridge audits on the recovered factual corpus.
 - **Optimization target:** none. No historical statistic is predicted, and named cases do not
   affect source scope, source precedence, or recovery logic.
+
+## STEP-0015G PlayerSeasonValue V2 promotion audit
+
+- **Objective:** determine whether factual recovery makes Candidate D production-comparable across
+  historical evidence regimes.
+- **Reconstruction:** all 22,457 rows, 21,107 scores, regimes, components, and percentiles reproduce
+  STEP-0015F exactly; maximum numerical difference is zero.
+- **Source sensitivity:** 9,299 material source-field conflicts affect 5,607 seasons. Among 4,631
+  scoreable affected seasons, alternate-source percentile MAE is 0.321; 0.54% move by more than
+  five points and 0.19% by more than ten.
+- **Coverage:** 21,107 seasons and 3,893 players score; 1,350 seasons remain unavailable. Of those,
+  567 lack rebound/action evidence and 783 lack team context.
+- **Influence:** covariance shares are APG 32.96%, PPG 22.52%, RPG 16.49%, STL/BPG 11.13% each,
+  TS 6.61%, Presence -1.02%, and team context 0.18%. The team channel remains capped at 5.5% total.
+- **Masking:** expanded/no-Presence and traditional-box MAEs remain 7.25 and 7.96 points, with
+  29.67% and 32.48% above ten points. Those regimes account for 6,420 actual scored seasons, so the
+  failed invariance test is production-relevant.
+- **Continuity:** regime-change MAE is 14.71 versus 14.69 within regime; recovery removes a mean
+  cliff but does not establish score equivalence. Team changes remain more volatile than same-team
+  transitions.
+- **Validation:** MVP and All-NBA First seasons remain strongly enriched at the top; PIE Spearman
+  is 0.7384. All are validation-only and were not used to select the verdict.
+- **Outcome:** `PASS + DO_NOT_PROMOTE`. Candidate D remains research-only; Peak, Longevity,
+  Defense, and Overall remain frozen.
+- **Optimization target:** none. No player name, award, outcome, postseason, or external ranking
+  enters Candidate D or the promotion gate.

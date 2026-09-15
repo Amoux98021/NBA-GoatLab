@@ -1,0 +1,735 @@
+{
+  "audit_methodology_version": "goatlab-v1-player-season-value-v2-promotion-audit-v1",
+  "conflicts": {
+    "by_decade": {
+      "1940s": 832,
+      "1950s": 2437,
+      "1960s": 1888,
+      "1970s": 1893,
+      "1980s": 1304,
+      "1990s": 570,
+      "2000s": 375
+    },
+    "by_league": {
+      "BAA": 473,
+      "NBA": 8826
+    },
+    "by_statistic": {
+      "AST": 58,
+      "BLK": 33,
+      "DREB": 36,
+      "FGA": 98,
+      "FGM": 533,
+      "FTA": 1227,
+      "FTM": 601,
+      "GP": 280,
+      "MIN": 4591,
+      "OREB": 27,
+      "PF": 315,
+      "PTS": 1249,
+      "REB": 90,
+      "STL": 55,
+      "TOV": 106
+    },
+    "by_trade_scope": {
+      "SINGLE_TEAM": 8488,
+      "TRADED_TOTAL": 811
+    },
+    "canonical_precedence": "Official PlayerCareerStats totals before 1996; frozen GOATLAB-HIST-V1 from 1996 onward; no averaging.",
+    "cause_caution": "Likely-cause labels are deterministic diagnostics, not adjudicated source facts. Canonical precedence remains the accepted ADR-0033 rule.",
+    "diagnostic_likely_causes": {
+      "BAA_EARLY_RECORD_REVISION_OR_SCOPE": 565,
+      "GAME_SCOPE_OR_HISTORICAL_CORRECTION": 230,
+      "HISTORICAL_CORRECTION_OR_SOURCE_VERSION": 3339,
+      "LIKELY_INCOMPLETE_GAME_LOG_AGGREGATION": 150,
+      "MINUTE_PRECISION_OR_SOURCE_VERSION": 4204,
+      "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION": 811
+    },
+    "examples": [
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 81,
+        "official_career_total": 83,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 1992,
+        "statistic": "BLK",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 6.848333333333358,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 2198.8483333333334,
+        "official_career_total": 2192,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 1997,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.8400000000000318,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 745.84,
+        "official_career_total": 744,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 1998,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.6800000000000637,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1589.68,
+        "official_career_total": 1587,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2000,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.6950000000001637,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 2142.695,
+        "official_career_total": 2140,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2001,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.5516666666667334,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1288.4483333333333,
+        "official_career_total": 1290,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2003,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 14.171666666666624,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1410.1716666666666,
+        "official_career_total": 1396,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "player_name": "Robert Horry",
+        "season_id": 2004,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 7.0,
+        "diagnostic_likely_cause": "BAA_EARLY_RECORD_REVISION_OR_SCOPE",
+        "goatlab_hist_v1": 169,
+        "official_career_total": 176,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1949,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2058.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 151.0,
+        "official_career_total": 2209,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1951,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2531.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 153.0,
+        "official_career_total": 2684,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 4.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 956,
+        "official_career_total": 952,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 308,
+        "official_career_total": 306,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "FGM",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 413,
+        "official_career_total": 416,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1952,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 754.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1973.0,
+        "official_career_total": 2727,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1953,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 975.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1975.0,
+        "official_career_total": 2950,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 4.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1054,
+        "official_career_total": 1050,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 377,
+        "official_career_total": 375,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "FGM",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 135,
+        "official_career_total": 137,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1954,
+        "statistic": "PF",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 152.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1674.0,
+        "official_career_total": 1826,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1955,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 230,
+        "official_career_total": 233,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1955,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 128,
+        "official_career_total": 130,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1955,
+        "statistic": "PF",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 991.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 244.0,
+        "official_career_total": 1235,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1956,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 447.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 316.0,
+        "official_career_total": 763,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1957,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 183.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 83.0,
+        "official_career_total": 266,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "player_name": "Paul Seymour",
+        "season_id": 1958,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 100.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 540.0,
+        "official_career_total": 640,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1963,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 44,
+        "official_career_total": 46,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1963,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 19.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 756.0,
+        "official_career_total": 775,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1965,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 344,
+        "official_career_total": 342,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1965,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 146.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 890.0,
+        "official_career_total": 1036,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1966,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 41.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 673.0,
+        "official_career_total": 714,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1967,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 58,
+        "official_career_total": 56,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "player_name": "Gene Tormohlen",
+        "season_id": 1967,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 205.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 476.0,
+        "official_career_total": 681,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "player_name": "Mike Ratliff",
+        "season_id": 1972,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 9.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 421.0,
+        "official_career_total": 430,
+        "player_id": "player_009ac4732af95fe19fbbe62e86e237a6",
+        "player_name": "John Vallely",
+        "season_id": 1970,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 57,
+        "official_career_total": 59,
+        "player_id": "player_009ac4732af95fe19fbbe62e86e237a6",
+        "player_name": "John Vallely",
+        "season_id": 1970,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 95.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 271.0,
+        "official_career_total": 366,
+        "player_id": "player_009ac4732af95fe19fbbe62e86e237a6",
+        "player_name": "John Vallely",
+        "season_id": 1971,
+        "statistic": "MIN",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "BAA_EARLY_RECORD_REVISION_OR_SCOPE",
+        "goatlab_hist_v1": 665,
+        "official_career_total": 667,
+        "player_id": "player_00bad06326d15ffab34b10eb70abf1fa",
+        "player_name": "Bob Kinney",
+        "season_id": 1949,
+        "statistic": "PTS",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "BAA_EARLY_RECORD_REVISION_OR_SCOPE",
+        "goatlab_hist_v1": 318,
+        "official_career_total": 320,
+        "player_id": "player_00bad06326d15ffab34b10eb70abf1fa",
+        "player_name": "Bob Kinney",
+        "season_id": 1949,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 7.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 482,
+        "official_career_total": 475,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1949,
+        "statistic": "PTS",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 4.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 163,
+        "official_career_total": 159,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1949,
+        "statistic": "FGM",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 9.0,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 213,
+        "official_career_total": 222,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1949,
+        "statistic": "FTA",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 2.0,
+        "diagnostic_likely_cause": "GAME_SCOPE_OR_HISTORICAL_CORRECTION",
+        "goatlab_hist_v1": 59,
+        "official_career_total": 61,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1950,
+        "statistic": "GP",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 187,
+        "official_career_total": 184,
+        "player_id": "player_00ce9e62af9d5a8b91ceda93c710bc1e",
+        "player_name": "Duane Klueh",
+        "season_id": 1950,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 3.8350000000000364,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1205.835,
+        "official_career_total": 1202,
+        "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+        "player_name": "Chucky Brown",
+        "season_id": 1997,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.8383333333333667,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1193.8383333333334,
+        "official_career_total": 1192,
+        "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+        "player_name": "Chucky Brown",
+        "season_id": 1998,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.331666666666706,
+        "diagnostic_likely_cause": "TRADED_TOTAL_VS_GAME_OR_TEAM_AGGREGATION",
+        "goatlab_hist_v1": 1094.6683333333333,
+        "official_career_total": 1096,
+        "player_id": "player_00dd275e83da526a89de5566c3df2ac0",
+        "player_name": "Chucky Brown",
+        "season_id": 1999,
+        "statistic": "MIN",
+        "trade_scope": "TRADED_TOTAL"
+      },
+      {
+        "absolute_difference": 3.7866666666666333,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 1119.7866666666666,
+        "official_career_total": 1116,
+        "player_id": "player_00eab900a9085ab28822b085b517b0cf",
+        "player_name": "Joe Dumars",
+        "season_id": 1998,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.6166666666666742,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 186.61666666666667,
+        "official_career_total": 185,
+        "player_id": "player_01077d88af5951c3b782a4f1cd2072f3",
+        "player_name": "Duane Causwell",
+        "season_id": 1999,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 1.0433333333333508,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 382.95666666666665,
+        "official_career_total": 384,
+        "player_id": "player_01077d88af5951c3b782a4f1cd2072f3",
+        "player_name": "Duane Causwell",
+        "season_id": 2000,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 599.0,
+        "diagnostic_likely_cause": "MINUTE_PRECISION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 23.0,
+        "official_career_total": 622,
+        "player_id": "player_010ee38dd45f500283a622032629cbeb",
+        "player_name": "Robert Zawoluk",
+        "season_id": 1952,
+        "statistic": "MIN",
+        "trade_scope": "SINGLE_TEAM"
+      },
+      {
+        "absolute_difference": 5.0,
+        "diagnostic_likely_cause": "HISTORICAL_CORRECTION_OR_SOURCE_VERSION",
+        "goatlab_hist_v1": 111,
+        "official_career_total": 116,
+        "player_id": "player_010ee38dd45f500283a622032629cbeb",
+        "player_name": "Robert Zawoluk",
+        "season_id": 1952,
+        "statistic": "FTA",
+        "trade_scope": "SINGLE_TEAM"
+      }
+    ],
+    "material_conflicts": 9299,
+    "player_seasons_affected": 5607,
+    "players_affected": 1665,
+    "top_players": [
+      {
+        "conflicts": 43,
+        "player_name": "Eddie Johnson"
+      },
+      {
+        "conflicts": 39,
+        "player_name": "Vern Mikkelsen"
+      },
+      {
+        "conflicts": 38,
+        "player_name": "Larry Foust"
+      },
+      {
+        "conflicts": 37,
+        "player_name": "Dick McGuire"
+      },
+      {
+        "conflicts": 36,
+        "player_name": "Joe Graboski"
+      },
+      {
+        "conflicts": 35,
+        "player_name": "George Johnson"
+      },
+      {
+        "conflicts": 35,
+        "player_name": "Johnny Green"
+      },
+      {
+        "conflicts": 34,
+        "player_name": "Johnny Kerr"
+      },
+      {
+        "conflicts": 33,
+        "player_name": "Slater Martin"
+      },
+      {
+        "conflicts": 33,
+        "player_name": "Ed Macauley"
+      },
+      {
+        "conflicts": 32,
+        "player_name": "Bob Pettit"
+      },
+      {
+        "conflicts": 32,
+        "player_name": "Gene Shue"
+      },
+      {
+        "conflicts": 32,
+        "player_name": "Dolph Schayes"
+      },
+      {
+        "conflicts": 31,
+        "player_name": "Harry Gallatin"
+      },
+      {
+        "conflicts": 31,
+        "player_name": "Jack Twyman"
+      },
+      {
+        "conflicts": 30,
+        "player_name": "Clyde Lovellette"
+      },
+      {
+        "conflicts": 30,
+        "player_name": "Bobby Wanzer"
+      },
+      {
+        "conflicts": 30,
+        "player_name": "Hal Greer"
+      },
+      {
+        "conflicts": 29,
+        "player_name": "Bill Sharman"
+      },
+      {
+        "conflicts": 29,
+        "player_name": "Neil Johnston"
+      },
+      {
+        "conflicts": 29,
+        "player_name": "Jack Coleman"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "George Mikan"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "Jack McMahon"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "K.C. Jones"
+      },
+      {
+        "conflicts": 28,
+        "player_name": "Connie Simmons"
+      }
+    ]
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25"
+  },
+  "sensitivity": {
+    "interpretation": "The alternate is the non-canonical overlapping source. Statistics are never averaged, and every candidate is reranked within season.",
+    "percentile_score": {
+      "maximum_absolute_difference": 15.916955017301044,
+      "mean_absolute_error": 0.3206117140699792,
+      "more_than_10_points": 0.0019434247462751025,
+      "more_than_2_points": 0.029583243359965452,
+      "more_than_5_points": 0.005398402072986396,
+      "observations": 4631
+    },
+    "raw_score": {
+      "maximum_absolute_difference": 11.992474048442908,
+      "mean_absolute_error": 0.1968534682474627,
+      "more_than_10_points": 0.0004318721658389117,
+      "more_than_2_points": 0.011228676311811703,
+      "more_than_5_points": 0.0036709134096307495,
+      "observations": 4631
+    },
+    "signed_mean_difference": 0.007543463079699208
+  },
+  "step": "STEP-0015G"
+}

@@ -1,0 +1,146 @@
+{
+  "audit_methodology_version": "goatlab-v1-player-season-value-v2-promotion-audit-v1",
+  "defense_input": {
+    "formula": "10% team context + up to 35% continuously reliability-weighted observed Presence + remaining share on actions",
+    "presence_is_predicted": false,
+    "presence_rows": 18175,
+    "presence_unavailable_rows": 4282,
+    "team_context_maximum_total_weight": 0.05500000000000001
+  },
+  "influence": {
+    "defense_axis": {
+      "mean_effective_weight": 0.4998318093523476,
+      "shapley_covariance_variance_share": 0.37910187551265095
+    },
+    "offense_axis": {
+      "mean_effective_weight": 0.5001681906476525,
+      "shapley_covariance_variance_share": 0.6208981244873484
+    },
+    "primitive_effective_weights": {
+      "apg": {
+        "covariance_variance_share": 0.3295841433323561,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.33,
+        "mean_effective_weight": 0.24974131804614588
+      },
+      "bpg": {
+        "covariance_variance_share": 0.11130303499396119,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.14850000000000002,
+        "mean_effective_weight": 0.0901669791400539
+      },
+      "ppg": {
+        "covariance_variance_share": 0.22524062901666103,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.21450000000000002,
+        "mean_effective_weight": 0.16277746719097932
+      },
+      "presence": {
+        "covariance_variance_share": -0.010235499375491041,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.1925,
+        "mean_effective_weight": 0.13855118844089084
+      },
+      "rpg": {
+        "covariance_variance_share": 0.16491419069417654,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.24750000000000003,
+        "mean_effective_weight": 0.13096348169611424
+      },
+      "spg": {
+        "covariance_variance_share": 0.11130303499396119,
+        "interpretation": "ROLE_ACTION_ALLOCATION_NOT_RAW_EVENT_CAUSAL_SHARE",
+        "maximum_effective_weight": 0.14850000000000002,
+        "mean_effective_weight": 0.0901669791400539
+      },
+      "team_context": {
+        "covariance_variance_share": 0.0018171142060433149,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.05500000000000001,
+        "mean_effective_weight": 0.04998318093523476
+      },
+      "ts_pct": {
+        "covariance_variance_share": 0.0660733521383319,
+        "interpretation": "FORMULA_REALIZED_WEIGHT",
+        "maximum_effective_weight": 0.11549999999999999,
+        "mean_effective_weight": 0.08764940541052732
+      }
+    },
+    "role_adjustment": {
+      "additive_weight": 0.0,
+      "interpretation": "ROLE_CONDITIONS_ACTION_EVIDENCE_AND_IS_NOT_AN_ADDITIVE_VALUE_CHANNEL",
+      "role_aware_rows": 15646
+    },
+    "team_context": {
+      "correlation_with_value": 0.07131514861722793,
+      "maximum_effective_weight": 0.05500000000000001,
+      "mean_effective_weight": 0.04998318093523476
+    }
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25"
+  },
+  "offense_recalibration": {
+    "O1_STRONGER_65_35": {
+      "coverage_pct": 1.0,
+      "distribution": {
+        "count": 22457,
+        "mean": 52.889312276630015,
+        "median": 54.407544378698226,
+        "p10": 18.089526627218934,
+        "p25": 33.36390532544379,
+        "p75": 73.29642857142856,
+        "p90": 85.0490238221027,
+        "p95": 89.41883839208008,
+        "p99": 95.06700741142443,
+        "std": 24.518522924956482
+      },
+      "observations": 22457
+    },
+    "O2_DIRECT_70_30": {
+      "coverage_pct": 0.9999109409092933,
+      "distribution": {
+        "count": 22455,
+        "mean": 50.001422040105496,
+        "median": 50.78703703703703,
+        "p10": 16.437831824459106,
+        "p25": 31.064679144385025,
+        "p75": 69.48621521214885,
+        "p90": 81.83829880811015,
+        "p95": 87.30726539866481,
+        "p99": 93.6410588235294,
+        "std": 23.95398838216519
+      },
+      "observations": 22455
+    },
+    "O3_MULTIPATH_60_40": {
+      "coverage_pct": 0.9999109409092933,
+      "distribution": {
+        "count": 22455,
+        "mean": 51.928801902272205,
+        "median": 53.1865889212828,
+        "p10": 17.4154985848701,
+        "p25": 32.35791633037396,
+        "p75": 72.1847511574074,
+        "p90": 84.15551470588235,
+        "p95": 88.74347976478725,
+        "p99": 94.67191793730197,
+        "std": 24.426734745332087
+      },
+      "observations": 22455
+    },
+    "effective_influence_full_evidence": {
+      "O1_creation_mean_realized_weight": 0.4951703406813627,
+      "O1_scoring_mean_realized_weight": 0.5048296593186373,
+      "O3_creation_mean_realized_weight": 0.4967802271209085,
+      "O3_scoring_mean_realized_weight": 0.5032197728790915
+    }
+  },
+  "selected_offense": "O3_MULTIPATH_60_40_UNCHANGED",
+  "step": "STEP-0015G"
+}

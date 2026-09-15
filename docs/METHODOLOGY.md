@@ -261,3 +261,20 @@ This living summary may be extended, but methodology changes must also receive a
 - Recovered observations are rerun through the unchanged Candidate D, fixed 70/30 Peak, and fixed
   35/40/25 Longevity architectures. This isolates data recovery from methodology changes and does
   not promote any counterfactual.
+
+## PlayerSeasonValue V2 recalibration and promotion audit
+
+- `goatlab-v1-player-season-value-v2-promotion-audit-v1` exactly reconstructs the recovered
+  Candidate D research output before testing production suitability.
+- Candidate D remains: PPG/TS scoring; 60/40 stronger/secondary scoring-creation offense; defense
+  with 10% team context, up to 35% continuously reliability-weighted observed Presence, and the
+  unused Presence share retained on actions; then 55/45 stronger/secondary offense-defense.
+- Official PlayerCareerStats and frozen source conflicts are never averaged. A source-choice
+  counterfactual reranks every affected season and quantifies score sensitivity.
+- Actual factual coverage and artificial masking robustness are separate tests. Recovery raises
+  observed coverage to 21,107/22,457 seasons, but 6,420 scored seasons still use traditional-box
+  or expanded-box/no-Presence defensive evidence.
+- Missing STL/BLK, missing Presence, missing team context, and historically unavailable rebounds
+  remain NULL with explicit regimes and confidence. Confidence never multiplies quality.
+- Candidate D is not promoted because the actual non-full regimes retain 7–8 point controlled
+  masking MAE. No official PlayerSeasonValue, Peak, Longevity, or Overall version is changed.
