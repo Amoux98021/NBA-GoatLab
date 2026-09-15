@@ -1,0 +1,279 @@
+{
+  "audit_methodology_version": "goatlab-v1-longevity-threshold-run-calibration-audit-v1",
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a"
+  },
+  "non_full_point_eligible_patterns": [],
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "aggregate_conformal_80": {
+        "coverage": 0.7984251968503937,
+        "mean_width": 13.358680342262186,
+        "median_width": 13.238770685579198
+      },
+      "aggregate_conformal_90": {
+        "coverage": 0.9015748031496063,
+        "mean_width": 37.6837425463661,
+        "median_width": 35.382190701339645
+      },
+      "aggregate_conformal_95": {
+        "coverage": 0.9519685039370078,
+        "mean_width": 57.70294670612982,
+        "median_width": 60.283687943262414
+      },
+      "bias": -0.23584817855214907,
+      "estimate_variance": 677.4048562418758,
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": true,
+        "interval_90_calibrated": true,
+        "mae_lte_5": false,
+        "spearman_gte_095": false
+      },
+      "gt_10": 0.14566929133858267,
+      "gt_5": 0.24173228346456693,
+      "mae": 5.169176547966965,
+      "n": 1270,
+      "pearson": 0.9041795498835349,
+      "point_eligible": false,
+      "propagated_coverage_80": 0.915748031496063,
+      "propagated_coverage_90": 0.9535433070866142,
+      "propagated_coverage_95": 0.9755905511811024,
+      "propagated_mean_width_80": 17.050908086843755,
+      "propagated_mean_width_90": 21.458202254859984,
+      "propagated_mean_width_95": 24.702088878961053,
+      "propagated_median_width_80": 12.037037037037052,
+      "propagated_median_width_90": 19.77935382190701,
+      "propagated_median_width_95": 27.32959022852639,
+      "reference_variance": 696.6738108074334,
+      "rmse": 11.482274463077404,
+      "spearman": 0.9038237142822214
+    },
+    "FULL_REFERENCE": {
+      "aggregate_conformal_80": {
+        "coverage": 0.8062992125984252,
+        "mean_width": 0.6418967132654481,
+        "median_width": 0.7092198581560183
+      },
+      "aggregate_conformal_90": {
+        "coverage": 0.9031496062992126,
+        "mean_width": 1.4312218064940387,
+        "median_width": 1.339637509850263
+      },
+      "aggregate_conformal_95": {
+        "coverage": 0.9535433070866142,
+        "mean_width": 2.8464660002606124,
+        "median_width": 2.9156816390859035
+      },
+      "bias": -0.07452082674062904,
+      "estimate_variance": 693.8953011850526,
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": true,
+        "interval_90_calibrated": true,
+        "mae_lte_5": true,
+        "spearman_gte_095": true
+      },
+      "gt_10": 0.003937007874015748,
+      "gt_5": 0.010236220472440945,
+      "mae": 0.37533428888764775,
+      "n": 1270,
+      "pearson": 0.9973436620047466,
+      "point_eligible": true,
+      "propagated_coverage_80": 1.0,
+      "propagated_coverage_90": 1.0,
+      "propagated_coverage_95": 1.0,
+      "propagated_mean_width_80": 5.957183100339409,
+      "propagated_mean_width_90": 7.69236270111626,
+      "propagated_mean_width_95": 8.939852044203697,
+      "propagated_median_width_80": 0.0,
+      "propagated_median_width_90": 0.1576044129235612,
+      "propagated_median_width_95": 0.6698187549251458,
+      "reference_variance": 696.6738108074334,
+      "rmse": 1.9240954844843994,
+      "spearman": 0.9973519867970776
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "aggregate_conformal_80": {
+        "coverage": 0.7992125984251969,
+        "mean_width": 8.543167476405873,
+        "median_width": 8.589440504334135
+      },
+      "aggregate_conformal_90": {
+        "coverage": 0.9007874015748032,
+        "mean_width": 18.600066392410174,
+        "median_width": 18.91252955082743
+      },
+      "aggregate_conformal_95": {
+        "coverage": 0.9519685039370078,
+        "mean_width": 54.072104018912526,
+        "median_width": 57.328605200945624
+      },
+      "bias": 0.16264589266767185,
+      "estimate_variance": 679.595081032617,
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": true,
+        "interval_90_calibrated": true,
+        "mae_lte_5": true,
+        "spearman_gte_095": false
+      },
+      "gt_10": 0.09370078740157481,
+      "gt_5": 0.1795275590551181,
+      "mae": 3.717338967380851,
+      "n": 1270,
+      "pearson": 0.9388502165715705,
+      "point_eligible": false,
+      "propagated_coverage_80": 0.905511811023622,
+      "propagated_coverage_90": 0.952755905511811,
+      "propagated_coverage_95": 0.9763779527559056,
+      "propagated_mean_width_80": 12.536124917009488,
+      "propagated_mean_width_90": 15.632597122168232,
+      "propagated_mean_width_95": 18.419779198699455,
+      "propagated_median_width_80": 6.540583136327811,
+      "propagated_median_width_90": 10.16548463356974,
+      "propagated_median_width_95": 14.54146966115178,
+      "reference_variance": 696.6738108074334,
+      "rmse": 9.180658526692033,
+      "spearman": 0.9387818594013796
+    },
+    "NO_PRESENCE_CAREER": {
+      "aggregate_conformal_80": {
+        "coverage": 0.8,
+        "mean_width": 10.505730223438384,
+        "median_width": 10.48069345941687
+      },
+      "aggregate_conformal_90": {
+        "coverage": 0.9031496062992126,
+        "mean_width": 26.86364115833038,
+        "median_width": 26.635145784081942
+      },
+      "aggregate_conformal_95": {
+        "coverage": 0.9535433070866142,
+        "mean_width": 55.95299479409046,
+        "median_width": 59.062253743104804
+      },
+      "bias": 0.03974237262895323,
+      "estimate_variance": 691.4060728075567,
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": true,
+        "interval_90_calibrated": true,
+        "mae_lte_5": true,
+        "spearman_gte_095": false
+      },
+      "gt_10": 0.1236220472440945,
+      "gt_5": 0.2125984251968504,
+      "mae": 4.499078572625231,
+      "n": 1270,
+      "pearson": 0.9205281977984048,
+      "point_eligible": false,
+      "propagated_coverage_80": 0.9307086614173228,
+      "propagated_coverage_90": 0.962992125984252,
+      "propagated_coverage_95": 0.9803149606299213,
+      "propagated_mean_width_80": 14.62878266103262,
+      "propagated_mean_width_90": 18.078791347890025,
+      "propagated_mean_width_95": 20.987909755961354,
+      "propagated_median_width_80": 7.052797478329396,
+      "propagated_median_width_90": 11.741528762805359,
+      "propagated_median_width_95": 17.297084318360923,
+      "reference_variance": 696.6738108074334,
+      "rmse": 10.503522769331978,
+      "spearman": 0.9206069657168142
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "aggregate_conformal_80": {
+        "coverage": 0.8,
+        "mean_width": 7.300279840906412,
+        "median_width": 7.328605200945617
+      },
+      "aggregate_conformal_90": {
+        "coverage": 0.9023622047244094,
+        "mean_width": 16.162053324894675,
+        "median_width": 16.312056737588648
+      },
+      "aggregate_conformal_95": {
+        "coverage": 0.9488188976377953,
+        "mean_width": 53.073161954046526,
+        "median_width": 56.501182033096924
+      },
+      "bias": 0.15558782102591773,
+      "estimate_variance": 695.2775983090792,
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": true,
+        "interval_90_calibrated": true,
+        "mae_lte_5": true,
+        "spearman_gte_095": false
+      },
+      "gt_10": 0.08582677165354331,
+      "gt_5": 0.15905511811023623,
+      "mae": 3.4369861568722353,
+      "n": 1270,
+      "pearson": 0.9413771006865326,
+      "point_eligible": false,
+      "propagated_coverage_80": 0.9133858267716536,
+      "propagated_coverage_90": 0.9606299212598425,
+      "propagated_coverage_95": 0.9826771653543307,
+      "propagated_mean_width_80": 10.696859701048007,
+      "propagated_mean_width_90": 13.54658482406011,
+      "propagated_mean_width_95": 15.704706570366646,
+      "propagated_median_width_80": 3.3096926713947994,
+      "propagated_median_width_90": 6.148542159180444,
+      "propagated_median_width_95": 8.274231678486998,
+      "reference_variance": 696.6738108074334,
+      "rmse": 9.034660705810502,
+      "spearman": 0.941716135468236
+    },
+    "TRADITIONAL_CAREER": {
+      "aggregate_conformal_80": {
+        "coverage": 0.8031496062992126,
+        "mean_width": 17.257869362074416,
+        "median_width": 17.494089834515364
+      },
+      "aggregate_conformal_90": {
+        "coverage": 0.9007874015748032,
+        "mean_width": 52.6718911909061,
+        "median_width": 56.02836879432624
+      },
+      "aggregate_conformal_95": {
+        "coverage": 0.9480314960629921,
+        "mean_width": 60.080260357526235,
+        "median_width": 62.64775413711584
+      },
+      "bias": -0.7621476393465003,
+      "estimate_variance": 674.488537700101,
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": false,
+        "interval_90_calibrated": true,
+        "mae_lte_5": false,
+        "spearman_gte_095": false
+      },
+      "gt_10": 0.1826771653543307,
+      "gt_5": 0.2795275590551181,
+      "mae": 6.0967467719017385,
+      "n": 1270,
+      "pearson": 0.8781136882503267,
+      "point_eligible": false,
+      "propagated_coverage_80": 0.9031496062992126,
+      "propagated_coverage_90": 0.9385826771653544,
+      "propagated_coverage_95": 0.9692913385826771,
+      "propagated_mean_width_80": 19.605048925621887,
+      "propagated_mean_width_90": 24.805828571074002,
+      "propagated_mean_width_95": 28.9975956019682,
+      "propagated_median_width_80": 16.449960598896773,
+      "propagated_median_width_90": 27.40346729708432,
+      "propagated_median_width_95": 33.55003940110323,
+      "reference_variance": 696.6738108074334,
+      "rmse": 12.956249561629676,
+      "spearman": 0.8773082951421732
+    }
+  },
+  "research_methodology_version": "goatlab-v1-longevity-v2-uncertainty-research-2",
+  "selected_estimator": "DRAW_MEDIAN_FINAL",
+  "step": "STEP-0015J"
+}

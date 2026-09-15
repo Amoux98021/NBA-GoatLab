@@ -1,0 +1,147 @@
+{
+  "audit_methodology_version": "goatlab-v1-longevity-threshold-run-calibration-audit-v1",
+  "deployment_radii": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "0.8": 6.816390858944054,
+      "0.9": 19.18833727344365,
+      "0.95": 32.86052009456265
+    },
+    "FULL_REFERENCE": {
+      "0.8": 0.35460992907800915,
+      "0.9": 0.6698187549251458,
+      "0.95": 1.4578408195429446
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "0.8": 4.373522458628841,
+      "0.9": 9.456264775413715,
+      "0.95": 29.787234042553195
+    },
+    "NO_PRESENCE_CAREER": {
+      "0.8": 5.397951142631996,
+      "0.9": 13.120567375886523,
+      "0.95": 31.639085894405042
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "0.8": 3.6643026004728156,
+      "0.9": 8.156028368794324,
+      "0.95": 29.078014184397162
+    },
+    "TRADITIONAL_CAREER": {
+      "0.8": 8.747044917257682,
+      "0.9": 28.486997635933804,
+      "0.95": 35.1457840819543
+    }
+  },
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a"
+  },
+  "propagated_and_crossfit_conformal": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "80": {
+        "coverage": 0.7984251968503937,
+        "mean_width": 13.358680342262186,
+        "median_width": 13.238770685579198
+      },
+      "90": {
+        "coverage": 0.9015748031496063,
+        "mean_width": 37.6837425463661,
+        "median_width": 35.382190701339645
+      },
+      "95": {
+        "coverage": 0.9519685039370078,
+        "mean_width": 57.70294670612982,
+        "median_width": 60.283687943262414
+      }
+    },
+    "FULL_REFERENCE": {
+      "80": {
+        "coverage": 0.8062992125984252,
+        "mean_width": 0.6418967132654481,
+        "median_width": 0.7092198581560183
+      },
+      "90": {
+        "coverage": 0.9031496062992126,
+        "mean_width": 1.4312218064940387,
+        "median_width": 1.339637509850263
+      },
+      "95": {
+        "coverage": 0.9535433070866142,
+        "mean_width": 2.8464660002606124,
+        "median_width": 2.9156816390859035
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "80": {
+        "coverage": 0.7992125984251969,
+        "mean_width": 8.543167476405873,
+        "median_width": 8.589440504334135
+      },
+      "90": {
+        "coverage": 0.9007874015748032,
+        "mean_width": 18.600066392410174,
+        "median_width": 18.91252955082743
+      },
+      "95": {
+        "coverage": 0.9519685039370078,
+        "mean_width": 54.072104018912526,
+        "median_width": 57.328605200945624
+      }
+    },
+    "NO_PRESENCE_CAREER": {
+      "80": {
+        "coverage": 0.8,
+        "mean_width": 10.505730223438384,
+        "median_width": 10.48069345941687
+      },
+      "90": {
+        "coverage": 0.9031496062992126,
+        "mean_width": 26.86364115833038,
+        "median_width": 26.635145784081942
+      },
+      "95": {
+        "coverage": 0.9535433070866142,
+        "mean_width": 55.95299479409046,
+        "median_width": 59.062253743104804
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "80": {
+        "coverage": 0.8,
+        "mean_width": 7.300279840906412,
+        "median_width": 7.328605200945617
+      },
+      "90": {
+        "coverage": 0.9023622047244094,
+        "mean_width": 16.162053324894675,
+        "median_width": 16.312056737588648
+      },
+      "95": {
+        "coverage": 0.9488188976377953,
+        "mean_width": 53.073161954046526,
+        "median_width": 56.501182033096924
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "80": {
+        "coverage": 0.8031496062992126,
+        "mean_width": 17.257869362074416,
+        "median_width": 17.494089834515364
+      },
+      "90": {
+        "coverage": 0.9007874015748032,
+        "mean_width": 52.6718911909061,
+        "median_width": 56.02836879432624
+      },
+      "95": {
+        "coverage": 0.9480314960629921,
+        "mean_width": 60.080260357526235,
+        "median_width": 62.64775413711584
+      }
+    }
+  },
+  "research_methodology_version": "goatlab-v1-longevity-v2-uncertainty-research-2",
+  "step": "STEP-0015J"
+}

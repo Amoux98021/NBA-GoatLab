@@ -1,0 +1,36 @@
+{
+  "architecture_mean_absolute_error": {
+    "DRAW_MEAN_FINAL": 5.463658550659892,
+    "EXPECTED_RAW_COMPONENTS": 11.049760180686635,
+    "EXPECTED_TRANSFORMED_COMPONENTS": 11.18238212244746
+  },
+  "audit_methodology_version": "goatlab-v1-longevity-threshold-run-calibration-audit-v1",
+  "dimension_points_per_one_raw_unit_by_quantile": {
+    "10": 54.88573680063042,
+    "25": 54.88573680063042,
+    "50": 54.88573680063042,
+    "75": 1.1032308904649284,
+    "90": 1.182033096926716,
+    "95": 1.0244286840031407
+  },
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a"
+  },
+  "raw_quantiles": {
+    "10": 27.423167848699762,
+    "25": 27.423167848699762,
+    "50": 27.423167848699762,
+    "75": 74.6591804570528,
+    "90": 89.54393223010244,
+    "95": 94.57624113475177
+  },
+  "reference_redrawn": false,
+  "reference_rows": 1270,
+  "research_methodology_version": "goatlab-v1-longevity-v2-uncertainty-research-2",
+  "step": "STEP-0015J",
+  "tie_share": 0.5700787401574803,
+  "unique_raw_values": 546
+}

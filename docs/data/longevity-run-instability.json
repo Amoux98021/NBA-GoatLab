@@ -1,0 +1,182 @@
+{
+  "actual_events": 248,
+  "actual_players_with_event": 187,
+  "audit_methodology_version": "goatlab-v1-longevity-threshold-run-calibration-audit-v1",
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a"
+  },
+  "research_methodology_version": "goatlab-v1-longevity-v2-uncertainty-research-2",
+  "run_weight_changed": false,
+  "run_weight_sensitivity": {
+    "RUN_WEIGHT_20": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.220822608166886,
+        "estimate_variance": 573.6471957557482,
+        "gt_10": 0.2283464566929134,
+        "gt_5": 0.3669291338582677,
+        "mae": 6.0713481754497005,
+        "n": 1270,
+        "pearson": 0.9202902429447815,
+        "reference_variance": 696.6737961386435,
+        "rmse": 10.334464958001904,
+        "spearman": 0.8738717690267851
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.09511416392100015,
+        "estimate_variance": 612.6478205063489,
+        "gt_10": 0.15433070866141732,
+        "gt_5": 0.26456692913385826,
+        "mae": 4.5346609333407795,
+        "n": 1270,
+        "pearson": 0.9476774093137194,
+        "reference_variance": 696.6737961386435,
+        "rmse": 8.430533913606345,
+        "spearman": 0.8952203781565776
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.316839895013124,
+        "estimate_variance": 635.1295305414802,
+        "gt_10": 0.13937007874015747,
+        "gt_5": 0.2377952755905512,
+        "mae": 4.037284513194717,
+        "n": 1270,
+        "pearson": 0.9520380621174778,
+        "reference_variance": 696.6737961386435,
+        "rmse": 8.082746732834055,
+        "spearman": 0.9096922264574929
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.7277259916978451,
+        "estimate_variance": 544.8077971207886,
+        "gt_10": 0.2700787401574803,
+        "gt_5": 0.41732283464566927,
+        "mae": 7.152641363092025,
+        "n": 1270,
+        "pearson": 0.8978019086855855,
+        "reference_variance": 696.6737961386435,
+        "rmse": 11.652356005862705,
+        "spearman": 0.8548810691001049
+      }
+    },
+    "RUN_WEIGHT_25": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.21457363042385583,
+        "estimate_variance": 573.8451356527127,
+        "gt_10": 0.22677165354330708,
+        "gt_5": 0.3669291338582677,
+        "mae": 6.08688045022741,
+        "n": 1270,
+        "pearson": 0.919886425650954,
+        "reference_variance": 696.6738108074334,
+        "rmse": 10.3588759758823,
+        "spearman": 0.8736071002338559
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.09497943076264453,
+        "estimate_variance": 612.5467240782228,
+        "gt_10": 0.15354330708661418,
+        "gt_5": 0.2637795275590551,
+        "mae": 4.547240855531357,
+        "n": 1270,
+        "pearson": 0.9474650414939062,
+        "reference_variance": 696.6738108074334,
+        "rmse": 8.447035776420979,
+        "spearman": 0.8950292616377044
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.32322760186891564,
+        "estimate_variance": 635.3570059716054,
+        "gt_10": 0.13858267716535433,
+        "gt_5": 0.2409448818897638,
+        "mae": 4.0565484509471785,
+        "n": 1270,
+        "pearson": 0.9517832353023263,
+        "reference_variance": 696.6738108074334,
+        "rmse": 8.10398928933388,
+        "spearman": 0.9094744251465408
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.7247466602135718,
+        "estimate_variance": 544.8073399878017,
+        "gt_10": 0.268503937007874,
+        "gt_5": 0.415748031496063,
+        "mae": 7.16396444593362,
+        "n": 1270,
+        "pearson": 0.8974604435048472,
+        "reference_variance": 696.6738108074334,
+        "rmse": 11.670210878841232,
+        "spearman": 0.8546499991988197
+      }
+    },
+    "RUN_WEIGHT_30": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.21527674466223518,
+        "estimate_variance": 573.6149973938373,
+        "gt_10": 0.22677165354330708,
+        "gt_5": 0.3669291338582677,
+        "mae": 6.104582577886984,
+        "n": 1270,
+        "pearson": 0.9194460370801097,
+        "reference_variance": 696.6738083626351,
+        "rmse": 10.38588214904571,
+        "spearman": 0.8733254225017224
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.08879185669167335,
+        "estimate_variance": 612.0465384033956,
+        "gt_10": 0.15511811023622046,
+        "gt_5": 0.2637795275590551,
+        "mae": 4.565518326166676,
+        "n": 1270,
+        "pearson": 0.947206045041524,
+        "reference_variance": 696.6738083626351,
+        "rmse": 8.467280741271091,
+        "spearman": 0.894883487908464
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.32355737979561155,
+        "estimate_variance": 635.1829535389649,
+        "gt_10": 0.13858267716535433,
+        "gt_5": 0.24330708661417322,
+        "mae": 4.076736707556945,
+        "n": 1270,
+        "pearson": 0.9514819508907117,
+        "reference_variance": 696.6738083626351,
+        "rmse": 8.128660685822881,
+        "spearman": 0.9092384342128609
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.7282080130054651,
+        "estimate_variance": 544.4182459151153,
+        "gt_10": 0.2700787401574803,
+        "gt_5": 0.415748031496063,
+        "mae": 7.177848736992984,
+        "n": 1270,
+        "pearson": 0.897023047856059,
+        "reference_variance": 696.6738083626351,
+        "rmse": 11.693735637522833,
+        "spearman": 0.8543827982207385
+      }
+    }
+  },
+  "step": "STEP-0015J",
+  "validation": {
+    "by_pattern": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": 186,
+      "FULL_REFERENCE": 56,
+      "MIXED_PROVISIONAL_INTERVAL": 135,
+      "NO_PRESENCE_CAREER": 142,
+      "PARTIAL_PRESENCE_LATE": 94,
+      "TRADITIONAL_CAREER": 214
+    },
+    "career_pattern_frequency": 0.08490813648293963,
+    "careers_with_event": 647,
+    "events": 827,
+    "mean_conditional_longevity_difference": 7.9973083430243515,
+    "mean_conditional_run_difference": 2.0405641522107554,
+    "mean_potential_run_gain": 2.351874244256348
+  }
+}

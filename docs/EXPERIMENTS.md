@@ -308,3 +308,25 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Outcome:** `PASS`; both dimension uncertainty methods are `LIMITED`; no promotion occurs.
 - **Optimization target:** aggregate calibration only. Player names, awards, outcomes, postseason,
   championships, projections, and conventional rankings are excluded.
+
+## STEP-0015J Longevity threshold/run calibration
+
+- **Question:** why can uncertainty-aware Longevity preserve absolute score while missing the
+  point-grade rank-correlation gate?
+- **Frozen structure:** P80/P90, 35/40/25, U3 stratified player-block dependence, 2,500 draws, and
+  one fixed reference ECDF.
+- **Component result:** mixed breadth/area/run point MAEs are 4.60/4.59/5.11; traditional-only
+  values are 7.09/7.28/7.64. No single component explains the aggregate failure.
+- **Run bridges:** 827 validation events occur in 8.49% of career-pattern cases. Conditional run
+  and final-score changes are 2.04 seasons and 8.00 points.
+- **Estimator result:** final-draw median remains best. Final-draw means and expected-component
+  transforms degrade rank calibration or introduce large positive bias.
+- **Interval result:** cross-fitted player-grouped conformal 90% coverage is 90.08%–90.24% for
+  mixed, partial-Presence, and traditional patterns, with widths appropriate to evidence strength.
+- **Ranking result:** mixed/partial-Presence MAEs remain 3.72/3.44 but Spearman remains
+  0.9388/0.9417. Traditional-only is 6.10/0.8773. No non-full provisional point passes.
+- **Sensitivity:** P78/P88 through P82/P92 and 20%–30% run weights do not change the conclusion;
+  constitutional thresholds and weights remain frozen.
+- **Outcome:** `PASS + LONGEVITY_AGGREGATION_LIMITED`; Peak regression difference is zero.
+- **Optimization target:** calibration gates only. No player identity, reputation, award,
+  championship, postseason, or external ranking is used.

@@ -320,3 +320,22 @@ This living summary may be extended, but methodology changes must also receive a
   Failing patterns remain interval-only; confidence and interval width do not penalize quality.
 - Result: `PASS + PEAK_UNCERTAINTY_LIMITED + LONGEVITY_UNCERTAINTY_LIMITED`. The methods remain
   research-only and no official Peak, Longevity, PlayerSeasonValue, or Overall version is created.
+
+## Longevity threshold, run, and aggregate calibration
+
+- `goatlab-v1-longevity-threshold-run-calibration-audit-v1` reproduces STEP-0015I exactly and
+  preserves the 35/40/25 architecture, P80/P90, U3 dependence model, 2,500 draws, and fixed ECDF.
+- Error is not isolated to longest-run discreteness. Run has the weakest isolated rank signal,
+  capped area causes the most pairwise reversals, and P80 uncertainty affects breadth, area, and
+  run simultaneously.
+- A `RUN_BRIDGE_EVENT` is a borderline season with 25%–75% P80 probability connecting credible
+  consecutive elite sequences. It is diagnostic metadata and never changes quality by itself.
+- The selected central estimate remains the median of fully aggregated fixed-scale draws.
+  Transforming expected components is rejected because nonlinear thresholds and tied ECDF regions
+  introduce large positive bias.
+- Player-grouped aggregate conformal intervals replace overconservative propagated intervals in
+  the research-2 output. Intervals are calibrated separately by evidence pattern and do not alter
+  central score quality.
+- No non-full pattern passes all ranking-grade point gates. Research statuses remain 1,976
+  official-form, 2,210 interval-only, and 917 unavailable; no provisional point is manufactured.
+- Result: `PASS + LONGEVITY_AGGREGATION_LIMITED`. No official Longevity methodology is created.

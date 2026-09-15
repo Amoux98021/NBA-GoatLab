@@ -1,0 +1,20 @@
+{
+  "audit_methodology_version": "goatlab-v1-longevity-threshold-run-calibration-audit-v1",
+  "forbidden_inputs": false,
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a"
+  },
+  "longevity_verdict": "LONGEVITY_AGGREGATION_LIMITED",
+  "official_methodology_created": false,
+  "peak_modified": false,
+  "player_season_value_modified": false,
+  "recommendation": "READY_FOR_PEAK_PROMOTION_WITH_LONGEVITY_INTERVAL_POLICY",
+  "research_methodology_version": "goatlab-v1-longevity-v2-uncertainty-research-2",
+  "step": "STEP-0015J",
+  "step_result": "PASS",
+  "thresholds_modified": false,
+  "weights_modified": false
+}

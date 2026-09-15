@@ -400,3 +400,25 @@ Peak status is `OFFICIAL_PEAK_POINT`, `PROVISIONAL_PEAK_POINT`, `PEAK_INTERVAL_O
 emits no provisional Longevity points because no non-full pattern passes every aggregate gate.
 Central estimates remain present for interval-only research rows but are not ranking-grade points.
 Intervals represent measurement uncertainty and never multiply score quality.
+
+## Gold Longevity threshold/run calibration outputs
+
+Generated STEP-0015J outputs remain ignored under
+`data/gold/longevity_threshold_run_calibration_audit/`. The research methodology is
+`goatlab-v1-longevity-v2-uncertainty-research-2`; no production Longevity method is created.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `masked-career-component-validation` | full-form player × mask pattern | Reference and uncertain breadth, area, run, estimator, ablation, threshold, and run-weight diagnostics. |
+| `run-bridge-events-validation` | player × pattern × connector season | Borderline P80 connector, adjacent credible runs, and conditional run/final impact. |
+| `longevity-uncertainty-research-2` | canonical player | Selected central diagnostic, aggregate conformal intervals, component expectations, run metadata, status, and reason codes. |
+| `run-bridge-events-actual` | player × connector season | Actual historical P80 bridge events retained as interpretive uncertainty metadata. |
+| `early-era-cases` | predetermined historical player | Expected breadth/area/run, central diagnostic, calibrated intervals, status, and bridge events. |
+| `modern-masked-controls` | predetermined modern player × mask pattern | Full-form reference versus masked estimator and component errors. |
+
+`RUN_BRIDGE_EVENT` requires a connector season with P80 probability strictly between 0.25 and
+0.75, consecutive credible P80 evidence on both sides, and no calendar gap. A bridge event never
+changes score or status by itself. `longevity_central` is the median of complete final-score draws.
+Research-2 intervals are player-grouped aggregate conformal intervals by evidence pattern; score
+quality and uncertainty remain separate. P80/P90, 35/40/25, active-career cutoff, and fixed ECDF
+references are unchanged.

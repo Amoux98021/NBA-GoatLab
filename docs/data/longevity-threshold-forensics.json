@@ -1,0 +1,422 @@
+{
+  "audit_methodology_version": "goatlab-v1-longevity-threshold-run-calibration-audit-v1",
+  "diagnostic_sensitivity": {
+    "THRESHOLD_78_88": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.15703608148272574,
+        "estimate_variance": 598.2265149481689,
+        "gt_10": 0.21496062992125983,
+        "gt_5": 0.37480314960629924,
+        "mae": 5.78802403777542,
+        "n": 1270,
+        "pearson": 0.9332800177479667,
+        "reference_variance": 716.9668812999122,
+        "rmse": 9.632606059940061,
+        "spearman": 0.8919289188729612
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.15586824519275183,
+        "estimate_variance": 633.682398484386,
+        "gt_10": 0.14409448818897638,
+        "gt_5": 0.28503937007874014,
+        "mae": 4.403581305882864,
+        "n": 1270,
+        "pearson": 0.9552947175612994,
+        "reference_variance": 716.9668812999122,
+        "rmse": 7.928477960652121,
+        "spearman": 0.9098959685159326
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.3929315165391522,
+        "estimate_variance": 655.6881640326654,
+        "gt_10": 0.1236220472440945,
+        "gt_5": 0.24645669291338582,
+        "mae": 3.8100581523054315,
+        "n": 1270,
+        "pearson": 0.9614140510995379,
+        "reference_variance": 716.9668812999122,
+        "rmse": 7.378027292866226,
+        "spearman": 0.9230307601152729
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.6272934482480502,
+        "estimate_variance": 571.8630308215703,
+        "gt_10": 0.25905511811023624,
+        "gt_5": 0.4267716535433071,
+        "mae": 6.924910519163828,
+        "n": 1270,
+        "pearson": 0.9105357527443162,
+        "reference_variance": 716.9668812999122,
+        "rmse": 11.097700374562685,
+        "spearman": 0.8725849379284276
+      }
+    },
+    "THRESHOLD_79_89": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.11919938199214337,
+        "estimate_variance": 583.9599888060484,
+        "gt_10": 0.21338582677165355,
+        "gt_5": 0.36220472440944884,
+        "mae": 5.913576726668032,
+        "n": 1270,
+        "pearson": 0.9259899788567649,
+        "reference_variance": 705.3906145473411,
+        "rmse": 10.037221524518554,
+        "spearman": 0.881575347978713
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.18895864435385396,
+        "estimate_variance": 621.0961550233951,
+        "gt_10": 0.15118110236220472,
+        "gt_5": 0.2755905511811024,
+        "mae": 4.499398435124688,
+        "n": 1270,
+        "pearson": 0.9504043994413017,
+        "reference_variance": 705.3906145473411,
+        "rmse": 8.268717626560246,
+        "spearman": 0.9009669514117012
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.42061609674677264,
+        "estimate_variance": 643.2094348992329,
+        "gt_10": 0.13070866141732285,
+        "gt_5": 0.24173228346456693,
+        "mae": 3.8972210991356584,
+        "n": 1270,
+        "pearson": 0.9578647762894942,
+        "reference_variance": 705.3906145473411,
+        "rmse": 7.640309856063217,
+        "spearman": 0.9161814616308903
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.6089804235463463,
+        "estimate_variance": 556.2737845213403,
+        "gt_10": 0.2637795275590551,
+        "gt_5": 0.41732283464566927,
+        "mae": 7.0319771907944135,
+        "n": 1270,
+        "pearson": 0.903626497144065,
+        "reference_variance": 705.3906145473411,
+        "rmse": 11.399681011974087,
+        "spearman": 0.8628003124982864
+      }
+    },
+    "THRESHOLD_80_90": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.21457363042385583,
+        "estimate_variance": 573.8451356527127,
+        "gt_10": 0.22677165354330708,
+        "gt_5": 0.3669291338582677,
+        "mae": 6.08688045022741,
+        "n": 1270,
+        "pearson": 0.919886425650954,
+        "reference_variance": 696.6738108074334,
+        "rmse": 10.3588759758823,
+        "spearman": 0.8736071002338559
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.09497943076264453,
+        "estimate_variance": 612.5467240782228,
+        "gt_10": 0.15354330708661418,
+        "gt_5": 0.2637795275590551,
+        "mae": 4.547240855531357,
+        "n": 1270,
+        "pearson": 0.9474650414939062,
+        "reference_variance": 696.6738108074334,
+        "rmse": 8.447035776420979,
+        "spearman": 0.8950292616377044
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.32322760186891564,
+        "estimate_variance": 635.3570059716054,
+        "gt_10": 0.13858267716535433,
+        "gt_5": 0.2409448818897638,
+        "mae": 4.0565484509471785,
+        "n": 1270,
+        "pearson": 0.9517832353023263,
+        "reference_variance": 696.6738108074334,
+        "rmse": 8.10398928933388,
+        "spearman": 0.9094744251465408
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.7247466602135718,
+        "estimate_variance": 544.8073399878017,
+        "gt_10": 0.268503937007874,
+        "gt_5": 0.415748031496063,
+        "mae": 7.16396444593362,
+        "n": 1270,
+        "pearson": 0.8974604435048472,
+        "reference_variance": 696.6738108074334,
+        "rmse": 11.670210878841232,
+        "spearman": 0.8546499991988197
+      }
+    },
+    "THRESHOLD_81_91": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.14259756892090603,
+        "estimate_variance": 555.4478099211235,
+        "gt_10": 0.23385826771653542,
+        "gt_5": 0.36850393700787404,
+        "mae": 6.210450363917277,
+        "n": 1270,
+        "pearson": 0.9135541946429214,
+        "reference_variance": 682.5592786460211,
+        "rmse": 10.630996262841336,
+        "spearman": 0.8626954615844209
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.14527230195516375,
+        "estimate_variance": 595.104258852279,
+        "gt_10": 0.16456692913385826,
+        "gt_5": 0.2700787401574803,
+        "mae": 4.676722547979375,
+        "n": 1270,
+        "pearson": 0.9420194142654466,
+        "reference_variance": 682.5592786460211,
+        "rmse": 8.770613687002538,
+        "spearman": 0.8847935983844064
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.3849737098465531,
+        "estimate_variance": 618.658587967305,
+        "gt_10": 0.14488188976377953,
+        "gt_5": 0.23937007874015748,
+        "mae": 4.164131854085615,
+        "n": 1270,
+        "pearson": 0.9474664559462396,
+        "reference_variance": 682.5592786460211,
+        "rmse": 8.366199316424506,
+        "spearman": 0.9015391162822386
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.6602919528675935,
+        "estimate_variance": 525.5607985572856,
+        "gt_10": 0.2803149606299213,
+        "gt_5": 0.41338582677165353,
+        "mae": 7.256887052239038,
+        "n": 1270,
+        "pearson": 0.8911266213508117,
+        "reference_variance": 682.5592786460211,
+        "rmse": 11.878440909596979,
+        "spearman": 0.8438964109659464
+      }
+    },
+    "THRESHOLD_82_92": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "bias": -0.012636163387375934,
+        "estimate_variance": 532.904620703097,
+        "gt_10": 0.23228346456692914,
+        "gt_5": 0.35748031496062993,
+        "mae": 6.316617374955792,
+        "n": 1270,
+        "pearson": 0.905449062088875,
+        "reference_variance": 664.8011241886796,
+        "rmse": 10.947157078444507,
+        "spearman": 0.8491640785229532
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "bias": 0.24705057612479517,
+        "estimate_variance": 573.2943364648291,
+        "gt_10": 0.16692913385826771,
+        "gt_5": 0.2748031496062992,
+        "mae": 4.792008587579037,
+        "n": 1270,
+        "pearson": 0.9358801133543033,
+        "reference_variance": 664.8011241886796,
+        "rmse": 9.089371950948802,
+        "spearman": 0.872402908215797
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "bias": 0.4980981242592924,
+        "estimate_variance": 597.0580076861418,
+        "gt_10": 0.14330708661417324,
+        "gt_5": 0.23700787401574802,
+        "mae": 4.251231908068232,
+        "n": 1270,
+        "pearson": 0.9419438937989573,
+        "reference_variance": 664.8011241886796,
+        "rmse": 8.672992356114552,
+        "spearman": 0.8907498097453718
+      },
+      "TRADITIONAL_CAREER": {
+        "bias": -0.5441545764226261,
+        "estimate_variance": 502.47565671074915,
+        "gt_10": 0.2755905511811024,
+        "gt_5": 0.4094488188976378,
+        "mae": 7.401931981906518,
+        "n": 1270,
+        "pearson": 0.8804593033134017,
+        "reference_variance": 664.8011241886796,
+        "rmse": 12.240066825075749,
+        "spearman": 0.82914542826561
+      }
+    }
+  },
+  "fixed_thresholds": {
+    "p80": 80.0,
+    "p90": 90.0
+  },
+  "forensics": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "P80_75_85": {
+        "mean_capped_area_variance": 0.09689975303359741,
+        "mean_exceedance_probability": 0.4468938809723387,
+        "seasons": 1193,
+        "uncertain_share": 0.8952221290863369
+      },
+      "P80_78_82": {
+        "mean_capped_area_variance": 0.10011074778289296,
+        "mean_exceedance_probability": 0.45617420718816065,
+        "seasons": 473,
+        "uncertain_share": 0.9344608879492601
+      },
+      "P80_79_81": {
+        "mean_capped_area_variance": 0.10096929585736138,
+        "mean_exceedance_probability": 0.46611794871794876,
+        "seasons": 234,
+        "uncertain_share": 0.9273504273504274
+      },
+      "P90_85_95": {
+        "mean_capped_area_variance": 0.1271823679332312,
+        "mean_exceedance_probability": 0.3813785775492716,
+        "seasons": 1167,
+        "uncertain_share": 0.9314481576692374
+      },
+      "P90_88_92": {
+        "mean_capped_area_variance": 0.13032471659494216,
+        "mean_exceedance_probability": 0.3871235668789809,
+        "seasons": 471,
+        "uncertain_share": 0.9469214437367304
+      },
+      "P90_89_91": {
+        "mean_capped_area_variance": 0.13092116466314516,
+        "mean_exceedance_probability": 0.3657904761904762,
+        "seasons": 231,
+        "uncertain_share": 0.9264069264069265
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "P80_75_85": {
+        "mean_capped_area_variance": 0.06694472595650616,
+        "mean_exceedance_probability": 0.46182866722548194,
+        "seasons": 1193,
+        "uncertain_share": 0.8222967309304275
+      },
+      "P80_78_82": {
+        "mean_capped_area_variance": 0.06828956514031698,
+        "mean_exceedance_probability": 0.47403551797040167,
+        "seasons": 473,
+        "uncertain_share": 0.8964059196617337
+      },
+      "P80_79_81": {
+        "mean_capped_area_variance": 0.06850895689182598,
+        "mean_exceedance_probability": 0.4745863247863248,
+        "seasons": 234,
+        "uncertain_share": 0.9017094017094017
+      },
+      "P90_85_95": {
+        "mean_capped_area_variance": 0.08840321435898936,
+        "mean_exceedance_probability": 0.4146063410454156,
+        "seasons": 1167,
+        "uncertain_share": 0.8663239074550129
+      },
+      "P90_88_92": {
+        "mean_capped_area_variance": 0.0922436621817683,
+        "mean_exceedance_probability": 0.41327898089171977,
+        "seasons": 471,
+        "uncertain_share": 0.940552016985138
+      },
+      "P90_89_91": {
+        "mean_capped_area_variance": 0.0912904679426941,
+        "mean_exceedance_probability": 0.3931255411255411,
+        "seasons": 231,
+        "uncertain_share": 0.9393939393939394
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "P80_75_85": {
+        "mean_capped_area_variance": 0.05775729503286049,
+        "mean_exceedance_probability": 0.4781663034367142,
+        "seasons": 1193,
+        "uncertain_share": 0.7728415758591786
+      },
+      "P80_78_82": {
+        "mean_capped_area_variance": 0.060842384027365054,
+        "mean_exceedance_probability": 0.4829733615221988,
+        "seasons": 473,
+        "uncertain_share": 0.8710359408033826
+      },
+      "P80_79_81": {
+        "mean_capped_area_variance": 0.05908084337043939,
+        "mean_exceedance_probability": 0.4634222222222222,
+        "seasons": 234,
+        "uncertain_share": 0.8974358974358975
+      },
+      "P90_85_95": {
+        "mean_capped_area_variance": 0.07537225612734431,
+        "mean_exceedance_probability": 0.4550683804627249,
+        "seasons": 1167,
+        "uncertain_share": 0.8329048843187661
+      },
+      "P90_88_92": {
+        "mean_capped_area_variance": 0.07892052135978292,
+        "mean_exceedance_probability": 0.4631966029723992,
+        "seasons": 471,
+        "uncertain_share": 0.9511677282377919
+      },
+      "P90_89_91": {
+        "mean_capped_area_variance": 0.07869450412371218,
+        "mean_exceedance_probability": 0.45540606060606065,
+        "seasons": 231,
+        "uncertain_share": 0.9653679653679653
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "P80_75_85": {
+        "mean_capped_area_variance": 0.10394610272153067,
+        "mean_exceedance_probability": 0.4455409891031014,
+        "seasons": 1193,
+        "uncertain_share": 0.9044425817267393
+      },
+      "P80_78_82": {
+        "mean_capped_area_variance": 0.1078088193070664,
+        "mean_exceedance_probability": 0.45954756871035946,
+        "seasons": 473,
+        "uncertain_share": 0.9260042283298098
+      },
+      "P80_79_81": {
+        "mean_capped_area_variance": 0.10786851874252165,
+        "mean_exceedance_probability": 0.4622871794871795,
+        "seasons": 234,
+        "uncertain_share": 0.9188034188034188
+      },
+      "P90_85_95": {
+        "mean_capped_area_variance": 0.13340054353627506,
+        "mean_exceedance_probability": 0.3581717223650386,
+        "seasons": 1167,
+        "uncertain_share": 0.9143101970865467
+      },
+      "P90_88_92": {
+        "mean_capped_area_variance": 0.13654982738350574,
+        "mean_exceedance_probability": 0.3597723991507431,
+        "seasons": 471,
+        "uncertain_share": 0.9320594479830149
+      },
+      "P90_89_91": {
+        "mean_capped_area_variance": 0.1353067625726644,
+        "mean_exceedance_probability": 0.3493904761904762,
+        "seasons": 231,
+        "uncertain_share": 0.9177489177489178
+      }
+    }
+  },
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a"
+  },
+  "research_methodology_version": "goatlab-v1-longevity-v2-uncertainty-research-2",
+  "step": "STEP-0015J",
+  "thresholds_changed": false
+}

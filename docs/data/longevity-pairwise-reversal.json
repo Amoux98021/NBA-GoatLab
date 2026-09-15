@@ -1,0 +1,221 @@
+{
+  "audit_methodology_version": "goatlab-v1-longevity-threshold-run-calibration-audit-v1",
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a"
+  },
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "10": {
+        "dominant_component_in_reversals": {
+          "AREA": 155,
+          "BREADTH": 90,
+          "RUN": 43
+        },
+        "ordering_accuracy": 0.8644705882352941,
+        "pairs": 2125,
+        "reversal_rate": 0.13552941176470587
+      },
+      "15": {
+        "dominant_component_in_reversals": {
+          "AREA": 74,
+          "BREADTH": 35,
+          "RUN": 9
+        },
+        "ordering_accuracy": 0.9309537741369222,
+        "pairs": 1709,
+        "reversal_rate": 0.06904622586307782
+      },
+      "2": {
+        "dominant_component_in_reversals": {
+          "AREA": 511,
+          "BREADTH": 196,
+          "RUN": 158
+        },
+        "ordering_accuracy": 0.6373165618448637,
+        "pairs": 2385,
+        "reversal_rate": 0.36268343815513626
+      },
+      "20": {
+        "dominant_component_in_reversals": {
+          "AREA": 41,
+          "BREADTH": 10,
+          "RUN": 2
+        },
+        "ordering_accuracy": 0.9637482900136799,
+        "pairs": 1462,
+        "reversal_rate": 0.03625170998632011
+      },
+      "5": {
+        "dominant_component_in_reversals": {
+          "AREA": 338,
+          "BREADTH": 167,
+          "RUN": 94
+        },
+        "ordering_accuracy": 0.7396784006953498,
+        "pairs": 2301,
+        "reversal_rate": 0.26032159930465015
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "10": {
+        "dominant_component_in_reversals": {
+          "AREA": 82,
+          "BREADTH": 62,
+          "RUN": 19
+        },
+        "ordering_accuracy": 0.921256038647343,
+        "pairs": 2070,
+        "reversal_rate": 0.078743961352657
+      },
+      "15": {
+        "dominant_component_in_reversals": {
+          "AREA": 26,
+          "BREADTH": 28,
+          "RUN": 7
+        },
+        "ordering_accuracy": 0.963841138114997,
+        "pairs": 1687,
+        "reversal_rate": 0.03615886188500297
+      },
+      "2": {
+        "dominant_component_in_reversals": {
+          "AREA": 459,
+          "BREADTH": 212,
+          "RUN": 165
+        },
+        "ordering_accuracy": 0.6752136752136753,
+        "pairs": 2574,
+        "reversal_rate": 0.3247863247863248
+      },
+      "20": {
+        "dominant_component_in_reversals": {
+          "AREA": 10,
+          "BREADTH": 8,
+          "RUN": 1
+        },
+        "ordering_accuracy": 0.9864188706218727,
+        "pairs": 1399,
+        "reversal_rate": 0.013581129378127233
+      },
+      "5": {
+        "dominant_component_in_reversals": {
+          "AREA": 266,
+          "BREADTH": 164,
+          "RUN": 102
+        },
+        "ordering_accuracy": 0.7741935483870968,
+        "pairs": 2356,
+        "reversal_rate": 0.22580645161290322
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "10": {
+        "dominant_component_in_reversals": {
+          "AREA": 57,
+          "BREADTH": 55,
+          "RUN": 17
+        },
+        "ordering_accuracy": 0.9364218827008378,
+        "pairs": 2029,
+        "reversal_rate": 0.06357811729916214
+      },
+      "15": {
+        "dominant_component_in_reversals": {
+          "AREA": 22,
+          "BREADTH": 10,
+          "RUN": 3
+        },
+        "ordering_accuracy": 0.9790794979079498,
+        "pairs": 1673,
+        "reversal_rate": 0.02092050209205021
+      },
+      "2": {
+        "dominant_component_in_reversals": {
+          "AREA": 341,
+          "BREADTH": 204,
+          "RUN": 157
+        },
+        "ordering_accuracy": 0.7153284671532847,
+        "pairs": 2466,
+        "reversal_rate": 0.2846715328467153
+      },
+      "20": {
+        "dominant_component_in_reversals": {
+          "AREA": 4,
+          "BREADTH": 3,
+          "RUN": 1
+        },
+        "ordering_accuracy": 0.9943977591036415,
+        "pairs": 1428,
+        "reversal_rate": 0.0056022408963585435
+      },
+      "5": {
+        "dominant_component_in_reversals": {
+          "AREA": 191,
+          "BREADTH": 124,
+          "RUN": 89
+        },
+        "ordering_accuracy": 0.8230398598335523,
+        "pairs": 2283,
+        "reversal_rate": 0.17696014016644765
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "10": {
+        "dominant_component_in_reversals": {
+          "AREA": 240,
+          "BREADTH": 129,
+          "RUN": 51
+        },
+        "ordering_accuracy": 0.8013245033112583,
+        "pairs": 2114,
+        "reversal_rate": 0.1986754966887417
+      },
+      "15": {
+        "dominant_component_in_reversals": {
+          "AREA": 133,
+          "BREADTH": 64,
+          "RUN": 15
+        },
+        "ordering_accuracy": 0.8806306306306306,
+        "pairs": 1776,
+        "reversal_rate": 0.11936936936936937
+      },
+      "2": {
+        "dominant_component_in_reversals": {
+          "AREA": 619,
+          "BREADTH": 245,
+          "RUN": 139
+        },
+        "ordering_accuracy": 0.6015097338100914,
+        "pairs": 2517,
+        "reversal_rate": 0.3984902661899086
+      },
+      "20": {
+        "dominant_component_in_reversals": {
+          "AREA": 66,
+          "BREADTH": 18,
+          "RUN": 1
+        },
+        "ordering_accuracy": 0.9437830687830688,
+        "pairs": 1512,
+        "reversal_rate": 0.056216931216931214
+      },
+      "5": {
+        "dominant_component_in_reversals": {
+          "AREA": 451,
+          "BREADTH": 231,
+          "RUN": 79
+        },
+        "ordering_accuracy": 0.6726881720430108,
+        "pairs": 2325,
+        "reversal_rate": 0.32731182795698927
+      }
+    }
+  },
+  "research_methodology_version": "goatlab-v1-longevity-v2-uncertainty-research-2",
+  "step": "STEP-0015J"
+}
