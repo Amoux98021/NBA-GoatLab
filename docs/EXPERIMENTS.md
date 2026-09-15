@@ -218,3 +218,31 @@ Future experiments must record the objective, input snapshot, feature version, c
   diagnostics, and 783 unavailable rows. Candidate D and every V1 methodology remain unchanged.
 - **Optimization target:** none. Named early and modern cases are inspected only after models and
   gates are frozen.
+
+## STEP-0015F Historical factual data recovery audit
+
+- **Objective:** determine whether STEP-0015E sparsity reflects unrecorded statistics, a source
+  omission, or a recoverable aggregation problem before accepting interval-native history.
+- **Source experiment:** acquire official PlayerCareerStats totals for 2,234 deterministic
+  pre-1996 player scopes. 2,231 return rows and three are terminal source gaps; identity resolution
+  is exact through official `PLAYER_ID`.
+- **Aggregation result:** 9,532 field totals can be reproduced exactly from complete frozen
+  player-game groups but were omitted by the partition-wide season aggregation gate. Another 7,666
+  complete game aggregates materially differ from current official career totals and are retained
+  as source conflicts.
+- **Recovery:** 5,861/5,863 APG gaps, 5,319/5,321 TS-evidence gaps, and 4,675/5,242 action gaps are
+  factually recovered. `EARLY_LIMITED` falls from 5,881 to 567 rows.
+- **TS validation:** standard totals-derived TS differs from official advanced TS by 0.000250 on
+  average and at most 0.000500 across 12,437 overlaps. Historical free-throw possession assumptions
+  remain a documented limitation.
+- **Candidate D isolation:** the formula is unchanged. Coverage rises from 16,576 to 21,107 rows
+  and 2,950 to 3,893 players solely because observed facts improve.
+- **Masking recheck:** expanded/traditional/early-with-Presence/early-minimal MAEs become
+  7.25/7.96/8.41/11.34. Artificial evidence removal still fails bridge gates, so factual recovery
+  does not solve missing Presence or historically unrecorded defense.
+- **Downstream diagnostics:** fixed Peak coverage rises 1,761→2,326 players and fixed Longevity
+  coverage 2,950→3,893. Neither is promoted.
+- **Outcome:** `PASS + MATERIAL_RECOVERY`; rerun the PlayerSeasonValue measurement and historical
+  bridge audits on the recovered factual corpus.
+- **Optimization target:** none. No historical statistic is predicted, and named cases do not
+  affect source scope, source precedence, or recovery logic.

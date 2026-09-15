@@ -1,0 +1,15 @@
+{
+  "audit_methodology_version": "goatlab-historical-data-recovery-audit-v1",
+  "facts_methodology_version": "goatlab-historical-player-season-facts-v2-research",
+  "frozen_outputs_modified": false,
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "corpus": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "step_0015e": "731130b7fffd53ff084321b78175c7651f7c04387d9d574f5add205428bcbf63"
+  },
+  "model_imputation_used": false,
+  "recommendation": "RERUN_MEASUREMENT_WITH_RECOVERED_FACTS",
+  "recovery_verdict": "MATERIAL_RECOVERY",
+  "step": "STEP-0015F",
+  "step_result": "PASS"
+}

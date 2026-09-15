@@ -299,3 +299,38 @@ measurement evidence and do not replace Candidate D or any published V1 artifact
 `bridge_lower_90` and `bridge_upper_90` contain an empirical masking interval. `fallback_type`
 records the evidence regime used; it never claims an inferred channel was observed. Confidence is
 `STRONG`, `MODERATE`, `LIMITED`, or `UNAVAILABLE` and cannot alter quality.
+
+## Silver historical player-season facts V2 research
+
+Generated STEP-0015F data remains ignored under
+`data/silver/historical_player_season_facts_v2_research/`. It supplements, but never mutates,
+`GOATLAB-HIST-V1`.
+
+| Field family | Semantics |
+|---|---|
+| identity/grain | `player_id`, official `nba_player_id`, `season_id`, Regular Season only; one row per canonical player-season |
+| observed totals | GP, MIN, PTS, FGM/FGA, FTM/FTA, OREB/DREB/REB, AST, STL, BLK, TOV, PF, subject to historical introduction guards |
+| derived rates | Per-game values are totals divided by observed GP; FG%/FT% are exact make/attempt ratios; TS is the documented standard 0.44 estimate |
+| source flags | Dedicated PlayerCareerStats totals availability and cached LeagueLeaders per-game fallback availability |
+| provenance | `field_provenance_json` records the selected source or exact derivation for every field |
+| missingness | `missingness_reason_json` distinguishes `HISTORICALLY_NOT_RECORDED`, `SOURCE_NOT_INGESTED`, `DERIVABLE_FROM_OBSERVED_FACTS`, `SOURCE_CONFLICT`, `SOURCE_UNAVAILABLE`, `NOT_APPLICABLE`, and `PIPELINE_BUG` |
+
+Pre-1996 official PlayerCareerStats season totals take precedence in this research table when the
+frozen bulk player-game aggregate conflicts. The old fact remains in V1 and the discrepancy remains
+in the committed reconciliation report; conflicting values are never averaged. Statistics before
+their official recording boundary are forced to NULL even if a source exposes a placeholder zero.
+
+## Gold historical recovery-audit outputs
+
+Generated STEP-0015F diagnostics remain ignored under
+`data/gold/historical_data_recovery_audit/`.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `candidate-d-recovered-facts` | player × qualified Regular Season | Unchanged Candidate D formula recomputed from recovered factual observations only. |
+| `early-era-case-studies` | selected player × changed season | Before/after regime, recovered facts, remaining unavailable channels, confidence, and downstream eligibility. |
+| `peak-coverage-impact` | master player | Fixed 70/30 Peak counterfactual coverage; not promoted. |
+| `longevity-coverage-impact` | master player | Fixed 35/40/25 Longevity-input counterfactual coverage; not promoted. |
+
+All research outputs retain the frozen corpus identifier and versioned recovery methodology.
+Confidence remains separate from quality, and no modeled historical statistic enters these tables.

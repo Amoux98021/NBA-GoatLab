@@ -1,0 +1,62 @@
+{
+  "after": {
+    "EARLY_LIMITED": {
+      "first_season": 1946,
+      "last_season": 1956,
+      "player_seasons": 567,
+      "players": 350
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "first_season": 1973,
+      "last_season": 2025,
+      "player_seasons": 4486,
+      "players": 1520
+    },
+    "FULL_PORTABLE": {
+      "first_season": 1977,
+      "last_season": 2025,
+      "player_seasons": 14687,
+      "players": 3092
+    },
+    "TRADITIONAL_BOX": {
+      "first_season": 1950,
+      "last_season": 1972,
+      "player_seasons": 2717,
+      "players": 724
+    }
+  },
+  "audit_methodology_version": "goatlab-historical-data-recovery-audit-v1",
+  "before": {
+    "EARLY_LIMITED": {
+      "first_season": 1946,
+      "last_season": 1990,
+      "player_seasons": 5881,
+      "players": 1589
+    },
+    "EXPANDED_BOX_NO_PRESENCE": {
+      "first_season": 1983,
+      "last_season": 2025,
+      "player_seasons": 2153,
+      "players": 887
+    },
+    "FULL_PORTABLE": {
+      "first_season": 1982,
+      "last_season": 2025,
+      "player_seasons": 14368,
+      "players": 2940
+    },
+    "TRADITIONAL_BOX": {
+      "first_season": 1982,
+      "last_season": 1983,
+      "player_seasons": 55,
+      "players": 53
+    }
+  },
+  "facts_methodology_version": "goatlab-historical-player-season-facts-v2-research",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "corpus": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "step_0015e": "731130b7fffd53ff084321b78175c7651f7c04387d9d574f5add205428bcbf63"
+  },
+  "step": "STEP-0015F"
+}

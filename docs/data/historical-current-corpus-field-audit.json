@@ -1,0 +1,526 @@
+{
+  "audit_methodology_version": "goatlab-historical-data-recovery-audit-v1",
+  "facts_methodology_version": "goatlab-historical-player-season-facts-v2-research",
+  "finding": "Early PlayerGameLogs rows exist but several recorded fields are sparse; the official player-scoped career totals endpoint contains season totals.",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "corpus": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "step_0015e": "731130b7fffd53ff084321b78175c7651f7c04387d9d574f5add205428bcbf63"
+  },
+  "original_missingness": {
+    "early_limited_player_seasons": 5881,
+    "missing_apg": 5863,
+    "missing_presence": 2074,
+    "missing_rebound_action": 5242,
+    "missing_ts": 5321,
+    "ppg_team_only": 4311
+  },
+  "pipeline_bug_count": 9532,
+  "player_game_aggregation": {
+    "fields": {
+      "AST": {
+        "EXACT_MATCH": 6278,
+        "INCOMPLETE_GAME_EVIDENCE": 4091,
+        "PIPELINE_AGGREGATION_OMISSION": 1899,
+        "SOURCE_CONFLICT": 162,
+        "TOLERANCE_MATCH": 176,
+        "compared": 6616,
+        "maximum_absolute_difference": 21.0,
+        "mean_absolute_difference": 0.1098851269649335
+      },
+      "BLK": {
+        "EXACT_MATCH": 4822,
+        "INCOMPLETE_GAME_EVIDENCE": 2213,
+        "PIPELINE_AGGREGATION_OMISSION": 742,
+        "SOURCE_CONFLICT": 71,
+        "TOLERANCE_MATCH": 172,
+        "compared": 5065,
+        "maximum_absolute_difference": 6.0,
+        "mean_absolute_difference": 0.07107601184600197
+      },
+      "DREB": {
+        "EXACT_MATCH": 4591,
+        "INCOMPLETE_GAME_EVIDENCE": 2562,
+        "PIPELINE_AGGREGATION_OMISSION": 506,
+        "SOURCE_CONFLICT": 46,
+        "TOLERANCE_MATCH": 79,
+        "compared": 4716,
+        "maximum_absolute_difference": 8.0,
+        "mean_absolute_difference": 0.04198473282442748
+      },
+      "FGA": {
+        "EXACT_MATCH": 6487,
+        "INCOMPLETE_GAME_EVIDENCE": 3827,
+        "PIPELINE_AGGREGATION_OMISSION": 1610,
+        "SOURCE_CONFLICT": 199,
+        "TOLERANCE_MATCH": 194,
+        "compared": 6880,
+        "maximum_absolute_difference": 20.0,
+        "mean_absolute_difference": 0.13343023255813954
+      },
+      "FGM": {
+        "EXACT_MATCH": 8946,
+        "INCOMPLETE_GAME_EVIDENCE": 1031,
+        "SOURCE_CONFLICT": 167,
+        "TOLERANCE_MATCH": 563,
+        "compared": 9676,
+        "maximum_absolute_difference": 20.0,
+        "mean_absolute_difference": 0.11068623398098387
+      },
+      "FTA": {
+        "EXACT_MATCH": 7951,
+        "INCOMPLETE_GAME_EVIDENCE": 1186,
+        "PIPELINE_AGGREGATION_OMISSION": 2,
+        "SOURCE_CONFLICT": 826,
+        "TOLERANCE_MATCH": 744,
+        "compared": 9521,
+        "maximum_absolute_difference": 29.0,
+        "mean_absolute_difference": 0.36739838252284424
+      },
+      "FTM": {
+        "EXACT_MATCH": 9014,
+        "INCOMPLETE_GAME_EVIDENCE": 1031,
+        "SOURCE_CONFLICT": 264,
+        "TOLERANCE_MATCH": 398,
+        "compared": 9676,
+        "maximum_absolute_difference": 16.0,
+        "mean_absolute_difference": 0.1138900372054568
+      },
+      "GP": {
+        "EXACT_MATCH": 9676,
+        "SOURCE_CONFLICT": 1031,
+        "compared": 10707,
+        "maximum_absolute_difference": 53,
+        "mean_absolute_difference": 0.18828803586438778
+      },
+      "MIN": {
+        "EXACT_MATCH": 5825,
+        "INCOMPLETE_GAME_EVIDENCE": 692,
+        "SOURCE_CONFLICT": 3268,
+        "SOURCE_TOTAL_UNAVAILABLE": 1,
+        "TOLERANCE_MATCH": 201,
+        "compared": 9294,
+        "maximum_absolute_difference": 3022.0,
+        "mean_absolute_difference": 190.33214977404776
+      },
+      "OREB": {
+        "EXACT_MATCH": 4625,
+        "INCOMPLETE_GAME_EVIDENCE": 2564,
+        "PIPELINE_AGGREGATION_OMISSION": 520,
+        "SOURCE_CONFLICT": 33,
+        "TOLERANCE_MATCH": 56,
+        "compared": 4714,
+        "maximum_absolute_difference": 7.0,
+        "mean_absolute_difference": 0.03075943996605855
+      },
+      "PF": {
+        "EXACT_MATCH": 6314,
+        "INCOMPLETE_GAME_EVIDENCE": 3520,
+        "PIPELINE_AGGREGATION_OMISSION": 1691,
+        "SOURCE_CONFLICT": 415,
+        "TOLERANCE_MATCH": 458,
+        "compared": 7187,
+        "maximum_absolute_difference": 34.0,
+        "mean_absolute_difference": 0.2704883818004731
+      },
+      "PTS": {
+        "EXACT_MATCH": 8639,
+        "INCOMPLETE_GAME_EVIDENCE": 1031,
+        "SOURCE_CONFLICT": 711,
+        "TOLERANCE_MATCH": 326,
+        "compared": 9676,
+        "maximum_absolute_difference": 44.0,
+        "mean_absolute_difference": 0.27439024390243905
+      },
+      "REB": {
+        "EXACT_MATCH": 6548,
+        "INCOMPLETE_GAME_EVIDENCE": 3143,
+        "PIPELINE_AGGREGATION_OMISSION": 1568,
+        "SOURCE_CONFLICT": 219,
+        "TOLERANCE_MATCH": 207,
+        "compared": 6974,
+        "maximum_absolute_difference": 166.0,
+        "mean_absolute_difference": 0.17708632061944365
+      },
+      "STL": {
+        "EXACT_MATCH": 4559,
+        "INCOMPLETE_GAME_EVIDENCE": 2425,
+        "PIPELINE_AGGREGATION_OMISSION": 546,
+        "SOURCE_CONFLICT": 105,
+        "TOLERANCE_MATCH": 189,
+        "compared": 4853,
+        "maximum_absolute_difference": 7.0,
+        "mean_absolute_difference": 0.09272614877395426
+      },
+      "TOV": {
+        "EXACT_MATCH": 4372,
+        "INCOMPLETE_GAME_EVIDENCE": 1568,
+        "PIPELINE_AGGREGATION_OMISSION": 448,
+        "SOURCE_CONFLICT": 149,
+        "TOLERANCE_MATCH": 218,
+        "compared": 4739,
+        "maximum_absolute_difference": 10.0,
+        "mean_absolute_difference": 0.13631567841316733
+      }
+    },
+    "method": "sum only player-game groups with complete non-null observations and exact GP; never treat partial game rows as zero",
+    "pipeline_aggregation_omission_count": 9532,
+    "pipeline_aggregation_omission_examples": [
+      {
+        "career_total": 356,
+        "field": "FGA",
+        "game_aggregate": 356.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 50,
+        "field": "OREB",
+        "game_aggregate": 50.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 88,
+        "field": "DREB",
+        "game_aggregate": 88.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 138,
+        "field": "REB",
+        "game_aggregate": 138.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 145,
+        "field": "AST",
+        "game_aggregate": 145.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 54,
+        "field": "STL",
+        "game_aggregate": 54.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 4,
+        "field": "BLK",
+        "game_aggregate": 4.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 73,
+        "field": "TOV",
+        "game_aggregate": 73.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 80,
+        "field": "PF",
+        "game_aggregate": 80.0,
+        "player_id": "player_000e9913ded45790aea108ddc1808a56",
+        "season_id": 1979
+      },
+      {
+        "career_total": 187,
+        "field": "PF",
+        "game_aggregate": 187.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1953
+      },
+      {
+        "career_total": 4,
+        "field": "FGA",
+        "game_aggregate": 4.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1969
+      },
+      {
+        "career_total": 4,
+        "field": "REB",
+        "game_aggregate": 4.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1969
+      },
+      {
+        "career_total": 1,
+        "field": "AST",
+        "game_aggregate": 1.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1969
+      },
+      {
+        "career_total": 3,
+        "field": "PF",
+        "game_aggregate": 3.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1969
+      },
+      {
+        "career_total": 235,
+        "field": "FGA",
+        "game_aggregate": 235.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1972
+      },
+      {
+        "career_total": 194,
+        "field": "REB",
+        "game_aggregate": 194.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1972
+      },
+      {
+        "career_total": 111,
+        "field": "PF",
+        "game_aggregate": 111.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1972
+      },
+      {
+        "career_total": 0,
+        "field": "FGA",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      },
+      {
+        "career_total": 0,
+        "field": "OREB",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      },
+      {
+        "career_total": 0,
+        "field": "DREB",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      },
+      {
+        "career_total": 0,
+        "field": "REB",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      },
+      {
+        "career_total": 0,
+        "field": "AST",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      },
+      {
+        "career_total": 0,
+        "field": "STL",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      },
+      {
+        "career_total": 0,
+        "field": "BLK",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      },
+      {
+        "career_total": 0,
+        "field": "PF",
+        "game_aggregate": 0.0,
+        "player_id": "player_008d183dd95a533983061945f250b85a",
+        "season_id": 1973
+      }
+    ],
+    "source_conflict_count": 7666,
+    "source_conflict_examples": [
+      {
+        "career_total": 2,
+        "field": "PF",
+        "game_aggregate": 0.0,
+        "player_id": "player_0016c7bcf87e5690a71e35102d177d58",
+        "season_id": 1988
+      },
+      {
+        "career_total": 83,
+        "field": "BLK",
+        "game_aggregate": 81.0,
+        "player_id": "player_002b73cef28850d3a6b8ebb55b23c65d",
+        "season_id": 1992
+      },
+      {
+        "career_total": 176,
+        "field": "FTA",
+        "game_aggregate": 169.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1949
+      },
+      {
+        "career_total": 2209,
+        "field": "MIN",
+        "game_aggregate": 151.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1951
+      },
+      {
+        "career_total": 2684,
+        "field": "MIN",
+        "game_aggregate": 153.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1952
+      },
+      {
+        "career_total": 952,
+        "field": "PTS",
+        "game_aggregate": 956.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1952
+      },
+      {
+        "career_total": 306,
+        "field": "FGM",
+        "game_aggregate": 308.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1952
+      },
+      {
+        "career_total": 416,
+        "field": "FTA",
+        "game_aggregate": 413.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1952
+      },
+      {
+        "career_total": 2727,
+        "field": "MIN",
+        "game_aggregate": 1973.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1953
+      },
+      {
+        "career_total": 2950,
+        "field": "MIN",
+        "game_aggregate": 1975.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1954
+      },
+      {
+        "career_total": 1050,
+        "field": "PTS",
+        "game_aggregate": 1054.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1954
+      },
+      {
+        "career_total": 375,
+        "field": "FGM",
+        "game_aggregate": 377.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1954
+      },
+      {
+        "career_total": 137,
+        "field": "PF",
+        "game_aggregate": 135.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1954
+      },
+      {
+        "career_total": 1826,
+        "field": "MIN",
+        "game_aggregate": 1674.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1955
+      },
+      {
+        "career_total": 233,
+        "field": "FTA",
+        "game_aggregate": 230.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1955
+      },
+      {
+        "career_total": 130,
+        "field": "PF",
+        "game_aggregate": 128.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1955
+      },
+      {
+        "career_total": 763,
+        "field": "MIN",
+        "game_aggregate": 316.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1957
+      },
+      {
+        "career_total": 266,
+        "field": "MIN",
+        "game_aggregate": 83.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1958
+      },
+      {
+        "career_total": 25,
+        "field": "PF",
+        "game_aggregate": 28.0,
+        "player_id": "player_00544de3c26f5cc7b9cbfd80f88e0126",
+        "season_id": 1958
+      },
+      {
+        "career_total": 640,
+        "field": "MIN",
+        "game_aggregate": 540.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1963
+      },
+      {
+        "career_total": 46,
+        "field": "FTA",
+        "game_aggregate": 44.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1963
+      },
+      {
+        "career_total": 128,
+        "field": "PF",
+        "game_aggregate": 125.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1963
+      },
+      {
+        "career_total": 775,
+        "field": "MIN",
+        "game_aggregate": 756.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1965
+      },
+      {
+        "career_total": 342,
+        "field": "PTS",
+        "game_aggregate": 344.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1965
+      },
+      {
+        "career_total": 1036,
+        "field": "MIN",
+        "game_aggregate": 890.0,
+        "player_id": "player_0059251a50ce5add9b5408396510dce6",
+        "season_id": 1966
+      }
+    ]
+  },
+  "source_not_ingested": true,
+  "step": "STEP-0015F"
+}

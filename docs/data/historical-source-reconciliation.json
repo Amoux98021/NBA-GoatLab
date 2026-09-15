@@ -1,0 +1,182 @@
+{
+  "audit_methodology_version": "goatlab-historical-data-recovery-audit-v1",
+  "by_field": {
+    "AST": {
+      "EXACT_MATCH": 5859,
+      "SOURCE_CONFLICT": 58,
+      "TOLERANCE_MATCH": 72,
+      "compared": 5989,
+      "disagreement_rate": 0.009684421439305393,
+      "exact_match_rate": 0.978293538153281,
+      "maximum_absolute_difference": 8.0,
+      "mean_absolute_difference": 0.04257805977625647,
+      "tolerance_match_rate": 0.012022040407413592
+    },
+    "BLK": {
+      "EXACT_MATCH": 5605,
+      "SOURCE_CONFLICT": 33,
+      "TOLERANCE_MATCH": 90,
+      "compared": 5728,
+      "disagreement_rate": 0.005761173184357542,
+      "exact_match_rate": 0.9785265363128491,
+      "maximum_absolute_difference": 16.0,
+      "mean_absolute_difference": 0.0335195530726257,
+      "tolerance_match_rate": 0.015712290502793297
+    },
+    "DREB": {
+      "EXACT_MATCH": 5591,
+      "SOURCE_CONFLICT": 36,
+      "TOLERANCE_MATCH": 69,
+      "compared": 5696,
+      "disagreement_rate": 0.006320224719101123,
+      "exact_match_rate": 0.9815660112359551,
+      "maximum_absolute_difference": 9.0,
+      "mean_absolute_difference": 0.03089887640449438,
+      "tolerance_match_rate": 0.01211376404494382
+    },
+    "FGA": {
+      "EXACT_MATCH": 6311,
+      "SOURCE_CONFLICT": 98,
+      "TOLERANCE_MATCH": 122,
+      "compared": 6531,
+      "disagreement_rate": 0.015005359056806002,
+      "exact_match_rate": 0.966314500076558,
+      "maximum_absolute_difference": 177.0,
+      "mean_absolute_difference": 0.28341754708314193,
+      "tolerance_match_rate": 0.018680140866636042
+    },
+    "FGM": {
+      "EXACT_MATCH": 10584,
+      "SOURCE_CONFLICT": 533,
+      "TOLERANCE_MATCH": 733,
+      "compared": 11850,
+      "disagreement_rate": 0.044978902953586496,
+      "exact_match_rate": 0.8931645569620253,
+      "maximum_absolute_difference": 123.0,
+      "mean_absolute_difference": 0.41122362869198315,
+      "tolerance_match_rate": 0.061856540084388185
+    },
+    "FTA": {
+      "EXACT_MATCH": 9433,
+      "SOURCE_CONFLICT": 1227,
+      "TOLERANCE_MATCH": 890,
+      "compared": 11550,
+      "disagreement_rate": 0.10623376623376624,
+      "exact_match_rate": 0.8167099567099567,
+      "maximum_absolute_difference": 103.0,
+      "mean_absolute_difference": 0.6114285714285714,
+      "tolerance_match_rate": 0.07705627705627706
+    },
+    "FTM": {
+      "EXACT_MATCH": 10708,
+      "SOURCE_CONFLICT": 601,
+      "TOLERANCE_MATCH": 541,
+      "compared": 11850,
+      "disagreement_rate": 0.05071729957805907,
+      "exact_match_rate": 0.9036286919831223,
+      "maximum_absolute_difference": 73.0,
+      "mean_absolute_difference": 0.310126582278481,
+      "tolerance_match_rate": 0.04565400843881857
+    },
+    "GP": {
+      "EXACT_MATCH": 10863,
+      "SOURCE_CONFLICT": 280,
+      "TOLERANCE_MATCH": 707,
+      "compared": 11850,
+      "disagreement_rate": 0.02362869198312236,
+      "exact_match_rate": 0.9167088607594936,
+      "maximum_absolute_difference": 53.0,
+      "mean_absolute_difference": 0.16421940928270043,
+      "tolerance_match_rate": 0.05966244725738397
+    },
+    "MIN": {
+      "EXACT_MATCH": 5371,
+      "SOURCE_CONFLICT": 4591,
+      "TOLERANCE_MATCH": 1200,
+      "compared": 11162,
+      "disagreement_rate": 0.41130621752374125,
+      "exact_match_rate": 0.4811861673535209,
+      "maximum_absolute_difference": 3055.0,
+      "mean_absolute_difference": 197.9024667025023,
+      "tolerance_match_rate": 0.10750761512273786
+    },
+    "OREB": {
+      "EXACT_MATCH": 5613,
+      "SOURCE_CONFLICT": 27,
+      "TOLERANCE_MATCH": 57,
+      "compared": 5697,
+      "disagreement_rate": 0.004739336492890996,
+      "exact_match_rate": 0.9852553975776724,
+      "maximum_absolute_difference": 5.0,
+      "mean_absolute_difference": 0.022292434614709495,
+      "tolerance_match_rate": 0.010005265929436546
+    },
+    "PF": {
+      "EXACT_MATCH": 6089,
+      "SOURCE_CONFLICT": 315,
+      "TOLERANCE_MATCH": 250,
+      "compared": 6654,
+      "disagreement_rate": 0.04733994589720469,
+      "exact_match_rate": 0.9150886684700932,
+      "maximum_absolute_difference": 44.0,
+      "mean_absolute_difference": 0.2481214307183649,
+      "tolerance_match_rate": 0.03757138563270213
+    },
+    "PTS": {
+      "EXACT_MATCH": 10185,
+      "SOURCE_CONFLICT": 1249,
+      "TOLERANCE_MATCH": 416,
+      "compared": 11850,
+      "disagreement_rate": 0.10540084388185654,
+      "exact_match_rate": 0.859493670886076,
+      "maximum_absolute_difference": 292.0,
+      "mean_absolute_difference": 1.0689451476793248,
+      "tolerance_match_rate": 0.03510548523206751
+    },
+    "REB": {
+      "EXACT_MATCH": 6413,
+      "SOURCE_CONFLICT": 90,
+      "TOLERANCE_MATCH": 107,
+      "compared": 6610,
+      "disagreement_rate": 0.01361573373676248,
+      "exact_match_rate": 0.970196671709531,
+      "maximum_absolute_difference": 11.0,
+      "mean_absolute_difference": 0.05763993948562784,
+      "tolerance_match_rate": 0.016187594553706504
+    },
+    "STL": {
+      "EXACT_MATCH": 5515,
+      "SOURCE_CONFLICT": 55,
+      "TOLERANCE_MATCH": 133,
+      "compared": 5703,
+      "disagreement_rate": 0.009644046992810802,
+      "exact_match_rate": 0.967034893915483,
+      "maximum_absolute_difference": 7.0,
+      "mean_absolute_difference": 0.04681746449237244,
+      "tolerance_match_rate": 0.02332105909170612
+    },
+    "TOV": {
+      "EXACT_MATCH": 5432,
+      "SOURCE_CONFLICT": 106,
+      "TOLERANCE_MATCH": 145,
+      "compared": 5683,
+      "disagreement_rate": 0.018652120358965334,
+      "exact_match_rate": 0.955833186697167,
+      "maximum_absolute_difference": 12.0,
+      "mean_absolute_difference": 0.08164701742037656,
+      "tolerance_match_rate": 0.025514692943867677
+    }
+  },
+  "comparisons": {
+    "EXACT_MATCH": 109572,
+    "SOURCE_CONFLICT": 9299,
+    "TOLERANCE_MATCH": 5532
+  },
+  "facts_methodology_version": "goatlab-historical-player-season-facts-v2-research",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "corpus": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "step_0015e": "731130b7fffd53ff084321b78175c7651f7c04387d9d574f5add205428bcbf63"
+  },
+  "step": "STEP-0015F"
+}

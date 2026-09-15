@@ -247,6 +247,52 @@ historical_player_fact_corpus_v1:
     team_crosswalk: docs/data/full-team-crosswalk.json
     base_reconciliation: docs/data/full-base-reconciliation.json
     data_quality: docs/data/full-data-quality-report.json
+historical_player_season_facts_v2_research:
+  step: STEP-0015F
+  methodology_version: goatlab-historical-player-season-facts-v2-research
+  status: research_not_promoted
+  frozen_parent_corpus: GOATLAB-HIST-V1
+  source_client: nba_api
+  source_client_version: 1.11.4
+  endpoint: playercareerstats
+  request_contract:
+    result_set: SeasonTotalsRegularSeason
+    league_id: "00"
+    per_mode: Totals
+    player_id: required
+    deterministic_scope: players_with_qualified_pre_1996_candidate_d_season
+    players: 2234
+  retrieval:
+    network_requests_in_resumed_complete_run: 1728
+    reused_cache_entries: 506
+    success_with_rows: 2231
+    permanent_source_gaps: 3
+    retries: 1
+    response_fingerprint: 0d530c01eaf560ef0cd2f1acd5e094432399fb899286bad6cd8c9a4b54d158f6
+  bronze:
+    path: data/bronze/nba_api/playercareerstats
+    size_approx_mib: 37
+    git_ignored: true
+  silver:
+    path: data/silver/historical_player_season_facts_v2_research
+    rows: 22457
+    fingerprint: 0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3
+    git_ignored: true
+  reproducibility:
+    cache_only_network_requests: 0
+    output_fingerprint: 0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25
+    reproduced: true
+  source_precedence:
+    pre_1996: official PlayerCareerStats total when observed
+    post_1995: frozen GOATLAB-HIST-V1
+    conflicts: retained_not_averaged
+    frozen_parent_mutated: false
+  evidence:
+    narrative: docs/data/historical-data-recovery-audit.md
+    availability: docs/data/historical-stat-availability-map.json
+    reconciliation: docs/data/historical-source-reconciliation.json
+    identity: docs/data/historical-recovery-identity-crosswalk.json
+    impact: docs/data/historical-recovery-impact.json
 official_nba_player_awards_v1:
   step: STEP-0009
   methodology_version: official-player-awards-canonical-v1

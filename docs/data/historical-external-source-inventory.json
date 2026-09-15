@@ -1,0 +1,73 @@
+{
+  "audit_methodology_version": "goatlab-historical-data-recovery-audit-v1",
+  "facts_methodology_version": "goatlab-historical-player-season-facts-v2-research",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "corpus": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "step_0015e": "731130b7fffd53ff084321b78175c7651f7c04387d9d574f5add205428bcbf63"
+  },
+  "missingness_reason_counts": {
+    "DERIVABLE_FROM_OBSERVED_FACTS": 212510,
+    "HISTORICALLY_NOT_RECORDED": 30612,
+    "NOT_APPLICABLE": 0,
+    "PIPELINE_BUG": 0,
+    "SOURCE_CONFLICT": 12790,
+    "SOURCE_NOT_INGESTED": 34767,
+    "SOURCE_UNAVAILABLE": 44
+  },
+  "source_precedence": "Official PlayerCareerStats totals supersede empirically incomplete PlayerGameLogs aggregates before 1996 in the research artifact only; GOATLAB-HIST-V1 and all published V1 outputs remain frozen.",
+  "source_precedence_changed": true,
+  "sources": [
+    {
+      "coverage": "1946-47 through 2025-26; metric sparsity is empirical",
+      "name": "NBA Stats PlayerGameLogs",
+      "provenance": "GOATLAB-HIST-V1",
+      "role": "frozen primary player-game source"
+    },
+    {
+      "access_date": "2026-09-14",
+      "acquisition": "official PLAYER_ID scoped, Totals mode, cached and retry bounded",
+      "endpoint": "https://stats.nba.com/stats/playercareerstats",
+      "name": "NBA Stats PlayerCareerStats",
+      "role": "supplemental official season-total recovery",
+      "terms": "NBA.com Terms of Use; internal research cache remains Git-ignored",
+      "terms_url": "https://www.nba.com/termsofuse"
+    },
+    {
+      "constraint": "rounded per-game facts are never multiplied into invented totals",
+      "coverage": "empirically populated from 1951-52 for PTS/REB/AST scopes",
+      "name": "NBA Stats LeagueLeaders",
+      "provenance": "STEP-0011 cache",
+      "role": "cached source-direct per-game fallback and reconciliation evidence"
+    },
+    {
+      "access_date": "2026-09-14",
+      "name": "NBA Stats FAQ",
+      "role": "official statistic-introduction validation",
+      "url": "https://www.nba.com/stats/help/faq"
+    },
+    {
+      "access_date": "2026-09-14",
+      "finding": "official review identifies the 1946-47 assists-per-game leader",
+      "name": "NBA 1946-47 season review",
+      "role": "official inaugural-season assists validation",
+      "url": "https://www.nba.com/news/history-season-review-1946-47"
+    },
+    {
+      "finding": "physical 16-table bundle has no player box-score or season totals",
+      "name": "nbadb/Kaggle v238 legacy snapshot",
+      "role": "identity and game reference only"
+    }
+  ],
+  "step": "STEP-0015F",
+  "third_party_player_stat_source_ingested": false,
+  "true_shooting_validation": {
+    "formula": "PTS / (2 * (FGA + 0.44 * FTA))",
+    "historical_caution": "The 0.44 factor is an estimate rather than a reconstructed possession count; historical free-throw rule changes remain a documented comparability limitation.",
+    "maximum_absolute_difference": 0.000500000000000056,
+    "mean_absolute_difference": 0.0002500103266184155,
+    "official_advanced_overlap": 12437,
+    "semantics": "standard estimate derived from observed factual totals",
+    "within_source_rounding_0_0005": 12437
+  }
+}

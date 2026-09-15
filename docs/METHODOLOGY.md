@@ -238,3 +238,26 @@ This living summary may be extended, but methodology changes must also receive a
 - STEP-0015E is `PASS + NO_VALID_BRIDGE`. Full Candidate D research scores, interval-only sparse
   estimates, and unavailable rows remain distinct. Peak, Longevity, Defense, and Overall are not
   promoted or overwritten.
+
+## Historical factual player-season recovery audit
+
+- `goatlab-historical-data-recovery-audit-v1` first reproduces STEP-0015E's exact sparse-evidence
+  counts, then audits whether each NULL is historically unrecorded, absent from the selected bulk
+  source, exactly derivable, conflicting, or currently unavailable.
+- The official NBA Stats `PlayerCareerStats` `SeasonTotalsRegularSeason` result is acquired for the
+  deterministic set of players with any qualified pre-1996 Candidate D season. Official NBA
+  `PLAYER_ID` is the only primary join key; names are diagnostic.
+- A source TOTAL row is mandatory for traded seasons. Otherwise only a single-team row is accepted.
+  Multi-team seasons without a total are rejected rather than speculatively summed.
+- Official player-career season totals take precedence over conflicting pre-1996 bulk
+  `PlayerGameLogs` aggregates only in the versioned research artifact. The frozen corpus and every
+  V1 score remain unchanged; disagreements are retained and never averaged.
+- Historical introduction guards are authoritative. Rebounds before 1950-51, minutes before
+  1951-52, OREB/DREB/STL/BLK before 1973-74, and turnovers before 1977-78 remain NULL even if an
+  endpoint exposes placeholder values.
+- Per-game statistics and shooting percentages are exact derivations from observed totals. TS is
+  the standard `PTS / (2 * (FGA + 0.44 * FTA))` estimate. It is labeled derived and retains a
+  historical free-throw-rule comparability caveat; it is not a reconstructed possession fact.
+- Recovered observations are rerun through the unchanged Candidate D, fixed 70/30 Peak, and fixed
+  35/40/25 Longevity architectures. This isolates data recovery from methodology changes and does
+  not promote any counterfactual.

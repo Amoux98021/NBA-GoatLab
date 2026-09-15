@@ -1,0 +1,19 @@
+{
+  "audit_methodology_version": "goatlab-historical-data-recovery-audit-v1",
+  "cache_reuses": 506,
+  "facts_methodology_version": "goatlab-historical-player-season-facts-v2-research",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "corpus": "283c528f487024e5292eaac06018364ee863ba623244e5dca4a0f958f100c70c",
+    "step_0015e": "731130b7fffd53ff084321b78175c7651f7c04387d9d574f5add205428bcbf63"
+  },
+  "network_requests": 1728,
+  "players_requested": 2234,
+  "request_states": {
+    "PERMANENT_FAILURE": 3,
+    "SUCCESS_WITH_ROWS": 2231
+  },
+  "response_fingerprint": "0d530c01eaf560ef0cd2f1acd5e094432399fb899286bad6cd8c9a4b54d158f6",
+  "retries": 1,
+  "step": "STEP-0015F"
+}
