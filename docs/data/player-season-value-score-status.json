@@ -1,0 +1,139 @@
+{
+  "1970s": {
+    "candidate_d_coverage_before_linking": {
+      "confidence": {
+        "LIMITED": 2890,
+        "MODERATE": 10760,
+        "STRONG": 7457
+      },
+      "remaining_unavailable": 1350,
+      "scoreable_player_seasons": 21107,
+      "scoreable_players": 3893,
+      "total_player_seasons": 22457
+    },
+    "finding": "Missing Team Context can be linked provisionally because its total weight is small; traditional-form seasons remain interval-only because missing STL/BLK and Presence alter ordering materially."
+  },
+  "audit_methodology_version": "goatlab-v1-player-season-value-measurement-linking-audit-v1",
+  "by_decade": {
+    "1940s": {
+      "INTERVAL_ONLY": 565
+    },
+    "1950s": {
+      "INTERVAL_ONLY": 342,
+      "PROVISIONAL_POINT": 600,
+      "UNAVAILABLE": 2
+    },
+    "1960s": {
+      "INTERVAL_ONLY": 268,
+      "PROVISIONAL_POINT": 905
+    },
+    "1970s": {
+      "INTERVAL_ONLY": 348,
+      "OFFICIAL_POINT": 158,
+      "PROVISIONAL_POINT": 1786
+    },
+    "1980s": {
+      "INTERVAL_ONLY": 648,
+      "OFFICIAL_POINT": 1761,
+      "PROVISIONAL_POINT": 539
+    },
+    "1990s": {
+      "INTERVAL_ONLY": 707,
+      "OFFICIAL_POINT": 2912,
+      "PROVISIONAL_POINT": 1
+    },
+    "2000s": {
+      "INTERVAL_ONLY": 547,
+      "OFFICIAL_POINT": 3371
+    },
+    "2010s": {
+      "INTERVAL_ONLY": 417,
+      "OFFICIAL_POINT": 3827
+    },
+    "2020s": {
+      "INTERVAL_ONLY": 95,
+      "OFFICIAL_POINT": 2658
+    }
+  },
+  "by_measurement_form": {
+    "EARLY_OFFENSE_WITH_PRESENCE": {
+      "INTERVAL_ONLY": 438,
+      "UNAVAILABLE": 2
+    },
+    "EXPANDED_NO_PRESENCE": {
+      "INTERVAL_ONLY": 2693
+    },
+    "EXPANDED_PROXY_ACTION_WITH_PRESENCE": {
+      "PROVISIONAL_POINT": 1297
+    },
+    "FULL_PORTABLE": {
+      "OFFICIAL_POINT": 14687
+    },
+    "NO_TEAM_CONTEXT": {
+      "PROVISIONAL_POINT": 783
+    },
+    "OFFENSE_ONLY_EARLY": {
+      "INTERVAL_ONLY": 127
+    },
+    "TRADITIONAL_BOX": {
+      "INTERVAL_ONLY": 679
+    },
+    "TRADITIONAL_WITH_PRESENCE": {
+      "PROVISIONAL_POINT": 1751
+    }
+  },
+  "by_role": {
+    "BIG": {
+      "INTERVAL_ONLY": 645,
+      "OFFICIAL_POINT": 2690,
+      "PROVISIONAL_POINT": 416
+    },
+    "FORWARD": {
+      "INTERVAL_ONLY": 1038,
+      "OFFICIAL_POINT": 3193,
+      "PROVISIONAL_POINT": 957
+    },
+    "GUARD": {
+      "INTERVAL_ONLY": 1138,
+      "OFFICIAL_POINT": 3867,
+      "PROVISIONAL_POINT": 932
+    },
+    "UNKNOWN": {
+      "INTERVAL_ONLY": 954,
+      "OFFICIAL_POINT": 3897,
+      "PROVISIONAL_POINT": 1526,
+      "UNAVAILABLE": 2
+    },
+    "WING": {
+      "INTERVAL_ONLY": 162,
+      "OFFICIAL_POINT": 1040
+    }
+  },
+  "full_portable_uncertainty": {
+    "caution": "Reference-form sensitivity, not calibration against unknowable basketball truth",
+    "confidence_changes_quality": false,
+    "method": "no-Team-Context channel sensitivity radii"
+  },
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25",
+    "step_0015g": "120c319c8b3883b2066187947d3a6b813aa4d590231035fdd02943486268dd4f"
+  },
+  "pre_1950": {
+    "no_rebounds_invented": true,
+    "recommendation": "INTERVAL_ONLY_WHEN_OFFENSE_FORM_OBSERVED_OTHERWISE_UNAVAILABLE"
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-v2-linked-research",
+  "status": {
+    "INTERVAL_ONLY": 3937,
+    "OFFICIAL_POINT": 14687,
+    "PROVISIONAL_POINT": 3831,
+    "UNAVAILABLE": 2
+  },
+  "step": "STEP-0015H",
+  "total": 22457
+}

@@ -278,3 +278,27 @@ This living summary may be extended, but methodology changes must also receive a
   remain NULL with explicit regimes and confidence. Confidence never multiplies quality.
 - Candidate D is not promoted because the actual non-full regimes retain 7–8 point controlled
   masking MAE. No official PlayerSeasonValue, Peak, Longevity, or Overall version is changed.
+
+## PlayerSeasonValue measurement linking and uncertainty
+
+- `goatlab-v1-player-season-value-measurement-linking-audit-v1` treats each factual evidence
+  regime as a measurement form of the frozen Candidate D research instrument.
+- `FULL_PORTABLE` is the reference form, not basketball truth. Weaker forms are created by masking
+  the same full-evidence player-season, so linking does not rely on equal actual-era talent
+  distributions.
+- Linear, equipercentile, isotonic, and optional broad-role isotonic linkers are evaluated with
+  player-grouped, random, leave-decade-out, and directional era-transfer validation. A linker maps
+  an observed form score; it never predicts a missing basketball statistic.
+- Split-conformal 80/90/95% intervals use disjoint player-grouped fit, calibration, and test folds.
+  Confidence and interval width never multiply or penalize quality.
+- `PROVISIONAL_POINT` requires MAE <= 5, Spearman >= 0.95, absolute overall bias <= 2, major-role
+  bias <= 3, at most 15% errors above ten points, and 87%–93% empirical coverage for the nominal
+  90% interval. A calibrated form failing a point gate is `INTERVAL_ONLY`.
+- Expanded proxy-action and traditional forms with observed Presence, plus the no-Team-Context
+  form, pass point gates. No-Presence and sparse offense forms remain interval-only.
+- The research status distribution is 14,687 `OFFICIAL_POINT`, 3,831 `PROVISIONAL_POINT`, 3,937
+  `INTERVAL_ONLY`, and two `UNAVAILABLE`. These labels do not promote Candidate D.
+- Interval-aware Peak and Longevity outputs are diagnostics only. Peak uses correlated draws under
+  the frozen 70/30 window; Longevity retains probabilistic P80/P90 evidence pending a dedicated
+  aggregation audit.
+- **Outcome:** `PASS + LIMITED_TIERED_ARCHITECTURE`; next audit Peak/Longevity uncertainty.

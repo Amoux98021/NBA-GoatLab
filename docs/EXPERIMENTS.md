@@ -272,3 +272,22 @@ Future experiments must record the objective, input snapshot, feature version, c
   Defense, and Overall remain frozen.
 - **Optimization target:** none. No player name, award, outcome, postseason, or external ranking
   enters Candidate D or the promotion gate.
+
+## STEP-0015H Evidence-regime measurement linking
+
+- **Reference:** 14,687 full-portable factual player-seasons, each paired with artificial weaker
+  forms; Candidate D and V1 remain frozen.
+- **Linkers:** identity, linear, equipercentile, isotonic, and broad-role isotonic. Primary
+  validation is five-fold player-grouped; random and era transfer are secondary.
+- **Point-grade forms:** expanded proxy action + Presence (MAE 1.60, Spearman 0.9972), traditional
+  + Presence (3.53, 0.9867), and missing Team Context (2.07, 0.9960).
+- **Interval-only forms:** expanded/no-Presence (6.13, 0.9640), traditional/no-Presence (7.62,
+  0.9415), offense-only (8.55, 0.9271), and early offense + Presence (13.37, 0.8081).
+- **Intervals:** split-conformal 90% empirical coverage is 89.83%–90.20%; mean widths range from
+  6.72 to 51.84 points depending on form.
+- **Actual statuses:** 14,687 official-form points, 3,831 provisional points, 3,937 interval-only,
+  and two unavailable. `OFFICIAL_POINT` is a research measurement-form status, not promotion.
+- **Pairwise:** weak-form order is unreliable for close scores; interval non-overlap is uncommon
+  but highly accurate at wider separations.
+- **Result:** `PASS + LIMITED_TIERED_ARCHITECTURE`. Missing-stat prediction remains prohibited.
+- **Optimization target:** none; named players appear only after architecture and gates are frozen.

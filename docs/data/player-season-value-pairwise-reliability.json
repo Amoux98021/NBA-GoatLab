@@ -1,0 +1,343 @@
+{
+  "EARLY_OFFENSE_WITH_PRESENCE": {
+    "10": {
+      "linked_order_accuracy": 0.6579937998228521,
+      "pairs": 9032,
+      "raw_order_accuracy": 0.6581045172719221,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.0012178919397697076,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.9987821080602303
+    },
+    "15": {
+      "linked_order_accuracy": 0.7179517642865629,
+      "pairs": 8417,
+      "raw_order_accuracy": 0.717120114054889,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.0033266009266959724,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.996673399073304
+    },
+    "2": {
+      "linked_order_accuracy": 0.557742644749241,
+      "pairs": 9551,
+      "raw_order_accuracy": 0.5593131609255575,
+      "robust_order_accuracy": 0.0,
+      "robust_order_share": 0.00010470107842110774,
+      "robust_reverse_share": 0.00010470107842110774,
+      "uncertain_order_share": 0.9998952989215789
+    },
+    "20": {
+      "linked_order_accuracy": 0.7617875169272437,
+      "pairs": 8123,
+      "raw_order_accuracy": 0.762033731380032,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.008248184168410685,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.9917518158315893
+    },
+    "5": {
+      "linked_order_accuracy": 0.6063291139240506,
+      "pairs": 9480,
+      "raw_order_accuracy": 0.6064345991561182,
+      "robust_order_accuracy": 0.8,
+      "robust_order_share": 0.0010548523206751054,
+      "robust_reverse_share": 0.0002109704641350211,
+      "uncertain_order_share": 0.9989451476793249
+    }
+  },
+  "EXPANDED_NO_PRESENCE": {
+    "10": {
+      "linked_order_accuracy": 0.824955713020372,
+      "pairs": 9032,
+      "raw_order_accuracy": 0.8252878653675819,
+      "robust_order_accuracy": 0.9975429975429976,
+      "robust_order_share": 0.09012400354295837,
+      "robust_reverse_share": 0.00022143489813994686,
+      "uncertain_order_share": 0.9098759964570416
+    },
+    "15": {
+      "linked_order_accuracy": 0.9117262682666033,
+      "pairs": 8417,
+      "raw_order_accuracy": 0.9123203041463704,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.1821314007366045,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.8178685992633955
+    },
+    "2": {
+      "linked_order_accuracy": 0.6055910375876872,
+      "pairs": 9551,
+      "raw_order_accuracy": 0.6052769343524238,
+      "robust_order_accuracy": 0.8108108108108109,
+      "robust_order_share": 0.023243639409485917,
+      "robust_reverse_share": 0.004397445293686525,
+      "uncertain_order_share": 0.9767563605905141
+    },
+    "20": {
+      "linked_order_accuracy": 0.9670072633263572,
+      "pairs": 8123,
+      "raw_order_accuracy": 0.9671303705527514,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.3275883294349378,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.6724116705650621
+    },
+    "5": {
+      "linked_order_accuracy": 0.7008438818565401,
+      "pairs": 9480,
+      "raw_order_accuracy": 0.7013713080168776,
+      "robust_order_accuracy": 0.956989247311828,
+      "robust_order_share": 0.039240506329113925,
+      "robust_reverse_share": 0.0016877637130801688,
+      "uncertain_order_share": 0.9607594936708861
+    }
+  },
+  "EXPANDED_PROXY_ACTION_WITH_PRESENCE": {
+    "10": {
+      "linked_order_accuracy": 0.9972320637732507,
+      "pairs": 9032,
+      "raw_order_accuracy": 0.9954605845881311,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.9118689105403012,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.08813108945969884
+    },
+    "15": {
+      "linked_order_accuracy": 0.9998811928240465,
+      "pairs": 8417,
+      "raw_order_accuracy": 1.0,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.9946536770820957,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.005346322917904241
+    },
+    "2": {
+      "linked_order_accuracy": 0.8484975395246571,
+      "pairs": 9551,
+      "raw_order_accuracy": 0.7926918647262067,
+      "robust_order_accuracy": 0.9625137816979051,
+      "robust_order_share": 0.09496387812794471,
+      "robust_reverse_share": 0.003559836666317663,
+      "uncertain_order_share": 0.9050361218720553
+    },
+    "20": {
+      "linked_order_accuracy": 1.0,
+      "pairs": 8123,
+      "raw_order_accuracy": 1.0,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.9995075710944232,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.0004924289055767574
+    },
+    "5": {
+      "linked_order_accuracy": 0.970042194092827,
+      "pairs": 9480,
+      "raw_order_accuracy": 0.9391350210970464,
+      "robust_order_accuracy": 0.9978124145474433,
+      "robust_order_share": 0.3857594936708861,
+      "robust_reverse_share": 0.0008438818565400844,
+      "uncertain_order_share": 0.614240506329114
+    }
+  },
+  "NO_TEAM_CONTEXT": {
+    "10": {
+      "linked_order_accuracy": 0.9986713906111603,
+      "pairs": 9032,
+      "raw_order_accuracy": 0.9986713906111603,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.7413640389725421,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.25863596102745795
+    },
+    "15": {
+      "linked_order_accuracy": 1.0,
+      "pairs": 8417,
+      "raw_order_accuracy": 1.0,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.9796839729119639,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.020316027088036117
+    },
+    "2": {
+      "linked_order_accuracy": 0.79300596796147,
+      "pairs": 9551,
+      "raw_order_accuracy": 0.7936341744319967,
+      "robust_order_accuracy": 0.9928263988522238,
+      "robust_order_share": 0.07297665165951209,
+      "robust_reverse_share": 0.0005235053921055386,
+      "uncertain_order_share": 0.9270233483404879
+    },
+    "20": {
+      "linked_order_accuracy": 1.0,
+      "pairs": 8123,
+      "raw_order_accuracy": 1.0,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.9996306783208174,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.000369321679182568
+    },
+    "5": {
+      "linked_order_accuracy": 0.9425105485232067,
+      "pairs": 9480,
+      "raw_order_accuracy": 0.9435654008438819,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.2592827004219409,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.7407172995780591
+    }
+  },
+  "OFFENSE_ONLY_EARLY": {
+    "10": {
+      "linked_order_accuracy": 0.7372674933569531,
+      "pairs": 9032,
+      "raw_order_accuracy": 0.7233170947741364,
+      "robust_order_accuracy": 0.975,
+      "robust_order_share": 0.03985828166519043,
+      "robust_reverse_share": 0.000996457041629761,
+      "uncertain_order_share": 0.9601417183348095
+    },
+    "15": {
+      "linked_order_accuracy": 0.8276107876915766,
+      "pairs": 8417,
+      "raw_order_accuracy": 0.8064631103718665,
+      "robust_order_accuracy": 0.9921383647798742,
+      "robust_order_share": 0.07556136390637995,
+      "robust_reverse_share": 0.000594035879767138,
+      "uncertain_order_share": 0.9244386360936201
+    },
+    "2": {
+      "linked_order_accuracy": 0.5693644644539839,
+      "pairs": 9551,
+      "raw_order_accuracy": 0.5683174536697728,
+      "robust_order_accuracy": 0.7127659574468085,
+      "robust_order_share": 0.019683802743168256,
+      "robust_reverse_share": 0.005653858234739818,
+      "uncertain_order_share": 0.9803161972568317
+    },
+    "20": {
+      "linked_order_accuracy": 0.8860027083589807,
+      "pairs": 8123,
+      "raw_order_accuracy": 0.8663055521359104,
+      "robust_order_accuracy": 0.9979716024340771,
+      "robust_order_share": 0.12138372522467068,
+      "robust_reverse_share": 0.0002462144527883787,
+      "uncertain_order_share": 0.8786162747753293
+    },
+    "5": {
+      "linked_order_accuracy": 0.64915611814346,
+      "pairs": 9480,
+      "raw_order_accuracy": 0.6439873417721519,
+      "robust_order_accuracy": 0.8677248677248677,
+      "robust_order_share": 0.019936708860759492,
+      "robust_reverse_share": 0.0026371308016877636,
+      "uncertain_order_share": 0.9800632911392405
+    }
+  },
+  "TRADITIONAL_BOX": {
+    "10": {
+      "linked_order_accuracy": 0.7741364038972542,
+      "pairs": 9032,
+      "raw_order_accuracy": 0.7338352524357838,
+      "robust_order_accuracy": 0.9674620390455532,
+      "robust_order_share": 0.05104074402125775,
+      "robust_reverse_share": 0.0016607617360496014,
+      "uncertain_order_share": 0.9489592559787422
+    },
+    "15": {
+      "linked_order_accuracy": 0.862183675894024,
+      "pairs": 8417,
+      "raw_order_accuracy": 0.8216704288939052,
+      "robust_order_accuracy": 0.9937655860349127,
+      "robust_order_share": 0.09528335511464893,
+      "robust_reverse_share": 0.000594035879767138,
+      "uncertain_order_share": 0.9047166448853511
+    },
+    "2": {
+      "linked_order_accuracy": 0.5886294628834677,
+      "pairs": 9551,
+      "raw_order_accuracy": 0.5757512302376715,
+      "robust_order_accuracy": 0.7055555555555556,
+      "robust_order_share": 0.01884619411579939,
+      "robust_reverse_share": 0.0055491571563187105,
+      "uncertain_order_share": 0.9811538058842006
+    },
+    "20": {
+      "linked_order_accuracy": 0.9144404776560384,
+      "pairs": 8123,
+      "raw_order_accuracy": 0.87775452419057,
+      "robust_order_accuracy": 0.9992331288343558,
+      "robust_order_share": 0.1605318232180229,
+      "robust_reverse_share": 0.00012310722639418935,
+      "uncertain_order_share": 0.839468176781977
+    },
+    "5": {
+      "linked_order_accuracy": 0.6630801687763713,
+      "pairs": 9480,
+      "raw_order_accuracy": 0.6302742616033755,
+      "robust_order_accuracy": 0.900709219858156,
+      "robust_order_share": 0.029746835443037974,
+      "robust_reverse_share": 0.002953586497890295,
+      "uncertain_order_share": 0.970253164556962
+    }
+  },
+  "TRADITIONAL_WITH_PRESENCE": {
+    "10": {
+      "linked_order_accuracy": 0.9388839681133747,
+      "pairs": 9032,
+      "raw_order_accuracy": 0.8868467670504872,
+      "robust_order_accuracy": 0.9979550102249489,
+      "robust_order_share": 0.21656333038086803,
+      "robust_reverse_share": 0.0004428697962798937,
+      "uncertain_order_share": 0.7834366696191319
+    },
+    "15": {
+      "linked_order_accuracy": 0.9853867173577284,
+      "pairs": 8417,
+      "raw_order_accuracy": 0.955803730545325,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.4913864797433765,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.5086135202566235
+    },
+    "2": {
+      "linked_order_accuracy": 0.6913412208145744,
+      "pairs": 9551,
+      "raw_order_accuracy": 0.6628625274840331,
+      "robust_order_accuracy": 0.8384146341463414,
+      "robust_order_share": 0.034341953722123335,
+      "robust_reverse_share": 0.0055491571563187105,
+      "uncertain_order_share": 0.9656580462778767
+    },
+    "20": {
+      "linked_order_accuracy": 0.9974147482457221,
+      "pairs": 8123,
+      "raw_order_accuracy": 0.9868275267758218,
+      "robust_order_accuracy": 1.0,
+      "robust_order_share": 0.7595715868521482,
+      "robust_reverse_share": 0.0,
+      "uncertain_order_share": 0.24042841314785177
+    },
+    "5": {
+      "linked_order_accuracy": 0.824789029535865,
+      "pairs": 9480,
+      "raw_order_accuracy": 0.7706751054852321,
+      "robust_order_accuracy": 0.9755102040816327,
+      "robust_order_share": 0.07753164556962025,
+      "robust_reverse_share": 0.0018987341772151898,
+      "uncertain_order_share": 0.9224683544303798
+    }
+  },
+  "audit_methodology_version": "goatlab-v1-player-season-value-measurement-linking-audit-v1",
+  "input_fingerprints": {
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "frozen_dimensions": "0dcd568b6ba69250f097b50835882582e75d043f42ae4057ff5721dbfc6e9b2a",
+    "frozen_overall": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "recovered_silver": "0a94bc25061d860f1916d7f691f4d53e16260c3c0e9932ef86ff2791603a52c3",
+    "step_0015f": "0eb5514e6f5055160e41dd2260be279418133d228eaec50772e9063e89b6dc25",
+    "step_0015g": "120c319c8b3883b2066187947d3a6b813aa4d590231035fdd02943486268dd4f"
+  },
+  "research_methodology_version": "goatlab-v1-player-season-value-v2-linked-research",
+  "step": "STEP-0015H"
+}

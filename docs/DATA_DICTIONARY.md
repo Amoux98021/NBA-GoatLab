@@ -354,3 +354,26 @@ PlayerSeasonValue method.
 alternate-source minus canonical within-season percentile on a 0–100 scale. An unavailable value
 remains NULL. STEP-0015G's verdict is `DO_NOT_PROMOTE`, so there is no official
 `goatlab-v1-player-season-value-v2` artifact.
+
+## Gold PlayerSeasonValue measurement-linking audit outputs
+
+Generated STEP-0015H outputs remain ignored under
+`data/gold/player_season_value_measurement_linking_audit/`. The research methodology is
+`goatlab-v1-player-season-value-v2-linked-research`; Candidate D and all published outputs remain
+unchanged.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `anchor-masked-pairs` | full-form player × Regular Season | Factual full-form target and deterministic weaker-form measurements used for cross-fitting. |
+| `linked-season-measurements` | player × qualified Regular Season | Raw Candidate D where available, linked estimate where eligible, nested 80/90/95 intervals, form, status, confidence, and reason codes. |
+| `diagnostic-player-seasons` | predetermined player × season | Human-readable actual historical form, status, linked point/interval, channels, and confidence. |
+| `modern-masked-controls` | predetermined modern player × form | Full, masked, linked, and interval comparison after formulas are frozen. |
+| `peak-interval-diagnostics` | player | Non-promoted correlated-draw 70/30 Peak estimate, interval, and plausible windows. |
+| `longevity-interval-diagnostics` | player | Non-promoted probabilistic P80/P90 and expected-run diagnostics for the frozen 35/40/25 concept. |
+
+`score_status` is `OFFICIAL_POINT`, `PROVISIONAL_POINT`, `INTERVAL_ONLY`, or `UNAVAILABLE`.
+`OFFICIAL_POINT` means the row uses the full-portable reference measurement form inside this
+research artifact; it does not promote Candidate D. `linked_point_estimate` is NULL for
+`INTERVAL_ONLY`, while `interval_center` retains the research interval center. `lower_80/90/95`
+and `upper_80/90/95` are nested. Presence reliability, observed/missing channels, measurement
+form, confidence, and reason codes remain explicit. No field predicts a missing statistic.
