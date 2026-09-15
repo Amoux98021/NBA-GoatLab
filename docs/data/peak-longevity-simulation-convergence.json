@@ -1,0 +1,128 @@
+{
+  "1000": {
+    "best_window_probability": {
+      "maximum_absolute_difference_vs_2500": 0.04680000000000001,
+      "mean_absolute_difference_vs_2500": 0.009273333333333326
+    },
+    "longevity_lower": {
+      "maximum_absolute_difference_vs_2500": 27.537431048069344,
+      "mean_absolute_difference_vs_2500": 0.38458760178618334
+    },
+    "longevity_median": {
+      "maximum_absolute_difference_vs_2500": 27.93538219070134,
+      "mean_absolute_difference_vs_2500": 0.3222681901759922
+    },
+    "longevity_upper": {
+      "maximum_absolute_difference_vs_2500": 2.994483845547677,
+      "mean_absolute_difference_vs_2500": 0.20252167060677734
+    },
+    "mean_p80_probability": {
+      "maximum_absolute_difference_vs_2500": 0.007854545454545447,
+      "mean_absolute_difference_vs_2500": 0.0015269514050764007
+    },
+    "mean_p90_area": {
+      "maximum_absolute_difference_vs_2500": 0.00646915715309393,
+      "mean_absolute_difference_vs_2500": 0.0010000449431067967
+    },
+    "peak_lower": {
+      "maximum_absolute_difference_vs_2500": 1.3396375098502773,
+      "mean_absolute_difference_vs_2500": 0.2815208825847121
+    },
+    "peak_median": {
+      "maximum_absolute_difference_vs_2500": 1.103230890464932,
+      "mean_absolute_difference_vs_2500": 0.14627659574468097
+    },
+    "peak_upper": {
+      "maximum_absolute_difference_vs_2500": 1.6548463356973855,
+      "mean_absolute_difference_vs_2500": 0.29810218019437934
+    }
+  },
+  "2500": {
+    "best_window_probability": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "longevity_lower": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "longevity_median": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "longevity_upper": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "mean_p80_probability": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "mean_p90_area": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "peak_lower": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "peak_median": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    },
+    "peak_upper": {
+      "maximum_absolute_difference_vs_2500": 0.0,
+      "mean_absolute_difference_vs_2500": 0.0
+    }
+  },
+  "300": {
+    "best_window_probability": {
+      "maximum_absolute_difference_vs_2500": 0.06679999999999997,
+      "mean_absolute_difference_vs_2500": 0.012486666666666668
+    },
+    "longevity_lower": {
+      "maximum_absolute_difference_vs_2500": 26.164302600472745,
+      "mean_absolute_difference_vs_2500": 0.5011984502232725
+    },
+    "longevity_median": {
+      "maximum_absolute_difference_vs_2500": 28.329393223010243,
+      "mean_absolute_difference_vs_2500": 0.38678749671657486
+    },
+    "longevity_upper": {
+      "maximum_absolute_difference_vs_2500": 2.6516942474389182,
+      "mean_absolute_difference_vs_2500": 0.31144930391384373
+    },
+    "mean_p80_probability": {
+      "maximum_absolute_difference_vs_2500": 0.022339393939393992,
+      "mean_absolute_difference_vs_2500": 0.0024840590952257637
+    },
+    "mean_p90_area": {
+      "maximum_absolute_difference_vs_2500": 0.01945916037807338,
+      "mean_absolute_difference_vs_2500": 0.0017867583803776255
+    },
+    "peak_lower": {
+      "maximum_absolute_difference_vs_2500": 2.8132387706855866,
+      "mean_absolute_difference_vs_2500": 0.44125952193328133
+    },
+    "peak_median": {
+      "maximum_absolute_difference_vs_2500": 1.8518518518518512,
+      "mean_absolute_difference_vs_2500": 0.296657473075913
+    },
+    "peak_upper": {
+      "maximum_absolute_difference_vs_2500": 2.0488573680063062,
+      "mean_absolute_difference_vs_2500": 0.4361045442605693
+    }
+  },
+  "audit_methodology_version": "goatlab-v1-peak-longevity-uncertainty-audit-v1",
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54"
+  },
+  "longevity_research_version": "goatlab-v1-longevity-v2-uncertainty-research",
+  "peak_research_version": "goatlab-v1-peak-v2-uncertainty-research",
+  "players": 120,
+  "selected_draws": 2500,
+  "step": "STEP-0015I"
+}

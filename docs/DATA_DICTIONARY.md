@@ -377,3 +377,26 @@ research artifact; it does not promote Candidate D. `linked_point_estimate` is N
 `INTERVAL_ONLY`, while `interval_center` retains the research interval center. `lower_80/90/95`
 and `upper_80/90/95` are nested. Presence reliability, observed/missing channels, measurement
 form, confidence, and reason codes remain explicit. No field predicts a missing statistic.
+
+## Gold Peak/Longevity uncertainty-audit outputs
+
+Generated STEP-0015I outputs remain ignored under
+`data/gold/peak_longevity_uncertainty_audit/`. Research versions are
+`goatlab-v1-peak-v2-uncertainty-research` and
+`goatlab-v1-longevity-v2-uncertainty-research`; no production dimension is replaced.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `season-uncertainty-input` | player × Regular Season | Exact frozen STEP-0015H measurement object used for career aggregation. |
+| `masked-career-validation` | pattern × full-form player career | Reference, naive masked, simulation central, nested intervals, Peak-window identity, and interval-coverage evidence. |
+| `peak-uncertainty-research` | canonical player | 70/30 central Peak, nested intervals, probabilistic best/alternate windows, aggregate status, and reason codes. |
+| `longevity-uncertainty-research` | canonical player | 35/40/25 central Longevity, nested intervals, season P80/P90 probabilities, capped area, exact run distribution, aggregate status, and reason codes. |
+| `early-era-case-studies` | predetermined historical player | Research Peak/Longevity estimates, intervals, window/run uncertainty, and active-career status. |
+| `modern-masked-careers` | predetermined modern player × historical pattern | Full-form target versus historically masked correlated aggregate measurement. |
+
+Peak status is `OFFICIAL_PEAK_POINT`, `PROVISIONAL_PEAK_POINT`, `PEAK_INTERVAL_ONLY`, or
+`PEAK_UNAVAILABLE`. Longevity status is `OFFICIAL_LONGEVITY_POINT`,
+`PROVISIONAL_LONGEVITY_POINT`, `LONGEVITY_INTERVAL_ONLY`, or `LONGEVITY_UNAVAILABLE`; STEP-0015I
+emits no provisional Longevity points because no non-full pattern passes every aggregate gate.
+Central estimates remain present for interval-only research rows but are not ranking-grade points.
+Intervals represent measurement uncertainty and never multiply score quality.

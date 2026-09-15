@@ -1,0 +1,103 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-longevity-uncertainty-audit-v1",
+  "by_measurement_form": {
+    "EARLY_OFFENSE_WITH_PRESENCE": {
+      "adjacent_correlation": 0.5022134480457555,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.3947976581764907,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.6137598479755919,
+      "player_mean_sd": 13.116274510018751,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.5430859792236917,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 16.74215123345465
+    },
+    "EXPANDED_NO_PRESENCE": {
+      "adjacent_correlation": 0.11991099964437274,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.08758821104453017,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.43630613832501836,
+      "player_mean_sd": 5.022991272475652,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.13915086088292128,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 7.604431672933671
+    },
+    "EXPANDED_PROXY_ACTION_WITH_PRESENCE": {
+      "adjacent_correlation": 0.3778325397670945,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.32915849271183967,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.7112091181196909,
+      "player_mean_sd": 1.8027986333152022,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.404691873908396,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 2.137708884506149
+    },
+    "NO_TEAM_CONTEXT": {
+      "adjacent_correlation": 0.35191756121974765,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.08011441258447335,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.4577495963988274,
+      "player_mean_sd": 1.742672879371453,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.5003113753887235,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 2.5757391995629004
+    },
+    "OFFENSE_ONLY_EARLY": {
+      "adjacent_correlation": 0.43342493042201025,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.38996695131312703,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.584613414364701,
+      "player_mean_sd": 8.169872151141222,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.456020740449583,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 10.685156125803692
+    },
+    "TRADITIONAL_BOX": {
+      "adjacent_correlation": 0.35248288565949426,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.31641624380469624,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.5119624481014995,
+      "player_mean_sd": 6.86833279190634,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.3742987942137597,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 9.5991389081714
+    },
+    "TRADITIONAL_WITH_PRESENCE": {
+      "adjacent_correlation": 0.6135100718543389,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.5711124605313385,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.5850244246433856,
+      "player_mean_sd": 3.573215046630793,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.6377316809460651,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 4.671669976092245
+    }
+  },
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54"
+  },
+  "longevity_research_version": "goatlab-v1-longevity-v2-uncertainty-research",
+  "peak_research_version": "goatlab-v1-peak-v2-uncertainty-research",
+  "residual_semantics": {
+    "full_portable_uncertainty_proxy": "NO_TEAM_CONTEXT_EMPIRICAL_SENSITIVITY",
+    "normal_distribution_assumed": false,
+    "semantics": "FULL_PORTABLE_REFERENCE_MINUS_GROUPED_PLAYER_OOF_LINKED_FORM"
+  },
+  "step": "STEP-0015I"
+}

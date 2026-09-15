@@ -1,0 +1,154 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-longevity-uncertainty-audit-v1",
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54"
+  },
+  "longevity": {
+    "by_active_status": {
+      "ACTIVE_TO_DATE": {
+        "LONGEVITY_INTERVAL_ONLY": 99,
+        "LONGEVITY_UNAVAILABLE": 64,
+        "OFFICIAL_LONGEVITY_POINT": 419
+      },
+      "NOT_ACTIVE": {
+        "LONGEVITY_INTERVAL_ONLY": 2111,
+        "LONGEVITY_UNAVAILABLE": 853,
+        "OFFICIAL_LONGEVITY_POINT": 1557
+      }
+    },
+    "by_debut_cohort": {
+      "1940s": {
+        "LONGEVITY_INTERVAL_ONLY": 348,
+        "LONGEVITY_UNAVAILABLE": 65
+      },
+      "1950s": {
+        "LONGEVITY_INTERVAL_ONLY": 211,
+        "LONGEVITY_UNAVAILABLE": 71
+      },
+      "1960s": {
+        "LONGEVITY_INTERVAL_ONLY": 265,
+        "LONGEVITY_UNAVAILABLE": 50
+      },
+      "1970s": {
+        "LONGEVITY_INTERVAL_ONLY": 504,
+        "LONGEVITY_UNAVAILABLE": 54,
+        "OFFICIAL_LONGEVITY_POINT": 14
+      },
+      "1980s": {
+        "LONGEVITY_INTERVAL_ONLY": 328,
+        "LONGEVITY_UNAVAILABLE": 101,
+        "OFFICIAL_LONGEVITY_POINT": 233
+      },
+      "1990s": {
+        "LONGEVITY_INTERVAL_ONLY": 202,
+        "LONGEVITY_UNAVAILABLE": 107,
+        "OFFICIAL_LONGEVITY_POINT": 359
+      },
+      "2000s": {
+        "LONGEVITY_INTERVAL_ONLY": 195,
+        "LONGEVITY_UNAVAILABLE": 101,
+        "OFFICIAL_LONGEVITY_POINT": 391
+      },
+      "2010s": {
+        "LONGEVITY_INTERVAL_ONLY": 130,
+        "LONGEVITY_UNAVAILABLE": 182,
+        "OFFICIAL_LONGEVITY_POINT": 578
+      },
+      "2020s": {
+        "LONGEVITY_INTERVAL_ONLY": 27,
+        "LONGEVITY_UNAVAILABLE": 185,
+        "OFFICIAL_LONGEVITY_POINT": 401
+      },
+      "UNKNOWN": {
+        "LONGEVITY_UNAVAILABLE": 1
+      }
+    },
+    "counts": {
+      "LONGEVITY_INTERVAL_ONLY": 2210,
+      "LONGEVITY_UNAVAILABLE": 917,
+      "OFFICIAL_LONGEVITY_POINT": 1976
+    }
+  },
+  "longevity_research_version": "goatlab-v1-longevity-v2-uncertainty-research",
+  "peak": {
+    "by_active_status": {
+      "ACTIVE_TO_DATE": {
+        "OFFICIAL_PEAK_POINT": 258,
+        "PEAK_INTERVAL_ONLY": 1,
+        "PEAK_UNAVAILABLE": 238,
+        "PROVISIONAL_PEAK_POINT": 85
+      },
+      "NOT_ACTIVE": {
+        "OFFICIAL_PEAK_POINT": 716,
+        "PEAK_INTERVAL_ONLY": 70,
+        "PEAK_UNAVAILABLE": 2409,
+        "PROVISIONAL_PEAK_POINT": 1326
+      }
+    },
+    "by_debut_cohort": {
+      "1940s": {
+        "PEAK_INTERVAL_ONLY": 50,
+        "PEAK_UNAVAILABLE": 299,
+        "PROVISIONAL_PEAK_POINT": 64
+      },
+      "1950s": {
+        "PEAK_INTERVAL_ONLY": 3,
+        "PEAK_UNAVAILABLE": 169,
+        "PROVISIONAL_PEAK_POINT": 110
+      },
+      "1960s": {
+        "PEAK_INTERVAL_ONLY": 1,
+        "PEAK_UNAVAILABLE": 146,
+        "PROVISIONAL_PEAK_POINT": 168
+      },
+      "1970s": {
+        "OFFICIAL_PEAK_POINT": 1,
+        "PEAK_INTERVAL_ONLY": 3,
+        "PEAK_UNAVAILABLE": 272,
+        "PROVISIONAL_PEAK_POINT": 296
+      },
+      "1980s": {
+        "OFFICIAL_PEAK_POINT": 89,
+        "PEAK_INTERVAL_ONLY": 10,
+        "PEAK_UNAVAILABLE": 312,
+        "PROVISIONAL_PEAK_POINT": 251
+      },
+      "1990s": {
+        "OFFICIAL_PEAK_POINT": 169,
+        "PEAK_INTERVAL_ONLY": 3,
+        "PEAK_UNAVAILABLE": 298,
+        "PROVISIONAL_PEAK_POINT": 198
+      },
+      "2000s": {
+        "OFFICIAL_PEAK_POINT": 217,
+        "PEAK_UNAVAILABLE": 289,
+        "PROVISIONAL_PEAK_POINT": 181
+      },
+      "2010s": {
+        "OFFICIAL_PEAK_POINT": 341,
+        "PEAK_INTERVAL_ONLY": 1,
+        "PEAK_UNAVAILABLE": 426,
+        "PROVISIONAL_PEAK_POINT": 122
+      },
+      "2020s": {
+        "OFFICIAL_PEAK_POINT": 157,
+        "PEAK_UNAVAILABLE": 435,
+        "PROVISIONAL_PEAK_POINT": 21
+      },
+      "UNKNOWN": {
+        "PEAK_UNAVAILABLE": 1
+      }
+    },
+    "counts": {
+      "OFFICIAL_PEAK_POINT": 974,
+      "PEAK_INTERVAL_ONLY": 71,
+      "PEAK_UNAVAILABLE": 2647,
+      "PROVISIONAL_PEAK_POINT": 1411
+    }
+  },
+  "peak_research_version": "goatlab-v1-peak-v2-uncertainty-research",
+  "step": "STEP-0015I"
+}

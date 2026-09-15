@@ -1,0 +1,123 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-longevity-uncertainty-audit-v1",
+  "draws": 300,
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54"
+  },
+  "longevity_research_version": "goatlab-v1-longevity-v2-uncertainty-research",
+  "methods": {
+    "U0_INDEPENDENT": {
+      "longevity": {
+        "bias": -0.641646966115051,
+        "coverage_90": 0.9033333333333333,
+        "gt_10": 0.12333333333333334,
+        "gt_5": 0.21333333333333335,
+        "mae": 4.583070659311795,
+        "mean_width_90": 14.88483057525611,
+        "n": 300,
+        "pearson": 0.9165140486216947,
+        "rmse": 10.436200008626988,
+        "spearman": 0.9158535376082427
+      },
+      "peak": {
+        "bias": 0.26083530338849453,
+        "coverage_90": 0.8033333333333333,
+        "gt_10": 0.09666666666666666,
+        "gt_5": 0.33666666666666667,
+        "mae": 4.473601260835303,
+        "mean_width_90": 14.278710270554244,
+        "n": 300,
+        "pearson": 0.9786907512325249,
+        "rmse": 5.865419440764094,
+        "spearman": 0.9776138292408587
+      }
+    },
+    "U1_PLAYER_BLOCK": {
+      "longevity": {
+        "bias": -1.5248226950354613,
+        "coverage_90": 0.9466666666666667,
+        "gt_10": 0.12,
+        "gt_5": 0.21666666666666667,
+        "mae": 4.595350669818756,
+        "mean_width_90": 16.138691883372736,
+        "n": 300,
+        "pearson": 0.9159373921004147,
+        "rmse": 10.553480261094096,
+        "spearman": 0.9143888889651044
+      },
+      "peak": {
+        "bias": -0.5418965064355141,
+        "coverage_90": 0.8766666666666667,
+        "gt_10": 0.1,
+        "gt_5": 0.35,
+        "mae": 4.394011032308904,
+        "mean_width_90": 16.928408195429473,
+        "n": 300,
+        "pearson": 0.9793640664637645,
+        "rmse": 5.775188396745893,
+        "spearman": 0.9781001735448663
+      }
+    },
+    "U2_ROLE_BLOCK": {
+      "longevity": {
+        "bias": -1.5702653007617546,
+        "coverage_90": 0.9566666666666667,
+        "gt_10": 0.12666666666666668,
+        "gt_5": 0.21,
+        "mae": 4.575387444181771,
+        "mean_width_90": 16.408326766482798,
+        "n": 300,
+        "pearson": 0.9153237676189058,
+        "rmse": 10.59872673758211,
+        "spearman": 0.9119139401486418
+      },
+      "peak": {
+        "bias": -0.519831888626215,
+        "coverage_90": 0.8733333333333333,
+        "gt_10": 0.09666666666666666,
+        "gt_5": 0.3566666666666667,
+        "mae": 4.441555030207513,
+        "mean_width_90": 16.694359075387446,
+        "n": 300,
+        "pearson": 0.9791892201646202,
+        "rmse": 5.7971195470660115,
+        "spearman": 0.9779788821274729
+      }
+    },
+    "U3_STRATIFIED_BLOCK": {
+      "longevity": {
+        "bias": -0.21381665353296558,
+        "coverage_90": 0.9533333333333334,
+        "gt_10": 0.10333333333333333,
+        "gt_5": 0.21666666666666667,
+        "mae": 4.234699238245337,
+        "mean_width_90": 15.75217362752824,
+        "n": 300,
+        "pearson": 0.9273232402261858,
+        "rmse": 9.722859259040707,
+        "spearman": 0.9276630674170481
+      },
+      "peak": {
+        "bias": -0.10401891252955157,
+        "coverage_90": 0.9033333333333333,
+        "gt_10": 0.07666666666666666,
+        "gt_5": 0.3333333333333333,
+        "mae": 4.222222222222221,
+        "mean_width_90": 16.37730496453901,
+        "n": 300,
+        "pearson": 0.9809250521042308,
+        "rmse": 5.567352184466056,
+        "spearman": 0.980384126244187
+      }
+    }
+  },
+  "pattern": "MIXED_PROVISIONAL_INTERVAL",
+  "peak_research_version": "goatlab-v1-peak-v2-uncertainty-research",
+  "population": 300,
+  "selected": "U3_STRATIFIED_BLOCK",
+  "selection_rule": "closest joint 90% aggregate coverage, then narrower intervals; independent U0 is baseline-only and cannot be selected when within-career dependence is observed",
+  "step": "STEP-0015I"
+}

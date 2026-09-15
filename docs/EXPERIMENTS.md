@@ -291,3 +291,20 @@ Future experiments must record the objective, input snapshot, feature version, c
   but highly accurate at wider separations.
 - **Result:** `PASS + LIMITED_TIERED_ARCHITECTURE`. Missing-stat prediction remains prohibited.
 - **Optimization target:** none; named players appear only after architecture and gates are frozen.
+
+## STEP-0015I Peak/Longevity uncertainty propagation
+
+- **Question:** can calibrated season measurement uncertainty be aggregated without changing
+  Peak's height or Longevity's duration semantics?
+- **Population:** 1,270 full-form validation careers, six realistic masked career patterns, and all
+  5,103 canonical players for final research status assignment.
+- **Candidates:** independent draws, player-block residual resampling, role-block resampling, and
+  evidence-form/role/archetype/score-band stratified player-block simulation.
+- **Selected:** `U3_STRATIFIED_BLOCK`, fixed seed, 2,500 draws, frozen ECDF references.
+- **Peak:** mixed patterns pass the aggregate point gates (MAE 3.93, Spearman 0.9842); traditional
+  careers remain interval-only (MAE 6.66). Window selection is repeated within every draw.
+- **Longevity:** no non-full pattern passes all point gates; mixed Spearman is 0.9388 and
+  traditional Spearman is 0.8773. Exact longest run is computed per correlated draw.
+- **Outcome:** `PASS`; both dimension uncertainty methods are `LIMITED`; no promotion occurs.
+- **Optimization target:** aggregate calibration only. Player names, awards, outcomes, postseason,
+  championships, projections, and conventional rankings are excluded.

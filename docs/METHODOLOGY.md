@@ -302,3 +302,21 @@ This living summary may be extended, but methodology changes must also receive a
   the frozen 70/30 window; Longevity retains probabilistic P80/P90 evidence pending a dedicated
   aggregation audit.
 - **Outcome:** `PASS + LIMITED_TIERED_ARCHITECTURE`; next audit Peak/Longevity uncertainty.
+
+## Peak and Longevity uncertainty propagation
+
+- `goatlab-v1-peak-longevity-uncertainty-audit-v1` consumes the frozen STEP-0015H measurement
+  architecture without changing Candidate D or any published V1 output.
+- Empirical residual paths retain a player-level component and are sampled within evidence form,
+  role, archetype, and score band. Independent season draws are a rejected baseline because
+  adjacent and within-player residual dependence is material.
+- Peak reselects the best complete contiguous three-season window and apex in every draw, then
+  applies the frozen 70/30 weights. Window probability/status never changes quality.
+- Longevity calculates exact P80 breadth, capped P80-P90 area, and longest consecutive P80 run in
+  every draw, then applies the frozen 35/40/25 weights. P80/P90 remain common fixed thresholds.
+- Every draw is mapped through a fixed `BROAD_HIGH_RECALL` ECDF; the reference distribution is not
+  redrawn. Active careers are to-date through 2025-26 only.
+- Aggregate point gates use MAE, rank correlation, bias, large-error share, and 90% coverage.
+  Failing patterns remain interval-only; confidence and interval width do not penalize quality.
+- Result: `PASS + PEAK_UNCERTAINTY_LIMITED + LONGEVITY_UNCERTAINTY_LIMITED`. The methods remain
+  research-only and no official Peak, Longevity, PlayerSeasonValue, or Overall version is created.

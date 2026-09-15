@@ -1,0 +1,928 @@
+{
+  "aggregation_policy": {
+    "draws": 2500,
+    "longevity_architecture": "35% P80 breadth + 40% capped P80-P90 area + 25% longest P80 run",
+    "peak_architecture": "70% best complete contiguous 3-year + 30% apex",
+    "simulation_method": "U3_STRATIFIED_BLOCK"
+  },
+  "audit_methodology_version": "goatlab-v1-peak-longevity-uncertainty-audit-v1",
+  "deterministic_rebuild_verified": true,
+  "distinctness": {
+    "interpretation": "Peak uses only the selected three-year/apex height; Longevity uses thresholded, capped breadth and consecutive duration across the observed career.",
+    "longevity_residual_variance_share": 0.22446718011020586,
+    "pearson": 0.8806434124489855,
+    "players": 2456,
+    "spearman": 0.8788973017769718
+  },
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54"
+  },
+  "longevity_research_version": "goatlab-v1-longevity-v2-uncertainty-research",
+  "longevity_verdict": "LONGEVITY_UNCERTAINTY_LIMITED",
+  "network_requests": 0,
+  "output_fingerprint": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+  "outputs": [
+    {
+      "path": "data/gold/peak_longevity_uncertainty_audit/season-uncertainty-input.parquet",
+      "rows": 22457,
+      "sha256": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+      "size_bytes": 1653000
+    },
+    {
+      "path": "data/gold/peak_longevity_uncertainty_audit/masked-career-validation.parquet",
+      "rows": 7620,
+      "sha256": "7789c2704a2dcd224a0902af25c8be2bd6173f1e21d3b6f9632259b8dc018f9f",
+      "size_bytes": 368913
+    },
+    {
+      "path": "data/gold/peak_longevity_uncertainty_audit/peak-uncertainty-research.parquet",
+      "rows": 5103,
+      "sha256": "77b19ada90ba9d6163aaaaeccf341355d5ef9af12f5af04c6902ae7dbe569ea2",
+      "size_bytes": 272528
+    },
+    {
+      "path": "data/gold/peak_longevity_uncertainty_audit/longevity-uncertainty-research.parquet",
+      "rows": 5103,
+      "sha256": "40944bb52d31edbcb6dc54dc0b83396827ed7a201fb4d73bebf1429af0313c9b",
+      "size_bytes": 453197
+    },
+    {
+      "path": "data/gold/peak_longevity_uncertainty_audit/early-era-case-studies.parquet",
+      "rows": 8,
+      "sha256": "8736b3340e33595fbbdc5a59e726adb81f5b5f7e05ff0cc8b3db8c32c75f0ccd",
+      "size_bytes": 7835
+    },
+    {
+      "path": "data/gold/peak_longevity_uncertainty_audit/modern-masked-careers.parquet",
+      "rows": 48,
+      "sha256": "10466a7becf899fdc5eecb4a71fbf153a07e1f57f77cc7aae12308cc668773d3",
+      "size_bytes": 14193
+    }
+  ],
+  "peak_research_version": "goatlab-v1-peak-v2-uncertainty-research",
+  "peak_verdict": "PEAK_UNCERTAINTY_LIMITED",
+  "propagation_comparison": {
+    "draws": 300,
+    "methods": {
+      "U0_INDEPENDENT": {
+        "longevity": {
+          "bias": -0.641646966115051,
+          "coverage_90": 0.9033333333333333,
+          "gt_10": 0.12333333333333334,
+          "gt_5": 0.21333333333333335,
+          "mae": 4.583070659311795,
+          "mean_width_90": 14.88483057525611,
+          "n": 300,
+          "pearson": 0.9165140486216947,
+          "rmse": 10.436200008626988,
+          "spearman": 0.9158535376082427
+        },
+        "peak": {
+          "bias": 0.26083530338849453,
+          "coverage_90": 0.8033333333333333,
+          "gt_10": 0.09666666666666666,
+          "gt_5": 0.33666666666666667,
+          "mae": 4.473601260835303,
+          "mean_width_90": 14.278710270554244,
+          "n": 300,
+          "pearson": 0.9786907512325249,
+          "rmse": 5.865419440764094,
+          "spearman": 0.9776138292408587
+        }
+      },
+      "U1_PLAYER_BLOCK": {
+        "longevity": {
+          "bias": -1.5248226950354613,
+          "coverage_90": 0.9466666666666667,
+          "gt_10": 0.12,
+          "gt_5": 0.21666666666666667,
+          "mae": 4.595350669818756,
+          "mean_width_90": 16.138691883372736,
+          "n": 300,
+          "pearson": 0.9159373921004147,
+          "rmse": 10.553480261094096,
+          "spearman": 0.9143888889651044
+        },
+        "peak": {
+          "bias": -0.5418965064355141,
+          "coverage_90": 0.8766666666666667,
+          "gt_10": 0.1,
+          "gt_5": 0.35,
+          "mae": 4.394011032308904,
+          "mean_width_90": 16.928408195429473,
+          "n": 300,
+          "pearson": 0.9793640664637645,
+          "rmse": 5.775188396745893,
+          "spearman": 0.9781001735448663
+        }
+      },
+      "U2_ROLE_BLOCK": {
+        "longevity": {
+          "bias": -1.5702653007617546,
+          "coverage_90": 0.9566666666666667,
+          "gt_10": 0.12666666666666668,
+          "gt_5": 0.21,
+          "mae": 4.575387444181771,
+          "mean_width_90": 16.408326766482798,
+          "n": 300,
+          "pearson": 0.9153237676189058,
+          "rmse": 10.59872673758211,
+          "spearman": 0.9119139401486418
+        },
+        "peak": {
+          "bias": -0.519831888626215,
+          "coverage_90": 0.8733333333333333,
+          "gt_10": 0.09666666666666666,
+          "gt_5": 0.3566666666666667,
+          "mae": 4.441555030207513,
+          "mean_width_90": 16.694359075387446,
+          "n": 300,
+          "pearson": 0.9791892201646202,
+          "rmse": 5.7971195470660115,
+          "spearman": 0.9779788821274729
+        }
+      },
+      "U3_STRATIFIED_BLOCK": {
+        "longevity": {
+          "bias": -0.21381665353296558,
+          "coverage_90": 0.9533333333333334,
+          "gt_10": 0.10333333333333333,
+          "gt_5": 0.21666666666666667,
+          "mae": 4.234699238245337,
+          "mean_width_90": 15.75217362752824,
+          "n": 300,
+          "pearson": 0.9273232402261858,
+          "rmse": 9.722859259040707,
+          "spearman": 0.9276630674170481
+        },
+        "peak": {
+          "bias": -0.10401891252955157,
+          "coverage_90": 0.9033333333333333,
+          "gt_10": 0.07666666666666666,
+          "gt_5": 0.3333333333333333,
+          "mae": 4.222222222222221,
+          "mean_width_90": 16.37730496453901,
+          "n": 300,
+          "pearson": 0.9809250521042308,
+          "rmse": 5.567352184466056,
+          "spearman": 0.980384126244187
+        }
+      }
+    },
+    "pattern": "MIXED_PROVISIONAL_INTERVAL",
+    "population": 300,
+    "selected": "U3_STRATIFIED_BLOCK",
+    "selection_rule": "closest joint 90% aggregate coverage, then narrower intervals; independent U0 is baseline-only and cannot be selected when within-career dependence is observed"
+  },
+  "recommendation": "MORE_AGGREGATION_RESEARCH",
+  "reconstruction": {
+    "anchor_rows": 14687,
+    "candidate_d_maximum_difference": 0.0,
+    "frozen_anchor_sha256": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "frozen_linked_sha256": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "maximum_numerical_difference": 0.0,
+    "mismatches": 0,
+    "preliminary_longevity_players": 4186,
+    "preliminary_peak_players": 2456,
+    "raw_candidate_d_mismatches": 0,
+    "season_rows": 22457,
+    "silver_rows": 22457
+  },
+  "report_hashes": {
+    "peak-longevity-case-studies.json": "aff2db2afae7ede508a59b2aee066d087358c506e3f0da133af6f03e7ea67046",
+    "peak-longevity-distinctness.json": "c5acea024b562e769c0cb077a9b3a49f585fad15395c63523d73a09e6d3839e1",
+    "peak-longevity-masked-career-validation.json": "fa68af94f345de4dffdd3f1242688e81385e94004222ec999087da00358d70cd",
+    "peak-longevity-pairwise-reliability.json": "53fe2941b35664efc42a627fb9b06adf5cf44a6f5a28775b9214c1250a5ab1a5",
+    "peak-longevity-propagation-comparison.json": "f440aed8b85b2f379cf77a8238724bc6ea1f3e837063594d25ddd1d2c9e2f10f",
+    "peak-longevity-residual-dependence.json": "a8ace7fb9be7b5ceb9eda311c128ddb93d6cbcd69c523929187b2f6a50d6cad6",
+    "peak-longevity-score-status.json": "d8a886385805a28335ecc4ed6dc91f8eaf022f505462ba549392369bfd521849",
+    "peak-longevity-simulation-convergence.json": "4a4e7a3c29aa590376c1dbd75b6777426e138b5e003dd07fde67069631e8cf86",
+    "peak-longevity-threshold-scale.json": "003e7184b5ae2c563e6cf521f5e68109fd7a26453d73036b7fa21453c208a4a1",
+    "peak-longevity-uncertainty-verdict.json": "8172d7649055c44d579f888424b8a580e0577f36011ac49979d39567de2c5fef",
+    "peak-window-stability.json": "7ced4507b464800439dfd72973a1eabbc57b23ac084a450990c8907581997a37"
+  },
+  "result": "PASS",
+  "run_at": "2026-09-15T20:00:00Z",
+  "runtime_seconds": 54.738699208945036,
+  "scale": {
+    "ecdf_policy": {
+      "reason": "uncertainty must reflect the player's measurement, not a moving population scale",
+      "recompute_reference_each_draw": false,
+      "selected": "TRANSFORM_EACH_DRAW_THROUGH_FIXED_REFERENCE_ECDF"
+    },
+    "longevity_weights": {
+      "breadth": 0.35,
+      "capped_area": 0.4,
+      "longest_run": 0.25
+    },
+    "peak_weights": {
+      "single_season_apex": 0.3,
+      "three_year": 0.7
+    },
+    "reference_population": {
+      "frozen_player_ids": 2656,
+      "longevity_reference_values": 2656,
+      "name": "BROAD_HIGH_RECALL",
+      "peak_reference_values": 2456,
+      "policy": "fixed central expected reference distributions; interval-only players remain eligible when their factual measurement supports the aggregate"
+    },
+    "season_thresholds": {
+      "different_era_thresholds": false,
+      "p80": 80.0,
+      "p90": 90.0,
+      "scale": "STEP-0015H linked FULL_PORTABLE reference form",
+      "threshold_redrawn": false
+    }
+  },
+  "score_status": {
+    "longevity": {
+      "by_active_status": {
+        "ACTIVE_TO_DATE": {
+          "LONGEVITY_INTERVAL_ONLY": 99,
+          "LONGEVITY_UNAVAILABLE": 64,
+          "OFFICIAL_LONGEVITY_POINT": 419
+        },
+        "NOT_ACTIVE": {
+          "LONGEVITY_INTERVAL_ONLY": 2111,
+          "LONGEVITY_UNAVAILABLE": 853,
+          "OFFICIAL_LONGEVITY_POINT": 1557
+        }
+      },
+      "by_debut_cohort": {
+        "1940s": {
+          "LONGEVITY_INTERVAL_ONLY": 348,
+          "LONGEVITY_UNAVAILABLE": 65
+        },
+        "1950s": {
+          "LONGEVITY_INTERVAL_ONLY": 211,
+          "LONGEVITY_UNAVAILABLE": 71
+        },
+        "1960s": {
+          "LONGEVITY_INTERVAL_ONLY": 265,
+          "LONGEVITY_UNAVAILABLE": 50
+        },
+        "1970s": {
+          "LONGEVITY_INTERVAL_ONLY": 504,
+          "LONGEVITY_UNAVAILABLE": 54,
+          "OFFICIAL_LONGEVITY_POINT": 14
+        },
+        "1980s": {
+          "LONGEVITY_INTERVAL_ONLY": 328,
+          "LONGEVITY_UNAVAILABLE": 101,
+          "OFFICIAL_LONGEVITY_POINT": 233
+        },
+        "1990s": {
+          "LONGEVITY_INTERVAL_ONLY": 202,
+          "LONGEVITY_UNAVAILABLE": 107,
+          "OFFICIAL_LONGEVITY_POINT": 359
+        },
+        "2000s": {
+          "LONGEVITY_INTERVAL_ONLY": 195,
+          "LONGEVITY_UNAVAILABLE": 101,
+          "OFFICIAL_LONGEVITY_POINT": 391
+        },
+        "2010s": {
+          "LONGEVITY_INTERVAL_ONLY": 130,
+          "LONGEVITY_UNAVAILABLE": 182,
+          "OFFICIAL_LONGEVITY_POINT": 578
+        },
+        "2020s": {
+          "LONGEVITY_INTERVAL_ONLY": 27,
+          "LONGEVITY_UNAVAILABLE": 185,
+          "OFFICIAL_LONGEVITY_POINT": 401
+        },
+        "UNKNOWN": {
+          "LONGEVITY_UNAVAILABLE": 1
+        }
+      },
+      "counts": {
+        "LONGEVITY_INTERVAL_ONLY": 2210,
+        "LONGEVITY_UNAVAILABLE": 917,
+        "OFFICIAL_LONGEVITY_POINT": 1976
+      }
+    },
+    "peak": {
+      "by_active_status": {
+        "ACTIVE_TO_DATE": {
+          "OFFICIAL_PEAK_POINT": 258,
+          "PEAK_INTERVAL_ONLY": 1,
+          "PEAK_UNAVAILABLE": 238,
+          "PROVISIONAL_PEAK_POINT": 85
+        },
+        "NOT_ACTIVE": {
+          "OFFICIAL_PEAK_POINT": 716,
+          "PEAK_INTERVAL_ONLY": 70,
+          "PEAK_UNAVAILABLE": 2409,
+          "PROVISIONAL_PEAK_POINT": 1326
+        }
+      },
+      "by_debut_cohort": {
+        "1940s": {
+          "PEAK_INTERVAL_ONLY": 50,
+          "PEAK_UNAVAILABLE": 299,
+          "PROVISIONAL_PEAK_POINT": 64
+        },
+        "1950s": {
+          "PEAK_INTERVAL_ONLY": 3,
+          "PEAK_UNAVAILABLE": 169,
+          "PROVISIONAL_PEAK_POINT": 110
+        },
+        "1960s": {
+          "PEAK_INTERVAL_ONLY": 1,
+          "PEAK_UNAVAILABLE": 146,
+          "PROVISIONAL_PEAK_POINT": 168
+        },
+        "1970s": {
+          "OFFICIAL_PEAK_POINT": 1,
+          "PEAK_INTERVAL_ONLY": 3,
+          "PEAK_UNAVAILABLE": 272,
+          "PROVISIONAL_PEAK_POINT": 296
+        },
+        "1980s": {
+          "OFFICIAL_PEAK_POINT": 89,
+          "PEAK_INTERVAL_ONLY": 10,
+          "PEAK_UNAVAILABLE": 312,
+          "PROVISIONAL_PEAK_POINT": 251
+        },
+        "1990s": {
+          "OFFICIAL_PEAK_POINT": 169,
+          "PEAK_INTERVAL_ONLY": 3,
+          "PEAK_UNAVAILABLE": 298,
+          "PROVISIONAL_PEAK_POINT": 198
+        },
+        "2000s": {
+          "OFFICIAL_PEAK_POINT": 217,
+          "PEAK_UNAVAILABLE": 289,
+          "PROVISIONAL_PEAK_POINT": 181
+        },
+        "2010s": {
+          "OFFICIAL_PEAK_POINT": 341,
+          "PEAK_INTERVAL_ONLY": 1,
+          "PEAK_UNAVAILABLE": 426,
+          "PROVISIONAL_PEAK_POINT": 122
+        },
+        "2020s": {
+          "OFFICIAL_PEAK_POINT": 157,
+          "PEAK_UNAVAILABLE": 435,
+          "PROVISIONAL_PEAK_POINT": 21
+        },
+        "UNKNOWN": {
+          "PEAK_UNAVAILABLE": 1
+        }
+      },
+      "counts": {
+        "OFFICIAL_PEAK_POINT": 974,
+        "PEAK_INTERVAL_ONLY": 71,
+        "PEAK_UNAVAILABLE": 2647,
+        "PROVISIONAL_PEAK_POINT": 1411
+      }
+    }
+  },
+  "simulation_convergence": {
+    "1000": {
+      "best_window_probability": {
+        "maximum_absolute_difference_vs_2500": 0.04680000000000001,
+        "mean_absolute_difference_vs_2500": 0.009273333333333326
+      },
+      "longevity_lower": {
+        "maximum_absolute_difference_vs_2500": 27.537431048069344,
+        "mean_absolute_difference_vs_2500": 0.38458760178618334
+      },
+      "longevity_median": {
+        "maximum_absolute_difference_vs_2500": 27.93538219070134,
+        "mean_absolute_difference_vs_2500": 0.3222681901759922
+      },
+      "longevity_upper": {
+        "maximum_absolute_difference_vs_2500": 2.994483845547677,
+        "mean_absolute_difference_vs_2500": 0.20252167060677734
+      },
+      "mean_p80_probability": {
+        "maximum_absolute_difference_vs_2500": 0.007854545454545447,
+        "mean_absolute_difference_vs_2500": 0.0015269514050764007
+      },
+      "mean_p90_area": {
+        "maximum_absolute_difference_vs_2500": 0.00646915715309393,
+        "mean_absolute_difference_vs_2500": 0.0010000449431067967
+      },
+      "peak_lower": {
+        "maximum_absolute_difference_vs_2500": 1.3396375098502773,
+        "mean_absolute_difference_vs_2500": 0.2815208825847121
+      },
+      "peak_median": {
+        "maximum_absolute_difference_vs_2500": 1.103230890464932,
+        "mean_absolute_difference_vs_2500": 0.14627659574468097
+      },
+      "peak_upper": {
+        "maximum_absolute_difference_vs_2500": 1.6548463356973855,
+        "mean_absolute_difference_vs_2500": 0.29810218019437934
+      }
+    },
+    "2500": {
+      "best_window_probability": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "longevity_lower": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "longevity_median": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "longevity_upper": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "mean_p80_probability": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "mean_p90_area": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "peak_lower": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "peak_median": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      },
+      "peak_upper": {
+        "maximum_absolute_difference_vs_2500": 0.0,
+        "mean_absolute_difference_vs_2500": 0.0
+      }
+    },
+    "300": {
+      "best_window_probability": {
+        "maximum_absolute_difference_vs_2500": 0.06679999999999997,
+        "mean_absolute_difference_vs_2500": 0.012486666666666668
+      },
+      "longevity_lower": {
+        "maximum_absolute_difference_vs_2500": 26.164302600472745,
+        "mean_absolute_difference_vs_2500": 0.5011984502232725
+      },
+      "longevity_median": {
+        "maximum_absolute_difference_vs_2500": 28.329393223010243,
+        "mean_absolute_difference_vs_2500": 0.38678749671657486
+      },
+      "longevity_upper": {
+        "maximum_absolute_difference_vs_2500": 2.6516942474389182,
+        "mean_absolute_difference_vs_2500": 0.31144930391384373
+      },
+      "mean_p80_probability": {
+        "maximum_absolute_difference_vs_2500": 0.022339393939393992,
+        "mean_absolute_difference_vs_2500": 0.0024840590952257637
+      },
+      "mean_p90_area": {
+        "maximum_absolute_difference_vs_2500": 0.01945916037807338,
+        "mean_absolute_difference_vs_2500": 0.0017867583803776255
+      },
+      "peak_lower": {
+        "maximum_absolute_difference_vs_2500": 2.8132387706855866,
+        "mean_absolute_difference_vs_2500": 0.44125952193328133
+      },
+      "peak_median": {
+        "maximum_absolute_difference_vs_2500": 1.8518518518518512,
+        "mean_absolute_difference_vs_2500": 0.296657473075913
+      },
+      "peak_upper": {
+        "maximum_absolute_difference_vs_2500": 2.0488573680063062,
+        "mean_absolute_difference_vs_2500": 0.4361045442605693
+      }
+    },
+    "players": 120,
+    "selected_draws": 2500
+  },
+  "step": "STEP-0015I",
+  "validation": {
+    "draws": 2500,
+    "patterns": {
+      "EARLY_TRADITIONAL_TO_EXPANDED": {
+        "longevity": {
+          "bias": -0.23584817855214907,
+          "coverage_80": 0.915748031496063,
+          "coverage_90": 0.9535433070866142,
+          "coverage_95": 0.9755905511811024,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": false,
+            "mae_lte_5": false,
+            "spearman_gte_095": false
+          },
+          "gt_10": 0.14566929133858267,
+          "gt_5": 0.24173228346456693,
+          "mae": 5.169176547966965,
+          "mean_width_80": 17.050908086843755,
+          "mean_width_90": 21.458202254859984,
+          "mean_width_95": 24.702088878961053,
+          "n": 1270,
+          "pearson": 0.9041795498835349,
+          "point_eligible": false,
+          "rmse": 11.482274463077404,
+          "spearman": 0.9038237142822214
+        },
+        "peak": {
+          "bias": 0.23173743353002843,
+          "coverage_80": 0.8259842519685039,
+          "coverage_90": 0.9251968503937008,
+          "coverage_95": 0.962992125984252,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": false,
+            "interval_90_calibrated": true,
+            "mae_lte_5": false,
+            "spearman_gte_095": true
+          },
+          "gt_10": 0.15039370078740158,
+          "gt_5": 0.4141732283464567,
+          "mae": 5.242068588944113,
+          "mean_width_80": 17.49332973449241,
+          "mean_width_90": 22.46784621780433,
+          "mean_width_95": 26.71719935717255,
+          "n": 1270,
+          "naive_max_bias": -1.3622233391038887,
+          "naive_window_accuracy": 0.6921259842519685,
+          "pearson": 0.9719554784454983,
+          "point_eligible": false,
+          "rmse": 6.857712113713448,
+          "simulation_window_accuracy": 0.7039370078740157,
+          "spearman": 0.9719857339902569
+        }
+      },
+      "FULL_REFERENCE": {
+        "longevity": {
+          "bias": -0.07452082674062904,
+          "coverage_80": 1.0,
+          "coverage_90": 1.0,
+          "coverage_95": 1.0,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": false,
+            "mae_lte_5": true,
+            "spearman_gte_095": true
+          },
+          "gt_10": 0.003937007874015748,
+          "gt_5": 0.010236220472440945,
+          "mae": 0.37533428888764775,
+          "mean_width_80": 5.957183100339409,
+          "mean_width_90": 7.69236270111626,
+          "mean_width_95": 8.939852044203697,
+          "n": 1270,
+          "pearson": 0.9973436620047466,
+          "point_eligible": false,
+          "rmse": 1.9240954844843994,
+          "spearman": 0.9973519867970776
+        },
+        "peak": {
+          "bias": -0.004126257267486949,
+          "coverage_80": 1.0,
+          "coverage_90": 1.0,
+          "coverage_95": 1.0,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": false,
+            "mae_lte_5": true,
+            "spearman_gte_095": true
+          },
+          "gt_10": 0.0,
+          "gt_5": 0.0,
+          "mae": 0.37685448893356416,
+          "mean_width_80": 6.325093228594652,
+          "mean_width_90": 8.071260152764589,
+          "mean_width_95": 9.545505171782604,
+          "n": 1270,
+          "naive_max_bias": 0.0,
+          "naive_window_accuracy": 1.0,
+          "pearson": 0.9998518960183782,
+          "point_eligible": false,
+          "rmse": 0.5126997645904126,
+          "simulation_window_accuracy": 0.9968503937007874,
+          "spearman": 0.9998648754619547
+        }
+      },
+      "MIXED_PROVISIONAL_INTERVAL": {
+        "longevity": {
+          "bias": 0.16264589266767185,
+          "coverage_80": 0.905511811023622,
+          "coverage_90": 0.952755905511811,
+          "coverage_95": 0.9763779527559056,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": false,
+            "mae_lte_5": true,
+            "spearman_gte_095": false
+          },
+          "gt_10": 0.09370078740157481,
+          "gt_5": 0.1795275590551181,
+          "mae": 3.717338967380851,
+          "mean_width_80": 12.536124917009488,
+          "mean_width_90": 15.632597122168232,
+          "mean_width_95": 18.419779198699455,
+          "n": 1270,
+          "pearson": 0.9388502165715705,
+          "point_eligible": false,
+          "rmse": 9.180658526692033,
+          "spearman": 0.9387818594013796
+        },
+        "peak": {
+          "bias": 0.07284550424104796,
+          "coverage_80": 0.805511811023622,
+          "coverage_90": 0.9078740157480315,
+          "coverage_95": 0.962992125984252,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": true,
+            "mae_lte_5": true,
+            "spearman_gte_095": true
+          },
+          "gt_10": 0.05905511811023622,
+          "gt_5": 0.30551181102362207,
+          "mae": 3.9329746902204596,
+          "mean_width_80": 12.591463301129911,
+          "mean_width_90": 16.209331546322662,
+          "mean_width_95": 19.276238187425154,
+          "n": 1270,
+          "naive_max_bias": -0.6282459373429385,
+          "naive_window_accuracy": 0.7858267716535433,
+          "pearson": 0.9842158814892452,
+          "point_eligible": true,
+          "rmse": 5.139979370711722,
+          "simulation_window_accuracy": 0.7913385826771654,
+          "spearman": 0.9842330672961235
+        }
+      },
+      "NO_PRESENCE_CAREER": {
+        "longevity": {
+          "bias": 0.03974237262895323,
+          "coverage_80": 0.9307086614173228,
+          "coverage_90": 0.962992125984252,
+          "coverage_95": 0.9803149606299213,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": false,
+            "mae_lte_5": true,
+            "spearman_gte_095": false
+          },
+          "gt_10": 0.1236220472440945,
+          "gt_5": 0.2125984251968504,
+          "mae": 4.499078572625231,
+          "mean_width_80": 14.62878266103262,
+          "mean_width_90": 18.078791347890025,
+          "mean_width_95": 20.987909755961354,
+          "n": 1270,
+          "pearson": 0.9205281977984048,
+          "point_eligible": false,
+          "rmse": 10.503522769331978,
+          "spearman": 0.9206069657168142
+        },
+        "peak": {
+          "bias": 0.26468544268845823,
+          "coverage_80": 0.8307086614173228,
+          "coverage_90": 0.9338582677165355,
+          "coverage_95": 0.974015748031496,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": false,
+            "mae_lte_5": true,
+            "spearman_gte_095": true
+          },
+          "gt_10": 0.08661417322834646,
+          "gt_5": 0.3606299212598425,
+          "mae": 4.404872706514523,
+          "mean_width_80": 15.186097305212735,
+          "mean_width_90": 19.46875678660734,
+          "mean_width_95": 23.24347710082339,
+          "n": 1270,
+          "naive_max_bias": -0.9669092781841986,
+          "naive_window_accuracy": 0.731496062992126,
+          "pearson": 0.9804353876663249,
+          "point_eligible": false,
+          "rmse": 5.7616598031416295,
+          "simulation_window_accuracy": 0.7330708661417323,
+          "spearman": 0.9806196638541452
+        }
+      },
+      "PARTIAL_PRESENCE_LATE": {
+        "longevity": {
+          "bias": 0.15558782102591773,
+          "coverage_80": 0.9133858267716536,
+          "coverage_90": 0.9606299212598425,
+          "coverage_95": 0.9826771653543307,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": false,
+            "mae_lte_5": true,
+            "spearman_gte_095": false
+          },
+          "gt_10": 0.08582677165354331,
+          "gt_5": 0.15905511811023623,
+          "mae": 3.4369861568722353,
+          "mean_width_80": 10.696859701048007,
+          "mean_width_90": 13.54658482406011,
+          "mean_width_95": 15.704706570366646,
+          "n": 1270,
+          "pearson": 0.9413771006865326,
+          "point_eligible": false,
+          "rmse": 9.034660705810502,
+          "spearman": 0.941716135468236
+        },
+        "peak": {
+          "bias": 0.5435180531511575,
+          "coverage_80": 0.8125984251968504,
+          "coverage_90": 0.9173228346456693,
+          "coverage_95": 0.9574803149606299,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": true,
+            "interval_90_calibrated": true,
+            "mae_lte_5": true,
+            "spearman_gte_095": true
+          },
+          "gt_10": 0.03622047244094488,
+          "gt_5": 0.20551181102362204,
+          "mae": 3.0992845752436975,
+          "mean_width_80": 10.299736912318584,
+          "mean_width_90": 13.230015574294343,
+          "mean_width_95": 15.772526107108954,
+          "n": 1270,
+          "naive_max_bias": -0.04709517693267064,
+          "naive_window_accuracy": 0.8007874015748031,
+          "pearson": 0.9890460297703,
+          "point_eligible": true,
+          "rmse": 4.325378791182633,
+          "simulation_window_accuracy": 0.805511811023622,
+          "spearman": 0.9891209199204066
+        }
+      },
+      "TRADITIONAL_CAREER": {
+        "longevity": {
+          "bias": -0.7621476393465003,
+          "coverage_80": 0.9031496062992126,
+          "coverage_90": 0.9385826771653544,
+          "coverage_95": 0.9692913385826771,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": false,
+            "interval_90_calibrated": false,
+            "mae_lte_5": false,
+            "spearman_gte_095": false
+          },
+          "gt_10": 0.1826771653543307,
+          "gt_5": 0.2795275590551181,
+          "mae": 6.0967467719017385,
+          "mean_width_80": 19.605048925621887,
+          "mean_width_90": 24.805828571074002,
+          "mean_width_95": 28.9975956019682,
+          "n": 1270,
+          "pearson": 0.8781136882503267,
+          "point_eligible": false,
+          "rmse": 12.956249561629676,
+          "spearman": 0.8773082951421732
+        },
+        "peak": {
+          "bias": -0.26676408356756803,
+          "coverage_80": 0.8047244094488188,
+          "coverage_90": 0.9133858267716536,
+          "coverage_95": 0.9559055118110236,
+          "gates": {
+            "absolute_bias_lte_2": true,
+            "gt_10_lte_015": false,
+            "interval_90_calibrated": true,
+            "mae_lte_5": false,
+            "spearman_gte_095": true
+          },
+          "gt_10": 0.25196850393700787,
+          "gt_5": 0.5,
+          "mae": 6.65957757053418,
+          "mean_width_80": 20.843720332830735,
+          "mean_width_90": 26.910516061378846,
+          "mean_width_95": 32.09349773210973,
+          "n": 1270,
+          "naive_max_bias": -2.198023119450494,
+          "naive_window_accuracy": 0.7133858267716535,
+          "pearson": 0.9547231511058045,
+          "point_eligible": false,
+          "rmse": 8.700767085747165,
+          "simulation_window_accuracy": 0.715748031496063,
+          "spearman": 0.9547693190846624
+        }
+      }
+    },
+    "population": 1270
+  },
+  "window_stability": {
+    "architecture": {
+      "apex_weight": 0.30000000000000004,
+      "incomplete_windows_allowed": false,
+      "three_year_weight": 0.7,
+      "window_reselected_each_draw": true
+    },
+    "mean_best_window_probability": 0.8654169381107492,
+    "players": 2456,
+    "window_status": {
+      "COMPETING_WINDOWS": 385,
+      "STABLE_WINDOW": 1994,
+      "UNCERTAIN_WINDOW": 77
+    }
+  },
+  "within_career_dependence": {
+    "EARLY_OFFENSE_WITH_PRESENCE": {
+      "adjacent_correlation": 0.5022134480457555,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.3947976581764907,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.6137598479755919,
+      "player_mean_sd": 13.116274510018751,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.5430859792236917,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 16.74215123345465
+    },
+    "EXPANDED_NO_PRESENCE": {
+      "adjacent_correlation": 0.11991099964437274,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.08758821104453017,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.43630613832501836,
+      "player_mean_sd": 5.022991272475652,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.13915086088292128,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 7.604431672933671
+    },
+    "EXPANDED_PROXY_ACTION_WITH_PRESENCE": {
+      "adjacent_correlation": 0.3778325397670945,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.32915849271183967,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.7112091181196909,
+      "player_mean_sd": 1.8027986333152022,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.404691873908396,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 2.137708884506149
+    },
+    "NO_TEAM_CONTEXT": {
+      "adjacent_correlation": 0.35191756121974765,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.08011441258447335,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.4577495963988274,
+      "player_mean_sd": 1.742672879371453,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.5003113753887235,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 2.5757391995629004
+    },
+    "OFFENSE_ONLY_EARLY": {
+      "adjacent_correlation": 0.43342493042201025,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.38996695131312703,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.584613414364701,
+      "player_mean_sd": 8.169872151141222,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.456020740449583,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 10.685156125803692
+    },
+    "TRADITIONAL_BOX": {
+      "adjacent_correlation": 0.35248288565949426,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.31641624380469624,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.5119624481014995,
+      "player_mean_sd": 6.86833279190634,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.3742987942137597,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 9.5991389081714
+    },
+    "TRADITIONAL_WITH_PRESENCE": {
+      "adjacent_correlation": 0.6135100718543389,
+      "adjacent_pairs": 9544,
+      "changed_team_adjacent_correlation": 0.5711124605313385,
+      "changed_team_adjacent_pairs": 3511,
+      "player_effect_variance_share": 0.5850244246433856,
+      "player_mean_sd": 3.573215046630793,
+      "players": 3092,
+      "same_team_adjacent_correlation": 0.6377316809460651,
+      "same_team_adjacent_pairs": 6033,
+      "season_residual_sd": 4.671669976092245
+    }
+  }
+}

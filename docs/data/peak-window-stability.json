@@ -1,0 +1,25 @@
+{
+  "architecture": {
+    "apex_weight": 0.30000000000000004,
+    "incomplete_windows_allowed": false,
+    "three_year_weight": 0.7,
+    "window_reselected_each_draw": true
+  },
+  "audit_methodology_version": "goatlab-v1-peak-longevity-uncertainty-audit-v1",
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54"
+  },
+  "longevity_research_version": "goatlab-v1-longevity-v2-uncertainty-research",
+  "mean_best_window_probability": 0.8654169381107492,
+  "peak_research_version": "goatlab-v1-peak-v2-uncertainty-research",
+  "players": 2456,
+  "step": "STEP-0015I",
+  "window_status": {
+    "COMPETING_WINDOWS": 385,
+    "STABLE_WINDOW": 1994,
+    "UNCERTAIN_WINDOW": 77
+  }
+}

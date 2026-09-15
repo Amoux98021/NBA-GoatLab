@@ -1,0 +1,468 @@
+{
+  "EARLY_TRADITIONAL_TO_EXPANDED": {
+    "longevity": {
+      "10": {
+        "naive_order_accuracy": 0.8528138528138528,
+        "pairs": 2079,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.1491101491101491,
+        "uncertainty_aware_central_accuracy": 0.8528138528138528
+      },
+      "15": {
+        "naive_order_accuracy": 0.9352129574085183,
+        "pairs": 1667,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.24415116976604678,
+        "uncertainty_aware_central_accuracy": 0.9352129574085183
+      },
+      "2": {
+        "naive_order_accuracy": 0.6352277307537283,
+        "pairs": 2481,
+        "robust_order_accuracy": 0.85,
+        "robust_order_share": 0.02418379685610641,
+        "uncertainty_aware_central_accuracy": 0.6352277307537283
+      },
+      "20": {
+        "naive_order_accuracy": 0.9580838323353293,
+        "pairs": 1503,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.40252827677977376,
+        "uncertainty_aware_central_accuracy": 0.9580838323353293
+      },
+      "5": {
+        "naive_order_accuracy": 0.7307177886758806,
+        "pairs": 2243,
+        "robust_order_accuracy": 0.9844961240310077,
+        "robust_order_share": 0.05751226036558181,
+        "uncertainty_aware_central_accuracy": 0.7307177886758806
+      }
+    },
+    "peak": {
+      "10": {
+        "naive_order_accuracy": 0.842346471127406,
+        "pairs": 5455,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.09862511457378552,
+        "uncertainty_aware_central_accuracy": 0.8527956003666362
+      },
+      "15": {
+        "naive_order_accuracy": 0.9166502850402988,
+        "pairs": 5087,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.19815215254570473,
+        "uncertainty_aware_central_accuracy": 0.9317869078042068
+      },
+      "2": {
+        "naive_order_accuracy": 0.6183339142558383,
+        "pairs": 5738,
+        "robust_order_accuracy": 0.8780487804878049,
+        "robust_order_share": 0.014290693621470896,
+        "uncertainty_aware_central_accuracy": 0.6296619031021262
+      },
+      "20": {
+        "naive_order_accuracy": 0.9689542483660131,
+        "pairs": 4896,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.3631535947712418,
+        "uncertainty_aware_central_accuracy": 0.9797794117647058
+      },
+      "5": {
+        "naive_order_accuracy": 0.723074179743224,
+        "pairs": 5608,
+        "robust_order_accuracy": 0.9606741573033708,
+        "robust_order_share": 0.03174037089871612,
+        "uncertainty_aware_central_accuracy": 0.7339514978601998
+      }
+    }
+  },
+  "FULL_REFERENCE": {
+    "longevity": {
+      "10": {
+        "naive_order_accuracy": 0.9995044598612488,
+        "pairs": 2018,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.6873141724479683,
+        "uncertainty_aware_central_accuracy": 0.9995044598612488
+      },
+      "15": {
+        "naive_order_accuracy": 1.0,
+        "pairs": 1798,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.8798665183537263,
+        "uncertainty_aware_central_accuracy": 1.0
+      },
+      "2": {
+        "naive_order_accuracy": 0.9650526315789474,
+        "pairs": 2375,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.15705263157894736,
+        "uncertainty_aware_central_accuracy": 0.9650526315789474
+      },
+      "20": {
+        "naive_order_accuracy": 1.0,
+        "pairs": 1497,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.9652638610554443,
+        "uncertainty_aware_central_accuracy": 1.0
+      },
+      "5": {
+        "naive_order_accuracy": 0.9931153184165232,
+        "pairs": 2324,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.3614457831325301,
+        "uncertainty_aware_central_accuracy": 0.9931153184165232
+      }
+    },
+    "peak": {
+      "10": {
+        "naive_order_accuracy": 1.0,
+        "pairs": 5537,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.9273975076756367,
+        "uncertainty_aware_central_accuracy": 1.0
+      },
+      "15": {
+        "naive_order_accuracy": 1.0,
+        "pairs": 5089,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 1.0,
+        "uncertainty_aware_central_accuracy": 1.0
+      },
+      "2": {
+        "naive_order_accuracy": 1.0,
+        "pairs": 5606,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.026043524794862646,
+        "uncertainty_aware_central_accuracy": 0.9989297181591152
+      },
+      "20": {
+        "naive_order_accuracy": 1.0,
+        "pairs": 4778,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 1.0,
+        "uncertainty_aware_central_accuracy": 1.0
+      },
+      "5": {
+        "naive_order_accuracy": 1.0,
+        "pairs": 5552,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.11239193083573487,
+        "uncertainty_aware_central_accuracy": 1.0
+      }
+    }
+  },
+  "MIXED_PROVISIONAL_INTERVAL": {
+    "longevity": {
+      "10": {
+        "naive_order_accuracy": 0.9169829222011385,
+        "pairs": 2108,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.25996204933586337,
+        "uncertainty_aware_central_accuracy": 0.9169829222011385
+      },
+      "15": {
+        "naive_order_accuracy": 0.9611143354614046,
+        "pairs": 1723,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.4526987811955891,
+        "uncertainty_aware_central_accuracy": 0.9611143354614046
+      },
+      "2": {
+        "naive_order_accuracy": 0.6887175324675324,
+        "pairs": 2464,
+        "robust_order_accuracy": 0.9402985074626866,
+        "robust_order_share": 0.05438311688311688,
+        "uncertainty_aware_central_accuracy": 0.6887175324675324
+      },
+      "20": {
+        "naive_order_accuracy": 0.987603305785124,
+        "pairs": 1452,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.628099173553719,
+        "uncertainty_aware_central_accuracy": 0.987603305785124
+      },
+      "5": {
+        "naive_order_accuracy": 0.7926225820962663,
+        "pairs": 2223,
+        "robust_order_accuracy": 0.9814814814814815,
+        "robust_order_share": 0.09716599190283401,
+        "uncertainty_aware_central_accuracy": 0.7926225820962663
+      }
+    },
+    "peak": {
+      "10": {
+        "naive_order_accuracy": 0.9040395131416475,
+        "pairs": 5669,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.21802787087669784,
+        "uncertainty_aware_central_accuracy": 0.9179749514905627
+      },
+      "15": {
+        "naive_order_accuracy": 0.9753694581280788,
+        "pairs": 4872,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.43349753694581283,
+        "uncertainty_aware_central_accuracy": 0.9813218390804598
+      },
+      "2": {
+        "naive_order_accuracy": 0.6593059936908517,
+        "pairs": 5706,
+        "robust_order_accuracy": 0.9743589743589743,
+        "robust_order_share": 0.027339642481598318,
+        "uncertainty_aware_central_accuracy": 0.6659656501927795
+      },
+      "20": {
+        "naive_order_accuracy": 0.993933265925177,
+        "pairs": 4945,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.6632962588473206,
+        "uncertainty_aware_central_accuracy": 0.9963599595551061
+      },
+      "5": {
+        "naive_order_accuracy": 0.7864775239498895,
+        "pairs": 5428,
+        "robust_order_accuracy": 0.9875,
+        "robust_order_share": 0.07369196757553427,
+        "uncertainty_aware_central_accuracy": 0.7967943994104643
+      }
+    }
+  },
+  "NO_PRESENCE_CAREER": {
+    "longevity": {
+      "10": {
+        "naive_order_accuracy": 0.8849391955098223,
+        "pairs": 2138,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.20813844714686622,
+        "uncertainty_aware_central_accuracy": 0.8849391955098223
+      },
+      "15": {
+        "naive_order_accuracy": 0.9704142011834319,
+        "pairs": 1690,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.385207100591716,
+        "uncertainty_aware_central_accuracy": 0.9704142011834319
+      },
+      "2": {
+        "naive_order_accuracy": 0.671702735810535,
+        "pairs": 2449,
+        "robust_order_accuracy": 0.9327731092436975,
+        "robust_order_share": 0.048591261739485504,
+        "uncertainty_aware_central_accuracy": 0.671702735810535
+      },
+      "20": {
+        "naive_order_accuracy": 0.983142279163857,
+        "pairs": 1483,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.5549561699258261,
+        "uncertainty_aware_central_accuracy": 0.983142279163857
+      },
+      "5": {
+        "naive_order_accuracy": 0.7898089171974523,
+        "pairs": 2355,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.09087048832271762,
+        "uncertainty_aware_central_accuracy": 0.7898089171974523
+      }
+    },
+    "peak": {
+      "10": {
+        "naive_order_accuracy": 0.8910533910533911,
+        "pairs": 5544,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.13744588744588745,
+        "uncertainty_aware_central_accuracy": 0.9015151515151515
+      },
+      "15": {
+        "naive_order_accuracy": 0.9618550491869102,
+        "pairs": 4981,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.289098574583417,
+        "uncertainty_aware_central_accuracy": 0.9678779361573981
+      },
+      "2": {
+        "naive_order_accuracy": 0.6534200808862317,
+        "pairs": 5687,
+        "robust_order_accuracy": 0.9145299145299145,
+        "robust_order_share": 0.020573237207666607,
+        "uncertainty_aware_central_accuracy": 0.6632671004044312
+      },
+      "20": {
+        "naive_order_accuracy": 0.9910135841170324,
+        "pairs": 4785,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.49404388714733544,
+        "uncertainty_aware_central_accuracy": 0.9941483803552769
+      },
+      "5": {
+        "naive_order_accuracy": 0.7629432624113475,
+        "pairs": 5640,
+        "robust_order_accuracy": 0.9960159362549801,
+        "robust_order_share": 0.04450354609929078,
+        "uncertainty_aware_central_accuracy": 0.774822695035461
+      }
+    }
+  },
+  "PARTIAL_PRESENCE_LATE": {
+    "longevity": {
+      "10": {
+        "naive_order_accuracy": 0.9307273626917367,
+        "pairs": 2021,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.42454230578921326,
+        "uncertainty_aware_central_accuracy": 0.9307273626917367
+      },
+      "15": {
+        "naive_order_accuracy": 0.9825885084155542,
+        "pairs": 1723,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.620429483459083,
+        "uncertainty_aware_central_accuracy": 0.9825885084155542
+      },
+      "2": {
+        "naive_order_accuracy": 0.6955284552845529,
+        "pairs": 2460,
+        "robust_order_accuracy": 0.9333333333333333,
+        "robust_order_share": 0.10365853658536585,
+        "uncertainty_aware_central_accuracy": 0.6955284552845529
+      },
+      "20": {
+        "naive_order_accuracy": 0.9939106901217862,
+        "pairs": 1478,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.7855209742895806,
+        "uncertainty_aware_central_accuracy": 0.9939106901217862
+      },
+      "5": {
+        "naive_order_accuracy": 0.8284335234752084,
+        "pairs": 2279,
+        "robust_order_accuracy": 0.9957081545064378,
+        "robust_order_share": 0.20447564721369021,
+        "uncertainty_aware_central_accuracy": 0.8284335234752084
+      }
+    },
+    "peak": {
+      "10": {
+        "naive_order_accuracy": 0.948459280997799,
+        "pairs": 5452,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.3776595744680851,
+        "uncertainty_aware_central_accuracy": 0.9521276595744681
+      },
+      "15": {
+        "naive_order_accuracy": 0.9900394272670678,
+        "pairs": 4819,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.6318738327453829,
+        "uncertainty_aware_central_accuracy": 0.9916995227225566
+      },
+      "2": {
+        "naive_order_accuracy": 0.7070030895983522,
+        "pairs": 5826,
+        "robust_order_accuracy": 0.9572953736654805,
+        "robust_order_share": 0.048232063165121866,
+        "uncertainty_aware_central_accuracy": 0.7116374871266735
+      },
+      "20": {
+        "naive_order_accuracy": 0.9981785063752276,
+        "pairs": 4941,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.8186601902448897,
+        "uncertainty_aware_central_accuracy": 0.9987856709168185
+      },
+      "5": {
+        "naive_order_accuracy": 0.8484150876571631,
+        "pairs": 5647,
+        "robust_order_accuracy": 0.9960681520314548,
+        "robust_order_share": 0.13511599079157074,
+        "uncertainty_aware_central_accuracy": 0.8521338763945457
+      }
+    }
+  },
+  "TRADITIONAL_CAREER": {
+    "longevity": {
+      "10": {
+        "naive_order_accuracy": 0.8049519959575543,
+        "pairs": 1979,
+        "robust_order_accuracy": 0.993103448275862,
+        "robust_order_share": 0.07326932794340577,
+        "uncertainty_aware_central_accuracy": 0.8049519959575543
+      },
+      "15": {
+        "naive_order_accuracy": 0.8855491329479769,
+        "pairs": 1730,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.14450867052023122,
+        "uncertainty_aware_central_accuracy": 0.8855491329479769
+      },
+      "2": {
+        "naive_order_accuracy": 0.6039168665067945,
+        "pairs": 2502,
+        "robust_order_accuracy": 0.7674418604651163,
+        "robust_order_share": 0.01718625099920064,
+        "uncertainty_aware_central_accuracy": 0.6039168665067945
+      },
+      "20": {
+        "naive_order_accuracy": 0.9453227931488801,
+        "pairs": 1518,
+        "robust_order_accuracy": 1.0,
+        "robust_order_share": 0.24308300395256918,
+        "uncertainty_aware_central_accuracy": 0.9453227931488801
+      },
+      "5": {
+        "naive_order_accuracy": 0.6641477749790092,
+        "pairs": 2382,
+        "robust_order_accuracy": 0.9879518072289156,
+        "robust_order_share": 0.03484466834592779,
+        "uncertainty_aware_central_accuracy": 0.6641477749790092
+      }
+    },
+    "peak": {
+      "10": {
+        "naive_order_accuracy": 0.7918510324483776,
+        "pairs": 5424,
+        "robust_order_accuracy": 0.9924242424242424,
+        "robust_order_share": 0.07300884955752213,
+        "uncertainty_aware_central_accuracy": 0.8071533923303835
+      },
+      "15": {
+        "naive_order_accuracy": 0.8611722344468894,
+        "pairs": 4999,
+        "robust_order_accuracy": 0.9970887918486172,
+        "robust_order_share": 0.13742748549709943,
+        "uncertainty_aware_central_accuracy": 0.8857771554310863
+      },
+      "2": {
+        "naive_order_accuracy": 0.5836406302380154,
+        "pairs": 5966,
+        "robust_order_accuracy": 0.7962962962962963,
+        "robust_order_share": 0.018102581293999328,
+        "uncertainty_aware_central_accuracy": 0.5908481394569226
+      },
+      "20": {
+        "naive_order_accuracy": 0.9283241702300957,
+        "pairs": 4911,
+        "robust_order_accuracy": 0.9982832618025751,
+        "robust_order_share": 0.23722256159641622,
+        "uncertainty_aware_central_accuracy": 0.94603950315618
+      },
+      "5": {
+        "naive_order_accuracy": 0.6782294489611563,
+        "pairs": 5535,
+        "robust_order_accuracy": 0.9130434782608695,
+        "robust_order_share": 0.033242999096657636,
+        "uncertainty_aware_central_accuracy": 0.685817524841915
+      }
+    }
+  },
+  "audit_methodology_version": "goatlab-v1-peak-longevity-uncertainty-audit-v1",
+  "input_fingerprints": {
+    "anchors": "1821e4d7a15fccb70819f49d234f019ce75cba06613a86c80cc07e04fb8d202a",
+    "constitution": "f7a67adb161de086e9d47b0eaa3b9606cfb42cc70f15341c2a225586403c6ad5",
+    "linked_seasons": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54"
+  },
+  "longevity_research_version": "goatlab-v1-longevity-v2-uncertainty-research",
+  "peak_research_version": "goatlab-v1-peak-v2-uncertainty-research",
+  "step": "STEP-0015I"
+}
