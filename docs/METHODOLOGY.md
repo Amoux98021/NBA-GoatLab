@@ -359,3 +359,21 @@ This living summary may be extended, but methodology changes must also receive a
 - Overall V1 remains frozen. A required interval/unavailable dimension cannot be dropped, have its
   weight redistributed, or be replaced by a midpoint. STEP-0015K performs eligibility only and
   creates no Overall score or rank.
+
+## Overall joint uncertainty architecture
+
+- `goatlab-v1-overall-v2-uncertainty-research` preserves the frozen 17/14/16/14/18/10/11 weights
+  and applies them inside 2,500 paired Peak/Longevity `U3_STRATIFIED_BLOCK` draws.
+- Peak and Longevity are never independently recombined in the primary architecture. Their
+  positive covariance is material; independence narrows intervals and understates uncertainty.
+- The central estimate is the median of paired Overall draws. Player-grouped cross-fit calibration
+  produces nested 80/90/95 measurement intervals. Offense, Defense, Playoffs, Accolades, and
+  Winning remain fixed in this audit.
+- An interval-only Longevity distribution may support a provisional Overall point when the
+  complete weighted distribution passes the Overall gate. Its midpoint does not become official.
+- Missing required evidence makes Overall unavailable. Weights are never renormalized; confidence
+  never changes quality; Accolades `NOT_QUERIED` remains unknown.
+- Rank bands and Top-N probabilities are conditional research diagnostics. Shared cross-player
+  calibration-model uncertainty is not modeled.
+- Outcome: `PASS + LIMITED_OVERALL_UNCERTAINTY_ARCHITECTURE`. Overall V1 remains frozen, no Top
+  100 is published, and every row carries `DEFENSE_V1_FROZEN_PENDING_REVISION`.

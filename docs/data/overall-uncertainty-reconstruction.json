@@ -1,0 +1,18 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-uncertainty-architecture-audit-v1",
+  "defense_caveat": "DEFENSE_V1_FROZEN_PENDING_REVISION",
+  "eligibility_rows": 5103,
+  "eligibility_status_mismatches": 0,
+  "longevity_rows": 5103,
+  "longevity_status_mismatches": 0,
+  "maximum_numerical_difference": 0.0,
+  "peak_rows": 5103,
+  "peak_status_mismatches": 0,
+  "research_methodology_version": "goatlab-v1-overall-v2-uncertainty-research",
+  "step": "STEP-0015L",
+  "step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+  "upstream_step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+  "v1_dimension_hash": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4",
+  "v1_overall_hash": "ab9ae910754d82cb260eb3fe0c747c6b58351ce20510be9707f9b484525e9547",
+  "v1_top100_hash": "1a08c1f61f428b84a8599cfdfc0dcf62eec4e5976d6f6f22949bc3b02dc66d8f"
+}

@@ -1,0 +1,1245 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-uncertainty-architecture-audit-v1",
+  "defense_caveat": "DEFENSE_V1_FROZEN_PENDING_REVISION",
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "top_10": {
+        "brier_score": 0.0013653168000000002,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00016694772344013492,
+            "n": 1186,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3482,
+            "n": 2,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4532,
+            "n": 2,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6461,
+            "n": 4,
+            "observed_membership": 0.75,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9358,
+            "n": 6,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.9
+      },
+      "top_100": {
+        "brier_score": 0.0083042656,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0013125461254612546,
+            "n": 1084,
+            "observed_membership": 0.0009225092250922509,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3089333333333333,
+            "n": 9,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.48729999999999996,
+            "n": 8,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6983384615384616,
+            "n": 13,
+            "observed_membership": 0.6923076923076923,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9630232558139534,
+            "n": 86,
+            "observed_membership": 0.9651162790697675,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.93
+      },
+      "top_25": {
+        "brier_score": 0.0013094018666666664,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0005247863247863249,
+            "n": 1170,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.29535999999999996,
+            "n": 5,
+            "observed_membership": 0.2,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5428,
+            "n": 2,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.67,
+            "n": 1,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9615272727272728,
+            "n": 22,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.96
+      },
+      "top_50": {
+        "brier_score": 0.004343665599999999,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0012709170305676856,
+            "n": 1145,
+            "observed_membership": 0.0017467248908296944,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3357,
+            "n": 4,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5386666666666667,
+            "n": 3,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7376,
+            "n": 3,
+            "observed_membership": 0.6666666666666666,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9638488888888889,
+            "n": 45,
+            "observed_membership": 0.9777777777777777,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.92
+      }
+    },
+    "FULL_REFERENCE": {
+      "top_10": {
+        "brier_score": 0.0009147037333333334,
+        "calibration_bins": [
+          {
+            "mean_predicted": 1.5164279696714405e-05,
+            "n": 1187,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3176,
+            "n": 1,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5077333333333334,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.696,
+            "n": 2,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9641714285714286,
+            "n": 7,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.9
+      },
+      "top_100": {
+        "brier_score": 0.0016711917333333333,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00041246562786434465,
+            "n": 1091,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.27937142857142855,
+            "n": 7,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4848,
+            "n": 4,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7234666666666666,
+            "n": 6,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9925478260869566,
+            "n": 92,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 1.0
+      },
+      "top_25": {
+        "brier_score": 0.0010612605333333333,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00020563620836891545,
+            "n": 1171,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2762,
+            "n": 2,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.48539999999999994,
+            "n": 4,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6512,
+            "n": 2,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9982285714285715,
+            "n": 21,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 1.0
+      },
+      "top_50": {
+        "brier_score": 0.0012848749333333334,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0005006113537117904,
+            "n": 1145,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2803,
+            "n": 4,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5426,
+            "n": 4,
+            "observed_membership": 0.75,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6228,
+            "n": 1,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9894,
+            "n": 46,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.98
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "top_10": {
+        "brier_score": 0.0008235378666666667,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00012670598146588037,
+            "n": 1187,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3956,
+            "n": 1,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4977333333333333,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7578666666666667,
+            "n": 3,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9478666666666667,
+            "n": 6,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 1.0
+      },
+      "top_100": {
+        "brier_score": 0.0060862888,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0008694852941176471,
+            "n": 1088,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.28728,
+            "n": 5,
+            "observed_membership": 0.2,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.47964444444444443,
+            "n": 9,
+            "observed_membership": 0.6666666666666666,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7172,
+            "n": 10,
+            "observed_membership": 0.7,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9787363636363637,
+            "n": 88,
+            "observed_membership": 0.9772727272727273,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.94
+      },
+      "top_25": {
+        "brier_score": 0.0016471157333333335,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0005253629376601195,
+            "n": 1171,
+            "observed_membership": 0.0008539709649871904,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3085333333333333,
+            "n": 3,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4874,
+            "n": 4,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7216,
+            "n": 1,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9899047619047617,
+            "n": 21,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.96
+      },
+      "top_50": {
+        "brier_score": 0.0033420712,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0008818181818181817,
+            "n": 1144,
+            "observed_membership": 0.0017482517482517483,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.29453333333333337,
+            "n": 6,
+            "observed_membership": 0.16666666666666666,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5498000000000001,
+            "n": 2,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6746,
+            "n": 2,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9733739130434784,
+            "n": 46,
+            "observed_membership": 0.9782608695652174,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.94
+      }
+    },
+    "NO_PRESENCE_CAREER": {
+      "top_10": {
+        "brier_score": 0.0016419994666666668,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00027700084245998313,
+            "n": 1187,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3708,
+            "n": 1,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5536,
+            "n": 2,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6356999999999999,
+            "n": 4,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9417333333333332,
+            "n": 6,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.8
+      },
+      "top_100": {
+        "brier_score": 0.007208669866666667,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.001642857142857143,
+            "n": 1092,
+            "observed_membership": 0.0009157509157509158,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3292,
+            "n": 4,
+            "observed_membership": 0.75,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5069333333333333,
+            "n": 6,
+            "observed_membership": 0.8333333333333334,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7434857142857144,
+            "n": 7,
+            "observed_membership": 0.42857142857142855,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.974101098901099,
+            "n": 91,
+            "observed_membership": 0.967032967032967,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.93
+      },
+      "top_25": {
+        "brier_score": 0.0017444456,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0004181041844577285,
+            "n": 1171,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2654666666666667,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.502,
+            "n": 2,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7382666666666666,
+            "n": 3,
+            "observed_membership": 0.6666666666666666,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9759619047619048,
+            "n": 21,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.92
+      },
+      "top_50": {
+        "brier_score": 0.003444662666666667,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.001427772925764192,
+            "n": 1145,
+            "observed_membership": 0.0008733624454148472,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2597333333333333,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.51528,
+            "n": 5,
+            "observed_membership": 0.4,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6590666666666668,
+            "n": 3,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9780090909090908,
+            "n": 44,
+            "observed_membership": 0.9772727272727273,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.92
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "top_10": {
+        "brier_score": 0.0009372554666666666,
+        "calibration_bins": [
+          {
+            "mean_predicted": 4.8188711036225775e-05,
+            "n": 1187,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3524,
+            "n": 1,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.49333333333333335,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.696,
+            "n": 2,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9597714285714286,
+            "n": 7,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.9
+      },
+      "top_100": {
+        "brier_score": 0.0058871416000000005,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0004051329055912007,
+            "n": 1091,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.33544000000000007,
+            "n": 5,
+            "observed_membership": 0.6,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.46568000000000004,
+            "n": 5,
+            "observed_membership": 0.6,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7011999999999999,
+            "n": 5,
+            "observed_membership": 0.6,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9792170212765956,
+            "n": 94,
+            "observed_membership": 0.9680851063829787,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.94
+      },
+      "top_25": {
+        "brier_score": 0.0014630376,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0001735269000853971,
+            "n": 1171,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2934666666666667,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5222666666666668,
+            "n": 3,
+            "observed_membership": 0.6666666666666666,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6922,
+            "n": 2,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9983428571428571,
+            "n": 21,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.96
+      },
+      "top_50": {
+        "brier_score": 0.002595648533333333,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0010246288209606988,
+            "n": 1145,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.28952,
+            "n": 5,
+            "observed_membership": 0.4,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4758,
+            "n": 2,
+            "observed_membership": 0.5,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6612,
+            "n": 3,
+            "observed_membership": 0.6666666666666666,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9876444444444445,
+            "n": 45,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.96
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "top_10": {
+        "brier_score": 0.0015964592000000002,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0004300168634064081,
+            "n": 1186,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3136,
+            "n": 1,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5045333333333333,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6942857142857142,
+            "n": 7,
+            "observed_membership": 0.8571428571428571,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9342666666666667,
+            "n": 3,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.9
+      },
+      "top_100": {
+        "brier_score": 0.011621073866666666,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.001741241890639481,
+            "n": 1079,
+            "observed_membership": 0.0009267840593141798,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3350181818181818,
+            "n": 11,
+            "observed_membership": 0.45454545454545453,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4674181818181818,
+            "n": 11,
+            "observed_membership": 0.45454545454545453,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.6953333333333332,
+            "n": 24,
+            "observed_membership": 0.7083333333333334,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9680853333333332,
+            "n": 75,
+            "observed_membership": 0.96,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.9
+      },
+      "top_25": {
+        "brier_score": 0.0021978485333333333,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0007205479452054795,
+            "n": 1168,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2432,
+            "n": 3,
+            "observed_membership": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4859428571428571,
+            "n": 7,
+            "observed_membership": 0.2857142857142857,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7155999999999999,
+            "n": 3,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9410736842105264,
+            "n": 19,
+            "observed_membership": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.92
+      },
+      "top_50": {
+        "brier_score": 0.0052872679999999995,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.001386315789473684,
+            "n": 1140,
+            "observed_membership": 0.0017543859649122807,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.30360000000000004,
+            "n": 7,
+            "observed_membership": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4338666666666667,
+            "n": 3,
+            "observed_membership": 0.6666666666666666,
+            "probability_range": [
+              0.4,
+              0.6000000000000001
+            ]
+          },
+          {
+            "mean_predicted": 0.7186,
+            "n": 8,
+            "observed_membership": 0.625,
+            "probability_range": [
+              0.6000000000000001,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9343809523809522,
+            "n": 42,
+            "observed_membership": 0.9761904761904762,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "central_overlap": 0.92
+      }
+    }
+  },
+  "research_methodology_version": "goatlab-v1-overall-v2-uncertainty-research",
+  "step": "STEP-0015L",
+  "upstream_step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f"
+}

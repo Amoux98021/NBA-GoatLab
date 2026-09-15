@@ -1,0 +1,13 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-uncertainty-architecture-audit-v1",
+  "conditional_on_current_measurement_architecture": true,
+  "defense_caveat": "DEFENSE_V1_FROZEN_PENDING_REVISION",
+  "mean_rank_band_width_80": 76.38974495217853,
+  "mean_rank_band_width_90": 97.17903825717316,
+  "population": 1882,
+  "published_rank": false,
+  "research_methodology_version": "goatlab-v1-overall-v2-uncertainty-research",
+  "shared_calibration_uncertainty_modeled": false,
+  "step": "STEP-0015L",
+  "upstream_step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f"
+}

@@ -442,3 +442,25 @@ Committed JSON/YAML reports define the durable contracts.
 distinguishes insufficient career/window support from measurement unavailability. Overall
 eligibility is `COMPLETE_POINT_DIMENSIONS`, `INTERVAL_DIMENSION_PRESENT`, or
 `REQUIRED_DIMENSION_UNAVAILABLE`; the artifact performs no scoring and no weight renormalization.
+
+## Gold Overall uncertainty architecture audit outputs
+
+Generated STEP-0015L outputs remain ignored under
+`data/gold/overall_uncertainty_architecture_audit/`. The research methodology is
+`goatlab-v1-overall-v2-uncertainty-research`; it does not replace Overall V1.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `masked-reference-overall-validation` | mask pattern × full-form player career | Reference Overall, paired-draw center/intervals, component covariance, rank membership probabilities, and forbidden-baseline diagnostics. |
+| `overall-uncertainty-research` | canonical player | Nullable research point, diagnostic center, nested intervals, status, exact blockers, component variance, and Defense caveat. |
+| `overall-rank-uncertainty` | player with usable Overall distribution | Conditional median rank, 80/90 rank bands, and Top 10/25/50/100 probabilities; never a published rank. |
+| `v1-top100-eligibility-transition` | archived V1 Top-100 player | Original order plus Peak/Longevity/Overall successor statuses; explicitly unreordered. |
+| `policy-examples` | predetermined historical/modern player | Peak/Longevity contributions, Overall interval/status, and policy flags. |
+| `v1-diagnostic-comparison` | player with V1 and research center | Archived V1 versus research diagnostic center/rank and Peak/Longevity contribution change. |
+
+`overall_point` is populated only for `OFFICIAL_OVERALL_POINT` or
+`PROVISIONAL_OVERALL_POINT`. `OVERALL_INTERVAL_ONLY` retains a diagnostic center and nested
+interval but no ranking-grade point. `OVERALL_UNAVAILABLE` lacks at least one required point or
+useful interval. `weight_renormalized`, `interval_midpoint_used_as_exact`,
+`confidence_penalty_applied`, and `published_ranking` are always false. All rows retain
+`DEFENSE_V1_FROZEN_PENDING_REVISION` and `TO_DATE_NO_PROJECTION`.

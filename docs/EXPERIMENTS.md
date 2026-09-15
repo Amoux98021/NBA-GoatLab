@@ -350,3 +350,22 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** none. This is a reconstruction, promotion, and policy-freeze step;
   player order is never evaluated.
 - **Fingerprint:** `3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f`.
+
+## STEP-0015L Overall uncertainty architecture
+
+- **Population:** 1,200 full-form validation careers, six historical mask patterns, and all 5,103
+  canonical players for status assignment.
+- **Architecture:** 2,500 paired Peak/Longevity U3 draws; fixed other dimensions; frozen Overall
+  weights; median paired-draw center; player-grouped calibrated intervals.
+- **Calibration:** mixed MAE/rho/bias 1.157/0.9957/+0.026; partial Presence
+  0.970/0.9961/+0.125; traditional 1.935/0.9901/-0.158. Traditional-only fails the >5-point gate.
+- **Dependence:** mean within-draw correlation is positive in every pattern. Independent marginal
+  recombination narrows 90% intervals and is rejected.
+- **Statuses:** all players 602 official, 1,280 provisional, zero interval-only, and 3,221
+  unavailable. V1 Top 100 transition is 16 official and 84 provisional without reordering.
+- **Ranking diagnostics:** mixed Top 10/25/50/100 overlap is 100/96/94/94%; no ranking is
+  published.
+- **Outcome:** `PASS + LIMITED_OVERALL_UNCERTAINTY_ARCHITECTURE`; next action is Defense revision
+  before a dedicated Overall promotion decision.
+- **Optimization target:** calibration only. No player identity, conventional rank, award outcome,
+  confidence penalty, or player-specific adjustment enters the architecture.

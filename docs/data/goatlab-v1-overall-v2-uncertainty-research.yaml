@@ -1,0 +1,36 @@
+methodology_version: goatlab-v1-overall-v2-uncertainty-research
+status: research_only
+upstream:
+  peak: goatlab-v1-peak-v2
+  longevity: goatlab-v1-longevity-v2-tiered
+weights:
+  peak: 0.17
+  longevity: 0.14
+  offense: 0.16
+  defense: 0.14
+  playoffs: 0.18
+  accolades: 0.10
+  winning: 0.11
+uncertainty:
+  modeled_dimensions: [peak, longevity]
+  pairing: same_u3_stratified_block_career_draw
+  draws: 2500
+  central_estimator: median_of_paired_overall_draws
+  other_dimensions: fixed
+  interval_levels: [0.80, 0.90, 0.95]
+  cross_player_dependence: conditionally_independent_given_current_calibration
+status_taxonomy:
+  - OFFICIAL_OVERALL_POINT
+  - PROVISIONAL_OVERALL_POINT
+  - OVERALL_INTERVAL_ONLY
+  - OVERALL_UNAVAILABLE
+prohibitions:
+  weight_renormalization: true
+  interval_midpoint_as_exact: true
+  confidence_penalty: true
+  missing_accolades_as_zero: true
+  player_specific_logic: true
+active_career_policy: TO_DATE_NO_PROJECTION
+defense_caveat: DEFENSE_V1_FROZEN_PENDING_REVISION
+overall_promoted: false
+new_top100_published: false

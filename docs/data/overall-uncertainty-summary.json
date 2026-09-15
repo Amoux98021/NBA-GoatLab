@@ -1,0 +1,145 @@
+{
+  "architecture_verdict": "LIMITED_OVERALL_UNCERTAINTY_ARCHITECTURE",
+  "audit_methodology_version": "goatlab-v1-overall-uncertainty-architecture-audit-v1",
+  "defense_caveat": "DEFENSE_V1_FROZEN_PENDING_REVISION",
+  "deterministic_rebuild_verified": true,
+  "network_requests": 0,
+  "new_top100_published": false,
+  "output_fingerprint": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+  "outputs": [
+    {
+      "path": "data/gold/overall_uncertainty_architecture_audit/masked-reference-overall-validation.parquet",
+      "rows": 7200,
+      "sha256": "d4f87c2a8ee362fa3deae45c3f2c7fd4a3491d1aed2c702b8e873b81d74fdb28",
+      "size_bytes": 1452887
+    },
+    {
+      "path": "data/gold/overall_uncertainty_architecture_audit/overall-uncertainty-research.parquet",
+      "rows": 5103,
+      "sha256": "1cab959fe59442cbb42960f34ea797773f7da0da48974cccc025f38b22c56948",
+      "size_bytes": 392502
+    },
+    {
+      "path": "data/gold/overall_uncertainty_architecture_audit/overall-rank-uncertainty.parquet",
+      "rows": 1882,
+      "sha256": "1c66bd19e4ae719154ce15ece0c3fffe2d1e492257838c74c0705bb23a2f5586",
+      "size_bytes": 76079
+    },
+    {
+      "path": "data/gold/overall_uncertainty_architecture_audit/v1-top100-eligibility-transition.parquet",
+      "rows": 100,
+      "sha256": "635d397d9859c6f20fa64aa8c14ae2fdf8f714ef16cc4e62b8a047d4262899ed",
+      "size_bytes": 6507
+    },
+    {
+      "path": "data/gold/overall_uncertainty_architecture_audit/policy-examples.parquet",
+      "rows": 19,
+      "sha256": "c1eae373ed95a6a0e951a661daf6fd2733f1e523ad6ef261f7f648ea0f868d36",
+      "size_bytes": 13855
+    },
+    {
+      "path": "data/gold/overall_uncertainty_architecture_audit/v1-diagnostic-comparison.parquet",
+      "rows": 1882,
+      "sha256": "d9ddfbf77e1591bd7bca8e807f5083c988fe854351c1a8d82643a5db34cecf3e",
+      "size_bytes": 121802
+    }
+  ],
+  "point_eligible_patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": true,
+    "FULL_REFERENCE": true,
+    "MIXED_PROVISIONAL_INTERVAL": true,
+    "NO_PRESENCE_CAREER": true,
+    "PARTIAL_PRESENCE_LATE": true,
+    "TRADITIONAL_CAREER": false
+  },
+  "recommendation": "READY_FOR_OVERALL_PROMOTION_AFTER_DEFENSE",
+  "reconstruction": {
+    "eligibility_rows": 5103,
+    "eligibility_status_mismatches": 0,
+    "longevity_rows": 5103,
+    "longevity_status_mismatches": 0,
+    "maximum_numerical_difference": 0.0,
+    "peak_rows": 5103,
+    "peak_status_mismatches": 0,
+    "step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "v1_dimension_hash": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4",
+    "v1_overall_hash": "ab9ae910754d82cb260eb3fe0c747c6b58351ce20510be9707f9b484525e9547",
+    "v1_top100_hash": "1a08c1f61f428b84a8599cfdfc0dcf62eec4e5976d6f6f22949bc3b02dc66d8f"
+  },
+  "report_hashes": {
+    "overall-joint-dependence.json": "1235d5cd208e6dab2c17afb1fc34760c1fcb72c00df9ba7d987fffe4d0a0ea3a",
+    "overall-pairwise-reliability.json": "cbc4dcb0b4116af00b1e5136f058037da26dcdf93ab3f2932d18f45ce9bdda98",
+    "overall-prohibited-baselines.json": "88d6995e586ad3d690272e7407ae451beed38400adbe5fb7148c941e97f09556",
+    "overall-rank-uncertainty.json": "b1800138a1a06b20d83440725b194e79f7a3d71e988a7375882f246a1d7a8db9",
+    "overall-status-summary.json": "eedde299f4ef99375926c08cd9c69e908dffc7076cc8b4a7f856c0dd00ec98eb",
+    "overall-topn-probability-calibration.json": "c424d54a45c8576c9f2b64c17394c3cbd58e532e033f31341223c94237370014",
+    "overall-uncertainty-reconstruction.json": "c72421bc1b8b973d641fff627d4e59bdf04175e650a7ef4038f2015680310971",
+    "overall-uncertainty-validation.json": "14f2e83b069c1dc47260f6864fcb8e484544db3b2d0464aaa84eddcc5f6f069f",
+    "overall-uncertainty-verdict.json": "8531d2f4a342010d27b26e7f9770e9b2c02046ba1d140bf05d7543491168eb8d",
+    "overall-v1-diagnostic-comparison.json": "70a68fd268741fca8f6f660e3d7168872732b168df8229fb6713bbd3e0148413",
+    "v1-top100-eligibility-transition.json": "ea5ba40eee6dd30f3298fbce546e502491dd38687afa836c38c9927ba25365e6"
+  },
+  "research_methodology_version": "goatlab-v1-overall-v2-uncertainty-research",
+  "run_at": "2026-09-16T02:00:00Z",
+  "runtime_seconds": 28.39985120901838,
+  "status_counts": {
+    "ALL_PLAYERS": {
+      "blocking_reason_counts_nonexclusive": {
+        "ACCOLADES_NOT_QUERIED": 2963,
+        "DEFENSE_UNAVAILABLE": 973,
+        "LONGEVITY_INTERVAL_ONLY": 2210,
+        "LONGEVITY_UNAVAILABLE": 917,
+        "OFFENSE_UNAVAILABLE": 916,
+        "PEAK_CONSTITUTIONALLY_INELIGIBLE": 2647,
+        "PEAK_INTERVAL_ONLY": 71,
+        "PLAYOFFS_INSUFFICIENT_SAMPLE": 2335,
+        "WINNING_UNAVAILABLE": 1
+      },
+      "population": 5103,
+      "status_counts": {
+        "OFFICIAL_OVERALL_POINT": 602,
+        "OVERALL_UNAVAILABLE": 3221,
+        "PROVISIONAL_OVERALL_POINT": 1280
+      }
+    },
+    "BROAD_HIGH_RECALL": {
+      "blocking_reason_counts_nonexclusive": {
+        "ACCOLADES_NOT_QUERIED": 536,
+        "DEFENSE_UNAVAILABLE": 1,
+        "LONGEVITY_INTERVAL_ONLY": 1539,
+        "PEAK_CONSTITUTIONALLY_INELIGIBLE": 200,
+        "PEAK_INTERVAL_ONLY": 71,
+        "PLAYOFFS_INSUFFICIENT_SAMPLE": 376
+      },
+      "population": 2656,
+      "status_counts": {
+        "OFFICIAL_OVERALL_POINT": 602,
+        "OVERALL_UNAVAILABLE": 774,
+        "PROVISIONAL_OVERALL_POINT": 1280
+      }
+    },
+    "V1_TOP_100": {
+      "blocking_reason_counts_nonexclusive": {
+        "LONGEVITY_INTERVAL_ONLY": 84
+      },
+      "population": 100,
+      "status_counts": {
+        "OFFICIAL_OVERALL_POINT": 16,
+        "PROVISIONAL_OVERALL_POINT": 84
+      }
+    }
+  },
+  "step": "STEP-0015L",
+  "step_status": "PASS",
+  "upstream_step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+  "validation_population": 1200,
+  "weights": {
+    "ACCOLADES": 0.1,
+    "DEFENSE": 0.14,
+    "LONGEVITY": 0.14,
+    "OFFENSE": 0.16,
+    "PEAK": 0.17,
+    "PLAYOFFS": 0.18,
+    "WINNING": 0.11
+  }
+}

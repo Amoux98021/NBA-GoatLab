@@ -1,0 +1,15 @@
+{
+  "all_v1_points_historically_archived": true,
+  "audit_methodology_version": "goatlab-v1-overall-uncertainty-architecture-audit-v1",
+  "defense_caveat": "DEFENSE_V1_FROZEN_PENDING_REVISION",
+  "new_top100_published": false,
+  "population": 100,
+  "research_methodology_version": "goatlab-v1-overall-v2-uncertainty-research",
+  "status_counts": {
+    "OFFICIAL_OVERALL_POINT": 16,
+    "PROVISIONAL_OVERALL_POINT": 84
+  },
+  "step": "STEP-0015L",
+  "upstream_step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+  "v1_order_preserved": true
+}

@@ -1,0 +1,21 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-uncertainty-architecture-audit-v1",
+  "bias": 0.006355996196617964,
+  "defense_caveat": "DEFENSE_V1_FROZEN_PENDING_REVISION",
+  "gt_10": 0.052072263549415514,
+  "gt_2": 0.5228480340063762,
+  "gt_5": 0.22369819341126462,
+  "mae": 3.223627979491565,
+  "mean_longevity_contribution_change": -0.04640553484192596,
+  "mean_peak_contribution_change": 0.04929117310310349,
+  "n": 1882,
+  "new_top100_published": false,
+  "pearson": 0.9756884354630845,
+  "population": 1882,
+  "rank_difference_is_diagnostic_only": true,
+  "research_methodology_version": "goatlab-v1-overall-v2-uncertainty-research",
+  "rmse": 4.517015989132219,
+  "spearman": 0.9729851193849891,
+  "step": "STEP-0015L",
+  "upstream_step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f"
+}

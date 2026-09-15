@@ -1,0 +1,221 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-uncertainty-architecture-audit-v1",
+  "defense_caveat": "DEFENSE_V1_FROZEN_PENDING_REVISION",
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "central_error_correlation": 0.48822891013806125,
+      "independent_centered_coverage": {
+        "80": 0.7591666666666667,
+        "90": 0.8383333333333334,
+        "95": 0.885
+      },
+      "independent_mean_width": {
+        "80": 4.393673233517205,
+        "90": 5.604773394405043,
+        "95": 6.623550178946678
+      },
+      "joint_mean_width": {
+        "80": 5.279102672708169,
+        "90": 6.700930079458891,
+        "95": 7.870639603033886
+      },
+      "maximum_analytic_empirical_variance_difference": 8.881784197001252e-15,
+      "mean_covariance_contribution": 2.146330323529204,
+      "mean_longevity_variance_contribution": 2.1991668585045017,
+      "mean_peak_variance_contribution": 1.4857229277057478,
+      "mean_within_draw_correlation": 0.6094493695173909
+    },
+    "FULL_REFERENCE": {
+      "central_error_correlation": 0.11171286842997634,
+      "independent_centered_coverage": {
+        "80": 0.9958333333333333,
+        "90": 0.9958333333333333,
+        "95": 0.9966666666666667
+      },
+      "independent_mean_width": {
+        "80": 1.665296394799054,
+        "90": 2.122904583661676,
+        "95": 2.5074904780667193
+      },
+      "joint_mean_width": {
+        "80": 1.8806312056737595,
+        "90": 2.3895709219858157,
+        "95": 2.8205048184265826
+      },
+      "maximum_analytic_empirical_variance_difference": 3.552713678800501e-15,
+      "mean_covariance_contribution": 0.2585311721322086,
+      "mean_longevity_variance_contribution": 0.5626405748945452,
+      "mean_peak_variance_contribution": 0.19153140698355697,
+      "mean_within_draw_correlation": 0.5679838062526548
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "central_error_correlation": 0.4344968824561062,
+      "independent_centered_coverage": {
+        "80": 0.7741666666666667,
+        "90": 0.8566666666666667,
+        "95": 0.8975
+      },
+      "independent_mean_width": {
+        "80": 3.2354687746256894,
+        "90": 4.11637616561597,
+        "95": 4.874367349619123
+      },
+      "joint_mean_width": {
+        "80": 3.8002896966115056,
+        "90": 4.827712503283425,
+        "95": 5.710105988967692
+      },
+      "maximum_analytic_empirical_variance_difference": 7.105427357601002e-15,
+      "mean_covariance_contribution": 1.1306561657868146,
+      "mean_longevity_variance_contribution": 1.411511782779628,
+      "mean_peak_variance_contribution": 0.7796358142286245,
+      "mean_within_draw_correlation": 0.5857506007161984
+    },
+    "NO_PRESENCE_CAREER": {
+      "central_error_correlation": 0.4469192034107562,
+      "independent_centered_coverage": {
+        "80": 0.7766666666666666,
+        "90": 0.8541666666666666,
+        "95": 0.8875
+      },
+      "independent_mean_width": {
+        "80": 3.8300582151300233,
+        "90": 4.869201191883372,
+        "95": 5.751332364722879
+      },
+      "joint_mean_width": {
+        "80": 4.525194411610192,
+        "90": 5.735137460598896,
+        "95": 6.759788457118467
+      },
+      "maximum_analytic_empirical_variance_difference": 7.105427357601002e-15,
+      "mean_covariance_contribution": 1.5260853936018182,
+      "mean_longevity_variance_contribution": 1.781375508664635,
+      "mean_peak_variance_contribution": 1.0993775735613192,
+      "mean_within_draw_correlation": 0.6163357036946193
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "central_error_correlation": 0.43721200633575164,
+      "independent_centered_coverage": {
+        "80": 0.7733333333333333,
+        "90": 0.8458333333333333,
+        "95": 0.8991666666666667
+      },
+      "independent_mean_width": {
+        "80": 2.7424292750197004,
+        "90": 3.489290550302075,
+        "95": 4.126736119319674
+      },
+      "joint_mean_width": {
+        "80": 3.174382420541108,
+        "90": 4.035964276333069,
+        "95": 4.758938501444708
+      },
+      "maximum_analytic_empirical_variance_difference": 7.105427357601002e-15,
+      "mean_covariance_contribution": 0.831664666142388,
+      "mean_longevity_variance_contribution": 1.2056187474878208,
+      "mean_peak_variance_contribution": 0.5737862589899365,
+      "mean_within_draw_correlation": 0.5495562229727451
+    },
+    "TRADITIONAL_CAREER": {
+      "central_error_correlation": 0.5288495227286951,
+      "independent_centered_coverage": {
+        "80": 0.745,
+        "90": 0.8233333333333334,
+        "95": 0.8766666666666667
+      },
+      "independent_mean_width": {
+        "80": 5.116362555818229,
+        "90": 6.550659623719463,
+        "95": 7.7878169244155515
+      },
+      "joint_mean_width": {
+        "80": 6.235369845022327,
+        "90": 7.953264709745205,
+        "95": 9.414966180719729
+      },
+      "maximum_analytic_empirical_variance_difference": 1.0658141036401503e-14,
+      "mean_covariance_contribution": 3.1154109272371775,
+      "mean_longevity_variance_contribution": 2.7297993299919776,
+      "mean_peak_variance_contribution": 2.123369333803283,
+      "mean_within_draw_correlation": 0.6470647119400725
+    }
+  },
+  "research_methodology_version": "goatlab-v1-overall-v2-uncertainty-research",
+  "step": "STEP-0015L",
+  "stratified": {
+    "career_length": {
+      "LONG_15_PLUS": {
+        "central_error_correlation": 0.39454998227793003,
+        "mean_covariance_contribution": 1.178551523310707,
+        "mean_within_draw_correlation": 0.6274432005887319,
+        "n": 222
+      },
+      "MEDIUM_8_TO_14": {
+        "central_error_correlation": 0.521282014901205,
+        "mean_covariance_contribution": 1.7798831844553349,
+        "mean_within_draw_correlation": 0.6238117758492174,
+        "n": 4062
+      },
+      "SHORT_3_TO_7": {
+        "central_error_correlation": 0.41362850782923216,
+        "mean_covariance_contribution": 1.1381654474221488,
+        "mean_within_draw_correlation": 0.5452767206898269,
+        "n": 2916
+      }
+    },
+    "role": {
+      "BIG": {
+        "central_error_correlation": 0.44232239753809527,
+        "mean_covariance_contribution": 1.0097127507742323,
+        "mean_within_draw_correlation": 0.5447587415479542,
+        "n": 1452
+      },
+      "FORWARD": {
+        "central_error_correlation": 0.49491588946743204,
+        "mean_covariance_contribution": 1.5676562631790605,
+        "mean_within_draw_correlation": 0.5960743548366412,
+        "n": 1530
+      },
+      "GUARD": {
+        "central_error_correlation": 0.5147659520144778,
+        "mean_covariance_contribution": 1.5020300796492214,
+        "mean_within_draw_correlation": 0.6135315542880686,
+        "n": 1926
+      },
+      "UNKNOWN": {
+        "central_error_correlation": 0.48030757480758485,
+        "mean_covariance_contribution": 1.9114856311982553,
+        "mean_within_draw_correlation": 0.6318800861039828,
+        "n": 1668
+      },
+      "WING": {
+        "central_error_correlation": 0.3917230937138827,
+        "mean_covariance_contribution": 1.3854638062248321,
+        "mean_within_draw_correlation": 0.5762180271084868,
+        "n": 624
+      }
+    },
+    "score_band": {
+      "BELOW_60": {
+        "central_error_correlation": 0.40818591929008,
+        "mean_covariance_contribution": 1.248315363677203,
+        "mean_within_draw_correlation": 0.5173925814828442,
+        "n": 4446
+      },
+      "SCORE_60_TO_80": {
+        "central_error_correlation": 0.623326179132404,
+        "mean_covariance_contribution": 2.5761453509721273,
+        "mean_within_draw_correlation": 0.7054336407089776,
+        "n": 1662
+      },
+      "SCORE_80_PLUS": {
+        "central_error_correlation": 0.7245144137711279,
+        "mean_covariance_contribution": 0.8963834229771174,
+        "mean_within_draw_correlation": 0.6234635026724076,
+        "n": 1092
+      }
+    }
+  },
+  "upstream_step_0015k_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f"
+}
