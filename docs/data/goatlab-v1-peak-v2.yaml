@@ -1,0 +1,20 @@
+methodology_version: goatlab-v1-peak-v2
+status: promoted_with_limitations
+upstream_contract: goatlab-v1-tiered-player-season-value-input-v1
+formula:
+  best_contiguous_three_year_weight: 0.70
+  single_season_apex_weight: 0.30
+uncertainty:
+  method: U3_STRATIFIED_BLOCK
+  deterministic_draws: 2500
+  window_reselected_each_draw: true
+scale:
+  type: fixed_midrank_ecdf
+  reference_population: BROAD_HIGH_RECALL
+career_policy: TO_DATE_NO_PROJECTION
+point_statuses:
+  - OFFICIAL_PEAK_POINT
+  - PROVISIONAL_PEAK_POINT
+non_point_statuses:
+  - PEAK_INTERVAL_ONLY
+  - PEAK_UNAVAILABLE

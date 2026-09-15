@@ -339,3 +339,23 @@ This living summary may be extended, but methodology changes must also receive a
 - No non-full pattern passes all ranking-grade point gates. Research statuses remain 1,976
   official-form, 2,210 interval-only, and 917 unavailable; no provisional point is manufactured.
 - Result: `PASS + LONGEVITY_AGGREGATION_LIMITED`. No official Longevity methodology is created.
+
+## Peak V2 promotion and tiered Longevity policy
+
+- `goatlab-v1-tiered-player-season-value-input-v1` freezes the season contract consumed by both
+  dimensions: raw Candidate D, an eligible linked point, nested intervals, evidence regime,
+  confidence, Presence reliability, observed/missing channels, and reason codes remain separate.
+- `goatlab-v1-peak-v2` is the promoted Peak successor. It preserves the 70/30 three-year/apex
+  architecture, uses 2,500 deterministic `U3_STRATIFIED_BLOCK` career draws, reselects the Peak
+  window within every draw, and transforms draws through one fixed `BROAD_HIGH_RECALL` ECDF.
+- Peak output is tiered. Reference, mixed, and partial-Presence aggregate patterns may receive
+  ranking-grade points; weak traditional/no-Presence patterns remain interval-only. A player with
+  fewer than three qualifying seasons is constitutionally ineligible, not measurement-missing.
+- `goatlab-v1-longevity-v2-tiered` freezes P80/P90 and the 35/40/25 breadth/area/run philosophy.
+  Only reference-grade evidence currently receives an official point. A central estimate retained
+  for `LONGEVITY_INTERVAL_ONLY` is diagnostic and cannot be consumed as an official point.
+- An interval is not a lower score, and confidence never penalizes quality. Active careers are
+  accomplishments through 2025-26 only.
+- Overall V1 remains frozen. A required interval/unavailable dimension cannot be dropped, have its
+  weight redistributed, or be replaced by a midpoint. STEP-0015K performs eligibility only and
+  creates no Overall score or rank.

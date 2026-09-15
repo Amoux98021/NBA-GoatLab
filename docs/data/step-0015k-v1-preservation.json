@@ -1,0 +1,24 @@
+{
+  "all_unchanged": true,
+  "audit_methodology_version": "goatlab-v1-peak-promotion-longevity-policy-freeze-v1",
+  "expected_hashes": {
+    "dimensions_v1": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4",
+    "overall_v1": "ab9ae910754d82cb260eb3fe0c747c6b58351ce20510be9707f9b484525e9547",
+    "top100_v1": "1a08c1f61f428b84a8599cfdfc0dcf62eec4e5976d6f6f22949bc3b02dc66d8f"
+  },
+  "longevity_policy_version": "goatlab-v1-longevity-v2-tiered",
+  "new_overall_score_created": false,
+  "peak_methodology_version": "goatlab-v1-peak-v2",
+  "post_build_hashes": {
+    "dimensions_v1": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4",
+    "overall_v1": "ab9ae910754d82cb260eb3fe0c747c6b58351ce20510be9707f9b484525e9547",
+    "top100_v1": "1a08c1f61f428b84a8599cfdfc0dcf62eec4e5976d6f6f22949bc3b02dc66d8f"
+  },
+  "season_contract_version": "goatlab-v1-tiered-player-season-value-input-v1",
+  "step": "STEP-0015K",
+  "upstream_fingerprints": {
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "step_0015j": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c"
+  }
+}

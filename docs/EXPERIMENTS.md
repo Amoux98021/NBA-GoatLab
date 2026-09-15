@@ -330,3 +330,23 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Outcome:** `PASS + LONGEVITY_AGGREGATION_LIMITED`; Peak regression difference is zero.
 - **Optimization target:** calibration gates only. No player identity, reputation, award,
   championship, postseason, or external ranking is used.
+
+## STEP-0015K Peak promotion and Longevity policy freeze
+
+- **Objective:** consolidate validated season and career uncertainty research into durable Peak,
+  Longevity, and Overall eligibility contracts without another methodology search.
+- **Inputs:** STEP-0015H/I/J fingerprints `4b1ff850...`, `4f44cf63...`, and `15dd0713...`.
+- **Peak decision:** promote `goatlab-v1-peak-v2` with limitations. Mixed and partial-Presence
+  validation retain MAE/rho 3.93/0.9842 and 3.10/0.9891; traditional-only evidence remains
+  interval-only.
+- **Peak coverage:** 974 official points, 1,411 provisional points, 71 interval-only, and 2,647
+  unavailable. The unavailable population is fully explained by insufficient qualifying career
+  length (2,529) or absence of a complete contiguous window (118), not measurement loss.
+- **Longevity decision:** freeze `goatlab-v1-longevity-v2-tiered`; retain 1,976 official points,
+  2,210 interval-only, and 917 unavailable, with no manufactured provisional points.
+- **Overall audit:** 641 players have seven ranking-grade point dimensions, 1,241 include an
+  interval-only required dimension, and 3,221 lack a required dimension. No score or rank is
+  computed and no weight is redistributed.
+- **Optimization target:** none. This is a reconstruction, promotion, and policy-freeze step;
+  player order is never evaluated.
+- **Fingerprint:** `3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f`.

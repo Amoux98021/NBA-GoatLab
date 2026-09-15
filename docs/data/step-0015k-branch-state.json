@@ -1,0 +1,17 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-promotion-longevity-policy-freeze-v1",
+  "defense": "V1 attribution flaw documented; V2 remains unpromoted research",
+  "longevity": "35/40/25 philosophy retained with frozen tiered interval policy",
+  "longevity_policy_version": "goatlab-v1-longevity-v2-tiered",
+  "overall": "V1 unchanged; uncertainty-aware Overall remains future research",
+  "peak": "V2 promoted with interval-only limitations",
+  "peak_methodology_version": "goatlab-v1-peak-v2",
+  "player_season_value": "tiered measurement contract accepted for downstream use; standalone universal point methodology remains limited",
+  "season_contract_version": "goatlab-v1-tiered-player-season-value-input-v1",
+  "step": "STEP-0015K",
+  "upstream_fingerprints": {
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "step_0015j": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-promotion-longevity-policy-freeze-v1",
+  "longevity_policy_version": "goatlab-v1-longevity-v2-tiered",
+  "peak_methodology_version": "goatlab-v1-peak-v2",
+  "season_contract_version": "goatlab-v1-tiered-player-season-value-input-v1",
+  "step": "STEP-0015K",
+  "step_0015h": {
+    "expected_rows": 22457,
+    "fingerprint": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "maximum_numerical_difference": 0.0,
+    "rows": 22457,
+    "score_status_interval_mismatches": 0,
+    "source_hash": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4"
+  },
+  "step_0015i_peak": {
+    "fields_checked": [
+      "peak_central",
+      "peak_lower_80",
+      "peak_upper_80",
+      "peak_lower_90",
+      "peak_upper_90",
+      "peak_lower_95",
+      "peak_upper_95",
+      "peak_status",
+      "best_supported_window",
+      "best_window_probability",
+      "window_status"
+    ],
+    "fingerprint": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "maximum_numerical_difference": 0.0,
+    "mismatches": 0,
+    "source_hash": "77b19ada90ba9d6163aaaaeccf341355d5ef9af12f5af04c6902ae7dbe569ea2",
+    "source_rows": 5103,
+    "successor_rows": 5103
+  },
+  "step_0015j_longevity": {
+    "fields_checked": [
+      "longevity_central",
+      "longevity_lower_80",
+      "longevity_upper_80",
+      "longevity_lower_90",
+      "longevity_upper_90",
+      "longevity_lower_95",
+      "longevity_upper_95",
+      "longevity_status",
+      "expected_elite_breadth",
+      "expected_capped_area",
+      "expected_longest_run"
+    ],
+    "fingerprint": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c",
+    "maximum_numerical_difference": 0.0,
+    "mismatches": 0,
+    "source_hash": "d5ea0a7edb019b1e375393433df96596cf602d5b29408de4123c838345c300e6",
+    "source_rows": 5103,
+    "successor_rows": 5103
+  },
+  "upstream_fingerprints": {
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "step_0015j": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c"
+  }
+}

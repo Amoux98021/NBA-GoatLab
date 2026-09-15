@@ -422,3 +422,23 @@ changes score or status by itself. `longevity_central` is the median of complete
 Research-2 intervals are player-grouped aggregate conformal intervals by evidence pattern; score
 quality and uncertainty remain separate. P80/P90, 35/40/25, active-career cutoff, and fixed ECDF
 references are unchanged.
+
+## Gold Peak V2 and tiered Longevity policy outputs
+
+Generated STEP-0015K outputs remain ignored under `data/gold/peak_longevity_policy_freeze/`.
+Committed JSON/YAML reports define the durable contracts.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `season-measurement-contract` | player × Regular Season | Frozen tiered PlayerSeasonValue input: raw/linked evidence, nested intervals, status, regime, confidence, channels, Presence reliability, and reasons. |
+| `peak-v2` | canonical player | Promoted 70/30 Peak central/interval output, probabilistic windows, status, coverage class, and nullable ranking-grade point. |
+| `longevity-v2-tiered` | canonical player | Frozen 35/40/25 diagnostic/interval output, component expectations, status, reasons, and nullable official point. |
+| `overall-eligibility` | canonical player | Seven-dimension point/interval/unavailable classification only; contains no Overall score or rank. |
+| `policy-examples` | predetermined historical/modern player | Human-readable Peak, Longevity, and Overall eligibility examples after policy freeze. |
+
+`ranking_grade_peak_point` is populated only for `OFFICIAL_PEAK_POINT` and
+`PROVISIONAL_PEAK_POINT`. `ranking_grade_longevity_point` is populated only for
+`OFFICIAL_LONGEVITY_POINT`; an interval center is never substituted. `peak_coverage_class`
+distinguishes insufficient career/window support from measurement unavailability. Overall
+eligibility is `COMPLETE_POINT_DIMENSIONS`, `INTERVAL_DIMENSION_PRESENT`, or
+`REQUIRED_DIMENSION_UNAVAILABLE`; the artifact performs no scoring and no weight renormalization.

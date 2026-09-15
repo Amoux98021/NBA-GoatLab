@@ -1,0 +1,28 @@
+{
+  "architecture": {
+    "active_career_policy": "TO_DATE_NO_PROJECTION",
+    "capped_area_weight": 0.4,
+    "elite_breadth_weight": 0.35,
+    "longest_run_weight": 0.25,
+    "p80": 80.0,
+    "p90": 90.0
+  },
+  "audit_methodology_version": "goatlab-v1-peak-promotion-longevity-policy-freeze-v1",
+  "interval_midpoint_official": false,
+  "longevity_policy_version": "goatlab-v1-longevity-v2-tiered",
+  "peak_methodology_version": "goatlab-v1-peak-v2",
+  "policy_verdict": "FREEZE_LONGEVITY_TIERED_POLICY",
+  "ranking_grade_points": 1976,
+  "season_contract_version": "goatlab-v1-tiered-player-season-value-input-v1",
+  "status_counts": {
+    "LONGEVITY_INTERVAL_ONLY": 2210,
+    "LONGEVITY_UNAVAILABLE": 917,
+    "OFFICIAL_LONGEVITY_POINT": 1976
+  },
+  "step": "STEP-0015K",
+  "upstream_fingerprints": {
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "step_0015j": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c"
+  }
+}

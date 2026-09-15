@@ -1,0 +1,26 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-promotion-longevity-policy-freeze-v1",
+  "coverage_reason_counts": {
+    "CONSTITUTIONALLY_INELIGIBLE_FEWER_THAN_THREE_QUALIFIED_SEASONS": 2529,
+    "CONSTITUTIONALLY_INELIGIBLE_NO_CONTIGUOUS_QUALIFYING_WINDOW": 118,
+    "INTERVAL_ONLY": 71,
+    "OFFICIAL_POINT": 974,
+    "PROVISIONAL_POINT": 1411
+  },
+  "longevity_policy_version": "goatlab-v1-longevity-v2-tiered",
+  "peak_methodology_version": "goatlab-v1-peak-v2",
+  "ranking_grade_points": 2385,
+  "season_contract_version": "goatlab-v1-tiered-player-season-value-input-v1",
+  "status_counts": {
+    "OFFICIAL_PEAK_POINT": 974,
+    "PEAK_INTERVAL_ONLY": 71,
+    "PEAK_UNAVAILABLE": 2647,
+    "PROVISIONAL_PEAK_POINT": 1411
+  },
+  "step": "STEP-0015K",
+  "upstream_fingerprints": {
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "step_0015j": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c"
+  }
+}

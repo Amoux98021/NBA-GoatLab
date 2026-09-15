@@ -1,0 +1,30 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-promotion-longevity-policy-freeze-v1",
+  "blocking_dimension_counts_nonexclusive": {
+    "ACCOLADES": 2963,
+    "DEFENSE": 973,
+    "LONGEVITY": 2158,
+    "OFFENSE": 916,
+    "PEAK": 2686,
+    "PLAYOFFS": 2335,
+    "WINNING": 1
+  },
+  "interval_midpoint_as_official_allowed": false,
+  "longevity_policy_version": "goatlab-v1-longevity-v2-tiered",
+  "overall_score_created": false,
+  "overall_verdict": "OVERALL_REMAINS_FROZEN",
+  "peak_methodology_version": "goatlab-v1-peak-v2",
+  "season_contract_version": "goatlab-v1-tiered-player-season-value-input-v1",
+  "status_counts": {
+    "COMPLETE_POINT_DIMENSIONS": 641,
+    "INTERVAL_DIMENSION_PRESENT": 1241,
+    "REQUIRED_DIMENSION_UNAVAILABLE": 3221
+  },
+  "step": "STEP-0015K",
+  "upstream_fingerprints": {
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "step_0015j": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c"
+  },
+  "weight_redistribution_allowed": false
+}

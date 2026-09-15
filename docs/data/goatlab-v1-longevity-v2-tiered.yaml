@@ -1,0 +1,20 @@
+methodology_version: goatlab-v1-longevity-v2-tiered
+status: policy_frozen
+upstream_contract: goatlab-v1-tiered-player-season-value-input-v1
+formula:
+  elite_breadth_weight: 0.35
+  capped_p80_p90_area_weight: 0.40
+  longest_p80_run_weight: 0.25
+thresholds:
+  p80: 80
+  p90: 90
+career_policy: TO_DATE_NO_PROJECTION
+official_point_statuses:
+  - OFFICIAL_LONGEVITY_POINT
+non_official_statuses:
+  - LONGEVITY_INTERVAL_ONLY
+  - LONGEVITY_UNAVAILABLE
+rules:
+  provisional_requires_aggregate_gate: true
+  interval_midpoint_is_official: false
+  downstream_weight_renormalization: false

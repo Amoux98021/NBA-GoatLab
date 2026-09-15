@@ -116,3 +116,22 @@ This machine-facing Constitution distills the binding rules in the audited human
 ## Overall methodology boundary
 
 STEP-0014 may audit correlations, PCA/factors, residual variance, and random-simplex overall-weight sensitivity. Those diagnostics are not an official GOAT ranking and do not select default Overall weights. STEP-0015 must use the finalized seven scores to audit effective influence and choose any default Overall methodology.
+
+## STEP-0015K measurement-policy clarification
+
+This section clarifies how the existing philosophy is implemented after the STEP-0015 forensic
+audits; it does not change the definitions of Peak or Longevity.
+
+- Peak uses uncertainty-aware tiered player-season measurement. Its constitutional formula remains
+  70% best contiguous three-year quality plus 30% single-season apex. The best window and apex are
+  reselected inside correlated career simulations, and point availability depends on validated
+  aggregate calibration.
+- Longevity retains 35% elite-season breadth at P80, 40% capped P80-P90 area, and 25% longest P80
+  run. When evidence cannot support comparable rank-grade precision, Longevity is interval-only.
+- A range is not a lower score. Confidence and uncertainty describe evidence precision and never
+  penalize quality.
+- An interval midpoint is not an official dimension point. An interval-only or unavailable
+  required dimension may not be dropped or cause silent Overall weight renormalization.
+- `goatlab-v1-overall-v1` remains the frozen historical baseline until a distinct
+  uncertainty-aware Overall methodology is validated and explicitly versioned.
+- Active careers remain `TO_DATE_NO_PROJECTION` through the frozen 2025-26 cutoff.

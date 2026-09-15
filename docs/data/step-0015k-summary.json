@@ -1,0 +1,154 @@
+{
+  "audit_methodology_version": "goatlab-v1-peak-promotion-longevity-policy-freeze-v1",
+  "deterministic_rebuild_verified": true,
+  "longevity_policy_version": "goatlab-v1-longevity-v2-tiered",
+  "longevity_status_counts": {
+    "LONGEVITY_INTERVAL_ONLY": 2210,
+    "LONGEVITY_UNAVAILABLE": 917,
+    "OFFICIAL_LONGEVITY_POINT": 1976
+  },
+  "longevity_verdict": "FREEZE_LONGEVITY_TIERED_POLICY",
+  "network_requests": 0,
+  "output_fingerprint": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+  "outputs": [
+    {
+      "path": "data/gold/peak_longevity_policy_freeze/season-measurement-contract.parquet",
+      "rows": 22457,
+      "sha256": "b4190fa29df53f6e796e6d8e104e6bd63bf237f332af739ca4be3b6ff70fbb76",
+      "size_bytes": 1719792
+    },
+    {
+      "path": "data/gold/peak_longevity_policy_freeze/peak-v2.parquet",
+      "rows": 5103,
+      "sha256": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+      "size_bytes": 287501
+    },
+    {
+      "path": "data/gold/peak_longevity_policy_freeze/longevity-v2-tiered.parquet",
+      "rows": 5103,
+      "sha256": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+      "size_bytes": 257357
+    },
+    {
+      "path": "data/gold/peak_longevity_policy_freeze/overall-eligibility.parquet",
+      "rows": 5103,
+      "sha256": "41debd08a3b703325f3b13bfa43a6265f05542100b12d5a2d0b10189063c9230",
+      "size_bytes": 170252
+    },
+    {
+      "path": "data/gold/peak_longevity_policy_freeze/policy-examples.parquet",
+      "rows": 17,
+      "sha256": "8faa9b6b26716d96b4417c271b3980f48f9bf2823313e30f8a2ffe10e3b18eee",
+      "size_bytes": 6500
+    }
+  ],
+  "overall_eligibility_counts": {
+    "COMPLETE_POINT_DIMENSIONS": 641,
+    "INTERVAL_DIMENSION_PRESENT": 1241,
+    "REQUIRED_DIMENSION_UNAVAILABLE": 3221
+  },
+  "overall_verdict": "OVERALL_REMAINS_FROZEN",
+  "peak_coverage_reason_counts": {
+    "CONSTITUTIONALLY_INELIGIBLE_FEWER_THAN_THREE_QUALIFIED_SEASONS": 2529,
+    "CONSTITUTIONALLY_INELIGIBLE_NO_CONTIGUOUS_QUALIFYING_WINDOW": 118,
+    "INTERVAL_ONLY": 71,
+    "OFFICIAL_POINT": 974,
+    "PROVISIONAL_POINT": 1411
+  },
+  "peak_methodology_version": "goatlab-v1-peak-v2",
+  "peak_status_counts": {
+    "OFFICIAL_PEAK_POINT": 974,
+    "PEAK_INTERVAL_ONLY": 71,
+    "PEAK_UNAVAILABLE": 2647,
+    "PROVISIONAL_PEAK_POINT": 1411
+  },
+  "peak_verdict": "PROMOTE_PEAK_V2_WITH_LIMITATIONS",
+  "recommendation": "READY_FOR_OVERALL_UNCERTAINTY_ARCHITECTURE_AUDIT",
+  "reconstruction": {
+    "step_0015h": {
+      "expected_rows": 22457,
+      "fingerprint": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+      "maximum_numerical_difference": 0.0,
+      "rows": 22457,
+      "score_status_interval_mismatches": 0,
+      "source_hash": "2908de32b614b96e405630334e07aeb262d690536c0c33fc7fe77b6f51ff6dc4"
+    },
+    "step_0015i_peak": {
+      "fields_checked": [
+        "peak_central",
+        "peak_lower_80",
+        "peak_upper_80",
+        "peak_lower_90",
+        "peak_upper_90",
+        "peak_lower_95",
+        "peak_upper_95",
+        "peak_status",
+        "best_supported_window",
+        "best_window_probability",
+        "window_status"
+      ],
+      "fingerprint": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+      "maximum_numerical_difference": 0.0,
+      "mismatches": 0,
+      "source_hash": "77b19ada90ba9d6163aaaaeccf341355d5ef9af12f5af04c6902ae7dbe569ea2",
+      "source_rows": 5103,
+      "successor_rows": 5103
+    },
+    "step_0015j_longevity": {
+      "fields_checked": [
+        "longevity_central",
+        "longevity_lower_80",
+        "longevity_upper_80",
+        "longevity_lower_90",
+        "longevity_upper_90",
+        "longevity_lower_95",
+        "longevity_upper_95",
+        "longevity_status",
+        "expected_elite_breadth",
+        "expected_capped_area",
+        "expected_longest_run"
+      ],
+      "fingerprint": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c",
+      "maximum_numerical_difference": 0.0,
+      "mismatches": 0,
+      "source_hash": "d5ea0a7edb019b1e375393433df96596cf602d5b29408de4123c838345c300e6",
+      "source_rows": 5103,
+      "successor_rows": 5103
+    }
+  },
+  "report_hashes": {
+    "longevity-v2-status-summary.json": "bddca625861005b77314300e722bf8f204e8f0c3f166adf638c4f2b705c1a4d7",
+    "overall-v2-eligibility-audit.json": "e5a30030c9220672f3854a895aab25edff46c5970834c4976c916d1872b6b79c",
+    "peak-longevity-policy-examples.json": "3a007643ff083b141207976bcff86057a9a24053e7940378ebea9df61b5f365d",
+    "peak-v2-promotion-validation.json": "a62520e66ef1d2799596a0057a825131c68f4d7e1d2403ceea3a1a662fcab3e9",
+    "peak-v2-status-summary.json": "02a3bf359738d0249ad4766f72e03324bb0450de117c483099c1f236b72dcae6",
+    "step-0015k-branch-state.json": "1aaed85812a0172f40d85a2da73b3c83994e9f0a11db46825a68307766ac54d8",
+    "step-0015k-upstream-reconstruction.json": "52a1d61d3c8752e5097cef0acd0e6147f3b250ef9f8888b2a5446ef3a5d6b723",
+    "step-0015k-v1-preservation.json": "bf3717d1b1171d71985d52348eff8364c31c6584e6b27c41f9995cf209959cd1",
+    "step-0015k-verdict.json": "a0559adfd822ce289b5932994569423d32d73234945771511d1ac158f3306e6f"
+  },
+  "run_at": "2026-09-15T23:45:00Z",
+  "runtime_seconds": 0.6370613749604672,
+  "season_contract_version": "goatlab-v1-tiered-player-season-value-input-v1",
+  "step": "STEP-0015K",
+  "step_status": "PASS",
+  "upstream_fingerprints": {
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015i": "4f44cf63450105d8c215aa20a0b3078dc8b9b5c907f2f03553eff390195a150a",
+    "step_0015j": "15dd0713f3629e0e4a39b0ac718061053e08054ff49f498fe284e3cce83b1c9c"
+  },
+  "v1_preservation": {
+    "all_unchanged": true,
+    "expected_hashes": {
+      "dimensions_v1": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4",
+      "overall_v1": "ab9ae910754d82cb260eb3fe0c747c6b58351ce20510be9707f9b484525e9547",
+      "top100_v1": "1a08c1f61f428b84a8599cfdfc0dcf62eec4e5976d6f6f22949bc3b02dc66d8f"
+    },
+    "new_overall_score_created": false,
+    "post_build_hashes": {
+      "dimensions_v1": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4",
+      "overall_v1": "ab9ae910754d82cb260eb3fe0c747c6b58351ce20510be9707f9b484525e9547",
+      "top100_v1": "1a08c1f61f428b84a8599cfdfc0dcf62eec4e5976d6f6f22949bc3b02dc66d8f"
+    }
+  }
+}
