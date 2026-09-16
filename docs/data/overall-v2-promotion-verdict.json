@@ -1,0 +1,26 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-v2-promotion-audit-v1",
+  "overall_methodology_version": "goatlab-v1-overall-v2-tiered",
+  "promotion_gates": {
+    "deterministic_status_rules": true,
+    "fixed_weights_sum_to_one": true,
+    "marginals_preserved": true,
+    "no_confidence_penalty": true,
+    "no_weight_renormalization": true,
+    "peak_longevity_pairing_exact": true,
+    "ranking_population_not_structurally_truncated": false,
+    "selected_patterns_support_points": true,
+    "upstream_exact": true,
+    "v1_preserved": true
+  },
+  "promotion_verdict": "DO_NOT_PROMOTE_OVERALL_V2",
+  "recommendation": "OVERALL_ELIGIBILITY_POLICY_REQUIRES_REVIEW",
+  "step": "STEP-0015N",
+  "step_status": "PASS",
+  "top100_generated": false,
+  "upstream_fingerprints": {
+    "step_0015k": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7"
+  }
+}

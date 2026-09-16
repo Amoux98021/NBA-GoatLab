@@ -1,0 +1,25 @@
+methodology_version: goatlab-v1-overall-v2-tiered
+status: not_promoted
+audit_version: goatlab-v1-overall-v2-promotion-audit-v1
+weights:
+  peak: 0.17
+  longevity: 0.14
+  offense: 0.16
+  defense: 0.14
+  playoffs: 0.18
+  accolades: 0.10
+  winning: 0.11
+uncertainty:
+  peak_longevity_pairing: exact_u3_stratified_block
+  defense_coupling: pattern_specific_gaussian_copula_rank_alignment
+  draws: 2500
+  central_estimator: median_of_overall_draws
+  marginal_preservation: required
+forbidden:
+  weight_renormalization: true
+  interval_midpoint_as_exact: true
+  confidence_penalty: true
+  independent_defense_production_fallback: true
+promotion_blocker: >-
+  Mixed evidence fails the frozen MAE gate, leaving 83 archived V1 Top-100 players interval-only
+  and making the deterministic point-ranked population structurally incomplete.

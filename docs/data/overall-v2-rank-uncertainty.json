@@ -1,0 +1,694 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-v2-promotion-audit-v1",
+  "close_score_clusters": [
+    {
+      "central_gap": 0.7164955761104181,
+      "gap_band": "LT_1",
+      "higher_ranked": "Magic Johnson",
+      "lower_ranked": "Kawhi Leonard",
+      "probability_higher_above_lower": 0.9704
+    },
+    {
+      "central_gap": 0.8257708259911993,
+      "gap_band": "LT_1",
+      "higher_ranked": "Kawhi Leonard",
+      "lower_ranked": "Stephen Curry",
+      "probability_higher_above_lower": 0.9592
+    },
+    {
+      "central_gap": 0.48449594704013066,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Stephen Curry",
+      "lower_ranked": "Joel Embiid",
+      "probability_higher_above_lower": 0.908
+    },
+    {
+      "central_gap": 0.21431655793313098,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Joel Embiid",
+      "lower_ranked": "Dwyane Wade",
+      "probability_higher_above_lower": 0.758
+    },
+    {
+      "central_gap": 0.02373570592907015,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Dwyane Wade",
+      "lower_ranked": "Jayson Tatum",
+      "probability_higher_above_lower": 0.548
+    },
+    {
+      "central_gap": 0.8950021941270876,
+      "gap_band": "LT_1",
+      "higher_ranked": "Jayson Tatum",
+      "lower_ranked": "Anthony Davis",
+      "probability_higher_above_lower": 0.9988
+    },
+    {
+      "central_gap": 0.6170646561459137,
+      "gap_band": "LT_1",
+      "higher_ranked": "Anthony Davis",
+      "lower_ranked": "Chris Webber",
+      "probability_higher_above_lower": 0.9468
+    },
+    {
+      "central_gap": 0.5552011825098475,
+      "gap_band": "LT_1",
+      "higher_ranked": "Chris Webber",
+      "lower_ranked": "Donovan Mitchell",
+      "probability_higher_above_lower": 0.8892
+    },
+    {
+      "central_gap": 0.23843890129722922,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Donovan Mitchell",
+      "lower_ranked": "Luka Doncic",
+      "probability_higher_above_lower": 0.7016
+    },
+    {
+      "central_gap": 0.6322553741828472,
+      "gap_band": "LT_1",
+      "higher_ranked": "Kyrie Irving",
+      "lower_ranked": "Alonzo Mourning",
+      "probability_higher_above_lower": 0.8648
+    },
+    {
+      "central_gap": 0.005708223365303411,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Alonzo Mourning",
+      "lower_ranked": "Joakim Noah",
+      "probability_higher_above_lower": 0.5096
+    },
+    {
+      "central_gap": 0.3390412972586745,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Joakim Noah",
+      "lower_ranked": "Manu Ginobili",
+      "probability_higher_above_lower": 0.7096
+    },
+    {
+      "central_gap": 0.17525207621096683,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Manu Ginobili",
+      "lower_ranked": "Brad Daugherty",
+      "probability_higher_above_lower": 0.6172
+    },
+    {
+      "central_gap": 0.7046466108861722,
+      "gap_band": "LT_1",
+      "higher_ranked": "Brad Daugherty",
+      "lower_ranked": "Marques Johnson",
+      "probability_higher_above_lower": 0.846
+    },
+    {
+      "central_gap": 0.4757078179895444,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Marques Johnson",
+      "lower_ranked": "Victor Wembanyama",
+      "probability_higher_above_lower": 0.832
+    },
+    {
+      "central_gap": 0.11259991858413798,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Victor Wembanyama",
+      "lower_ranked": "Evan Mobley",
+      "probability_higher_above_lower": 0.5428
+    },
+    {
+      "central_gap": 0.7145186172588467,
+      "gap_band": "LT_1",
+      "higher_ranked": "Evan Mobley",
+      "lower_ranked": "Victor Oladipo",
+      "probability_higher_above_lower": 0.79
+    },
+    {
+      "central_gap": 0.34844266510305033,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Victor Oladipo",
+      "lower_ranked": "Tyrese Haliburton",
+      "probability_higher_above_lower": 0.7496
+    },
+    {
+      "central_gap": 0.007338850174548384,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Tyrese Haliburton",
+      "lower_ranked": "Sidney Moncrief",
+      "probability_higher_above_lower": 0.4684
+    },
+    {
+      "central_gap": 0.6556545047089202,
+      "gap_band": "LT_1",
+      "higher_ranked": "Sidney Moncrief",
+      "lower_ranked": "Fred VanVleet",
+      "probability_higher_above_lower": 0.916
+    },
+    {
+      "central_gap": 0.05124605715133157,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Fred VanVleet",
+      "lower_ranked": "O.G. Anunoby",
+      "probability_higher_above_lower": 0.4928
+    },
+    {
+      "central_gap": 0.5222565001382691,
+      "gap_band": "LT_1",
+      "higher_ranked": "O.G. Anunoby",
+      "lower_ranked": "Kenyon Martin",
+      "probability_higher_above_lower": 0.7576
+    },
+    {
+      "central_gap": 0.34167702261835586,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Kenyon Martin",
+      "lower_ranked": "Jaylen Brown",
+      "probability_higher_above_lower": 0.6212
+    },
+    {
+      "central_gap": 0.16938730543571978,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jaylen Brown",
+      "lower_ranked": "Tyrese Maxey",
+      "probability_higher_above_lower": 0.5864
+    },
+    {
+      "central_gap": 0.6712753090469619,
+      "gap_band": "LT_1",
+      "higher_ranked": "Tyrese Maxey",
+      "lower_ranked": "Marcus Smart",
+      "probability_higher_above_lower": 0.7096
+    },
+    {
+      "central_gap": 0.2262466606991893,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Marcus Smart",
+      "lower_ranked": "Derrick Coleman",
+      "probability_higher_above_lower": 0.6128
+    },
+    {
+      "central_gap": 0.07391127085057292,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Derrick Coleman",
+      "lower_ranked": "Cade Cunningham",
+      "probability_higher_above_lower": 0.5364
+    },
+    {
+      "central_gap": 0.3253503141205982,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Cade Cunningham",
+      "lower_ranked": "Marcus Camby",
+      "probability_higher_above_lower": 0.6352
+    },
+    {
+      "central_gap": 0.04343130703648512,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Marcus Camby",
+      "lower_ranked": "Alperen Sengun",
+      "probability_higher_above_lower": 0.5184
+    },
+    {
+      "central_gap": 0.25159832225935475,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Alperen Sengun",
+      "lower_ranked": "Scottie Barnes",
+      "probability_higher_above_lower": 0.6456
+    },
+    {
+      "central_gap": 0.6637594481393023,
+      "gap_band": "LT_1",
+      "higher_ranked": "Scottie Barnes",
+      "lower_ranked": "Jalen Williams",
+      "probability_higher_above_lower": 0.8152
+    },
+    {
+      "central_gap": 0.06636399339473087,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jalen Williams",
+      "lower_ranked": "Patrick Beverley",
+      "probability_higher_above_lower": 0.4852
+    },
+    {
+      "central_gap": 0.5248293188894877,
+      "gap_band": "LT_1",
+      "higher_ranked": "Patrick Beverley",
+      "lower_ranked": "Gerald Wallace",
+      "probability_higher_above_lower": 0.7476
+    },
+    {
+      "central_gap": 0.06197537619490845,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Gerald Wallace",
+      "lower_ranked": "Jalen Brunson",
+      "probability_higher_above_lower": 0.518
+    },
+    {
+      "central_gap": 0.11207756629012522,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jalen Brunson",
+      "lower_ranked": "Devin Booker",
+      "probability_higher_above_lower": 0.5356
+    },
+    {
+      "central_gap": 0.00889367057241941,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Devin Booker",
+      "lower_ranked": "Mark Price",
+      "probability_higher_above_lower": 0.492
+    },
+    {
+      "central_gap": 0.27241052558937895,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Mark Price",
+      "lower_ranked": "Brandon Ingram",
+      "probability_higher_above_lower": 0.6676
+    },
+    {
+      "central_gap": 0.2666482327863946,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Brandon Ingram",
+      "lower_ranked": "Josh Howard",
+      "probability_higher_above_lower": 0.6012
+    },
+    {
+      "central_gap": 0.6245105347592244,
+      "gap_band": "LT_1",
+      "higher_ranked": "Josh Howard",
+      "lower_ranked": "Jaren Jackson Jr.",
+      "probability_higher_above_lower": 0.6984
+    },
+    {
+      "central_gap": 0.1654390065415754,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jaren Jackson Jr.",
+      "lower_ranked": "Robert Covington",
+      "probability_higher_above_lower": 0.5376
+    },
+    {
+      "central_gap": 0.22882647987152893,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Robert Covington",
+      "lower_ranked": "Kristaps Porzingis",
+      "probability_higher_above_lower": 0.608
+    },
+    {
+      "central_gap": 0.03129465434544443,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Kristaps Porzingis",
+      "lower_ranked": "Brandon Roy",
+      "probability_higher_above_lower": 0.5368
+    },
+    {
+      "central_gap": 0.018774750763341785,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Brandon Roy",
+      "lower_ranked": "Caron Butler",
+      "probability_higher_above_lower": 0.4712
+    },
+    {
+      "central_gap": 0.36663145110806283,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Caron Butler",
+      "lower_ranked": "Amen Thompson",
+      "probability_higher_above_lower": 0.6596
+    },
+    {
+      "central_gap": 0.21734802668741793,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Amen Thompson",
+      "lower_ranked": "Deandre Ayton",
+      "probability_higher_above_lower": 0.6524
+    },
+    {
+      "central_gap": 0.25728940822861546,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Deandre Ayton",
+      "lower_ranked": "Clint Capela",
+      "probability_higher_above_lower": 0.5696
+    },
+    {
+      "central_gap": 0.13777840140369335,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Clint Capela",
+      "lower_ranked": "Calvin Natt",
+      "probability_higher_above_lower": 0.5396
+    },
+    {
+      "central_gap": 0.007559486572603191,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Calvin Natt",
+      "lower_ranked": "Ja Morant",
+      "probability_higher_above_lower": 0.5108
+    },
+    {
+      "central_gap": 0.052946749359165324,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Ja Morant",
+      "lower_ranked": "Aaron Gordon",
+      "probability_higher_above_lower": 0.5284
+    },
+    {
+      "central_gap": 0.09657970765138657,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Aaron Gordon",
+      "lower_ranked": "George Hill",
+      "probability_higher_above_lower": 0.5416
+    },
+    {
+      "central_gap": 0.22659997650555397,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "George Hill",
+      "lower_ranked": "Malcolm Brogdon",
+      "probability_higher_above_lower": 0.6212
+    },
+    {
+      "central_gap": 0.8577410679201023,
+      "gap_band": "LT_1",
+      "higher_ranked": "Jusuf Nurkic",
+      "lower_ranked": "Paolo Banchero",
+      "probability_higher_above_lower": 0.8152
+    },
+    {
+      "central_gap": 0.9002626416735211,
+      "gap_band": "LT_1",
+      "higher_ranked": "Paolo Banchero",
+      "lower_ranked": "Tyson Chandler",
+      "probability_higher_above_lower": 0.7884
+    },
+    {
+      "central_gap": 0.03457278386457574,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Tyson Chandler",
+      "lower_ranked": "Tyler Herro",
+      "probability_higher_above_lower": 0.5172
+    },
+    {
+      "central_gap": 0.08980740029858225,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Tyler Herro",
+      "lower_ranked": "Jalen Johnson",
+      "probability_higher_above_lower": 0.5472
+    },
+    {
+      "central_gap": 0.45137076680077826,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Jalen Johnson",
+      "lower_ranked": "Jameer Nelson",
+      "probability_higher_above_lower": 0.6272
+    },
+    {
+      "central_gap": 0.024921074407330934,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jameer Nelson",
+      "lower_ranked": "Franz Wagner",
+      "probability_higher_above_lower": 0.544
+    },
+    {
+      "central_gap": 0.3237358031381632,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Franz Wagner",
+      "lower_ranked": "Billy Owens",
+      "probability_higher_above_lower": 0.6268
+    },
+    {
+      "central_gap": 0.35697759915416327,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Billy Owens",
+      "lower_ranked": "Delonte West",
+      "probability_higher_above_lower": 0.6072
+    },
+    {
+      "central_gap": 0.14923363158503378,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Delonte West",
+      "lower_ranked": "Alex Caruso",
+      "probability_higher_above_lower": 0.5468
+    },
+    {
+      "central_gap": 0.1520294146422856,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Alex Caruso",
+      "lower_ranked": "Jalen Suggs",
+      "probability_higher_above_lower": 0.5768
+    },
+    {
+      "central_gap": 0.17164848291766077,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jalen Suggs",
+      "lower_ranked": "Eric Gordon",
+      "probability_higher_above_lower": 0.5548
+    },
+    {
+      "central_gap": 0.019486604405969388,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Eric Gordon",
+      "lower_ranked": "Micheal Williams",
+      "probability_higher_above_lower": 0.5176
+    },
+    {
+      "central_gap": 0.34228652873505894,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Micheal Williams",
+      "lower_ranked": "Robert Williams III",
+      "probability_higher_above_lower": 0.6424
+    },
+    {
+      "central_gap": 0.9877691671561024,
+      "gap_band": "LT_1",
+      "higher_ranked": "Robert Williams III",
+      "lower_ranked": "Terry Rozier",
+      "probability_higher_above_lower": 0.784
+    },
+    {
+      "central_gap": 0.13326767060704015,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Terry Rozier",
+      "lower_ranked": "Jalen Duren",
+      "probability_higher_above_lower": 0.558
+    },
+    {
+      "central_gap": 0.13263919272212377,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jalen Duren",
+      "lower_ranked": "Ausar Thompson",
+      "probability_higher_above_lower": 0.5192
+    },
+    {
+      "central_gap": 0.7732563842676967,
+      "gap_band": "LT_1",
+      "higher_ranked": "Ausar Thompson",
+      "lower_ranked": "Tyreke Evans",
+      "probability_higher_above_lower": 0.8144
+    },
+    {
+      "central_gap": 0.07125814218871085,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Tyreke Evans",
+      "lower_ranked": "Nic Claxton",
+      "probability_higher_above_lower": 0.5228
+    },
+    {
+      "central_gap": 0.11882571399310393,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Nic Claxton",
+      "lower_ranked": "Frank Brickowski",
+      "probability_higher_above_lower": 0.5076
+    },
+    {
+      "central_gap": 0.18246190048162703,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Frank Brickowski",
+      "lower_ranked": "Devin Harris",
+      "probability_higher_above_lower": 0.5668
+    },
+    {
+      "central_gap": 0.019825211674600496,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Devin Harris",
+      "lower_ranked": "Spencer Dinwiddie",
+      "probability_higher_above_lower": 0.5076
+    },
+    {
+      "central_gap": 0.4661294583492719,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Spencer Dinwiddie",
+      "lower_ranked": "Herbert Jones",
+      "probability_higher_above_lower": 0.6712
+    },
+    {
+      "central_gap": 0.24632622387687775,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Herbert Jones",
+      "lower_ranked": "Chris Childs",
+      "probability_higher_above_lower": 0.592
+    },
+    {
+      "central_gap": 0.22865229393680409,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Chris Childs",
+      "lower_ranked": "Bonzi Wells",
+      "probability_higher_above_lower": 0.5708
+    },
+    {
+      "central_gap": 0.028022234436349436,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Bonzi Wells",
+      "lower_ranked": "Dennis Schroder",
+      "probability_higher_above_lower": 0.5
+    },
+    {
+      "central_gap": 0.5175399634433404,
+      "gap_band": "LT_1",
+      "higher_ranked": "Dennis Schroder",
+      "lower_ranked": "John Collins",
+      "probability_higher_above_lower": 0.726
+    },
+    {
+      "central_gap": 0.04820954562299562,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "John Collins",
+      "lower_ranked": "T.J. Ford",
+      "probability_higher_above_lower": 0.5132
+    },
+    {
+      "central_gap": 0.0537267722379795,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "T.J. Ford",
+      "lower_ranked": "Hassan Whiteside",
+      "probability_higher_above_lower": 0.538
+    },
+    {
+      "central_gap": 0.20281097657874625,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Hassan Whiteside",
+      "lower_ranked": "Trey Murphy III",
+      "probability_higher_above_lower": 0.5668
+    },
+    {
+      "central_gap": 0.25937658892755167,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Trey Murphy III",
+      "lower_ranked": "Bogdan Bogdanovic",
+      "probability_higher_above_lower": 0.586
+    },
+    {
+      "central_gap": 0.0006038113310609106,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Bogdan Bogdanovic",
+      "lower_ranked": "Larry Nance Jr.",
+      "probability_higher_above_lower": 0.4588
+    },
+    {
+      "central_gap": 0.13195113379281054,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Larry Nance Jr.",
+      "lower_ranked": "Bobby Phills",
+      "probability_higher_above_lower": 0.5736
+    },
+    {
+      "central_gap": 0.039814681658072004,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Bobby Phills",
+      "lower_ranked": "Kyle Anderson",
+      "probability_higher_above_lower": 0.5096
+    },
+    {
+      "central_gap": 0.028620147192867762,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Kyle Anderson",
+      "lower_ranked": "Otto Porter Jr.",
+      "probability_higher_above_lower": 0.5224
+    },
+    {
+      "central_gap": 0.5422961895841212,
+      "gap_band": "LT_1",
+      "higher_ranked": "Otto Porter Jr.",
+      "lower_ranked": "P.J. Washington",
+      "probability_higher_above_lower": 0.6872
+    },
+    {
+      "central_gap": 0.5163037618889774,
+      "gap_band": "LT_1",
+      "higher_ranked": "P.J. Washington",
+      "lower_ranked": "Eddie Johnson",
+      "probability_higher_above_lower": 0.642
+    },
+    {
+      "central_gap": 0.02776913299950934,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Eddie Johnson",
+      "lower_ranked": "Kevin Porter Jr.",
+      "probability_higher_above_lower": 0.5912
+    },
+    {
+      "central_gap": 0.11355755110174925,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Kevin Porter Jr.",
+      "lower_ranked": "Isaiah Rider",
+      "probability_higher_above_lower": 0.5356
+    },
+    {
+      "central_gap": 0.10460986600831745,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Isaiah Rider",
+      "lower_ranked": "Wendell Carter Jr.",
+      "probability_higher_above_lower": 0.5124
+    },
+    {
+      "central_gap": 0.15641846673273108,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Wendell Carter Jr.",
+      "lower_ranked": "Jae Crowder",
+      "probability_higher_above_lower": 0.5212
+    },
+    {
+      "central_gap": 0.11338427614593627,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Jae Crowder",
+      "lower_ranked": "Dino Radja",
+      "probability_higher_above_lower": 0.486
+    },
+    {
+      "central_gap": 0.04659574625877383,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Dino Radja",
+      "lower_ranked": "Cliff T. Robinson",
+      "probability_higher_above_lower": 0.53
+    },
+    {
+      "central_gap": 0.32739065846733695,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Cliff T. Robinson",
+      "lower_ranked": "Andrew Nembhard",
+      "probability_higher_above_lower": 0.6104
+    },
+    {
+      "central_gap": 0.2985317791027029,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Andrew Nembhard",
+      "lower_ranked": "Walt Williams",
+      "probability_higher_above_lower": 0.616
+    },
+    {
+      "central_gap": 0.07582642149478147,
+      "gap_band": "LT_0_25",
+      "higher_ranked": "Walt Williams",
+      "lower_ranked": "Benoit Benjamin",
+      "probability_higher_above_lower": 0.5328
+    },
+    {
+      "central_gap": 0.2769384525950045,
+      "gap_band": "LT_0_5",
+      "higher_ranked": "Benoit Benjamin",
+      "lower_ranked": "Darius Garland",
+      "probability_higher_above_lower": 0.576
+    }
+  ],
+  "mean_rank_band_width_80": 13.534563758389261,
+  "mean_rank_band_width_90": 17.5094798657718,
+  "overall_methodology_version": "goatlab-v1-overall-v2-tiered",
+  "point_ranked_population": 596,
+  "step": "STEP-0015N",
+  "upstream_fingerprints": {
+    "step_0015k": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7"
+  }
+}

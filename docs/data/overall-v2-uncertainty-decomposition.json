@@ -1,0 +1,31 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-v2-promotion-audit-v1",
+  "interpretation": "Exact weighted variance/covariance expansion across Peak, Longevity, and Defense draws; the four fixed dimensions contribute no within-player measurement variance in this audit. Negative covariance shares are retained.",
+  "mean_weighted_variance_covariance_components": {
+    "analytic_empirical_difference": 9.998901871785976e-17,
+    "analytic_total": 3.1953032912531527,
+    "defense_variance": 0.4366342120661006,
+    "empirical_total": 3.1953032912531527,
+    "longevity_defense_covariance": 0.1424719163763288,
+    "longevity_variance": 1.1210237060278805,
+    "peak_defense_covariance": 0.23133361775583808,
+    "peak_longevity_covariance": 0.7834166932662383,
+    "peak_variance": 0.4804231457607661
+  },
+  "overall_methodology_version": "goatlab-v1-overall-v2-tiered",
+  "population": 1882,
+  "share_of_mean_analytic_total": {
+    "defense_variance": 0.13664875358196713,
+    "longevity_defense_covariance": 0.044587916510564894,
+    "longevity_variance": 0.35083483595957204,
+    "peak_defense_covariance": 0.07239801567165548,
+    "peak_longevity_covariance": 0.24517756903101157,
+    "peak_variance": 0.1503529092452288
+  },
+  "step": "STEP-0015N",
+  "upstream_fingerprints": {
+    "step_0015k": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7"
+  }
+}

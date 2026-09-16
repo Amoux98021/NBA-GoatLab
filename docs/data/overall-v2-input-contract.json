@@ -1,0 +1,64 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-v2-promotion-audit-v1",
+  "overall_methodology_version": "goatlab-v1-overall-v2-tiered",
+  "statuses": {
+    "ALL_PLAYERS": {
+      "input_eligibility": {
+        "COMPLETE_OFFICIAL_INPUTS": 312,
+        "POINT_INPUTS_WITH_PROVISIONAL": 239,
+        "REQUIRED_DIMENSION_UNAVAILABLE": 3221,
+        "UNCERTAIN_DIMENSION_PRESENT": 1331
+      },
+      "overall_status": {
+        "OFFICIAL_OVERALL_POINT": 312,
+        "OVERALL_INTERVAL_ONLY": 1286,
+        "OVERALL_UNAVAILABLE": 3221,
+        "PROVISIONAL_OVERALL_POINT": 284
+      },
+      "population": 5103
+    },
+    "BROAD_HIGH_RECALL": {
+      "input_eligibility": {
+        "COMPLETE_OFFICIAL_INPUTS": 312,
+        "POINT_INPUTS_WITH_PROVISIONAL": 239,
+        "REQUIRED_DIMENSION_UNAVAILABLE": 774,
+        "UNCERTAIN_DIMENSION_PRESENT": 1331
+      },
+      "overall_status": {
+        "OFFICIAL_OVERALL_POINT": 312,
+        "OVERALL_INTERVAL_ONLY": 1286,
+        "OVERALL_UNAVAILABLE": 774,
+        "PROVISIONAL_OVERALL_POINT": 284
+      },
+      "population": 2656
+    },
+    "V1_TOP_100": {
+      "input_eligibility": {
+        "COMPLETE_OFFICIAL_INPUTS": 3,
+        "POINT_INPUTS_WITH_PROVISIONAL": 12,
+        "UNCERTAIN_DIMENSION_PRESENT": 85
+      },
+      "overall_status": {
+        "OFFICIAL_OVERALL_POINT": 3,
+        "OVERALL_INTERVAL_ONLY": 83,
+        "PROVISIONAL_OVERALL_POINT": 14
+      },
+      "population": 100
+    }
+  },
+  "step": "STEP-0015N",
+  "upstream_fingerprints": {
+    "step_0015k": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7"
+  },
+  "weights": {
+    "ACCOLADES": 0.1,
+    "DEFENSE": 0.14,
+    "LONGEVITY": 0.14,
+    "OFFENSE": 0.16,
+    "PEAK": 0.17,
+    "PLAYOFFS": 0.18,
+    "WINNING": 0.11
+  }
+}

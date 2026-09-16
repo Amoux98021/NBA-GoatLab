@@ -487,3 +487,22 @@ is not redistributed. `defense_center` is the rich-form score or linked interval
 Statuses are `OFFICIAL_DEFENSE_POINT`, `PROVISIONAL_DEFENSE_POINT`, `DEFENSE_INTERVAL_ONLY`, and
 `DEFENSE_UNAVAILABLE`. All evidence is Regular Season; award and modern validation fields never
 enter the score.
+
+## Gold final Overall V2 promotion-audit outputs
+
+Generated STEP-0015N outputs remain ignored under `data/gold/overall_v2_promotion_audit/`. The
+research candidate is `goatlab-v1-overall-v2-tiered`; it does not replace Overall V1.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `joint-overall-validation` | reference player × joint evidence pattern | Reference and simulated Overall centers, raw intervals, coupling diagnostics, and exact weighted variance/covariance terms. |
+| `overall-v2-player-scores` | canonical player | Frozen inputs, joint evidence pattern, diagnostic center, nested intervals, status, blockers, coupling diagnostics, and uncertainty decomposition. |
+| `overall-v2-rank-uncertainty` | point-eligible research player | Conditional rank bands and Top-10/25/50/100 probabilities; not a published rank. |
+| `overall-v2-diagnostic-players` | predetermined historical/modern player | Dimension centers/intervals, Overall status, conditional rank diagnostics, and active-career policy. |
+
+Committed JSON reports contain reconstruction evidence, the frozen input contract, coupling and
+calibration validation, uncertainty decomposition, pairwise/Top-N validation, status counts,
+diagnostics, and the non-promotion verdict. `overall_point` exists only for official or provisional
+research statuses. `OVERALL_INTERVAL_ONLY` retains a diagnostic distribution but is ineligible for
+a deterministic ranking. `OVERALL_UNAVAILABLE` lacks a required usable dimension. No Top-100
+artifact exists because promotion failed the structural ranking-population gate.

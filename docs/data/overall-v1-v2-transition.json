@@ -1,0 +1,15 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-v2-promotion-audit-v1",
+  "blocking_reason": "83 archived V1 Top-100 players are interval-only under frozen gates; a deterministic V2 Top 100 would be structurally truncated by evidence status",
+  "diagnostic_candidate_overlaps": null,
+  "entrants": [],
+  "exits": [],
+  "overall_methodology_version": "goatlab-v1-overall-v2-tiered",
+  "step": "STEP-0015N",
+  "upstream_fingerprints": {
+    "step_0015k": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7"
+  },
+  "v2_top100_published": false
+}

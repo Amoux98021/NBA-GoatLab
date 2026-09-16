@@ -388,3 +388,22 @@ Future experiments must record the objective, input snapshot, feature version, c
   nor linkers.
 - Diagnostic Overall sensitivity changed no frozen weight and published no ranking.
 - Output fingerprint: `a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7`.
+
+## STEP-0015N Final Overall V2 promotion audit
+
+- **Reconstruction:** STEP-0015K/L/M fingerprints and frozen data hashes verified; exact
+  Peak/Longevity path reconstruction maximum difference 0.0.
+- **Coupling candidates:** independent, pooled Gaussian-copula, evidence-pattern Gaussian-copula,
+  and empirical-rank diagnostic. Pattern-specific Gaussian coupling was frozen before rank output.
+- **Dependence:** target/reproduced mean latent-rank correlations are 0.4328/0.4307 for
+  Defense–Peak and 0.1937/0.1977 for Defense–Longevity. Sorted Defense marginals are exact.
+- **Calibration population:** 1,197 rich-reference careers. Full-reference MAE/rho/bias is
+  0.457/0.9995/-0.028; partial Presence is 1.383/0.9950/+0.240. Mixed evidence is
+  2.003/0.9914/+0.111 and misses the MAE gate without rounding.
+- **Status result:** 312 official, 284 provisional, 1,286 interval-only, 3,221 unavailable.
+  The archived V1 Top 100 contains 3 official, 14 provisional, and 83 interval-only cases.
+- **Decision:** `PASS + DO_NOT_PROMOTE_OVERALL_V2`. No V2 Top 100 or transition table is
+  published; Overall V1 remains frozen.
+- **Optimization target:** calibration and evidence semantics only. No player names, conventional
+  ordering, confidence penalties, or player-specific adjustments enter selection.
+- **Output fingerprint:** `b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95`.

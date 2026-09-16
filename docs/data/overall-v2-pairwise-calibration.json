@@ -1,0 +1,312 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-v2-promotion-audit-v1",
+  "overall_methodology_version": "goatlab-v1-overall-v2-tiered",
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "0.5": {
+        "central_order_accuracy": 0.561,
+        "mean_probability_reference_order": 0.5447758,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.411
+      },
+      "1.0": {
+        "central_order_accuracy": 0.608,
+        "mean_probability_reference_order": 0.582284,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.465
+      },
+      "10.0": {
+        "central_order_accuracy": 0.9755,
+        "mean_probability_reference_order": 0.9322442,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.944
+      },
+      "2.0": {
+        "central_order_accuracy": 0.6835,
+        "mean_probability_reference_order": 0.6344715999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.542
+      },
+      "3.0": {
+        "central_order_accuracy": 0.7715,
+        "mean_probability_reference_order": 0.6974068,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.6375
+      },
+      "5.0": {
+        "central_order_accuracy": 0.849,
+        "mean_probability_reference_order": 0.7857048,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.766
+      },
+      "label_counts": {
+        "LEAN_ORDER": 3296,
+        "LEAN_REVERSE": 1545,
+        "ROBUST_ORDER": 4235,
+        "ROBUST_REVERSE": 441,
+        "UNCERTAIN_ORDER": 2483
+      },
+      "thresholds": {
+        "lean": "0.65-0.90 or 0.10-0.35",
+        "robust": ">=0.90 or <=0.10",
+        "uncertain": "0.35-0.65"
+      }
+    },
+    "FULL_REFERENCE": {
+      "0.5": {
+        "central_order_accuracy": 0.7095,
+        "mean_probability_reference_order": 0.6111702,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.454
+      },
+      "1.0": {
+        "central_order_accuracy": 0.869,
+        "mean_probability_reference_order": 0.7217972,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.6765
+      },
+      "10.0": {
+        "central_order_accuracy": 1.0,
+        "mean_probability_reference_order": 0.9989142000000001,
+        "pairs": 2000,
+        "robust_or_lean_share": 1.0
+      },
+      "2.0": {
+        "central_order_accuracy": 0.9845,
+        "mean_probability_reference_order": 0.8696326,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.911
+      },
+      "3.0": {
+        "central_order_accuracy": 0.998,
+        "mean_probability_reference_order": 0.9438574,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.976
+      },
+      "5.0": {
+        "central_order_accuracy": 1.0,
+        "mean_probability_reference_order": 0.9792694000000001,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.997
+      },
+      "label_counts": {
+        "LEAN_ORDER": 2849,
+        "LEAN_REVERSE": 347,
+        "ROBUST_ORDER": 7180,
+        "ROBUST_REVERSE": 27,
+        "UNCERTAIN_ORDER": 1597
+      },
+      "thresholds": {
+        "lean": "0.65-0.90 or 0.10-0.35",
+        "robust": ">=0.90 or <=0.10",
+        "uncertain": "0.35-0.65"
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "0.5": {
+        "central_order_accuracy": 0.563,
+        "mean_probability_reference_order": 0.5463887999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.417
+      },
+      "1.0": {
+        "central_order_accuracy": 0.642,
+        "mean_probability_reference_order": 0.6042218,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.5075
+      },
+      "10.0": {
+        "central_order_accuracy": 0.988,
+        "mean_probability_reference_order": 0.9540789999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.971
+      },
+      "2.0": {
+        "central_order_accuracy": 0.7215,
+        "mean_probability_reference_order": 0.6564407999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.58
+      },
+      "3.0": {
+        "central_order_accuracy": 0.8,
+        "mean_probability_reference_order": 0.7302578,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.689
+      },
+      "5.0": {
+        "central_order_accuracy": 0.9135,
+        "mean_probability_reference_order": 0.8416494,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.8415
+      },
+      "label_counts": {
+        "LEAN_ORDER": 3296,
+        "LEAN_REVERSE": 1386,
+        "ROBUST_ORDER": 4716,
+        "ROBUST_REVERSE": 376,
+        "UNCERTAIN_ORDER": 2226
+      },
+      "thresholds": {
+        "lean": "0.65-0.90 or 0.10-0.35",
+        "robust": ">=0.90 or <=0.10",
+        "uncertain": "0.35-0.65"
+      }
+    },
+    "NO_PRESENCE_CAREER": {
+      "0.5": {
+        "central_order_accuracy": 0.5415,
+        "mean_probability_reference_order": 0.5330262,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.3965
+      },
+      "1.0": {
+        "central_order_accuracy": 0.5875,
+        "mean_probability_reference_order": 0.5634842,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.449
+      },
+      "10.0": {
+        "central_order_accuracy": 0.964,
+        "mean_probability_reference_order": 0.9023036,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.924
+      },
+      "2.0": {
+        "central_order_accuracy": 0.669,
+        "mean_probability_reference_order": 0.6201698,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.5245
+      },
+      "3.0": {
+        "central_order_accuracy": 0.724,
+        "mean_probability_reference_order": 0.6716536,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.602
+      },
+      "5.0": {
+        "central_order_accuracy": 0.83,
+        "mean_probability_reference_order": 0.7540617999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.7235
+      },
+      "label_counts": {
+        "LEAN_ORDER": 3506,
+        "LEAN_REVERSE": 1660,
+        "ROBUST_ORDER": 3733,
+        "ROBUST_REVERSE": 516,
+        "UNCERTAIN_ORDER": 2585
+      },
+      "thresholds": {
+        "lean": "0.65-0.90 or 0.10-0.35",
+        "robust": ">=0.90 or <=0.10",
+        "uncertain": "0.35-0.65"
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "0.5": {
+        "central_order_accuracy": 0.591,
+        "mean_probability_reference_order": 0.5631499999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.436
+      },
+      "1.0": {
+        "central_order_accuracy": 0.6785,
+        "mean_probability_reference_order": 0.6322945999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.5375
+      },
+      "10.0": {
+        "central_order_accuracy": 0.9975,
+        "mean_probability_reference_order": 0.9823402,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.9915
+      },
+      "2.0": {
+        "central_order_accuracy": 0.822,
+        "mean_probability_reference_order": 0.7337229999999999,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.697
+      },
+      "3.0": {
+        "central_order_accuracy": 0.8955,
+        "mean_probability_reference_order": 0.8270524,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.8275
+      },
+      "5.0": {
+        "central_order_accuracy": 0.941,
+        "mean_probability_reference_order": 0.900339,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.9105
+      },
+      "label_counts": {
+        "LEAN_ORDER": 2846,
+        "LEAN_REVERSE": 1072,
+        "ROBUST_ORDER": 5954,
+        "ROBUST_REVERSE": 281,
+        "UNCERTAIN_ORDER": 1847
+      },
+      "thresholds": {
+        "lean": "0.65-0.90 or 0.10-0.35",
+        "robust": ">=0.90 or <=0.10",
+        "uncertain": "0.35-0.65"
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "0.5": {
+        "central_order_accuracy": 0.514,
+        "mean_probability_reference_order": 0.5118456,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.378
+      },
+      "1.0": {
+        "central_order_accuracy": 0.565,
+        "mean_probability_reference_order": 0.5468694000000001,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.427
+      },
+      "10.0": {
+        "central_order_accuracy": 0.9145,
+        "mean_probability_reference_order": 0.8415138,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.838
+      },
+      "2.0": {
+        "central_order_accuracy": 0.623,
+        "mean_probability_reference_order": 0.5891348000000001,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.4725
+      },
+      "3.0": {
+        "central_order_accuracy": 0.6725,
+        "mean_probability_reference_order": 0.6342664,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.551
+      },
+      "5.0": {
+        "central_order_accuracy": 0.748,
+        "mean_probability_reference_order": 0.6934306,
+        "pairs": 2000,
+        "robust_or_lean_share": 0.6295
+      },
+      "label_counts": {
+        "LEAN_ORDER": 3567,
+        "LEAN_REVERSE": 1916,
+        "ROBUST_ORDER": 3025,
+        "ROBUST_REVERSE": 624,
+        "UNCERTAIN_ORDER": 2868
+      },
+      "thresholds": {
+        "lean": "0.65-0.90 or 0.10-0.35",
+        "robust": ">=0.90 or <=0.10",
+        "uncertain": "0.35-0.65"
+      }
+    }
+  },
+  "step": "STEP-0015N",
+  "upstream_fingerprints": {
+    "step_0015k": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7"
+  }
+}

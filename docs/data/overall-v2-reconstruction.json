@@ -1,0 +1,21 @@
+{
+  "audit_methodology_version": "goatlab-v1-overall-v2-promotion-audit-v1",
+  "blocking_reason_counts_nonexclusive": {
+    "ACCOLADES_NOT_QUERIED": 2963,
+    "DEFENSE_UNAVAILABLE": 928,
+    "LONGEVITY_UNAVAILABLE": 917,
+    "OFFENSE_UNAVAILABLE": 916,
+    "PEAK_CONSTITUTIONALLY_INELIGIBLE": 2647,
+    "PLAYOFFS_UNAVAILABLE": 2335,
+    "WINNING_UNAVAILABLE": 1
+  },
+  "maximum_numerical_difference": 0.0,
+  "maximum_peak_longevity_path_difference_vs_step_0015l": 2.842170943040401e-14,
+  "overall_methodology_version": "goatlab-v1-overall-v2-tiered",
+  "step": "STEP-0015N",
+  "upstream_fingerprints": {
+    "step_0015k": "3325c28ae452b84d347b067e509a2c1038a3102a0ce0e56ccd68b25681a2bc5f",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7"
+  }
+}

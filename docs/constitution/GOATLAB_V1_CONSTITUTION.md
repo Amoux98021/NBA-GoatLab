@@ -156,3 +156,22 @@ change Defense's philosophical definition.
 - Defense uncertainty may depend on Peak/Longevity uncertainty because the dimensions share
   evidence. A future Overall simulation may not assume those errors are independent.
 - Defense V1 and Overall V1 remain permanent reproducible historical baselines.
+
+## STEP-0015N Overall promotion-policy clarification
+
+This section records the result of the final joint uncertainty promotion audit; it does not alter
+the seven frozen Overall weights or create a successor ranking.
+
+- Peak/Longevity paired uncertainty paths must remain paired. Defense uncertainty must be coupled
+  through a validated marginal-preserving dependence architecture rather than assumed independent.
+- A joint evidence pattern may receive an Overall point only when its complete Overall distribution
+  passes the frozen aggregate calibration gates. A dimension's interval center is never promoted
+  to an exact point merely because it enters a weighted simulation.
+- A deterministic ranking population must not be structurally selected by evidence regime. A
+  ranking that excludes most otherwise plausible candidates because their calibrated Overall is
+  interval-only is not eligible for publication.
+- STEP-0015N validates the research propagation architecture but does not promote it: only 17 of
+  the archived V1 Top 100 receive ranking-grade V2 points, while 83 remain interval-only.
+- `goatlab-v1-overall-v1` and its archived Top 100 therefore remain the official frozen baseline.
+  No Overall V2 Top 100 exists. Future work must resolve ranking/publication semantics without
+  lowering calibration gates, renormalizing weights, or treating intervals as exact points.

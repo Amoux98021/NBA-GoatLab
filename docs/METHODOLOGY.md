@@ -400,3 +400,22 @@ This living summary may be extended, but methodology changes must also receive a
 - **Ownership:** Regular Season only; awards and modern defensive rating are validation-only.
 - **Overall boundary:** no ranking is promoted. Future Overall work must preserve empirical
   Defense–Peak–Longevity error dependence.
+
+## Final Overall V2 promotion audit
+
+- `goatlab-v1-overall-v2-tiered` is a non-promoted research candidate built from the frozen
+  17/14/16/14/18/10/11 Overall weights. It keeps the exact 2,500 paired Peak/Longevity paths and
+  couples the complete Defense marginal through a preselected evidence-pattern Gaussian copula.
+- The selected coupling reproduces the empirical Defense–Peak and Defense–Longevity latent-rank
+  dependence while preserving every Peak/Longevity draw and every sorted Defense draw. The four
+  other dimensions remain fixed within each player's simulation.
+- Full-reference and partial-Presence patterns support point estimates. Mixed, early-transition,
+  no-Presence, and traditional-only patterns remain interval-only under the frozen calibration
+  gates. An interval center is diagnostic and never becomes an official ranking point.
+- Statuses are `OFFICIAL_OVERALL_POINT`, `PROVISIONAL_OVERALL_POINT`, `OVERALL_INTERVAL_ONLY`,
+  and `OVERALL_UNAVAILABLE`. No required weight is dropped or redistributed, and confidence never
+  changes player quality.
+- The audit produced 312 official, 284 provisional, 1,286 interval-only, and 3,221 unavailable
+  player outputs. Only 17 archived V1 Top-100 players are point-eligible; 83 are interval-only.
+  A V2 Top 100 would therefore be structurally selected by evidence regime, so Overall V2 is not
+  promoted and no new ranking is published. Overall V1 remains the frozen official baseline.
