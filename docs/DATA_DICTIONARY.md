@@ -464,3 +464,26 @@ interval but no ranking-grade point. `OVERALL_UNAVAILABLE` lacks at least one re
 useful interval. `weight_renormalized`, `interval_midpoint_used_as_exact`,
 `confidence_penalty_applied`, and `published_ranking` are always false. All rows retain
 `DEFENSE_V1_FROZEN_PENDING_REVISION` and `TO_DATE_NO_PROJECTION`.
+
+## Gold Defense V2 tiered promotion outputs
+
+Generated STEP-0015M outputs remain ignored under
+`data/gold/defense_v2_tiered_promotion_audit/`. The promoted-with-limitations methodology is
+`goatlab-v1-defense-v2-tiered`; historical V1 data are not overwritten.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `anchor-masked-defense-forms` | rich-form player × Regular Season | Paired rich and masked factual Defense forms used for grouped linking and interval calibration. |
+| `defense-v2-season-measurements` | player × Regular Season | Team/actions/Presence evidence, reliability, form, linked center, nested intervals, status, confidence, and reasons. |
+| `defense-v2-career-validation` | full-form player × mask pattern | Reference and masked career Defense, intervals, forms, and aggregate calibration evidence. |
+| `player-defense-v2-tiered` | canonical player | Career Defense center, nested intervals, ranking-grade flag, status, evidence pattern, coverage, and reasons. |
+| `defense-v2-diagnostic-players` | predetermined player | V1/Candidate/V2 comparison and factual component summary after formula freeze. |
+| `overall-defense-v2-sensitivity` | canonical player | Non-promoted diagnostic STEP-0015L center/width/status sensitivity with V2 Defense. |
+| `v1-top100-defense-transition` | archived V1 Top-100 player | Original order plus V2 Defense status/interval and blocker flag; never reordered. |
+
+`raw_observed_score` includes only factual channels at their nominal weights. Missing Presence weight
+is not redistributed. `defense_center` is the rich-form score or linked interval center;
+`ranking_grade_defense_point` is false for `DEFENSE_INTERVAL_ONLY` even when a center exists.
+Statuses are `OFFICIAL_DEFENSE_POINT`, `PROVISIONAL_DEFENSE_POINT`, `DEFENSE_INTERVAL_ONLY`, and
+`DEFENSE_UNAVAILABLE`. All evidence is Regular Season; award and modern validation fields never
+enter the score.

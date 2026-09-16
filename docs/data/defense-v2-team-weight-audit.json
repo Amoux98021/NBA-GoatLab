@@ -1,0 +1,359 @@
+{
+  "10pct": {
+    "adjacent_teammate_pairs": 12530,
+    "anchors": 13923,
+    "award_validation": {
+      "ALL_DEFENSE": {
+        "median_score": 91.93257074051776,
+        "recognized_players": 179,
+        "share_at_or_above_90": 0.5363128491620112,
+        "share_at_or_above_95": 0.3687150837988827
+      },
+      "DPOY": {
+        "median_score": 96.2673088500903,
+        "recognized_players": 27,
+        "share_at_or_above_90": 0.8518518518518519,
+        "share_at_or_above_95": 0.6296296296296297
+      }
+    },
+    "between_team_variance": 37.60940218247257,
+    "between_team_variance_share": 0.10928873342847195,
+    "masked_no_team_context": {
+      "bias": -4.869630434520904,
+      "calibration_intercept": 4.657739278784675,
+      "calibration_slope": 1.0048958347455677,
+      "gt_10": 0.008906126553185376,
+      "gt_15": 0.0,
+      "gt_5": 0.47202470731882495,
+      "mae": 4.869630434520904,
+      "median_bias": -4.827586206896548,
+      "n": 13923,
+      "pearson": 0.9877526074655724,
+      "rmse": 5.6655990420916895,
+      "spearman": 0.9882219074377296
+    },
+    "modern_validation": {
+      "bias": -0.09319855638908951,
+      "calibration_intercept": 42.99236106999345,
+      "calibration_slope": 0.1684973063857105,
+      "gt_10": 0.7785898538263113,
+      "gt_15": 0.6865864144453998,
+      "gt_5": 0.8890799656061908,
+      "mae": 31.078347792147255,
+      "median_bias": 1.926056642674542,
+      "n": 2326,
+      "pearson": 0.15193640659724691,
+      "rmse": 38.734610430363844,
+      "spearman": 0.15094412610282895
+    },
+    "near_identical_credit_rate": 0.15794094173982443,
+    "role_bias": {
+      "BIG": {
+        "mean": 51.98940340824295,
+        "n": 2507,
+        "standard_deviation": 18.98272963300381
+      },
+      "FORWARD": {
+        "mean": 48.256198618618704,
+        "n": 3112,
+        "standard_deviation": 18.741397211295183
+      },
+      "GUARD": {
+        "mean": 44.988159369026185,
+        "n": 3686,
+        "standard_deviation": 17.60924596095336
+      },
+      "UNKNOWN": {
+        "mean": 48.52805425581498,
+        "n": 3709,
+        "standard_deviation": 18.64615503578331
+      },
+      "WING": {
+        "mean": 48.46869592692853,
+        "n": 909,
+        "standard_deviation": 17.79618318273094
+      }
+    },
+    "score_action_pearson": 0.5636530023706187,
+    "score_presence_pearson": 0.8611246199558971,
+    "score_team_pearson": 0.1864043733313707,
+    "selection_note": "selected: lowest tested contextual weight; Presence/action retain primary attribution",
+    "weights": [
+      0.1,
+      0.38571428571428573,
+      0.5142857142857143
+    ],
+    "within_team_variance": 306.5194114896836
+  },
+  "15pct": {
+    "adjacent_teammate_pairs": 12530,
+    "anchors": 13923,
+    "award_validation": {
+      "ALL_DEFENSE": {
+        "median_score": 91.48103552077062,
+        "recognized_players": 179,
+        "share_at_or_above_90": 0.5363128491620112,
+        "share_at_or_above_95": 0.37988826815642457
+      },
+      "DPOY": {
+        "median_score": 96.47802528597231,
+        "recognized_players": 27,
+        "share_at_or_above_90": 0.8518518518518519,
+        "share_at_or_above_95": 0.6666666666666666
+      }
+    },
+    "between_team_variance": 45.968161971021914,
+    "between_team_variance_share": 0.14362779597789388,
+    "masked_no_team_context": {
+      "bias": -7.3044456517813545,
+      "calibration_intercept": 6.9866089181770406,
+      "calibration_slope": 1.007775737537077,
+      "gt_10": 0.3102061337355455,
+      "gt_15": 0.006966889319830497,
+      "gt_5": 0.652804711628241,
+      "mae": 7.3044456517813545,
+      "median_bias": -7.241379310344826,
+      "n": 13923,
+      "pearson": 0.970104793742662,
+      "rmse": 8.498398563137533,
+      "spearman": 0.9710219603829725
+    },
+    "modern_validation": {
+      "bias": -0.10815913861974852,
+      "calibration_intercept": 41.51185952372015,
+      "calibration_slope": 0.19725065967025884,
+      "gt_10": 0.7785898538263113,
+      "gt_15": 0.680567497850387,
+      "gt_5": 0.884780739466896,
+      "mae": 30.51797441615884,
+      "median_bias": 1.7896267703752744,
+      "n": 2326,
+      "pearson": 0.17803074526061044,
+      "rmse": 38.15354794291609,
+      "spearman": 0.17696492705203257
+    },
+    "near_identical_credit_rate": 0.16719872306464484,
+    "role_bias": {
+      "BIG": {
+        "mean": 51.75098562742712,
+        "n": 2507,
+        "standard_deviation": 18.297384024035424
+      },
+      "FORWARD": {
+        "mean": 48.27818968071934,
+        "n": 3112,
+        "standard_deviation": 18.00917253599432
+      },
+      "GUARD": {
+        "mean": 45.21256806813314,
+        "n": 3686,
+        "standard_deviation": 17.056497754740477
+      },
+      "UNKNOWN": {
+        "mean": 48.54593492473425,
+        "n": 3709,
+        "standard_deviation": 18.004814181880697
+      },
+      "WING": {
+        "mean": 48.533305359873204,
+        "n": 909,
+        "standard_deviation": 17.159297514987887
+      }
+    },
+    "score_action_pearson": 0.546525469953375,
+    "score_presence_pearson": 0.850111647834239,
+    "score_team_pearson": 0.27247738126152815,
+    "selection_note": "diagnostic",
+    "weights": [
+      0.15,
+      0.36428571428571427,
+      0.4857142857142857
+    ],
+    "within_team_variance": 274.0824358818964
+  },
+  "20pct": {
+    "adjacent_teammate_pairs": 12530,
+    "anchors": 13923,
+    "award_validation": {
+      "ALL_DEFENSE": {
+        "median_score": 91.72185430463576,
+        "recognized_players": 179,
+        "share_at_or_above_90": 0.547486033519553,
+        "share_at_or_above_95": 0.36312849162011174
+      },
+      "DPOY": {
+        "median_score": 96.35761589403974,
+        "recognized_players": 27,
+        "share_at_or_above_90": 0.8148148148148148,
+        "share_at_or_above_95": 0.6296296296296297
+      }
+    },
+    "between_team_variance": 58.41340362819834,
+    "between_team_variance_share": 0.19339832369138146,
+    "masked_no_team_context": {
+      "bias": -9.739260869041807,
+      "calibration_intercept": 9.315478557569435,
+      "calibration_slope": 1.0110156281775247,
+      "gt_10": 0.4730302377361201,
+      "gt_15": 0.234934999640882,
+      "gt_5": 0.7377002082884436,
+      "mae": 9.739260869041807,
+      "median_bias": -9.655172413793096,
+      "n": 13923,
+      "pearson": 0.9428944954488118,
+      "rmse": 11.331198084183379,
+      "spearman": 0.9440023774196851
+    },
+    "modern_validation": {
+      "bias": -0.13446957432470516,
+      "calibration_intercept": 40.04059709078176,
+      "calibration_slope": 0.2258912380273891,
+      "gt_10": 0.7691315563198624,
+      "gt_15": 0.6680997420464316,
+      "gt_5": 0.8860705073086844,
+      "mae": 29.953219953466927,
+      "median_bias": 2.1636174801121655,
+      "n": 2326,
+      "pearson": 0.20408312603994386,
+      "rmse": 37.564300493072594,
+      "spearman": 0.20318479181083327
+    },
+    "near_identical_credit_rate": 0.17430167597765364,
+    "role_bias": {
+      "BIG": {
+        "mean": 51.5125678466113,
+        "n": 2507,
+        "standard_deviation": 17.7608037978582
+      },
+      "FORWARD": {
+        "mean": 48.300180742820004,
+        "n": 3112,
+        "standard_deviation": 17.428155008397574
+      },
+      "GUARD": {
+        "mean": 45.43697676724009,
+        "n": 3686,
+        "standard_deviation": 16.657997187302477
+      },
+      "UNKNOWN": {
+        "mean": 48.56381559365354,
+        "n": 3709,
+        "standard_deviation": 17.51019573794126
+      },
+      "WING": {
+        "mean": 48.59791479281789,
+        "n": 909,
+        "standard_deviation": 16.678222098889734
+      }
+    },
+    "score_action_pearson": 0.5235263934483607,
+    "score_presence_pearson": 0.831019083562838,
+    "score_team_pearson": 0.3620007087488377,
+    "selection_note": "diagnostic",
+    "weights": [
+      0.2,
+      0.3428571428571429,
+      0.4571428571428572
+    ],
+    "within_team_variance": 243.6233592209589
+  },
+  "30pct": {
+    "adjacent_teammate_pairs": 12530,
+    "anchors": 13923,
+    "award_validation": {
+      "ALL_DEFENSE": {
+        "median_score": 91.54124021673691,
+        "recognized_players": 179,
+        "share_at_or_above_90": 0.5251396648044693,
+        "share_at_or_above_95": 0.3240223463687151
+      },
+      "DPOY": {
+        "median_score": 94.49127031908489,
+        "recognized_players": 27,
+        "share_at_or_above_90": 0.7777777777777778,
+        "share_at_or_above_95": 0.48148148148148145
+      }
+    },
+    "between_team_variance": 95.56333254843234,
+    "between_team_variance_share": 0.3362511644272264,
+    "masked_no_team_context": {
+      "bias": -14.608891303562709,
+      "calibration_intercept": 13.973217836354081,
+      "calibration_slope": 1.0188839340186158,
+      "gt_10": 0.652589240824535,
+      "gt_15": 0.47202470731882495,
+      "gt_5": 0.8332974215327157,
+      "mae": 14.608891303562709,
+      "median_bias": -14.482758620689651,
+      "n": 13923,
+      "pearson": 0.8571447264404424,
+      "rmse": 16.996797126275066,
+      "spearman": 0.8550964391453767
+    },
+    "modern_validation": {
+      "bias": -0.25692375171786747,
+      "calibration_intercept": 37.14412963611722,
+      "calibration_slope": 0.282749259219117,
+      "gt_10": 0.7609630266552021,
+      "gt_15": 0.6607910576096303,
+      "gt_5": 0.8680137575236457,
+      "mae": 28.8189763487488,
+      "median_bias": 2.2152958700009364,
+      "n": 2326,
+      "pearson": 0.25605520105011037,
+      "rmse": 36.36310754507597,
+      "spearman": 0.255573817182946
+    },
+    "near_identical_credit_rate": 0.19409417398244214,
+    "role_bias": {
+      "BIG": {
+        "mean": 51.03573228497964,
+        "n": 2507,
+        "standard_deviation": 17.185892041178214
+      },
+      "FORWARD": {
+        "mean": 48.34416286702129,
+        "n": 3112,
+        "standard_deviation": 16.778589536231358
+      },
+      "GUARD": {
+        "mean": 45.88579416545398,
+        "n": 3686,
+        "standard_deviation": 16.364502022163204
+      },
+      "UNKNOWN": {
+        "mean": 48.59957693149208,
+        "n": 3709,
+        "standard_deviation": 17.008596407378246
+      },
+      "WING": {
+        "mean": 48.72713365870722,
+        "n": 909,
+        "standard_deviation": 16.23450129312118
+      }
+    },
+    "score_action_pearson": 0.45916744573194446,
+    "score_presence_pearson": 0.7658204202469014,
+    "score_team_pearson": 0.5412548327962414,
+    "selection_note": "diagnostic",
+    "weights": [
+      0.3,
+      0.29999999999999993,
+      0.39999999999999997
+    ],
+    "within_team_variance": 188.6389027396324
+  },
+  "audit_methodology_version": "goatlab-v1-defense-v2-tiered-promotion-audit-v1",
+  "defense_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "input_fingerprints": {
+    "longevity_tiered": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+    "peak_v2": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "step_0015a": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "step_0015b": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "v1_dimension_scores": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4"
+  },
+  "step": "STEP-0015M"
+}

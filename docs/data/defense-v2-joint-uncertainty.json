@@ -1,0 +1,45 @@
+{
+  "MIXED_TRANSITION": {
+    "defense_longevity_residual_correlation": 0.14397773968282726,
+    "defense_peak_residual_correlation": 0.34497032020578083,
+    "peak_longevity_residual_correlation": 0.4322941737278459,
+    "players": 1267
+  },
+  "NO_PRESENCE": {
+    "defense_longevity_residual_correlation": 0.2540446134718463,
+    "defense_peak_residual_correlation": 0.5764224609697727,
+    "peak_longevity_residual_correlation": 0.4423675591777359,
+    "players": 1267
+  },
+  "PARTIAL_PRESENCE": {
+    "defense_longevity_residual_correlation": 0.1766087136468986,
+    "defense_peak_residual_correlation": 0.3837660462384089,
+    "peak_longevity_residual_correlation": 0.4453275144348449,
+    "players": 1267
+  },
+  "TRADITIONAL_ONLY": {
+    "defense_longevity_residual_correlation": 0.266727651682672,
+    "defense_peak_residual_correlation": 0.5627697108975402,
+    "peak_longevity_residual_correlation": 0.5293068260252028,
+    "players": 1267
+  },
+  "aligned_draw_feasibility": {
+    "direct": false,
+    "independence_allowed": false,
+    "reason": "Defense anchor residual draws were generated separately from U3 PSV career draws",
+    "step_0015n_approximation": "Use pattern-specific empirical Gaussian-copula rank alignment calibrated to the reported residual correlation matrices; retain marginal empirical/conformal draws."
+  },
+  "audit_methodology_version": "goatlab-v1-defense-v2-tiered-promotion-audit-v1",
+  "defense_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "input_fingerprints": {
+    "longevity_tiered": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+    "peak_v2": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "step_0015a": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "step_0015b": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "v1_dimension_scores": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4"
+  },
+  "step": "STEP-0015M"
+}

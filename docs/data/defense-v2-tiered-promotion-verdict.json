@@ -1,0 +1,38 @@
+{
+  "audit_methodology_version": "goatlab-v1-defense-v2-tiered-promotion-audit-v1",
+  "candidate_architectures": {
+    "D0": "65% Team Context + 35% Actions; frozen V1 diagnostic, rejected",
+    "D1": "30% Team Context + 30% Actions + 40% Presence; attribution improved but context/fallback remained too influential",
+    "D2": "10/15/20/30% bounded Team Context family; 10% selected from attribution audit",
+    "D3": "10% Team Context + 38.5714% Actions + 51.4286% fully reliable Presence, with continuous Presence reliability and no missing-channel reallocation"
+  },
+  "defense_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "defense_verdict": "PROMOTE_DEFENSE_V2_WITH_LIMITATIONS",
+  "input_fingerprints": {
+    "longevity_tiered": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+    "peak_v2": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "step_0015a": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "step_0015b": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "v1_dimension_scores": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4"
+  },
+  "new_top_100_published": false,
+  "official_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "promotion_gates": {
+    "at_least_one_weaker_point_form_valid": true,
+    "awards_validation_only": true,
+    "career_point_pattern_valid": true,
+    "context_only_not_ranked": true,
+    "missing_presence_not_predicted": true,
+    "regular_season_only": true,
+    "team_attribution_reduced": true,
+    "team_context_at_most_10_percent": true,
+    "upstream_exact": true,
+    "v1_preserved": true
+  },
+  "recommendation": "READY_FOR_FINAL_OVERALL_V2_PROMOTION_AUDIT",
+  "step": "STEP-0015M",
+  "step_status": "PASS"
+}

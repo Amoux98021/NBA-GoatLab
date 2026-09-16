@@ -1,0 +1,463 @@
+{
+  "anchor_rows": 13923,
+  "audit_methodology_version": "goatlab-v1-defense-v2-tiered-promotion-audit-v1",
+  "career_status_counts": {
+    "DEFENSE_INTERVAL_ONLY": 2093,
+    "DEFENSE_UNAVAILABLE": 928,
+    "OFFICIAL_DEFENSE_POINT": 1746,
+    "PROVISIONAL_DEFENSE_POINT": 336
+  },
+  "career_validation": {
+    "MIXED_TRANSITION": {
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": false,
+        "interval_90_calibrated": true,
+        "mae_lte_5": false,
+        "spearman_gte_095": false
+      },
+      "intervals": {
+        "80": {
+          "coverage": 0.7988911290322581,
+          "mean_width": 29.204259390301434,
+          "median_width": 31.669188098840152
+        },
+        "90": {
+          "coverage": 0.8976814516129032,
+          "mean_width": 38.56253456802173,
+          "median_width": 40.64548663640948
+        },
+        "95": {
+          "coverage": 0.952116935483871,
+          "mean_width": 45.73250146405739,
+          "median_width": 50.93292990418557
+        }
+      },
+      "passed": false,
+      "point": {
+        "bias": 3.581364595565021e-18,
+        "calibration_intercept": 4.7047578761309055,
+        "calibration_slope": 0.9059048424773819,
+        "gt_10": 0.3709677419354839,
+        "gt_15": 0.22379032258064516,
+        "gt_5": 0.6169354838709677,
+        "mae": 9.44703365705269,
+        "median_bias": 0.0,
+        "n": 1984,
+        "pearson": 0.905904842477382,
+        "rmse": 12.529302943209869,
+        "spearman": 0.9059048424773817
+      }
+    },
+    "NO_PRESENCE": {
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": false,
+        "interval_90_calibrated": true,
+        "mae_lte_5": false,
+        "spearman_gte_095": false
+      },
+      "intervals": {
+        "80": {
+          "coverage": 0.8029233870967742,
+          "mean_width": 44.157013038244436,
+          "median_width": 48.31064044377207
+        },
+        "90": {
+          "coverage": 0.9037298387096774,
+          "mean_width": 56.80809562734859,
+          "median_width": 59.329299041855776
+        },
+        "95": {
+          "coverage": 0.9526209677419355,
+          "mean_width": 65.7778618255169,
+          "median_width": 66.64145234493192
+        }
+      },
+      "passed": false,
+      "point": {
+        "bias": -8.59527502935605e-17,
+        "calibration_intercept": 11.913265094450146,
+        "calibration_slope": 0.761734698110997,
+        "gt_10": 0.5680443548387096,
+        "gt_15": 0.4117943548387097,
+        "gt_5": 0.7515120967741935,
+        "mae": 15.251970377238788,
+        "median_bias": 0.20171457387796257,
+        "n": 1984,
+        "pearson": 0.7617346981109969,
+        "rmse": 19.93763651189232,
+        "spearman": 0.7617346981109971
+      }
+    },
+    "NO_TEAM_CONTEXT": {
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": true,
+        "interval_90_calibrated": true,
+        "mae_lte_5": true,
+        "spearman_gte_095": true
+      },
+      "intervals": {
+        "80": {
+          "coverage": 0.8029233870967742,
+          "mean_width": 10.565690425064666,
+          "median_width": 10.993444276348953
+        },
+        "90": {
+          "coverage": 0.8996975806451613,
+          "mean_width": 13.982891879361674,
+          "median_width": 14.624306606152313
+        },
+        "95": {
+          "coverage": 0.952116935483871,
+          "mean_width": 17.668427602362016,
+          "median_width": 17.8517397881997
+        }
+      },
+      "passed": true,
+      "point": {
+        "bias": 0.0,
+        "calibration_intercept": 0.5529096942111593,
+        "calibration_slope": 0.9889418061157769,
+        "gt_10": 0.03528225806451613,
+        "gt_15": 0.0010080645161290322,
+        "gt_5": 0.23235887096774194,
+        "mae": 3.193119336944675,
+        "median_bias": 0.0,
+        "n": 1984,
+        "pearson": 0.9889418061157768,
+        "rmse": 4.295219606057998,
+        "spearman": 0.9889418061157769
+      }
+    },
+    "PARTIAL_PRESENCE": {
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": true,
+        "interval_90_calibrated": true,
+        "mae_lte_5": true,
+        "spearman_gte_095": true
+      },
+      "intervals": {
+        "80": {
+          "coverage": 0.8004032258064516,
+          "mean_width": 15.036631935971888,
+          "median_width": 15.53202218860312
+        },
+        "90": {
+          "coverage": 0.9007056451612904,
+          "mean_width": 20.047673368796055,
+          "median_width": 20.877458396369136
+        },
+        "95": {
+          "coverage": 0.9556451612903226,
+          "mean_width": 24.844418484537922,
+          "median_width": 26.222894604135135
+        }
+      },
+      "passed": true,
+      "point": {
+        "bias": -1.9697505275607617e-17,
+        "calibration_intercept": 1.1717213319800024,
+        "calibration_slope": 0.9765655733604,
+        "gt_10": 0.11743951612903226,
+        "gt_15": 0.030745967741935484,
+        "gt_5": 0.3654233870967742,
+        "mae": 4.607358108437851,
+        "median_bias": 0.0504286434694885,
+        "n": 1984,
+        "pearson": 0.9765655733604,
+        "rmse": 6.252740994491702,
+        "spearman": 0.9765655733604002
+      }
+    },
+    "TRADITIONAL_ONLY": {
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": false,
+        "interval_90_calibrated": true,
+        "mae_lte_5": false,
+        "spearman_gte_095": false
+      },
+      "intervals": {
+        "80": {
+          "coverage": 0.7948588709677419,
+          "mean_width": 51.19554519870512,
+          "median_width": 55.14372163388805
+        },
+        "90": {
+          "coverage": 0.9022177419354839,
+          "mean_width": 64.07043031086819,
+          "median_width": 65.00252143217347
+        },
+        "95": {
+          "coverage": 0.9501008064516129,
+          "mean_width": 72.14280049777952,
+          "median_width": 72.31467473524962
+        }
+      },
+      "passed": false,
+      "point": {
+        "bias": -1.4325458382260084e-17,
+        "calibration_intercept": 16.49848863118256,
+        "calibration_slope": 0.6700302273763488,
+        "gt_10": 0.6305443548387096,
+        "gt_15": 0.49747983870967744,
+        "gt_5": 0.780241935483871,
+        "mae": 18.25201714573878,
+        "median_bias": 0.10085728693898233,
+        "n": 1984,
+        "pearson": 0.6700302273763488,
+        "rmse": 23.462827734668515,
+        "spearman": 0.670030227376349
+      }
+    },
+    "TRADITIONAL_PRESENCE": {
+      "gates": {
+        "absolute_bias_lte_2": true,
+        "gt_10_lte_015": false,
+        "interval_90_calibrated": true,
+        "mae_lte_5": false,
+        "spearman_gte_095": true
+      },
+      "intervals": {
+        "80": {
+          "coverage": 0.7988911290322581,
+          "mean_width": 18.018225481105524,
+          "median_width": 18.759455370650528
+        },
+        "90": {
+          "coverage": 0.9022177419354839,
+          "mean_width": 24.484758552535265,
+          "median_width": 26.021180030257185
+        },
+        "95": {
+          "coverage": 0.953125,
+          "mean_width": 29.808462658402878,
+          "median_width": 31.568330811901163
+        }
+      },
+      "passed": false,
+      "point": {
+        "bias": 1.4325458382260084e-17,
+        "calibration_intercept": 1.8247893466038576,
+        "calibration_slope": 0.9635042130679229,
+        "gt_10": 0.18245967741935484,
+        "gt_15": 0.06401209677419355,
+        "gt_5": 0.43901209677419356,
+        "mae": 5.710789696289427,
+        "median_bias": -0.025214321734743805,
+        "n": 1984,
+        "pearson": 0.9635042130679229,
+        "rmse": 7.803054486612244,
+        "spearman": 0.963504213067923
+      }
+    },
+    "career_aggregation": "Arithmetic mean of season Defense measurement on the fixed reference form, then one frozen BROAD_HIGH_RECALL midrank ECDF. This preserves V1's career-quality interpretation; season count does not add quality credit.",
+    "validation_players": 1984
+  },
+  "defense_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "defense_promotion_verdict": "PROMOTE_DEFENSE_V2_WITH_LIMITATIONS",
+  "deterministic_rebuild_verified": true,
+  "evidence_inventory": {
+    "channels": {
+      "actions": {
+        "coverage": 0.9747517477846551,
+        "definition": "40% rebound, 30% steals, 30% blocks",
+        "kind": "INDIVIDUAL_COMPOSITE",
+        "missing_is_zero": false,
+        "observed": 21890
+      },
+      "bpg": {
+        "coverage": 0.8537649730596251,
+        "definition": "blocks where officially recorded",
+        "kind": "INDIVIDUAL_ACTION",
+        "missing_is_zero": false,
+        "observed": 19173
+      },
+      "broad_role": {
+        "coverage": 0.7159460301910318,
+        "definition": "broad role when source position is reliable",
+        "kind": "INTERPRETIVE_METADATA",
+        "missing_is_zero": false,
+        "observed": 16078
+      },
+      "presence": {
+        "coverage": 0.8093244867969898,
+        "definition": "shrunk game-participation WOWY-style evidence",
+        "kind": "INDIVIDUAL_OBSERVATIONAL",
+        "missing_is_zero": false,
+        "observed": 18175
+      },
+      "rpg": {
+        "coverage": 0.9747517477846551,
+        "definition": "DREB where observed, historical TRB proxy otherwise",
+        "kind": "INDIVIDUAL_PROXY",
+        "missing_is_zero": false,
+        "observed": 21890
+      },
+      "spg": {
+        "coverage": 0.8537649730596251,
+        "definition": "steals where officially recorded",
+        "kind": "INDIVIDUAL_ACTION",
+        "missing_is_zero": false,
+        "observed": 19173
+      },
+      "team_context": {
+        "coverage": 0.9651333659883332,
+        "definition": "era-relative team suppression",
+        "kind": "TEAM_SHARED_CONTEXT",
+        "missing_is_zero": false,
+        "observed": 21674
+      }
+    },
+    "player_seasons": 22457,
+    "presence_reliability": {
+      "fully_reliable": 15616,
+      "observed": 18175,
+      "partially_reliable": 2559,
+      "predicted_when_missing": false
+    },
+    "season_span": [
+      1946,
+      2025
+    ]
+  },
+  "input_fingerprints": {
+    "longevity_tiered": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+    "peak_v2": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "step_0015a": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "step_0015b": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "v1_dimension_scores": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4"
+  },
+  "network_requests": 0,
+  "new_top_100_published": false,
+  "output_fingerprint": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7",
+  "outputs": [
+    {
+      "path": "data/gold/defense_v2_tiered_promotion_audit/anchor-masked-defense-forms.parquet",
+      "rows": 13923,
+      "sha256": "8b1f4f773f9e70189710f2299a1cc22aebc9110e8b09118928dbff114befac61",
+      "size_bytes": 1293106
+    },
+    {
+      "path": "data/gold/defense_v2_tiered_promotion_audit/defense-v2-season-measurements.parquet",
+      "rows": 22457,
+      "sha256": "c1ceebee59b71eb40565bf9949df95f9713291436d3ed776ba18ac91057245b8",
+      "size_bytes": 2203954
+    },
+    {
+      "path": "data/gold/defense_v2_tiered_promotion_audit/defense-v2-career-validation.parquet",
+      "rows": 11904,
+      "sha256": "6e50cbdd9fa81a189f5788e7fcba35d4c830660a4623673c59e3e57ff51884b7",
+      "size_bytes": 299579
+    },
+    {
+      "path": "data/gold/defense_v2_tiered_promotion_audit/player-defense-v2-tiered.parquet",
+      "rows": 5103,
+      "sha256": "81d0dc4723884a8efeebaa9bdee19fbf52a8d9373d1d767ff49af9d23cb86418",
+      "size_bytes": 306851
+    },
+    {
+      "path": "data/gold/defense_v2_tiered_promotion_audit/defense-v2-diagnostic-players.parquet",
+      "rows": 22,
+      "sha256": "ee691a8655fe693a957a214e5cb8cac94c164f350faf20e3225dfa5a209af6bb",
+      "size_bytes": 13971
+    },
+    {
+      "path": "data/gold/defense_v2_tiered_promotion_audit/overall-defense-v2-sensitivity.parquet",
+      "rows": 5103,
+      "sha256": "ed49cf8fd76c7ade95f6141917eb0cbca11d163c64bf15bb4bbd38a5044c4a76",
+      "size_bytes": 223025
+    },
+    {
+      "path": "data/gold/defense_v2_tiered_promotion_audit/v1-top100-defense-transition.parquet",
+      "rows": 100,
+      "sha256": "32f1a697b143831f8a5697b83bb42b851b7d573e7bbd17a7cf8e1f2ed19f2df0",
+      "size_bytes": 9821
+    }
+  ],
+  "overall_sensitivity": {
+    "common_players": 1882,
+    "mean_central_difference": 0.21652424032888315,
+    "mean_interval_width_change": 0.42858402497988063,
+    "new_top_100_published": false,
+    "spearman": 0.9840131495203976,
+    "status_changes": {
+      "OFFICIAL_OVERALL_POINT->OFFICIAL_OVERALL_POINT": 550,
+      "OFFICIAL_OVERALL_POINT->OVERALL_INTERVAL_ONLY": 52,
+      "OVERALL_UNAVAILABLE->OVERALL_INTERVAL_ONLY": 807,
+      "OVERALL_UNAVAILABLE->OVERALL_UNAVAILABLE": 2414,
+      "PROVISIONAL_OVERALL_POINT->OVERALL_INTERVAL_ONLY": 1234,
+      "PROVISIONAL_OVERALL_POINT->PROVISIONAL_OVERALL_POINT": 46
+    },
+    "weights_changed": false
+  },
+  "promotion_gates": {
+    "at_least_one_weaker_point_form_valid": true,
+    "awards_validation_only": true,
+    "career_point_pattern_valid": true,
+    "context_only_not_ranked": true,
+    "missing_presence_not_predicted": true,
+    "regular_season_only": true,
+    "team_attribution_reduced": true,
+    "team_context_at_most_10_percent": true,
+    "upstream_exact": true,
+    "v1_preserved": true
+  },
+  "recommendation": "READY_FOR_FINAL_OVERALL_V2_PROMOTION_AUDIT",
+  "reconstruction": {
+    "candidate_b_exact": true,
+    "candidate_b_maximum_difference": 0.0,
+    "candidate_b_rows": 5103,
+    "continuous_candidate_rows": 21674,
+    "continuous_candidate_source_fingerprint_verified": true,
+    "defense_v1_maximum_difference": 0.0,
+    "defense_v1_rows": 5103,
+    "defense_v1_score_mismatches": 0,
+    "exact": true,
+    "maximum_numerical_difference": 0.0,
+    "step_0015h_fingerprint_verified": true,
+    "step_0015l_fingerprint_verified": true
+  },
+  "report_hashes": {
+    "defense-v2-career-uncertainty.json": "6ed2e379ae7395195613fa8ba6b6aae70808bf41fff90ba8a6b55abd33691445",
+    "defense-v2-career-validation.json": "5aac6a4e06df918e76d7743c2a54221bd9beecb1d5929c2c20430c22df56242c",
+    "defense-v2-diagnostic-players.json": "ccad2d7bf766f1928385c4fa2e700fe6daa94a3b1cd07fd0b5d65fd4bccd3bfa",
+    "defense-v2-effective-influence.json": "0bbcd77f412f66707c9b9d21380b3a14d5fab7667e746bb7f12c4c3517c5990a",
+    "defense-v2-joint-uncertainty.json": "a0ffaa9011c3737e551bb98553bee75933e3d428763e04eaf11611e3e2444ef0",
+    "defense-v2-measurement-linking.json": "a459c6afa6c4289e65c47df1edcc06a21f527ec7cdd2b8b8c629dc27d0d09204",
+    "defense-v2-overall-sensitivity.json": "f17b2863bb25adc5d229f1fb9aa5973b6445476f5e91c52f15a3924a6a0fb59a",
+    "defense-v2-role-archetype-audit.json": "c830acd49a0c03f8f4efbc4027794ac7556ad1db9bd957e70178f3f0c8d539f9",
+    "defense-v2-status-summary.json": "7c8cec4e063b4b5f369e5d77ad56b3e832208f8fc6175ccd70ca700f8b572831",
+    "defense-v2-team-weight-audit.json": "7ab20ac8731289531ad9fb7765d845b2cad0e61cdc92d2e39ced18334a5f2d3e",
+    "defense-v2-tiered-promotion-verdict.json": "fbe1e082776fd2dc4c939fc75d1a7fad6096fb41c8b29ce079fac837ddbcacdb",
+    "defense-v2-validation.json": "4acb4885943b53b7643774534bbd627ea92359a6b75ad4663e77cc40c5ce3ded",
+    "v1-top100-defense-transition.json": "b1ae3f329c593ee555dda4e2de38fde765bd0f5bdb39a6687f2cb3d390478572"
+  },
+  "run_at": "2026-09-16T15:00:00Z",
+  "runtime_seconds": 20.594847542000934,
+  "season_status_counts": {
+    "DEFENSE_INTERVAL_ONLY": 4595,
+    "DEFENSE_UNAVAILABLE": 127,
+    "OFFICIAL_DEFENSE_POINT": 13923,
+    "PROVISIONAL_DEFENSE_POINT": 3812
+  },
+  "selected_linkers": {
+    "DEF_ACTION_NO_PRESENCE": "linear",
+    "DEF_ACTION_PARTIAL_PRESENCE": "linear",
+    "DEF_ACTION_PRESENCE_NO_CONTEXT": "linear",
+    "DEF_CONTEXT_ONLY": "linear",
+    "DEF_CONTEXT_PRESENCE": "role_isotonic",
+    "DEF_REBOUND_ONLY": "isotonic",
+    "DEF_TRADITIONAL": "linear",
+    "DEF_TRADITIONAL_PRESENCE": "role_isotonic"
+  },
+  "selected_team_weight": 0.1,
+  "step": "STEP-0015M",
+  "step_status": "PASS"
+}

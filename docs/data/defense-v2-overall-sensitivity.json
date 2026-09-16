@@ -1,0 +1,29 @@
+{
+  "audit_methodology_version": "goatlab-v1-defense-v2-tiered-promotion-audit-v1",
+  "common_players": 1882,
+  "defense_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "input_fingerprints": {
+    "longevity_tiered": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+    "peak_v2": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "step_0015a": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "step_0015b": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "v1_dimension_scores": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4"
+  },
+  "mean_central_difference": 0.21652424032888315,
+  "mean_interval_width_change": 0.42858402497988063,
+  "new_top_100_published": false,
+  "spearman": 0.9840131495203976,
+  "status_changes": {
+    "OFFICIAL_OVERALL_POINT->OFFICIAL_OVERALL_POINT": 550,
+    "OFFICIAL_OVERALL_POINT->OVERALL_INTERVAL_ONLY": 52,
+    "OVERALL_UNAVAILABLE->OVERALL_INTERVAL_ONLY": 807,
+    "OVERALL_UNAVAILABLE->OVERALL_UNAVAILABLE": 2414,
+    "PROVISIONAL_OVERALL_POINT->OVERALL_INTERVAL_ONLY": 1234,
+    "PROVISIONAL_OVERALL_POINT->PROVISIONAL_OVERALL_POINT": 46
+  },
+  "step": "STEP-0015M",
+  "weights_changed": false
+}

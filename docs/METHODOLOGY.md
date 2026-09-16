@@ -377,3 +377,26 @@ This living summary may be extended, but methodology changes must also receive a
   calibration-model uncertainty is not modeled.
 - Outcome: `PASS + LIMITED_OVERALL_UNCERTAINTY_ARCHITECTURE`. Overall V1 remains frozen, no Top
   100 is published, and every row carries `DEFENSE_V1_FROZEN_PENDING_REVISION`.
+
+## Tiered Defense V2
+
+- **Decision:** `PASS + PROMOTE_DEFENSE_V2_WITH_LIMITATIONS` under
+  `goatlab-v1-defense-v2-tiered`; Defense V1 remains reproducible.
+- **Rich form:** 10% Team Context, 38.5714% role-aware actions, and 51.4286% observed Presence.
+  The action/Presence ratio preserves Candidate B's 3:4 balance after bounding team inheritance.
+- **Actions:** 40% rebound evidence, 30% steals, 30% blocks; 65% global and 35% broad-role
+  interpretation where role metadata are reliable. Role does not impose equal ceilings.
+- **Presence:** continuously reliability-weighted, opponent/context-adjusted game-participation
+  evidence. Missing Presence is never predicted, zero-filled, or reallocated.
+- **Measurement:** weaker factual forms are linked with player-grouped cross-fitting. Split-conformal
+  80/90/95 intervals and explicit gates produce official, provisional, interval-only, or
+  unavailable status.
+- **Career validation:** no-Team-Context and partial-Presence patterns pass (MAE/rho 3.19/0.9889
+  and 4.61/0.9766). No-Presence and traditional-only patterns remain interval-only.
+- **Coverage:** 1,746 official career points, 336 provisional points, 2,093 interval-only, and 928
+  unavailable. Universal point coverage is not manufactured.
+- **Attribution:** Team Context has 4.34% effective covariance share. Presence has 90.29%, an
+  explicit observational limitation rather than a causal claim.
+- **Ownership:** Regular Season only; awards and modern defensive rating are validation-only.
+- **Overall boundary:** no ranking is promoted. Future Overall work must preserve empirical
+  Defense–Peak–Longevity error dependence.

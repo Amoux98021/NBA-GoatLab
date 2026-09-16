@@ -135,3 +135,24 @@ audits; it does not change the definitions of Peak or Longevity.
 - `goatlab-v1-overall-v1` remains the frozen historical baseline until a distinct
   uncertainty-aware Overall methodology is validated and explicitly versioned.
 - Active careers remain `TO_DATE_NO_PROJECTION` through the frozen 2025-26 cutoff.
+
+## STEP-0015M Defense measurement-policy clarification
+
+This section implements Triangulated Defensive Impact after the V1 attribution audit; it does not
+change Defense's philosophical definition.
+
+- `goatlab-v1-defense-v2-tiered` bounds era-relative Team Context at 10% of the rich reference
+  form. Individual role-aware actions and observed Presence are primary.
+- Role-aware actions remain 40% rebound evidence, 30% steals, and 30% blocks. Broad-role context
+  interprets action evidence and never forces equal defensive ceilings.
+- Defensive Presence Impact is observational, reliability-weighted Regular Season evidence. It is
+  neither RAPM nor a causal estimate.
+- Missing Presence is never predicted, zero-filled, or silently reallocated into team/actions.
+  Weaker factual forms are linked to the rich-form scale and receive calibrated uncertainty.
+- Defense status is `OFFICIAL_DEFENSE_POINT`, `PROVISIONAL_DEFENSE_POINT`,
+  `DEFENSE_INTERVAL_ONLY`, or `DEFENSE_UNAVAILABLE`. An interval center is not an official point.
+- DPOY, All-Defense, postseason evidence, championships, and modern-only metrics do not add Defense
+  points. Awards and richer modern evidence remain validation only.
+- Defense uncertainty may depend on Peak/Longevity uncertainty because the dimensions share
+  evidence. A future Overall simulation may not assume those errors are independent.
+- Defense V1 and Overall V1 remain permanent reproducible historical baselines.

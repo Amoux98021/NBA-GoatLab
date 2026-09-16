@@ -1,0 +1,49 @@
+methodology_version: goatlab-v1-defense-v2-tiered
+status: promoted_with_limitations
+question: How much opponent offensive value did this player help prevent during the Regular Season?
+reference_form:
+  team_context_weight: 0.10
+  role_aware_actions_weight: 0.3857142857142857
+  observed_presence_weight: 0.5142857142857143
+  rationale: Candidate B's action-to-Presence ratio of 3:4 is retained after bounding Team Context.
+actions:
+  rebound_weight: 0.40
+  steal_weight: 0.30
+  block_weight: 0.30
+  role_interpretation:
+    global_percentile_weight: 0.65
+    broad_role_percentile_weight: 0.35
+presence:
+  type: non-causal Defensive Presence Impact
+  reliability_weighted: true
+  predicted_when_missing: false
+  missing_weight_redistributed: false
+measurement:
+  linkers:
+    - linear
+    - isotonic
+    - broad-role isotonic where cross-validation supports it
+  primary_validation: five-fold grouped by player
+  intervals: split conformal at 80/90/95 percent
+  reference_form_is_truth: false
+statuses:
+  - OFFICIAL_DEFENSE_POINT
+  - PROVISIONAL_DEFENSE_POINT
+  - DEFENSE_INTERVAL_ONLY
+  - DEFENSE_UNAVAILABLE
+scale:
+  type: fixed_midrank_ecdf
+  reference_population: BROAD_HIGH_RECALL
+ownership:
+  regular_season_only: true
+  awards_validation_only: true
+  postseason_excluded: true
+  championships_excluded: true
+career:
+  aggregation: mean season Defense measurement then fixed ECDF
+  quality_credit_for_season_count: false
+  active_policy: TO_DATE_NO_PROJECTION
+limitations:
+  - no-Presence and traditional-only careers are interval-only
+  - observed Presence is observational and effectively dominant in the rich form
+  - modern defensive-rating validation is weak and is not a fitting target

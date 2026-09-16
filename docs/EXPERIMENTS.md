@@ -369,3 +369,22 @@ Future experiments must record the objective, input snapshot, feature version, c
   before a dedicated Overall promotion decision.
 - **Optimization target:** calibration only. No player identity, conventional rank, award outcome,
   confidence penalty, or player-specific adjustment enters the architecture.
+
+## STEP-0015M Defense V2 tiered promotion
+
+- Reconstructed Defense V1 and STEP-0015A Candidate B exactly (maximum difference 0.0) and
+  fingerprint-verified STEP-0015B/H/L inputs.
+- Compared predeclared Team Context weights of 10/15/20/30%. Score/team correlation was
+  0.186/0.272/0.362/0.541; 10% was selected before named-player review.
+- Paired 13,923 rich-form player-seasons with eight weaker factual forms. Tested identity, linear,
+  equipercentile, isotonic, and role-isotonic linkers with player-grouped, era-block, and random
+  folds.
+- Actions+Presence/no-context, partial-Presence, and traditional+Presence season forms passed point
+  gates. Every no-Presence form failed and remained interval-only; context-only is unavailable.
+- Split-conformal 90% coverage was 89.91%–90.25%. Career validation used 1,984 rich-form careers;
+  no-context and partial-Presence patterns passed, while traditional+Presence, no-Presence,
+  traditional-only, and mixed patterns failed at least one point gate.
+- Modern defensive rating remained weak and awards were validation-only. Neither selected weights
+  nor linkers.
+- Diagnostic Overall sensitivity changed no frozen weight and published no ranking.
+- Output fingerprint: `a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7`.

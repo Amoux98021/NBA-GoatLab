@@ -1,0 +1,263 @@
+{
+  "MIXED_TRANSITION": {
+    "gates": {
+      "absolute_bias_lte_2": true,
+      "gt_10_lte_015": false,
+      "interval_90_calibrated": true,
+      "mae_lte_5": false,
+      "spearman_gte_095": false
+    },
+    "intervals": {
+      "80": {
+        "coverage": 0.7988911290322581,
+        "mean_width": 29.204259390301434,
+        "median_width": 31.669188098840152
+      },
+      "90": {
+        "coverage": 0.8976814516129032,
+        "mean_width": 38.56253456802173,
+        "median_width": 40.64548663640948
+      },
+      "95": {
+        "coverage": 0.952116935483871,
+        "mean_width": 45.73250146405739,
+        "median_width": 50.93292990418557
+      }
+    },
+    "passed": false,
+    "point": {
+      "bias": 3.581364595565021e-18,
+      "calibration_intercept": 4.7047578761309055,
+      "calibration_slope": 0.9059048424773819,
+      "gt_10": 0.3709677419354839,
+      "gt_15": 0.22379032258064516,
+      "gt_5": 0.6169354838709677,
+      "mae": 9.44703365705269,
+      "median_bias": 0.0,
+      "n": 1984,
+      "pearson": 0.905904842477382,
+      "rmse": 12.529302943209869,
+      "spearman": 0.9059048424773817
+    }
+  },
+  "NO_PRESENCE": {
+    "gates": {
+      "absolute_bias_lte_2": true,
+      "gt_10_lte_015": false,
+      "interval_90_calibrated": true,
+      "mae_lte_5": false,
+      "spearman_gte_095": false
+    },
+    "intervals": {
+      "80": {
+        "coverage": 0.8029233870967742,
+        "mean_width": 44.157013038244436,
+        "median_width": 48.31064044377207
+      },
+      "90": {
+        "coverage": 0.9037298387096774,
+        "mean_width": 56.80809562734859,
+        "median_width": 59.329299041855776
+      },
+      "95": {
+        "coverage": 0.9526209677419355,
+        "mean_width": 65.7778618255169,
+        "median_width": 66.64145234493192
+      }
+    },
+    "passed": false,
+    "point": {
+      "bias": -8.59527502935605e-17,
+      "calibration_intercept": 11.913265094450146,
+      "calibration_slope": 0.761734698110997,
+      "gt_10": 0.5680443548387096,
+      "gt_15": 0.4117943548387097,
+      "gt_5": 0.7515120967741935,
+      "mae": 15.251970377238788,
+      "median_bias": 0.20171457387796257,
+      "n": 1984,
+      "pearson": 0.7617346981109969,
+      "rmse": 19.93763651189232,
+      "spearman": 0.7617346981109971
+    }
+  },
+  "NO_TEAM_CONTEXT": {
+    "gates": {
+      "absolute_bias_lte_2": true,
+      "gt_10_lte_015": true,
+      "interval_90_calibrated": true,
+      "mae_lte_5": true,
+      "spearman_gte_095": true
+    },
+    "intervals": {
+      "80": {
+        "coverage": 0.8029233870967742,
+        "mean_width": 10.565690425064666,
+        "median_width": 10.993444276348953
+      },
+      "90": {
+        "coverage": 0.8996975806451613,
+        "mean_width": 13.982891879361674,
+        "median_width": 14.624306606152313
+      },
+      "95": {
+        "coverage": 0.952116935483871,
+        "mean_width": 17.668427602362016,
+        "median_width": 17.8517397881997
+      }
+    },
+    "passed": true,
+    "point": {
+      "bias": 0.0,
+      "calibration_intercept": 0.5529096942111593,
+      "calibration_slope": 0.9889418061157769,
+      "gt_10": 0.03528225806451613,
+      "gt_15": 0.0010080645161290322,
+      "gt_5": 0.23235887096774194,
+      "mae": 3.193119336944675,
+      "median_bias": 0.0,
+      "n": 1984,
+      "pearson": 0.9889418061157768,
+      "rmse": 4.295219606057998,
+      "spearman": 0.9889418061157769
+    }
+  },
+  "PARTIAL_PRESENCE": {
+    "gates": {
+      "absolute_bias_lte_2": true,
+      "gt_10_lte_015": true,
+      "interval_90_calibrated": true,
+      "mae_lte_5": true,
+      "spearman_gte_095": true
+    },
+    "intervals": {
+      "80": {
+        "coverage": 0.8004032258064516,
+        "mean_width": 15.036631935971888,
+        "median_width": 15.53202218860312
+      },
+      "90": {
+        "coverage": 0.9007056451612904,
+        "mean_width": 20.047673368796055,
+        "median_width": 20.877458396369136
+      },
+      "95": {
+        "coverage": 0.9556451612903226,
+        "mean_width": 24.844418484537922,
+        "median_width": 26.222894604135135
+      }
+    },
+    "passed": true,
+    "point": {
+      "bias": -1.9697505275607617e-17,
+      "calibration_intercept": 1.1717213319800024,
+      "calibration_slope": 0.9765655733604,
+      "gt_10": 0.11743951612903226,
+      "gt_15": 0.030745967741935484,
+      "gt_5": 0.3654233870967742,
+      "mae": 4.607358108437851,
+      "median_bias": 0.0504286434694885,
+      "n": 1984,
+      "pearson": 0.9765655733604,
+      "rmse": 6.252740994491702,
+      "spearman": 0.9765655733604002
+    }
+  },
+  "TRADITIONAL_ONLY": {
+    "gates": {
+      "absolute_bias_lte_2": true,
+      "gt_10_lte_015": false,
+      "interval_90_calibrated": true,
+      "mae_lte_5": false,
+      "spearman_gte_095": false
+    },
+    "intervals": {
+      "80": {
+        "coverage": 0.7948588709677419,
+        "mean_width": 51.19554519870512,
+        "median_width": 55.14372163388805
+      },
+      "90": {
+        "coverage": 0.9022177419354839,
+        "mean_width": 64.07043031086819,
+        "median_width": 65.00252143217347
+      },
+      "95": {
+        "coverage": 0.9501008064516129,
+        "mean_width": 72.14280049777952,
+        "median_width": 72.31467473524962
+      }
+    },
+    "passed": false,
+    "point": {
+      "bias": -1.4325458382260084e-17,
+      "calibration_intercept": 16.49848863118256,
+      "calibration_slope": 0.6700302273763488,
+      "gt_10": 0.6305443548387096,
+      "gt_15": 0.49747983870967744,
+      "gt_5": 0.780241935483871,
+      "mae": 18.25201714573878,
+      "median_bias": 0.10085728693898233,
+      "n": 1984,
+      "pearson": 0.6700302273763488,
+      "rmse": 23.462827734668515,
+      "spearman": 0.670030227376349
+    }
+  },
+  "TRADITIONAL_PRESENCE": {
+    "gates": {
+      "absolute_bias_lte_2": true,
+      "gt_10_lte_015": false,
+      "interval_90_calibrated": true,
+      "mae_lte_5": false,
+      "spearman_gte_095": true
+    },
+    "intervals": {
+      "80": {
+        "coverage": 0.7988911290322581,
+        "mean_width": 18.018225481105524,
+        "median_width": 18.759455370650528
+      },
+      "90": {
+        "coverage": 0.9022177419354839,
+        "mean_width": 24.484758552535265,
+        "median_width": 26.021180030257185
+      },
+      "95": {
+        "coverage": 0.953125,
+        "mean_width": 29.808462658402878,
+        "median_width": 31.568330811901163
+      }
+    },
+    "passed": false,
+    "point": {
+      "bias": 1.4325458382260084e-17,
+      "calibration_intercept": 1.8247893466038576,
+      "calibration_slope": 0.9635042130679229,
+      "gt_10": 0.18245967741935484,
+      "gt_15": 0.06401209677419355,
+      "gt_5": 0.43901209677419356,
+      "mae": 5.710789696289427,
+      "median_bias": -0.025214321734743805,
+      "n": 1984,
+      "pearson": 0.9635042130679229,
+      "rmse": 7.803054486612244,
+      "spearman": 0.963504213067923
+    }
+  },
+  "audit_methodology_version": "goatlab-v1-defense-v2-tiered-promotion-audit-v1",
+  "career_aggregation": "Arithmetic mean of season Defense measurement on the fixed reference form, then one frozen BROAD_HIGH_RECALL midrank ECDF. This preserves V1's career-quality interpretation; season count does not add quality credit.",
+  "defense_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "input_fingerprints": {
+    "longevity_tiered": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+    "peak_v2": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "step_0015a": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "step_0015b": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "v1_dimension_scores": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4"
+  },
+  "step": "STEP-0015M",
+  "validation_players": 1984
+}

@@ -1,0 +1,113 @@
+{
+  "audit_methodology_version": "goatlab-v1-defense-v2-tiered-promotion-audit-v1",
+  "awards": {
+    "awards_used_as_score_inputs": false,
+    "validation": {
+      "DEFENSE_V2": {
+        "ALL_DEFENSE": {
+          "median_score": 91.25602074842534,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.5294117647058824,
+          "share_at_or_above_95": 0.3582887700534759
+        },
+        "DPOY": {
+          "median_score": 96.81363467951093,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.8518518518518519,
+          "share_at_or_above_95": 0.7407407407407407
+        }
+      },
+      "V1": {
+        "ALL_DEFENSE": {
+          "median_score": 86.24717407686511,
+          "recognized_players": 187,
+          "share_at_or_above_90": 0.41711229946524064,
+          "share_at_or_above_95": 0.24598930481283424
+        },
+        "DPOY": {
+          "median_score": 93.48153730218539,
+          "recognized_players": 27,
+          "share_at_or_above_90": 0.5925925925925926,
+          "share_at_or_above_95": 0.4444444444444444
+        }
+      }
+    }
+  },
+  "defense_methodology_version": "goatlab-v1-defense-v2-tiered",
+  "input_fingerprints": {
+    "longevity_tiered": "10ddf4266cf0f857d398ede01c336e012d7f6ae3d8c29c5442514c7585b76779",
+    "peak_v2": "0359b58240388e70c3dc3e6447b1786d506e344ad826c8b6bb22879e9c057b17",
+    "recovered_candidate_d": "d2dd838acd5f3e9e7fd732ebf967c53a59944fba1067eca95bbb148725a7f00a",
+    "step_0015a": "07397e117ed79aff52a7a1bb58c868f5100bb0560a826e736f35cf0579d80324",
+    "step_0015b": "103c3cf826393e70712b8aa2f5692ef32dad077b1556870ebb33a211cf8c171f",
+    "step_0015h": "4b1ff850f9d0df43ffd271af16277d94abd3f14cba1a9a8aa679cb3983710f54",
+    "step_0015l": "cb740fc68a77df3cb30b68e854e413c670394638ff2bf7b47401b905c7a81580",
+    "v1_dimension_scores": "4fcd1aeb7dfff5ab85a2afafc96b1b6845736d49801946d43480d387fb17d6c4"
+  },
+  "modern": {
+    "DEFENSE_V2": {
+      "bias": -7.363185001824964,
+      "calibration_intercept": 45.389316454666236,
+      "calibration_slope": 0.14083489662773074,
+      "gt_10": 0.7689345314505777,
+      "gt_15": 0.6940522036799316,
+      "gt_5": 0.8750534873769791,
+      "mae": 32.991101393207224,
+      "median_bias": -3.7859601703230297,
+      "n": 2337,
+      "pearson": 0.14009088866574046,
+      "rmse": 41.56851569253077,
+      "spearman": 0.1355104383038325
+    },
+    "V1": {
+      "bias": -6.646270392839921,
+      "calibration_intercept": 37.72418334872774,
+      "calibration_slope": 0.30901600882642133,
+      "gt_10": 0.7398373983739838,
+      "gt_15": 0.6499786050492083,
+      "gt_5": 0.8707744972186564,
+      "mae": 28.49177716128088,
+      "median_bias": -2.420666322455638,
+      "n": 2337,
+      "pearson": 0.2898356585033928,
+      "rmse": 36.759659618767934,
+      "spearman": 0.2812570358193066
+    }
+  },
+  "step": "STEP-0015M",
+  "teammate": {
+    "action_differentiation_rate": 0.8767409132818945,
+    "adjacent_teammate_pairs": 20607,
+    "presence_differentiation_rate": 0.6230407143203766,
+    "prior_near_collision_counts": {
+      "CANDIDATE_B": {
+        "mean_shared_season_absolute_gap": 0.15157695778290656,
+        "median_shared_season_absolute_gap": 0.14159471661009315,
+        "near_collision_below_0_02": 142,
+        "pairs": 11780
+      },
+      "PROMOTION_CANDIDATE": {
+        "mean_shared_season_absolute_gap": 0.13907095245308806,
+        "median_shared_season_absolute_gap": 0.12957227398349172,
+        "near_collision_below_0_02": 78,
+        "pairs": 11780
+      },
+      "V1_TEAM_DOMINANT": {
+        "mean_shared_season_absolute_gap": 0.09125979297734788,
+        "median_shared_season_absolute_gap": 0.080674036473527,
+        "near_collision_below_0_02": 1332,
+        "pairs": 11780
+      },
+      "qualified_pairs": 11780
+    },
+    "selected_v2_near_identical_rate": 0.035182219634104915
+  },
+  "temporal": {
+    "form_transition_pairs": 6681,
+    "interpretation": "transitions retain explicit status/interval changes; no channel is zero-filled",
+    "mean_transition_movement": 13.190791507715298,
+    "mean_within_form_movement": 14.993814159485872,
+    "transition_gt_20": 1577,
+    "within_form_pairs": 10612
+  }
+}
