@@ -1,0 +1,33 @@
+methodology_version: goatlab-v1-ranking-policy-v2-uncertainty-research
+status: research_only
+publication_verdict: VALID_PROBABILISTIC_RANKING_ONLY
+overall_readiness: OVERALL_V2_STILL_NOT_READY
+upstream:
+  overall_methodology: goatlab-v1-overall-v2-tiered
+  overall_audit_fingerprint: b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95
+population:
+  rule: calibrated_overall_distribution_required
+  point_status_required: false
+  unavailable_players_ranked: false
+simulation:
+  draws: 2500
+  cross_player_ranked_within_draw: true
+  shared_calibration_model_uncertainty: conditional_not_modeled
+supported_outputs:
+  - diagnostic_median_rank
+  - conformal_rank_bands_50_80_90_95
+  - topn_probabilities_10_25_50_100
+  - pairwise_order_probabilities
+  - robust_partial_order
+pairwise_semantics:
+  strong_order_minimum: 0.90
+  lean_order_minimum: 0.65
+  indeterminate_lower: 0.35
+  indeterminate_upper: 0.65
+forbidden:
+  official_exact_rank: true
+  official_top100: true
+  interval_center_as_exact_point: true
+  uncertainty_as_quality_penalty: true
+  unavailable_player_forced_into_ranking: true
+  upstream_weight_or_formula_change: true

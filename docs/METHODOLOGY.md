@@ -419,3 +419,24 @@ This living summary may be extended, but methodology changes must also receive a
   player outputs. Only 17 archived V1 Top-100 players are point-eligible; 83 are interval-only.
   A V2 Top 100 would therefore be structurally selected by evidence regime, so Overall V2 is not
   promoted and no new ranking is published. Overall V1 remains the frozen official baseline.
+
+## Interval-native ranking policy audit
+
+- `goatlab-v1-ranking-policy-v2-uncertainty-research` ranks every player with a calibrated Overall
+  distribution inside each of the frozen 2,500 STEP-0015N draws. Exact point eligibility is not a
+  distribution-rankability requirement.
+- The distribution-rankable population is 1,882 players: 312 official, 284 provisional, and 1,286
+  interval-only Overall distributions. The other 3,221 players remain unranked because a required
+  usable Overall distribution is unavailable.
+- Central Overall sort, median rank, expected rank, and pairwise expected wins are tested as
+  deterministic summaries. None passes the frozen Spearman and Top-10/25/50/100 overlap gates
+  across all historical evidence patterns.
+- Rank bands use player-grouped signed conformalized-quantile calibration in percentile-rank space.
+  The 50/80/90/95 bands are nested and contain the median-rank diagnostic. Calibration may contract
+  conservative raw bands or expand under-covering bands without changing scores or rank centers.
+- Top-N and pairwise probabilities pass their Brier and expected-calibration-error gates. Strong
+  order means at least 90%, lean order means 65%–90%, and 35%–65% is indeterminate.
+- Interval-native evidence widens rank uncertainty and never penalizes quality. A diagnostic center
+  may be displayed only with a range and non-official label; unavailable players remain unranked.
+- Result: `PASS + VALID_PROBABILISTIC_RANKING_ONLY`. No exact V2 Top 100 is generated, Overall V2
+  remains unpromoted, and Overall V1 remains frozen.

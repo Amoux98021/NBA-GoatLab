@@ -1,0 +1,1217 @@
+{
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "top_10": {
+        "brier_score": 0.0027065586633249787,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00042610169491525427,
+            "n": 1180,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.23773333333333332,
+            "n": 3,
+            "observed_rate": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5282000000000001,
+            "n": 6,
+            "observed_rate": 0.16666666666666666,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.676457142857143,
+            "n": 7,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.8796,
+            "n": 1,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.004464494569757728
+      },
+      "top_100": {
+        "brier_score": 0.013360015505430244,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0021994408201304752,
+            "n": 1073,
+            "observed_rate": 0.001863932898415657,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3224333333333333,
+            "n": 12,
+            "observed_rate": 0.25,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5061565217391305,
+            "n": 23,
+            "observed_rate": 0.6956521739130435,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7090666666666667,
+            "n": 12,
+            "observed_rate": 0.4166666666666667,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9561090909090908,
+            "n": 77,
+            "observed_rate": 0.961038961038961,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.007916457811194658
+      },
+      "top_25": {
+        "brier_score": 0.004947704461152882,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0010546391752577317,
+            "n": 1164,
+            "observed_rate": 0.001718213058419244,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3328,
+            "n": 4,
+            "observed_rate": 0.25,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5108,
+            "n": 6,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.6957333333333334,
+            "n": 6,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.894235294117647,
+            "n": 17,
+            "observed_rate": 0.9411764705882353,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0026238930659983305
+      },
+      "top_50": {
+        "brier_score": 0.006142105129490392,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0016500440528634359,
+            "n": 1135,
+            "observed_rate": 0.001762114537444934,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2865333333333333,
+            "n": 9,
+            "observed_rate": 0.2222222222222222,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.45983999999999997,
+            "n": 5,
+            "observed_rate": 0.4,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7223999999999999,
+            "n": 9,
+            "observed_rate": 0.7777777777777778,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9422461538461538,
+            "n": 39,
+            "observed_rate": 0.9487179487179487,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0014670008354218875
+      }
+    },
+    "FULL_REFERENCE": {
+      "top_10": {
+        "brier_score": 0.0012011736006683378,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00035274261603375533,
+            "n": 1185,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.5057333333333334,
+            "n": 3,
+            "observed_rate": 0.6666666666666666,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7514000000000001,
+            "n": 2,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9374285714285715,
+            "n": 7,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0015385129490392644
+      },
+      "top_100": {
+        "brier_score": 0.002149742890559733,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0011526605504587155,
+            "n": 1090,
+            "observed_rate": 0.0009174311926605505,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.24847999999999998,
+            "n": 5,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.485,
+            "n": 2,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.6884666666666667,
+            "n": 6,
+            "observed_rate": 0.8333333333333334,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9829829787234041,
+            "n": 94,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.004124979114452809
+      },
+      "top_25": {
+        "brier_score": 0.0017327735338345863,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.000574508126603935,
+            "n": 1169,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2948,
+            "n": 1,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4536,
+            "n": 1,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7437999999999999,
+            "n": 6,
+            "observed_rate": 0.6666666666666666,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9558599999999998,
+            "n": 20,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0023879699248120327
+      },
+      "top_50": {
+        "brier_score": 0.002339790008354219,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00041053555750658475,
+            "n": 1139,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2637333333333334,
+            "n": 6,
+            "observed_rate": 0.16666666666666666,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4168,
+            "n": 3,
+            "observed_rate": 0.6666666666666666,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.70808,
+            "n": 5,
+            "observed_rate": 0.6,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.980890909090909,
+            "n": 44,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.00265730994152047
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "top_10": {
+        "brier_score": 0.002438229440267335,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0003366101694915254,
+            "n": 1180,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.23853333333333335,
+            "n": 3,
+            "observed_rate": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.51064,
+            "n": 5,
+            "observed_rate": 0.2,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.67995,
+            "n": 8,
+            "observed_rate": 0.875,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.8944,
+            "n": 1,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0032588137009189637
+      },
+      "top_100": {
+        "brier_score": 0.010371046282372598,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.002121189591078067,
+            "n": 1076,
+            "observed_rate": 0.0009293680297397769,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.30712727272727275,
+            "n": 11,
+            "observed_rate": 0.18181818181818182,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.51375,
+            "n": 16,
+            "observed_rate": 0.625,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7076666666666668,
+            "n": 18,
+            "observed_rate": 0.7777777777777778,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.965542105263158,
+            "n": 76,
+            "observed_rate": 0.9605263157894737,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.005082706766917297
+      },
+      "top_25": {
+        "brier_score": 0.004383997326649958,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0011436909871244635,
+            "n": 1165,
+            "observed_rate": 0.0017167381974248926,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.31906666666666667,
+            "n": 3,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5208,
+            "n": 6,
+            "observed_rate": 0.6666666666666666,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.6894,
+            "n": 6,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9087764705882353,
+            "n": 17,
+            "observed_rate": 0.9411764705882353,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0034980785296574762
+      },
+      "top_50": {
+        "brier_score": 0.005488457142857143,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.001327112676056338,
+            "n": 1136,
+            "observed_rate": 0.0008802816901408451,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3115555555555556,
+            "n": 9,
+            "observed_rate": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4908799999999999,
+            "n": 5,
+            "observed_rate": 0.2,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7496666666666667,
+            "n": 6,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.944780487804878,
+            "n": 41,
+            "observed_rate": 0.9512195121951219,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0032781954887218037
+      }
+    },
+    "NO_PRESENCE_CAREER": {
+      "top_10": {
+        "brier_score": 0.003585960100250627,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00044580152671755733,
+            "n": 1179,
+            "observed_rate": 0.0008481764206955047,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3405,
+            "n": 4,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4986,
+            "n": 8,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.6872666666666666,
+            "n": 6,
+            "observed_rate": 0.8333333333333334,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.002275689223057645
+      },
+      "top_100": {
+        "brier_score": 0.015598786833751042,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.002197942001870907,
+            "n": 1069,
+            "observed_rate": 0.0018709073900841909,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2817066666666667,
+            "n": 15,
+            "observed_rate": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.51505,
+            "n": 16,
+            "observed_rate": 0.5625,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.699712,
+            "n": 25,
+            "observed_rate": 0.64,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9401555555555556,
+            "n": 72,
+            "observed_rate": 0.9444444444444444,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0030783625730994076
+      },
+      "top_25": {
+        "brier_score": 0.006304410091896407,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0011762478485370053,
+            "n": 1162,
+            "observed_rate": 0.0008605851979345956,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.29872,
+            "n": 5,
+            "observed_rate": 0.4,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5473,
+            "n": 4,
+            "observed_rate": 0.75,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7180470588235295,
+            "n": 17,
+            "observed_rate": 0.5882352941176471,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.8603999999999998,
+            "n": 9,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.004300083542188807
+      },
+      "top_50": {
+        "brier_score": 0.007342704227234755,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.002577072310405644,
+            "n": 1134,
+            "observed_rate": 0.0008818342151675485,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.3131555555555556,
+            "n": 9,
+            "observed_rate": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5045142857142857,
+            "n": 7,
+            "observed_rate": 0.42857142857142855,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.742725,
+            "n": 16,
+            "observed_rate": 0.875,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9304516129032259,
+            "n": 31,
+            "observed_rate": 0.9354838709677419,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.004100250626566413
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "top_10": {
+        "brier_score": 0.0019178543692564744,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00038072696534234996,
+            "n": 1183,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2364,
+            "n": 2,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5885333333333334,
+            "n": 3,
+            "observed_rate": 0.3333333333333333,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.736,
+            "n": 4,
+            "observed_rate": 0.75,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.8734399999999999,
+            "n": 5,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0020317460317460325
+      },
+      "top_100": {
+        "brier_score": 0.007284253299916458,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0009730627306273063,
+            "n": 1084,
+            "observed_rate": 0.0009225092250922509,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2721,
+            "n": 4,
+            "observed_rate": 0.75,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5173454545454547,
+            "n": 11,
+            "observed_rate": 0.2727272727272727,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7126181818181819,
+            "n": 11,
+            "observed_rate": 0.6363636363636364,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9692781609195403,
+            "n": 87,
+            "observed_rate": 0.9885057471264368,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.00598897243107769
+      },
+      "top_25": {
+        "brier_score": 0.003010008220551378,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.000555746140651801,
+            "n": 1166,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.27912,
+            "n": 5,
+            "observed_rate": 0.4,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5748,
+            "n": 2,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7237,
+            "n": 4,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9456000000000001,
+            "n": 20,
+            "observed_rate": 0.95,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0025777777777777756
+      },
+      "top_50": {
+        "brier_score": 0.004097347101086049,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.00122169728783902,
+            "n": 1143,
+            "observed_rate": 0.0008748906386701663,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.224,
+            "n": 1,
+            "observed_rate": 1.0,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.44810000000000005,
+            "n": 4,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.7424000000000001,
+            "n": 5,
+            "observed_rate": 0.8,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9744363636363638,
+            "n": 44,
+            "observed_rate": 0.9545454545454546,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0021246449456975803
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "top_10": {
+        "brier_score": 0.0038490717460317463,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.000732088285229202,
+            "n": 1178,
+            "observed_rate": 0.0,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2836666666666667,
+            "n": 6,
+            "observed_rate": 0.3333333333333333,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.5105500000000001,
+            "n": 8,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.67024,
+            "n": 5,
+            "observed_rate": 0.8,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0015819548872180456
+      },
+      "top_100": {
+        "brier_score": 0.023275533634085212,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.004814689265536722,
+            "n": 1062,
+            "observed_rate": 0.006591337099811676,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.30183076923076924,
+            "n": 26,
+            "observed_rate": 0.4230769230769231,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.4982666666666667,
+            "n": 24,
+            "observed_rate": 0.5,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.708895238095238,
+            "n": 21,
+            "observed_rate": 0.47619047619047616,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.94053125,
+            "n": 64,
+            "observed_rate": 0.9375,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.008489223057644112
+      },
+      "top_25": {
+        "brier_score": 0.007402565881370092,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.0012868512110726644,
+            "n": 1156,
+            "observed_rate": 0.0017301038062283738,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.28063333333333335,
+            "n": 12,
+            "observed_rate": 0.25,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.476,
+            "n": 5,
+            "observed_rate": 0.4,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.6847466666666667,
+            "n": 15,
+            "observed_rate": 0.6666666666666666,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.8326222222222222,
+            "n": 9,
+            "observed_rate": 0.8888888888888888,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.0017022556390977458
+      },
+      "top_50": {
+        "brier_score": 0.009974086683375103,
+        "calibration_bins": [
+          {
+            "mean_predicted": 0.002413143872113677,
+            "n": 1126,
+            "observed_rate": 0.0017761989342806395,
+            "probability_range": [
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "mean_predicted": 0.2752923076923076,
+            "n": 13,
+            "observed_rate": 0.23076923076923078,
+            "probability_range": [
+              0.2,
+              0.4
+            ]
+          },
+          {
+            "mean_predicted": 0.47316,
+            "n": 10,
+            "observed_rate": 0.4,
+            "probability_range": [
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "mean_predicted": 0.6997999999999999,
+            "n": 22,
+            "observed_rate": 0.7727272727272727,
+            "probability_range": [
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "mean_predicted": 0.9067999999999999,
+            "n": 26,
+            "observed_rate": 0.9230769230769231,
+            "probability_range": [
+              0.8,
+              1.0
+            ]
+          }
+        ],
+        "expected_calibration_error": 0.003387802840434423
+      }
+    }
+  },
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "step": "STEP-0015O",
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

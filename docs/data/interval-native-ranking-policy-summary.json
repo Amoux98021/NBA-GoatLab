@@ -1,0 +1,82 @@
+{
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "deterministic_rebuild_verified": true,
+  "network_requests": 0,
+  "output_fingerprint": "544843af8d316c6b5d54786b29562451ce01e3f6b5c35a0fe936e27fa2290a15",
+  "outputs": [
+    {
+      "path": "data/gold/interval_native_ranking_policy_audit/ranking-policy-validation.parquet",
+      "rows": 7182,
+      "sha256": "18ed524d3b922942172c49307d1784b9071995dade73ca55a58a3d699a721f43",
+      "size_bytes": 327853
+    },
+    {
+      "path": "data/gold/interval_native_ranking_policy_audit/distribution-rankable-player-ranks.parquet",
+      "rows": 1882,
+      "sha256": "dcda3c3a94ca3a9a866f3de0a8ced0d9411383ca30682b789eb42c259c7c9af4",
+      "size_bytes": 437585
+    },
+    {
+      "path": "data/gold/interval_native_ranking_policy_audit/v1-top100-uncertainty-transition.parquet",
+      "rows": 100,
+      "sha256": "b9a77d4437efc5d9627a99bb254d98f1d4de92dd7579c9dc8b247d3d493c0d77",
+      "size_bytes": 8107
+    },
+    {
+      "path": "data/gold/interval_native_ranking_policy_audit/ranking-policy-diagnostic-players.parquet",
+      "rows": 21,
+      "sha256": "c3837f40c8140f6f04c80684f0e95865c0dbfddac7b4401e4708a13f048ce636",
+      "size_bytes": 28274
+    }
+  ],
+  "overall_readiness_verdict": "OVERALL_V2_STILL_NOT_READY",
+  "policy_gates": {
+    "R0_CENTRAL_OVERALL_SORT_exact_rank_gate": false,
+    "R1_MEDIAN_RANK_exact_rank_gate": false,
+    "R2_EXPECTED_RANK_exact_rank_gate": false,
+    "R3_PAIRWISE_EXPECTED_WINS_exact_rank_gate": false,
+    "pairwise_probability_calibration": true,
+    "rank_band_calibration": true,
+    "topn_probability_calibration": true
+  },
+  "publication_verdict": "VALID_PROBABILISTIC_RANKING_ONLY",
+  "rankability": {
+    "ALL_PLAYERS": {
+      "distribution_rankable": 1882,
+      "not_rankable": 3221,
+      "population": 5103
+    },
+    "BROAD_HIGH_RECALL": {
+      "distribution_rankable": 1882,
+      "not_rankable": 774,
+      "population": 2656
+    },
+    "V1_TOP_100": {
+      "distribution_rankable": 100,
+      "not_rankable": 0,
+      "population": 100
+    }
+  },
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "recommendation": "VALIDATE_EXACT_SUMMARY_OR_ADOPT_PROBABILISTIC_PRODUCT_REQUIREMENT",
+  "report_hashes": {
+    "distribution-rankable-population.json": "9e5d31b62e38a4c093a328590ec72e5fa412b26f53a3b2aca76e90bf24a51f1a",
+    "interval-ranking-diagnostics.json": "716eee645ab4b125eaa0f2ed272d22c96dce6e39c64437982b6cc488272b59bf",
+    "interval-ranking-fairness.json": "fc94ec2bf09526046124b414115f82a5a17e3d25f4d7931b315e3da47fcea4b1",
+    "interval-ranking-reconstruction.json": "82df349090179ee813f0ac356171ce1e7adc41a074ce5397eb8eeaf5b83d0f31",
+    "pairwise-rank-calibration.json": "cab3b6e71b5de23a8fb6f3fc472e4382d28ccd2bf5a9aac3b9ca3f96a87b6b5b",
+    "rank-band-calibration.json": "0435d9c39fe8f2eb01b1cb3d3027b58a2b49a29a44a033c854cf7936d98683c0",
+    "rank-summary-validation.json": "5e9b537f3c3d836a938ff81b3286c1257caf69abff6c56044e92b52f6e010f4a",
+    "ranking-cycle-audit.json": "ce695311df61f03124aca655ea53a42b8986eedb90e16699870924e51590a4e7",
+    "ranking-policy-status.json": "be9677eab1d8597e5f52008555f9e368bc102dcf26737d08450f91f09e3c5c68",
+    "top100-policy-comparison.json": "aaf708760a7315cd6ac2a280eeddfa1b926e1d91fea66f9528ff2ed15e6e68a8",
+    "topn-probability-calibration.json": "d9bbf56567daa916d95c5a4808e1bd98b561617ee885f6aaabf650ff0d53f213"
+  },
+  "run_at": "2026-09-17T15:00:00Z",
+  "runtime_seconds": 95.90462450007908,
+  "selected_display_summary": "R1_MEDIAN_RANK_DIAGNOSTIC_ONLY",
+  "step": "STEP-0015O",
+  "step_status": "PASS",
+  "top100_generated": false,
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

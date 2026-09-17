@@ -1,0 +1,20 @@
+{
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "overall_readiness_verdict": "OVERALL_V2_STILL_NOT_READY",
+  "policy_gates": {
+    "R0_CENTRAL_OVERALL_SORT_exact_rank_gate": false,
+    "R1_MEDIAN_RANK_exact_rank_gate": false,
+    "R2_EXPECTED_RANK_exact_rank_gate": false,
+    "R3_PAIRWISE_EXPECTED_WINS_exact_rank_gate": false,
+    "pairwise_probability_calibration": true,
+    "rank_band_calibration": true,
+    "topn_probability_calibration": true
+  },
+  "publication_verdict": "VALID_PROBABILISTIC_RANKING_ONLY",
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "recommendation": "VALIDATE_EXACT_SUMMARY_OR_ADOPT_PROBABILISTIC_PRODUCT_REQUIREMENT",
+  "step": "STEP-0015O",
+  "step_status": "PASS",
+  "top100_generated": false,
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

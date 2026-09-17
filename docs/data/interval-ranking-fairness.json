@@ -1,0 +1,416 @@
+{
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "career_midpoint_decade_fairness": {
+        "1980s": {
+          "absolute_rank_mae": 38.48148148148148,
+          "n": 108,
+          "signed_percentile_bias": 0.008849283703084873,
+          "signed_rank_bias": 10.592592592592593
+        },
+        "1990s": {
+          "absolute_rank_mae": 39.91732283464567,
+          "n": 254,
+          "signed_percentile_bias": 0.0007268828238575441,
+          "signed_rank_bias": 0.8700787401574803
+        },
+        "2000s": {
+          "absolute_rank_mae": 39.56902356902357,
+          "n": 297,
+          "signed_percentile_bias": -0.0016089606732881585,
+          "signed_rank_bias": -1.9259259259259258
+        },
+        "2010s": {
+          "absolute_rank_mae": 40.53030303030303,
+          "n": 330,
+          "signed_percentile_bias": -0.0030049872155135313,
+          "signed_rank_bias": -3.596969696969697
+        },
+        "2020s": {
+          "absolute_rank_mae": 38.875,
+          "n": 208,
+          "signed_percentile_bias": 0.0015824818456397403,
+          "signed_rank_bias": 1.8942307692307692
+        }
+      },
+      "median_rank_bias": -0.33208020050125314,
+      "median_rank_mae": 39.542606516290725,
+      "role_fairness": {
+        "BIG": {
+          "absolute_rank_mae": 36.49792531120332,
+          "n": 241,
+          "signed_percentile_bias": -0.005587967151627339,
+          "signed_rank_bias": -6.6887966804979255
+        },
+        "FORWARD": {
+          "absolute_rank_mae": 39.85826771653543,
+          "n": 254,
+          "signed_percentile_bias": -0.005676921963701906,
+          "signed_rank_bias": -6.7952755905511815
+        },
+        "GUARD": {
+          "absolute_rank_mae": 42.24375,
+          "n": 320,
+          "signed_percentile_bias": 0.005179615705931496,
+          "signed_rank_bias": 6.2
+        },
+        "UNKNOWN": {
+          "absolute_rank_mae": 40.02877697841727,
+          "n": 278,
+          "signed_percentile_bias": 0.002626470252369533,
+          "signed_rank_bias": 3.143884892086331
+        },
+        "WING": {
+          "absolute_rank_mae": 37.90384615384615,
+          "n": 104,
+          "signed_percentile_bias": 0.0038557933294775396,
+          "signed_rank_bias": 4.615384615384615
+        }
+      }
+    },
+    "FULL_REFERENCE": {
+      "career_midpoint_decade_fairness": {
+        "1980s": {
+          "absolute_rank_mae": 7.462962962962963,
+          "n": 108,
+          "signed_percentile_bias": 0.0007116556824159164,
+          "signed_rank_bias": 0.8518518518518519
+        },
+        "1990s": {
+          "absolute_rank_mae": 8.39763779527559,
+          "n": 254,
+          "signed_percentile_bias": -0.0007466171991658937,
+          "signed_rank_bias": -0.8937007874015748
+        },
+        "2000s": {
+          "absolute_rank_mae": 7.673400673400673,
+          "n": 297,
+          "signed_percentile_bias": 0.00036286001198281904,
+          "signed_rank_bias": 0.43434343434343436
+        },
+        "2010s": {
+          "absolute_rank_mae": 7.460606060606061,
+          "n": 330,
+          "signed_percentile_bias": -5.0631629578998e-05,
+          "signed_rank_bias": -0.06060606060606061
+        },
+        "2020s": {
+          "absolute_rank_mae": 8.423076923076923,
+          "n": 208,
+          "signed_percentile_bias": 0.00010442773600668337,
+          "signed_rank_bias": 0.125
+        }
+      },
+      "median_rank_bias": -0.2548036758563074,
+      "median_rank_mae": 7.8279030910609855,
+      "role_fairness": {
+        "BIG": {
+          "absolute_rank_mae": 8.195020746887966,
+          "n": 241,
+          "signed_percentile_bias": -0.0022220142333704246,
+          "signed_rank_bias": -2.659751037344398
+        },
+        "FORWARD": {
+          "absolute_rank_mae": 7.350393700787402,
+          "n": 254,
+          "signed_percentile_bias": -8.222656378479006e-05,
+          "signed_rank_bias": -0.0984251968503937
+        },
+        "GUARD": {
+          "absolute_rank_mae": 8.05625,
+          "n": 320,
+          "signed_percentile_bias": 0.002260860484544695,
+          "signed_rank_bias": 2.70625
+        },
+        "UNKNOWN": {
+          "absolute_rank_mae": 7.7086330935251794,
+          "n": 278,
+          "signed_percentile_bias": -0.000573976908698605,
+          "signed_rank_bias": -0.6870503597122302
+        },
+        "WING": {
+          "absolute_rank_mae": 8.35576923076923,
+          "n": 104,
+          "signed_percentile_bias": -7.229612492770387e-05,
+          "signed_rank_bias": -0.08653846153846154
+        }
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "career_midpoint_decade_fairness": {
+        "1980s": {
+          "absolute_rank_mae": 34.51851851851852,
+          "n": 108,
+          "signed_percentile_bias": 0.00609548562764937,
+          "signed_rank_bias": 7.296296296296297
+        },
+        "1990s": {
+          "absolute_rank_mae": 32.18503937007874,
+          "n": 254,
+          "signed_percentile_bias": -0.0005098046954656984,
+          "signed_rank_bias": -0.610236220472441
+        },
+        "2000s": {
+          "absolute_rank_mae": 31.976430976430976,
+          "n": 297,
+          "signed_percentile_bias": -0.0013923698134224451,
+          "signed_rank_bias": -1.6666666666666667
+        },
+        "2010s": {
+          "absolute_rank_mae": 34.03333333333333,
+          "n": 330,
+          "signed_percentile_bias": -0.0015062909799751904,
+          "signed_rank_bias": -1.803030303030303
+        },
+        "2020s": {
+          "absolute_rank_mae": 31.9375,
+          "n": 208,
+          "signed_percentile_bias": 0.0018355182828867038,
+          "signed_rank_bias": 2.1971153846153846
+        }
+      },
+      "median_rank_bias": 0.17167919799498746,
+      "median_rank_mae": 32.77067669172932,
+      "role_fairness": {
+        "BIG": {
+          "absolute_rank_mae": 31.452282157676347,
+          "n": 241,
+          "signed_percentile_bias": -0.007494531626438156,
+          "signed_rank_bias": -8.970954356846473
+        },
+        "FORWARD": {
+          "absolute_rank_mae": 32.610236220472444,
+          "n": 254,
+          "signed_percentile_bias": -0.005917023529953492,
+          "signed_rank_bias": -7.082677165354331
+        },
+        "GUARD": {
+          "absolute_rank_mae": 33.721875,
+          "n": 320,
+          "signed_percentile_bias": 0.006753863826232247,
+          "signed_rank_bias": 8.084375
+        },
+        "UNKNOWN": {
+          "absolute_rank_mae": 33.29136690647482,
+          "n": 278,
+          "signed_percentile_bias": 0.002383055961246041,
+          "signed_rank_bias": 2.852517985611511
+        },
+        "WING": {
+          "absolute_rank_mae": 32.35576923076923,
+          "n": 104,
+          "signed_percentile_bias": 0.004667116509221772,
+          "signed_rank_bias": 5.586538461538462
+        }
+      }
+    },
+    "NO_PRESENCE_CAREER": {
+      "career_midpoint_decade_fairness": {
+        "1980s": {
+          "absolute_rank_mae": 46.166666666666664,
+          "n": 108,
+          "signed_percentile_bias": 0.01008694575946038,
+          "signed_rank_bias": 12.074074074074074
+        },
+        "1990s": {
+          "absolute_rank_mae": 49.55118110236221,
+          "n": 254,
+          "signed_percentile_bias": 0.0025588906649826665,
+          "signed_rank_bias": 3.062992125984252
+        },
+        "2000s": {
+          "absolute_rank_mae": 47.74074074074074,
+          "n": 297,
+          "signed_percentile_bias": -0.0038451909796939038,
+          "signed_rank_bias": -4.602693602693603
+        },
+        "2010s": {
+          "absolute_rank_mae": 48.43030303030303,
+          "n": 330,
+          "signed_percentile_bias": -0.0017012227538543325,
+          "signed_rank_bias": -2.036363636363636
+        },
+        "2020s": {
+          "absolute_rank_mae": 46.83173076923077,
+          "n": 208,
+          "signed_percentile_bias": -0.0001727074095495148,
+          "signed_rank_bias": -0.20673076923076922
+        }
+      },
+      "median_rank_bias": -0.9365079365079365,
+      "median_rank_mae": 47.92982456140351,
+      "role_fairness": {
+        "BIG": {
+          "absolute_rank_mae": 41.5850622406639,
+          "n": 241,
+          "signed_percentile_bias": 0.0031544975855960786,
+          "signed_rank_bias": 3.775933609958506
+        },
+        "FORWARD": {
+          "absolute_rank_mae": 46.50787401574803,
+          "n": 254,
+          "signed_percentile_bias": -0.007107664173557252,
+          "signed_rank_bias": -8.507874015748031
+        },
+        "GUARD": {
+          "absolute_rank_mae": 54.54375,
+          "n": 320,
+          "signed_percentile_bias": 0.00036027568922305766,
+          "signed_rank_bias": 0.43125
+        },
+        "UNKNOWN": {
+          "absolute_rank_mae": 46.52877697841727,
+          "n": 278,
+          "signed_percentile_bias": 0.004059909966763432,
+          "signed_rank_bias": 4.859712230215828
+        },
+        "WING": {
+          "absolute_rank_mae": 50.48076923076923,
+          "n": 104,
+          "signed_percentile_bias": -0.00191183085919928,
+          "signed_rank_bias": -2.2884615384615383
+        }
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "career_midpoint_decade_fairness": {
+        "1980s": {
+          "absolute_rank_mae": 20.47222222222222,
+          "n": 108,
+          "signed_percentile_bias": 0.005360623781676414,
+          "signed_rank_bias": 6.416666666666667
+        },
+        "1990s": {
+          "absolute_rank_mae": 24.555118110236222,
+          "n": 254,
+          "signed_percentile_bias": -0.0030555391102427987,
+          "signed_rank_bias": -3.65748031496063
+        },
+        "2000s": {
+          "absolute_rank_mae": 24.51851851851852,
+          "n": 297,
+          "signed_percentile_bias": -0.0005794508718485326,
+          "signed_rank_bias": -0.6936026936026936
+        },
+        "2010s": {
+          "absolute_rank_mae": 22.62121212121212,
+          "n": 330,
+          "signed_percentile_bias": 0.00039239512923723455,
+          "signed_rank_bias": 0.4696969696969697
+        },
+        "2020s": {
+          "absolute_rank_mae": 19.389423076923077,
+          "n": 208,
+          "signed_percentile_bias": 0.0011527215474583896,
+          "signed_rank_bias": 1.3798076923076923
+        }
+      },
+      "median_rank_bias": 0.5693400167084378,
+      "median_rank_mae": 22.60359231411863,
+      "role_fairness": {
+        "BIG": {
+          "absolute_rank_mae": 19.12033195020747,
+          "n": 241,
+          "signed_percentile_bias": -0.0005754358233065374,
+          "signed_rank_bias": -0.6887966804979253
+        },
+        "FORWARD": {
+          "absolute_rank_mae": 22.385826771653544,
+          "n": 254,
+          "signed_percentile_bias": -0.003913984436156007,
+          "signed_rank_bias": -4.68503937007874
+        },
+        "GUARD": {
+          "absolute_rank_mae": 24.99375,
+          "n": 320,
+          "signed_percentile_bias": -0.0003654970760233918,
+          "signed_rank_bias": -0.4375
+        },
+        "UNKNOWN": {
+          "absolute_rank_mae": 22.89568345323741,
+          "n": 278,
+          "signed_percentile_bias": 0.0029840789022917004,
+          "signed_rank_bias": 3.5719424460431655
+        },
+        "WING": {
+          "absolute_rank_mae": 24.721153846153847,
+          "n": 104,
+          "signed_percentile_bias": 0.004040550093181672,
+          "signed_rank_bias": 4.836538461538462
+        }
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "career_midpoint_decade_fairness": {
+        "1980s": {
+          "absolute_rank_mae": 58.592592592592595,
+          "n": 108,
+          "signed_percentile_bias": 0.01041183204925895,
+          "signed_rank_bias": 12.462962962962964
+        },
+        "1990s": {
+          "absolute_rank_mae": 61.86614173228347,
+          "n": 254,
+          "signed_percentile_bias": 0.002289187535768555,
+          "signed_rank_bias": 2.7401574803149606
+        },
+        "2000s": {
+          "absolute_rank_mae": 59.32996632996633,
+          "n": 297,
+          "signed_percentile_bias": -0.0009366851472114629,
+          "signed_rank_bias": -1.121212121212121
+        },
+        "2010s": {
+          "absolute_rank_mae": 64.07575757575758,
+          "n": 330,
+          "signed_percentile_bias": -0.006371990582516898,
+          "signed_rank_bias": -7.627272727272727
+        },
+        "2020s": {
+          "absolute_rank_mae": 66.41346153846153,
+          "n": 208,
+          "signed_percentile_bias": 0.0032452927189769295,
+          "signed_rank_bias": 3.8846153846153846
+        }
+      },
+      "median_rank_bias": -0.9945697577276524,
+      "median_rank_mae": 62.22681704260652,
+      "role_fairness": {
+        "BIG": {
+          "absolute_rank_mae": 59.21576763485477,
+          "n": 241,
+          "signed_percentile_bias": -0.01789744069717863,
+          "signed_rank_bias": -21.42323651452282
+        },
+        "FORWARD": {
+          "absolute_rank_mae": 63.2007874015748,
+          "n": 254,
+          "signed_percentile_bias": -0.014093633032713018,
+          "signed_rank_bias": -16.87007874015748
+        },
+        "GUARD": {
+          "absolute_rank_mae": 64.453125,
+          "n": 320,
+          "signed_percentile_bias": 0.017885860484544696,
+          "signed_rank_bias": 21.409375
+        },
+        "UNKNOWN": {
+          "absolute_rank_mae": 61.611510791366904,
+          "n": 278,
+          "signed_percentile_bias": 0.0033777489286766073,
+          "signed_rank_bias": 4.043165467625899
+        },
+        "WING": {
+          "absolute_rank_mae": 62.93269230769231,
+          "n": 104,
+          "signed_percentile_bias": 0.011832465779834201,
+          "signed_rank_bias": 14.163461538461538
+        }
+      }
+    }
+  },
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "step": "STEP-0015O",
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

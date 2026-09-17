@@ -1,0 +1,380 @@
+{
+  "actual_summary_stability": {
+    "R0_CENTRAL_OVERALL_SORT": {
+      "R1_MEDIAN_RANK": {
+        "spearman": 0.9999979963693075,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.96,
+        "top_50_overlap": 1.0
+      },
+      "R2_EXPECTED_RANK": {
+        "spearman": 0.9997159939003611,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 1.0,
+        "top_50_overlap": 1.0
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "spearman": 0.9997159939003611,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 1.0,
+        "top_50_overlap": 1.0
+      }
+    },
+    "R1_MEDIAN_RANK": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "spearman": 0.9999979963693075,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.96,
+        "top_50_overlap": 1.0
+      },
+      "R2_EXPECTED_RANK": {
+        "spearman": 0.9997249859356782,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.96,
+        "top_50_overlap": 1.0
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "spearman": 0.9997249859356782,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.96,
+        "top_50_overlap": 1.0
+      }
+    },
+    "R2_EXPECTED_RANK": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "spearman": 0.9997159939003611,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 1.0,
+        "top_50_overlap": 1.0
+      },
+      "R1_MEDIAN_RANK": {
+        "spearman": 0.9997249859356782,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.96,
+        "top_50_overlap": 1.0
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "spearman": 1.0,
+        "top_100_overlap": 1.0,
+        "top_10_overlap": 1.0,
+        "top_25_overlap": 1.0,
+        "top_50_overlap": 1.0
+      }
+    },
+    "R3_PAIRWISE_EXPECTED_WINS": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "spearman": 0.9997159939003611,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 1.0,
+        "top_50_overlap": 1.0
+      },
+      "R1_MEDIAN_RANK": {
+        "spearman": 0.9997249859356782,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.96,
+        "top_50_overlap": 1.0
+      },
+      "R2_EXPECTED_RANK": {
+        "spearman": 1.0,
+        "top_100_overlap": 1.0,
+        "top_10_overlap": 1.0,
+        "top_25_overlap": 1.0,
+        "top_50_overlap": 1.0
+      }
+    }
+  },
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "exact_rank_policy_passed": false,
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "kendall_tau": 0.9055833563842717,
+        "median_absolute_rank_error": 30.0,
+        "rank_bias": 0.0,
+        "rank_mae": 39.675856307435254,
+        "spearman": 0.9875801725910411,
+        "top_100_overlap": 0.86,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.8,
+        "top_50_overlap": 0.88
+      },
+      "R1_MEDIAN_RANK": {
+        "kendall_tau": 0.9055749742248598,
+        "median_absolute_rank_error": 29.0,
+        "rank_bias": 0.0,
+        "rank_mae": 39.689223057644114,
+        "spearman": 0.9875862947859371,
+        "top_100_overlap": 0.87,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.8,
+        "top_50_overlap": 0.88
+      },
+      "R2_EXPECTED_RANK": {
+        "kendall_tau": 0.9052117473170105,
+        "median_absolute_rank_error": 30.0,
+        "rank_bias": 0.0,
+        "rank_mae": 39.953216374269005,
+        "spearman": 0.9876883080448899,
+        "top_100_overlap": 0.87,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.8,
+        "top_50_overlap": 0.88
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "kendall_tau": 0.9052117473170105,
+        "median_absolute_rank_error": 30.0,
+        "rank_bias": 0.0,
+        "rank_mae": 39.953216374269005,
+        "spearman": 0.9876883080448899,
+        "top_100_overlap": 0.87,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.8,
+        "top_50_overlap": 0.88
+      }
+    },
+    "FULL_REFERENCE": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "kendall_tau": 0.9816263065690983,
+        "median_absolute_rank_error": 6.0,
+        "rank_bias": 0.0,
+        "rank_mae": 7.873015873015873,
+        "spearman": 0.9994838814782809,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.92,
+        "top_50_overlap": 0.96
+      },
+      "R1_MEDIAN_RANK": {
+        "kendall_tau": 0.9816011600908626,
+        "median_absolute_rank_error": 5.0,
+        "rank_bias": 0.0,
+        "rank_mae": 7.879699248120301,
+        "spearman": 0.9994832027892466,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.92,
+        "top_50_overlap": 0.96
+      },
+      "R2_EXPECTED_RANK": {
+        "kendall_tau": 0.9789943085137593,
+        "median_absolute_rank_error": 6.0,
+        "rank_bias": 0.0,
+        "rank_mae": 8.974101921470343,
+        "spearman": 0.9993320090640949,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.92,
+        "top_50_overlap": 0.96
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "kendall_tau": 0.9789943085137593,
+        "median_absolute_rank_error": 6.0,
+        "rank_bias": 0.0,
+        "rank_mae": 8.974101921470343,
+        "spearman": 0.9993320090640949,
+        "top_100_overlap": 0.99,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.92,
+        "top_50_overlap": 0.96
+      }
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "kendall_tau": 0.9215932808610154,
+        "median_absolute_rank_error": 24.0,
+        "rank_bias": 0.0,
+        "rank_mae": 32.8203842940685,
+        "spearman": 0.9913882128003297,
+        "top_100_overlap": 0.91,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.84,
+        "top_50_overlap": 0.9
+      },
+      "R1_MEDIAN_RANK": {
+        "kendall_tau": 0.9216687202957226,
+        "median_absolute_rank_error": 24.0,
+        "rank_bias": 0.0,
+        "rank_mae": 32.810359231411866,
+        "spearman": 0.9914025982091367,
+        "top_100_overlap": 0.91,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.8,
+        "top_50_overlap": 0.9
+      },
+      "R2_EXPECTED_RANK": {
+        "kendall_tau": 0.9217106310927821,
+        "median_absolute_rank_error": 24.0,
+        "rank_bias": 0.0,
+        "rank_mae": 32.95906432748538,
+        "spearman": 0.9914942142319577,
+        "top_100_overlap": 0.91,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.8,
+        "top_50_overlap": 0.9
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "kendall_tau": 0.9217106310927821,
+        "median_absolute_rank_error": 24.0,
+        "rank_bias": 0.0,
+        "rank_mae": 32.95906432748538,
+        "spearman": 0.9914942142319577,
+        "top_100_overlap": 0.91,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.8,
+        "top_50_overlap": 0.9
+      }
+    },
+    "NO_PRESENCE_CAREER": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "kendall_tau": 0.8878802357063227,
+        "median_absolute_rank_error": 37.0,
+        "rank_bias": 0.0,
+        "rank_mae": 48.053467000835425,
+        "spearman": 0.9830903367709561,
+        "top_100_overlap": 0.86,
+        "top_10_overlap": 0.7,
+        "top_25_overlap": 0.76,
+        "top_50_overlap": 0.88
+      },
+      "R1_MEDIAN_RANK": {
+        "kendall_tau": 0.888031114575737,
+        "median_absolute_rank_error": 37.0,
+        "rank_bias": 0.0,
+        "rank_mae": 48.015037593984964,
+        "spearman": 0.9831322405712215,
+        "top_100_overlap": 0.86,
+        "top_10_overlap": 0.7,
+        "top_25_overlap": 0.76,
+        "top_50_overlap": 0.9
+      },
+      "R2_EXPECTED_RANK": {
+        "kendall_tau": 0.8886849230098658,
+        "median_absolute_rank_error": 38.0,
+        "rank_bias": 0.0,
+        "rank_mae": 48.008354218880534,
+        "spearman": 0.9834498950263972,
+        "top_100_overlap": 0.86,
+        "top_10_overlap": 0.7,
+        "top_25_overlap": 0.76,
+        "top_50_overlap": 0.88
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "kendall_tau": 0.8886849230098658,
+        "median_absolute_rank_error": 38.0,
+        "rank_bias": 0.0,
+        "rank_mae": 48.008354218880534,
+        "spearman": 0.9834498950263972,
+        "top_100_overlap": 0.86,
+        "top_10_overlap": 0.7,
+        "top_25_overlap": 0.76,
+        "top_50_overlap": 0.88
+      }
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "kendall_tau": 0.9444234890459147,
+        "median_absolute_rank_error": 14.0,
+        "rank_bias": 0.0,
+        "rank_mae": 22.70843776106934,
+        "spearman": 0.9950197448831709,
+        "top_100_overlap": 0.94,
+        "top_10_overlap": 0.9,
+        "top_25_overlap": 0.88,
+        "top_50_overlap": 0.94
+      },
+      "R1_MEDIAN_RANK": {
+        "kendall_tau": 0.944325697186109,
+        "median_absolute_rank_error": 14.0,
+        "rank_bias": 0.0,
+        "rank_mae": 22.7468671679198,
+        "spearman": 0.9950278401740219,
+        "top_100_overlap": 0.93,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.88,
+        "top_50_overlap": 0.94
+      },
+      "R2_EXPECTED_RANK": {
+        "kendall_tau": 0.9441049669882622,
+        "median_absolute_rank_error": 15.0,
+        "rank_bias": 0.0,
+        "rank_mae": 23.203007518796994,
+        "spearman": 0.9952898001476295,
+        "top_100_overlap": 0.94,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.88,
+        "top_50_overlap": 0.94
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "kendall_tau": 0.9441049669882622,
+        "median_absolute_rank_error": 15.0,
+        "rank_bias": 0.0,
+        "rank_mae": 23.203007518796994,
+        "spearman": 0.9952898001476295,
+        "top_100_overlap": 0.94,
+        "top_10_overlap": 0.8,
+        "top_25_overlap": 0.88,
+        "top_50_overlap": 0.94
+      }
+    },
+    "TRADITIONAL_CAREER": {
+      "R0_CENTRAL_OVERALL_SORT": {
+        "kendall_tau": 0.8515603389745267,
+        "median_absolute_rank_error": 49.0,
+        "rank_bias": 0.0,
+        "rank_mae": 62.54135338345865,
+        "spearman": 0.9711042966067548,
+        "top_100_overlap": 0.78,
+        "top_10_overlap": 0.6,
+        "top_25_overlap": 0.72,
+        "top_50_overlap": 0.84
+      },
+      "R1_MEDIAN_RANK": {
+        "kendall_tau": 0.8518816550853164,
+        "median_absolute_rank_error": 49.0,
+        "rank_bias": 0.0,
+        "rank_mae": 62.340852130325814,
+        "spearman": 0.97122963717746,
+        "top_100_overlap": 0.78,
+        "top_10_overlap": 0.6,
+        "top_25_overlap": 0.72,
+        "top_50_overlap": 0.82
+      },
+      "R2_EXPECTED_RANK": {
+        "kendall_tau": 0.8545862985222252,
+        "median_absolute_rank_error": 49.0,
+        "rank_bias": 0.0,
+        "rank_mae": 61.475355054302426,
+        "spearman": 0.9723114744947471,
+        "top_100_overlap": 0.79,
+        "top_10_overlap": 0.6,
+        "top_25_overlap": 0.72,
+        "top_50_overlap": 0.84
+      },
+      "R3_PAIRWISE_EXPECTED_WINS": {
+        "kendall_tau": 0.8545862985222252,
+        "median_absolute_rank_error": 49.0,
+        "rank_bias": 0.0,
+        "rank_mae": 61.475355054302426,
+        "spearman": 0.9723114744947471,
+        "top_100_overlap": 0.79,
+        "top_10_overlap": 0.6,
+        "top_25_overlap": 0.72,
+        "top_50_overlap": 0.84
+      }
+    }
+  },
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "selected_display_summary": "R1_MEDIAN_RANK_DIAGNOSTIC_ONLY",
+  "step": "STEP-0015O",
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

@@ -1,0 +1,13 @@
+{
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "dependence_selected": "C2_PATTERN_GAUSSIAN",
+  "joint_validation_rows": 7182,
+  "maximum_center_difference": 0.0,
+  "maximum_peak_longevity_path_difference": 2.842170943040401e-14,
+  "players": 5103,
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "status_mismatches": 0,
+  "step": "STEP-0015O",
+  "step_0015n_output_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95",
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

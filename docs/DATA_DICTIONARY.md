@@ -506,3 +506,25 @@ diagnostics, and the non-promotion verdict. `overall_point` exists only for offi
 research statuses. `OVERALL_INTERVAL_ONLY` retains a diagnostic distribution but is ineligible for
 a deterministic ranking. `OVERALL_UNAVAILABLE` lacks a required usable dimension. No Top-100
 artifact exists because promotion failed the structural ranking-population gate.
+
+## Gold interval-native ranking-policy audit outputs
+
+Generated STEP-0015O outputs remain ignored under
+`data/gold/interval_native_ranking_policy_audit/`. The research policy is
+`goatlab-v1-ranking-policy-v2-uncertainty-research`; it does not promote Overall V2 or replace the
+archived V1 ranking.
+
+| Entity | Grain / key | Purpose |
+|---|---|---|
+| `ranking-policy-validation` | evidence pattern × reference player | Reference rank, four deterministic summaries, calibrated rank bands, and Top-N probabilities. |
+| `distribution-rankable-player-ranks` | player with usable Overall distribution | Diagnostic center/median/expected ranks, nested 50/80/90/95 rank bands, Top-N probabilities, Overall status, and conditional-policy metadata. |
+| `v1-top100-uncertainty-transition` | archived V1 Top-100 player | Original immutable V1 rank plus research distribution status, median rank, bands, and Top-100 probability. |
+| `ranking-policy-diagnostic-players` | predetermined historical/modern player | Human-readable rank center, uncertainty, and Top-N probability diagnostics after policy freeze. |
+
+`distribution_rankability` is `DISTRIBUTION_RANKABLE` only when a calibrated joint Overall
+distribution exists; official point status is not required. `ranking_is_official` is false for all
+STEP-0015O rows. Rank bands are signed-conformal, nested, and contain `median_rank`.
+`shared_cross_player_calibration_uncertainty_modeled` is false: all rank statements are conditional
+on the frozen measurement architecture. `top100_membership_label` is a research probability band,
+not official list membership. No `overall-v2-top100-uncertainty-aware` artifact exists because the
+exact-ranking gate failed.

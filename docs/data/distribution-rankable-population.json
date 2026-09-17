@@ -1,0 +1,29 @@
+{
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "distribution_rankable_statuses": {
+    "OFFICIAL_OVERALL_POINT": 312,
+    "OVERALL_INTERVAL_ONLY": 1286,
+    "PROVISIONAL_OVERALL_POINT": 284
+  },
+  "rankability": {
+    "ALL_PLAYERS": {
+      "distribution_rankable": 1882,
+      "not_rankable": 3221,
+      "population": 5103
+    },
+    "BROAD_HIGH_RECALL": {
+      "distribution_rankable": 1882,
+      "not_rankable": 774,
+      "population": 2656
+    },
+    "V1_TOP_100": {
+      "distribution_rankable": 100,
+      "not_rankable": 0,
+      "population": 100
+    }
+  },
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "rule": "A calibrated Overall distribution exists; exact point status is not required.",
+  "step": "STEP-0015O",
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

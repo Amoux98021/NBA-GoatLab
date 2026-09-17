@@ -1,0 +1,110 @@
+{
+  "audit_version": "goatlab-step-0015o-ranking-policy-audit-v1",
+  "patterns": {
+    "EARLY_TRADITIONAL_TO_EXPANDED": {
+      "LEAN": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.65
+      },
+      "STRONG": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.9
+      },
+      "audited_players": 200
+    },
+    "FULL_REFERENCE": {
+      "LEAN": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.65
+      },
+      "STRONG": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.9
+      },
+      "audited_players": 200
+    },
+    "MIXED_PROVISIONAL_INTERVAL": {
+      "LEAN": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.65
+      },
+      "STRONG": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.9
+      },
+      "audited_players": 200
+    },
+    "NO_PRESENCE_CAREER": {
+      "LEAN": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.65
+      },
+      "STRONG": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.9
+      },
+      "audited_players": 200
+    },
+    "PARTIAL_PRESENCE_LATE": {
+      "LEAN": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.65
+      },
+      "STRONG": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.9
+      },
+      "audited_players": 200
+    },
+    "TRADITIONAL_CAREER": {
+      "LEAN": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.65
+      },
+      "STRONG": {
+        "cyclic_component_count": 0,
+        "edges_inside_cyclic_components": 0,
+        "largest_cyclic_component": 0,
+        "players_in_cycles": 0,
+        "threshold": 0.9
+      },
+      "audited_players": 200
+    }
+  },
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-uncertainty-research",
+  "step": "STEP-0015O",
+  "upstream_fingerprint": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95"
+}

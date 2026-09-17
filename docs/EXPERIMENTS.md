@@ -407,3 +407,27 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** calibration and evidence semantics only. No player names, conventional
   ordering, confidence penalties, or player-specific adjustments enter selection.
 - **Output fingerprint:** `b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95`.
+
+## STEP-0015O Interval-native ranking policy audit
+
+- **Question:** can calibrated Overall distributions support honest cross-era ranking statements
+  even when an exact point or exact ordinal rank is not ranking-grade?
+- **Population:** 1,197 reference careers under six controlled evidence patterns; 1,882 actual
+  distribution-rankable careers; all 100 archived V1 Top-100 players are distribution-rankable.
+- **Deterministic candidates:** central Overall sort, median rank, expected rank, and probabilistic
+  Borda/expected wins. No method passed all frozen rank-correlation and Top-N overlap gates.
+- **Uncertainty:** player-grouped signed conformal calibration achieved 90% rank-band coverage from
+  90.14% to 92.23% across patterns. Mean width increased with weaker evidence.
+- **Membership probabilities:** Top-10/25/50/100 Brier scores remained below 0.024 and weighted
+  expected calibration error below 0.009 across patterns.
+- **Pairwise probabilities:** directional Brier ranged from 0.0080 to 0.0503; calibrated thresholds
+  are 90% strong, 65% lean, and 35%–65% indeterminate. The bounded cycle audit found no lean or
+  strong cycles.
+- **Fairness:** mixed-evidence broad-role signed bias remained below 0.75 percentile rank;
+  traditional-only evidence retained approximately 1.8-percentile guard/big distortion and is not
+  suitable for exact rank publication.
+- **Outcome:** `PASS + VALID_PROBABILISTIC_RANKING_ONLY`; Overall V2 remains not ready under the
+  binding permanent exact-Top-100 product requirement. No Top 100 is emitted.
+- **Optimization target:** calibration only. Player names, V1/conventional ordering, awards,
+  championships, and outcomes never select the policy.
+- **Output fingerprint:** `544843af8d316c6b5d54786b29562451ce01e3f6b5c35a0fe936e27fa2290a15`.
