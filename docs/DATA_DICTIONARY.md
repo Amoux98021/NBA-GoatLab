@@ -528,3 +528,24 @@ STEP-0015O rows. Rank bands are signed-conformal, nested, and contain `median_ra
 on the frozen measurement architecture. `top100_membership_label` is a research probability band,
 not official list membership. No `overall-v2-top100-uncertainty-aware` artifact exists because the
 exact-ranking gate failed.
+
+## STEP-0015P probabilistic product contract
+
+The governance version is `goatlab-v1-ranking-policy-v2-probabilistic`. The typed, separately
+versioned `goatlab-v1-probabilistic-product-contract-v1` models in
+`src/goatlab/rankings/publication_policy.py` describe future product payloads; STEP-0015P does
+not materialize a new Gold leaderboard, warehouse, API, or Top-100 artifact.
+
+`PlayerLeaderboardRecord` identifies a versioned/fingerprinted Overall distribution. It carries
+a labeled optional diagnostic center, nested Overall intervals, median rank, nested
+50/80/90/95 rank bands, nondecreasing Top-10/25/50/100 probabilities, evidence status, all seven
+dimension value/status objects, cutoff/active policy, and explicit caveat flags. The optional
+`display_position` requires `NAVIGATIONAL_MEDIAN_RANK_SORT`; it is not an exact scientific rank.
+
+`UnrankedPlayerRecord` carries identity, source `OVERALL_UNAVAILABLE`, and reason codes, never a
+ranking position. `PairwiseComparison` carries distinct player IDs, `P(A > B)`, the deterministic
+ordering label, seven dimension comparisons, uncertainty context, and versions. No model permits
+an unavailable player in a leaderboard or an interval-only dimension center mislabeled official.
+
+See `docs/data/probabilistic-ranking-product-contract.md` for the field table and STEP-0016 API
+handoff. The STEP-0015O research rows and their fingerprints remain unchanged.

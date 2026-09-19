@@ -1,0 +1,63 @@
+policy_version: goatlab-v1-ranking-policy-v2-probabilistic
+status: governance_frozen_for_productization
+governance_verdict: FREEZE_PROBABILISTIC_FIRST_POLICY
+canonical_object: calibrated_overall_distribution_and_derived_rank_distribution
+overall_substrate:
+  methodology_version: goatlab-v1-overall-v2-tiered
+  status: research_probabilistic_substrate_not_exact_point_promoted
+  frozen_audit_fingerprint: b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95
+  weights:
+    peak: 0.17
+    longevity: 0.14
+    offense: 0.16
+    defense: 0.14
+    playoffs: 0.18
+    accolades: 0.10
+    winning: 0.11
+evidence_statuses:
+  - OFFICIAL
+  - PROVISIONAL
+  - INTERVAL_NATIVE
+  - UNAVAILABLE
+eligibility:
+  calibrated_overall_distribution_required: true
+  exact_point_required: false
+  interval_native_eligible: true
+  unavailable_unranked: true
+navigation:
+  product_name: GOATLab Top 100 — Probabilistic Leaderboard
+  sort: median_rank_ascending_then_canonical_player_id
+  display_position_is_scientific_exact_rank: false
+  generated_in_step_0015p: false
+  next_phase: STEP-0016
+rank_bands: [50, 80, 90, 95]
+topn_probabilities: [10, 25, 50, 100]
+top100_probability_labels:
+  robust_min: 0.90
+  likely_min: 0.65
+  bubble_min: 0.35
+  likely_outside_min: 0.10
+pairwise_ordering:
+  strong_min: 0.90
+  lean_min: 0.65
+  indeterminate_lower: 0.35
+  indeterminate_upper: 0.65
+display:
+  overall_interval_required: true
+  center_alone_forbidden: true
+  center_label: DIAGNOSTIC_SUMMARY
+  display_rank_label: NAVIGATIONAL_MEDIAN_RANK_SORT
+  status_is_quality_penalty: false
+limits:
+  cutoff_season: 2025-26
+  active_policy: TO_DATE_NO_PROJECTION
+  probabilities_conditional_on_frozen_architecture: true
+  shared_cross_player_calibration_model_uncertainty_modeled: false
+forbidden:
+  official_exact_order_claim: true
+  overall_v2_exact_point_promotion: true
+  missing_as_zero: true
+  interval_midpoint_as_exact_point: true
+  required_dimension_weight_renormalization: true
+  confidence_penalty: true
+  player_specific_or_conventional_rank_tuning: true

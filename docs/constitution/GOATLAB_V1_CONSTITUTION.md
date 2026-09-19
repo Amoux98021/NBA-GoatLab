@@ -175,3 +175,29 @@ the seven frozen Overall weights or create a successor ranking.
 - `goatlab-v1-overall-v1` and its archived Top 100 therefore remain the official frozen baseline.
   No Overall V2 Top 100 exists. Future work must resolve ranking/publication semantics without
   lowering calibration gates, renormalizing weights, or treating intervals as exact points.
+
+## STEP-0015P probabilistic-first publication governance
+
+This subsequent governance decision supplements the historical STEP-0015N finding; it does not
+retroactively promote Overall V2 as an exact-point method or rewrite its failed point gate.
+
+- The canonical comparison object is a calibrated Overall probability distribution and its derived
+  rank distribution. An exact ordinal position is not scientific truth.
+- `goatlab-v1-ranking-policy-v2-probabilistic` permits future navigation by median-rank sort,
+  with canonical-player-ID tie breaking, if rank bands, Top-N probabilities, Overall ranges,
+  evidence statuses, cutoff, and conditional-measurement caveats remain visible. A display `#N`
+  is a navigational summary only. STEP-0015P creates no new Top-100 artifact.
+- An official, provisional, or interval-native player is distribution-rankable only when the
+  calibrated seven-dimensional Overall distribution is usable. Exact-point status is not required.
+  Unavailable required evidence means unranked/insufficient evidence, not zero quality.
+- A diagnostic interval center alone is not an official point. Confidence and interval width never
+  penalize quality. Weights are not silently redistributed around missing dimensions.
+- Publish pairwise uncertainty, not an unsupported close-order claim. Top-100 membership and
+  pairwise labels describe probabilities and cannot modify a quality score.
+- All probabilities are conditional on the frozen measurement architecture. Shared cross-player
+  calibration-model uncertainty is not fully represented. Active careers remain
+  `TO_DATE_NO_PROJECTION` through the 2025-26 cutoff.
+- GOATLab cannot eliminate unequal historical measurement environments. It reports calibrated
+  uncertainty rather than fabricated precision. A wider interval is not a lower player rating.
+- The STEP-0015 forensic branch is closed. Reopening a basketball methodology requires a concrete
+  defect or material new factual evidence, not aesthetically unexpected player placements.

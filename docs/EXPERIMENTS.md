@@ -431,3 +431,19 @@ Future experiments must record the objective, input snapshot, feature version, c
 - **Optimization target:** calibration only. Player names, V1/conventional ordering, awards,
   championships, and outcomes never select the policy.
 - **Output fingerprint:** `544843af8d316c6b5d54786b29562451ce01e3f6b5c35a0fe936e27fa2290a15`.
+
+## STEP-0015P Probabilistic governance freeze
+
+- **Objective:** accept a product/publication contract based on the completed STEP-0015O
+  calibration audit, not another scoring or rank-optimization experiment.
+- **Frozen inputs:** STEP-0015M/N/O commits and fingerprints; Peak V2, Longevity tiered policy,
+  Defense V2, seven fixed Overall weights, and the archived V1 outputs.
+- **Decision:** `FREEZE_PROBABILISTIC_FIRST_POLICY`. A future Top-100 navigation list may sort
+  median ranks only with conspicuous uncertainty; the canonical object is the joint distribution.
+  Overall V2 remains research-only as an exact-point methodology.
+- **No analysis rerun:** no candidate weights, basketball formulas, masking models, player-specific
+  rules, or Top-100 entrants/exits were chosen or generated in this step.
+- **Verification:** typed player/pairwise contracts, fixed policy thresholds, upstream hashes,
+  deterministic governance fingerprint, complete suite, lint, and type checks.
+- **Handoff:** close STEP-0015 and start STEP-0016, a production data/API/frontend phase with no
+  basketball methodology change.

@@ -440,3 +440,31 @@ This living summary may be extended, but methodology changes must also receive a
   may be displayed only with a range and non-official label; unavailable players remain unranked.
 - Result: `PASS + VALID_PROBABILISTIC_RANKING_ONLY`. No exact V2 Top 100 is generated, Overall V2
   remains unpromoted, and Overall V1 remains frozen.
+
+## Probabilistic-first ranking governance (STEP-0015P)
+
+- The permanent publication-policy version is `goatlab-v1-ranking-policy-v2-probabilistic`.
+  Canonical comparison is a player's calibrated Overall distribution and derived rank
+  distribution, conditional on the frozen measurement architecture. A point score or ordinal rank
+  alone is not the scientific result.
+- `goatlab-v1-overall-v2-tiered` remains the frozen **research probabilistic substrate** and is
+  **not promoted as an exact-point Overall methodology**. The STEP-0015N MAE gate and STEP-0015O
+  exact-order failures stand. Overall V1 and the archived Top 100 remain reproducible and unchanged.
+- Players with official, provisional, or interval-native Overall distributions may participate
+  without confidence/uncertainty quality penalties. Players with an unavailable required
+  distribution are unranked; required weights are never redistributed or filled with midpoints.
+- A future *GOATLab Top 100 — Probabilistic Leaderboard* may use ascending median rank with
+  canonical-player-ID ties for **navigation**. Its `#N` is a display position rather than an exact
+  quality ordering; every entry needs median rank, 80%/90% rank bands, Top-100 probability,
+  Overall range, and evidence status. Profiles additionally expose 50%/95% bands, Top-10/25/50
+  probabilities, and pairwise context. STEP-0016 builds the dataset; none is generated here.
+- Pairwise at least 90% is strong, 65%–90% is lean, and 35%–65% is indeterminate; reverse labels
+  are symmetric. Top-100 membership at least 90% is robust, 65%–90% likely, 35%–65% bubble,
+  10%–35% likely outside, and below 10% robustly outside. These labels never alter quality.
+- For interval-native players, show Overall range and uncertainty metadata. A center is optional
+  but must be labeled a diagnostic summary beside its range, never an official exact score.
+- GOATLab cannot eliminate unequal historical measurement environments. Calibrated uncertainty
+  represents that limitation rather than fabricated precision; wider uncertainty does not imply
+  lower player quality. Shared global calibration-model uncertainty is not fully modeled.
+- Active careers use completed evidence through 2025-26 (`TO_DATE_NO_PROJECTION`). Formula
+  retuning is not authorized merely because a display ordering looks unconventional.

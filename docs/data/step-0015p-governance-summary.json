@@ -1,0 +1,39 @@
+{
+  "step": "STEP-0015P",
+  "step_status": "PASS",
+  "governance_verdict": "FREEZE_PROBABILISTIC_FIRST_POLICY",
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-probabilistic",
+  "product_contract_version": "goatlab-v1-probabilistic-product-contract-v1",
+  "overall_substrate_version": "goatlab-v1-overall-v2-tiered",
+  "overall_exact_point_promoted": false,
+  "top100_generated": false,
+  "step_0015_closed": true,
+  "recommendation": "CLOSE_STEP_0015_AND_BEGIN_STEP_0016",
+  "upstream_fingerprints": {
+    "overall_v1": "02bacaaacbff1a038ca0b5a82c6d3b51e34e192426e51ad8f0b72cd89bda97aa",
+    "step_0015m": "a2056a6d793b2f82066c07bc4924787d3e95f8485ef37ff15911bfb7a321deb7",
+    "step_0015n": "b6248062490ca6b2d63e616af5ac759a59abc9ea3e9dc15dd4f2bd264741bb95",
+    "step_0015o": "544843af8d316c6b5d54786b29562451ce01e3f6b5c35a0fe936e27fa2290a15"
+  },
+  "frozen_file_sha256": {
+    "docs/data/goatlab-v1-peak-v2.yaml": "ac5c85875e1acaed5fcf9a74964cf4c9f1b9d99093fb51c224ed4e6082efe9b7",
+    "docs/data/goatlab-v1-defense-v2-tiered.yaml": "6de804494b29be4cce6d4161e89c1baf073b88ba3f83415a4357bfbc9412edde",
+    "docs/data/goatlab-v1-longevity-v2-tiered.yaml": "1c84f9b616da3d02e76857ab6ce774821077654c4ad737cb69dca9bd90c50c2a",
+    "docs/data/goatlab-v1-overall-v2-promotion-candidate.yaml": "a98247a1ca81d8d8caebb74daba746b34177e163d6918682e434035bee425c80",
+    "docs/data/goatlab-v1-ranking-policy-v2-uncertainty-research.yaml": "10ec2e6fb229fa953a1d23727a04324d57d9ee4d399d64a450a1e9a00f83c1c2",
+    "docs/data/overall-ranking-summary.json": "6b99f8d886f6226eadf0f503b9b425d32efde9d3811e37fc88d94db4d6dd3e55",
+    "docs/data/overall-v2-promotion-summary.json": "9618e030b3afa83829c8c4454e6664c50e1788134df5b736480d29f5bb0fbaa3",
+    "docs/data/interval-native-ranking-policy-summary.json": "96e7eebadc408ea714b75e81ee13f05c6832daf65aa610c28f15e87727844d36",
+    "docs/data/peak-v2-status-summary.json": "02a3bf359738d0249ad4766f72e03324bb0450de117c483099c1f236b72dcae6",
+    "docs/data/longevity-v2-status-summary.json": "bddca625861005b77314300e722bf8f204e8f0c3f166adf638c4f2b705c1a4d7",
+    "docs/data/defense-v2-tiered-promotion-summary.json": "5c634af483ed546670a82ec81a495b055079ec10a5c9059ef0281828abe3049b"
+  },
+  "governance_file_sha256": {
+    "docs/data/goatlab-v1-ranking-policy-v2-probabilistic.yaml": "771d91a628f9a0e7ede05190890004cf76ff9ff7e55106751c4e32efe4c40726",
+    "docs/data/probabilistic-ranking-product-contract.md": "f1f6304c6891eed2d80f95cb20ca82f849ce4d1cebc8fc17a2a56fcccdc0ded0",
+    "docs/decisions/ADR-0039-probabilistic-first-ranking-publication.md": "dd6aad1350120d29ea701937890ea1cdd5d6ca4479d4dd3be46fb1c47b8a801c",
+    "docs/constitution/GOATLAB_V1_CONSTITUTION.md": "e98e686ea654683840efb2efa3b4889886ec387a0812a0e397ea28ac5bd66db2",
+    "src/goatlab/rankings/publication_policy.py": "44502472140b7f24af4c81f0bbaef028bdc86a2954f1a541daae95788f557174"
+  },
+  "governance_fingerprint": "9511a3c85fe429da80cdf485715d8168c75046373ea6504ece50478943ca802d"
+}
