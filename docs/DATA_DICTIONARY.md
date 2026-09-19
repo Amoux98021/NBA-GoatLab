@@ -549,3 +549,27 @@ an unavailable player in a leaderboard or an interval-only dimension center misl
 
 See `docs/data/probabilistic-ranking-product-contract.md` for the field table and STEP-0016 API
 handoff. The STEP-0015O research rows and their fingerprints remain unchanged.
+
+## STEP-0016 release-scoped probabilistic product data
+
+`data/product/<release_id>/` is generated and Git-ignored. The release ID identifies immutable
+content in `ranking-release-manifest.json`, including source hashes, cutoff, version graph,
+artifact hashes, and a deterministic release fingerprint. A changed release must receive a new
+ID. `generated_at_utc` is a fixed logical release timestamp so cache-only builds are byte-equal;
+wall-clock runtime is only printed by the command.
+
+| Artifact | Grain | Meaning |
+|---|---|---|
+| `players.jsonl` | release × canonical player | Name/search token, career bounds/state, eligibility/status. Search token is not a player ID. |
+| `leaderboard.json` | release × distribution-rankable player | Navigation position, Overall/rank ranges, Top-N probabilities, evidence/status/version/disclosures. |
+| `leaderboard-v2-probabilistic.json` | first 100 navigation entries | Compact frontend view; no exact-order claim. |
+| `top100-bubble.json` | probability/band boundary case | 10–90% Top-100 probability with 90% rank band crossing 100, including players outside the 100 display slots. |
+| `player-profiles.jsonl` | release × canonical player | All seven frozen dimension values/statuses/reasons plus Overall/rank summary where eligible. |
+| `unranked.jsonl` | release × unavailable player | Insufficient-evidence reasons; no rank/Overall distribution. |
+| `paired-overall-rank-draws.npz` | 1,882 players × 2,500 aligned draws | Serving distribution used for exact empirical pairwise comparison; no raw vendor facts. |
+| `db/*.parquet` | five relational tables | Transactional-load-ready PostgreSQL rows; DDL in `docs/product/probabilistic-ranking-schema.sql`. |
+
+The release is a product derivative of frozen Gold, not a new Silver/Gold methodology. Its
+`INTERVAL_NATIVE` status carries a valid Overall distribution but not an official exact point.
+`UNAVAILABLE` is a distinct no-distribution state. No missing value becomes zero. The pairwise
+artifact uses draw alignment; marginal score intervals alone cannot recover `P(A > B)`.

@@ -24,6 +24,7 @@ build/
 data/bronze/**
 data/silver/**
 data/gold/**
+data/product/**
 !data/bronze/.gitkeep
 !data/silver/.gitkeep
 !data/gold/.gitkeep

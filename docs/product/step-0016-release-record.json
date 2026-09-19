@@ -1,0 +1,25 @@
+{
+  "release_id": "goatlab-ranking-release-2026-v2-probabilistic",
+  "release_fingerprint": "2b2b5d91cf519ed091aa8179a800cbe4f018c85510cacc684e0f9ed5fdab4093",
+  "cutoff_season": "2025-26",
+  "ranking_policy_version": "goatlab-v1-ranking-policy-v2-probabilistic",
+  "overall_substrate_version": "goatlab-v1-overall-v2-tiered",
+  "overall_exact_point_promoted": false,
+  "players": 5103,
+  "distribution_rankable": 1882,
+  "unavailable": 3221,
+  "top100_navigation_entries": 100,
+  "boundary_entries": 36,
+  "step_0015n_reconstruction_max_difference": 0.0,
+  "step_0015o_reconstruction_max_difference": 0.0,
+  "upstream_rank_fingerprint": "544843af8d316c6b5d54786b29562451ce01e3f6b5c35a0fe936e27fa2290a15",
+  "artifact_sha256": {
+    "leaderboard": "792e399d900df959dc8c21d08227faa1c9bf780957bd79a963f17c6ba728ca4d",
+    "top100": "33ab20d88a644932c7f65cf5e32931c08f3cc25853393ad4248770db9c874f15",
+    "bubble": "8cc26663c69fb41878d749796140ec9ad8fd49d1859f575ded2f26644c02981c",
+    "profiles": "9c11327221f5bda39dfd5da3e2c75120361d91de23ad656268c3cd285ef7a74b",
+    "paired_draws": "1fa326cf9a5bbece581e5e1b253ebcb5d40b30bcc2bcea3268752583e54b7f26"
+  },
+  "generated_artifact_location": "data/product/goatlab-ranking-release-2026-v2-probabilistic/",
+  "public_deployment_authorized_by_this_step": false
+}

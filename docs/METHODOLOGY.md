@@ -468,3 +468,22 @@ This living summary may be extended, but methodology changes must also receive a
   lower player quality. Shared global calibration-model uncertainty is not fully modeled.
 - Active careers use completed evidence through 2025-26 (`TO_DATE_NO_PROJECTION`). Formula
   retuning is not authorized merely because a display ordering looks unconventional.
+
+## Probabilistic leaderboard data product (STEP-0016)
+
+- STEP-0016 is packaging and serving engineering. It exactly replays frozen STEP-0015N/O draws
+  and rank summaries, verifies upstream hashes, and creates an immutable release under
+  `goatlab-v1-ranking-policy-v2-probabilistic`. It does not change a basketball formula, weight,
+  gate, evidence status, or the archived V1 ranking.
+- The 1,882 distribution-rankable players appear once in a median-rank-sorted navigation list;
+  3,221 unavailable players retain profiles and insufficient-evidence reasons but no list row.
+  The first 100 slots are a product view, not a newly validated exact scientific ordering.
+- Compact summaries are stored separately from a fingerprinted, 2,500-draw paired Overall/rank
+  artifact. Pairwise probabilities are computed on demand using aligned draws; summary-only
+  records never substitute for the calibrated distribution.
+- Every player profile retains the seven frozen dimension outputs and statuses. Interval-native
+  dimension centers remain diagnostic only; missing Accolades `NOT_QUERIED` remains unknown.
+  No confidence or uncertainty penalty is applied.
+- Product disclosure, database-load, API, and source-rights contracts are documented in
+  `docs/product/`. Public deployment is a separate decision and must not infer rights clearance
+  merely because the local derived-data build succeeds.
