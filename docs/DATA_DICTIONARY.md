@@ -573,3 +573,19 @@ The release is a product derivative of frozen Gold, not a new Silver/Gold method
 `INTERVAL_NATIVE` status carries a valid Overall distribution but not an official exact point.
 `UNAVAILABLE` is a distinct no-distribution state. No missing value becomes zero. The pairwise
 artifact uses draw alignment; marginal score intervals alone cannot recover `P(A > B)`.
+
+## STEP-0017 PostgreSQL serving projection
+
+Migration `0001_probabilistic_ranking_release.sql` creates release-scoped `ranking_versions`,
+`players`, `player_rankings`, `player_rank_probabilities`, `player_dimensions`,
+`player_profiles`, and `top100_entries`. The first five preserve STEP-0016 Parquet load grains;
+the last two retain exact frozen API payloads. `ranking_versions.release_fingerprint` and
+`manifest_json` identify immutable source content. `player_rank_probabilities` additionally
+holds rank-band fields copied directly from frozen `player_rankings.rank_json`, not recomputed.
+`publication_rights_status` remains `PUBLICATION_RIGHTS_REVIEW_REQUIRED`.
+
+Primary keys include `release_id`; a future release creates new rows rather than overwriting
+these. SQL triggers reject UPDATE/DELETE of published release rows. The paired NPZ remains
+outside PostgreSQL and is fingerprint-verified for pairwise reads. PostgreSQL JSONB profiles
+contain product-derived analytics only, not Bronze/Silver source rows. See ADR-0041 and
+`docs/product/database-loading.md` for the import and reconciliation contract.

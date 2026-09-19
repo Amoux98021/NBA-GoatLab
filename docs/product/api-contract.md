@@ -22,3 +22,14 @@ and labels; it must not reconstruct methodology from dimension numbers.
 through pagination. `get_player` also works for all 3,221 unranked identities, preserving
 missingness reasons and dimension evidence. All API results include cutoff/release context;
 active careers are observed to date without future projection.
+
+## STEP-0017 implementation
+
+The read-only FastAPI adapter now implements this contract and adds `/api/v1/health`,
+`/api/v1/releases`, and `/api/v1/top100`. The leaderboard response is a typed page envelope
+with `total`, `limit`, `offset`, `release_id`, and entries. The exact Top-100 artifact appears as
+the `entries` array of a release-scoped response. The release route is
+`/api/v1/releases/{release_id}` rather than the preliminary STEP-0016
+`/api/v1/rankings/{version}` spelling. See `docs/product/api-runtime.md` for settings, errors,
+readiness behavior, and deployment constraints. These engineering additions do not change the
+frozen probabilistic ranking policy.

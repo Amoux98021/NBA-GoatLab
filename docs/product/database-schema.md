@@ -26,3 +26,13 @@ The paired empirical distribution artifact remains in versioned object/file stor
 release and SHA-256. Postgres holds summaries and its reference, not 4.7 million draw cells or
 1.77 million redundant pairwise rows. A service can cache the compressed draw matrix after a
 fingerprint check.
+
+## STEP-0017 implementation note
+
+The executable schema is now migration-managed in
+`db/migrations/0001_probabilistic_ranking_release.sql` (ADR-0041). It extends the STEP-0016 design
+snapshot with release fingerprint/hash/version metadata, exact `player_profiles` and
+`top100_entries` payloads, rank-band projections copied from frozen `rank_json`, and immutable
+row triggers. The loader and read-only API use this migration; the above five Parquet tables
+remain unchanged and are still the normalized bulk-load inputs. See
+`docs/product/database-loading.md` for the transactional import procedure.

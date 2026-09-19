@@ -8,16 +8,14 @@ import unicodedata
 from pathlib import Path
 from typing import Any, cast
 
-import numpy as np
-
+from goatlab.product.comparison import assemble_pairwise
+from goatlab.product.draw_store import PairedDrawStore
 from goatlab.product.models import (
     LeaderboardEntry,
-    PairwiseDimension,
     PairwiseResponse,
     PlayerProfile,
     RankingRelease,
 )
-from goatlab.rankings.publication_policy import pairwise_order
 
 
 def normalized_search_name(value: str) -> str:
@@ -48,8 +46,11 @@ class RankingRepository:
         if len(self._by_id) != self.release.rankable_count:
             raise ValueError("leaderboard count or player identity is invalid")
         self._profiles: dict[str, PlayerProfile] | None = None
-        self._draws: np.ndarray | None = None
-        self._draw_index: dict[str, int] | None = None
+        self.draw_store = PairedDrawStore(
+            release_dir,
+            expected_release_id=self.release.release_id,
+            expected_release_fingerprint=self.release.release_fingerprint,
+        )
 
     def get_leaderboard(
         self,
@@ -90,21 +91,39 @@ class RankingRepository:
     def get_release(self) -> RankingRelease:
         return self.release
 
+    def get_releases(self) -> list[RankingRelease]:
+        return [self.release]
+
+    def get_top100(self) -> list[dict[str, Any]]:
+        return cast(
+            list[dict[str, Any]],
+            json.loads((self.release_dir / "leaderboard-v2-probabilistic.json").read_text()),
+        )
+
+    def count_leaderboard(
+        self,
+        *,
+        search: str | None = None,
+        active: bool | None = None,
+        status: str | None = None,
+    ) -> int:
+        return len(
+            self.get_leaderboard(
+                limit=self.release.rankable_count, search=search, active=active, status=status
+            )
+        )
+
+    def health(self) -> dict[str, Any]:
+        return {
+            "database_accessible": None,
+            "configured_release_present": True,
+            "draw_artifact_state": self.draw_store.state,
+        }
+
     def get_methodology(self) -> dict[str, Any]:
         return cast(
             dict[str, Any], json.loads((self.release_dir / "methodology-metadata.json").read_text())
         )
-
-    def _load_draws(self) -> None:
-        if self._draws is None:
-            with np.load(
-                self.release_dir / "paired-overall-rank-draws.npz", allow_pickle=False
-            ) as data:
-                ids = data["player_ids"].tolist()
-                self._draws = data["overall_draws"].copy()
-            self._draw_index = {player_id: index for index, player_id in enumerate(ids)}
-            if len(self._draw_index) != self.release.rankable_count:
-                raise ValueError("serving distribution IDs do not match release")
 
     def compare_players(self, player_a: str, player_b: str) -> PairwiseResponse:
         if player_a == player_b:
@@ -112,48 +131,9 @@ class RankingRepository:
         a, b = self._by_id.get(player_a), self._by_id.get(player_b)
         if a is None or b is None:
             raise LookupError("pairwise comparison requires two distribution-rankable players")
-        self._load_draws()
         self._load_profiles()
-        assert self._draws is not None and self._draw_index is not None
         assert self._profiles is not None
-        a_draw = self._draws[self._draw_index[player_a]]
-        b_draw = self._draws[self._draw_index[player_b]]
-        ties = float(np.mean(a_draw == b_draw))
-        # A tied draw is an indeterminate ordering; split it symmetrically for
-        # a complementary pairwise request without changing either quality draw.
-        probability_a = float(np.mean(a_draw > b_draw) + 0.5 * ties)
-        probability_b = 1.0 - probability_a
-        dimensions: dict[str, PairwiseDimension] = {}
-        for key, a_dim in self._profiles[player_a].dimensions.items():
-            b_dim = self._profiles[player_b].dimensions[key]
-            difference = (
-                a_dim.diagnostic_center - b_dim.diagnostic_center
-                if a_dim.diagnostic_center is not None and b_dim.diagnostic_center is not None
-                else None
-            )
-            dimensions[key] = PairwiseDimension(
-                dimension=key,
-                player_a=a_dim,
-                player_b=b_dim,
-                diagnostic_center_difference=difference,
-            )
-        return PairwiseResponse(
-            release_id=self.release.release_id,
-            player_a_id=player_a,
-            player_b_id=player_b,
-            probability_a_above_b=probability_a,
-            probability_b_above_a=probability_b,
-            tie_probability=ties,
-            ordering_label=pairwise_order(probability_a),
-            player_a_overall=a.overall,
-            player_b_overall=b.overall,
-            player_a_rank=a.rank,
-            player_b_rank=b.rank,
-            overall_90_ranges_overlap=(
-                a.overall.lower_90 <= b.overall.upper_90
-                and b.overall.lower_90 <= a.overall.upper_90
-            ),
-            dimensions=dimensions,
-            uncertainty_context="CONDITIONAL_ON_FROZEN_MEASUREMENT_ARCHITECTURE",
-            ranking_policy_version="goatlab-v1-ranking-policy-v2-probabilistic",
+        probability_a, probability_b, ties = self.draw_store.pair_probability(player_a, player_b)
+        return assemble_pairwise(
+            self._profiles[player_a], self._profiles[player_b], probability_a, probability_b, ties
         )
