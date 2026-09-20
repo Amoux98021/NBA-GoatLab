@@ -1,7 +1,7 @@
-import type { LeaderboardPage, Methodology, PlayerProfile, RankingRelease, Top100Entry } from "./types";
+import type { LeaderboardPage, Methodology, PairwiseResponse, PlayerProfile, RankingRelease, Top100Entry } from "./types";
 
 export class ApiError extends Error {
-  constructor(message: string, public readonly status: number) {
+  constructor(message: string, public readonly status: number, public readonly code?: string, public readonly playerIds: string[] = []) {
     super(message);
     this.name = "ApiError";
   }
@@ -37,7 +37,11 @@ async function get(path: string): Promise<unknown> {
     throw new ApiError("The ranking service is temporarily unavailable.", 503);
   }
   if (!response.ok) {
-    throw new ApiError(response.status === 404 ? "This record was not found." : "The ranking service could not complete this request.", response.status);
+    const body: unknown = await response.json().catch(() => null);
+    const detail = record(body) && record(body.detail) ? body.detail : null;
+    const code = detail && typeof detail.code === "string" ? detail.code : undefined;
+    const ids = detail && Array.isArray(detail.player_ids) ? detail.player_ids.filter((id): id is string => typeof id === "string") : [];
+    throw new ApiError(response.status === 404 ? "This record was not found." : response.status === 422 ? "This matchup lacks a defensible pairwise probability." : response.status === 400 ? "Choose two different players." : "The ranking service could not complete this request.", response.status, code, ids);
   }
   try {
     return await response.json();
@@ -109,4 +113,29 @@ export async function getRelease(): Promise<RankingRelease> {
     throw new ApiError("The release response is malformed.", 502);
   }
   return value as unknown as RankingRelease;
+}
+
+const orderLabels = new Set(["STRONG_A_OVER_B", "LEAN_A_OVER_B", "INDETERMINATE", "LEAN_B_OVER_A", "STRONG_B_OVER_A"]);
+const dimensionNames = ["PEAK", "LONGEVITY", "OFFENSE", "DEFENSE", "PLAYOFFS", "ACCOLADES", "WINNING"];
+
+export async function comparePlayers(playerA: string, playerB: string): Promise<PairwiseResponse> {
+  const value = await get(`/compare/${encodeURIComponent(playerA)}/${encodeURIComponent(playerB)}`);
+  released(value);
+  const a = value.probability_a_above_b;
+  const b = value.probability_b_above_a;
+  if (
+    value.player_a_id !== playerA || value.player_b_id !== playerB ||
+    typeof a !== "number" || typeof b !== "number" || !Number.isFinite(a) || !Number.isFinite(b) ||
+    a < 0 || a > 1 || b < 0 || b > 1 || Math.abs(a + b - 1) > 1e-9 ||
+    typeof value.tie_probability !== "number" || value.tie_probability < 0 || value.tie_probability > 1 ||
+    !orderLabels.has(String(value.ordering_label)) ||
+    value.ranking_policy_version !== "goatlab-v1-ranking-policy-v2-probabilistic" ||
+    value.uncertainty_context !== "CONDITIONAL_ON_FROZEN_MEASUREMENT_ARCHITECTURE" ||
+    !record(value.player_a_overall) || !record(value.player_b_overall) ||
+    !record(value.player_a_rank) || !record(value.player_b_rank) || !record(value.dimensions) ||
+    dimensionNames.some((name) => !record((value.dimensions as Record<string, unknown>)[name]))
+  ) {
+    throw new ApiError("The comparison response is malformed.", 502);
+  }
+  return value as unknown as PairwiseResponse;
 }

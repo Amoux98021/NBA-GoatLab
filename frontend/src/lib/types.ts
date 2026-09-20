@@ -6,6 +6,13 @@ export type Membership =
   | "LIKELY_OUTSIDE_TOP100"
   | "ROBUST_OUTSIDE_TOP100";
 
+export type PairwiseOrder =
+  | "STRONG_A_OVER_B"
+  | "LEAN_A_OVER_B"
+  | "INDETERMINATE"
+  | "LEAN_B_OVER_A"
+  | "STRONG_B_OVER_A";
+
 export interface OverallSummary {
   center: number | null;
   center_semantics: "DIAGNOSTIC_SUMMARY" | null;
@@ -142,4 +149,38 @@ export interface RankingRelease {
   rankable_count: number;
   unavailable_count: number;
   ranking_policy_version: string;
+}
+
+export interface PairwiseDimension {
+  dimension: DimensionProfile["dimension"];
+  player_a: DimensionProfile;
+  player_b: DimensionProfile;
+  diagnostic_center_difference: number | null;
+  difference_is_exact: false;
+}
+
+export interface PairwiseResponse {
+  release_id: string;
+  player_a_id: string;
+  player_b_id: string;
+  probability_a_above_b: number;
+  probability_b_above_a: number;
+  tie_probability: number;
+  ordering_label: PairwiseOrder;
+  player_a_overall: OverallSummary;
+  player_b_overall: OverallSummary;
+  player_a_rank: RankSummary;
+  player_b_rank: RankSummary;
+  overall_90_ranges_overlap: boolean;
+  dimensions: Record<DimensionProfile["dimension"], PairwiseDimension>;
+  uncertainty_context: "CONDITIONAL_ON_FROZEN_MEASUREMENT_ARCHITECTURE";
+  ranking_policy_version: "goatlab-v1-ranking-policy-v2-probabilistic";
+}
+
+export interface PlayerSearchResult {
+  player_id: string;
+  player_name: string;
+  active: boolean | null;
+  ranking_status: RankingStatus;
+  display_position: number | null;
 }

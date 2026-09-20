@@ -1,6 +1,7 @@
 # GOATLab frontend runtime
 
-STEP-0018 adds a Next.js 16 App Router application under `frontend/`. It consumes the read-only
+STEP-0018 adds a Next.js 16 App Router application under `frontend/`; STEP-0019 adds the
+probabilistic player-comparison experience. It consumes the read-only
 STEP-0017 API; it does not read Gold, product artifacts, PostgreSQL, or paired-draw files.
 
 ## Local setup
@@ -28,8 +29,9 @@ npm run dev
 Open `http://localhost:3000`. Set `NEXT_PUBLIC_API_BASE_URL` to the FastAPI origin; it must
 be reachable by the Next.js server. Set `GOATLAB_RELEASE_ID` to the exact immutable release ID.
 The defaults in `.env.example` target local read-only API service and the 2026 probabilistic
-release. No API secret belongs in the browser. The frontend currently performs server-side
-fetches only. A production release must have a secure backend origin and explicit CORS origin.
+release. No API secret belongs in the browser. Ranking and comparison data are fetched
+server-side; the only browser fetch is the narrow same-origin `/api/compare/search` player-search
+proxy. A production release must have a secure backend origin and explicit CORS origin.
 
 ## Checks
 
@@ -47,9 +49,10 @@ With both local servers running, run live contract checks:
 GOATLAB_TEST_LIVE=1 npm test
 ```
 
-This compares all 100 server-rendered player IDs against `/top100`, plus Jordan, LeBron,
-Curry, Kobe, Gobert, Russell, Mikan, and an unavailable profile. The optional live tests are
-skipped when no local API is running. Browser QA checks 375, 768, 1024, and 1440 px layouts.
+This compares all 100 server-rendered player IDs against `/top100`, diagnostic profiles, five
+live pairs against `/compare`, reversed probabilities, canonical search, and unavailable/same/
+unknown-player behavior. The optional live tests are skipped when no local API is running.
+Browser QA checks 375, 768, 1024, and 1440 px layouts.
 
 ## Deployment boundary
 
