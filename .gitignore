@@ -36,6 +36,13 @@ parquet/
 csv/
 .cache/
 .kaggle/
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+frontend/AGENTS.md
+frontend/CLAUDE.md
 
 # Generated models and notebook state
 /artifacts/

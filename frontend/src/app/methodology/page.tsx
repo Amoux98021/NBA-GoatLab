@@ -1,0 +1,20 @@
+import type { Metadata } from "next";
+import { getMethodology, getRelease } from "@/lib/api";
+import { DIMENSIONS, DIMENSION_DESCRIPTIONS } from "@/lib/display";
+import { UncertaintyInfo } from "@/components/primitives";
+
+export const dynamic = "force-dynamic";
+export const metadata: Metadata = { title: "Methodology", description: "Understand GOATLab's seven dimensions, probabilistic ranking, evidence statuses, and historical limits." };
+
+const weights: Record<string, number> = { PEAK: 17, LONGEVITY: 14, OFFENSE: 16, DEFENSE: 14, PLAYOFFS: 18, ACCOLADES: 10, WINNING: 11 };
+
+export default async function MethodologyPage() {
+  const [method, release] = await Promise.all([getMethodology(), getRelease()]);
+  return <div className="shell interior-page methodology-page"><header className="interior-header"><p className="eyebrow">OPEN ASSUMPTIONS · HONEST LIMITS</p><h1>How GOATLab works.</h1><p>GOATLab models the NBA GOAT debate using explicit, auditable assumptions and uncertainty-aware rankings. It does not claim to settle the debate.</p></header>
+    <UncertaintyInfo />
+    <section className="method-section"><div className="method-section__index">01 / THE MODEL</div><div><h2>Seven dimensions, fixed weights.</h2><p>These are the frozen inputs to the Overall probabilistic research substrate. The frontend displays them; it never recomputes them.</p><div className="weight-list">{DIMENSIONS.map((dimension) => <div key={dimension}><span>{dimension.charAt(0) + dimension.slice(1).toLowerCase()}<small>{DIMENSION_DESCRIPTIONS[dimension]}</small></span><strong>{weights[dimension]}%</strong></div>)}</div></div></section>
+    <section className="method-section"><div className="method-section__index">02 / WHY PROBABILITY</div><div><h2>A distribution is the result.</h2><p>{method.disclosures.display_rank}</p><p>{method.disclosures.rank_band_90}</p><p>Display position helps navigate the list. It is not an exact scientific ordering of close players. Top-N percentages describe the chance of membership under the frozen methodology.</p></div></section>
+    <section className="method-section"><div className="method-section__index">03 / EVIDENCE</div><div><h2>Precision is not quality.</h2><div className="status-explain"><div><strong>Official</strong><p>Richer evidence supports a ranking-grade point summary and distribution.</p></div><div><strong>Provisional</strong><p>A calibrated distribution is available, with less precise constituent measurement.</p></div><div><strong>Interval-native</strong><p>Evidence supports a range and comparisons, but not an exact point claim.</p></div><div><strong>Unavailable</strong><p>Insufficient evidence for a calibrated Overall distribution; unranked, never zero.</p></div></div><p>{method.disclosures.wider_uncertainty}</p><p>Historical records differ across eras. GOATLab represents that limitation through uncertainty rather than fabricated statistics or a quality penalty.</p></div></section>
+    <section className="method-section"><div className="method-section__index">04 / RELEASE</div><div><h2>Frozen and reproducible.</h2><dl className="version-list"><div><dt>Current release</dt><dd>{release.release_id}</dd></div><div><dt>Cutoff</dt><dd>{method.cutoff_season}; active careers to date, no projection</dd></div><div><dt>Ranking policy</dt><dd>{method.ranking_policy_version}</dd></div><div><dt>Overall substrate</dt><dd>{method.overall_substrate_version} · not promoted as an exact-point method</dd></div><div><dt>Peak</dt><dd>{method.dimension_methodology_versions.peak}</dd></div><div><dt>Longevity</dt><dd>{method.dimension_methodology_versions.longevity}</dd></div><div><dt>Defense</dt><dd>{method.dimension_methodology_versions.defense}</dd></div><div><dt>Release fingerprint</dt><dd className="fingerprint">{release.release_fingerprint}</dd></div></dl><p className="method-caveat">All probabilities are conditional on the frozen GOATLab measurement architecture. Shared cross-player calibration-model uncertainty is not fully represented.</p></div></section>
+  </div>;
+}
