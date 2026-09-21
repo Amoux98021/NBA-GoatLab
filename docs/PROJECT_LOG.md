@@ -40,3 +40,9 @@ Permanent chronological index of completed engineering and research steps. Step 
 | [STEP-0018](steps/STEP-0018-probabilistic-leaderboard-frontend.md) | 2026-09-20 | Build a server-rendered probabilistic Top-100/full-leaderboard and player-profile frontend over the frozen read-only API, with uncertainty disclosures, responsive layouts, and live release reconciliation. | This step's commit (see Git log) |
 | [STEP-0019](steps/STEP-0019-player-comparison-experience.md) | 2026-09-20 | Add a shareable, responsive player-vs-player frontend over frozen paired-draw API probabilities, with canonical search, seven-dimension evidence display, uncertainty disclosures, and live backend reconciliation. | This step's commit (see Git log) |
 | [STEP-0020](steps/STEP-0020-deployment-production-qa.md) | 2026-09-21 | Harden and package the immutable probabilistic product for Vercel, containerized FastAPI, and Neon-compatible PostgreSQL; add deterministic deployment/smoke/runbook controls while recording that live provider deployment and publication-rights approval remain open. | This step's commit (see Git log) |
+
+STEP-0020B continuation (2026-09-21): live-provider access was re-audited from the STEP-0020
+partial commit. No authorized Vercel team, database, container host, object store, deployment CLI,
+or Git remote was available, so no live resources or URLs were fabricated. The original
+`PARTIAL + DEPLOYMENT_PARTIAL` result and publication-rights gate remain open; see the continuation
+section in the STEP-0020 record.

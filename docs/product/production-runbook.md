@@ -55,3 +55,18 @@ routes, uncertainty language, and the pre-rights no-index policy.
 Logs must identify release ID and failure class but never include database URLs, bearer tokens, raw
 draw arrays, or whole player distributions. Provider log retention and alerts remain deployment
 configuration work because no provider account was available in STEP-0020.
+
+## Authorization preflight
+
+Before step 4, confirm all of the following without printing secret values:
+
+1. an authorized Vercel team/project is visible;
+2. a TLS PostgreSQL/Neon project exposes separate migration and runtime-role workflows;
+3. a container host can build `Dockerfile.api` and preserve the configured proxy contract;
+4. an immutable HTTPS object location can retain the pinned release bundle;
+5. provider regions, budgets, retention, and alert owners are approved.
+
+The STEP-0020B continuation found none of these resources. Stop at this preflight when authorization
+is absent; do not create anonymous resources, invent credentials, or report local services as
+production. Once access exists, continue with the existing deploy sequence rather than restarting
+the local hardening work.

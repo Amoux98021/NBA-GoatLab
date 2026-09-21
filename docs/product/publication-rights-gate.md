@@ -27,3 +27,7 @@ Until then:
 After approval, changing that environment flag only changes indexing metadata. It must not alter
 the release, scores, probabilities, methodology, or ranking status. A denial requires keeping the
 service private or revising product scope in a separately authorized step.
+
+STEP-0020B did not deploy a public or private live environment and did not change this gate. Even
+after technical deployment is completed, the service remains preview/private and non-indexable
+until the independent decision record above exists.

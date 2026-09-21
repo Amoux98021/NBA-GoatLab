@@ -69,3 +69,15 @@ credential. Destroy that job's credential after use. The API command is
 `deploy/api/start.sh`. The checked-in `render.yaml` is deliberately `autoDeploy: false`.
 
 Public DNS, search indexing, and public announcements are forbidden until the rights gate changes.
+
+## STEP-0020B provider-access result
+
+A fresh access audit on 2026-09-21 found no authorized live provider resources: the connected
+Vercel integration returned zero teams, no cloud/database/container credential variables were
+present, no deployment CLI was installed, and the repository had neither a Vercel project link nor
+a Git remote. Therefore the table above remains the approved target architecture, not a claim that
+those services are live. No production URL, database identifier, bucket, image, or domain exists in
+the project record yet.
+
+Do not substitute local preview results for deployment evidence. Resume with an authorized
+provider account and preserve the frozen release, draw, migration, and transport hashes exactly.

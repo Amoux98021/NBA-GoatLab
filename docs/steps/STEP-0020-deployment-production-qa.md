@@ -88,3 +88,41 @@ development-dependency advisory remains outside the production dependency set.
 6. Formal publication-rights approval.
 
 No public launch is authorized by this step.
+
+## STEP-0020B continuation — live-provider access audit
+
+Date: 2026-09-21
+
+The requested live-deployment continuation began with a fresh provider-access discovery, as
+required. The execution environment still exposes no `DATABASE_URL` or Vercel, Neon, Render,
+Railway, Fly, AWS/S3/R2, Blob, or Cloudflare credential variables. The repository has no
+`.vercel/project.json`, no configured Git remote, and no local Vercel, Neon, Render, Railway, Fly,
+Docker, Podman, GitHub, or AWS CLI. Only the PostgreSQL client is installed. The connected Vercel
+integration returned zero teams, so it cannot create or inspect a project. The only `.env` file is
+the committed secret-free `frontend/.env.example`.
+
+This is an authorization/resource blocker, not a deployment-package failure. No provider account,
+database, object bucket, container service, frontend project, DNS record, or alert target can be
+created or verified from this environment without fabricating authority. Consequently STEP-0020B
+did not upload the bundle, build through a provider builder, run the production migration, load the
+release, create database roles, or deploy the API/frontend. There are still no production URLs.
+Live CORS/TLS, smoke, browser, responsive, accessibility, Web Vitals, logs, rate controls,
+recovery, and rollback checks remain unperformed. Prior local checks are not relabeled as live QA.
+
+The target architecture and all frozen hashes remain unchanged. A focused regression check after
+the access audit revalidated the checked-in deployment fingerprint manifest and frozen product
+identifiers. No basketball methodology, STEP-0016 release byte, ranking output, or deployment
+configuration was changed. The result remains:
+
+- Step status: `PARTIAL`
+- Deployment verdict: `DEPLOYMENT_PARTIAL`
+- Recommendation: `DEPLOYMENT_REQUIRES_MORE_WORK`
+- Publication gate: `PUBLICATION_RIGHTS_REVIEW_REQUIRED`
+
+The secret-free machine-readable access record is
+[`step-0020b-live-access-audit.json`](../data/step-0020b-live-access-audit.json).
+
+The next operator must supply or connect an authorized Vercel team/project, PostgreSQL/Neon
+database, container host, and immutable HTTPS bundle location. Once those resources exist, resume
+at step 4 of the production runbook and record resource identifiers without secrets. Do not repeat
+the completed local hardening work.

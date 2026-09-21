@@ -1,0 +1,28 @@
+{
+  "audit_date": "2026-09-21",
+  "deployment_verdict": "DEPLOYMENT_PARTIAL",
+  "frozen_integrity": {
+    "deployment_artifact_set_sha256": "1c9bb8f67a64e6901c9b9d9f7ef6325af6c0caf871a69651a881d65a59f81abf",
+    "draw_sha256": "1fa326cf9a5bbece581e5e1b253ebcb5d40b30bcc2bcea3268752583e54b7f26",
+    "migration_sha256": "1673c24e0f120662ab6529328b1f14cab50a5fba6dfab99eff3e0ecd236c880d",
+    "release_fingerprint": "2b2b5d91cf519ed091aa8179a800cbe4f018c85510cacc684e0f9ed5fdab4093",
+    "release_id": "goatlab-ranking-release-2026-v2-probabilistic",
+    "transport_bundle_sha256": "95b1e39570d7e106b3153a1b1513316a5cf2eb6f3913c55a7912a8a90fb4f512"
+  },
+  "live_access": {
+    "authorized_backend_host": false,
+    "authorized_database": false,
+    "authorized_dns_domain": false,
+    "authorized_object_storage": false,
+    "authorized_vercel_team_count": 0,
+    "cloud_credential_environment_variables_present": false,
+    "deployment_cli_present": false,
+    "git_remote_present": false,
+    "vercel_project_link_present": false
+  },
+  "live_resources_created": false,
+  "prior_partial_commit": "f349427f522259b71d93b0638e281cd02826d27b",
+  "publication_rights_status": "PUBLICATION_RIGHTS_REVIEW_REQUIRED",
+  "recommendation": "DEPLOYMENT_REQUIRES_MORE_WORK",
+  "step_status": "PARTIAL"
+}

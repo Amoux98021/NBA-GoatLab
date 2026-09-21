@@ -37,3 +37,11 @@ Audit logs and verify immutable table triggers/content before returning traffic.
 
 Recovery exercises should occur before launch and after any topology change. Results belong in an
 append-only deployment record, not in the frozen ranking release.
+
+## Live-drill status
+
+STEP-0020B could not run the database rebuild or provider rollback rehearsal because no authorized
+database, object store, container host, Vercel project, or deployment history was available. The
+documented procedure remains locally validated at the migration/transaction/reconciliation layer,
+but it is not a completed production recovery exercise. A live or staging drill is mandatory after
+resources are connected and before technical deployment readiness can be declared.

@@ -42,3 +42,18 @@ Record every item for Preview and, after rights approval, Production.
 
 STEP-0020 local verification satisfies code/build checks only. Provider, browser-on-deployed-URL,
 failure-injection, and rights-review boxes remain open until authorized resources exist.
+
+## STEP-0020B continuation record
+
+- [x] Fresh environment-variable-name, project-link, Git-remote, CLI, and connected-provider access
+      discovery performed without exposing secret values.
+- [x] Connected Vercel integration checked: zero teams available.
+- [x] Frozen deployment fingerprint regression rechecked.
+- [ ] Authorized Vercel project available.
+- [ ] Authorized PostgreSQL/Neon database available.
+- [ ] Authorized container host available.
+- [ ] Authorized immutable bundle storage available.
+- [ ] Live migration/load, deployment, and deployed QA completed.
+
+Result: `DEPLOYMENT_PARTIAL`. The unchecked live items are blocked by missing provider authority,
+not waived or satisfied by the earlier local QA.
