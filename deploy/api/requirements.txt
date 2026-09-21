@@ -1,0 +1,8 @@
+fastapi>=0.116,<1
+numpy>=2.3,<3
+pydantic>=2.11,<3
+pyarrow>=25,<26
+psycopg[binary]>=3.2,<4
+PyYAML>=6,<7
+requests>=2.32,<3
+uvicorn>=0.35,<1

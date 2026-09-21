@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: { default: "GOATLab — Probabilistic NBA GOAT Rankings", template: "%s — GOATLab" },
   description: "GOATLab models the NBA GOAT debate with explicit, auditable assumptions and uncertainty-aware rankings.",
+  robots: process.env.GOATLAB_PUBLICATION_RIGHTS_APPROVED === "true"
+    ? { index: true, follow: true }
+    : { index: false, follow: false, nocache: true },
 };
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#162b2c" };

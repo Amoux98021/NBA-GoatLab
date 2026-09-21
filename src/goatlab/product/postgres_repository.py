@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any, cast
 
 import psycopg
+from psycopg.conninfo import conninfo_to_dict, make_conninfo
 from psycopg.rows import dict_row
 
 from goatlab.product.comparison import assemble_pairwise
@@ -33,8 +34,33 @@ class PostgresRankingRepository:
             raise ValueError("configured DB release fingerprint differs from draw artifact")
         self.release = release
 
+    def _connect(self) -> psycopg.Connection[dict[str, Any]]:
+        """Open a bounded read connection; production pooling lives in the DB endpoint."""
+
+        existing_options_value = conninfo_to_dict(self.database_url).get("options", "")
+        existing_options = str(existing_options_value) if existing_options_value else ""
+        session_options = " ".join(
+            part
+            for part in (
+                existing_options,
+                f"-c statement_timeout={self.settings.database_statement_timeout_ms}",
+                "-c default_transaction_read_only=on",
+            )
+            if part
+        )
+        conninfo = make_conninfo(
+            self.database_url,
+            connect_timeout=self.settings.database_connect_timeout_seconds,
+            options=session_options,
+            application_name="goatlab-read-api",
+        )
+        return psycopg.connect(
+            conninfo,
+            row_factory=dict_row,
+        )
+
     def get_release(self) -> RankingRelease:
-        with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+        with self._connect() as connection:
             row = connection.execute(
                 "SELECT manifest_json, release_fingerprint FROM ranking_versions "
                 "WHERE release_id = %s",
@@ -48,14 +74,14 @@ class PostgresRankingRepository:
         return release
 
     def get_releases(self) -> list[RankingRelease]:
-        with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+        with self._connect() as connection:
             rows = connection.execute(
                 "SELECT manifest_json FROM ranking_versions ORDER BY generated_at_utc, release_id"
             ).fetchall()
         return [RankingRelease.model_validate(row["manifest_json"]) for row in rows]
 
     def get_methodology(self) -> dict[str, Any]:
-        with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+        with self._connect() as connection:
             row = connection.execute(
                 "SELECT methodology_json FROM ranking_versions WHERE release_id = %s",
                 (self.settings.release_id,),
@@ -94,7 +120,7 @@ class PostgresRankingRepository:
         if limit < 0 or offset < 0 or limit > self.release.rankable_count:
             raise ValueError("invalid pagination")
         where, extra = self._filters(search, active, status)
-        with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+        with self._connect() as connection:
             rows = connection.execute(
                 "SELECT q.profile_json->'leaderboard' AS entry "
                 "FROM player_rankings r "
@@ -114,7 +140,7 @@ class PostgresRankingRepository:
         status: str | None = None,
     ) -> int:
         where, extra = self._filters(search, active, status)
-        with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+        with self._connect() as connection:
             row = connection.execute(
                 "SELECT count(*) AS n FROM player_rankings r "
                 "JOIN players p ON (p.release_id, p.player_id) = (r.release_id, r.player_id) "
@@ -125,7 +151,7 @@ class PostgresRankingRepository:
         return int(row["n"])
 
     def get_top100(self) -> list[dict[str, Any]]:
-        with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+        with self._connect() as connection:
             rows = connection.execute(
                 "SELECT payload_json FROM top100_entries WHERE release_id = %s "
                 "ORDER BY display_position",
@@ -136,7 +162,7 @@ class PostgresRankingRepository:
         return [cast(dict[str, Any], row["payload_json"]) for row in rows]
 
     def get_player(self, player_id: str) -> PlayerProfile | None:
-        with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+        with self._connect() as connection:
             row = connection.execute(
                 "SELECT profile_json FROM player_profiles WHERE release_id = %s AND player_id = %s",
                 (self.settings.release_id, player_id),
@@ -157,7 +183,7 @@ class PostgresRankingRepository:
 
     def health(self) -> dict[str, Any]:
         try:
-            with psycopg.connect(self.database_url, row_factory=dict_row) as connection:
+            with self._connect() as connection:
                 row = connection.execute(
                     "SELECT release_fingerprint FROM ranking_versions WHERE release_id = %s",
                     (self.settings.release_id,),

@@ -1,7 +1,7 @@
-# STEP-0017 deployment gates
+# Production deployment gates
 
-STEP-0017 is a local read-only backend implementation, not authorization to publish source-
-derived analytics. A deployment must explicitly track:
+STEP-0017 created the local read-only backend and STEP-0020 hardened a deployable topology. Neither
+authorizes publication of source-derived analytics. A deployment must explicitly track:
 
 | Gate | Required evidence |
 |---|---|
@@ -14,7 +14,10 @@ derived analytics. A deployment must explicitly track:
 | Readiness | `/api/v1/health` reports DB/release/draw state; degraded connectivity returns HTTP 503. |
 | Reproducibility | New releases get new IDs and fingerprints; historical published rows remain immutable. |
 
-The SQL uses ordinary PostgreSQL data types, JSONB, standard indexes, and PL/pgSQL triggers;
-no Neon-specific extension is required. Neon is a compatible future target, but this step does
-not provision or mutate one. Full cross-player calibration uncertainty remains a disclosed
-research limitation inherited from the frozen methodology; the API does not suppress it.
+The SQL uses ordinary PostgreSQL data types, JSONB, standard indexes, and PL/pgSQL triggers; no
+Neon-specific extension is required. STEP-0020 confirmed Neon compatibility in configuration but
+did not provision or mutate a database. Full cross-player calibration uncertainty remains a
+disclosed research limitation inherited from the frozen methodology; the API does not suppress it.
+See [production-deployment.md](production-deployment.md),
+[production-qa-checklist.md](production-qa-checklist.md), and
+[publication-rights-gate.md](publication-rights-gate.md).

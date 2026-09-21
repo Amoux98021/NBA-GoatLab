@@ -5,6 +5,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 from typing import Literal, cast
+from urllib.parse import urlsplit
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
@@ -22,6 +23,8 @@ class ProductSettings(BaseModel):
     expected_release_fingerprint: str = FROZEN_RELEASE_FINGERPRINT
     allowed_cors_origins: tuple[str, ...] = ("http://localhost:3000",)
     draw_cache_enabled: bool = True
+    database_connect_timeout_seconds: int = Field(default=5, ge=1, le=30)
+    database_statement_timeout_ms: int = Field(default=10_000, ge=1_000, le=60_000)
 
     @model_validator(mode="after")
     def check_configuration(self) -> ProductSettings:
@@ -29,6 +32,18 @@ class ProductSettings(BaseModel):
             raise ValueError("DATABASE_URL is required in PostgreSQL mode")
         if self.environment == "production" and "*" in self.allowed_cors_origins:
             raise ValueError("wildcard CORS origin is forbidden in production")
+        if self.environment == "production":
+            if self.backend_mode != "postgres":
+                raise ValueError("production requires the PostgreSQL backend")
+            if not self.allowed_cors_origins:
+                raise ValueError("production requires at least one explicit CORS origin")
+            for origin in self.allowed_cors_origins:
+                parsed = urlsplit(origin)
+                if parsed.scheme != "https" or not parsed.netloc or parsed.path not in {"", "/"}:
+                    raise ValueError("production CORS origins must be HTTPS origins without paths")
+            assert self.database_url is not None
+            if "sslmode=" not in self.database_url:
+                raise ValueError("production DATABASE_URL must declare sslmode")
         if not self.release_id:
             raise ValueError("ranking release ID is required")
         if len(self.expected_release_fingerprint) != 64:
@@ -67,4 +82,10 @@ class ProductSettings(BaseModel):
             ),
             draw_cache_enabled=os.getenv("GOATLAB_DRAW_CACHE_ENABLED", "true").lower()
             not in {"false", "0", "no"},
+            database_connect_timeout_seconds=int(
+                os.getenv("GOATLAB_DATABASE_CONNECT_TIMEOUT_SECONDS", "5")
+            ),
+            database_statement_timeout_ms=int(
+                os.getenv("GOATLAB_DATABASE_STATEMENT_TIMEOUT_MS", "10000")
+            ),
         )

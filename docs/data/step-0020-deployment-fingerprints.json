@@ -1,0 +1,34 @@
+{
+  "deployment_artifact_set_sha256": "1c9bb8f67a64e6901c9b9d9f7ef6325af6c0caf871a69651a881d65a59f81abf",
+  "files": {
+    ".github/workflows/ci.yml": "f28600b6edbd623fbef13b72251f82edcbd7178a277a0091260ee07857a16422",
+    "Dockerfile.api": "520d0ee4304bca35ecaa64a864fc1d0c441e1f87503ace35394e58039bd173ca",
+    "deploy/api/load-release.sh": "7b6c2cd7ee52b81d53736102d3f1ebfa1780d0fcb6cbc16ccf43b1ce1bb3bda4",
+    "deploy/api/requirements.txt": "2f86a57c520162d7d9d82fd08f9e811841a3a493e00f3d5b0c626934b29c9fd4",
+    "deploy/api/start.sh": "72106d6b9e07cc85a2083fa72e1687b87514b147942f95cb090283cbd519015c",
+    "frontend/next.config.ts": "261b3b531a45671e44dfbc9c31a0ccbe32b7f1443c24b0706a3c192d059c2b4a",
+    "frontend/package-lock.json": "5b219e97077c83301d1419061a68f9313c115860ef3ada43a7567bdb2202ee22",
+    "frontend/package.json": "0563e8cdd9c0ea416809cb99c0147b3f17c4f85013fe843dc4511a0d3cef6a26",
+    "frontend/src/app/robots.ts": "087b7a801867c1b907983db71b68d0d6befe580436b77318af650a31b85353db",
+    "frontend/vercel.json": "bad479590ddc1feb7eded48273c96dd1d16a498c6d30900d0b8fa17c3c734945",
+    "pipelines/product/materialize_deployment_release.py": "89dbdab8fd38cc9491356c816deb0b505c714e4617fc15b8ad45c25f4189fb4d",
+    "pipelines/product/package_ranking_release.py": "d1095063f4500ba18c670d46b578ae8186ae3c6c7591c97a461bd0cb4bb19106",
+    "pipelines/product/smoke_production.py": "e097d5fdbb3cbb2788df64d0a8e6c8b5bedaf3cc3b26b1354df36ca492f24983",
+    "render.yaml": "8f560158601a3d98115c09631c63324489dde83e9a5bd33fe990135471c3473b",
+    "src/goatlab/product/api.py": "e24f7b6b8cb2d6f8aa0fd7e2d9a52e1d5ea1186c31176076e58201b620dee54d",
+    "src/goatlab/product/deployment.py": "df3e1f955c54874f5d18e6aa05133f7cdb8daa9687f55c559b0be6649734e297",
+    "src/goatlab/product/postgres_repository.py": "3e2cac23c085f5969806f693f32d8314cb3abc73125e40ab139c200b529fe1d2",
+    "src/goatlab/product/settings.py": "a6d7778199f37b9005f197e216343b3191fb4c2cc81d845ee0e749315c138fb8"
+  },
+  "frozen_inputs": {
+    "migration_sha256": "1673c24e0f120662ab6529328b1f14cab50a5fba6dfab99eff3e0ecd236c880d",
+    "paired_draw_sha256": "1fa326cf9a5bbece581e5e1b253ebcb5d40b30bcc2bcea3268752583e54b7f26",
+    "release_fingerprint": "2b2b5d91cf519ed091aa8179a800cbe4f018c85510cacc684e0f9ed5fdab4093",
+    "release_id": "goatlab-ranking-release-2026-v2-probabilistic",
+    "step_0019_commit": "71669c8f92820de1424eb1fccbcd8c0a1e260407"
+  },
+  "release_transport": {
+    "deterministic_rebuilds": 2,
+    "sha256": "95b1e39570d7e106b3153a1b1513316a5cf2eb6f3913c55a7912a8a90fb4f512"
+  }
+}
