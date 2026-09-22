@@ -28,9 +28,15 @@ services:
         sync: false
       - key: GOATLAB_ALLOWED_CORS_ORIGINS
         sync: false
-      - key: GOATLAB_RELEASE_BUNDLE_URL
+      - key: GOATLAB_R2_ENDPOINT_URL
+        sync: false
+      - key: GOATLAB_R2_BUCKET
+        sync: false
+      - key: GOATLAB_R2_OBJECT_KEY
+        value: releases/goatlab-ranking-release-2026-v2-probabilistic.tar.gz
+      - key: GOATLAB_R2_ACCESS_KEY_ID
+        sync: false
+      - key: GOATLAB_R2_SECRET_ACCESS_KEY
         sync: false
       - key: GOATLAB_RELEASE_BUNDLE_SHA256
-        sync: false
-      - key: GOATLAB_RELEASE_BUNDLE_BEARER_TOKEN
         sync: false

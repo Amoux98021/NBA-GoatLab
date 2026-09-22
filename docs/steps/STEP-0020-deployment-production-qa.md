@@ -126,3 +126,25 @@ The next operator must supply or connect an authorized Vercel team/project, Post
 database, container host, and immutable HTTPS bundle location. Once those resources exist, resume
 at step 4 of the production runbook and record resource identifiers without secrets. Do not repeat
 the completed local hardening work.
+
+## STEP-0020 continuation — private Cloudflare R2 transport
+
+Date: 2026-09-22
+
+The deployment materializer now supports private Cloudflare R2 through its S3-compatible API using
+an endpoint, bucket, object key, access-key ID, and secret access key supplied only at runtime. R2
+is selected when any R2 setting is present and then requires the complete configuration. The prior
+HTTPS/Bearer transport remains available as a compatibility mode.
+
+The R2 downloader checks object size metadata when available, enforces the existing 256 MiB limit
+while streaming, removes partial downloads after failure, verifies the frozen transport SHA-256
+before extraction, and then uses the existing traversal, release-ID, release-fingerprint, and
+manifest checks. Provider failures are converted to a credential-safe error without logging or
+embedding key material. The Render blueprint prompts for private R2 values and fixes the immutable
+object key without committing secrets.
+
+The updated deployment artifact-set SHA-256 is
+`3cc51216f6698702239ab593152de2b8142605fc1a6c1590e08947e120297aa4`.
+
+This continuation changes deployment transport only. The release bundle bytes, Peak, Longevity,
+Defense, Overall substrate, ranking policy, and product output remain frozen.

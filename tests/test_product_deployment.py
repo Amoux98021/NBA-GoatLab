@@ -24,6 +24,21 @@ from goatlab.product.settings import ProductSettings
 
 ROOT = Path(__file__).resolve().parents[1]
 RELEASE_DIR = ROOT / "data/product" / FROZEN_RELEASE_ID
+FROZEN_DRAW_SHA256 = "1fa326cf9a5bbece581e5e1b253ebcb5d40b30bcc2bcea3268752583e54b7f26"
+
+
+class _FakeS3Client:
+    def __init__(self, payload: bytes, *, missing: bool = False) -> None:
+        self.payload = payload
+        self.missing = missing
+
+    def head_object(self, **kwargs: str) -> dict[str, object]:
+        if self.missing:
+            raise FileNotFoundError("object not found")
+        return {"ContentLength": len(self.payload)}
+
+    def get_object(self, **kwargs: str) -> dict[str, object]:
+        return {"Body": io.BytesIO(self.payload)}
 
 
 def test_production_settings_fail_closed() -> None:
@@ -93,6 +108,146 @@ def test_release_transport_rejects_traversal(tmp_path: Path) -> None:
     assert not (tmp_path / "escape").exists()
 
 
+def test_private_s3_release_download_and_materialization(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    source = tmp_path / "source" / FROZEN_RELEASE_ID
+    source.mkdir(parents=True)
+    (source / "payload.txt").write_text("private-r2\n")
+    monkeypatch.setattr(deployment, "read_release_bundle", lambda *args, **kwargs: object())
+    archive = tmp_path / "release.tar.gz"
+    archive_hash = deployment.package_release(source, archive)
+    monkeypatch.setattr(
+        deployment,
+        "_create_s3_client",
+        lambda *args: _FakeS3Client(archive.read_bytes()),
+    )
+
+    target = tmp_path / "target"
+    outcome = deployment.materialize_release(
+        target,
+        archive_sha256=archive_hash,
+        s3_endpoint_url="https://example.r2.cloudflarestorage.com",
+        s3_bucket="goatlab-releases",
+        s3_object_key=f"releases/{FROZEN_RELEASE_ID}.tar.gz",
+        s3_access_key_id="private-access-key",
+        s3_secret_access_key="private-secret-key",
+    )
+
+    assert outcome == "MATERIALIZED"
+    assert (target / FROZEN_RELEASE_ID / "payload.txt").read_text() == "private-r2\n"
+
+
+def test_private_s3_release_requires_complete_credentials(tmp_path: Path) -> None:
+    with pytest.raises(ValueError, match="complete private S3"):
+        deployment.materialize_release(
+            tmp_path / "target",
+            archive_sha256="0" * 64,
+            s3_endpoint_url="https://example.r2.cloudflarestorage.com",
+            s3_bucket="goatlab-releases",
+            s3_object_key="releases/release.tar.gz",
+        )
+
+
+def test_private_s3_release_object_not_found(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr(
+        deployment,
+        "_create_s3_client",
+        lambda *args: _FakeS3Client(b"", missing=True),
+    )
+    with pytest.raises(RuntimeError, match="private S3 release bundle download failed"):
+        deployment.download_s3_bundle(
+            "https://example.r2.cloudflarestorage.com",
+            "goatlab-releases",
+            "releases/missing.tar.gz",
+            "private-access-key",
+            "private-secret-key",
+            tmp_path / "release.tar.gz",
+        )
+    assert not (tmp_path / "release.tar.gz").exists()
+
+
+def test_private_s3_release_rejects_bad_transport_hash(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr(
+        deployment,
+        "_create_s3_client",
+        lambda *args: _FakeS3Client(b"not-the-approved-bundle"),
+    )
+    with pytest.raises(ValueError, match="SHA-256 mismatch"):
+        deployment.materialize_release(
+            tmp_path / "target",
+            archive_sha256="0" * 64,
+            s3_endpoint_url="https://example.r2.cloudflarestorage.com",
+            s3_bucket="goatlab-releases",
+            s3_object_key="releases/release.tar.gz",
+            s3_access_key_id="private-access-key",
+            s3_secret_access_key="private-secret-key",
+        )
+
+
+def test_private_s3_failure_does_not_leak_secrets(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    access_key = "access-key-must-not-leak"
+    secret_key = "secret-key-must-not-leak"
+
+    def fail_client(*args: str) -> object:
+        raise RuntimeError(f"provider rejected {access_key} {secret_key}")
+
+    monkeypatch.setattr(deployment, "_create_s3_client", fail_client)
+    with pytest.raises(RuntimeError) as error:
+        deployment.download_s3_bundle(
+            "https://example.r2.cloudflarestorage.com",
+            "goatlab-releases",
+            "releases/release.tar.gz",
+            access_key,
+            secret_key,
+            tmp_path / "release.tar.gz",
+        )
+    assert access_key not in str(error.value)
+    assert secret_key not in str(error.value)
+
+
+def test_https_bearer_release_download_remains_supported(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    captured_headers: dict[str, str] = {}
+
+    class FakeResponse:
+        def __enter__(self) -> FakeResponse:
+            return self
+
+        def __exit__(self, *args: object) -> None:
+            return None
+
+        def raise_for_status(self) -> None:
+            return None
+
+        def iter_content(self, chunk_size: int) -> list[bytes]:
+            return [b"https-bundle"]
+
+    def fake_get(
+        url: str, *, headers: dict[str, str], stream: bool, timeout: tuple[int, int]
+    ) -> FakeResponse:
+        captured_headers.update(headers)
+        return FakeResponse()
+
+    monkeypatch.setattr(deployment.requests, "get", fake_get)
+    destination = tmp_path / "release.tar.gz"
+    deployment.download_bundle(
+        "https://downloads.example/release.tar.gz",
+        destination,
+        bearer_token="private-bearer-token",
+    )
+
+    assert destination.read_bytes() == b"https-bundle"
+    assert captured_headers == {"Authorization": "Bearer private-bearer-token"}
+
+
 def test_deployment_descriptors_pin_release_and_contain_no_secrets() -> None:
     descriptor = yaml.safe_load((ROOT / "render.yaml").read_text())
     service = descriptor["services"][0]
@@ -100,6 +255,17 @@ def test_deployment_descriptors_pin_release_and_contain_no_secrets() -> None:
     assert values["GOATLAB_RELEASE_ID"] == FROZEN_RELEASE_ID
     assert values["GOATLAB_RELEASE_FINGERPRINT"] == FROZEN_RELEASE_FINGERPRINT
     assert next(row for row in service["envVars"] if row["key"] == "DATABASE_URL")["sync"] is False
+    assert values["GOATLAB_R2_OBJECT_KEY"] == f"releases/{FROZEN_RELEASE_ID}.tar.gz"
+    for key in (
+        "GOATLAB_R2_ENDPOINT_URL",
+        "GOATLAB_R2_BUCKET",
+        "GOATLAB_R2_ACCESS_KEY_ID",
+        "GOATLAB_R2_SECRET_ACCESS_KEY",
+        "GOATLAB_RELEASE_BUNDLE_SHA256",
+    ):
+        assert next(row for row in service["envVars"] if row["key"] == key)["sync"] is False
+    assert "GOATLAB_RELEASE_BUNDLE_BEARER_TOKEN" not in values
+    assert "GOATLAB_RELEASE_BUNDLE_URL" not in values
     serialized = json.dumps(descriptor).lower()
     assert "password=" not in serialized and "postgresql://" not in serialized
 
@@ -148,3 +314,15 @@ def test_deployment_fingerprints_are_deterministic() -> None:
         rows.append(f"{actual}  {relative}\n")
     aggregate = hashlib.sha256("".join(rows).encode()).hexdigest()
     assert aggregate == manifest["deployment_artifact_set_sha256"]
+
+
+def test_frozen_release_remains_unchanged() -> None:
+    assert FROZEN_RELEASE_ID == "goatlab-ranking-release-2026-v2-probabilistic"
+    assert FROZEN_RELEASE_FINGERPRINT == (
+        "2b2b5d91cf519ed091aa8179a800cbe4f018c85510cacc684e0f9ed5fdab4093"
+    )
+    if not RELEASE_DIR.exists():
+        pytest.skip("run the offline STEP-0016 product build first")
+    assert deployment.sha256_file(RELEASE_DIR / "paired-overall-rank-draws.npz") == (
+        FROZEN_DRAW_SHA256
+    )

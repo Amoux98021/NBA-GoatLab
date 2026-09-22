@@ -6,7 +6,9 @@
 2. Rebuild/verify the ignored STEP-0016 product directory. Confirm the release, draw, and migration
    hashes listed in [production-deployment.md](production-deployment.md).
 3. Package the release with `package_ranking_release.py` twice; require identical SHA-256 values.
-4. Upload the bundle to controlled object storage. Set the bundle URL and hash as backend secrets.
+4. Upload the bundle to private Cloudflare R2 at
+   `releases/goatlab-ranking-release-2026-v2-probabilistic.tar.gz`. Configure the S3-compatible
+   endpoint, bucket, object key, Object Read credentials, and pinned hash as backend secrets.
 5. Create a PostgreSQL database/branch. Apply migrations and load using a privileged one-shot role.
    Repeat the load and require `ALREADY_LOADED`.
 6. Grant a separate API role only `CONNECT`, schema `USAGE`, and table `SELECT`; use the provider's

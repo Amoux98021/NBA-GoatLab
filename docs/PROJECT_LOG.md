@@ -46,3 +46,7 @@ partial commit. No authorized Vercel team, database, container host, object stor
 or Git remote was available, so no live resources or URLs were fabricated. The original
 `PARTIAL + DEPLOYMENT_PARTIAL` result and publication-rights gate remain open; see the continuation
 section in the STEP-0020 record.
+
+STEP-0020 R2 continuation (2026-09-22): added credential-safe private Cloudflare R2/S3 bundle
+retrieval with size/hash/release verification, retained HTTPS/Bearer compatibility, and updated the
+Render secret contract without changing any basketball methodology or frozen ranking output.

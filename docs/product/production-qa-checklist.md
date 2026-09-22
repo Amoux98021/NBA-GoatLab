@@ -7,6 +7,8 @@ Record every item for Preview and, after rights approval, Production.
 - [ ] Commit is the approved STEP-0020 commit.
 - [ ] Release ID and fingerprint match the frozen release.
 - [ ] Draw and migration hashes match the deployment record.
+- [ ] Private R2 object metadata and downloaded bytes respect the size limit and pinned SHA-256.
+- [ ] No R2 access key or secret key appears in source, logs, errors, or API payloads.
 - [ ] DB load counts: 5,103 players; 1,882 rankable; 3,221 unavailable; 100 Top-100 entries.
 - [ ] Repeated loader invocation reports `ALREADY_LOADED`.
 - [ ] API role cannot INSERT, UPDATE, DELETE, CREATE, or run migrations.

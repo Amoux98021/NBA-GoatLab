@@ -27,6 +27,11 @@ def main() -> None:
         archive_sha256=os.getenv("GOATLAB_RELEASE_BUNDLE_SHA256"),
         bundle_url=os.getenv("GOATLAB_RELEASE_BUNDLE_URL"),
         bearer_token=os.getenv("GOATLAB_RELEASE_BUNDLE_BEARER_TOKEN"),
+        s3_endpoint_url=os.getenv("GOATLAB_R2_ENDPOINT_URL"),
+        s3_bucket=os.getenv("GOATLAB_R2_BUCKET"),
+        s3_object_key=os.getenv("GOATLAB_R2_OBJECT_KEY"),
+        s3_access_key_id=os.getenv("GOATLAB_R2_ACCESS_KEY_ID"),
+        s3_secret_access_key=os.getenv("GOATLAB_R2_SECRET_ACCESS_KEY"),
     )
     print(
         json.dumps(

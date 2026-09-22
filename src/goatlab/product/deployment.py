@@ -8,8 +8,11 @@ import os
 import shutil
 import tarfile
 import tempfile
+from collections.abc import Mapping
 from pathlib import Path, PurePosixPath
+from typing import Protocol, cast
 
+import boto3  # type: ignore[import-untyped]
 import requests
 
 from goatlab.product.loading import (
@@ -19,6 +22,18 @@ from goatlab.product.loading import (
 )
 
 MAX_BUNDLE_BYTES = 256 * 1024 * 1024
+
+
+class _S3Body(Protocol):
+    def read(self, amount: int = -1) -> bytes: ...
+
+    def close(self) -> None: ...
+
+
+class _S3Client(Protocol):
+    def head_object(self, **kwargs: str) -> Mapping[str, object]: ...
+
+    def get_object(self, **kwargs: str) -> Mapping[str, object]: ...
 
 
 def sha256_file(path: Path) -> str:
@@ -79,6 +94,63 @@ def download_bundle(
                 target.write(chunk)
 
 
+def _create_s3_client(
+    endpoint_url: str,
+    access_key_id: str,
+    secret_access_key: str,
+) -> _S3Client:
+    return cast(
+        _S3Client,
+        boto3.client(
+            "s3",
+            endpoint_url=endpoint_url,
+            aws_access_key_id=access_key_id,
+            aws_secret_access_key=secret_access_key,
+            region_name="auto",
+        ),
+    )
+
+
+def download_s3_bundle(
+    endpoint_url: str,
+    bucket: str,
+    object_key: str,
+    access_key_id: str,
+    secret_access_key: str,
+    destination: Path,
+    *,
+    max_bytes: int = MAX_BUNDLE_BYTES,
+) -> None:
+    """Download a private S3-compatible object without exposing credentials."""
+
+    if not endpoint_url.startswith("https://"):
+        raise ValueError("private S3 endpoint must use HTTPS")
+    if not all(value.strip() for value in (bucket, object_key, access_key_id, secret_access_key)):
+        raise ValueError("complete private S3 bundle configuration is required")
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        client = _create_s3_client(endpoint_url, access_key_id, secret_access_key)
+        metadata = client.head_object(Bucket=bucket, Key=object_key)
+        content_length = metadata.get("ContentLength")
+        if isinstance(content_length, int) and content_length > max_bytes:
+            raise ValueError("release bundle exceeds configured size limit")
+        response = client.get_object(Bucket=bucket, Key=object_key)
+        body = cast(_S3Body, response["Body"])
+        total = 0
+        try:
+            with destination.open("wb") as target:
+                while chunk := body.read(1024 * 1024):
+                    total += len(chunk)
+                    if total > max_bytes:
+                        raise ValueError("release bundle exceeds configured size limit")
+                    target.write(chunk)
+        finally:
+            body.close()
+    except Exception:
+        destination.unlink(missing_ok=True)
+        raise RuntimeError("private S3 release bundle download failed") from None
+
+
 def _safe_member_path(member: tarfile.TarInfo, release_id: str) -> PurePosixPath:
     path = PurePosixPath(member.name)
     if path.is_absolute() or ".." in path.parts or not path.parts or path.parts[0] != release_id:
@@ -116,6 +188,11 @@ def materialize_release(
     archive_sha256: str | None = None,
     bundle_url: str | None = None,
     bearer_token: str | None = None,
+    s3_endpoint_url: str | None = None,
+    s3_bucket: str | None = None,
+    s3_object_key: str | None = None,
+    s3_access_key_id: str | None = None,
+    s3_secret_access_key: str | None = None,
 ) -> str:
     """Verify an existing release or atomically install a hash-pinned archive."""
 
@@ -134,10 +211,29 @@ def materialize_release(
         temp_root = Path(temp_name)
         selected = archive_path
         if selected is None:
-            if not bundle_url:
-                raise ValueError("release bundle path or HTTPS URL is required")
             selected = temp_root / "release.tar.gz"
-            download_bundle(bundle_url, selected, bearer_token=bearer_token)
+            s3_configuration = (
+                s3_endpoint_url,
+                s3_bucket,
+                s3_object_key,
+                s3_access_key_id,
+                s3_secret_access_key,
+            )
+            if any(s3_configuration):
+                if not all(s3_configuration):
+                    raise ValueError("complete private S3 bundle configuration is required")
+                download_s3_bundle(
+                    cast(str, s3_endpoint_url),
+                    cast(str, s3_bucket),
+                    cast(str, s3_object_key),
+                    cast(str, s3_access_key_id),
+                    cast(str, s3_secret_access_key),
+                    selected,
+                )
+            elif bundle_url:
+                download_bundle(bundle_url, selected, bearer_token=bearer_token)
+            else:
+                raise ValueError("release bundle path, private S3 object, or HTTPS URL is required")
         if sha256_file(selected) != archive_sha256:
             raise ValueError("release bundle SHA-256 mismatch")
         staged = _extract_verified_archive(selected, temp_root / "extracted", release_id)
