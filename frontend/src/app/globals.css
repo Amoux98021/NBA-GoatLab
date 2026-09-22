@@ -175,3 +175,115 @@
   .hero:after{right:-235px}
   .hero__eyebrow{flex-wrap:wrap;line-height:1.5}
 }
+
+/* STEP-0022 truthful interval and comparison graphics. */
+.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.rank-interval-graphic,.comparison-rank-bands,.methodology-process{margin:0}
+.rank-interval-graphic{margin-top:27px}
+.rank-interval-graphic__head,.comparison-rank-bands__head{display:flex;align-items:end;justify-content:space-between;gap:16px}
+.rank-interval-graphic__head span,.comparison-rank-bands__head>span{font-size:10px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:#526e7f}
+.rank-interval-graphic__head strong{font-size:12px;color:#274f67;font-variant-numeric:tabular-nums}
+.rank-axis{display:flex;justify-content:space-between;margin:15px 47px 6px 86px;font-size:9px;font-weight:800;color:#68727a;font-variant-numeric:tabular-nums}
+.rank-interval-rows{display:grid;gap:8px}
+.rank-interval-row{display:grid;grid-template-columns:32px 43px minmax(70px,1fr) 43px;align-items:center;gap:6px}
+.rank-interval-row__level{font-size:9px;font-weight:800;color:#526e7f}
+.rank-interval-row__endpoint{font-size:9px;color:#59646b;font-variant-numeric:tabular-nums}
+.rank-interval-row__endpoint--end{text-align:right}
+.interval-track,.dimension-scale__track,.comparison-dimension-lane__track{position:relative;display:block;height:12px;background:#d8c3a566;overflow:visible}
+.interval-segment,.dimension-scale__interval{position:absolute;inset-block:0;min-width:2px;background:#6f9fbe;transform-origin:left center}
+.interval-segment--95{opacity:.28}
+.interval-segment--90{opacity:.43}
+.interval-segment--80{opacity:.62}
+.interval-segment--50{opacity:.92}
+.interval-marker,.dimension-scale__point{position:absolute;z-index:2;top:-3px;width:2px;height:18px;background:#c8793a;transform:translateX(-1px)}
+.interval-marker:after,.dimension-scale__point:after{content:"";position:absolute;left:50%;top:-1px;width:6px;height:6px;background:inherit;border-radius:50%;transform:translate(-50%,-50%)}
+.rank-interval-graphic figcaption,.comparison-rank-bands figcaption,.methodology-process figcaption{margin-top:13px;font-size:10px;line-height:1.5;color:#68727a}
+
+.probability--bar{row-gap:8px}
+.probability--bar>span{color:#4d5b64}
+.probability--bar>strong{color:#315f7b}
+.probability__track{height:7px}
+
+.dimension-card{min-height:270px}
+.dimension-card__value{margin-bottom:8px}
+.dimension-scale{margin:17px 0 14px}
+.dimension-scale__axis{display:flex;justify-content:space-between;margin-bottom:5px;font-size:9px;color:#68727a;font-variant-numeric:tabular-nums}
+.dimension-scale__track{height:10px;background:#d8c3a566}
+.dimension-scale__interval{opacity:.72}
+.dimension-scale__point{background:#c8793a;top:-4px;height:18px}
+.dimension-scale--unavailable{display:flex;align-items:center;min-height:43px;padding:9px 11px;background:#f0ece4;border-left:3px solid #d8c3a5;color:#68727a;font-size:10px;line-height:1.4}
+.dimension-card__description{border-top:1px solid #ece6dd;padding-top:11px}
+
+.comparison-rank-bands{background:#fff;border:1px solid var(--line);padding:27px;margin-bottom:13px}
+.comparison-rank-bands__head .eyebrow{margin:0 0 7px;color:#4e7d9a}
+.comparison-rank-bands__head h3{font-size:25px;letter-spacing:-.045em;margin:0}
+.comparison-rank-bands__player{display:grid;grid-template-columns:minmax(135px,.35fr) 1fr;gap:20px;align-items:center;padding:18px 0;border-top:1px solid #e6dfd5}
+.comparison-rank-bands__player:first-of-type{margin-top:8px}
+.comparison-rank-bands__player>div:first-child{min-width:0}
+.comparison-rank-bands__player>div:first-child strong{display:block;font-size:14px;overflow-wrap:anywhere}
+.comparison-rank-bands__player>div:first-child span{display:block;margin-top:5px;font-size:11px;color:#526e7f;font-variant-numeric:tabular-nums}
+.comparison-rank-bands .rank-axis{margin-left:calc(35% + 76px);margin-top:23px}
+.comparison-rank-bands__player[data-player-side="B"] .interval-marker{background:#15171a}
+.comparison-rank-grid{margin-top:12px}
+
+.comparison-dimension-row{grid-template-rows:auto auto}
+.comparison-dimension-row__graphic{grid-column:1/-1;padding:12px 20px 16px!important;background:#faf8f3;border-top:1px solid #eee7dc}
+.comparison-dimension-graphic__axis{display:flex;justify-content:space-between;gap:12px;margin-left:162px;margin-bottom:5px;color:#68727a;font-size:9px;font-variant-numeric:tabular-nums}
+.comparison-dimension-graphic__axis span:nth-child(2){text-align:center}
+.comparison-dimension-graphic__axis span:last-child{text-align:right}
+.comparison-dimension-lane{display:grid;grid-template-columns:150px minmax(90px,1fr);gap:12px;align-items:center;min-height:25px}
+.comparison-dimension-lane+.comparison-dimension-lane{margin-top:4px}
+.comparison-dimension-lane__label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:9px;font-weight:800;color:#5c6267}
+.comparison-dimension-lane__track{height:8px;background:#d8c3a55c}
+.comparison-dimension-lane .dimension-scale__interval{opacity:.68}
+.comparison-dimension-lane .dimension-scale__point{top:-4px;height:16px}
+.comparison-dimension-lane[data-side="B"] .dimension-scale__point{background:#15171a}
+.comparison-dimension-lane__unavailable{font-size:10px;color:#68727a}
+
+.methodology-process{margin-top:28px;padding-top:24px;border-top:1px solid var(--line);max-width:900px}
+.methodology-process h3{font-size:18px;margin:0 0 17px;letter-spacing:-.025em}
+.methodology-process ol{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:20px;list-style:none;margin:0;padding:0;counter-reset:method-step}
+.methodology-process li{position:relative;counter-increment:method-step;min-height:76px;padding:12px 10px 10px;border-top:3px solid #c8793a;background:#fff;font-size:11px;line-height:1.35;font-weight:800}
+.methodology-process li:before{content:"0" counter(method-step);display:block;margin-bottom:8px;color:#4e7d9a;font-size:9px;letter-spacing:.09em}
+.methodology-process li:not(:last-child):after{content:"→";position:absolute;right:-16px;top:31px;color:#68727a;font-size:14px}
+.weight-list>div{display:grid;grid-template-columns:minmax(190px,260px) 1fr 48px}
+.weight-list__track{display:block;height:8px;background:#d8c3a55c;overflow:hidden}
+.weight-list__track>span{display:block;height:100%;background:#c8793a;transform-origin:left center}
+.weight-list strong{text-align:right}
+
+@media(max-width:900px){
+  .comparison-rank-bands__player{grid-template-columns:1fr;gap:10px}
+  .comparison-rank-bands .rank-axis{margin-left:86px}
+  .methodology-process ol{grid-template-columns:1fr 1fr;gap:12px}
+  .methodology-process li:not(:last-child):after{display:none}
+  .methodology-process li:last-child{grid-column:1/-1}
+}
+
+@media(max-width:760px){
+  .rank-interval-row{grid-template-columns:27px 38px minmax(58px,1fr) 38px;gap:4px}
+  .rank-axis{margin-left:69px;margin-right:42px}
+  .rank-interval-graphic__head{align-items:start;flex-direction:column;gap:6px}
+  .dimension-card{min-height:0}
+  .comparison-rank-bands{padding:20px}
+  .comparison-rank-bands__head{align-items:start;flex-direction:column}
+  .comparison-rank-bands .rank-axis{margin-left:69px}
+  .comparison-dimension-row__player--a{grid-column:1;grid-row:2}
+  .comparison-dimension-row__player--b{grid-column:2;grid-row:2;text-align:left!important;border-left:1px solid var(--line)}
+  .comparison-dimension-row__graphic{grid-column:1/-1!important;grid-row:3;padding:12px!important;border-left:0!important;text-align:left!important}
+  .comparison-dimension-row__graphic:before{display:none!important}
+  .comparison-dimension-graphic__axis{margin-left:0}
+  .comparison-dimension-lane{grid-template-columns:1fr;gap:4px}
+  .comparison-dimension-lane__label{white-space:normal}
+  .methodology-process ol{grid-template-columns:1fr}
+  .methodology-process li:last-child{grid-column:auto}
+  .weight-list>div{grid-template-columns:1fr 45px;gap:8px}
+  .weight-list__track{grid-column:1/-1;grid-row:2}
+  .weight-list strong{grid-column:2;grid-row:1}
+}
+
+@media(max-width:400px){
+  .comparison-rank-bands,.ranking-panel{padding-inline:17px}
+  .rank-interval-row{grid-template-columns:25px 34px minmax(48px,1fr) 34px}
+  .rank-axis{margin-left:63px;margin-right:38px}
+  .comparison-rank-bands .rank-axis{margin-left:63px}
+}

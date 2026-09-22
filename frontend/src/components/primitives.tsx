@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { DimensionProfile, RankingStatus } from "@/lib/types";
 import { dimensionDisplay, number, percent, rank, statusLabel } from "@/lib/display";
+import { DimensionScaleGraphic } from "./data-visualization";
 
 export function InfoTip({ label, children }: { label: string; children: ReactNode }) {
   return <details className="info-tip"><summary aria-label={`About ${label}`} title={`About ${label}`}>i</summary><div className="info-tip__content" role="note">{children}</div></details>;
@@ -32,7 +33,9 @@ export function DimensionCard({ value, description }: { value: DimensionProfile;
     <div className="dimension-card__top"><h3>{value.dimension.charAt(0) + value.dimension.slice(1).toLowerCase()}</h3><StatusBadge status={value.status} /></div>
     <p className="dimension-card__value">{dimensionDisplay(value)}{!unavailable && <span> / 100</span>}</p>
     {interval && <p className="dimension-card__note">90% range · no exact point claim</p>}
+    <DimensionScaleGraphic value={value} />
     <p className="dimension-card__description">{description}</p>
+    {value.confidence && <p className="dimension-card__foot">Evidence confidence: {value.confidence.replaceAll("_", " ").toLowerCase()}</p>}
     {value.dimension === "PEAK" && typeof value.evidence_metadata.best_supported_window === "string" && <p className="dimension-card__foot">Best-supported window: {value.evidence_metadata.best_supported_window.replaceAll("-", "–")}</p>}
   </article>;
 }

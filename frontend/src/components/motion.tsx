@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-const motionTargets = "[data-reveal], [data-probability-bar], [data-probability-split]";
+const motionTargets = "[data-reveal], [data-probability-bar], [data-probability-split], [data-interval-reveal]";
 
 export function MotionEnhancer() {
   useEffect(() => {
@@ -19,6 +19,11 @@ export function MotionEnhancer() {
           target.querySelector<HTMLElement>(".probability__fill")?.animate(
             [{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }],
             { duration: 700, easing: "cubic-bezier(.2,.7,.2,1)", fill: "both" },
+          );
+        } else if (target.hasAttribute("data-interval-reveal")) {
+          target.animate(
+            [{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }],
+            { duration: 620, easing: "cubic-bezier(.2,.7,.2,1)", fill: "both" },
           );
         } else if (target.hasAttribute("data-probability-split")) {
           target.animate(
