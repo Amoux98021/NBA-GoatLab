@@ -2,9 +2,11 @@ services:
   - type: web
     name: goatlab-ranking-api
     runtime: docker
+    plan: free
+    region: virginia
     dockerfilePath: ./Dockerfile.api
     healthCheckPath: /api/v1/health
-    autoDeploy: false
+    autoDeployTrigger: off
     envVars:
       - key: GOATLAB_ENVIRONMENT
         value: production
