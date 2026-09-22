@@ -81,6 +81,8 @@
 .uncertainty-note p{color:#405765}
 .info-tip summary{border-color:#9ba7ae;color:#59646b}
 .info-tip__content{border-color:#c9c1b4;box-shadow:0 12px 28px #15171a1c}
+.profile-hero__rank .info-tip__content,.ranking-grid>.ranking-panel:nth-child(2) .info-tip__content{left:auto;right:0}
+@media(min-width:1101px){.ranking-panel--overall .info-tip__content{left:auto;right:0}}
 .status-badge{background:#f0ede6;border-color:#d2c9bc;color:#505961}
 
 .leaderboard-table-wrap,.player-card,.ranking-panel,.dimension-card,.comparison-rank-card,.comparison-evidence-grid article,.status-explain>div{background:#fff}
@@ -260,6 +262,7 @@
 }
 
 @media(max-width:760px){
+  .info-tip__content,.profile-hero__rank .info-tip__content,.ranking-grid>.ranking-panel:nth-child(2) .info-tip__content,.ranking-panel--overall .info-tip__content{left:50%;right:auto;width:min(300px,calc(100vw - 32px));transform:translateX(-50%)}
   .rank-interval-row{grid-template-columns:27px 38px minmax(58px,1fr) 38px;gap:4px}
   .rank-axis{margin-left:69px;margin-right:42px}
   .rank-interval-graphic__head{align-items:start;flex-direction:column;gap:6px}
