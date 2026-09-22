@@ -52,3 +52,4 @@ retrieval with size/hash/release verification, retained HTTPS/Bearer compatibili
 Render secret contract without changing any basketball methodology or frozen ranking output.
 
 | [STEP-0020C](steps/STEP-0020C-live-runtime-resource-guardrails.md) | 2026-09-22 | Close the successful live deployment, record the direct-Neon runtime exception and dated free-tier resource snapshot, and freeze zero-cost API/runtime guardrails without changing the product release or methodology. | This step's commit (see Git log) |
+| [STEP-0021](steps/STEP-0021-visual-identity-motion-polish.md) | 2026-09-22 | Refine the existing probabilistic frontend with a basketball/research/editorial palette, enhancement-only motion, accurate player-population language, and reduced-motion accessibility without changing routes, data contracts, requests, or methodology. | This step's commit (see Git log) |

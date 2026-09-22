@@ -1,10 +1,11 @@
 import assert from "node:assert/strict";
 import { afterEach, test } from "node:test";
+import { readFileSync } from "node:fs";
 import { renderToStaticMarkup } from "react-dom/server";
 import { ApiError, getLeaderboard, getMethodology, getPlayer, validateTop100 } from "../src/lib/api";
 import { dimensionDisplay, membershipLabel, percent, statusLabel } from "../src/lib/display";
 import { LeaderboardTable } from "../src/components/leaderboard";
-import { DimensionCard, UncertaintyInfo } from "../src/components/primitives";
+import { DimensionCard, Probability, UncertaintyInfo } from "../src/components/primitives";
 import type { DimensionProfile, Top100Entry } from "../src/lib/types";
 
 const release = "goatlab-ranking-release-2026-v2-probabilistic";
@@ -96,4 +97,20 @@ test("methodology disclosure is API-owned and uncertainty copy is visible", asyn
   const html = renderToStaticMarkup(<UncertaintyInfo />);
   assert.match(html, /Wider uncertainty does not mean lower player quality/);
   assert.match(html, /nearby players may not be definitively ordered/);
+});
+
+test("probability motion preserves the exact provided value in server markup", () => {
+  const html = renderToStaticMarkup(<Probability label="Top 25" value={0.372} bar />);
+  assert.match(html, /37\.2%/);
+  assert.match(html, /width:37\.2%/);
+  assert.match(html, /data-probability-bar="true"/);
+  assert.match(html, /probability__fill/);
+});
+
+test("motion is local, reduced-motion aware, and introduces no request path", () => {
+  const css = readFileSync(new URL("../src/app/globals.css", import.meta.url), "utf8");
+  const enhancer = readFileSync(new URL("../src/components/motion.tsx", import.meta.url), "utf8");
+  assert.match(css, /@media\(prefers-reduced-motion:reduce\)/);
+  assert.match(enhancer, /IntersectionObserver/);
+  assert.doesNotMatch(enhancer, /fetch\s*\(/);
 });

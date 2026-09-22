@@ -34,3 +34,10 @@ comparison hero stacks A/probability/B on mobile. Its semantic dimension table p
 visible player labels in narrow layouts. Interval-native dimensions display ranges, never
 standalone centers. Interpretation lists factual point summaries only where both exist; it
 does not invent numerical dimension contributions or causal probability attribution.
+
+STEP-0021 retains this information architecture and introduces the graphite/paper/hardwood-amber/
+probability-blue visual system. Amber identifies basketball/action emphasis; blue identifies
+uncertainty, intervals, and probabilities. A single enhancement-only IntersectionObserver reveals
+already-rendered sections and exact probability bars once. It performs no fetches, creates no
+polling or keepalive traffic, and leaves all content visible when JavaScript is unavailable.
+`prefers-reduced-motion` removes substantive transitions and the ambient court-texture movement.

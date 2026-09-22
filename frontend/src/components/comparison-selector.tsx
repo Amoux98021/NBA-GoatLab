@@ -134,7 +134,7 @@ export function ComparisonSelector({ initialA = null, initialB = null }: { initi
     setMessage("");
   }
 
-  return <div className="compare-selector"><div className="compare-selector__inputs">
+  return <div className="compare-selector" data-reveal><div className="compare-selector__inputs">
     <PlayerSearch key={`a-${swapCount}`} label="Player A" value={playerA} otherId={playerB?.player_id ?? null} onChange={(value) => { setPlayerA(value); setMessage(""); }} />
     <button className="compare-selector__swap" type="button" onClick={swap} aria-label="Swap selected players">⇄ <span>Swap</span></button>
     <PlayerSearch key={`b-${swapCount}`} label="Player B" value={playerB} otherId={playerA?.player_id ?? null} onChange={(value) => { setPlayerB(value); setMessage(""); }} />

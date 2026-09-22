@@ -17,7 +17,7 @@ export function RankBand({ median, lower, upper, level = 80 }: { median: number;
 export function Probability({ label, value, bar = false }: { label: string; value: number; bar?: boolean }) {
   return <div className={bar ? "probability probability--bar" : "probability"} aria-label={`${label} probability ${percent(value)}`}>
     <span>{label}</span><strong>{percent(value)}</strong>
-    {bar && <div className="probability__track" aria-hidden="true"><span style={{ width: `${value * 100}%` }} /></div>}
+    {bar && <div className="probability__track" data-probability-bar aria-hidden="true"><span className="probability__fill" style={{ width: `${value * 100}%` }} /></div>}
   </div>;
 }
 
@@ -28,7 +28,7 @@ export function OverallRange({ lower, upper, center, status }: { lower: number; 
 export function DimensionCard({ value, description }: { value: DimensionProfile; description: string }) {
   const unavailable = value.point_value === null && value.lower_90 === null && value.upper_90 === null;
   const interval = value.status.includes("INTERVAL_ONLY");
-  return <article className="dimension-card">
+  return <article className="dimension-card" data-reveal>
     <div className="dimension-card__top"><h3>{value.dimension.charAt(0) + value.dimension.slice(1).toLowerCase()}</h3><StatusBadge status={value.status} /></div>
     <p className="dimension-card__value">{dimensionDisplay(value)}{!unavailable && <span> / 100</span>}</p>
     {interval && <p className="dimension-card__note">90% range · no exact point claim</p>}
@@ -38,7 +38,7 @@ export function DimensionCard({ value, description }: { value: DimensionProfile;
 }
 
 export function UncertaintyInfo({ compact = false }: { compact?: boolean }) {
-  return <aside className={compact ? "uncertainty-note uncertainty-note--compact" : "uncertainty-note"}>
+  return <aside className={compact ? "uncertainty-note uncertainty-note--compact" : "uncertainty-note"} data-reveal>
     <span className="uncertainty-note__icon" aria-hidden="true">◌</span>
     <div><strong>How to read this list</strong><p>GOATLab estimates both performance and how precisely historical evidence lets us measure it. A display position summarizes a rank distribution; nearby players may not be definitively ordered. Wider uncertainty does not mean lower player quality.</p></div>
   </aside>;

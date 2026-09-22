@@ -35,7 +35,7 @@ function PlayerCard({ row }: { row: Row }) {
 
 export function LeaderboardTable({ entries, compact = false }: { entries: Top100Entry[] | LeaderboardEntry[]; compact?: boolean }) {
   const rows = entries.map((entry) => "median_rank" in entry ? fromTop100(entry) : fromLeaderboard(entry));
-  return <>
+  return <div className="leaderboard-presentation" data-reveal>
     <div className="leaderboard-table-wrap" role="region" aria-label="Leaderboard table, scroll horizontally if needed" tabIndex={0}><table className="leaderboard-table"><thead><tr>
       <th scope="col">Display <InfoTip label="display position">Display position is a navigation summary, not a definitive ordering.</InfoTip></th>
       <th scope="col">Player</th>
@@ -52,5 +52,5 @@ export function LeaderboardTable({ entries, compact = false }: { entries: Top100
       <td>{number(row.overallLower)}–{number(row.overallUpper)}</td><td><StatusBadge status={row.status} /></td>
     </tr>)}</tbody></table></div>
     <div className="leaderboard-cards">{rows.map((row) => <PlayerCard row={row} key={row.playerId} />)}</div>
-  </>;
+  </div>;
 }
