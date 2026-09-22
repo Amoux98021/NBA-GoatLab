@@ -7,3 +7,30 @@ services:
     dockerfilePath: ./Dockerfile.api
     healthCheckPath: /api/v1/health
     autoDeployTrigger: off
+    envVars:
+      - key: GOATLAB_ENVIRONMENT
+        value: production
+      - key: GOATLAB_BACKEND_MODE
+        value: postgres
+      - key: GOATLAB_RELEASE_ID
+        value: goatlab-ranking-release-2026-v2-probabilistic
+      - key: GOATLAB_RELEASE_FINGERPRINT
+        value: 2b2b5d91cf519ed091aa8179a800cbe4f018c85510cacc684e0f9ed5fdab4093
+      - key: GOATLAB_PRODUCT_ARTIFACT_ROOT
+        value: /tmp/goatlab-product
+      - key: GOATLAB_DATABASE_CONNECT_TIMEOUT_SECONDS
+        value: "5"
+      - key: GOATLAB_DATABASE_STATEMENT_TIMEOUT_MS
+        value: "10000"
+      - key: GOATLAB_FORWARDED_ALLOW_IPS
+        value: "127.0.0.1"
+      - key: DATABASE_URL
+        sync: false
+      - key: GOATLAB_ALLOWED_CORS_ORIGINS
+        sync: false
+      - key: GOATLAB_RELEASE_BUNDLE_URL
+        sync: false
+      - key: GOATLAB_RELEASE_BUNDLE_SHA256
+        sync: false
+      - key: GOATLAB_RELEASE_BUNDLE_BEARER_TOKEN
+        sync: false
