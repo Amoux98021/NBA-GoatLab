@@ -12,7 +12,9 @@
 5. Create a PostgreSQL database/branch. Apply migrations and load using a privileged one-shot role.
    Repeat the load and require `ALREADY_LOADED`.
 6. Grant a separate API role only `CONNECT`, schema `USAGE`, and table `SELECT`; use the provider's
-   pooled TLS endpoint. Revoke public schema creation where provider policy permits.
+   direct/unpooled TLS endpoint. GOATLab's PostgreSQL startup options are not compatible with the
+   Neon pooled endpoint. Revoke public schema creation where provider policy permits, and do not
+   change endpoint mode without an explicit compatibility validation.
 7. Deploy the API with `autoDeploy` disabled. Require `/api/v1/health` HTTP 200, correct release ID,
    database accessible, release present, and draw state verified.
 8. Deploy a Vercel Preview from `frontend/`, pointing only to the deployed API. Keep

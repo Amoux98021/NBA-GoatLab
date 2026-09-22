@@ -29,4 +29,20 @@ Required working rules:
 - Use one logical Git commit per completed step with the step identifier in the subject.
 - Never commit secrets.
 
+## Runtime & Cost Guardrails
+
+- The operating target is `$0/month`. Never upgrade Vercel, Render, Neon, or Cloudflare; enable a
+  billable feature or paid service; or add external keepalive traffic without explicit human
+  approval.
+- Before implementing work that may exceed a provider free-tier limit, stop and explain the
+  expected request, compute, storage, bandwidth, or build impact.
+- Preserve bulk API use and existing caching/revalidation. Do not add polling, automatic refresh,
+  per-row or per-animation requests, scroll-triggered fetching, repeated release downloads, or
+  unnecessary remote image/API dependencies.
+- Production uses the documented direct/unpooled Neon runtime endpoint with the SELECT-only
+  `goatlab_api` role. Do not silently change the connection mode.
+- Provider quotas are a dated operational snapshot, not permanent facts. Reverify the official
+  provider documentation before infrastructure changes. See
+  `docs/product/RUNTIME_RESOURCE_LIMITS.md` for the current snapshot and API guardrails.
+
 If a required source field is unavailable or ambiguous, represent and document the limitation rather than inventing a value or speculative mapping.

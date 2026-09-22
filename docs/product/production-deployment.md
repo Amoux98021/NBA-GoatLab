@@ -6,7 +6,7 @@
 |---|---|---|
 | Web | Vercel, `frontend/` root | Next.js 16; server-rendered API consumption; explicit backend URL and release ID |
 | API | OCI container; Render reference blueprint | FastAPI, read-only routes, `/api/v1/health`, one immutable configured release |
-| Database | Neon-compatible PostgreSQL | pooled TLS runtime URL; migration/loader URL is privileged and temporary |
+| Database | Neon PostgreSQL | direct/unpooled TLS runtime URL with SELECT-only role; migration/loader URL is privileged and temporary |
 | Release files | private Cloudflare R2/S3-compatible storage | deterministic tar.gz, pinned transport SHA-256, manifest/release re-verification |
 | Paired draws | API local ephemeral disk | verified NPZ loaded lazily once per process; never stored in relational rows |
 
@@ -24,7 +24,7 @@ the uploaded object has these same bytes or record a newly generated determinist
 |---|---|
 | `GOATLAB_ENVIRONMENT` | `production` |
 | `GOATLAB_BACKEND_MODE` | `postgres` |
-| `DATABASE_URL` | SELECT-only pooled PostgreSQL URL for runtime; includes `sslmode=require` or stronger |
+| `DATABASE_URL` | SELECT-only direct/unpooled PostgreSQL URL for runtime; includes `sslmode=require` or stronger |
 | `GOATLAB_RELEASE_ID` | frozen release ID above |
 | `GOATLAB_RELEASE_FINGERPRINT` | frozen release fingerprint above |
 | `GOATLAB_PRODUCT_ARTIFACT_ROOT` | writable ephemeral directory, e.g. `/tmp/goatlab-product` |
@@ -49,6 +49,11 @@ migrations and the idempotent release loader. It is deliberately not a `render.y
 command, because provider pre-deploy variables would also expose that credential to the web service.
 The web service must use a separate role granted `CONNECT`, schema `USAGE`, and `SELECT` only. Do
 not give the API migration/insert privileges.
+
+The live runtime deliberately uses the direct/unpooled Neon endpoint because GOATLab's PostgreSQL
+startup options are not compatible with the pooled endpoint. ADR-0044 supersedes ADR-0043 only for
+this runtime-connection decision. Do not silently switch endpoint modes; validate any future change
+against the API startup and read-query contracts first.
 
 ## Frontend variables
 

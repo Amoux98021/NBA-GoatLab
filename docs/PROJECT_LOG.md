@@ -50,3 +50,5 @@ section in the STEP-0020 record.
 STEP-0020 R2 continuation (2026-09-22): added credential-safe private Cloudflare R2/S3 bundle
 retrieval with size/hash/release verification, retained HTTPS/Bearer compatibility, and updated the
 Render secret contract without changing any basketball methodology or frozen ranking output.
+
+| [STEP-0020C](steps/STEP-0020C-live-runtime-resource-guardrails.md) | 2026-09-22 | Close the successful live deployment, record the direct-Neon runtime exception and dated free-tier resource snapshot, and freeze zero-cost API/runtime guardrails without changing the product release or methodology. | This step's commit (see Git log) |
