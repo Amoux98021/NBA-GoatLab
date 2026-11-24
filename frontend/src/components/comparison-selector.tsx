@@ -82,7 +82,7 @@ function PlayerSearch({
 
   return <div className="compare-search" onBlur={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false); }}>
     <label htmlFor={`${listId}-input`}>{label}</label>
-    <input
+    <div className="compare-search__field"><input
       id={`${listId}-input`}
       type="search"
       role="combobox"
@@ -97,7 +97,6 @@ function PlayerSearch({
       onKeyDown={onKeyDown}
       onFocus={() => { if (results.length > 0) setOpen(true); }}
     />
-    <div className="compare-search__hint" aria-live="polite">{error || (loading ? "Searching canonical player records…" : value ? `${statusLabel(value.ranking_status)} evidence${value.active ? " · active career" : ""}` : "Search by name; select a canonical player record.")}</div>
     {open && results.length > 0 && <ul id={`${listId}-results`} className="compare-search__results" role="listbox" aria-label={`${label} search results`}>
       {results.map((player, index) => <li key={player.player_id} role="presentation"><button
         id={`${listId}-option-${index}`}
@@ -110,6 +109,8 @@ function PlayerSearch({
       ><span>{player.player_name}<small>{player.active === true ? "Active" : player.active === false ? "Retired" : "Career status unknown"} · {statusLabel(player.ranking_status)}</small></span><span>{player.display_position === null ? "Unranked" : `#${player.display_position}`}</span></button></li>)}
     </ul>}
     {open && results.length === 0 && !loading && query.trim().length >= 2 && <p className="compare-search__empty">No rankable player matched that name.</p>}
+    </div>
+    <div className="compare-search__hint" aria-live="polite">{error || (loading ? "Searching canonical player records…" : value ? `${statusLabel(value.ranking_status)} evidence${value.active ? " · active career" : ""}` : "Search by name; select a canonical player record.")}</div>
   </div>;
 }
 

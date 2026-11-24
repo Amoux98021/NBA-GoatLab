@@ -1,11 +1,8 @@
-import type { ReactNode } from "react";
 import type { DimensionProfile, RankingStatus } from "@/lib/types";
 import { dimensionDisplay, number, percent, rank, statusLabel } from "@/lib/display";
 import { DimensionScaleGraphic } from "./data-visualization";
 
-export function InfoTip({ label, children }: { label: string; children: ReactNode }) {
-  return <details className="info-tip"><summary aria-label={`About ${label}`} title={`About ${label}`}>i</summary><div className="info-tip__content" role="note">{children}</div></details>;
-}
+export { InfoTip } from "./info-tip";
 
 export function StatusBadge({ status }: { status: RankingStatus | string }) {
   return <span className="status-badge">{statusLabel(status)}</span>;
